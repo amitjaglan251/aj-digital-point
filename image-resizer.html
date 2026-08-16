@@ -1,0 +1,2856 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Image Resizer & Passport Photo | AJ DIGITAL POINT</title>
+
+    <meta name="description"
+        content="AJ DIGITAL POINT Image Resizer - Passport Size Photo, Image Resize, Crop, Compress और Download Tool.">
+
+    <meta name="keywords"
+        content="Image Resizer, Passport Size Photo, Photo Resize, Image Compress, Image Crop, AJ Digital Point">
+
+    <meta name="robots"
+        content="index, follow">
+
+    <meta name="author"
+        content="AJ DIGITAL POINT">
+
+    <meta name="theme-color"
+        content="#0d6efd">
+
+    <link rel="stylesheet"
+        href="style.css">
+
+
+    <style>
+
+        /* =====================================================
+           IMAGE RESIZER PAGE
+        ===================================================== */
+
+        .image-page-header {
+            text-align: center;
+            margin: 25px auto;
+            max-width: 900px;
+        }
+
+        .image-page-header h2 {
+            margin-bottom: 10px;
+        }
+
+        .image-page-header p {
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           SECTION MENU
+        ===================================================== */
+
+        .image-service-menu {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(210px, 1fr));
+
+            gap: 15px;
+
+            margin: 25px 0;
+        }
+
+
+        .image-menu-card {
+            display: flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            padding: 17px;
+
+            background: #ffffff;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 12px;
+
+            text-decoration: none;
+
+            color: #222;
+
+            box-shadow:
+                0 3px 10px rgba(0, 0, 0, 0.06);
+
+            transition: 0.2s ease;
+
+            cursor: pointer;
+        }
+
+
+        .image-menu-card:hover {
+            transform: translateY(-3px);
+
+            border-color: #0d6efd;
+
+            box-shadow:
+                0 7px 18px rgba(0, 0, 0, 0.10);
+        }
+
+
+        .image-menu-icon {
+            width: 45px;
+            height: 45px;
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            background: #f1f5f9;
+
+            border-radius: 10px;
+
+            font-size: 24px;
+
+            flex-shrink: 0;
+        }
+
+
+        .image-menu-text strong {
+            display: block;
+
+            font-size: 16px;
+
+            margin-bottom: 4px;
+        }
+
+
+        .image-menu-text small {
+            display: block;
+
+            color: #666;
+
+            line-height: 1.4;
+        }
+
+
+        /* =====================================================
+           DETAIL SECTIONS
+        ===================================================== */
+
+        .image-detail-section {
+            display: none;
+
+            background: #ffffff;
+
+            margin: 25px 0;
+
+            padding: 25px;
+
+            border-radius: 14px;
+
+            border: 1px solid #e5e7eb;
+
+            box-shadow:
+                0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+
+        .image-detail-section.active {
+            display: block;
+
+            animation:
+                imageFadeIn 0.25s ease;
+        }
+
+
+        @keyframes imageFadeIn {
+
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+
+        .image-detail-title {
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+            border-bottom:
+                1px solid #e5e7eb;
+
+            padding-bottom: 15px;
+
+            margin-bottom: 20px;
+        }
+
+
+        .image-detail-title h2 {
+            margin: 0;
+        }
+
+
+        .back-image-menu {
+            display: inline-block;
+
+            margin-bottom: 20px;
+
+            padding: 10px 16px;
+
+            background: #0d6efd;
+
+            color: #ffffff;
+
+            text-decoration: none;
+
+            border-radius: 8px;
+
+            font-weight: 600;
+
+            cursor: pointer;
+        }
+
+
+        /* =====================================================
+           TOOL BOX
+        ===================================================== */
+
+        .image-tool-box {
+            max-width: 900px;
+
+            margin: 20px auto;
+
+            padding: 22px;
+
+            background: #f8fafc;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 14px;
+        }
+
+
+        .upload-box {
+            border: 2px dashed #94a3b8;
+
+            border-radius: 12px;
+
+            padding: 30px 20px;
+
+            text-align: center;
+
+            background: #ffffff;
+
+            cursor: pointer;
+
+            transition: 0.2s ease;
+        }
+
+
+        .upload-box:hover {
+            border-color: #0d6efd;
+
+            background: #f8fbff;
+        }
+
+
+        .upload-box input {
+            display: none;
+        }
+
+
+        .upload-icon {
+            font-size: 45px;
+
+            margin-bottom: 10px;
+        }
+
+
+        .upload-box strong {
+            display: block;
+
+            font-size: 18px;
+
+            margin-bottom: 6px;
+        }
+
+
+        .upload-box small {
+            color: #666;
+        }
+
+
+        /* =====================================================
+           CONTROLS
+        ===================================================== */
+
+        .resize-controls {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(180px, 1fr));
+
+            gap: 15px;
+
+            margin-top: 20px;
+        }
+
+
+        .control-group {
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 7px;
+        }
+
+
+        .control-group label {
+            font-weight: 600;
+        }
+
+
+        .control-group input,
+        .control-group select {
+            width: 100%;
+
+            padding: 11px;
+
+            border: 1px solid #cbd5e1;
+
+            border-radius: 8px;
+
+            font-size: 15px;
+
+            box-sizing: border-box;
+        }
+
+
+        .checkbox-group {
+            display: flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            margin-top: 18px;
+        }
+
+
+        .checkbox-group input {
+            width: auto;
+        }
+
+
+        /* =====================================================
+           BUTTONS
+        ===================================================== */
+
+        .image-buttons {
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 20px;
+        }
+
+
+        .image-button {
+            border: none;
+
+            padding: 12px 20px;
+
+            border-radius: 8px;
+
+            font-weight: 600;
+
+            cursor: pointer;
+
+            font-size: 15px;
+        }
+
+
+        .primary-button {
+            background: #0d6efd;
+
+            color: #ffffff;
+        }
+
+
+        .success-button {
+            background: #16a34a;
+
+            color: #ffffff;
+        }
+
+
+        .secondary-button {
+            background: #64748b;
+
+            color: #ffffff;
+        }
+
+
+        .danger-button {
+            background: #dc2626;
+
+            color: #ffffff;
+        }
+
+
+        .image-button:hover {
+            opacity: 0.9;
+        }
+
+
+        /* =====================================================
+           PREVIEW
+        ===================================================== */
+
+        .preview-area {
+            display: none;
+
+            margin-top: 25px;
+
+            padding: 20px;
+
+            background: #ffffff;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 12px;
+
+            text-align: center;
+        }
+
+
+        .preview-area.active {
+            display: block;
+        }
+
+
+        .preview-area img {
+            max-width: 100%;
+
+            max-height: 500px;
+
+            border-radius: 8px;
+
+            border: 1px solid #cbd5e1;
+
+            background:
+                repeating-conic-gradient(#eee 0% 25%, #fff 0% 50%)
+                50% / 20px 20px;
+        }
+
+
+        .preview-info {
+            margin-top: 12px;
+
+            color: #475569;
+
+            line-height: 1.6;
+        }
+
+
+        /* =====================================================
+           NOTICE
+        ===================================================== */
+
+        .image-notice {
+            margin: 20px 0;
+
+            padding: 15px;
+
+            background: #fff8e1;
+
+            border-left:
+                4px solid #f59e0b;
+
+            border-radius: 7px;
+
+            line-height: 1.7;
+        }
+
+
+        .image-success {
+            margin: 20px 0;
+
+            padding: 15px;
+
+            background: #ecfdf5;
+
+            border-left:
+                4px solid #16a34a;
+
+            border-radius: 7px;
+
+            line-height: 1.7;
+        }
+
+
+        .image-info-list {
+            padding-left: 22px;
+
+            line-height: 1.8;
+        }
+
+
+        .image-info-list li {
+            margin-bottom: 7px;
+        }
+
+
+        /* =====================================================
+           LINKS
+        ===================================================== */
+
+        .useful-links {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(230px, 1fr));
+
+            gap: 15px;
+
+            margin-top: 20px;
+        }
+
+
+        .useful-link {
+            display: block;
+
+            padding: 17px;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 10px;
+
+            text-decoration: none;
+
+            color: #222;
+
+            background: #fafafa;
+        }
+
+
+        .useful-link:hover {
+            border-color: #0d6efd;
+
+            background: #f8fbff;
+        }
+
+
+        .useful-link strong {
+            display: block;
+
+            margin-bottom: 5px;
+        }
+
+
+        .useful-link small {
+            color: #666;
+
+            line-height: 1.5;
+        }
+
+
+        /* =====================================================
+           CONTACT
+        ===================================================== */
+
+        .image-contact-box {
+            margin-top: 25px;
+
+            padding: 22px;
+
+            background: #f8fafc;
+
+            border-radius: 12px;
+
+            text-align: center;
+        }
+
+
+        .image-contact-buttons {
+            display: flex;
+
+            justify-content: center;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 15px;
+        }
+
+
+        .image-contact-button {
+            display: inline-block;
+
+            padding: 11px 18px;
+
+            border-radius: 8px;
+
+            text-decoration: none;
+
+            font-weight: 600;
+        }
+
+
+        .image-call {
+            background: #0d6efd;
+
+            color: white;
+        }
+
+
+        .image-whatsapp {
+            background: #16a34a;
+
+            color: white;
+        }
+
+
+        /* =====================================================
+           MOBILE
+        ===================================================== */
+
+        @media (max-width: 600px) {
+
+            .image-service-menu {
+                grid-template-columns: 1fr;
+            }
+
+
+            .image-detail-section {
+                padding: 18px;
+            }
+
+
+            .image-detail-title h2 {
+                font-size: 21px;
+            }
+
+
+            .image-tool-box {
+                padding: 15px;
+            }
+
+
+            .useful-links {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <div class="brand">
+
+            <a href="index.html">
+
+                <img src="logo.png"
+                     alt="AJ DIGITAL POINT Logo"
+                     class="site-logo">
+
+            </a>
+
+
+            <div class="brand-info">
+
+                <h1>
+                    AJ DIGITAL POINT
+                </h1>
+
+                <p>
+                    CSC & Online Digital Services
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <button
+            class="mobile-menu-btn"
+            id="menuButton"
+            onclick="toggleMenu()"
+            aria-label="Open Menu"
+            aria-expanded="false">
+
+            ☰
+
+        </button>
+
+    </div>
+
+
+    <nav id="main-nav"
+         class="main-nav">
+
+        <a href="index.html">
+            🏠 Home
+        </a>
+
+        <a href="pan-services.html">
+            🪪 PAN Card
+        </a>
+
+        <a href="aadhaar-update.html">
+            🆔 Aadhaar
+        </a>
+
+        <a href="image-resizer.html"
+           class="active">
+            🖼️ Image Resizer
+        </a>
+
+        <a href="status-check.html">
+            🔎 Check Status
+        </a>
+
+        <a href="admin.html">
+            🔐 Admin Login
+        </a>
+
+    </nav>
+
+</header>
+
+
+<div class="top-info-bar">
+
+    <strong>
+        AJ DIGITAL POINT
+    </strong>
+
+    — Image Resizer & Photo Services
+
+</div>
+
+
+<main class="container">
+
+
+<!-- =====================================================
+     PAGE HEADER
+===================================================== -->
+
+<section class="image-page-header">
+
+    <h2>
+        🖼️ Image Resizer & Photo Services
+    </h2>
+
+    <p>
+        Photo resize, passport size photo, image crop,
+        dimensions और download की सुविधा।
+    </p>
+
+</section>
+
+
+<!-- =====================================================
+     SERVICE MENU
+===================================================== -->
+
+<section id="image-menu">
+
+    <div class="image-service-menu">
+
+
+        <a href="#passport"
+           class="image-menu-card"
+           onclick="showImageSection('passport')">
+
+            <span class="image-menu-icon">
+                🪪
+            </span>
+
+            <span class="image-menu-text">
+
+                <strong>
+                    Passport Size Photo
+                </strong>
+
+                <small>
+                    35 × 45 mm photo
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#resize"
+           class="image-menu-card"
+           onclick="showImageSection('resize')">
+
+            <span class="image-menu-icon">
+                📐
+            </span>
+
+            <span class="image-menu-text">
+
+                <strong>
+                    Image Resize
+                </strong>
+
+                <small>
+                    Width और Height बदलें
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#crop"
+           class="image-menu-card"
+           onclick="showImageSection('crop')">
+
+            <span class="image-menu-icon">
+                ✂️
+            </span>
+
+            <span class="image-menu-text">
+
+                <strong>
+                    Image Crop
+                </strong>
+
+                <small>
+                    Photo crop करें
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#compress"
+           class="image-menu-card"
+           onclick="showImageSection('compress')">
+
+            <span class="image-menu-icon">
+                📦
+            </span>
+
+            <span class="image-menu-text">
+
+                <strong>
+                    Image Compress
+                </strong>
+
+                <small>
+                    File size कम करें
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#conversion"
+           class="image-menu-card"
+           onclick="showImageSection('conversion')">
+
+            <span class="image-menu-icon">
+                🔄
+            </span>
+
+            <span class="image-menu-text">
+
+                <strong>
+                    JPG / PNG
+                </strong>
+
+                <small>
+                    Image format information
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#guidelines"
+           class="image-menu-card"
+           onclick="showImageSection('guidelines')">
+
+            <span class="image-menu-icon">
+                📋
+            </span>
+
+            <span class="image-menu-text">
+
+                <strong>
+                    Photo Guidelines
+                </strong>
+
+                <small>
+                    Form photo requirements
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#links"
+           class="image-menu-card"
+           onclick="showImageSection('links')">
+
+            <span class="image-menu-icon">
+                🔗
+            </span>
+
+            <span class="image-menu-text">
+
+                <strong>
+                    Useful Links
+                </strong>
+
+                <small>
+                    Important websites
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#contact"
+           class="image-menu-card"
+           onclick="showImageSection('contact')">
+
+            <span class="image-menu-icon">
+                📞
+            </span>
+
+            <span class="image-menu-text">
+
+                <strong>
+                    Contact
+                </strong>
+
+                <small>
+                    AJ DIGITAL POINT
+                </small>
+
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PASSPORT PHOTO
+===================================================== -->
+
+<section id="passport"
+         class="image-detail-section">
+
+
+    <a href="#image-menu"
+       class="back-image-menu"
+       onclick="showImageMenu()">
+
+        ← Back to Image Services
+
+    </a>
+
+
+    <div class="image-detail-title">
+
+        <span>🪪</span>
+
+        <h2>
+            Passport Size Photo
+        </h2>
+
+    </div>
+
+
+    <p>
+        Passport-size photo बनाने के लिए अपनी photo upload करें।
+        नीचे दिए गए preset से सामान्य 35 × 45 mm format चुन सकते हैं।
+    </p>
+
+
+    <div class="image-tool-box">
+
+
+        <label class="upload-box">
+
+            <input type="file"
+                   id="passportInput"
+                   accept="image/*">
+
+            <div class="upload-icon">
+                📤
+            </div>
+
+            <strong>
+                Photo Upload करें
+            </strong>
+
+            <small>
+                JPG, JPEG, PNG या WebP image चुनें
+            </small>
+
+        </label>
+
+
+        <div class="resize-controls">
+
+
+            <div class="control-group">
+
+                <label for="passportPreset">
+                    📏 Photo Preset
+                </label>
+
+                <select id="passportPreset">
+
+                    <option value="35x45">
+                        Passport Photo — 35 × 45 mm
+                    </option>
+
+                    <option value="25x35">
+                        Small Photo — 25 × 35 mm
+                    </option>
+
+                    <option value="custom">
+                        Custom Size
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="control-group">
+
+                <label for="passportWidth">
+                    Width (px)
+                </label>
+
+                <input
+                    type="number"
+                    id="passportWidth"
+                    value="413"
+                    min="1">
+
+            </div>
+
+
+            <div class="control-group">
+
+                <label for="passportHeight">
+                    Height (px)
+                </label>
+
+                <input
+                    type="number"
+                    id="passportHeight"
+                    value="531"
+                    min="1">
+
+            </div>
+
+
+            <div class="control-group">
+
+                <label for="passportFormat">
+                    📦 Output Format
+                </label>
+
+                <select id="passportFormat">
+
+                    <option value="image/jpeg">
+                        JPG
+                    </option>
+
+                    <option value="image/png">
+                        PNG
+                    </option>
+
+                    <option value="image/webp">
+                        WebP
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <div class="checkbox-group">
+
+            <input
+                type="checkbox"
+                id="passportLock"
+                checked>
+
+            <label for="passportLock">
+                🔒 Aspect Ratio Lock
+            </label>
+
+        </div>
+
+
+        <div class="image-buttons">
+
+            <button
+                class="image-button primary-button"
+                onclick="resizePassportPhoto()">
+
+                🪪 Create Passport Photo
+
+            </button>
+
+
+            <button
+                class="image-button secondary-button"
+                onclick="resetPassportTool()">
+
+                🔄 Reset
+
+            </button>
+
+        </div>
+
+
+        <div id="passportPreview"
+             class="preview-area">
+
+            <h3>
+                🖼️ Preview
+            </h3>
+
+            <img id="passportPreviewImage"
+                 alt="Passport Photo Preview">
+
+            <div id="passportInfo"
+                 class="preview-info">
+            </div>
+
+
+            <div class="image-buttons"
+                 style="justify-content:center;">
+
+                <button
+                    class="image-button success-button"
+                    onclick="downloadPassportPhoto()">
+
+                    📥 Download Photo
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="image-notice">
+
+        ⚠️ 35 × 45 mm एक सामान्य passport-photo format है।
+        किसी specific government form/portal में exact pixel size,
+        KB limit, background या photo specification अलग हो सकती है।
+        Upload करने से पहले संबंधित official instructions जरूर देखें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GENERAL RESIZE
+===================================================== -->
+
+<section id="resize"
+         class="image-detail-section">
+
+    <a href="#image-menu"
+       class="back-image-menu"
+       onclick="showImageMenu()">
+
+        ← Back to Image Services
+
+    </a>
+
+
+    <div class="image-detail-title">
+
+        <span>📐</span>
+
+        <h2>
+            Image Resize
+        </h2>
+
+    </div>
+
+
+    <div class="image-tool-box">
+
+        <label class="upload-box">
+
+            <input type="file"
+                   id="resizeInput"
+                   accept="image/*">
+
+            <div class="upload-icon">
+                🖼️
+            </div>
+
+            <strong>
+                Image Upload करें
+            </strong>
+
+            <small>
+                JPG, PNG या WebP
+            </small>
+
+        </label>
+
+
+        <div class="resize-controls">
+
+            <div class="control-group">
+
+                <label>
+                    Width (px)
+                </label>
+
+                <input
+                    type="number"
+                    id="resizeWidth"
+                    value="800"
+                    min="1">
+
+            </div>
+
+
+            <div class="control-group">
+
+                <label>
+                    Height (px)
+                </label>
+
+                <input
+                    type="number"
+                    id="resizeHeight"
+                    value="800"
+                    min="1">
+
+            </div>
+
+
+            <div class="control-group">
+
+                <label>
+                    Format
+                </label>
+
+                <select id="resizeFormat">
+
+                    <option value="image/jpeg">
+                        JPG
+                    </option>
+
+                    <option value="image/png">
+                        PNG
+                    </option>
+
+                    <option value="image/webp">
+                        WebP
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <div class="checkbox-group">
+
+            <input
+                type="checkbox"
+                id="resizeLock"
+                checked>
+
+            <label>
+                🔒 Aspect Ratio Lock
+            </label>
+
+        </div>
+
+
+        <div class="image-buttons">
+
+            <button
+                class="image-button primary-button"
+                onclick="resizeGeneralImage()">
+
+                📐 Resize Image
+
+            </button>
+
+        </div>
+
+
+        <div id="generalPreview"
+             class="preview-area">
+
+            <h3>
+                🖼️ Preview
+            </h3>
+
+            <img id="generalPreviewImage"
+                 alt="Resized Image Preview">
+
+            <div id="generalInfo"
+                 class="preview-info">
+            </div>
+
+
+            <div class="image-buttons"
+                 style="justify-content:center;">
+
+                <button
+                    class="image-button success-button"
+                    onclick="downloadGeneralImage()">
+
+                    📥 Download
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CROP
+===================================================== -->
+
+<section id="crop"
+         class="image-detail-section">
+
+    <a href="#image-menu"
+       class="back-image-menu"
+       onclick="showImageMenu()">
+
+        ← Back to Image Services
+
+    </a>
+
+
+    <div class="image-detail-title">
+
+        <span>✂️</span>
+
+        <h2>
+            Image Crop
+        </h2>
+
+    </div>
+
+
+    <p>
+        Image crop करने के लिए photo editor या resize tool में
+        desired dimensions सेट करके crop किया जा सकता है।
+    </p>
+
+
+    <ul class="image-info-list">
+
+        <li>
+            ✂️ Extra background हटाने के लिए crop करें।
+        </li>
+
+        <li>
+            🪪 Passport photo के लिए face और shoulders को
+            सही position में रखें।
+        </li>
+
+        <li>
+            📐 Crop के बाद required dimensions सेट करें।
+        </li>
+
+        <li>
+            📱 Mobile और desktop दोनों पर image editing की जा सकती है।
+        </li>
+
+    </ul>
+
+
+    <div class="image-success">
+
+        ✅ ऊपर दिए गए <strong>Passport Size Photo</strong> या
+        <strong>Image Resize</strong> tool का उपयोग करके
+        photo को required dimensions में तैयार करें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     COMPRESS
+===================================================== -->
+
+<section id="compress"
+         class="image-detail-section">
+
+    <a href="#image-menu"
+       class="back-image-menu"
+       onclick="showImageMenu()">
+
+        ← Back to Image Services
+
+    </a>
+
+
+    <div class="image-detail-title">
+
+        <span>📦</span>
+
+        <h2>
+            Image Compress
+        </h2>
+
+    </div>
+
+
+    <p>
+        कई online forms में photo या document की maximum file-size
+        limit होती है। ऐसी स्थिति में image को compress करना पड़ सकता है।
+    </p>
+
+
+    <ul class="image-info-list">
+
+        <li>
+            📦 पहले required maximum file size देखें।
+        </li>
+
+        <li>
+            🖼️ Image dimensions जरूरत के अनुसार कम करें।
+        </li>
+
+        <li>
+            📉 JPG quality कम करने से file size कम हो सकता है।
+        </li>
+
+        <li>
+            ⚠️ बहुत ज्यादा compression से photo quality खराब हो सकती है।
+        </li>
+
+    </ul>
+
+
+    <div class="image-notice">
+
+        ⚠️ किसी form में यदि exact KB/MB limit दी गई है,
+        तो उसी application की official instructions को प्राथमिकता दें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     JPG PNG
+===================================================== -->
+
+<section id="conversion"
+         class="image-detail-section">
+
+    <a href="#image-menu"
+       class="back-image-menu"
+       onclick="showImageMenu()">
+
+        ← Back to Image Services
+
+    </a>
+
+
+    <div class="image-detail-title">
+
+        <span>🔄</span>
+
+        <h2>
+            JPG / PNG Image Information
+        </h2>
+
+    </div>
+
+
+    <ul class="image-info-list">
+
+        <li>
+            🖼️ <strong>JPG/JPEG</strong> — सामान्य photographs के लिए
+            commonly used format है।
+        </li>
+
+        <li>
+            🖼️ <strong>PNG</strong> — transparency और graphics के लिए
+            उपयोगी format है।
+        </li>
+
+        <li>
+            📦 File format वही रखें जो संबंधित application स्वीकार करता हो।
+        </li>
+
+        <li>
+            ⚠️ केवल extension बदलने से actual image format जरूरी नहीं बदलता।
+        </li>
+
+    </ul>
+
+
+    <div class="image-success">
+
+        ✅ Upload करने से पहले संबंधित website की accepted
+        file formats जरूर check करें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GUIDELINES
+===================================================== -->
+
+<section id="guidelines"
+         class="image-detail-section">
+
+    <a href="#image-menu"
+       class="back-image-menu"
+       onclick="showImageMenu()">
+
+        ← Back to Image Services
+
+    </a>
+
+
+    <div class="image-detail-title">
+
+        <span>📋</span>
+
+        <h2>
+            Photo Guidelines
+        </h2>
+
+    </div>
+
+
+    <ul class="image-info-list">
+
+        <li>
+            📸 Recent और clear photograph रखें।
+        </li>
+
+        <li>
+            💡 अच्छी lighting में photo लें।
+        </li>
+
+        <li>
+            👤 Face साफ और clearly visible होना चाहिए।
+        </li>
+
+        <li>
+            🧾 Background की requirement संबंधित application के
+            अनुसार रखें।
+        </li>
+
+        <li>
+            📐 Required width और height check करें।
+        </li>
+
+        <li>
+            📦 Required KB/MB file size check करें।
+        </li>
+
+        <li>
+            🖼️ Accepted file format check करें।
+        </li>
+
+    </ul>
+
+
+    <div class="image-notice">
+
+        ⚠️ Passport photo की exact requirements सभी applications
+        के लिए समान नहीं होतीं। Government portal/form की
+        current instructions को हमेशा प्राथमिकता दें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     USEFUL LINKS
+===================================================== -->
+
+<section id="links"
+         class="image-detail-section">
+
+    <a href="#image-menu"
+       class="back-image-menu"
+       onclick="showImageMenu()">
+
+        ← Back to Image Services
+
+    </a>
+
+
+    <div class="image-detail-title">
+
+        <span>🔗</span>
+
+        <h2>
+            Useful / Official Links
+        </h2>
+
+    </div>
+
+
+    <div class="useful-links">
+
+
+        <a class="useful-link"
+           href="https://www.passportindia.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🛂 Passport Seva
+            </strong>
+
+            <small>
+                Passport related official Government portal
+            </small>
+
+        </a>
+
+
+        <a class="useful-link"
+           href="https://uidai.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🪪 UIDAI
+            </strong>
+
+            <small>
+                Official Aadhaar website
+            </small>
+
+        </a>
+
+
+        <a class="useful-link"
+           href="https://www.incometax.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🏛️ Income Tax Department
+            </strong>
+
+            <small>
+                Official Income Tax portal
+            </small>
+
+        </a>
+
+
+        <a class="useful-link"
+           href="https://www.onlineservices.nsdl.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🏢 Protean Online Services
+            </strong>
+
+            <small>
+                Official online services portal
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact"
+         class="image-detail-section">
+
+    <a href="#image-menu"
+       class="back-image-menu"
+       onclick="showImageMenu()">
+
+        ← Back to Image Services
+
+    </a>
+
+
+    <div class="image-detail-title">
+
+        <span>📞</span>
+
+        <h2>
+            AJ DIGITAL POINT
+        </h2>
+
+    </div>
+
+
+    <div class="image-contact-box">
+
+        <h3>
+            📍 Address
+        </h3>
+
+        <p>
+
+            <strong>
+                AJ DIGITAL POINT
+            </strong>
+
+            <br>
+
+            Jalalpur Kalan,
+            <br>
+            Jind (126102), Haryana
+
+        </p>
+
+
+        <h3>
+            📞 Contact
+        </h3>
+
+        <p>
+            8053620341
+        </p>
+
+
+        <div class="image-contact-buttons">
+
+            <a href="tel:8053620341"
+               class="image-contact-button image-call">
+
+                📞 Call Now
+
+            </a>
+
+
+            <a href="https://wa.me/918053620341"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="image-contact-button image-whatsapp">
+
+                💬 WhatsApp
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DEFAULT
+===================================================== -->
+
+<section id="image-default"
+         class="image-detail-section active">
+
+    <div class="image-detail-title">
+
+        <span>📌</span>
+
+        <h2>
+            Image Services
+        </h2>
+
+    </div>
+
+
+    <p>
+        ऊपर अपनी जरूरत की service select करें।
+    </p>
+
+
+    <ul class="image-info-list">
+
+        <li>
+            🪪 Passport Size Photo
+        </li>
+
+        <li>
+            📐 Image Resize
+        </li>
+
+        <li>
+            ✂️ Image Crop
+        </li>
+
+        <li>
+            📦 Image Compress
+        </li>
+
+        <li>
+            🔄 JPG / PNG Information
+        </li>
+
+        <li>
+            📋 Photo Guidelines
+        </li>
+
+        <li>
+            🔗 Useful Links
+        </li>
+
+        <li>
+            📞 AJ DIGITAL POINT Assistance
+        </li>
+
+    </ul>
+
+</section>
+
+
+<!-- =====================================================
+     DISCLAIMER
+===================================================== -->
+
+<section class="disclaimer">
+
+    <strong>
+        Disclaimer:
+    </strong>
+
+    AJ DIGITAL POINT एक private digital service assistance
+    website है।
+
+    Photo requirements, dimensions, file-size limits और accepted
+    formats अलग-अलग websites/applications में अलग हो सकते हैं।
+
+    किसी government application के लिए संबंधित official portal
+    की current instructions को हमेशा प्राथमिकता दें।
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-inner">
+
+        <h2>
+            AJ DIGITAL POINT
+        </h2>
+
+        <p>
+            CSC & Online Digital Services
+        </p>
+
+        <p>
+            Jalalpur Kalan, Jind (126102), Haryana
+        </p>
+
+        <p>
+            📞 8053620341
+        </p>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="pan-services.html">
+                PAN Card
+            </a>
+
+            <a href="aadhaar-update.html">
+                Aadhaar
+            </a>
+
+            <a href="image-resizer.html">
+                Image Resizer
+            </a>
+
+            <a href="status-check.html">
+                Check Status
+            </a>
+
+            <a href="admin.html">
+                Admin
+            </a>
+
+        </div>
+
+
+        <hr>
+
+
+        <p>
+            © 2026 AJ DIGITAL POINT. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     IMAGE RESIZER SCRIPT
+===================================================== -->
+
+<script>
+
+let passportImage = null;
+let passportResult = null;
+
+let generalImage = null;
+let generalResult = null;
+
+
+/* =====================================================
+   PASSPORT IMAGE LOAD
+===================================================== */
+
+document
+    .getElementById("passportInput")
+    .addEventListener("change", function(event) {
+
+        const file =
+            event.target.files[0];
+
+        if (!file) {
+            return;
+        }
+
+        const reader =
+            new FileReader();
+
+        reader.onload = function(e) {
+
+            const img =
+                new Image();
+
+            img.onload = function() {
+
+                passportImage = img;
+
+                document
+                    .getElementById("passportInfo")
+                    .innerHTML =
+                    "Original size: " +
+                    img.width +
+                    " × " +
+                    img.height +
+                    " px";
+
+            };
+
+            img.src = e.target.result;
+
+        };
+
+        reader.readAsDataURL(file);
+
+    });
+
+
+/* =====================================================
+   PASSPORT PRESETS
+===================================================== */
+
+document
+    .getElementById("passportPreset")
+    .addEventListener("change", function() {
+
+        const preset =
+            this.value;
+
+        const width =
+            document.getElementById(
+                "passportWidth"
+            );
+
+        const height =
+            document.getElementById(
+                "passportHeight"
+            );
+
+
+        if (preset === "35x45") {
+
+            /*
+             * 35 x 45 mm at approximately
+             * 300 DPI
+             */
+
+            width.value = 413;
+
+            height.value = 531;
+
+        }
+
+
+        if (preset === "25x35") {
+
+            width.value = 295;
+
+            height.value = 413;
+
+        }
+
+    });
+
+
+/* =====================================================
+   PASSPORT ASPECT RATIO
+===================================================== */
+
+document
+    .getElementById("passportWidth")
+    .addEventListener("input", function() {
+
+        const lock =
+            document.getElementById(
+                "passportLock"
+            ).checked;
+
+        if (!lock || !passportImage) {
+            return;
+        }
+
+        const width =
+            parseInt(this.value);
+
+        const ratio =
+            passportImage.height /
+            passportImage.width;
+
+        document
+            .getElementById("passportHeight")
+            .value =
+            Math.round(width * ratio);
+
+    });
+
+
+/* =====================================================
+   CREATE PASSPORT PHOTO
+===================================================== */
+
+function resizePassportPhoto() {
+
+    if (!passportImage) {
+
+        alert(
+            "कृपया पहले photo upload करें।"
+        );
+
+        return;
+
+    }
+
+
+    const width =
+        parseInt(
+            document.getElementById(
+                "passportWidth"
+            ).value
+        );
+
+
+    const height =
+        parseInt(
+            document.getElementById(
+                "passportHeight"
+            ).value
+        );
+
+
+    if (
+        !width ||
+        !height ||
+        width < 1 ||
+        height < 1
+    ) {
+
+        alert(
+            "Width और Height सही भरें।"
+        );
+
+        return;
+
+    }
+
+
+    const canvas =
+        document.createElement("canvas");
+
+
+    canvas.width = width;
+
+    canvas.height = height;
+
+
+    const ctx =
+        canvas.getContext("2d");
+
+
+    /*
+     * Cover/Fit method:
+     * image को crop करके target
+     * dimensions में fit करता है।
+     */
+
+    const sourceRatio =
+        passportImage.width /
+        passportImage.height;
+
+    const targetRatio =
+        width / height;
+
+
+    let sx = 0;
+    let sy = 0;
+
+    let sw =
+        passportImage.width;
+
+    let sh =
+        passportImage.height;
+
+
+    if (sourceRatio > targetRatio) {
+
+        sw =
+            passportImage.height *
+            targetRatio;
+
+        sx =
+            (passportImage.width - sw) / 2;
+
+    } else {
+
+        sh =
+            passportImage.width /
+            targetRatio;
+
+        sy =
+            (passportImage.height - sh) / 2;
+
+    }
+
+
+    ctx.drawImage(
+        passportImage,
+        sx,
+        sy,
+        sw,
+        sh,
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    const format =
+        document.getElementById(
+            "passportFormat"
+        ).value;
+
+
+    passportResult =
+        canvas.toDataURL(
+            format,
+            0.92
+        );
+
+
+    const preview =
+        document.getElementById(
+            "passportPreview"
+        );
+
+
+    const previewImage =
+        document.getElementById(
+            "passportPreviewImage"
+        );
+
+
+    previewImage.src =
+        passportResult;
+
+
+    document
+        .getElementById("passportInfo")
+        .innerHTML =
+        "Output size: " +
+        width +
+        " × " +
+        height +
+        " px";
+
+
+    preview.classList.add("active");
+
+}
+
+
+/* =====================================================
+   DOWNLOAD PASSPORT
+===================================================== */
+
+function downloadPassportPhoto() {
+
+    if (!passportResult) {
+
+        alert(
+            "पहले passport photo तैयार करें।"
+        );
+
+        return;
+
+    }
+
+
+    const format =
+        document.getElementById(
+            "passportFormat"
+        ).value;
+
+
+    let extension = "jpg";
+
+
+    if (format === "image/png") {
+        extension = "png";
+    }
+
+
+    if (format === "image/webp") {
+        extension = "webp";
+    }
+
+
+    const link =
+        document.createElement("a");
+
+
+    link.href =
+        passportResult;
+
+
+    link.download =
+        "AJ-DIGITAL-POINT-Passport-Photo." +
+        extension;
+
+
+    link.click();
+
+}
+
+
+/* =====================================================
+   RESET PASSPORT
+===================================================== */
+
+function resetPassportTool() {
+
+    passportImage = null;
+
+    passportResult = null;
+
+
+    document
+        .getElementById("passportInput")
+        .value = "";
+
+
+    document
+        .getElementById("passportPreview")
+        .classList.remove("active");
+
+
+    document
+        .getElementById("passportWidth")
+        .value = 413;
+
+
+    document
+        .getElementById("passportHeight")
+        .value = 531;
+
+}
+
+
+/* =====================================================
+   GENERAL IMAGE LOAD
+===================================================== */
+
+document
+    .getElementById("resizeInput")
+    .addEventListener("change", function(event) {
+
+        const file =
+            event.target.files[0];
+
+        if (!file) {
+            return;
+        }
+
+
+        const reader =
+            new FileReader();
+
+
+        reader.onload = function(e) {
+
+            const img =
+                new Image();
+
+
+            img.onload = function() {
+
+                generalImage = img;
+
+            };
+
+
+            img.src =
+                e.target.result;
+
+        };
+
+
+        reader.readAsDataURL(file);
+
+    });
+
+
+/* =====================================================
+   GENERAL RESIZE
+===================================================== */
+
+function resizeGeneralImage() {
+
+    if (!generalImage) {
+
+        alert(
+            "कृपया पहले image upload करें।"
+        );
+
+        return;
+
+    }
+
+
+    const width =
+        parseInt(
+            document.getElementById(
+                "resizeWidth"
+            ).value
+        );
+
+
+    const height =
+        parseInt(
+            document.getElementById(
+                "resizeHeight"
+            ).value
+        );
+
+
+    if (
+        !width ||
+        !height ||
+        width < 1 ||
+        height < 1
+    ) {
+
+        alert(
+            "Width और Height सही भरें।"
+        );
+
+        return;
+
+    }
+
+
+    const canvas =
+        document.createElement("canvas");
+
+
+    canvas.width =
+        width;
+
+    canvas.height =
+        height;
+
+
+    const ctx =
+        canvas.getContext("2d");
+
+
+    ctx.drawImage(
+        generalImage,
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    const format =
+        document.getElementById(
+            "resizeFormat"
+        ).value;
+
+
+    generalResult =
+        canvas.toDataURL(
+            format,
+            0.92
+        );
+
+
+    document
+        .getElementById(
+            "generalPreviewImage"
+        )
+        .src =
+        generalResult;
+
+
+    document
+        .getElementById(
+            "generalInfo"
+        )
+        .innerHTML =
+        "Output size: " +
+        width +
+        " × " +
+        height +
+        " px";
+
+
+    document
+        .getElementById(
+            "generalPreview"
+        )
+        .classList.add("active");
+
+}
+
+
+/* =====================================================
+   DOWNLOAD GENERAL
+===================================================== */
+
+function downloadGeneralImage() {
+
+    if (!generalResult) {
+
+        alert(
+            "पहले image resize करें।"
+        );
+
+        return;
+
+    }
+
+
+    const format =
+        document.getElementById(
+            "resizeFormat"
+        ).value;
+
+
+    let extension = "jpg";
+
+
+    if (format === "image/png") {
+        extension = "png";
+    }
+
+
+    if (format === "image/webp") {
+        extension = "webp";
+    }
+
+
+    const link =
+        document.createElement("a");
+
+
+    link.href =
+        generalResult;
+
+
+    link.download =
+        "AJ-DIGITAL-POINT-Resized-Image." +
+        extension;
+
+
+    link.click();
+
+}
+
+
+/* =====================================================
+   SECTION NAVIGATION
+===================================================== */
+
+function showImageSection(sectionId) {
+
+    const sections =
+        document.querySelectorAll(
+            ".image-detail-section"
+        );
+
+
+    sections.forEach(function(section) {
+
+        section.classList.remove(
+            "active"
+        );
+
+    });
+
+
+    const selected =
+        document.getElementById(
+            sectionId
+        );
+
+
+    if (selected) {
+
+        selected.classList.add(
+            "active"
+        );
+
+    }
+
+
+    const menu =
+        document.getElementById(
+            "image-menu"
+        );
+
+
+    if (menu) {
+
+        menu.style.display =
+            "none";
+
+    }
+
+
+    window.scrollTo({
+
+        top: 0,
+
+        behavior: "smooth"
+
+    });
+
+}
+
+
+/* =====================================================
+   SHOW MENU
+===================================================== */
+
+function showImageMenu() {
+
+    const sections =
+        document.querySelectorAll(
+            ".image-detail-section"
+        );
+
+
+    sections.forEach(function(section) {
+
+        section.classList.remove(
+            "active"
+        );
+
+    });
+
+
+    const defaultSection =
+        document.getElementById(
+            "image-default"
+        );
+
+
+    if (defaultSection) {
+
+        defaultSection.classList.add(
+            "active"
+        );
+
+    }
+
+
+    const menu =
+        document.getElementById(
+            "image-menu"
+        );
+
+
+    if (menu) {
+
+        menu.style.display =
+            "block";
+
+    }
+
+
+    if (history.replaceState) {
+
+        history.replaceState(
+            null,
+            "",
+            window.location.pathname
+        );
+
+    }
+
+
+    window.scrollTo({
+
+        top: 0,
+
+        behavior: "smooth"
+
+    });
+
+}
+
+
+/* =====================================================
+   OPEN SECTION FROM HASH
+===================================================== */
+
+function openImageSectionFromHash() {
+
+    const hash =
+        window.location.hash;
+
+
+    if (!hash) {
+
+        return;
+
+    }
+
+
+    const sectionId =
+        hash.substring(1);
+
+
+    const section =
+        document.getElementById(
+            sectionId
+        );
+
+
+    if (
+        section &&
+        section.classList.contains(
+            "image-detail-section"
+        )
+    ) {
+
+        showImageSection(
+            sectionId
+        );
+
+    }
+
+}
+
+
+window.addEventListener(
+    "load",
+    openImageSectionFromHash
+);
+
+
+window.addEventListener(
+    "hashchange",
+    openImageSectionFromHash
+);
+
+
+/* =====================================================
+   MOBILE MENU
+===================================================== */
+
+function toggleMenu() {
+
+    const nav =
+        document.getElementById(
+            "main-nav"
+        );
+
+
+    const button =
+        document.getElementById(
+            "menuButton"
+        );
+
+
+    nav.classList.toggle(
+        "mobile-show"
+    );
+
+
+    const isOpen =
+        nav.classList.contains(
+            "mobile-show"
+        );
+
+
+    button.innerHTML =
+        isOpen ? "✕" : "☰";
+
+
+    button.setAttribute(
+        "aria-expanded",
+        isOpen ? "true" : "false"
+    );
+
+}
+
+
+/* =====================================================
+   MOBILE NAV LINK
+===================================================== */
+
+document
+    .querySelectorAll(
+        "#main-nav a"
+    )
+    .forEach(function(link) {
+
+        link.addEventListener(
+            "click",
+            function() {
+
+                const nav =
+                    document.getElementById(
+                        "main-nav"
+                    );
+
+
+                const button =
+                    document.getElementById(
+                        "menuButton"
+                    );
+
+
+                nav.classList.remove(
+                    "mobile-show"
+                );
+
+
+                button.innerHTML =
+                    "☰";
+
+
+                button.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
+
+            }
+        );
+
+    });
+
+</script>
+
+
+</body>
+
+</html>
