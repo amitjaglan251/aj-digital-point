@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Age Calculator | AJ DIGITAL POINT</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.age-card{max-width:600px;margin:40px auto;padding:28px;background:#fff;border-radius:16px;box-shadow:0 5px 18px rgba(0,0,0,.08)}
+.age-card h2{text-align:center;margin-bottom:10px}.age-card p{text-align:center;color:#555}.age-card label{display:block;font-weight:600;margin:18px 0 7px}.age-card input{width:100%;box-sizing:border-box;padding:12px;border:1px solid #ccc;border-radius:8px;font-size:16px}.age-card button{width:100%;margin-top:22px;padding:13px;border:0;border-radius:8px;background:#0d6efd;color:#fff;font-size:16px;font-weight:600;cursor:pointer}.result{margin-top:22px;padding:18px;background:#f1f5f9;border-radius:10px;text-align:center;font-size:18px;line-height:1.8;display:none}.back{text-align:center;margin-top:20px}.back a{color:#0d6efd;text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="header-top"><div class="brand"><a href="index.html" class="logo-link"><img src="logo.png" alt="AJ DIGITAL POINT Logo" class="site-logo" width="65" height="65"></a><div class="brand-info"><h1>AJ DIGITAL POINT</h1><p>CSC & Online Digital Services</p></div></div></div><nav class="main-nav"><a href="index.html">🏠 Home</a><a href="image-resizer.html">🖼️ Image Resizer</a><a href="age-calculator.html">🧮 Age Calculator</a></nav></header>
+<main class="container"><section class="age-card"><h2>🧮 Age Calculator</h2><p>अपनी Date of Birth डालकर उम्र पता करें।</p><label for="dob">Date of Birth</label><input type="date" id="dob"><button onclick="calculateAge()">Calculate Age</button><div id="result" class="result"></div><div class="back"><a href="index.html">← Back to Home</a></div></section></main>
+<script>
+function calculateAge(){const dob=new Date(document.getElementById('dob').value);const result=document.getElementById('result');if(!document.getElementById('dob').value||isNaN(dob.getTime())){result.style.display='block';result.textContent='कृपया Date of Birth चुनें।';return}const today=new Date();if(dob>today){result.style.display='block';result.textContent='Date of Birth भविष्य की नहीं हो सकती।';return}let y=today.getFullYear()-dob.getFullYear(),m=today.getMonth()-dob.getMonth(),d=today.getDate()-dob.getDate();if(d<0){m--;d+=new Date(today.getFullYear(),today.getMonth(),0).getDate()}if(m<0){y--;m+=12}result.style.display='block';result.innerHTML='<strong>आपकी उम्र:</strong><br>'+y+' वर्ष, '+m+' महीने, '+d+' दिन';}
+</script>
+</body></html>
