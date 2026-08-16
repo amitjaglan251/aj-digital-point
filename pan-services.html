@@ -2259,106 +2259,107 @@
 
 <script>
 
+<!-- =====================================================
+     SECTION NAVIGATION SCRIPT
+===================================================== -->
+
+<script>
+
 function showPanSection(sectionId) {
 
-    /*
-     * सभी PAN detail sections hide करें
-     */
+    /* सभी PAN detail sections hide करें */
     const sections =
         document.querySelectorAll(".pan-detail-section");
 
     sections.forEach(function(section) {
-
         section.classList.remove("active");
-
     });
 
 
-    /*
-     * चुना हुआ section show करें
-     */
+    /* चुना हुआ section खोलें */
     const selected =
         document.getElementById(sectionId);
 
-
     if (selected) {
-
         selected.classList.add("active");
-
     }
 
 
     /*
-     * PAN menu hide करें
+     * PAN SERVICE MENU हमेशा दिखाई देगा
+     * ताकि सभी sections आसानी से select किए जा सकें
      */
     const menu =
         document.getElementById("pan-menu");
 
-
     if (menu) {
+        menu.style.display = "block";
+    }
 
-        menu.style.display = "none";
+
+    /*
+     * URL में section का नाम दिखाएँ
+     */
+    if (history.replaceState) {
+
+        history.replaceState(
+            null,
+            "",
+            window.location.pathname + "#" + sectionId
+        );
 
     }
 
 
     /*
-     * Page को ऊपर ले जाएँ
+     * Selected section तक scroll करें
      */
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+    setTimeout(function() {
+
+        if (selected) {
+
+            selected.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+        }
+
+    }, 100);
 
 }
 
 
 function showPanMenu() {
 
-    /*
-     * सभी sections hide करें
-     */
+    /* सभी sections hide करें */
     const sections =
         document.querySelectorAll(".pan-detail-section");
 
     sections.forEach(function(section) {
-
         section.classList.remove("active");
-
     });
 
 
-    /*
-     * Default information show करें
-     */
+    /* Default information वापस दिखाएँ */
     const defaultInfo =
         document.getElementById("pan-default-info");
 
-
     if (defaultInfo) {
-
         defaultInfo.classList.add("active");
-
     }
 
 
-    /*
-     * PAN menu वापस show करें
-     */
+    /* PAN menu हमेशा दिखाई दे */
     const menu =
         document.getElementById("pan-menu");
 
-
     if (menu) {
-
         menu.style.display = "block";
-
     }
 
 
-    /*
-     * URL से hash हटाएँ
-     */
+    /* URL से section hash हटाएँ */
     if (history.replaceState) {
 
         history.replaceState(
@@ -2370,9 +2371,7 @@ function showPanMenu() {
     }
 
 
-    /*
-     * ऊपर जाएँ
-     */
+    /* ऊपर जाएँ */
     window.scrollTo({
         top: 0,
         behavior: "smooth"
@@ -2382,25 +2381,21 @@ function showPanMenu() {
 
 
 /*
- * Browser URL में #section होने पर
- * उसी section को automatically खोलें।
+ * URL में #section होने पर
+ * उसी section को automatically खोलें
  */
 function openSectionFromHash() {
 
     const hash =
         window.location.hash;
 
-
     if (!hash) {
-
         return;
-
     }
 
 
     const sectionId =
         hash.substring(1);
-
 
     const section =
         document.getElementById(sectionId);
@@ -2419,7 +2414,7 @@ function openSectionFromHash() {
 
 
 /*
- * Page load होने पर hash check करें
+ * Page load
  */
 window.addEventListener(
     "load",
@@ -2428,7 +2423,7 @@ window.addEventListener(
 
 
 /*
- * Browser back/forward button support
+ * Browser Back / Forward
  */
 window.addEventListener(
     "hashchange",
@@ -2437,7 +2432,7 @@ window.addEventListener(
 
 
 /*
- * Mobile menu
+ * Mobile Menu
  */
 function toggleMenu() {
 
@@ -2468,7 +2463,7 @@ function toggleMenu() {
 
 
 /*
- * Mobile menu link click
+ * Mobile navigation links
  */
 document
     .querySelectorAll("#main-nav a")
