@@ -1,69 +1,44 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
+
     <meta charset="UTF-8">
 
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>AJ DIGITAL POINT | CSC & Online Services</title>
+    <title>AJ DIGITAL POINT | CSC & Online Digital Services</title>
 
     <meta name="description"
-          content="AJ DIGITAL POINT - CSC एवं Online Digital Services, Government Forms, Jobs, PAN, Aadhaar, Voter ID, Passport, Certificates, GST, Udyam और अन्य सेवाएं।">
+          content="AJ DIGITAL POINT - CSC एवं Online Digital Services, PAN Card, Aadhaar, Voter ID, Passport, Certificates, GST, Udyam और अन्य ऑनलाइन सेवाएं।">
 
     <meta name="robots"
           content="index, follow">
 
-    <meta name="author"
-          content="AJ DIGITAL POINT">
-
-    <meta name="theme-color"
-          content="#075fc7">
-
     <link rel="canonical"
           href="https://amitjaglan251.github.io/aj-digital-point/">
 
-    <!-- Favicon -->
-    <link rel="icon"
-          type="image/png"
-          href="./logo.png">
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Open Graph -->
-    <meta property="og:type"
-          content="website">
-
-    <meta property="og:title"
-          content="AJ DIGITAL POINT | CSC & Online Services">
-
-    <meta property="og:description"
-          content="CSC एवं Online Digital Services">
-
-    <meta property="og:url"
-          content="https://amitjaglan251.github.io/aj-digital-point/">
-
-    <meta property="og:image"
-          content="https://amitjaglan251.github.io/aj-digital-point/logo.png">
-
-    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-<!-- =====================================================
-     TOP HEADER
-===================================================== -->
+<!-- ================= HEADER ================= -->
 
 <header class="main-header">
 
-    <div class="header-inner">
+    <div class="header-container">
 
-        <div class="brand">
+        <div class="logo-area">
 
-            <img
-                src="./logo.png"
-                alt="AJ DIGITAL POINT Logo"
-                class="main-logo"
-            >
+            <a href="index.html">
+
+                <img src="images/logo.png"
+                     alt="AJ DIGITAL POINT Logo"
+                     class="logo">
+
+            </a>
 
             <div class="brand-text">
 
@@ -77,259 +52,397 @@
 
         </div>
 
+        <button class="menu-btn"
+                onclick="toggleMenu()">
 
-        <nav class="main-nav">
+            ☰
 
-            <a href="index.html">
-                Home
-            </a>
-
-            <a href="#latest">
-                Latest Updates
-            </a>
-
-            <a href="#services">
-                Services
-            </a>
-
-            <a href="aadhaar-update.html">
-                Aadhaar Update
-            </a>
-
-            <a href="status-check.html">
-                Check Status
-            </a>
-
-            <a href="admin.html">
-                Admin Login
-            </a>
-
-        </nav>
-
-    </div>
-
-</header>
-
-
-<!-- =====================================================
-     SOCIAL / JOIN BAR
-===================================================== -->
-
-<div class="join-bar">
-
-    <div class="join-inner">
-
-        <strong>
-            Join Us &gt;
-        </strong>
-
-        <a href="#" onclick="showMessage('WhatsApp Channel link जल्द जोड़ा जाएगा'); return false;">
-            WhatsApp Channel
-        </a>
-
-        <a href="#" onclick="showMessage('Telegram Channel link जल्द जोड़ा जाएगा'); return false;">
-            Telegram Channel
-        </a>
-
-        <a href="#" onclick="showMessage('Facebook Page link जल्द जोड़ा जाएगा'); return false;">
-            Facebook Page
-        </a>
-
-        <a href="#" onclick="showMessage('Facebook Group link जल्द जोड़ा जाएगा'); return false;">
-            Facebook Group
-        </a>
-
-        <a href="#" onclick="showMessage('Instagram link जल्द जोड़ा जाएगा'); return false;">
-            Instagram Account
-        </a>
-
-        <a href="#" onclick="showMessage('YouTube Channel link जल्द जोड़ा जाएगा'); return false;">
-            YouTube Channel
-        </a>
-
-    </div>
-
-</div>
-
-
-<!-- =====================================================
-     NOTICE / SEARCH
-===================================================== -->
-
-<section class="notice-section">
-
-    <div class="notice-box">
-
-        <span class="notice-title">
-            📢 Important Notice
-        </span>
-
-        <span class="notice-text">
-            AJ DIGITAL POINT पर सभी CSC एवं Online Digital Services उपलब्ध हैं।
-        </span>
-
-    </div>
-
-
-    <div class="search-box">
-
-        <input
-            type="text"
-            id="portalSearch"
-            placeholder="🔍 Search Job, Form, Service..."
-            autocomplete="off"
-        >
-
-        <button type="button"
-                onclick="searchPortal()">
-            Search
         </button>
 
     </div>
 
+
+    <!-- NAVIGATION -->
+
+    <nav id="mainNav">
+
+        <a href="index.html">
+            🏠 Home
+        </a>
+
+        <a href="pan-services.html">
+            🪪 PAN Card
+        </a>
+
+        <a href="aadhaar-update.html">
+            🆔 Aadhaar
+        </a>
+
+        <a href="#services">
+            📋 Services
+        </a>
+
+        <a href="status-check.html">
+            🔎 Check Status
+        </a>
+
+        <a href="#contact">
+            📞 Contact
+        </a>
+
+        <a href="admin.html">
+            🔐 Admin
+        </a>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= NOTICE ================= -->
+
+<div class="notice">
+
+    <strong>📢 Important:</strong>
+
+    AJ DIGITAL POINT पर सभी Online एवं CSC Services
+    के लिए संपर्क करें।
+
+</div>
+
+
+<!-- ================= COLOR BOXES ================= -->
+
+<section class="quick-services">
+
+    <a href="pan-services.html"
+       class="quick-box blue">
+
+        <span>🪪</span>
+
+        <strong>PAN CARD</strong>
+
+        <small>
+            New / Correction / Reprint
+        </small>
+
+    </a>
+
+
+    <a href="aadhaar-update.html"
+       class="quick-box green">
+
+        <span>🆔</span>
+
+        <strong>AADHAAR</strong>
+
+        <small>
+            Aadhaar Update Services
+        </small>
+
+    </a>
+
+
+    <a href="#services"
+       class="quick-box red">
+
+        <span>🗳️</span>
+
+        <strong>VOTER ID</strong>
+
+        <small>
+            New / Correction
+        </small>
+
+    </a>
+
+
+    <a href="#services"
+       class="quick-box orange">
+
+        <span>🛂</span>
+
+        <strong>PASSPORT</strong>
+
+        <small>
+            New / Renewal
+        </small>
+
+    </a>
+
+
+    <a href="#services"
+       class="quick-box purple">
+
+        <span>📄</span>
+
+        <strong>CERTIFICATES</strong>
+
+        <small>
+            Income / EWS / OBC / SC
+        </small>
+
+    </a>
+
+
+    <a href="#services"
+       class="quick-box teal">
+
+        <span>💼</span>
+
+        <strong>BUSINESS</strong>
+
+        <small>
+            GST / Udyam / Firm
+        </small>
+
+    </a>
+
 </section>
 
 
-<!-- =====================================================
-     QUICK SERVICE BOXES
-===================================================== -->
+<!-- ================= SEARCH ================= -->
 
-<section id="services"
-         class="quick-section">
+<section class="search-section">
 
-    <h2 class="section-heading">
-        Online Services
+    <h2>
+        🔎 Service Search
     </h2>
+
+    <input
+        type="text"
+        id="serviceSearch"
+        placeholder="Service खोजें... जैसे PAN, Aadhaar, GST">
+
+</section>
+
+
+<!-- ================= MAIN CONTENT ================= -->
+
+<main class="content">
+
+
+<!-- ================= PAN ================= -->
+
+<section class="service-section">
+
+    <div class="section-heading blue-heading">
+
+        <h2>
+            🪪 PAN CARD SERVICES
+        </h2>
+
+        <a href="pan-services.html">
+            View All →
+        </a>
+
+    </div>
+
+
+    <div class="service-table">
+
+        <div class="service-row">
+
+            <div>
+                🆕 New PAN Card
+            </div>
+
+            <a href="pan-services.html">
+                Apply
+            </a>
+
+        </div>
+
+
+        <div class="service-row">
+
+            <div>
+                ✏️ PAN Correction
+            </div>
+
+            <a href="pan-services.html">
+                Correction
+            </a>
+
+        </div>
+
+
+        <div class="service-row">
+
+            <div>
+                🖨️ PAN Reprint
+            </div>
+
+            <a href="pan-services.html">
+                Reprint
+            </a>
+
+        </div>
+
+
+        <div class="service-row">
+
+            <div>
+                ⚡ Instant e-PAN
+            </div>
+
+            <a href="pan-services.html">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="service-row">
+
+            <div>
+                ✅ Verify PAN
+            </div>
+
+            <a href="pan-services.html">
+                Verify
+            </a>
+
+        </div>
+
+
+        <div class="service-row">
+
+            <div>
+                🔗 PAN-Aadhaar Link
+            </div>
+
+            <a href="pan-services.html">
+                Link
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= AADHAAR ================= -->
+
+<section class="service-section">
+
+    <div class="section-heading green-heading">
+
+        <h2>
+            🆔 AADHAAR SERVICES
+        </h2>
+
+        <a href="aadhaar-update.html">
+            View All →
+        </a>
+
+    </div>
+
+
+    <div class="service-table">
+
+        <div class="service-row">
+
+            <div>
+                📝 Aadhaar Update
+            </div>
+
+            <a href="aadhaar-update.html">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="service-row">
+
+            <div>
+                📱 Mobile Update
+            </div>
+
+            <a href="aadhaar-update.html">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="service-row">
+
+            <div>
+                🏠 Address Update
+            </div>
+
+            <a href="aadhaar-update.html">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="service-row">
+
+            <div>
+                🔎 Aadhaar Status
+            </div>
+
+            <a href="aadhaar-update.html">
+                Check
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DOCUMENTS ================= -->
+
+<section class="service-section">
+
+    <div class="section-heading red-heading">
+
+        <h2>
+            📄 DOCUMENTS & CERTIFICATES
+        </h2>
+
+    </div>
 
 
     <div class="service-grid">
 
-
-        <a class="service-box green"
-           href="https://www.incometax.gov.in/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <strong>
-                PAN Card
-            </strong>
-
-            <span>
-                New / Correction / Download
-            </span>
-
+        <a href="#" class="service-item">
+            💰 Income Certificate
         </a>
 
-
-        <a class="service-box purple"
-           href="https://uidai.gov.in/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <strong>
-                Aadhaar
-            </strong>
-
-            <span>
-                Aadhaar Online Services
-            </span>
-
+        <a href="#" class="service-item">
+            📜 EWS Certificate
         </a>
 
-
-        <a class="service-box blue"
-           href="https://voters.eci.gov.in/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <strong>
-                Voter ID
-            </strong>
-
-            <span>
-                New / Correction
-            </span>
-
+        <a href="#" class="service-item">
+            👥 OBC Certificate
         </a>
 
-
-        <a class="service-box pink"
-           href="https://www.passportindia.gov.in/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <strong>
-                Passport
-            </strong>
-
-            <span>
-                Apply / Renewal
-            </span>
-
+        <a href="#" class="service-item">
+            🧾 SC Certificate
         </a>
 
-
-        <a class="service-box orange"
-           href="https://pmjay.gov.in/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <strong>
-                Ayushman Card
-            </strong>
-
-            <span>
-                Health Card Services
-            </span>
-
+        <a href="#" class="service-item">
+            👨‍👩‍👧 Family ID
         </a>
 
-
-        <a class="service-box teal"
-           href="https://parivahan.gov.in/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <strong>
-                Driving Licence
-            </strong>
-
-            <span>
-                DL Online Services
-            </span>
-
+        <a href="#" class="service-item">
+            💍 Marriage Certificate
         </a>
 
-
-        <a class="service-box darkblue"
-           href="https://www.gst.gov.in/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <strong>
-                GST Registration
-            </strong>
-
-            <span>
-                GST Online Services
-            </span>
-
+        <a href="#" class="service-item">
+            👮 Police Verification
         </a>
 
-
-        <a class="service-box red"
-           href="https://udyamregistration.gov.in/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <strong>
-                Udyam Registration
-            </strong>
-
-            <span>
-                MSME Registration
-            </span>
-
+        <a href="#" class="service-item">
+            📋 PCC
         </a>
 
     </div>
@@ -337,613 +450,131 @@
 </section>
 
 
-<!-- =====================================================
-     LATEST + UPCOMING
-===================================================== -->
+<!-- ================= BUSINESS ================= -->
 
-<section id="latest"
-         class="updates-section">
+<section class="service-section">
 
-    <div class="updates-grid">
+    <div class="section-heading orange-heading">
 
+        <h2>
+            💼 BUSINESS SERVICES
+        </h2>
 
-        <!-- ================= LATEST ================= -->
+    </div>
 
-        <div class="update-panel">
 
-            <div class="panel-heading">
-                Latest Update
-            </div>
+    <div class="service-grid">
 
+        <a href="#" class="service-item">
+            🧾 GST Registration
+        </a>
 
-            <div class="update-list">
+        <a href="#" class="service-item">
+            🏢 Udyam Registration
+        </a>
 
+        <a href="#" class="service-item">
+            🏪 Firm Registration
+        </a>
 
-                <div class="update-item">
-
-                    <a href="#">
-                        AJ DIGITAL POINT Online Services
-                    </a>
-
-                    <span>
-                        Updated at : Today
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="pan-services.html" class="service-btn">
-    🪪 PAN Card Services
-</a>
-
-                    <span>
-                        Updated at : Today
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        Aadhaar Online Services
-                    </a>
-
-                    <span>
-                        Updated at : Today
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        Voter ID Online Service
-                    </a>
-
-                    <span>
-                        Updated at : Today
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        Passport Online Application
-                    </a>
-
-                    <span>
-                        Updated at : Today
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        Driving Licence Online Services
-                    </a>
-
-                    <span>
-                        Updated at : Today
-                    </span>
-
-                </div>
-
-
-            </div>
-
-
-            <div class="view-more-area">
-
-                <button class="view-more"
-                        onclick="showAllUpdates('latest')">
-
-                    View More
-
-                </button>
-
-            </div>
-
-        </div>
-
-
-        <!-- ================= UPCOMING ================= -->
-
-        <div class="update-panel">
-
-            <div class="panel-heading">
-                Upcoming
-            </div>
-
-
-            <div class="update-list">
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        New Government Online Service
-                    </a>
-
-                    <span>
-                        Starting Date : Soon
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        New CSC Digital Service
-                    </a>
-
-                    <span>
-                        Starting Date : Soon
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        Online Form Service
-                    </a>
-
-                    <span>
-                        Starting Date : Soon
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        Certificate Online Service
-                    </a>
-
-                    <span>
-                        Starting Date : Soon
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        New Business Registration Service
-                    </a>
-
-                    <span>
-                        Starting Date : Soon
-                    </span>
-
-                </div>
-
-
-                <div class="update-item">
-
-                    <a href="#">
-                        Latest Digital Service
-                    </a>
-
-                    <span>
-                        Starting Date : Soon
-                    </span>
-
-                </div>
-
-
-            </div>
-
-
-            <div class="view-more-area">
-
-                <button class="view-more"
-                        onclick="showAllUpdates('upcoming')">
-
-                    View More
-
-                </button>
-
-            </div>
-
-        </div>
+        <a href="#" class="service-item">
+            💼 Business Services
+        </a>
 
     </div>
 
 </section>
 
 
-<!-- =====================================================
-     DOCUMENT & CERTIFICATE SERVICES
-===================================================== -->
+<!-- ================= OTHER SERVICES ================= -->
 
-<section class="category-section">
+<section id="services"
+         class="service-section">
 
-    <h2 class="section-heading">
-        Documents & Certificates
-    </h2>
+    <div class="section-heading purple-heading">
 
+        <h2>
+            🌐 OTHER ONLINE SERVICES
+        </h2>
 
-    <div class="card-grid">
-
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                📑
-            </div>
-
-            <h3>
-                Income Certificate
-            </h3>
-
-            <p>
-                Income Certificate application assistance
-            </p>
-
-            <a href="https://saralharyana.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Apply / Official Website
-            </a>
-
-        </div>
+    </div>
 
 
-        <div class="info-card">
+    <div class="service-grid">
 
-            <div class="card-icon">
-                📜
-            </div>
+        <a href="#" class="service-item">
+            🚗 Driving Licence
+        </a>
 
-            <h3>
-                EWS Certificate
-            </h3>
+        <a href="#" class="service-item">
+            🏥 Ayushman Card
+        </a>
 
-            <p>
-                EWS Certificate related services
-            </p>
+        <a href="#" class="service-item">
+            💼 EPFO / PF
+        </a>
 
-            <a href="https://saralharyana.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Apply / Official Website
-            </a>
+        <a href="#" class="service-item">
+            🛂 Passport
+        </a>
 
-        </div>
+        <a href="#" class="service-item">
+            🗳️ Voter ID
+        </a>
 
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                📄
-            </div>
-
-            <h3>
-                OBC / SC Certificate
-            </h3>
-
-            <p>
-                Caste Certificate related services
-            </p>
-
-            <a href="https://saralharyana.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Apply / Official Website
-            </a>
-
-        </div>
-
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                👨‍👩‍👧
-            </div>
-
-            <h3>
-                Family ID
-            </h3>
-
-            <p>
-                Parivar Pehchan Patra services
-            </p>
-
-            <a href="https://meraparivar.haryana.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Official Website
-            </a>
-
-        </div>
-
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                💍
-            </div>
-
-            <h3>
-                Marriage Certificate
-            </h3>
-
-            <p>
-                Marriage Certificate services
-            </p>
-
-            <a href="https://saralharyana.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Official Website
-            </a>
-
-        </div>
-
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                👮
-            </div>
-
-            <h3>
-                Police Verification / PCC
-            </h3>
-
-            <p>
-                Police Verification और PCC services
-            </p>
-
-            <a href="https://saralharyana.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Official Website
-            </a>
-
-        </div>
+        <a href="#" class="service-item">
+            🏦 Banking Services
+        </a>
 
     </div>
 
 </section>
 
 
-<!-- =====================================================
-     BUSINESS SERVICES
-===================================================== -->
-
-<section class="category-section">
-
-    <h2 class="section-heading">
-        Business & Employment Services
-    </h2>
-
-
-    <div class="card-grid">
-
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                🧾
-            </div>
-
-            <h3>
-                GST Registration
-            </h3>
-
-            <p>
-                GST Registration और related services
-            </p>
-
-            <a href="https://www.gst.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Official Website
-            </a>
-
-        </div>
-
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                🏢
-            </div>
-
-            <h3>
-                Udyam Registration
-            </h3>
-
-            <p>
-                MSME / Udyam Registration
-            </p>
-
-            <a href="https://udyamregistration.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Official Website
-            </a>
-
-        </div>
-
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                🏪
-            </div>
-
-            <h3>
-                Firm Registration
-            </h3>
-
-            <p>
-                Business और Firm Registration assistance
-            </p>
-
-            <a href="https://saralharyana.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Official Website
-            </a>
-
-        </div>
-
-
-        <div class="info-card">
-
-            <div class="card-icon">
-                💼
-            </div>
-
-            <h3>
-                EPFO / PF
-            </h3>
-
-            <p>
-                PF Account और Withdrawal services
-            </p>
-
-            <a href="https://www.epfindia.gov.in/"
-               target="_blank"
-               rel="noopener noreferrer">
-                Official Website
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     ABOUT
-===================================================== -->
+<!-- ================= ABOUT ================= -->
 
 <section class="about-section">
 
-    <div class="about-container">
-
-
-        <img
-            src="./logo.png"
-            alt="AJ DIGITAL POINT Logo"
-            class="about-logo"
-        >
-
-
-        <div>
-
-            <h2>
-                AJ DIGITAL POINT
-            </h2>
-
-            <p>
-                AJ DIGITAL POINT एक CSC एवं Online Digital
-                Service Center है। यहाँ विभिन्न सरकारी,
-                डिजिटल और ऑनलाइन सेवाओं के लिए सहायता
-                प्रदान की जाती है।
-            </p>
-
-            <p>
-                PAN Card, Aadhaar, Voter ID, Passport,
-                Ayushman Card, Driving Licence, Certificates,
-                GST, Udyam, EPFO/PF और अन्य सेवाओं के लिए
-                संपर्क करें।
-            </p>
-
-            <div class="about-buttons">
-
-                <a href="tel:8053620341"
-                   class="contact-button">
-                    📞 Call Now
-                </a>
-
-                <a href="https://wa.me/918053620341"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="contact-button whatsapp">
-                    💬 WhatsApp
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     LOCATION
-===================================================== -->
-
-<section class="location-section">
-
-    <h2 class="section-heading">
-        📍 हमारा Location
+    <h2>
+        About AJ DIGITAL POINT
     </h2>
 
+    <p>
 
-    <div class="location-box">
+        <strong>AJ DIGITAL POINT</strong>
+        Jalalpur Kalan, Jind (126102), Haryana में
+        CSC एवं Online Digital Services के लिए सहायता
+        प्रदान करता है।
 
-        <h3>
-            AJ DIGITAL POINT
-        </h3>
+    </p>
 
-        <p>
-            Jalalpur Kalan, Jind (126102), Haryana
-        </p>
+    <p>
 
-        <a
-            href="https://www.google.com/maps/search/?api=1&query=Jalalpur+Kalan+Jind+Haryana"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="map-button"
-        >
-            🗺️ Google Maps पर देखें
-        </a>
+        PAN Card, Aadhaar, Voter ID, Passport,
+        Certificates, GST, Udyam, EPFO/PF,
+        Driving Licence एवं अन्य Online Services
+        के लिए हमसे संपर्क करें।
 
-    </div>
+    </p>
 
 </section>
 
 
-<!-- =====================================================
-     CONTACT
-===================================================== -->
+<!-- ================= CONTACT ================= -->
 
-<section class="contact-section">
+<section id="contact"
+         class="contact-section">
 
-    <h2 class="section-heading">
-        Contact AJ DIGITAL POINT
+    <h2>
+        📞 Contact AJ DIGITAL POINT
     </h2>
 
 
     <div class="contact-grid">
 
-
         <div class="contact-card">
 
-            <span>
-                📍
-            </span>
+            <span>📍</span>
 
             <h3>
                 Address
@@ -959,9 +590,7 @@
 
         <div class="contact-card">
 
-            <span>
-                📞
-            </span>
+            <span>📞</span>
 
             <h3>
                 Phone
@@ -971,8 +600,11 @@
                 8053620341
             </p>
 
-            <a href="tel:8053620341">
+            <a href="tel:8053620341"
+               class="contact-btn">
+
                 Call Now
+
             </a>
 
         </div>
@@ -980,22 +612,22 @@
 
         <div class="contact-card">
 
-            <span>
-                💬
-            </span>
+            <span>💬</span>
 
             <h3>
                 WhatsApp
             </h3>
 
             <p>
-                Online Enquiry & Support
+                Online Enquiry
             </p>
 
             <a href="https://wa.me/918053620341"
                target="_blank"
-               rel="noopener noreferrer">
-                WhatsApp Now
+               class="contact-btn">
+
+                WhatsApp
+
             </a>
 
         </div>
@@ -1003,20 +635,21 @@
 
         <div class="contact-card">
 
-            <span>
-                📧
-            </span>
+            <span>🔎</span>
 
             <h3>
-                Email
+                Request Status
             </h3>
 
             <p>
-                ajdigitalpoint01@gmail.com
+                अपनी request का status देखें।
             </p>
 
-            <a href="mailto:ajdigitalpoint01@gmail.com">
-                Send Email
+            <a href="status-check.html"
+               class="contact-btn">
+
+                Check Status
+
             </a>
 
         </div>
@@ -1026,66 +659,89 @@
 </section>
 
 
-<!-- =====================================================
-     FOOTER
-===================================================== -->
+</main>
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
-    <div class="footer-inner">
+    <div class="footer-content">
 
-        <img
-            src="./logo.png"
-            alt="AJ DIGITAL POINT Logo"
-            class="footer-logo"
-        >
+        <h3>
+            AJ DIGITAL POINT
+        </h3>
 
-        <div>
+        <p>
+            CSC & Online Digital Services
+        </p>
 
-            <h3>
-                AJ DIGITAL POINT
-            </h3>
+        <p>
+            Jalalpur Kalan, Jind (126102), Haryana
+        </p>
 
-            <p>
-                CSC & Online Digital Services
-            </p>
+        <p>
+            📞 8053620341
+        </p>
 
-            <p>
-                Jalalpur Kalan, Jind (126102), Haryana
-            </p>
+        <hr>
 
-        </div>
+        <p>
+            © 2026 AJ DIGITAL POINT.
+            All Rights Reserved.
+        </p>
 
     </div>
-
-
-    <hr>
-
-
-    <p class="copyright">
-        © 2026 AJ DIGITAL POINT. All Rights Reserved.
-    </p>
 
 </footer>
 
 
-<!-- =====================================================
-     MESSAGE BOX
-===================================================== -->
+<script>
 
-<div id="messageBox"
-     class="message-box">
+function toggleMenu() {
 
-    <span id="messageText"></span>
+    document.getElementById("mainNav")
+        .classList.toggle("show");
 
-    <button onclick="closeMessage()">
-        ×
-    </button>
-
-</div>
+}
 
 
-<script src="./script.js"></script>
+/* ================= SEARCH ================= */
+
+const searchInput =
+    document.getElementById("serviceSearch");
+
+searchInput.addEventListener("input", function () {
+
+    const search =
+        this.value.toLowerCase();
+
+    const items =
+        document.querySelectorAll(
+            ".service-row, .service-item"
+        );
+
+    items.forEach(function(item) {
+
+        const text =
+            item.textContent.toLowerCase();
+
+        if (text.includes(search)) {
+
+            item.style.display = "";
+
+        } else {
+
+            item.style.display = "none";
+
+        }
+
+    });
+
+});
+
+</script>
+
 
 </body>
 </html>
