@@ -1,0 +1,2424 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voter Card Services | AJ DIGITAL POINT</title>
+
+    <meta name="description"
+        content="AJ DIGITAL POINT पर Voter Card की महत्वपूर्ण services - New Voter Registration, Correction, Address Change, Replacement EPIC, e-EPIC, Voter List Search, Application Status और Official ECI Links।">
+
+    <meta name="keywords"
+        content="Voter Card, Voter ID, New Voter Registration, Voter Correction, e-EPIC, Voter List, EPIC Search, Election Commission, AJ Digital Point">
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="author" content="AJ DIGITAL POINT">
+
+    <meta name="theme-color" content="#0d6efd">
+
+    <link rel="canonical"
+        href="https://amitjaglan251.github.io/aj-digital-point/voter-services.html">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        /* =====================================================
+           VOTER PAGE HEADER
+        ===================================================== */
+
+        .voter-page-header {
+            text-align: center;
+            margin: 25px auto;
+            max-width: 900px;
+        }
+
+        .voter-page-header h2 {
+            margin-bottom: 10px;
+        }
+
+        .voter-page-header p {
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           VOTER SERVICE MENU
+        ===================================================== */
+
+        .voter-service-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+
+        .voter-menu-card {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            padding: 17px;
+
+            background: #ffffff;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 12px;
+
+            text-decoration: none;
+
+            color: #222;
+
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+
+            transition: all 0.2s ease;
+        }
+
+
+        .voter-menu-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 18px rgba(0, 0, 0, 0.10);
+            border-color: #0d6efd;
+        }
+
+
+        .voter-menu-icon {
+            width: 45px;
+            height: 45px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: #f1f5f9;
+
+            border-radius: 10px;
+
+            font-size: 24px;
+
+            flex-shrink: 0;
+        }
+
+
+        .voter-menu-text strong {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+
+        .voter-menu-text small {
+            display: block;
+            color: #666;
+            line-height: 1.4;
+        }
+
+
+        /* =====================================================
+           DETAIL SECTIONS
+        ===================================================== */
+
+        .voter-detail-section {
+            display: none;
+
+            background: #ffffff;
+
+            margin: 25px 0;
+
+            padding: 25px;
+
+            border-radius: 14px;
+
+            border: 1px solid #e5e7eb;
+
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+
+        .voter-detail-section.active {
+            display: block;
+
+            animation: voterFadeIn 0.25s ease;
+        }
+
+
+        @keyframes voterFadeIn {
+
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+
+        .voter-detail-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            border-bottom: 1px solid #e5e7eb;
+
+            padding-bottom: 15px;
+
+            margin-bottom: 20px;
+        }
+
+
+        .voter-detail-title h2 {
+            margin: 0;
+        }
+
+
+        .back-voter-menu {
+            display: inline-block;
+
+            margin-bottom: 20px;
+
+            padding: 10px 16px;
+
+            background: #0d6efd;
+
+            color: #ffffff;
+
+            text-decoration: none;
+
+            border-radius: 8px;
+
+            font-weight: 600;
+        }
+
+
+        .back-voter-menu:hover {
+            opacity: 0.9;
+        }
+
+
+        .voter-detail-section h3 {
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+
+        .voter-detail-section p {
+            line-height: 1.7;
+        }
+
+
+        .voter-info-list {
+            padding-left: 22px;
+            line-height: 1.8;
+        }
+
+
+        .voter-info-list li {
+            margin-bottom: 7px;
+        }
+
+
+        /* =====================================================
+           OFFICIAL LINKS
+        ===================================================== */
+
+        .voter-official-links {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(230px, 1fr));
+
+            gap: 15px;
+
+            margin-top: 20px;
+        }
+
+
+        .voter-official-link {
+            display: block;
+
+            padding: 17px;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 10px;
+
+            text-decoration: none;
+
+            color: #222;
+
+            background: #fafafa;
+
+            transition: 0.2s ease;
+        }
+
+
+        .voter-official-link:hover {
+            border-color: #0d6efd;
+            background: #f8fbff;
+        }
+
+
+        .voter-official-link strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+
+        .voter-official-link small {
+            color: #666;
+            line-height: 1.5;
+        }
+
+
+        /* =====================================================
+           NOTICE
+        ===================================================== */
+
+        .voter-notice {
+            margin: 20px 0;
+
+            padding: 15px;
+
+            background: #fff8e1;
+
+            border-left: 4px solid #f59e0b;
+
+            border-radius: 7px;
+
+            line-height: 1.7;
+        }
+
+
+        .voter-success-notice {
+            margin: 20px 0;
+
+            padding: 15px;
+
+            background: #ecfdf5;
+
+            border-left: 4px solid #16a34a;
+
+            border-radius: 7px;
+
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           CONTACT
+        ===================================================== */
+
+        .voter-contact-box {
+            margin-top: 25px;
+
+            padding: 22px;
+
+            background: #f8fafc;
+
+            border-radius: 12px;
+
+            text-align: center;
+        }
+
+
+        .voter-contact-buttons {
+            display: flex;
+
+            justify-content: center;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 15px;
+        }
+
+
+        .voter-contact-button {
+            display: inline-block;
+
+            padding: 11px 18px;
+
+            border-radius: 8px;
+
+            text-decoration: none;
+
+            font-weight: 600;
+        }
+
+
+        .voter-call {
+            background: #0d6efd;
+            color: white;
+        }
+
+
+        .voter-whatsapp {
+            background: #16a34a;
+            color: white;
+        }
+
+
+        /* =====================================================
+           MOBILE
+        ===================================================== */
+
+        @media (max-width: 600px) {
+
+            .voter-service-menu {
+                grid-template-columns: 1fr;
+            }
+
+            .voter-detail-section {
+                padding: 18px;
+            }
+
+            .voter-detail-title {
+                align-items: flex-start;
+            }
+
+            .voter-detail-title h2 {
+                font-size: 21px;
+            }
+
+            .voter-menu-card {
+                padding: 14px;
+            }
+
+            .voter-official-links {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <div class="brand">
+
+            <a href="index.html">
+
+                <img src="logo.png"
+                     alt="AJ DIGITAL POINT Logo"
+                     class="site-logo">
+
+            </a>
+
+
+            <div class="brand-info">
+
+                <h1>
+                    AJ DIGITAL POINT
+                </h1>
+
+                <p>
+                    CSC & Online Digital Services
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <button
+            class="mobile-menu-btn"
+            id="menuButton"
+            onclick="toggleMenu()"
+            aria-label="Open Menu"
+            aria-expanded="false">
+
+            ☰
+
+        </button>
+
+    </div>
+
+
+    <nav id="main-nav" class="main-nav">
+
+        <a href="index.html">
+            🏠 Home
+        </a>
+
+        <a href="pan-services.html">
+            🪪 PAN Card
+        </a>
+
+        <a href="voter-services.html"
+           class="active">
+            🗳️ Voter Card
+        </a>
+
+        <a href="aadhaar-update.html">
+            🆔 Aadhaar
+        </a>
+
+        <a href="status-check.html">
+            🔎 Check Status
+        </a>
+
+        <a href="admin.html">
+            🔐 Admin Login
+        </a>
+
+    </nav>
+
+</header>
+
+
+<div class="top-info-bar">
+
+    <strong>
+        AJ DIGITAL POINT
+    </strong>
+
+    — Voter Card की महत्वपूर्ण Services
+
+</div>
+
+
+<main class="container">
+
+
+<!-- =====================================================
+     PAGE HEADER
+===================================================== -->
+
+<section class="voter-page-header">
+
+    <h2>
+        🗳️ Voter Card Services
+    </h2>
+
+    <p>
+        नीचे अपनी जरूरत की Voter Card service चुनें।
+        संबंधित जानकारी, documents और official Election Commission
+        links एक ही page पर उपलब्ध हैं।
+    </p>
+
+</section>
+
+
+<!-- =====================================================
+     VOTER SERVICE MENU
+===================================================== -->
+
+<section id="voter-menu">
+
+    <div class="voter-service-menu">
+
+
+        <a href="#new-voter"
+           class="voter-menu-card"
+           onclick="showVoterSection('new-voter'); return false;">
+
+            <span class="voter-menu-icon">
+                🆕
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    New Voter Registration
+                </strong>
+
+                <small>
+                    नया Voter ID बनवाएँ
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#correction"
+           class="voter-menu-card"
+           onclick="showVoterSection('correction'); return false;">
+
+            <span class="voter-menu-icon">
+                ✏️
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Voter Correction
+                </strong>
+
+                <small>
+                    Name, DOB और details correction
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#address"
+           class="voter-menu-card"
+           onclick="showVoterSection('address'); return false;">
+
+            <span class="voter-menu-icon">
+                🏠
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Address Change
+                </strong>
+
+                <small>
+                    Residence shifting
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#replacement"
+           class="voter-menu-card"
+           onclick="showVoterSection('replacement'); return false;">
+
+            <span class="voter-menu-icon">
+                🔄
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Voter ID Replacement
+                </strong>
+
+                <small>
+                    Lost / damaged EPIC
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#e-epic"
+           class="voter-menu-card"
+           onclick="showVoterSection('e-epic'); return false;">
+
+            <span class="voter-menu-icon">
+                📥
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    e-EPIC Download
+                </strong>
+
+                <small>
+                    Digital Voter ID
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#status"
+           class="voter-menu-card"
+           onclick="showVoterSection('status'); return false;">
+
+            <span class="voter-menu-icon">
+                🔎
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Application Status
+                </strong>
+
+                <small>
+                    Application track करें
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#search"
+           class="voter-menu-card"
+           onclick="showVoterSection('search'); return false;">
+
+            <span class="voter-menu-icon">
+                🧾
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Search Voter List
+                </strong>
+
+                <small>
+                    अपना नाम / EPIC खोजें
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#polling"
+           class="voter-menu-card"
+           onclick="showVoterSection('polling'); return false;">
+
+            <span class="voter-menu-icon">
+                🏫
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Polling Station / BLO
+                </strong>
+
+                <small>
+                    Booth और BLO details
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#deletion"
+           class="voter-menu-card"
+           onclick="showVoterSection('deletion'); return false;">
+
+            <span class="voter-menu-icon">
+                🗑️
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Deletion / Objection
+                </strong>
+
+                <small>
+                    Form 7 services
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#documents"
+           class="voter-menu-card"
+           onclick="showVoterSection('documents'); return false;">
+
+            <span class="voter-menu-icon">
+                📋
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Required Documents
+                </strong>
+
+                <small>
+                    जरूरी documents
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#eligibility"
+           class="voter-menu-card"
+           onclick="showVoterSection('eligibility'); return false;">
+
+            <span class="voter-menu-icon">
+                ℹ️
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Eligibility & Information
+                </strong>
+
+                <small>
+                    जरूरी जानकारी
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#official-links"
+           class="voter-menu-card"
+           onclick="showVoterSection('official-links'); return false;">
+
+            <span class="voter-menu-icon">
+                🔗
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Official ECI Links
+                </strong>
+
+                <small>
+                    Government portals
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#contact"
+           class="voter-menu-card"
+           onclick="showVoterSection('contact'); return false;">
+
+            <span class="voter-menu-icon">
+                📞
+            </span>
+
+            <span class="voter-menu-text">
+
+                <strong>
+                    Contact AJ DIGITAL POINT
+                </strong>
+
+                <small>
+                    Service assistance
+                </small>
+
+            </span>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     NEW VOTER
+===================================================== -->
+
+<section id="new-voter"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>🆕</span>
+
+        <h2>
+            New Voter Registration
+        </h2>
+
+    </div>
+
+
+    <p>
+        नए eligible voter के registration के लिए Election Commission
+        of India के Voters' Services Portal पर online application
+        किया जा सकता है।
+    </p>
+
+
+    <h3>
+        📋 Form 6
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            New voter registration के लिए सामान्यतः <strong>Form 6</strong>
+            उपयोग किया जाता है।
+        </li>
+
+        <li>
+            Applicant को Indian citizen और applicable eligibility
+            conditions पूरी करनी चाहिए।
+        </li>
+
+        <li>
+            Applicant को संबंधित constituency/area में ordinarily
+            resident होना चाहिए।
+        </li>
+
+        <li>
+            Application submit करने से पहले नाम, DOB और address
+            carefully check करें।
+        </li>
+
+    </ul>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/registration/form6"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🆕 New Voter Registration
+            </strong>
+
+            <small>
+                Election Commission का official Form 6 portal
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🗳️ Voters' Services Portal
+            </strong>
+
+            <small>
+                Official ECI Citizen Service Portal
+            </small>
+
+        </a>
+
+    </div>
+
+
+    <div class="voter-notice">
+
+        ⚠️ Registration की eligibility और document requirements
+        current official ECI instructions के अनुसार verify करें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CORRECTION
+===================================================== -->
+
+<section id="correction"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>✏️</span>
+
+        <h2>
+            Voter Card Correction
+        </h2>
+
+    </div>
+
+
+    <p>
+        Existing electoral roll/EPIC में गलत details को correct करने
+        के लिए Form 8 का उपयोग किया जाता है। :contentReference[oaicite:1]{index=1}
+    </p>
+
+
+    <h3>
+        ✏️ किन details में correction?
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>👤 Name</li>
+
+        <li>⚧️ Gender</li>
+
+        <li>🎂 Date of Birth / Age</li>
+
+        <li>👨‍👩‍👦 Relation Type / Relation Name</li>
+
+        <li>🏠 Address</li>
+
+        <li>📱 Mobile Number</li>
+
+        <li>🖼️ Photograph</li>
+
+    </ul>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                ✏️ Form 8 / Correction
+            </strong>
+
+            <small>
+                Official Voters' Services Portal
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/formspdf/Form_8_English.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                📄 Form 8 PDF
+            </strong>
+
+            <small>
+                Official Election Commission Form 8
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ADDRESS
+===================================================== -->
+
+<section id="address"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>🏠</span>
+
+        <h2>
+            Address Change / Shifting
+        </h2>
+
+    </div>
+
+
+    <p>
+        अगर voter अपना residence बदलता है, तो electoral roll में
+        address shifting के लिए Form 8 का उपयोग किया जा सकता है।
+        :contentReference[oaicite:2]{index=2}
+    </p>
+
+
+    <h3>
+        🏠 Address Update में
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            नए address की सही जानकारी दें।
+        </li>
+
+        <li>
+            Applicable address proof तैयार रखें।
+        </li>
+
+        <li>
+            Application submit करने से पहले address carefully check करें।
+        </li>
+
+        <li>
+            Approval के बाद electoral roll और EPIC details applicable
+            process के अनुसार update हो सकती हैं।
+        </li>
+
+    </ul>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🏠 Address Shifting - Form 8
+            </strong>
+
+            <small>
+                Official ECI Voters' Services Portal
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     REPLACEMENT
+===================================================== -->
+
+<section id="replacement"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>🔄</span>
+
+        <h2>
+            Voter ID Replacement
+        </h2>
+
+    </div>
+
+
+    <p>
+        Lost, damaged या replacement EPIC की जरूरत होने पर
+        applicable Form 8 service का उपयोग किया जा सकता है।
+        :contentReference[oaicite:3]{index=3}
+    </p>
+
+
+    <h3>
+        📌 Important
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            Replacement EPIC के लिए official ECI process follow करें।
+        </li>
+
+        <li>
+            Lost EPIC के मामले में current official requirements
+            check करें।
+        </li>
+
+        <li>
+            अगर details में correction भी चाहिए, तो applicable
+            Form 8 option चुनें।
+        </li>
+
+    </ul>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🔄 Replacement EPIC
+            </strong>
+
+            <small>
+                Official Voters' Services Portal
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/formspdf/Form_8_English.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                📄 Form 8
+            </strong>
+
+            <small>
+                Replacement EPIC के लिए official form
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     E-EPIC
+===================================================== -->
+
+<section id="e-epic"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>📥</span>
+
+        <h2>
+            e-EPIC Download
+        </h2>
+
+    </div>
+
+
+    <p>
+        e-EPIC आपके Electoral Photo Identity Card की digital copy है।
+        Official Voters' Services Portal से eligible electors इसे
+        download कर सकते हैं। :contentReference[oaicite:4]{index=4}
+    </p>
+
+
+    <div class="voter-success-notice">
+
+        ✅ e-EPIC download के लिए official ECI portal का ही उपयोग करें।
+
+    </div>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/home/e-epic-download"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                📥 Download e-EPIC
+            </strong>
+
+            <small>
+                Official digital Voter ID service
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🗳️ Voters' Services Portal
+            </strong>
+
+            <small>
+                Official ECI portal
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     STATUS
+===================================================== -->
+
+<section id="status"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>🔎</span>
+
+        <h2>
+            Voter Application Status
+        </h2>
+
+    </div>
+
+
+    <p>
+        Submitted voter registration/update applications का status
+        official Voters' Services Portal से track किया जा सकता है।
+        :contentReference[oaicite:5]{index=5}
+    </p>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🔎 Track Application Status
+            </strong>
+
+            <small>
+                Official ECI Citizen Service Portal
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SEARCH VOTER LIST
+===================================================== -->
+
+<section id="search"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>🧾</span>
+
+        <h2>
+            Search Name in Voter List
+        </h2>
+
+    </div>
+
+
+    <p>
+        Electoral Roll में अपना नाम, EPIC number या उपलब्ध details
+        के माध्यम से search किया जा सकता है। Official ECI search
+        service में EPIC, details और mobile based search options
+        उपलब्ध हैं। :contentReference[oaicite:6]{index=6}
+    </p>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://electoralsearch.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🧾 Search Your Name
+            </strong>
+
+            <small>
+                Official Electoral Search Portal
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🗳️ Voters' Services Portal
+            </strong>
+
+            <small>
+                Official ECI Citizen Service Portal
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     POLLING / BLO
+===================================================== -->
+
+<section id="polling"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>🏫</span>
+
+        <h2>
+            Polling Station / BLO Details
+        </h2>
+
+    </div>
+
+
+    <p>
+        Official voter services के माध्यम से polling station और
+        BLO details की जानकारी प्राप्त की जा सकती है। :contentReference[oaicite:7]{index=7}
+    </p>
+
+
+    <h3>
+        🏫 यहाँ क्या जानकारी मिल सकती है?
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            🏫 Polling Station details
+        </li>
+
+        <li>
+            👤 Booth Level Officer (BLO) information
+        </li>
+
+        <li>
+            🗳️ संबंधित electoral information
+        </li>
+
+    </ul>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🏫 Polling Station / BLO
+            </strong>
+
+            <small>
+                Official ECI Voters' Services Portal
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DELETION
+===================================================== -->
+
+<section id="deletion"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>🗑️</span>
+
+        <h2>
+            Deletion / Objection in Electoral Roll
+        </h2>
+
+    </div>
+
+
+    <p>
+        Existing electoral roll में name deletion या proposed
+        inclusion पर objection के लिए Form 7 service उपलब्ध है।
+        :contentReference[oaicite:8]{index=8}
+    </p>
+
+
+    <h3>
+        📋 Form 7
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            Electoral roll से name deletion के लिए applicable Form 7।
+        </li>
+
+        <li>
+            Duplicate, shifted या अन्य applicable cases में
+            current official procedure follow करें।
+        </li>
+
+        <li>
+            Objection submit करने से पहले सही details और supporting
+            information check करें।
+        </li>
+
+    </ul>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🗑️ Form 7 Service
+            </strong>
+
+            <small>
+                Official ECI Voters' Services Portal
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DOCUMENTS
+===================================================== -->
+
+<section id="documents"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>📋</span>
+
+        <h2>
+            Required Documents
+        </h2>
+
+    </div>
+
+
+    <p>
+        Required documents service और applicant की situation के
+        अनुसार अलग हो सकते हैं। Final submission से पहले official
+        ECI requirements जरूर check करें।
+    </p>
+
+
+    <h3>
+        🆕 New Registration
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            👤 Identity / personal details से संबंधित applicable proof
+        </li>
+
+        <li>
+            🎂 Age / Date of Birth proof जहाँ आवश्यक हो
+        </li>
+
+        <li>
+            🏠 Residence / address proof जहाँ आवश्यक हो
+        </li>
+
+        <li>
+            📱 Mobile number जहाँ online service में आवश्यक हो
+        </li>
+
+    </ul>
+
+
+    <h3>
+        ✏️ Correction / Address Change
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            जिस detail में correction चाहिए उसका supporting document
+            आवश्यक हो सकता है।
+        </li>
+
+        <li>
+            Address shifting के लिए applicable address proof रखा जा सकता है।
+        </li>
+
+        <li>
+            Form 8 में current official document requirements follow करें।
+        </li>
+
+    </ul>
+
+
+    <div class="voter-notice">
+
+        ⚠️ Documents की exact list case और service के अनुसार बदल सकती है।
+        इसलिए application submit करने से पहले official ECI portal पर
+        current requirements verify करें।
+
+    </div>
+
+
+    <div class="voter-official-links">
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                📋 Official Voter Services
+            </strong>
+
+            <small>
+                Current document requirements और forms
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/guidelines/Form-8_en.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                📄 Form 8 Guidelines
+            </strong>
+
+            <small>
+                Official Form 8 guidelines
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ELIGIBILITY
+===================================================== -->
+
+<section id="eligibility"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>ℹ️</span>
+
+        <h2>
+            Eligibility & Important Information
+        </h2>
+
+    </div>
+
+
+    <h3>
+        🗳️ सामान्य Voter Registration Eligibility
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            🇮🇳 Applicant Indian citizen होना चाहिए।
+        </li>
+
+        <li>
+            🎂 Applicable qualifying date पर 18 वर्ष या उससे अधिक
+            आयु की eligibility होनी चाहिए।
+        </li>
+
+        <li>
+            🏠 Applicant संबंधित constituency में ordinarily resident होना चाहिए।
+        </li>
+
+        <li>
+            ⚖️ Applicant electoral registration के लिए disqualified नहीं होना चाहिए।
+        </li>
+
+    </ul>
+
+
+    <div class="voter-success-notice">
+
+        ✅ Election Commission के अनुसार qualifying dates में
+        1 January, 1 April, 1 July और 1 October शामिल हैं।
+        Current eligibility हमेशा official ECI instructions से verify करें।
+        :contentReference[oaicite:9]{index=9}
+
+    </div>
+
+
+    <h3>
+        📌 Important
+    </h3>
+
+
+    <ul class="voter-info-list">
+
+        <li>
+            एक व्यक्ति का electoral registration सही और current
+            details के साथ होना चाहिए।
+        </li>
+
+        <li>
+            गलत information submit न करें।
+        </li>
+
+        <li>
+            Application submit करने से पहले सभी details carefully check करें।
+        </li>
+
+    </ul>
+
+</section>
+
+
+<!-- =====================================================
+     OFFICIAL LINKS
+===================================================== -->
+
+<section id="official-links"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>🔗</span>
+
+        <h2>
+            Official Election Commission Links
+        </h2>
+
+    </div>
+
+
+    <p>
+        Voter Card से संबंधित काम के लिए नीचे दिए गए official
+        Election Commission portals का उपयोग करें।
+    </p>
+
+
+    <div class="voter-official-links">
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🗳️ Voters' Services Portal
+            </strong>
+
+            <small>
+                Official ECI Citizen Service Portal
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://electoralsearch.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🔎 Electoral Search
+            </strong>
+
+            <small>
+                Voter list / EPIC search
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://www.eci.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🏛️ Election Commission of India
+            </strong>
+
+            <small>
+                Official ECI website
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/home/e-epic-download"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                📥 e-EPIC Download
+            </strong>
+
+            <small>
+                Digital Voter ID service
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/registration/form6"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🆕 Form 6
+            </strong>
+
+            <small>
+                New Voter Registration
+            </small>
+
+        </a>
+
+
+        <a class="voter-official-link"
+           href="https://voters.eci.gov.in/formspdf/Form_8_English.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                📄 Form 8
+            </strong>
+
+            <small>
+                Correction / Shifting / Replacement EPIC
+            </small>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact"
+         class="voter-detail-section">
+
+    <a href="#voter-menu"
+       class="back-voter-menu"
+       onclick="showVoterMenu(); return false;">
+
+        ← Back to Voter Services
+
+    </a>
+
+
+    <div class="voter-detail-title">
+
+        <span>📞</span>
+
+        <h2>
+            AJ DIGITAL POINT - Voter Service Assistance
+        </h2>
+
+    </div>
+
+
+    <div class="voter-contact-box">
+
+        <h3>
+            📍 Address
+        </h3>
+
+        <p>
+
+            <strong>
+                AJ DIGITAL POINT
+            </strong>
+
+            <br>
+
+            Jalalpur Kalan,
+
+            <br>
+
+            Jind (126102), Haryana
+
+        </p>
+
+
+        <h3>
+            📞 Contact
+        </h3>
+
+        <p>
+            8053620341
+        </p>
+
+
+        <div class="voter-contact-buttons">
+
+            <a href="tel:8053620341"
+               class="voter-contact-button voter-call">
+
+                📞 Call Now
+
+            </a>
+
+
+            <a href="https://wa.me/918053620341"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="voter-contact-button voter-whatsapp">
+
+                💬 WhatsApp
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DEFAULT INFORMATION
+===================================================== -->
+
+<section id="voter-default-info"
+         class="voter-detail-section active">
+
+    <div class="voter-detail-title">
+
+        <span>📌</span>
+
+        <h2>
+            Voter Card की मुख्य Services
+        </h2>
+
+    </div>
+
+
+    <p>
+        ऊपर दी गई किसी भी service पर click करके उसकी पूरी
+        जानकारी खोलें।
+    </p>
+
+
+    <ul class="voter-info-list">
+
+        <li>🆕 New Voter Registration</li>
+
+        <li>✏️ Voter Correction</li>
+
+        <li>🏠 Address Change / Shifting</li>
+
+        <li>🔄 Replacement EPIC</li>
+
+        <li>📥 e-EPIC Download</li>
+
+        <li>🔎 Application Status</li>
+
+        <li>🧾 Search Voter List</li>
+
+        <li>🏫 Polling Station / BLO</li>
+
+        <li>🗑️ Deletion / Objection</li>
+
+        <li>📋 Required Documents</li>
+
+        <li>ℹ️ Eligibility & Information</li>
+
+        <li>🔗 Official ECI Links</li>
+
+    </ul>
+
+
+    <div class="voter-success-notice">
+
+        ✅ अपनी जरूरत की service ऊपर से select करें।
+        सभी details इसी page पर खुलेंगी।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DISCLAIMER
+===================================================== -->
+
+<section class="disclaimer">
+
+    <strong>
+        Disclaimer:
+    </strong>
+
+    AJ DIGITAL POINT एक private digital service assistance
+    website है।
+
+    यह Election Commission of India की official website नहीं है।
+
+    सभी applications और official transactions संबंधित
+    Election Commission portals पर किए जाते हैं।
+
+    Official portals की eligibility, documents, forms और
+    procedures समय के साथ बदल सकते हैं।
+
+    Final submission से पहले official ECI information जरूर check करें।
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-inner">
+
+        <h2>
+            AJ DIGITAL POINT
+        </h2>
+
+        <p>
+            CSC & Online Digital Services
+        </p>
+
+        <p>
+            Jalalpur Kalan, Jind (126102), Haryana
+        </p>
+
+        <p>
+            📞 8053620341
+        </p>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="pan-services.html">
+                PAN Card
+            </a>
+
+            <a href="voter-services.html">
+                Voter Card
+            </a>
+
+            <a href="aadhaar-update.html">
+                Aadhaar
+            </a>
+
+            <a href="status-check.html">
+                Check Status
+            </a>
+
+            <a href="admin.html">
+                Admin
+            </a>
+
+        </div>
+
+
+        <hr>
+
+
+        <p>
+            © 2026 AJ DIGITAL POINT. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     VOTER SECTION NAVIGATION SCRIPT
+===================================================== -->
+
+<script>
+
+function showVoterSection(sectionId) {
+
+    const sections =
+        document.querySelectorAll(".voter-detail-section");
+
+
+    sections.forEach(function(section) {
+
+        section.classList.remove("active");
+
+    });
+
+
+    const selected =
+        document.getElementById(sectionId);
+
+
+    if (selected) {
+
+        selected.classList.add("active");
+
+    }
+
+
+    const menu =
+        document.getElementById("voter-menu");
+
+
+    if (menu) {
+
+        menu.style.display = "block";
+
+    }
+
+
+    if (history.replaceState) {
+
+        history.replaceState(
+            null,
+            "",
+            window.location.pathname + "#" + sectionId
+        );
+
+    }
+
+
+    setTimeout(function() {
+
+        if (selected) {
+
+            selected.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+        }
+
+    }, 100);
+
+}
+
+
+function showVoterMenu() {
+
+    const sections =
+        document.querySelectorAll(".voter-detail-section");
+
+
+    sections.forEach(function(section) {
+
+        section.classList.remove("active");
+
+    });
+
+
+    const defaultInfo =
+        document.getElementById("voter-default-info");
+
+
+    if (defaultInfo) {
+
+        defaultInfo.classList.add("active");
+
+    }
+
+
+    const menu =
+        document.getElementById("voter-menu");
+
+
+    if (menu) {
+
+        menu.style.display = "block";
+
+    }
+
+
+    if (history.replaceState) {
+
+        history.replaceState(
+            null,
+            "",
+            window.location.pathname
+        );
+
+    }
+
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+}
+
+
+function openVoterSectionFromHash() {
+
+    const hash =
+        window.location.hash;
+
+
+    if (!hash) {
+
+        return;
+
+    }
+
+
+    const sectionId =
+        hash.substring(1);
+
+
+    const section =
+        document.getElementById(sectionId);
+
+
+    if (
+        section &&
+        section.classList.contains("voter-detail-section")
+    ) {
+
+        showVoterSection(sectionId);
+
+    }
+
+}
+
+
+window.addEventListener(
+    "load",
+    openVoterSectionFromHash
+);
+
+
+window.addEventListener(
+    "hashchange",
+    openVoterSectionFromHash
+);
+
+
+/* =====================================================
+   MOBILE MENU
+===================================================== */
+
+function toggleMenu() {
+
+    const nav =
+        document.getElementById("main-nav");
+
+
+    const button =
+        document.getElementById("menuButton");
+
+
+    nav.classList.toggle("mobile-show");
+
+
+    const isOpen =
+        nav.classList.contains("mobile-show");
+
+
+    button.innerHTML =
+        isOpen ? "✕" : "☰";
+
+
+    button.setAttribute(
+        "aria-expanded",
+        isOpen ? "true" : "false"
+    );
+
+}
+
+
+document
+    .querySelectorAll("#main-nav a")
+    .forEach(function(link) {
+
+        link.addEventListener(
+            "click",
+            function() {
+
+                const nav =
+                    document.getElementById("main-nav");
+
+
+                const button =
+                    document.getElementById("menuButton");
+
+
+                nav.classList.remove(
+                    "mobile-show"
+                );
+
+
+                button.innerHTML =
+                    "☰";
+
+
+                button.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
+
+            }
+        );
+
+    });
+
+</script>
+
+
+</body>
+
+</html>
