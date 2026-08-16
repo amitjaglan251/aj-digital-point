@@ -1,15 +1,11 @@
 /* =====================================================
-   AJ DIGITAL POINT
-   Compact Sarkari Portal Style
+   RESET
 ===================================================== */
 
-
-/* ================= RESET ================= */
-
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
@@ -24,7 +20,7 @@ body {
         Helvetica,
         sans-serif;
 
-    background: #f1f3f6;
+    background: #f3f6f9;
 
     color: #222;
 
@@ -32,33 +28,13 @@ body {
 }
 
 
+/* =====================================================
+   LINKS
+===================================================== */
+
 a {
     text-decoration: none;
     color: inherit;
-}
-
-
-/* ================= SKIP ================= */
-
-.skip-link {
-    position: absolute;
-
-    left: -9999px;
-
-    top: 10px;
-
-    background: #000;
-
-    color: #fff;
-
-    padding: 10px 15px;
-
-    z-index: 9999;
-}
-
-
-.skip-link:focus {
-    left: 10px;
 }
 
 
@@ -67,29 +43,36 @@ a {
 ===================================================== */
 
 .site-header {
-    background: #fff;
+    background: #ffffff;
 
-    border-bottom: 1px solid #ddd;
+    border-bottom:
+        1px solid #d9dfe5;
 
     box-shadow:
-        0 2px 8px rgba(0,0,0,0.08);
+        0 2px 8px rgba(0, 0, 0, 0.08);
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
 }
 
 
 .header-inner {
+
     max-width: 1100px;
 
     margin: auto;
 
-    min-height: 90px;
+    padding:
+        8px 15px;
 
     display: flex;
 
     align-items: center;
 
     justify-content: space-between;
-
-    padding: 10px 15px;
 }
 
 
@@ -98,11 +81,12 @@ a {
 ===================================================== */
 
 .brand {
+
     display: flex;
 
     align-items: center;
 
-    gap: 12px;
+    gap: 10px;
 }
 
 
@@ -113,14 +97,13 @@ a {
 }
 
 
-/* =====================================================
-   LOGO
-===================================================== */
+/* छोटा Logo */
 
 .site-logo {
-    width: 65px;
 
-    height: 65px;
+    width: 52px;
+
+    height: 52px;
 
     object-fit: contain;
 
@@ -128,63 +111,51 @@ a {
 }
 
 
-/* =====================================================
-   BRAND TEXT
-===================================================== */
-
 .brand-info h1 {
-    margin: 0;
 
-    font-size: 25px;
-
-    color: #124e9e;
-
-    font-weight: 800;
+    font-size: 22px;
 
     line-height: 1.2;
+
+    color: #0d6efd;
+
+    font-weight: 800;
 }
 
 
 .brand-info p {
-    margin: 3px 0 0;
 
-    font-size: 13px;
+    font-size: 12px;
 
-    color: #444;
+    color: #555;
+
+    margin-top: 2px;
 }
 
 
 /* =====================================================
-   MENU BUTTON
+   MOBILE MENU BUTTON
 ===================================================== */
 
 .mobile-menu-btn {
-    display: block;
+
+    display: none;
 
     border: none;
 
-    background: #104b9e;
+    background: #0d6efd;
 
-    color: #fff;
+    color: #ffffff;
 
-    font-size: 24px;
+    width: 42px;
 
-    width: 45px;
-
-    height: 42px;
+    height: 38px;
 
     border-radius: 5px;
 
+    font-size: 23px;
+
     cursor: pointer;
-
-    line-height: 42px;
-
-    padding: 0;
-}
-
-
-.mobile-menu-btn:hover {
-    background: #08366f;
 }
 
 
@@ -193,140 +164,96 @@ a {
 ===================================================== */
 
 .main-nav {
-    display: none;
 
     max-width: 1100px;
 
-    margin: 0 auto;
+    margin: auto;
 
-    background: #104b9e;
+    display: flex;
 
-    flex-direction: column;
+    justify-content: center;
 
-    align-items: stretch;
+    flex-wrap: wrap;
 
     border-top:
-        1px solid
-        rgba(255,255,255,0.2);
-}
-
-
-.main-nav.mobile-show {
-    display: flex;
+        1px solid #eeeeee;
 }
 
 
 .main-nav a {
-    color: #fff;
 
-    font-size: 16px;
+    padding:
+        9px 14px;
 
-    font-weight: 700;
+    font-size: 14px;
 
-    padding: 13px 18px;
+    font-weight: 600;
 
-    text-align: left;
+    color: #222;
 
-    border-bottom:
-        1px solid
-        rgba(255,255,255,0.15);
+    border-right:
+        1px solid #eeeeee;
 
-    transition: 0.2s;
+    transition:
+        0.2s ease;
+}
+
+
+.main-nav a:first-child {
+
+    border-left:
+        1px solid #eeeeee;
 }
 
 
 .main-nav a:hover {
-    background: #08366f;
 
-    color: #fff;
+    background: #0d6efd;
+
+    color: #ffffff;
+}
+
+
+.main-nav a.active {
+
+    background: #0d6efd;
+
+    color: #ffffff;
 }
 
 
 /* =====================================================
-   WELCOME
+   TOP INFO BAR
 ===================================================== */
 
-.welcome-bar {
+.top-info-bar {
+
     max-width: 1100px;
 
-    margin: 12px auto;
+    margin:
+        12px auto 0;
 
-    background: #fff3cd;
+    background:
+        #fff3cd;
 
-    border: 1px solid #efd98d;
+    border:
+        1px solid #ffe69c;
 
-    color: #5b4500;
+    color:
+        #664d03;
 
-    text-align: center;
-
-    padding: 10px;
-
-    font-size: 15px;
-}
-
-
-.welcome-bar strong {
-    color: #b00000;
-}
-
-
-/* =====================================================
-   NOTICE
-===================================================== */
-
-.notice-section {
-    max-width: 1100px;
-
-    margin: 12px auto;
-
-    border: 1px solid #aaa;
-
-    background: #fff;
-}
-
-
-.notice-title {
-    background: #075db8;
-
-    color: #fff;
-
-    text-align: center;
-
-    padding: 9px;
-
-    font-size: 17px;
-
-    font-weight: bold;
-}
-
-
-.notice-links {
-    display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-}
-
-
-.notice-links a {
-    text-align: center;
-
-    padding: 10px 6px;
-
-    border-right: 1px solid #ddd;
-
-    color: #0046a0;
-
-    font-weight: bold;
+    padding:
+        8px 12px;
 
     font-size: 14px;
+
+    text-align: center;
 }
 
 
-.notice-links a:hover {
-    background: #edf4ff;
+.top-info-bar strong {
 
-    color: #d00000;
+    color: #0d6efd;
 }
 
 
@@ -335,456 +262,399 @@ a {
 ===================================================== */
 
 .container {
-    width: 100%;
 
     max-width: 1100px;
 
-    margin: auto;
+    margin:
+        12px auto 30px;
 
-    padding: 0 8px 35px;
+    padding:
+        0 12px;
 }
 
 
 /* =====================================================
-   QUICK BOXES
+   PAGE TITLE
 ===================================================== */
 
-.quick-section {
-    margin: 14px 0;
-}
+.page-title-box {
 
+    background: #ffffff;
 
-.quick-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(6, 1fr);
-
-    gap: 8px;
-}
-
-
-.quick-box {
-    min-height: 105px;
-
-    color: #fff;
+    border:
+        1px solid #dfe3e8;
 
     text-align: center;
 
+    padding:
+        18px 15px;
+
+    margin-bottom:
+        14px;
+
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+.page-title-box h2 {
+
+    font-size: 24px;
+
+    color: #0d6efd;
+
+    margin-bottom:
+        4px;
+}
+
+
+.page-title-box p {
+
+    color: #555;
+
+    font-size: 14px;
+}
+
+
+/* =====================================================
+   SERVICE SECTION
+===================================================== */
+
+.service-section {
+
+    background: #ffffff;
+
+    margin-bottom:
+        14px;
+
+    border:
+        1px solid #dfe3e8;
+
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+/* =====================================================
+   SECTION TITLE
+===================================================== */
+
+.section-title {
+
+    color: #ffffff;
+
+    padding:
+        9px 13px;
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+
+.section-title.blue {
+    background: #0d6efd;
+}
+
+
+.section-title.orange {
+    background: #f57c00;
+}
+
+
+.section-title.green {
+    background: #198754;
+}
+
+
+.section-title.purple {
+    background: #6f42c1;
+}
+
+
+.section-title.teal {
+    background: #00897b;
+}
+
+
+.section-title.red {
+    background: #dc3545;
+}
+
+
+.section-title.dark-green {
+    background: #157347;
+}
+
+
+/* =====================================================
+   SERVICE LIST
+===================================================== */
+
+.service-list {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 8px;
+
+    padding: 10px;
+}
+
+
+.service-list a {
+
     display: flex;
 
-    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+    padding:
+        10px 12px;
+
+    border:
+        1px solid #dfe3e8;
+
+    background:
+        #fafbfc;
+
+    border-radius: 4px;
+
+    transition:
+        0.2s ease;
+}
+
+
+.service-list a:hover {
+
+    background:
+        #eaf3ff;
+
+    border-color:
+        #0d6efd;
+
+    transform:
+        translateY(-1px);
+}
+
+
+/* =====================================================
+   SERVICE ICON
+===================================================== */
+
+.service-icon {
+
+    width: 38px;
+
+    height: 38px;
+
+    min-width: 38px;
+
+    display: flex;
 
     align-items: center;
 
     justify-content: center;
 
-    padding: 8px 5px;
-
-    border-radius: 4px;
-
-    transition: 0.2s;
-
-    box-shadow:
-        0 2px 5px
-        rgba(0,0,0,0.12);
-}
-
-
-.quick-box:hover {
-    transform: translateY(-2px);
-
-    box-shadow:
-        0 4px 10px
-        rgba(0,0,0,0.2);
-}
-
-
-.quick-icon {
-    font-size: 26px;
-
-    margin-bottom: 3px;
-}
-
-
-.quick-box strong {
-    font-size: 14px;
-}
-
-
-.quick-box small {
-    font-size: 11px;
-
-    margin-top: 3px;
-}
-
-
-.box-blue {
-    background: #1267dc;
-}
-
-
-.box-green {
-    background: #168c57;
-}
-
-
-.box-red {
-    background: #dc3545;
-}
-
-
-.box-orange {
-    background: #ff7a12;
-}
-
-
-.box-purple {
-    background: #7043c4;
-}
-
-
-.box-teal {
-    background: #078f96;
-}
-
-
-/* =====================================================
-   SEARCH
-===================================================== */
-
-.search-section {
-    background: #fff;
-
-    border: 1px solid #ddd;
-
-    padding: 14px;
-
-    margin: 15px 0;
-
-    box-shadow:
-        0 2px 5px
-        rgba(0,0,0,0.06);
-}
-
-
-#serviceSearch {
-    width: 100%;
-
-    padding: 12px 14px;
-
-    border: 1px solid #aaa;
-
-    border-radius: 4px;
-
-    font-size: 15px;
-
-    outline: none;
-}
-
-
-#serviceSearch:focus {
-    border-color: #1267dc;
-
-    box-shadow:
-        0 0 0 2px
-        rgba(18,103,220,0.12);
-}
-
-
-/* =====================================================
-   JOIN
-===================================================== */
-
-.join-section {
-    margin: 15px 0;
-
-    border: 1px solid #aaa;
-
-    background: #fff;
-}
-
-
-.join-title {
-    background: #222c70;
-
-    color: #fff;
-
-    text-align: center;
-
-    padding: 8px;
-
-    font-weight: bold;
-
-    font-size: 16px;
-}
-
-
-.join-links {
-    display: grid;
-
-    grid-template-columns:
-        repeat(6, 1fr);
-}
-
-
-.join-links a {
-    padding: 9px 4px;
-
-    text-align: center;
-
-    color: #003fa3;
-
-    font-weight: bold;
-
-    font-size: 13px;
-
-    border-right: 1px solid #ddd;
-}
-
-
-.join-links a:hover {
-    background: #eef4ff;
-
-    color: #d00000;
-}
-
-
-/* =====================================================
-   PORTAL SECTIONS
-===================================================== */
-
-.portal-section {
-    background: #fff;
-
-    border: 1px solid #aaa;
-
-    margin: 16px 0;
-
-    overflow: hidden;
-}
-
-
-/* =====================================================
-   PORTAL HEADING
-===================================================== */
-
-.portal-heading {
-    min-height: 48px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    padding: 7px 14px;
-
-    color: #fff;
-}
-
-
-.portal-heading h2 {
-    font-size: 18px;
-
-    margin: 0;
-}
-
-
-.portal-heading a {
-    color: #fff;
-
-    font-size: 13px;
-
-    font-weight: bold;
-
     background:
-        rgba(0,0,0,0.18);
+        #eef4ff;
 
-    padding: 4px 8px;
+    border-radius: 50%;
 
-    border-radius: 3px;
-}
-
-
-.blue-heading {
-    background: #0965bd;
-}
-
-
-.green-heading {
-    background: #168a50;
-}
-
-
-.red-heading {
-    background: #c92e3c;
-}
-
-
-.orange-heading {
-    background: #ef7411;
-}
-
-
-.purple-heading {
-    background: #6840b5;
-}
-
-
-.teal-heading {
-    background: #087f86;
+    font-size: 21px;
 }
 
 
 /* =====================================================
-   PORTAL LINKS
+   SERVICE TEXT
 ===================================================== */
 
-.portal-links {
-    display: grid;
+.service-list strong {
 
-    grid-template-columns:
-        repeat(2, 1fr);
-}
-
-
-.portal-links a {
     display: block;
 
-    padding: 10px 14px;
-
-    border-bottom: 1px solid #ddd;
-
-    border-right: 1px solid #ddd;
-
-    color: #003fc4;
+    color: #0d6efd;
 
     font-size: 15px;
 
-    font-weight: 600;
-
-    background: #fff;
-
-    transition: 0.15s;
+    line-height: 1.3;
 }
 
 
-.portal-links a:hover {
-    background: #f0f6ff;
+.service-list small {
 
-    color: #d00000;
+    display: block;
 
-    padding-left: 18px;
+    color: #666;
+
+    font-size: 12px;
+
+    margin-top: 2px;
+
+    line-height: 1.4;
 }
 
 
 /* =====================================================
-   STATUS
+   INFORMATION SECTION
 ===================================================== */
 
-.status-panel {
-    background: #fff;
+.info-section {
 
-    border: 1px solid #aaa;
+    background: #ffffff;
 
-    margin: 18px 0;
+    border:
+        1px solid #dfe3e8;
 
-    padding: 18px;
+    margin-bottom:
+        14px;
 
-    text-align: center;
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, 0.05);
 }
 
 
-.status-title {
-    background: #075db8;
+.info-title {
 
-    color: #fff;
+    background:
+        #0d6efd;
 
-    font-size: 19px;
+    color:
+        #ffffff;
 
-    font-weight: bold;
+    padding:
+        10px 13px;
 
-    padding: 10px;
+    font-size:
+        18px;
+
+    font-weight:
+        700;
+}
+
+
+.warning-title {
+
+    background:
+        #dc3545;
+}
+
+
+.info-content {
+
+    padding:
+        14px;
+}
+
+
+.info-content p {
+
+    font-size:
+        14px;
+
+    margin-bottom:
+        12px;
+
+    color:
+        #444;
+}
+
+
+.info-content h3 {
+
+    font-size:
+        16px;
 
     margin:
-        -18px -18px 14px;
-}
+        15px 0 8px;
 
-
-.status-panel p {
-    font-size: 15px;
-
-    margin-bottom: 13px;
-}
-
-
-.status-button {
-    display: inline-block;
-
-    background: #075db8;
-
-    color: #fff;
-
-    padding: 9px 18px;
-
-    border-radius: 4px;
-
-    font-weight: bold;
-
-    font-size: 14px;
-}
-
-
-.status-button:hover {
-    background: #043e7c;
+    color:
+        #333;
 }
 
 
 /* =====================================================
-   ABOUT
+   INFORMATION LIST
+   यह clickable नहीं है
 ===================================================== */
 
-.about-panel {
-    background: #fff;
+.info-list {
 
-    border: 1px solid #aaa;
+    list-style:
+        none;
 
-    margin: 18px 0;
-
-    padding: 18px;
-}
-
-
-.about-panel h2 {
-    background: #104e9f;
-
-    color: #fff;
-
-    padding: 9px 13px;
+    padding:
+        0;
 
     margin:
-        -18px -18px 15px;
-
-    font-size: 19px;
+        10px 0 15px;
 }
 
 
-.about-panel p {
-    margin-bottom: 10px;
+.info-list li {
 
-    font-size: 15px;
+    padding:
+        9px 12px;
+
+    margin-bottom:
+        6px;
+
+    background:
+        #f8f9fa;
+
+    border-left:
+        4px solid #0d6efd;
+
+    border-radius:
+        4px;
+
+    color:
+        #333;
+
+    font-size:
+        14px;
+
+    font-weight:
+        500;
 }
 
 
-.important-text {
-    background: #fff3cd;
+.info-list li:hover {
 
-    border: 1px solid #efd68b;
+    background:
+        #f1f5f9;
+}
 
-    padding: 9px;
 
-    color: #6b5100;
+/* =====================================================
+   NOTICE
+===================================================== */
+
+.notice {
+
+    background:
+        #fff3cd;
+
+    border:
+        1px solid #ffe69c;
+
+    color:
+        #664d03;
+
+    padding:
+        10px 12px;
+
+    border-radius:
+        4px;
+
+    font-size:
+        13px;
+
+    margin-top:
+        12px;
 }
 
 
@@ -792,69 +662,168 @@ a {
    CONTACT
 ===================================================== */
 
-.contact-panel {
-    background: #fff;
+.contact-section {
 
-    border: 1px solid #aaa;
+    background:
+        #ffffff;
 
-    margin: 18px 0;
+    border:
+        1px solid #dfe3e8;
 
-    overflow: hidden;
+    margin-bottom:
+        14px;
 }
 
 
-.contact-content {
-    display: grid;
+.contact-title {
+
+    background:
+        #198754;
+
+    color:
+        #ffffff;
+
+    font-size:
+        18px;
+
+    font-weight:
+        700;
+
+    padding:
+        10px 13px;
+}
+
+
+.contact-grid {
+
+    display:
+        grid;
 
     grid-template-columns:
         repeat(3, 1fr);
+
+    gap:
+        10px;
+
+    padding:
+        12px;
 }
 
 
-.contact-content > div {
-    padding: 18px;
+.contact-card {
 
-    border-right: 1px solid #ddd;
+    border:
+        1px solid #dfe3e8;
 
-    text-align: center;
+    padding:
+        15px;
+
+    text-align:
+        center;
+
+    background:
+        #fafbfc;
+
+    border-radius:
+        5px;
 }
 
 
-.contact-content h3 {
-    color: #124e9e;
+.contact-icon {
 
-    margin-bottom: 6px;
+    font-size:
+        28px;
 
-    font-size: 17px;
+    margin-bottom:
+        5px;
 }
 
 
-.contact-content p {
-    margin-bottom: 10px;
+.contact-card h3 {
 
-    font-size: 14px;
+    font-size:
+        16px;
+
+    margin-bottom:
+        5px;
 }
 
+
+.contact-card p {
+
+    font-size:
+        13px;
+
+    color:
+        #555;
+
+    margin-bottom:
+        10px;
+}
+
+
+/* =====================================================
+   CONTACT BUTTON
+===================================================== */
 
 .contact-button {
-    display: inline-block;
 
-    background: #1267dc;
+    display:
+        inline-block;
 
-    color: #fff;
+    background:
+        #0d6efd;
 
-    padding: 7px 14px;
+    color:
+        #ffffff;
 
-    border-radius: 4px;
+    padding:
+        7px 14px;
 
-    font-weight: bold;
+    border-radius:
+        4px;
 
-    font-size: 14px;
+    font-size:
+        13px;
+
+    font-weight:
+        600;
 }
 
 
 .contact-button:hover {
-    background: #084a9c;
+
+    background:
+        #0b5ed7;
+}
+
+
+/* =====================================================
+   DISCLAIMER
+===================================================== */
+
+.disclaimer {
+
+    background:
+        #f8f9fa;
+
+    border:
+        1px solid #dfe3e8;
+
+    padding:
+        13px;
+
+    margin-bottom:
+        15px;
+
+    color:
+        #555;
+
+    font-size:
+        12px;
+
+    line-height:
+        1.6;
 }
 
 
@@ -863,114 +832,119 @@ a {
 ===================================================== */
 
 footer {
-    background: #172b4d;
 
-    color: #fff;
+    background:
+        #212529;
 
-    margin-top: 25px;
+    color:
+        #ffffff;
 
-    padding: 25px 12px;
-
-    text-align: center;
+    margin-top:
+        20px;
 }
 
 
 .footer-inner {
-    max-width: 1100px;
 
-    margin: auto;
+    max-width:
+        1100px;
+
+    margin:
+        auto;
+
+    padding:
+        25px 15px;
+
+    text-align:
+        center;
 }
 
 
 .footer-inner h2 {
-    font-size: 22px;
 
-    margin-bottom: 4px;
+    color:
+        #ffffff;
+
+    font-size:
+        20px;
+
+    margin-bottom:
+        4px;
 }
 
 
 .footer-inner p {
-    margin: 4px 0;
 
-    font-size: 14px;
-}
+    color:
+        #cccccc;
 
+    font-size:
+        13px;
 
-.footer-links {
-    display: flex;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-    gap: 8px 18px;
-
-    margin: 15px 0;
-}
-
-
-.footer-links a {
-    color: #fff;
-
-    font-weight: bold;
-
-    font-size: 14px;
-}
-
-
-.footer-links a:hover {
-    color: #ffd43b;
+    margin:
+        4px 0;
 }
 
 
 .footer-inner hr {
-    border: 0;
+
+    border:
+        0;
 
     border-top:
-        1px solid
-        rgba(255,255,255,0.3);
+        1px solid #444;
 
-    margin: 15px 0;
+    margin:
+        15px 0;
 }
 
 
 /* =====================================================
-   TABLET
+   FOOTER LINKS
 ===================================================== */
 
-@media (max-width: 900px) {
+.footer-links {
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        5px;
+
+    margin:
+        12px 0;
+}
 
 
-    .quick-grid {
-        grid-template-columns:
-            repeat(3, 1fr);
-    }
+.footer-links a {
+
+    color:
+        #ffffff;
+
+    background:
+        #343a40;
+
+    padding:
+        5px 10px;
+
+    border-radius:
+        3px;
+
+    font-size:
+        12px;
+}
 
 
-    .notice-links {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
+.footer-links a:hover {
 
-
-    .join-links {
-        grid-template-columns:
-            repeat(3, 1fr);
-    }
-
-
-    .contact-content {
-        grid-template-columns:
-            1fr;
-    }
-
-
-    .contact-content > div {
-        border-right: none;
-
-        border-bottom: 1px solid #ddd;
-    }
-
+    background:
+        #0d6efd;
 }
 
 
@@ -978,213 +952,333 @@ footer {
    MOBILE
 ===================================================== */
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
 
 
     .header-inner {
-        min-height: 78px;
 
-        padding: 8px 12px;
+        padding:
+            7px 10px;
     }
 
 
     .site-logo {
-        width: 55px;
 
-        height: 55px;
+        width:
+            44px;
+
+        height:
+            44px;
     }
 
 
     .brand {
-        gap: 9px;
+
+        gap:
+            8px;
     }
 
 
     .brand-info h1 {
-        font-size: 19px;
+
+        font-size:
+            17px;
     }
 
 
     .brand-info p {
-        font-size: 11px;
+
+        font-size:
+            10px;
     }
 
 
     .mobile-menu-btn {
-        width: 42px;
 
-        height: 40px;
-
-        line-height: 40px;
-
-        font-size: 22px;
+        display:
+            block;
     }
 
 
-    .welcome-bar {
-        margin: 8px;
+    .main-nav {
 
-        font-size: 13px;
+        display:
+            none;
 
-        padding: 8px;
+        flex-direction:
+            column;
+
+        border-top:
+            1px solid #eeeeee;
+
+        width:
+            100%;
     }
 
 
-    .notice-section {
-        margin: 8px;
+    .main-nav.mobile-show {
+
+        display:
+            flex;
     }
 
 
-    .notice-links {
-        grid-template-columns: 1fr;
+    .main-nav a {
+
+        width:
+            100%;
+
+        text-align:
+            left;
+
+        padding:
+            10px 15px;
+
+        border:
+            0;
+
+        border-bottom:
+            1px solid #eeeeee;
     }
 
 
-    .notice-links a {
-        border-right: none;
+    .main-nav a:first-child {
 
-        border-bottom: 1px solid #ddd;
+        border-left:
+            0;
+    }
 
-        padding: 9px;
+
+    .top-info-bar {
+
+        margin:
+            8px 8px 0;
+
+        font-size:
+            12px;
+
+        padding:
+            7px;
     }
 
 
     .container {
+
         padding:
-            0 7px 25px;
+            0 8px;
+
+        margin-top:
+            8px;
     }
 
 
-    .quick-grid {
+    .page-title-box {
+
+        padding:
+            14px 10px;
+    }
+
+
+    .page-title-box h2 {
+
+        font-size:
+            20px;
+    }
+
+
+    .page-title-box p {
+
+        font-size:
+            12px;
+    }
+
+
+    .section-title {
+
+        font-size:
+            15px;
+
+        padding:
+            8px 10px;
+    }
+
+
+    .service-list {
+
         grid-template-columns:
-            repeat(2, 1fr);
+            1fr;
 
-        gap: 7px;
+        padding:
+            7px;
+
+        gap:
+            6px;
     }
 
 
-    .quick-box {
-        min-height: 95px;
+    .service-list a {
+
+        padding:
+            9px;
     }
 
 
-    .quick-icon {
-        font-size: 23px;
+    .service-list strong {
+
+        font-size:
+            14px;
     }
 
 
-    .quick-box strong {
-        font-size: 13px;
+    .service-list small {
+
+        font-size:
+            11px;
     }
 
 
-    .quick-box small {
-        font-size: 10px;
+    .service-icon {
+
+        width:
+            34px;
+
+        height:
+            34px;
+
+        min-width:
+            34px;
+
+        font-size:
+            18px;
     }
 
 
-    .join-links {
+    .info-title {
+
+        font-size:
+            16px;
+
+        padding:
+            9px 10px;
+    }
+
+
+    .info-content {
+
+        padding:
+            11px;
+    }
+
+
+    .info-content p {
+
+        font-size:
+            13px;
+    }
+
+
+    .info-content h3 {
+
+        font-size:
+            14px;
+    }
+
+
+    .info-list li {
+
+        font-size:
+            13px;
+
+        padding:
+            8px 10px;
+    }
+
+
+    .notice {
+
+        font-size:
+            12px;
+
+        padding:
+            9px;
+    }
+
+
+    .contact-grid {
+
         grid-template-columns:
-            repeat(2, 1fr);
+            1fr;
+
+        padding:
+            8px;
     }
 
 
-    .portal-links {
-        grid-template-columns: 1fr;
+    .contact-card {
+
+        padding:
+            12px;
     }
 
 
-    .portal-links a {
-        border-right: none;
+    .footer-inner {
 
-        font-size: 14px;
-
-        padding: 10px 12px;
-    }
-
-
-    .portal-heading {
-        min-height: 45px;
-
-        padding: 7px 10px;
-    }
-
-
-    .portal-heading h2 {
-        font-size: 16px;
-    }
-
-
-    .portal-heading a {
-        font-size: 11px;
-
-        padding: 3px 6px;
-    }
-
-
-    .status-title {
-        font-size: 17px;
-    }
-
-
-    .contact-content {
-        grid-template-columns: 1fr;
-    }
-
-
-    .contact-content > div {
-        border-right: none;
-
-        border-bottom:
-            1px solid #ddd;
-    }
-
-
-    .footer-links {
-        flex-direction: column;
-
-        gap: 8px;
+        padding:
+            20px 10px;
     }
 
 }
 
 
 /* =====================================================
-   SMALL MOBILE
+   VERY SMALL MOBILE
 ===================================================== */
 
-@media (max-width: 400px) {
-
-
-    .site-logo {
-        width: 50px;
-
-        height: 50px;
-    }
+@media (max-width: 380px) {
 
 
     .brand-info h1 {
-        font-size: 17px;
+
+        font-size:
+            15px;
     }
 
 
     .brand-info p {
-        font-size: 10px;
+
+        font-size:
+            9px;
     }
 
 
-    .quick-box {
-        min-height: 90px;
+    .site-logo {
+
+        width:
+            40px;
+
+        height:
+            40px;
     }
 
 
-    .quick-icon {
-        font-size: 21px;
+    .page-title-box h2 {
+
+        font-size:
+            18px;
     }
 
 
-    .portal-heading h2 {
-        font-size: 15px;
+    .section-title {
+
+        font-size:
+            14px;
+    }
+
+
+    .service-list strong {
+
+        font-size:
+            13px;
     }
 
 }
