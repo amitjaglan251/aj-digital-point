@@ -57,16 +57,13 @@
             <a href="index.html"
                class="logo-link">
 
-                <!-- IMPORTANT:
-                     Logo must be inside images folder -->
-
                 <img
-    src="logo.png"
-    alt="AJ DIGITAL POINT Logo"
-    class="site-logo"
-    width="65"
-    height="65"
->
+                    src="logo.png"
+                    alt="AJ DIGITAL POINT Logo"
+                    class="site-logo"
+                    width="65"
+                    height="65"
+                >
 
             </a>
 
@@ -92,7 +89,8 @@
             class="mobile-menu-btn"
             id="menuButton"
             onclick="toggleMenu()"
-            aria-label="Open Menu">
+            aria-label="Open Menu"
+            aria-expanded="false">
 
             ☰
 
@@ -116,6 +114,10 @@
 
         <a href="aadhaar-update.html">
             🆔 Aadhaar
+        </a>
+
+        <a href="image-resizer.html">
+            🖼️ Image Resizer
         </a>
 
         <a href="#services">
@@ -171,6 +173,10 @@
 
         <a href="aadhaar-update.html">
             🆔 Aadhaar Services
+        </a>
+
+        <a href="image-resizer.html">
+            🖼️ Image Resizer
         </a>
 
         <a href="status-check.html">
@@ -325,7 +331,7 @@
     <input
         type="search"
         id="serviceSearch"
-        placeholder="🔍 Search Here... PAN, Aadhaar, GST, Voter"
+        placeholder="🔍 Search Here... PAN, Aadhaar, GST, Voter, Image"
         aria-label="Search Services">
 
 </section>
@@ -366,6 +372,10 @@
 
         <a href="aadhaar-update.html">
             Aadhaar
+        </a>
+
+        <a href="image-resizer.html">
+            Image Resizer
         </a>
 
         <a href="status-check.html">
@@ -836,29 +846,41 @@
 
     <div class="portal-links">
 
-        <a href="#">
+
+        <a href="image-resizer.html">
             🖼️ Image Resizer
         </a>
+
+
+        <a href="image-resizer.html">
+            📷 Passport Size Photo
+        </a>
+
+
+        <a href="image-resizer.html">
+            📐 Custom Photo Resize
+        </a>
+
 
         <a href="#">
             📄 Image to PDF
         </a>
 
+
         <a href="#">
             🖼️ PDF to Image
         </a>
+
 
         <a href="#">
             📦 File Size Compressor
         </a>
 
-        <a href="#">
-            📷 Photo Resize
-        </a>
 
         <a href="#">
             🧮 Age Calculator
         </a>
+
 
     </div>
 
@@ -1001,8 +1023,6 @@
 
         <div class="footer-brand">
 
-            <!-- SMALL LOGO -->
-
             <img
                 src="images/logo.png"
                 alt="AJ DIGITAL POINT Logo"
@@ -1051,6 +1071,10 @@
                 Aadhaar
             </a>
 
+            <a href="image-resizer.html">
+                Image Resizer
+            </a>
+
             <a href="status-check.html">
                 Check Status
             </a>
@@ -1083,6 +1107,9 @@
 
 <script>
 
+
+/* ================= MOBILE MENU ================= */
+
 function toggleMenu() {
 
     const nav =
@@ -1095,17 +1122,18 @@ function toggleMenu() {
     nav.classList.toggle("mobile-show");
 
 
-    if (
-        nav.classList.contains("mobile-show")
-    ) {
+    const isOpen =
+        nav.classList.contains("mobile-show");
 
-        button.innerHTML = "✕";
 
-    } else {
+    button.innerHTML =
+        isOpen ? "✕" : "☰";
 
-        button.innerHTML = "☰";
 
-    }
+    button.setAttribute(
+        "aria-expanded",
+        isOpen ? "true" : "false"
+    );
 
 }
 
@@ -1116,49 +1144,53 @@ const searchInput =
     document.getElementById("serviceSearch");
 
 
-searchInput.addEventListener(
-    "input",
-    function () {
+if (searchInput) {
 
-        const search =
-            this.value
-                .toLowerCase()
-                .trim();
+    searchInput.addEventListener(
+        "input",
+        function () {
 
-
-        const links =
-            document.querySelectorAll(
-                ".portal-links a, .quick-box"
-            );
+            const search =
+                this.value
+                    .toLowerCase()
+                    .trim();
 
 
-        links.forEach(function (link) {
-
-            const text =
-                link.textContent
-                    .toLowerCase();
-
-
-            if (
-                search === "" ||
-                text.includes(search)
-            ) {
-
-                link.style.display = "";
-
-            } else {
-
-                link.style.display = "none";
-
-            }
-
-        });
-
-    }
-);
+            const links =
+                document.querySelectorAll(
+                    ".portal-links a, .quick-box"
+                );
 
 
-/* ================= CLOSE MENU ================= */
+            links.forEach(function (link) {
+
+                const text =
+                    link.textContent
+                        .toLowerCase();
+
+
+                if (
+                    search === "" ||
+                    text.includes(search)
+                ) {
+
+                    link.style.display = "";
+
+                } else {
+
+                    link.style.display = "none";
+
+                }
+
+            });
+
+        }
+    );
+
+}
+
+
+/* ================= CLOSE MOBILE MENU ================= */
 
 document
     .querySelectorAll("#main-nav a")
@@ -1168,21 +1200,31 @@ document
             "click",
             function () {
 
-                document
-                    .getElementById("main-nav")
-                    .classList.remove(
-                        "mobile-show"
-                    );
+                const nav =
+                    document.getElementById("main-nav");
+
+                const button =
+                    document.getElementById("menuButton");
 
 
-                document
-                    .getElementById("menuButton")
-                    .innerHTML = "☰";
+                nav.classList.remove(
+                    "mobile-show"
+                );
+
+
+                button.innerHTML = "☰";
+
+
+                button.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
 
             }
         );
 
     });
+
 
 </script>
 
