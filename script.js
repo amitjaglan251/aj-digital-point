@@ -228,3 +228,31 @@ if (searchInput) {
     );
 
 }
+
+
+/* =====================================================
+   IMAGE RESIZER NAVIGATION
+   Always open the dedicated Image Resizer page.
+===================================================== */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function() {
+
+        document
+            .querySelectorAll('a[href="image-resizer.html"]')
+            .forEach(function(link) {
+
+                link.addEventListener("click", function(event) {
+
+                    event.preventDefault();
+
+                    window.location.href =
+                        "/aj-digital-point/image-resizer.html";
+
+                });
+
+            });
+
+    }
+);
