@@ -8,7 +8,7 @@
     <title>PAN Card Services | AJ DIGITAL POINT</title>
 
     <meta name="description"
-        content="AJ DIGITAL POINT पर PAN Card की सभी महत्वपूर्ण services - New PAN, PAN Correction, Reprint, Instant e-PAN, e-PAN Download, Application Status, PAN Verification, PAN-Aadhaar Link, जरूरी documents और official links।">
+        content="AJ DIGITAL POINT पर PAN Card की सभी महत्वपूर्ण services - New PAN, PAN Correction, Reprint, Instant e-PAN, PAN Status, PAN Verification, PAN-Aadhaar Link, Documents और Official Links।">
 
     <meta name="keywords"
         content="PAN Card, New PAN Card, PAN Correction, PAN Reprint, e-PAN, Instant e-PAN, PAN Aadhaar Link, PAN Verification, PAN Status, AJ Digital Point">
@@ -23,9 +23,395 @@
         href="https://amitjaglan251.github.io/aj-digital-point/pan-services.html">
 
     <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        /* =====================================================
+           PAN SECTION NAVIGATION
+        ===================================================== */
+
+        .pan-page-header {
+            text-align: center;
+            margin: 25px auto;
+            max-width: 900px;
+        }
+
+        .pan-page-header h2 {
+            margin-bottom: 10px;
+        }
+
+        .pan-page-header p {
+            line-height: 1.7;
+        }
+
+
+        .pan-service-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+
+        .pan-menu-card {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            padding: 17px;
+
+            background: #ffffff;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 12px;
+
+            text-decoration: none;
+
+            color: #222;
+
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+
+            transition: all 0.2s ease;
+        }
+
+
+        .pan-menu-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 18px rgba(0, 0, 0, 0.10);
+            border-color: #0d6efd;
+        }
+
+
+        .pan-menu-icon {
+            width: 45px;
+            height: 45px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: #f1f5f9;
+
+            border-radius: 10px;
+
+            font-size: 24px;
+
+            flex-shrink: 0;
+        }
+
+
+        .pan-menu-text strong {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+
+        .pan-menu-text small {
+            display: block;
+            color: #666;
+            line-height: 1.4;
+        }
+
+
+        /* =====================================================
+           PAN CONTENT SECTIONS
+        ===================================================== */
+
+        .pan-detail-section {
+            display: none;
+
+            background: #ffffff;
+
+            margin: 25px 0;
+
+            padding: 25px;
+
+            border-radius: 14px;
+
+            border: 1px solid #e5e7eb;
+
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+
+        .pan-detail-section.active {
+            display: block;
+
+            animation: panFadeIn 0.25s ease;
+        }
+
+
+        @keyframes panFadeIn {
+
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+
+        .pan-detail-title {
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+            border-bottom: 1px solid #e5e7eb;
+
+            padding-bottom: 15px;
+
+            margin-bottom: 20px;
+        }
+
+
+        .pan-detail-title h2 {
+            margin: 0;
+        }
+
+
+        .back-pan-menu {
+            display: inline-block;
+
+            margin-bottom: 20px;
+
+            padding: 10px 16px;
+
+            background: #0d6efd;
+
+            color: #ffffff;
+
+            text-decoration: none;
+
+            border-radius: 8px;
+
+            font-weight: 600;
+        }
+
+
+        .back-pan-menu:hover {
+            opacity: 0.9;
+        }
+
+
+        .pan-detail-section h3 {
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+
+        .pan-detail-section p {
+            line-height: 1.7;
+        }
+
+
+        .pan-info-list {
+            padding-left: 22px;
+
+            line-height: 1.8;
+        }
+
+
+        .pan-info-list li {
+            margin-bottom: 7px;
+        }
+
+
+        /* =====================================================
+           OFFICIAL LINKS
+        ===================================================== */
+
+        .pan-official-links {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(230px, 1fr));
+
+            gap: 15px;
+
+            margin-top: 20px;
+        }
+
+
+        .pan-official-link {
+            display: block;
+
+            padding: 17px;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 10px;
+
+            text-decoration: none;
+
+            color: #222;
+
+            background: #fafafa;
+        }
+
+
+        .pan-official-link:hover {
+            border-color: #0d6efd;
+            background: #f8fbff;
+        }
+
+
+        .pan-official-link strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+
+        .pan-official-link small {
+            color: #666;
+            line-height: 1.5;
+        }
+
+
+        /* =====================================================
+           NOTICE
+        ===================================================== */
+
+        .pan-notice {
+            margin: 20px 0;
+
+            padding: 15px;
+
+            background: #fff8e1;
+
+            border-left: 4px solid #f59e0b;
+
+            border-radius: 7px;
+
+            line-height: 1.7;
+        }
+
+
+        .pan-success-notice {
+            margin: 20px 0;
+
+            padding: 15px;
+
+            background: #ecfdf5;
+
+            border-left: 4px solid #16a34a;
+
+            border-radius: 7px;
+
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           CONTACT
+        ===================================================== */
+
+        .pan-contact-box {
+            margin-top: 25px;
+
+            padding: 22px;
+
+            background: #f8fafc;
+
+            border-radius: 12px;
+
+            text-align: center;
+        }
+
+
+        .pan-contact-buttons {
+            display: flex;
+
+            justify-content: center;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 15px;
+        }
+
+
+        .pan-contact-button {
+            display: inline-block;
+
+            padding: 11px 18px;
+
+            border-radius: 8px;
+
+            text-decoration: none;
+
+            font-weight: 600;
+        }
+
+
+        .pan-call {
+            background: #0d6efd;
+            color: white;
+        }
+
+
+        .pan-whatsapp {
+            background: #16a34a;
+            color: white;
+        }
+
+
+        /* =====================================================
+           MOBILE
+        ===================================================== */
+
+        @media (max-width: 600px) {
+
+            .pan-service-menu {
+                grid-template-columns: 1fr;
+            }
+
+
+            .pan-detail-section {
+                padding: 18px;
+            }
+
+
+            .pan-detail-title {
+                align-items: flex-start;
+            }
+
+
+            .pan-detail-title h2 {
+                font-size: 21px;
+            }
+
+
+            .pan-menu-card {
+                padding: 14px;
+            }
+
+
+            .pan-official-links {
+                grid-template-columns: 1fr;
+            }
+
+        }
+    </style>
+
 </head>
 
+
 <body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
 <header class="site-header">
 
@@ -34,33 +420,51 @@
         <div class="brand">
 
             <a href="index.html">
+
                 <img src="logo.png"
-                    alt="AJ DIGITAL POINT Logo"
-                    class="site-logo">
+                     alt="AJ DIGITAL POINT Logo"
+                     class="site-logo">
+
             </a>
 
+
             <div class="brand-info">
-                <h1>AJ DIGITAL POINT</h1>
-                <p>CSC & Online Digital Services</p>
+
+                <h1>
+                    AJ DIGITAL POINT
+                </h1>
+
+                <p>
+                    CSC & Online Digital Services
+                </p>
+
             </div>
 
         </div>
 
-        <button class="mobile-menu-btn"
+
+        <button
+            class="mobile-menu-btn"
             id="menuButton"
             onclick="toggleMenu()"
             aria-label="Open Menu"
             aria-expanded="false">
+
             ☰
+
         </button>
 
     </div>
 
+
     <nav id="main-nav" class="main-nav">
 
-        <a href="index.html">🏠 Home</a>
+        <a href="index.html">
+            🏠 Home
+        </a>
 
-        <a href="pan-services.html" class="active">
+        <a href="pan-services.html"
+           class="active">
             🪪 PAN Card
         </a>
 
@@ -83,7 +487,10 @@
 
 <div class="top-info-bar">
 
-    <strong>AJ DIGITAL POINT</strong>
+    <strong>
+        AJ DIGITAL POINT
+    </strong>
+
     — PAN Card की सभी महत्वपूर्ण Services
 
 </div>
@@ -93,94 +500,305 @@
 
 
 <!-- =====================================================
-     PAGE TITLE
+     PAGE HEADER
 ===================================================== -->
 
-<section class="page-title-box">
+<section class="pan-page-header">
 
-    <h2>🪪 PAN Card Services</h2>
+    <h2>
+        🪪 PAN Card Services
+    </h2>
 
     <p>
-        PAN Card से संबंधित सभी महत्वपूर्ण services,
-        documents, application information और official links
-        एक ही जगह पर।
+        नीचे अपनी जरूरत की PAN service चुनें।
+        उसी page में संबंधित पूरी जानकारी, documents और
+        official links दिखाई देंगे।
     </p>
 
 </section>
 
 
 <!-- =====================================================
-     QUICK SERVICES
+     PAN SERVICE MENU
 ===================================================== -->
 
-<section class="service-section">
+<section id="pan-menu">
 
-    <div class="section-title blue">
-        ⚡ Quick PAN Services
-    </div>
+    <div class="pan-service-menu">
 
-    <div class="service-list">
 
-        <a href="https://www.incometax.gov.in/iec/foportal/"
-           target="_blank"
-           rel="noopener noreferrer">
+        <a href="#new-pan"
+           class="pan-menu-card"
+           onclick="showPanSection('new-pan')">
 
-            <span class="service-icon">⚡</span>
+            <span class="pan-menu-icon">
+                🆕
+            </span>
 
-            <div>
-                <strong>Instant e-PAN</strong>
+            <span class="pan-menu-text">
+
+                <strong>
+                    New PAN Card
+                </strong>
+
                 <small>
-                    Income Tax Department की official service
+                    नया PAN apply करें
                 </small>
-            </div>
+
+            </span>
 
         </a>
 
 
-        <a href="https://www.incometax.gov.in/iec/foportal/"
-           target="_blank"
-           rel="noopener noreferrer">
+        <a href="#correction"
+           class="pan-menu-card"
+           onclick="showPanSection('correction')">
 
-            <span class="service-icon">✅</span>
+            <span class="pan-menu-icon">
+                ✏️
+            </span>
 
-            <div>
-                <strong>Verify PAN</strong>
+            <span class="pan-menu-text">
+
+                <strong>
+                    PAN Correction
+                </strong>
+
                 <small>
-                    PAN details और active status verify करें
+                    Name, DOB और details update
                 </small>
-            </div>
+
+            </span>
 
         </a>
 
 
-        <a href="https://www.incometax.gov.in/iec/foportal/"
-           target="_blank"
-           rel="noopener noreferrer">
+        <a href="#reprint"
+           class="pan-menu-card"
+           onclick="showPanSection('reprint')">
 
-            <span class="service-icon">🔗</span>
+            <span class="pan-menu-icon">
+                🖨️
+            </span>
 
-            <div>
-                <strong>Link PAN with Aadhaar</strong>
+            <span class="pan-menu-text">
+
+                <strong>
+                    PAN Reprint / e-PAN
+                </strong>
+
                 <small>
-                    PAN-Aadhaar linking की official service
+                    Reprint और e-PAN
                 </small>
-            </div>
+
+            </span>
 
         </a>
 
 
-        <a href="https://www.incometax.gov.in/iec/foportal/"
-           target="_blank"
-           rel="noopener noreferrer">
+        <a href="#instant-epan"
+           class="pan-menu-card"
+           onclick="showPanSection('instant-epan')">
 
-            <span class="service-icon">🔎</span>
+            <span class="pan-menu-icon">
+                ⚡
+            </span>
 
-            <div>
-                <strong>Check PAN Related Services</strong>
+            <span class="pan-menu-text">
+
+                <strong>
+                    Instant e-PAN
+                </strong>
+
                 <small>
-                    Income Tax e-Filing portal
+                    Eligible applicants के लिए
                 </small>
-            </div>
+
+            </span>
+
+        </a>
+
+
+        <a href="#verification"
+           class="pan-menu-card"
+           onclick="showPanSection('verification')">
+
+            <span class="pan-menu-icon">
+                ✅
+            </span>
+
+            <span class="pan-menu-text">
+
+                <strong>
+                    PAN Verification
+                </strong>
+
+                <small>
+                    PAN verify करें
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#aadhaar"
+           class="pan-menu-card"
+           onclick="showPanSection('aadhaar')">
+
+            <span class="pan-menu-icon">
+                🔗
+            </span>
+
+            <span class="pan-menu-text">
+
+                <strong>
+                    PAN-Aadhaar
+                </strong>
+
+                <small>
+                    Link और status
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#status"
+           class="pan-menu-card"
+           onclick="showPanSection('status')">
+
+            <span class="pan-menu-icon">
+                🔎
+            </span>
+
+            <span class="pan-menu-text">
+
+                <strong>
+                    PAN Application Status
+                </strong>
+
+                <small>
+                    Application status देखें
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#documents"
+           class="pan-menu-card"
+           onclick="showPanSection('documents')">
+
+            <span class="pan-menu-icon">
+                📋
+            </span>
+
+            <span class="pan-menu-text">
+
+                <strong>
+                    Documents
+                </strong>
+
+                <small>
+                    जरूरी documents
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#jao"
+           class="pan-menu-card"
+           onclick="showPanSection('jao')">
+
+            <span class="pan-menu-icon">
+                🏛️
+            </span>
+
+            <span class="pan-menu-text">
+
+                <strong>
+                    Know Your JAO
+                </strong>
+
+                <small>
+                    Assessing Officer details
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#official-links"
+           class="pan-menu-card"
+           onclick="showPanSection('official-links')">
+
+            <span class="pan-menu-icon">
+                🔗
+            </span>
+
+            <span class="pan-menu-text">
+
+                <strong>
+                    Official Links
+                </strong>
+
+                <small>
+                    Government portals
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#fees-safety"
+           class="pan-menu-card"
+           onclick="showPanSection('fees-safety')">
+
+            <span class="pan-menu-icon">
+                ⚠️
+            </span>
+
+            <span class="pan-menu-text">
+
+                <strong>
+                    Fee & Safety
+                </strong>
+
+                <small>
+                    जरूरी सावधानियां
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="#contact"
+           class="pan-menu-card"
+           onclick="showPanSection('contact')">
+
+            <span class="pan-menu-icon">
+                📞
+            </span>
+
+            <span class="pan-menu-text">
+
+                <strong>
+                    Contact AJ DIGITAL POINT
+                </strong>
+
+                <small>
+                    Service assistance
+                </small>
+
+            </span>
 
         </a>
 
@@ -193,73 +811,347 @@
      NEW PAN
 ===================================================== -->
 
-<section class="service-section">
+<section id="new-pan"
+         class="pan-detail-section">
 
-    <div class="section-title blue">
-        🆕 New PAN Card
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            🆕
+        </span>
+
+        <h2>
+            New PAN Card
+        </h2>
+
     </div>
 
-    <div class="service-list">
 
-        <a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html"
+    <p>
+        अगर आपके पास PAN नहीं है और आप eligible हैं,
+        तो नया PAN application official portal के माध्यम से
+        किया जा सकता है।
+    </p>
+
+
+    <h3>
+        📋 सामान्य जानकारी
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            Applicant की सही personal details भरें।
+        </li>
+
+        <li>
+            Name, Date of Birth और अन्य details documents के
+            अनुसार भरें।
+        </li>
+
+        <li>
+            Application submit करने से पहले सभी information
+            carefully check करें।
+        </li>
+
+        <li>
+            Applicable fee और current document requirements
+            official portal पर check करें।
+        </li>
+
+    </ul>
+
+
+    <h3>
+        🔗 Official Application
+    </h3>
+
+
+    <div class="pan-official-links">
+
+        <a class="pan-official-link"
+           href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">🆕</span>
+            <strong>
+                🏢 New PAN - Protean
+            </strong>
 
-            <div>
-
-                <strong>
-                    New PAN Card Apply - Protean
-                </strong>
-
-                <small>
-                    Protean official PAN application portal
-                </small>
-
-            </div>
+            <small>
+                Protean का official PAN application portal
+            </small>
 
         </a>
 
 
-        <a href="https://www.utiitsl.com/"
+        <a class="pan-official-link"
+           href="https://www.utiitsl.com/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">🏢</span>
+            <strong>
+                🏢 New PAN - UTIITSL
+            </strong>
 
-            <div>
-
-                <strong>
-                    New PAN Card - UTIITSL
-                </strong>
-
-                <small>
-                    UTIITSL official website
-                </small>
-
-            </div>
+            <small>
+                UTIITSL का official portal
+            </small>
 
         </a>
 
 
-        <a href="https://www.incometax.gov.in/iec/foportal/"
+        <a class="pan-official-link"
+           href="https://www.incometax.gov.in/iec/foportal/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">🏛️</span>
+            <strong>
+                🏛️ Income Tax Department
+            </strong>
 
-            <div>
+            <small>
+                Official Income Tax e-Filing portal
+            </small>
 
-                <strong>
-                    Income Tax Department
-                </strong>
+        </a>
 
-                <small>
-                    PAN और Income Tax की official services
-                </small>
+    </div>
 
-            </div>
+
+    <div class="pan-notice">
+
+        ⚠️ किसी third-party या अनधिकृत website पर PAN application
+        submit करने से पहले website/domain verify करें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CORRECTION
+===================================================== -->
+
+<section id="correction"
+         class="pan-detail-section">
+
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            ✏️
+        </span>
+
+        <h2>
+            PAN Correction / Update
+        </h2>
+
+    </div>
+
+
+    <p>
+        Existing PAN में गलत या पुरानी information होने पर
+        applicable correction/update service का उपयोग किया जा सकता है।
+    </p>
+
+
+    <h3>
+        ✏️ किन details में correction हो सकता है?
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            👤 Name
+        </li>
+
+        <li>
+            👨‍👩‍👦 Parent / Father's Name
+        </li>
+
+        <li>
+            🎂 Date of Birth
+        </li>
+
+        <li>
+            🏠 Address / Communication Details
+        </li>
+
+        <li>
+            📱 Mobile / Email details जहाँ applicable हों
+        </li>
+
+        <li>
+            📄 अन्य PAN details जहाँ correction facility उपलब्ध हो
+        </li>
+
+    </ul>
+
+
+    <h3>
+        🔗 Official Correction Links
+    </h3>
+
+
+    <div class="pan-official-links">
+
+        <a class="pan-official-link"
+           href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                ✏️ PAN Correction - Protean
+            </strong>
+
+            <small>
+                Official PAN correction application
+            </small>
+
+        </a>
+
+
+        <a class="pan-official-link"
+           href="https://www.utiitsl.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                ✏️ PAN Correction - UTIITSL
+            </strong>
+
+            <small>
+                Official UTIITSL PAN services
+            </small>
+
+        </a>
+
+    </div>
+
+
+    <div class="pan-notice">
+
+        📌 Correction करते समय supporting documents की details
+        application information से match होनी चाहिए।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     REPRINT
+===================================================== -->
+
+<section id="reprint"
+         class="pan-detail-section">
+
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            🖨️
+        </span>
+
+        <h2>
+            PAN Reprint / e-PAN
+        </h2>
+
+    </div>
+
+
+    <p>
+        अगर PAN पहले से allotted है और physical PAN card खो गया,
+        damage हो गया या दोबारा card की जरूरत है, तो applicable
+        reprint service का उपयोग किया जा सकता है।
+    </p>
+
+
+    <h3>
+        📌 Reprint कब उपयोग करें?
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            🖨️ Existing PAN का physical card दोबारा चाहिए।
+        </li>
+
+        <li>
+            📄 PAN details में correction नहीं करना है।
+        </li>
+
+        <li>
+            📥 Eligible cases में e-PAN facility available हो सकती है।
+        </li>
+
+    </ul>
+
+
+    <h3>
+        🔗 Official Links
+    </h3>
+
+
+    <div class="pan-official-links">
+
+        <a class="pan-official-link"
+           href="https://onlineservices.nsdl.com/paam/ReprintEPan.html"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🖨️ PAN Reprint - Protean
+            </strong>
+
+            <small>
+                Existing PAN holders के लिए official service
+            </small>
+
+        </a>
+
+
+        <a class="pan-official-link"
+           href="https://www.utiitsl.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <strong>
+                🏢 PAN Services - UTIITSL
+            </strong>
+
+            <small>
+                Official UTIITSL portal
+            </small>
 
         </a>
 
@@ -269,76 +1161,106 @@
 
 
 <!-- =====================================================
-     PAN CORRECTION
+     INSTANT EPAN
 ===================================================== -->
 
-<section class="service-section">
+<section id="instant-epan"
+         class="pan-detail-section">
 
-    <div class="section-title orange">
-        ✏️ PAN Correction / Update
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            ⚡
+        </span>
+
+        <h2>
+            Instant e-PAN
+        </h2>
+
     </div>
 
-    <div class="service-list">
 
-        <a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html"
+    <p>
+        Income Tax Department की Instant e-PAN service eligible
+        applicants को online PAN facility प्रदान करती है।
+    </p>
+
+
+    <h3>
+        ⚡ मुख्य Requirements
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            🪪 Valid Aadhaar होना चाहिए।
+        </li>
+
+        <li>
+            📱 Aadhaar से linked mobile number आवश्यक है।
+        </li>
+
+        <li>
+            👤 Applicant को applicable eligibility conditions
+            पूरी करनी चाहिए।
+        </li>
+
+        <li>
+            📌 पहले से PAN allotted होने की स्थिति में नया PAN
+            apply नहीं करना चाहिए।
+        </li>
+
+    </ul>
+
+
+    <div class="pan-success-notice">
+
+        ✅ Instant e-PAN के लिए हमेशा Income Tax Department
+        के official portal का उपयोग करें।
+
+    </div>
+
+
+    <div class="pan-official-links">
+
+        <a class="pan-official-link"
+           href="https://www.incometax.gov.in/iec/foportal/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">✏️</span>
+            <strong>
+                ⚡ Income Tax Department
+            </strong>
 
-            <div>
-
-                <strong>
-                    PAN Name / DOB / Other Correction
-                </strong>
-
-                <small>
-                    Protean official correction application
-                </small>
-
-            </div>
+            <small>
+                Official e-Filing portal
+            </small>
 
         </a>
 
 
-        <a href="https://www.utiitsl.com/"
+        <a class="pan-official-link"
+           href="https://www.incometax.gov.in/iec/foportal/newdownloads/pre-login-services"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">✏️</span>
+            <strong>
+                📋 Pre-Login Services
+            </strong>
 
-            <div>
-
-                <strong>
-                    PAN Correction - UTIITSL
-                </strong>
-
-                <small>
-                    UTIITSL PAN correction service
-                </small>
-
-            </div>
-
-        </a>
-
-
-        <a href="https://www.incometax.gov.in/iec/foportal/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <span class="service-icon">📋</span>
-
-            <div>
-
-                <strong>
-                    PAN Related Official Services
-                </strong>
-
-                <small>
-                    Income Tax e-Filing portal
-                </small>
-
-            </div>
+            <small>
+                Instant e-PAN और अन्य official services
+            </small>
 
         </a>
 
@@ -348,192 +1270,92 @@
 
 
 <!-- =====================================================
-     REPRINT / E-PAN
+     VERIFICATION
 ===================================================== -->
 
-<section class="service-section">
+<section id="verification"
+         class="pan-detail-section">
 
-    <div class="section-title green">
-        🖨️ PAN Reprint / e-PAN
-    </div>
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
 
-    <div class="service-list">
+        ← Back to PAN Services
 
-        <a href="https://onlineservices.nsdl.com/paam/ReprintEPan.html"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <span class="service-icon">🖨️</span>
-
-            <div>
-
-                <strong>
-                    PAN Card Reprint - Protean
-                </strong>
-
-                <small>
-                    Existing PAN holder के लिए reprint service
-                </small>
-
-            </div>
-
-        </a>
+    </a>
 
 
-        <a href="https://onlineservices.nsdl.com/paam/ReprintEPan.html"
-           target="_blank"
-           rel="noopener noreferrer">
+    <div class="pan-detail-title">
 
-            <span class="service-icon">📥</span>
+        <span>
+            ✅
+        </span>
 
-            <div>
-
-                <strong>
-                    e-PAN Download
-                </strong>
-
-                <small>
-                    Eligible cases में e-PAN download
-                </small>
-
-            </div>
-
-        </a>
-
-
-        <a href="https://www.utiitsl.com/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <span class="service-icon">🏢</span>
-
-            <div>
-
-                <strong>
-                    PAN Reprint - UTIITSL
-                </strong>
-
-                <small>
-                    UTIITSL official PAN services
-                </small>
-
-            </div>
-
-        </a>
+        <h2>
+            PAN Verification
+        </h2>
 
     </div>
 
-</section>
+
+    <p>
+        PAN की validity/details verify करने के लिए Income Tax
+        Department की official service का उपयोग करें।
+    </p>
 
 
-<!-- =====================================================
-     INSTANT E-PAN
-===================================================== -->
+    <h3>
+        🔎 Verification के लिए
+    </h3>
 
-<section class="service-section">
 
-    <div class="section-title purple">
-        ⚡ Instant e-PAN
-    </div>
+    <ul class="pan-info-list">
 
-    <div class="service-list">
+        <li>
+            PAN number carefully enter करें।
+        </li>
 
-        <a href="https://www.incometax.gov.in/iec/foportal/"
+        <li>
+            मांगी गई details सही भरें।
+        </li>
+
+        <li>
+            OTP verification जहाँ applicable हो, पूरा करें।
+        </li>
+
+    </ul>
+
+
+    <div class="pan-official-links">
+
+        <a class="pan-official-link"
+           href="https://www.incometax.gov.in/iec/foportal/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">⚡</span>
+            <strong>
+                ✅ Verify PAN
+            </strong>
 
-            <div>
-
-                <strong>
-                    Instant e-PAN - Income Tax Department
-                </strong>
-
-                <small>
-                    Eligible applicants के लिए official online service
-                </small>
-
-            </div>
+            <small>
+                Income Tax Department official portal
+            </small>
 
         </a>
 
 
-        <a href="https://www.incometax.gov.in/iec/foportal/newdownloads/pre-login-services"
+        <a class="pan-official-link"
+           href="https://www.incometax.gov.in/iec/foportal/newdownloads/pre-login-services"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">📋</span>
+            <strong>
+                🔎 Pre-Login Services
+            </strong>
 
-            <div>
-
-                <strong>
-                    Income Tax Pre-Login Services
-                </strong>
-
-                <small>
-                    Instant e-PAN, Verify PAN और अन्य services
-                </small>
-
-            </div>
-
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     PAN VERIFICATION
-===================================================== -->
-
-<section class="service-section">
-
-    <div class="section-title teal">
-        ✅ PAN Verification
-    </div>
-
-    <div class="service-list">
-
-        <a href="https://www.incometax.gov.in/iec/foportal/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <span class="service-icon">✅</span>
-
-            <div>
-
-                <strong>
-                    Verify Your PAN
-                </strong>
-
-                <small>
-                    PAN details और status verify करें
-                </small>
-
-            </div>
-
-        </a>
-
-
-        <a href="https://www.incometax.gov.in/iec/foportal/newdownloads/pre-login-services"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <span class="service-icon">🔎</span>
-
-            <div>
-
-                <strong>
-                    Verify Service Request
-                </strong>
-
-                <small>
-                    Income Tax Department की official service
-                </small>
-
-            </div>
+            <small>
+                Official verification services
+            </small>
 
         </a>
 
@@ -546,54 +1368,100 @@
      PAN AADHAAR
 ===================================================== -->
 
-<section class="service-section">
+<section id="aadhaar"
+         class="pan-detail-section">
 
-    <div class="section-title red">
-        🔗 PAN - Aadhaar Services
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            🔗
+        </span>
+
+        <h2>
+            PAN-Aadhaar Services
+        </h2>
+
     </div>
 
-    <div class="service-list">
 
-        <a href="https://eportal.incometax.gov.in/iec/foservices/#/pre-login/bl-link-aadhaar"
+    <p>
+        PAN और Aadhaar से संबंधित linking/status services
+        Income Tax Department के official portal से उपलब्ध हैं।
+    </p>
+
+
+    <h3>
+        🔗 Available Services
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            🔗 Link PAN with Aadhaar
+        </li>
+
+        <li>
+            🔎 PAN-Aadhaar link status check
+        </li>
+
+        <li>
+            📋 Applicable PAN-Aadhaar related services
+        </li>
+
+    </ul>
+
+
+    <div class="pan-official-links">
+
+        <a class="pan-official-link"
+           href="https://eportal.incometax.gov.in/iec/foservices/#/pre-login/bl-link-aadhaar"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">🔗</span>
+            <strong>
+                🔗 Link PAN with Aadhaar
+            </strong>
 
-            <div>
-
-                <strong>
-                    Link PAN with Aadhaar
-                </strong>
-
-                <small>
-                    Income Tax Department की official service
-                </small>
-
-            </div>
+            <small>
+                Income Tax Department official service
+            </small>
 
         </a>
 
 
-        <a href="https://www.incometax.gov.in/iec/foportal/newdownloads/pre-login-services"
+        <a class="pan-official-link"
+           href="https://www.incometax.gov.in/iec/foportal/newdownloads/pre-login-services"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">🔎</span>
+            <strong>
+                🔎 Check Link Status
+            </strong>
 
-            <div>
-
-                <strong>
-                    Check PAN-Aadhaar Link Status
-                </strong>
-
-                <small>
-                    Official Income Tax portal से status check करें
-                </small>
-
-            </div>
+            <small>
+                Official Income Tax pre-login services
+            </small>
 
         </a>
+
+    </div>
+
+
+    <div class="pan-notice">
+
+        ⚠️ PAN-Aadhaar related current rules, fees और applicability
+        समय के साथ बदल सकते हैं। Final action से पहले official portal
+        की current information check करें।
 
     </div>
 
@@ -601,145 +1469,84 @@
 
 
 <!-- =====================================================
-     APPLICATION STATUS
+     STATUS
 ===================================================== -->
 
-<section class="service-section">
+<section id="status"
+         class="pan-detail-section">
 
-    <div class="section-title blue">
-        🔎 PAN Application Status
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            🔎
+        </span>
+
+        <h2>
+            PAN Application Status
+        </h2>
+
     </div>
 
-    <div class="service-list">
 
-        <a href="https://tin.tin.proteantech.in/pan/servlet/ChkPanApp"
+    <p>
+        PAN application submit करने के बाद application status
+        संबंधित official portal से check किया जा सकता है।
+    </p>
+
+
+    <h3>
+        📋 Protean Application Status
+    </h3>
+
+
+    <p>
+        अगर application Protean के माध्यम से submit किया गया है,
+        तो application status के लिए Protean की official service
+        का उपयोग करें।
+    </p>
+
+
+    <div class="pan-official-links">
+
+        <a class="pan-official-link"
+           href="https://tin.tin.proteantech.in/pan/servlet/ChkPanApp"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">🔎</span>
+            <strong>
+                🔎 Check PAN Application Status
+            </strong>
 
-            <div>
-
-                <strong>
-                    PAN Application Status
-                </strong>
-
-                <small>
-                    Protean PAN application status
-                </small>
-
-            </div>
+            <small>
+                Protean official PAN application status service
+            </small>
 
         </a>
 
 
-        <a href="https://www.utiitsl.com/"
+        <a class="pan-official-link"
+           href="https://www.utiitsl.com/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">🔎</span>
+            <strong>
+                🔎 UTIITSL PAN Services
+            </strong>
 
-            <div>
-
-                <strong>
-                    UTIITSL PAN Services
-                </strong>
-
-                <small>
-                    UTIITSL official portal
-                </small>
-
-            </div>
+            <small>
+                UTIITSL official portal
+            </small>
 
         </a>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     KNOW YOUR JAO
-===================================================== -->
-
-<section class="service-section">
-
-    <div class="section-title dark-green">
-        🏛️ Know Your JAO
-    </div>
-
-    <div class="service-list">
-
-        <a href="https://eportal.incometax.gov.in/iec/foservices/#/pre-login/knowYourJAO"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            <span class="service-icon">🏛️</span>
-
-            <div>
-
-                <strong>
-                    Know Your JAO
-                </strong>
-
-                <small>
-                    Jurisdictional Assessing Officer की details
-                </small>
-
-            </div>
-
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     MAIN PAN SERVICES
-===================================================== -->
-
-<section class="info-section">
-
-    <div class="info-title">
-        📌 PAN Card से संबंधित मुख्य Services
-    </div>
-
-    <div class="info-content">
-
-        <ul class="info-list">
-
-            <li>🆕 New PAN Card Application</li>
-
-            <li>✏️ PAN Name Correction</li>
-
-            <li>👨‍👩‍👦 Father's Name / Parent Details Correction</li>
-
-            <li>🎂 Date of Birth Correction</li>
-
-            <li>🏠 Address / Communication Details Update</li>
-
-            <li>📱 Mobile / Email details update जहाँ सुविधा उपलब्ध हो</li>
-
-            <li>🖨️ Lost / Damaged PAN के लिए Reprint</li>
-
-            <li>📥 Eligible cases में e-PAN Download</li>
-
-            <li>⚡ Instant e-PAN</li>
-
-            <li>🔎 PAN Application Status</li>
-
-            <li>✅ PAN Verification</li>
-
-            <li>🔗 PAN-Aadhaar Linking</li>
-
-            <li>🔎 PAN-Aadhaar Link Status</li>
-
-            <li>🏛️ Know Your JAO</li>
-
-            <li>📄 PAN application document guidance</li>
-
-        </ul>
 
     </div>
 
@@ -750,182 +1557,163 @@
      DOCUMENTS
 ===================================================== -->
 
-<section class="info-section">
+<section id="documents"
+         class="pan-detail-section">
 
-    <div class="info-title">
-        📋 PAN Card के लिए जरूरी Documents
-    </div>
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
 
-    <div class="info-content">
+        ← Back to PAN Services
 
-        <p>
-            PAN application या correction में required documents
-            applicant की category और service type के अनुसार अलग हो सकते हैं।
-            इसलिए final submission से पहले official portal की current
-            requirements जरूर check करें।
-        </p>
+    </a>
 
 
-        <h3>
-            👤 Individual Applicant
-        </h3>
+    <div class="pan-detail-title">
 
-        <ul class="info-list">
+        <span>
+            📋
+        </span>
 
-            <li>
-                🪪 <strong>Proof of Identity (POI)</strong>
-                — Aadhaar, Passport, Voter ID, Driving Licence आदि में से
-                applicable document
-            </li>
-
-            <li>
-                🏠 <strong>Proof of Address (POA)</strong>
-                — applicable government/accepted address proof
-            </li>
-
-            <li>
-                🎂 <strong>Proof of Date of Birth</strong>
-                — Birth Certificate, Matriculation Certificate,
-                Passport, Driving Licence आदि में से applicable proof
-            </li>
-
-            <li>
-                📷 <strong>Recent Photograph</strong>
-                — application method के अनुसार
-            </li>
-
-            <li>
-                ✍️ <strong>Signature</strong>
-                — online/offline application method के अनुसार
-            </li>
-
-            <li>
-                📱 <strong>Mobile Number</strong>
-                — OTP/communication के लिए जहाँ आवश्यक हो
-            </li>
-
-            <li>
-                📧 <strong>Email ID</strong>
-                — online communication/e-PAN के लिए जहाँ आवश्यक हो
-            </li>
-
-        </ul>
-
-
-        <h3>
-            🪪 आमतौर पर उपयोग होने वाले Documents
-        </h3>
-
-        <ul class="info-list">
-
-            <li>🪪 Aadhaar Card</li>
-
-            <li>🗳️ Voter ID</li>
-
-            <li>🛂 Passport</li>
-
-            <li>🚗 Driving Licence</li>
-
-            <li>🎓 Matriculation Certificate / Mark Sheet</li>
-
-            <li>📜 Birth Certificate</li>
-
-            <li>💍 Marriage Certificate — जहाँ applicable हो</li>
-
-            <li>🏠 Government-issued address proof</li>
-
-            <li>🏦 Applicable Bank/Post Office related proof</li>
-
-            <li>📄 अन्य documents जो current PAN rules में accepted हों</li>
-
-        </ul>
-
-
-        <h3>
-            ✏️ PAN Correction के लिए
-        </h3>
-
-        <ul class="info-list">
-
-            <li>
-                नाम correction के लिए सही नाम वाला supporting document
-                देना पड़ सकता है।
-            </li>
-
-            <li>
-                DOB correction के लिए valid date-of-birth proof
-                आवश्यक हो सकता है।
-            </li>
-
-            <li>
-                Address/contact update के लिए applicable proof या
-                available Aadhaar-based facility की eligibility check करें।
-            </li>
-
-            <li>
-                Application details और supporting documents की information
-                आपस में match होनी चाहिए।
-            </li>
-
-        </ul>
-
-
-        <div class="notice">
-
-            ⚠️ ऊपर दी गई documents list सामान्य guidance है।
-            Exact requirement applicant category, application type और
-            current official rules पर निर्भर करती है।
-
-        </div>
+        <h2>
+            PAN Card के लिए जरूरी Documents
+        </h2>
 
     </div>
 
-</section>
+
+    <p>
+        PAN application और correction के लिए documents applicant
+        की category और service type के अनुसार अलग हो सकते हैं।
+    </p>
 
 
-<!-- =====================================================
-     INSTANT E-PAN REQUIREMENTS
-===================================================== -->
-
-<section class="info-section">
-
-    <div class="info-title">
-        ⚡ Instant e-PAN के लिए मुख्य Requirements
-    </div>
-
-    <div class="info-content">
-
-        <ul class="info-list">
-
-            <li>
-                👤 Applicant को पहले से PAN allotted नहीं होना चाहिए।
-            </li>
-
-            <li>
-                🪪 Valid Aadhaar होना चाहिए।
-            </li>
-
-            <li>
-                📱 Aadhaar से linked valid mobile number आवश्यक है।
-            </li>
-
-            <li>
-                👶 Current official eligibility conditions लागू होती हैं।
-            </li>
-
-            <li>
-                📄 Instant e-PAN eligible applicants के लिए online service है।
-            </li>
-
-        </ul>
+    <h3>
+        👤 Individual Applicant
+    </h3>
 
 
-        <div class="notice">
+    <ul class="pan-info-list">
 
-            ℹ️ अगर पहले से PAN allotted है तो नया PAN apply न करें।
-            Applicable correction या reprint service का उपयोग करें।
+        <li>
+            🪪 <strong>Proof of Identity (POI)</strong>
+            — applicable accepted identity proof
+        </li>
 
-        </div>
+        <li>
+            🏠 <strong>Proof of Address (POA)</strong>
+            — applicable accepted address proof
+        </li>
+
+        <li>
+            🎂 <strong>Proof of Date of Birth</strong>
+            — applicable accepted DOB proof
+        </li>
+
+        <li>
+            📷 <strong>Photograph</strong>
+            — application method के अनुसार
+        </li>
+
+        <li>
+            ✍️ <strong>Signature</strong>
+            — application method के अनुसार
+        </li>
+
+        <li>
+            📱 <strong>Mobile Number</strong>
+            — जहाँ आवश्यक हो
+        </li>
+
+        <li>
+            📧 <strong>Email ID</strong>
+            — जहाँ आवश्यक हो
+        </li>
+
+    </ul>
+
+
+    <h3>
+        🪪 आमतौर पर उपयोग होने वाले Documents
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            🪪 Aadhaar Card
+        </li>
+
+        <li>
+            🗳️ Voter ID
+        </li>
+
+        <li>
+            🛂 Passport
+        </li>
+
+        <li>
+            🚗 Driving Licence
+        </li>
+
+        <li>
+            🎓 Matriculation Certificate / Mark Sheet
+        </li>
+
+        <li>
+            📜 Birth Certificate
+        </li>
+
+        <li>
+            💍 Marriage Certificate — जहाँ applicable हो
+        </li>
+
+        <li>
+            🏠 Government-issued address proof
+        </li>
+
+        <li>
+            🏦 Applicable Bank/Post Office related proof
+        </li>
+
+    </ul>
+
+
+    <h3>
+        ✏️ PAN Correction के लिए
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            Name correction के लिए सही नाम वाला supporting document
+            आवश्यक हो सकता है।
+        </li>
+
+        <li>
+            DOB correction के लिए valid date-of-birth proof
+            आवश्यक हो सकता है।
+        </li>
+
+        <li>
+            Address/contact update के लिए applicable proof या
+            available Aadhaar-based facility की eligibility check करें।
+        </li>
+
+        <li>
+            Application और supporting documents की information
+            आपस में match होनी चाहिए।
+        </li>
+
+    </ul>
+
+
+    <div class="pan-notice">
+
+        ⚠️ यह सामान्य document guidance है।
+        Exact requirement applicant category और current official
+        PAN rules के अनुसार verify करें।
 
     </div>
 
@@ -933,86 +1721,57 @@
 
 
 <!-- =====================================================
-     PAN 2.0
+     JAO
 ===================================================== -->
 
-<section class="info-section">
+<section id="jao"
+         class="pan-detail-section">
 
-    <div class="info-title">
-        🆕 PAN 2.0 की जरूरी जानकारी
-    </div>
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
 
-    <div class="info-content">
+        ← Back to PAN Services
 
-        <p>
-            Existing valid PAN holders को केवल PAN 2.0 के कारण
-            नया PAN number लेने की आवश्यकता नहीं होती।
-            Existing PAN सामान्यतः valid रहता है।
-        </p>
-
-        <p>
-            अगर PAN में Name, DOB, mobile, email, address या अन्य
-            details में correction/update की जरूरत है, तो applicable
-            official correction/update process का उपयोग करें।
-        </p>
+    </a>
 
 
-        <div class="notice">
+    <div class="pan-detail-title">
 
-            ⚠️ PAN number बदलने या PAN 2.0 के नाम पर किसी अनधिकृत
-            website या व्यक्ति को payment न करें।
-            Current official instructions जरूर verify करें।
+        <span>
+            🏛️
+        </span>
 
-        </div>
+        <h2>
+            Know Your JAO
+        </h2>
 
     </div>
 
-</section>
+
+    <p>
+        Jurisdictional Assessing Officer (JAO) से संबंधित details
+        जानने के लिए Income Tax Department की official service का
+        उपयोग किया जा सकता है।
+    </p>
 
 
-<!-- =====================================================
-     FEES AND SAFETY
-===================================================== -->
+    <div class="pan-official-links">
 
-<section class="info-section">
+        <a class="pan-official-link"
+           href="https://eportal.incometax.gov.in/iec/foservices/#/pre-login/knowYourJAO"
+           target="_blank"
+           rel="noopener noreferrer">
 
-    <div class="info-title warning-title">
-        ⚠️ Fee, Eligibility & Safety
-    </div>
+            <strong>
+                🏛️ Know Your JAO
+            </strong>
 
-    <div class="info-content">
+            <small>
+                Income Tax Department की official service
+            </small>
 
-        <ul class="info-list">
-
-            <li>
-                💰 PAN application, correction और reprint की fee
-                service और delivery option के अनुसार अलग हो सकती है।
-            </li>
-
-            <li>
-                🌐 Payment से पहले official website/domain जरूर check करें।
-            </li>
-
-            <li>
-                🔐 OTP, Aadhaar OTP, password, ATM PIN या UPI PIN
-                किसी के साथ share न करें।
-            </li>
-
-            <li>
-                📝 Submit करने से पहले Name, DOB, Father's Name,
-                PAN/Aadhaar और address details carefully check करें।
-            </li>
-
-            <li>
-                📌 एक व्यक्ति के पास एक से अधिक PAN नहीं होना चाहिए।
-            </li>
-
-            <li>
-                🏛️ किसी discrepancy या special case में Income Tax
-                Department की official instructions follow करें।
-            </li>
-
-        </ul>
+        </a>
 
     </div>
 
@@ -1023,126 +1782,116 @@
      OFFICIAL LINKS
 ===================================================== -->
 
-<section class="service-section">
+<section id="official-links"
+         class="pan-detail-section">
 
-    <div class="section-title dark-green">
-        🔗 Official PAN Links
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            🔗
+        </span>
+
+        <h2>
+            Official PAN Links
+        </h2>
+
     </div>
 
-    <div class="service-list">
+
+    <p>
+        PAN से संबंधित काम के लिए नीचे दिए गए official portals
+        का उपयोग करें।
+    </p>
 
 
-        <a href="https://www.incometax.gov.in/iec/foportal/"
+    <div class="pan-official-links">
+
+
+        <a class="pan-official-link"
+           href="https://www.incometax.gov.in/iec/foportal/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">
-                🏛️
-            </span>
+            <strong>
+                🏛️ Income Tax Department
+            </strong>
 
-            <div>
-
-                <strong>
-                    Income Tax Department
-                </strong>
-
-                <small>
-                    Official e-Filing portal
-                </small>
-
-            </div>
+            <small>
+                Official Income Tax e-Filing portal
+            </small>
 
         </a>
 
 
-        <a href="https://www.incometax.gov.in/iec/foportal/newdownloads/pre-login-services"
+        <a class="pan-official-link"
+           href="https://www.incometax.gov.in/iec/foportal/newdownloads/pre-login-services"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">
-                📋
-            </span>
+            <strong>
+                📋 Income Tax Pre-Login Services
+            </strong>
 
-            <div>
-
-                <strong>
-                    Income Tax Pre-Login Services
-                </strong>
-
-                <small>
-                    PAN और अन्य pre-login services
-                </small>
-
-            </div>
+            <small>
+                PAN और अन्य pre-login services
+            </small>
 
         </a>
 
 
-        <a href="https://www.protean-tinpan.com/"
+        <a class="pan-official-link"
+           href="https://www.protean-tinpan.com/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">
-                🏢
-            </span>
+            <strong>
+                🏢 Protean PAN Services
+            </strong>
 
-            <div>
-
-                <strong>
-                    Protean PAN Services
-                </strong>
-
-                <small>
-                    PAN application related official services
-                </small>
-
-            </div>
+            <small>
+                PAN application related official services
+            </small>
 
         </a>
 
 
-        <a href="https://www.utiitsl.com/"
+        <a class="pan-official-link"
+           href="https://www.utiitsl.com/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">
-                🏢
-            </span>
+            <strong>
+                🏢 UTIITSL
+            </strong>
 
-            <div>
-
-                <strong>
-                    UTIITSL
-                </strong>
-
-                <small>
-                    Official UTIITSL website
-                </small>
-
-            </div>
+            <small>
+                Official UTIITSL website
+            </small>
 
         </a>
 
 
-        <a href="https://uidai.gov.in/"
+        <a class="pan-official-link"
+           href="https://uidai.gov.in/"
            target="_blank"
            rel="noopener noreferrer">
 
-            <span class="service-icon">
-                🪪
-            </span>
+            <strong>
+                🪪 UIDAI
+            </strong>
 
-            <div>
-
-                <strong>
-                    UIDAI
-                </strong>
-
-                <small>
-                    Aadhaar related official website
-                </small>
-
-            </div>
+            <small>
+                Official Aadhaar website
+            </small>
 
         </a>
 
@@ -1152,152 +1901,259 @@
 
 
 <!-- =====================================================
-     WHY PAN IMPORTANT
+     FEES & SAFETY
 ===================================================== -->
 
-<section class="info-section">
+<section id="fees-safety"
+         class="pan-detail-section">
 
-    <div class="info-title">
-        🪪 PAN Card क्यों जरूरी है?
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            ⚠️
+        </span>
+
+        <h2>
+            Fee, Eligibility & Safety
+        </h2>
+
     </div>
 
-    <div class="info-content">
+
+    <h3>
+        💰 Fee
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            PAN application की fee service और delivery option
+            के अनुसार अलग हो सकती है।
+        </li>
+
+        <li>
+            PAN correction और reprint की fee अलग हो सकती है।
+        </li>
+
+        <li>
+            Payment करने से पहले official portal पर current fee
+            जरूर check करें।
+        </li>
+
+    </ul>
+
+
+    <h3>
+        🔐 Safety
+    </h3>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            🔐 OTP किसी के साथ share न करें।
+        </li>
+
+        <li>
+            🔐 Aadhaar OTP किसी के साथ share न करें।
+        </li>
+
+        <li>
+            🔐 UPI PIN किसी को न बताएं।
+        </li>
+
+        <li>
+            🔐 ATM PIN या banking password share न करें।
+        </li>
+
+        <li>
+            🌐 Payment से पहले website/domain check करें।
+        </li>
+
+        <li>
+            📌 एक व्यक्ति के पास एक से अधिक PAN नहीं होना चाहिए।
+        </li>
+
+    </ul>
+
+
+    <div class="pan-notice">
+
+        ⚠️ PAN से संबंधित कोई भी महत्वपूर्ण action लेने से पहले
+        Income Tax Department के current official instructions
+        जरूर verify करें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact"
+         class="pan-detail-section">
+
+    <a href="#pan-menu"
+       class="back-pan-menu"
+       onclick="showPanMenu()">
+
+        ← Back to PAN Services
+
+    </a>
+
+
+    <div class="pan-detail-title">
+
+        <span>
+            📞
+        </span>
+
+        <h2>
+            AJ DIGITAL POINT - PAN Service Assistance
+        </h2>
+
+    </div>
+
+
+    <div class="pan-contact-box">
+
+        <h3>
+            📍 Address
+        </h3>
 
         <p>
-            PAN (Permanent Account Number) Income Tax Department
-            द्वारा जारी किया जाने वाला महत्वपूर्ण financial
-            identification number है।
+            <strong>
+                AJ DIGITAL POINT
+            </strong>
+            <br>
+            Jalalpur Kalan,
+            <br>
+            Jind (126102), Haryana
         </p>
 
 
-        <ul class="info-list">
+        <h3>
+            📞 Contact
+        </h3>
 
-            <li>
-                💰 Income Tax Return और tax-related काम
-            </li>
-
-            <li>
-                🏦 कई banking और financial services
-            </li>
-
-            <li>
-                💳 कुछ बड़े financial transactions
-            </li>
-
-            <li>
-                🏠 कुछ property transactions
-            </li>
-
-            <li>
-                📈 Investments और securities related transactions
-            </li>
-
-            <li>
-                🏢 Business और tax-related registrations के कई काम
-            </li>
-
-        </ul>
+        <p>
+            8053620341
+        </p>
 
 
-        <div class="notice">
-
-            ⚠️ PAN की requirement transaction/service के प्रकार
-            के अनुसार अलग हो सकती है। Specific transaction के लिए
-            current official rule जरूर check करें।
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     AJ DIGITAL POINT CONTACT
-===================================================== -->
-
-<section id="contact" class="contact-section">
-
-    <div class="contact-title">
-        📞 PAN Service Assistance
-    </div>
-
-
-    <div class="contact-grid">
-
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                📍
-            </div>
-
-            <h3>
-                Address
-            </h3>
-
-            <p>
-
-                AJ DIGITAL POINT<br>
-
-                Jalalpur Kalan,<br>
-
-                Jind (126102), Haryana
-
-            </p>
-
-        </div>
-
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                📞
-            </div>
-
-            <h3>
-                Call Us
-            </h3>
-
-            <p>
-                8053620341
-            </p>
+        <div class="pan-contact-buttons">
 
             <a href="tel:8053620341"
-               class="contact-button">
+               class="pan-contact-button pan-call">
 
-                Call Now
+                📞 Call Now
 
             </a>
 
-        </div>
-
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                💬
-            </div>
-
-            <h3>
-                WhatsApp
-            </h3>
-
-            <p>
-                PAN Service Assistance
-            </p>
 
             <a href="https://wa.me/918053620341"
                target="_blank"
                rel="noopener noreferrer"
-               class="contact-button">
+               class="pan-contact-button pan-whatsapp">
 
-                WhatsApp Now
+                💬 WhatsApp
 
             </a>
 
         </div>
 
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DEFAULT INFORMATION
+===================================================== -->
+
+<section id="pan-default-info"
+         class="pan-detail-section active">
+
+    <div class="pan-detail-title">
+
+        <span>
+            📌
+        </span>
+
+        <h2>
+            PAN Card की मुख्य Services
+        </h2>
+
+    </div>
+
+
+    <p>
+        ऊपर दी गई किसी भी service पर click करके उसकी पूरी
+        जानकारी खोलें।
+    </p>
+
+
+    <ul class="pan-info-list">
+
+        <li>
+            🆕 New PAN Card
+        </li>
+
+        <li>
+            ✏️ PAN Correction
+        </li>
+
+        <li>
+            🖨️ PAN Reprint / e-PAN
+        </li>
+
+        <li>
+            ⚡ Instant e-PAN
+        </li>
+
+        <li>
+            ✅ PAN Verification
+        </li>
+
+        <li>
+            🔗 PAN-Aadhaar Services
+        </li>
+
+        <li>
+            🔎 PAN Application Status
+        </li>
+
+        <li>
+            📋 PAN Documents
+        </li>
+
+        <li>
+            🏛️ Know Your JAO
+        </li>
+
+        <li>
+            🔗 Official PAN Links
+        </li>
+
+    </ul>
+
+
+    <div class="pan-success-notice">
+
+        ✅ अपनी जरूरत की service ऊपर से select करें।
+        बाकी information छिपी रहेगी, जिससे page साफ और आसान रहेगा।
 
     </div>
 
@@ -1315,17 +2171,19 @@
     </strong>
 
     AJ DIGITAL POINT एक private digital service assistance
-    website है। यह Income Tax Department, Protean, UTIITSL
-    या UIDAI की official website नहीं है।
+    website है।
 
-    सभी applications और transactions संबंधित official
-    portals पर किए जाते हैं।
+    यह Income Tax Department, Protean, UTIITSL या UIDAI की
+    official website नहीं है।
 
-    Official portals की current fee, eligibility,
-    document requirements और rules बदल सकते हैं।
+    सभी applications और transactions संबंधित official portals
+    पर किए जाते हैं।
+
+    Official portals की current fee, eligibility, document
+    requirements और rules समय के साथ बदल सकते हैं।
 
     Payment या personal information submit करने से पहले
-    website/domain जरूर check करें।
+    official website/domain जरूर check करें।
 
 </section>
 
@@ -1396,11 +2254,191 @@
 
 
 <!-- =====================================================
-     MOBILE MENU SCRIPT
+     SECTION NAVIGATION SCRIPT
 ===================================================== -->
 
 <script>
 
+function showPanSection(sectionId) {
+
+    /*
+     * सभी PAN detail sections hide करें
+     */
+    const sections =
+        document.querySelectorAll(".pan-detail-section");
+
+    sections.forEach(function(section) {
+
+        section.classList.remove("active");
+
+    });
+
+
+    /*
+     * चुना हुआ section show करें
+     */
+    const selected =
+        document.getElementById(sectionId);
+
+
+    if (selected) {
+
+        selected.classList.add("active");
+
+    }
+
+
+    /*
+     * PAN menu hide करें
+     */
+    const menu =
+        document.getElementById("pan-menu");
+
+
+    if (menu) {
+
+        menu.style.display = "none";
+
+    }
+
+
+    /*
+     * Page को ऊपर ले जाएँ
+     */
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+}
+
+
+function showPanMenu() {
+
+    /*
+     * सभी sections hide करें
+     */
+    const sections =
+        document.querySelectorAll(".pan-detail-section");
+
+    sections.forEach(function(section) {
+
+        section.classList.remove("active");
+
+    });
+
+
+    /*
+     * Default information show करें
+     */
+    const defaultInfo =
+        document.getElementById("pan-default-info");
+
+
+    if (defaultInfo) {
+
+        defaultInfo.classList.add("active");
+
+    }
+
+
+    /*
+     * PAN menu वापस show करें
+     */
+    const menu =
+        document.getElementById("pan-menu");
+
+
+    if (menu) {
+
+        menu.style.display = "block";
+
+    }
+
+
+    /*
+     * URL से hash हटाएँ
+     */
+    if (history.replaceState) {
+
+        history.replaceState(
+            null,
+            "",
+            window.location.pathname
+        );
+
+    }
+
+
+    /*
+     * ऊपर जाएँ
+     */
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+}
+
+
+/*
+ * Browser URL में #section होने पर
+ * उसी section को automatically खोलें।
+ */
+function openSectionFromHash() {
+
+    const hash =
+        window.location.hash;
+
+
+    if (!hash) {
+
+        return;
+
+    }
+
+
+    const sectionId =
+        hash.substring(1);
+
+
+    const section =
+        document.getElementById(sectionId);
+
+
+    if (
+        section &&
+        section.classList.contains("pan-detail-section")
+    ) {
+
+        showPanSection(sectionId);
+
+    }
+
+}
+
+
+/*
+ * Page load होने पर hash check करें
+ */
+window.addEventListener(
+    "load",
+    openSectionFromHash
+);
+
+
+/*
+ * Browser back/forward button support
+ */
+window.addEventListener(
+    "hashchange",
+    openSectionFromHash
+);
+
+
+/*
+ * Mobile menu
+ */
 function toggleMenu() {
 
     const nav =
@@ -1429,6 +2467,9 @@ function toggleMenu() {
 }
 
 
+/*
+ * Mobile menu link click
+ */
 document
     .querySelectorAll("#main-nav a")
     .forEach(function(link) {
@@ -1437,23 +2478,25 @@ document
             "click",
             function() {
 
-                document
-                    .getElementById("main-nav")
-                    .classList
-                    .remove("mobile-show");
+                const nav =
+                    document.getElementById("main-nav");
+
+                const button =
+                    document.getElementById("menuButton");
 
 
-                document
-                    .getElementById("menuButton")
-                    .innerHTML = "☰";
+                nav.classList.remove(
+                    "mobile-show"
+                );
 
 
-                document
-                    .getElementById("menuButton")
-                    .setAttribute(
-                        "aria-expanded",
-                        "false"
-                    );
+                button.innerHTML = "☰";
+
+
+                button.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
 
             }
         );
@@ -1461,6 +2504,7 @@ document
     });
 
 </script>
+
 
 </body>
 
