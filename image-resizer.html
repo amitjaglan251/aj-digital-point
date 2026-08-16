@@ -11,13 +11,19 @@
     <title>Image Resizer & Passport Size Photo | AJ DIGITAL POINT</title>
 
     <meta name="description"
-          content="AJ DIGITAL POINT Image Resizer - Passport Size Photo, Custom Image Resize, JPG PNG WEBP conversion और photo download करें।">
+          content="AJ DIGITAL POINT Image Resizer - Passport Size Photo, ID Photo, Custom Resize, Crop, Compress और JPG PNG WEBP conversion।">
 
     <meta name="keywords"
-          content="Image Resizer, Passport Size Photo, Photo Resize, JPG Resize, PNG Resize, AJ Digital Point">
+          content="Image Resizer, Passport Size Photo, ID Photo, Crop Photo, Photo Compress, JPG Resize, PNG Resize, AJ Digital Point">
 
     <meta name="robots"
           content="index, follow">
+
+    <meta name="author"
+          content="AJ DIGITAL POINT">
+
+    <meta name="theme-color"
+          content="#0d6efd">
 
     <link rel="canonical"
           href="https://amitjaglan251.github.io/aj-digital-point/image-resizer.html">
@@ -35,7 +41,7 @@
         .resizer-header {
             text-align: center;
             margin: 25px auto;
-            max-width: 900px;
+            max-width: 950px;
         }
 
         .resizer-header h2 {
@@ -48,11 +54,51 @@
 
 
         /* =====================================================
-           TOOL BOX
+           SECTION MENU
+        ===================================================== */
+
+        .image-section-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 14px;
+            margin: 25px auto;
+            max-width: 1000px;
+        }
+
+        .image-menu-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            background: #ffffff;
+            cursor: pointer;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 600;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            transition: 0.2s;
+        }
+
+        .image-menu-btn:hover,
+        .image-menu-btn.active {
+            border-color: #0d6efd;
+            background: #f0f7ff;
+            transform: translateY(-2px);
+        }
+
+        .image-menu-icon {
+            font-size: 25px;
+        }
+
+
+        /* =====================================================
+           TOOL
         ===================================================== */
 
         .resizer-tool {
-            max-width: 950px;
+            max-width: 1000px;
             margin: 25px auto;
             background: #ffffff;
             border: 1px solid #e5e7eb;
@@ -63,10 +109,50 @@
 
 
         /* =====================================================
+           TOOL SECTIONS
+        ===================================================== */
+
+        .image-tool-section {
+            display: none;
+        }
+
+        .image-tool-section.active {
+            display: block;
+            animation: fadeImageSection 0.25s ease;
+        }
+
+        @keyframes fadeImageSection {
+
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+
+        .section-title {
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 14px;
+            margin-bottom: 20px;
+        }
+
+        .section-title h2 {
+            margin: 0;
+        }
+
+
+        /* =====================================================
            UPLOAD
         ===================================================== */
 
         .upload-box {
+            display: block;
             border: 2px dashed #0d6efd;
             border-radius: 14px;
             padding: 35px 20px;
@@ -97,6 +183,20 @@
 
         #imageInput {
             display: none;
+        }
+
+
+        /* =====================================================
+           FILE INFO
+        ===================================================== */
+
+        .file-info {
+            margin-top: 15px;
+            padding: 13px;
+            background: #f1f5f9;
+            border-radius: 8px;
+            display: none;
+            line-height: 1.8;
         }
 
 
@@ -140,10 +240,6 @@
             margin-top: 25px;
         }
 
-        .preset-box h3 {
-            margin-bottom: 12px;
-        }
-
         .preset-buttons {
             display: flex;
             flex-wrap: wrap;
@@ -184,16 +280,6 @@
 
 
         /* =====================================================
-           QUALITY
-        ===================================================== */
-
-        .quality-value {
-            font-weight: 700;
-            color: #0d6efd;
-        }
-
-
-        /* =====================================================
            BUTTONS
         ===================================================== */
 
@@ -204,9 +290,7 @@
             margin-top: 25px;
         }
 
-        .resize-btn,
-        .download-btn,
-        .reset-btn {
+        .action-btn {
             border: none;
             padding: 12px 20px;
             border-radius: 8px;
@@ -215,24 +299,32 @@
             cursor: pointer;
         }
 
-        .resize-btn {
+        .primary-btn {
             background: #0d6efd;
             color: #ffffff;
         }
 
-        .download-btn {
+        .success-btn {
             background: #16a34a;
             color: #ffffff;
         }
 
-        .reset-btn {
+        .warning-btn {
+            background: #f59e0b;
+            color: #ffffff;
+        }
+
+        .danger-btn {
+            background: #dc2626;
+            color: #ffffff;
+        }
+
+        .gray-btn {
             background: #6b7280;
             color: #ffffff;
         }
 
-        .resize-btn:hover,
-        .download-btn:hover,
-        .reset-btn:hover {
+        .action-btn:hover {
             opacity: 0.9;
         }
 
@@ -262,7 +354,7 @@
 
         .preview-box img {
             max-width: 100%;
-            max-height: 400px;
+            max-height: 420px;
             object-fit: contain;
             border-radius: 8px;
             background: #eeeeee;
@@ -270,10 +362,10 @@
 
 
         /* =====================================================
-           INFO
+           INFO / MESSAGE
         ===================================================== */
 
-        .resizer-info {
+        .info-box {
             margin-top: 25px;
             padding: 17px;
             background: #f8fafc;
@@ -282,7 +374,7 @@
             line-height: 1.7;
         }
 
-        .resizer-success {
+        .success-box {
             margin-top: 20px;
             padding: 15px;
             background: #ecfdf5;
@@ -294,21 +386,38 @@
 
 
         /* =====================================================
-           FILE INFO
+           CROP
         ===================================================== */
 
-        .file-info {
-            margin-top: 15px;
-            padding: 12px;
-            background: #f1f5f9;
-            border-radius: 8px;
-            display: none;
-            line-height: 1.7;
+        .crop-area {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .crop-preview {
+            max-width: 100%;
+            max-height: 450px;
+            border-radius: 10px;
+            background: #eeeeee;
         }
 
 
         /* =====================================================
-           RESPONSIVE
+           COMPRESS
+        ===================================================== */
+
+        .compress-result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8fafc;
+            border-radius: 8px;
+            line-height: 1.8;
+            display: none;
+        }
+
+
+        /* =====================================================
+           MOBILE
         ===================================================== */
 
         @media (max-width: 700px) {
@@ -323,6 +432,10 @@
 
             .resizer-tool {
                 padding: 18px;
+            }
+
+            .image-section-menu {
+                grid-template-columns: 1fr;
             }
 
             .preset-buttons {
@@ -424,10 +537,6 @@
 </header>
 
 
-<!-- =====================================================
-     TOP INFO
-===================================================== -->
-
 <div class="top-info-bar">
 
     <strong>
@@ -449,28 +558,139 @@
 <section class="resizer-header">
 
     <h2>
-        🖼️ Image Resizer
+        🖼️ Image Resizer & Photo Tools
     </h2>
 
     <p>
-        अपनी photo upload करें, Passport Size Photo या
-        अपनी जरूरत के अनुसार custom size चुनें और resized
-        image download करें।
+        Photo upload करें और अपनी जरूरत के अनुसार
+        Passport Photo, ID Photo, Custom Resize,
+        Crop या Compress करें।
     </p>
 
 </section>
 
 
 <!-- =====================================================
-     RESIZER TOOL
+     SECTION MENU
+===================================================== -->
+
+<section class="image-section-menu">
+
+    <button class="image-menu-btn active"
+            onclick="showImageSection('upload-section', this)">
+
+        <span class="image-menu-icon">📷</span>
+
+        <span>
+            Photo Upload
+            <small>Photo चुनें</small>
+        </span>
+
+    </button>
+
+
+    <button class="image-menu-btn"
+            onclick="showImageSection('passport-section', this)">
+
+        <span class="image-menu-icon">🪪</span>
+
+        <span>
+            Passport Photo
+            <small>Passport size</small>
+        </span>
+
+    </button>
+
+
+    <button class="image-menu-btn"
+            onclick="showImageSection('id-section', this)">
+
+        <span class="image-menu-icon">🆔</span>
+
+        <span>
+            ID Photo
+            <small>ID size photo</small>
+        </span>
+
+    </button>
+
+
+    <button class="image-menu-btn"
+            onclick="showImageSection('resize-section', this)">
+
+        <span class="image-menu-icon">📏</span>
+
+        <span>
+            Custom Resize
+            <small>Width / Height</small>
+        </span>
+
+    </button>
+
+
+    <button class="image-menu-btn"
+            onclick="showImageSection('crop-section', this)">
+
+        <span class="image-menu-icon">✂️</span>
+
+        <span>
+            Crop Photo
+            <small>Crop image</small>
+        </span>
+
+    </button>
+
+
+    <button class="image-menu-btn"
+            onclick="showImageSection('compress-section', this)">
+
+        <span class="image-menu-icon">📦</span>
+
+        <span>
+            Compress Photo
+            <small>Reduce size</small>
+        </span>
+
+    </button>
+
+
+    <button class="image-menu-btn"
+            onclick="showImageSection('format-section', this)">
+
+        <span class="image-menu-icon">🔄</span>
+
+        <span>
+            JPG / PNG / WEBP
+            <small>Convert format</small>
+        </span>
+
+    </button>
+
+</section>
+
+
+<!-- =====================================================
+     TOOL
 ===================================================== -->
 
 <section class="resizer-tool">
 
 
-    <!-- =================================================
-         UPLOAD
-    ================================================== -->
+<!-- =====================================================
+     UPLOAD SECTION
+===================================================== -->
+
+<section id="upload-section"
+         class="image-tool-section active">
+
+    <div class="section-title">
+
+        <h2>
+            📷 Photo Upload
+        </h2>
+
+    </div>
+
 
     <label for="imageInput"
            class="upload-box">
@@ -496,10 +716,6 @@
         accept="image/jpeg,image/png,image/webp">
 
 
-    <!-- =================================================
-         FILE INFO
-    ================================================== -->
-
     <div id="fileInfo"
          class="file-info">
 
@@ -511,130 +727,253 @@
         📐 Original Size:
         <span id="originalSize">-</span>
 
+        <br>
+
+        📦 File Size:
+        <span id="fileSize">-</span>
+
     </div>
 
 
-    <!-- =================================================
-         PRESETS
-    ================================================== -->
+    <div class="info-box">
 
-    <div class="preset-box">
+        <strong>
+            📌 शुरुआत कैसे करें?
+        </strong>
 
-        <h3>
-            📌 Quick Size Presets
-        </h3>
+        <br>
+
+        ऊपर दिए गए Upload box पर click करके photo चुनें।
+        Photo select होने के बाद बाकी सभी tools automatically
+        काम करने लगेंगे।
+
+    </div>
+
+</section>
 
 
-        <div class="preset-buttons">
+<!-- =====================================================
+     PASSPORT SECTION
+===================================================== -->
+
+<section id="passport-section"
+         class="image-tool-section">
+
+    <div class="section-title">
+
+        <h2>
+            🪪 Passport Size Photo
+        </h2>
+
+    </div>
 
 
-            <button
-                type="button"
-                class="preset-btn"
+    <p>
+        Passport-style photo के लिए नीचे दिए गए preset में
+        से size चुनें।
+    </p>
+
+
+    <div class="preset-buttons">
+
+        <button class="preset-btn"
                 onclick="setPreset(630,810)">
 
-                🪪 Passport Photo
-                <br>
-                630 × 810 px
+            🪪 630 × 810 px
 
-            </button>
+        </button>
 
 
-            <button
-                type="button"
-                class="preset-btn"
+        <button class="preset-btn"
                 onclick="setPreset(413,531)">
 
-                🖨️ 35 × 45 mm
-                <br>
-                approx. 300 DPI
+            📷 35 × 45 mm
 
-            </button>
+        </button>
 
 
-            <button
-                type="button"
-                class="preset-btn"
-                onclick="setPreset(300,300)">
+        <button class="preset-btn"
+                onclick="setPreset(600,600)">
 
-                🪪 ID Photo
-                <br>
-                300 × 300 px
+            🆔 2 × 2 Inch
 
-            </button>
-
-
-            <button
-                type="button"
-                class="preset-btn"
-                onclick="setPreset(800,800)">
-
-                📱 Square Photo
-                <br>
-                800 × 800 px
-
-            </button>
-
-
-            <button
-                type="button"
-                class="preset-btn"
-                onclick="setPreset(1280,720)">
-
-                🖥️ HD Image
-                <br>
-                1280 × 720 px
-
-            </button>
-
-
-        </div>
+        </button>
 
     </div>
 
-
-    <!-- =================================================
-         CONTROLS
-    ================================================== -->
 
     <div class="controls">
 
-
         <div class="control-group">
 
-            <label for="width">
+            <label>
                 Width (px)
             </label>
 
-            <input
-                type="number"
-                id="width"
-                min="1"
-                max="5000"
-                value="630">
+            <input type="number"
+                   id="passportWidth"
+                   value="630"
+                   min="1"
+                   max="5000">
 
         </div>
 
 
         <div class="control-group">
 
-            <label for="height">
+            <label>
                 Height (px)
             </label>
 
-            <input
-                type="number"
-                id="height"
-                min="1"
-                max="5000"
-                value="810">
+            <input type="number"
+                   id="passportHeight"
+                   value="810"
+                   min="1"
+                   max="5000">
+
+        </div>
+
+    </div>
+
+
+    <div class="action-buttons">
+
+        <button class="action-btn primary-btn"
+                onclick="resizeUsingValues(
+                    'passportWidth',
+                    'passportHeight'
+                )">
+
+            ✂️ Create Passport Photo
+
+        </button>
+
+
+        <button class="action-btn success-btn"
+                id="passportDownload"
+                onclick="downloadImage()"
+                disabled>
+
+            ⬇️ Download
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ID PHOTO
+===================================================== -->
+
+<section id="id-section"
+         class="image-tool-section">
+
+    <div class="section-title">
+
+        <h2>
+            🆔 ID Photo
+        </h2>
+
+    </div>
+
+
+    <p>
+        सामान्य ID photo के लिए quick sizes।
+    </p>
+
+
+    <div class="preset-buttons">
+
+        <button class="preset-btn"
+                onclick="resizeDirect(300,300)">
+
+            🆔 300 × 300
+
+        </button>
+
+
+        <button class="preset-btn"
+                onclick="resizeDirect(400,500)">
+
+            🪪 400 × 500
+
+        </button>
+
+
+        <button class="preset-btn"
+                onclick="resizeDirect(600,800)">
+
+            📷 600 × 800
+
+        </button>
+
+    </div>
+
+
+    <div class="info-box">
+
+        ℹ️ अलग-अलग forms और applications में photo size
+        requirement अलग हो सकती है। Submit करने से पहले
+        संबंधित official requirement check करें।
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CUSTOM RESIZE
+===================================================== -->
+
+<section id="resize-section"
+         class="image-tool-section">
+
+    <div class="section-title">
+
+        <h2>
+            📏 Custom Image Resize
+        </h2>
+
+    </div>
+
+
+    <div class="controls">
+
+        <div class="control-group">
+
+            <label>
+                Width (px)
+            </label>
+
+            <input type="number"
+                   id="customWidth"
+                   value="630"
+                   min="1"
+                   max="5000">
 
         </div>
 
 
         <div class="control-group">
 
-            <label for="format">
+            <label>
+                Height (px)
+            </label>
+
+            <input type="number"
+                   id="customHeight"
+                   value="810"
+                   min="1"
+                   max="5000">
+
+        </div>
+
+
+        <div class="control-group">
+
+            <label>
                 Output Format
             </label>
 
@@ -659,78 +998,56 @@
 
         <div class="control-group">
 
-            <label for="quality">
-
+            <label>
                 Quality:
-                <span
-                    id="qualityValue"
-                    class="quality-value">
-
+                <span id="qualityValue">
                     90%
-
                 </span>
-
             </label>
 
-            <input
-                type="range"
-                id="quality"
-                min="10"
-                max="100"
-                value="90">
+            <input type="range"
+                   id="quality"
+                   min="10"
+                   max="100"
+                   value="90">
 
         </div>
 
     </div>
 
 
-    <!-- =================================================
-         ASPECT RATIO
-    ================================================== -->
-
     <label class="checkbox-row">
 
-        <input
-            type="checkbox"
-            id="lockRatio">
+        <input type="checkbox"
+               id="lockRatio">
 
         🔒 Original Aspect Ratio Lock
 
     </label>
 
 
-    <!-- =================================================
-         ACTION BUTTONS
-    ================================================== -->
-
     <div class="action-buttons">
 
-        <button
-            type="button"
-            class="resize-btn"
-            onclick="resizeImage()">
+        <button class="action-btn primary-btn"
+                onclick="resizeCustom()">
 
             ✂️ Resize Photo
 
         </button>
 
 
-        <button
-            type="button"
-            class="download-btn"
-            id="downloadBtn"
-            onclick="downloadImage()"
-            disabled>
+        <button class="action-btn success-btn"
+                onclick="downloadImage()"
+                id="customDownload"
+                disabled>
 
-            ⬇️ Download Photo
+            ⬇️ Download
 
         </button>
 
 
-        <button
-            type="button"
-            class="reset-btn"
-            onclick="resetTool()">
+        <button class="action-btn gray-btn"
+                onclick="resetTool()">
 
             🔄 Reset
 
@@ -738,87 +1055,336 @@
 
     </div>
 
+</section>
 
-    <!-- =================================================
-         SUCCESS
-    ================================================== -->
 
-    <div
-        id="successMessage"
-        class="resizer-success">
+<!-- =====================================================
+     CROP
+===================================================== -->
 
-        ✅ Photo successfully resize हो गई है।
-        अब <strong>Download Photo</strong> पर click करके
-        image save करें।
+<section id="crop-section"
+         class="image-tool-section">
+
+    <div class="section-title">
+
+        <h2>
+            ✂️ Crop Photo
+        </h2>
 
     </div>
 
 
-    <!-- =================================================
-         PREVIEW
-    ================================================== -->
+    <p>
+        Photo upload करने के बाद नीचे crop controls से
+        image का हिस्सा चुनें।
+    </p>
 
-    <div class="preview-area">
 
+    <div class="controls">
 
-        <div class="preview-box">
+        <div class="control-group">
 
-            <h3>
-                📷 Original Photo
-            </h3>
+            <label>
+                Crop X
+            </label>
 
-            <img
-                id="originalPreview"
-                alt="Original Photo Preview">
+            <input type="number"
+                   id="cropX"
+                   value="0"
+                   min="0">
 
         </div>
 
 
-        <div class="preview-box">
+        <div class="control-group">
 
-            <h3>
-                ✨ Resized Photo
-            </h3>
+            <label>
+                Crop Y
+            </label>
 
-            <img
-                id="resizedPreview"
-                alt="Resized Photo Preview">
+            <input type="number"
+                   id="cropY"
+                   value="0"
+                   min="0">
+
+        </div>
+
+
+        <div class="control-group">
+
+            <label>
+                Crop Width
+            </label>
+
+            <input type="number"
+                   id="cropWidth"
+                   value="500"
+                   min="1">
+
+        </div>
+
+
+        <div class="control-group">
+
+            <label>
+                Crop Height
+            </label>
+
+            <input type="number"
+                   id="cropHeight"
+                   value="500"
+                   min="1">
 
         </div>
 
     </div>
 
 
-    <!-- =================================================
-         INFORMATION
-    ================================================== -->
+    <div class="action-buttons">
 
-    <div class="resizer-info">
+        <button class="action-btn primary-btn"
+                onclick="cropImage()">
 
-        <strong>
-            🪪 Passport Size Photo:
-        </strong>
+            ✂️ Crop Photo
 
-        <br>
+        </button>
 
-        Passport applications में photo requirements
-        service के अनुसार अलग हो सकती हैं। Current
-        Passport Seva/ICAO requirements submit करने से
-        पहले जरूर check करें।
 
-        <br><br>
+        <button class="action-btn success-btn"
+                onclick="downloadImage()"
+                id="cropDownload"
+                disabled>
 
-        <strong>
-            🔐 Privacy:
-        </strong>
+            ⬇️ Download
 
-        <br>
-
-        यह resizer आपके browser में locally image process
-        करता है। Photo को किसी server पर upload करने के
-        लिए इस page में कोई server code नहीं है।
+        </button>
 
     </div>
+
+
+    <div class="crop-area">
+
+        <img id="cropPreview"
+             class="crop-preview"
+             alt="Crop Preview">
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     COMPRESS
+===================================================== -->
+
+<section id="compress-section"
+         class="image-tool-section">
+
+    <div class="section-title">
+
+        <h2>
+            📦 Compress Photo
+        </h2>
+
+    </div>
+
+
+    <p>
+        Photo की quality कम करके file size कम करें।
+    </p>
+
+
+    <div class="control-group">
+
+        <label>
+            Compression Quality:
+            <span id="compressQualityValue">
+                70%
+            </span>
+        </label>
+
+        <input type="range"
+               id="compressQuality"
+               min="10"
+               max="100"
+               value="70">
+
+    </div>
+
+
+    <div class="action-buttons">
+
+        <button class="action-btn warning-btn"
+                onclick="compressImage()">
+
+            📦 Compress Photo
+
+        </button>
+
+
+        <button class="action-btn success-btn"
+                onclick="downloadImage()"
+                id="compressDownload"
+                disabled>
+
+            ⬇️ Download
+
+        </button>
+
+    </div>
+
+
+    <div id="compressResult"
+         class="compress-result">
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FORMAT
+===================================================== -->
+
+<section id="format-section"
+         class="image-tool-section">
+
+    <div class="section-title">
+
+        <h2>
+            🔄 JPG / PNG / WEBP Converter
+        </h2>
+
+    </div>
+
+
+    <p>
+        अपनी uploaded photo को JPG, PNG या WEBP में convert करें।
+    </p>
+
+
+    <div class="control-group">
+
+        <label>
+            Select Format
+        </label>
+
+        <select id="convertFormat">
+
+            <option value="image/jpeg">
+                JPG
+            </option>
+
+            <option value="image/png">
+                PNG
+            </option>
+
+            <option value="image/webp">
+                WEBP
+            </option>
+
+        </select>
+
+    </div>
+
+
+    <div class="action-buttons">
+
+        <button class="action-btn primary-btn"
+                onclick="convertFormat()">
+
+            🔄 Convert Image
+
+        </button>
+
+
+        <button class="action-btn success-btn"
+                onclick="downloadImage()"
+                id="formatDownload"
+                disabled>
+
+            ⬇️ Download
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PREVIEW
+===================================================== -->
+
+<div class="preview-area">
+
+
+    <div class="preview-box">
+
+        <h3>
+            📷 Original Photo
+        </h3>
+
+        <img id="originalPreview"
+             alt="Original Photo Preview">
+
+    </div>
+
+
+    <div class="preview-box">
+
+        <h3>
+            ✨ Result Photo
+        </h3>
+
+        <img id="resizedPreview"
+             alt="Result Photo Preview">
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     SUCCESS
+===================================================== -->
+
+<div id="successMessage"
+     class="success-box">
+
+    ✅ Photo successfully process हो गई है।
+    अब <strong>Download</strong> button दबाकर photo save करें।
+
+</div>
+
+
+<!-- =====================================================
+     INFORMATION
+===================================================== -->
+
+<div class="info-box">
+
+    <strong>
+        🔐 Privacy:
+    </strong>
+
+    <br>
+
+    Photo processing browser में locally होती है।
+    इस page में photo को किसी server पर upload करने के लिए
+    कोई server-side upload code नहीं है।
+
+    <br><br>
+
+    <strong>
+        ⚠️ Important:
+    </strong>
+
+    Passport, Aadhaar, PAN, Visa या किसी government form
+    में photo submit करने से पहले संबंधित official portal
+    की current photo requirements जरूर check करें।
+
+</div>
 
 
 </section>
@@ -837,10 +1403,10 @@
     AJ DIGITAL POINT एक private digital service assistance
     website है।
 
-    Image Resizer केवल photo resizing के लिए है।
+    Image tools केवल image processing के लिए हैं।
     किसी सरकारी application के लिए final photo size,
-    background और quality requirements संबंधित official
-    portal से verify करें।
+    dimensions, background और quality requirements
+    संबंधित official portal से verify करें।
 
 </section>
 
@@ -915,28 +1481,87 @@
 
 
 <!-- =====================================================
-     IMAGE RESIZER SCRIPT
+     JAVASCRIPT
 ===================================================== -->
 
 <script>
 
 let selectedImage = null;
 
+let originalFile = null;
+
 let resizedDataUrl = null;
 
 
 /* =====================================================
-   FILE SELECT
+   SECTION NAVIGATION
+===================================================== */
+
+function showImageSection(sectionId, button) {
+
+    document
+        .querySelectorAll(".image-tool-section")
+        .forEach(function(section) {
+
+            section.classList.remove("active");
+
+        });
+
+
+    document
+        .querySelectorAll(".image-menu-btn")
+        .forEach(function(btn) {
+
+            btn.classList.remove("active");
+
+        });
+
+
+    const section =
+        document.getElementById(sectionId);
+
+
+    if (section) {
+
+        section.classList.add("active");
+
+    }
+
+
+    if (button) {
+
+        button.classList.add("active");
+
+    }
+
+
+    window.scrollTo({
+
+        top: 0,
+
+        behavior: "smooth"
+
+    });
+
+}
+
+
+/* =====================================================
+   FILE UPLOAD
 ===================================================== */
 
 document
     .getElementById("imageInput")
     .addEventListener("change", function(event) {
 
-        const file = event.target.files[0];
+        const file =
+            event.target.files[0];
+
 
         if (!file) {
+
             return;
+
         }
 
 
@@ -949,51 +1574,112 @@ document
         }
 
 
-        const reader = new FileReader();
+        originalFile = file;
 
 
-        reader.onload = function(e) {
-
-            selectedImage = new Image();
-
-
-            selectedImage.onload = function() {
-
-                document
-                    .getElementById("originalPreview")
-                    .src = e.target.result;
+        const reader =
+            new FileReader();
 
 
-                document
-                    .getElementById("fileName")
-                    .textContent = file.name;
+        reader.onload =
+            function(e) {
+
+                selectedImage =
+                    new Image();
 
 
-                document
-                    .getElementById("originalSize")
-                    .textContent =
-                    selectedImage.width +
-                    " × " +
-                    selectedImage.height +
-                    " px";
+                selectedImage.onload =
+                    function() {
+
+                        document
+                            .getElementById("originalPreview")
+                            .src =
+                            e.target.result;
 
 
-                document
-                    .getElementById("fileInfo")
-                    .style.display = "block";
+                        document
+                            .getElementById("cropPreview")
+                            .src =
+                            e.target.result;
 
 
-                /*
-                 * Default Passport preset
-                 */
-                setPreset(630, 810);
+                        document
+                            .getElementById("fileName")
+                            .textContent =
+                            file.name;
+
+
+                        document
+                            .getElementById("originalSize")
+                            .textContent =
+                            selectedImage.width +
+                            " × " +
+                            selectedImage.height +
+                            " px";
+
+
+                        document
+                            .getElementById("fileSize")
+                            .textContent =
+                            formatFileSize(file.size);
+
+
+                        document
+                            .getElementById("fileInfo")
+                            .style.display =
+                            "block";
+
+
+                        /*
+                         * Crop defaults
+                         */
+
+                        document
+                            .getElementById("cropWidth")
+                            .value =
+                            Math.min(
+                                500,
+                                selectedImage.width
+                            );
+
+
+                        document
+                            .getElementById("cropHeight")
+                            .value =
+                            Math.min(
+                                500,
+                                selectedImage.height
+                            );
+
+
+                        /*
+                         * Default custom size
+                         */
+
+                        document
+                            .getElementById("customWidth")
+                            .value =
+                            Math.min(
+                                630,
+                                selectedImage.width
+                            );
+
+
+                        document
+                            .getElementById("customHeight")
+                            .value =
+                            Math.min(
+                                810,
+                                selectedImage.height
+                            );
+
+                    };
+
+
+                selectedImage.src =
+                    e.target.result;
 
             };
-
-
-            selectedImage.src = e.target.result;
-
-        };
 
 
         reader.readAsDataURL(file);
@@ -1002,7 +1688,349 @@ document
 
 
 /* =====================================================
-   QUALITY SLIDER
+   FILE SIZE
+===================================================== */
+
+function formatFileSize(bytes) {
+
+    if (bytes < 1024) {
+
+        return bytes + " B";
+
+    }
+
+
+    if (bytes < 1024 * 1024) {
+
+        return (
+            (bytes / 1024).toFixed(1) +
+            " KB"
+        );
+
+    }
+
+
+    return (
+        (bytes / (1024 * 1024)).toFixed(2) +
+        " MB"
+    );
+
+}
+
+
+/* =====================================================
+   PRESET
+===================================================== */
+
+function setPreset(width, height) {
+
+    document
+        .getElementById("passportWidth")
+        .value =
+        width;
+
+
+    document
+        .getElementById("passportHeight")
+        .value =
+        height;
+
+
+    resizeUsingValues(
+        "passportWidth",
+        "passportHeight"
+    );
+
+}
+
+
+/* =====================================================
+   RESIZE USING VALUES
+===================================================== */
+
+function resizeUsingValues(widthId, heightId) {
+
+    if (!selectedImage) {
+
+        alert("पहले photo upload करें।");
+
+        return;
+
+    }
+
+
+    const width =
+        parseInt(
+            document.getElementById(widthId).value
+        );
+
+
+    const height =
+        parseInt(
+            document.getElementById(heightId).value
+        );
+
+
+    createResize(
+        width,
+        height,
+        "image/jpeg",
+        0.90
+    );
+
+}
+
+
+/* =====================================================
+   DIRECT RESIZE
+===================================================== */
+
+function resizeDirect(width, height) {
+
+    if (!selectedImage) {
+
+        alert("पहले photo upload करें।");
+
+        return;
+
+    }
+
+
+    createResize(
+        width,
+        height,
+        "image/jpeg",
+        0.90
+    );
+
+}
+
+
+/* =====================================================
+   CUSTOM RESIZE
+===================================================== */
+
+function resizeCustom() {
+
+    if (!selectedImage) {
+
+        alert("पहले photo upload करें।");
+
+        return;
+
+    }
+
+
+    const width =
+        parseInt(
+            document.getElementById("customWidth").value
+        );
+
+
+    const height =
+        parseInt(
+            document.getElementById("customHeight").value
+        );
+
+
+    const format =
+        document.getElementById("format").value;
+
+
+    const quality =
+        parseInt(
+            document.getElementById("quality").value
+        ) / 100;
+
+
+    createResize(
+        width,
+        height,
+        format,
+        quality
+    );
+
+}
+
+
+/* =====================================================
+   CREATE RESIZE
+===================================================== */
+
+function createResize(
+    width,
+    height,
+    format,
+    quality
+) {
+
+    if (!width || !height) {
+
+        alert("Width और Height सही भरें।");
+
+        return;
+
+    }
+
+
+    if (
+        width < 1 ||
+        height < 1 ||
+        width > 5000 ||
+        height > 5000
+    ) {
+
+        alert(
+            "Size 1 से 5000 px के बीच होना चाहिए।"
+        );
+
+        return;
+
+    }
+
+
+    const canvas =
+        document.createElement("canvas");
+
+
+    canvas.width =
+        width;
+
+    canvas.height =
+        height;
+
+
+    const ctx =
+        canvas.getContext("2d");
+
+
+    ctx.imageSmoothingEnabled =
+        true;
+
+    ctx.imageSmoothingQuality =
+        "high";
+
+
+    /*
+     * JPG background white
+     */
+
+    if (format === "image/jpeg") {
+
+        ctx.fillStyle =
+            "#ffffff";
+
+        ctx.fillRect(
+            0,
+            0,
+            width,
+            height
+        );
+
+    }
+
+
+    ctx.drawImage(
+        selectedImage,
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    resizedDataUrl =
+        canvas.toDataURL(
+            format,
+            quality
+        );
+
+
+    showResult();
+
+}
+
+
+/* =====================================================
+   CUSTOM ASPECT RATIO
+===================================================== */
+
+document
+    .getElementById("customWidth")
+    .addEventListener("input", function() {
+
+        if (
+            !document.getElementById("lockRatio").checked ||
+            !selectedImage
+        ) {
+
+            return;
+
+        }
+
+
+        const width =
+            parseInt(this.value);
+
+
+        if (width > 0) {
+
+            const ratio =
+                selectedImage.width /
+                selectedImage.height;
+
+
+            document
+                .getElementById("customHeight")
+                .value =
+                Math.round(
+                    width / ratio
+                );
+
+        }
+
+    });
+
+
+document
+    .getElementById("customHeight")
+    .addEventListener("input", function() {
+
+        if (
+            !document.getElementById("lockRatio").checked ||
+            !selectedImage
+        ) {
+
+            return;
+
+        }
+
+
+        const height =
+            parseInt(this.value);
+
+
+        if (height > 0) {
+
+            const ratio =
+                selectedImage.width /
+                selectedImage.height;
+
+
+            document
+                .getElementById("customWidth")
+                .value =
+                Math.round(
+                    height * ratio
+                );
+
+        }
+
+    });
+
+
+/* =====================================================
+   QUALITY
 ===================================================== */
 
 document
@@ -1018,110 +2046,10 @@ document
 
 
 /* =====================================================
-   SET PRESET
+   CROP
 ===================================================== */
 
-function setPreset(width, height) {
-
-    document
-        .getElementById("width")
-        .value = width;
-
-
-    document
-        .getElementById("height")
-        .value = height;
-
-
-    /*
-     * अगर image selected है
-     * तो ratio lock नहीं है
-     * तो exact preset रहेगा
-     */
-
-}
-
-
-/* =====================================================
-   ASPECT RATIO LOCK
-===================================================== */
-
-let ratio = 1;
-
-
-document
-    .getElementById("width")
-    .addEventListener("input", function() {
-
-        const lock =
-            document.getElementById("lockRatio").checked;
-
-
-        if (!lock || !selectedImage) {
-            return;
-        }
-
-
-        ratio =
-            selectedImage.width /
-            selectedImage.height;
-
-
-        const width =
-            parseInt(this.value);
-
-
-        if (width > 0) {
-
-            document
-                .getElementById("height")
-                .value =
-                Math.round(width / ratio);
-
-        }
-
-    });
-
-
-document
-    .getElementById("height")
-    .addEventListener("input", function() {
-
-        const lock =
-            document.getElementById("lockRatio").checked;
-
-
-        if (!lock || !selectedImage) {
-            return;
-        }
-
-
-        ratio =
-            selectedImage.width /
-            selectedImage.height;
-
-
-        const height =
-            parseInt(this.value);
-
-
-        if (height > 0) {
-
-            document
-                .getElementById("width")
-                .value =
-                Math.round(height * ratio);
-
-        }
-
-    });
-
-
-/* =====================================================
-   RESIZE IMAGE
-===================================================== */
-
-function resizeImage() {
+function cropImage() {
 
     if (!selectedImage) {
 
@@ -1132,103 +2060,97 @@ function resizeImage() {
     }
 
 
-    const width =
+    let x =
         parseInt(
-            document.getElementById("width").value
+            document.getElementById("cropX").value
+        ) || 0;
+
+
+    let y =
+        parseInt(
+            document.getElementById("cropY").value
+        ) || 0;
+
+
+    let width =
+        parseInt(
+            document.getElementById("cropWidth").value
         );
 
 
-    const height =
+    let height =
         parseInt(
-            document.getElementById("height").value
+            document.getElementById("cropHeight").value
         );
 
 
-    if (
-        !width ||
-        !height ||
-        width < 1 ||
-        height < 1
-    ) {
+    if (x < 0) x = 0;
 
-        alert("Width और Height सही भरें।");
+    if (y < 0) y = 0;
+
+
+    if (x >= selectedImage.width) {
+
+        alert("Crop X image के अंदर होना चाहिए।");
 
         return;
 
     }
 
 
-    if (
-        width > 5000 ||
-        height > 5000
-    ) {
+    if (y >= selectedImage.height) {
 
-        alert("Maximum size 5000 × 5000 px है।");
+        alert("Crop Y image के अंदर होना चाहिए।");
 
         return;
 
     }
 
 
-    const format =
-        document.getElementById("format").value;
+    width =
+        Math.min(
+            width,
+            selectedImage.width - x
+        );
 
 
-    const quality =
-        parseInt(
-            document.getElementById("quality").value
-        ) / 100;
+    height =
+        Math.min(
+            height,
+            selectedImage.height - y
+        );
 
 
-    /*
-     * Canvas
-     */
+    if (width < 1 || height < 1) {
+
+        alert("Crop size सही भरें।");
+
+        return;
+
+    }
+
 
     const canvas =
         document.createElement("canvas");
 
 
-    canvas.width = width;
-    canvas.height = height;
+    canvas.width =
+        width;
+
+    canvas.height =
+        height;
 
 
     const ctx =
         canvas.getContext("2d");
 
 
-    /*
-     * Better image smoothing
-     */
-
-    ctx.imageSmoothingEnabled = true;
-
-    ctx.imageSmoothingQuality = "high";
-
-
-    /*
-     * White background for JPG
-     */
-
-    if (format === "image/jpeg") {
-
-        ctx.fillStyle = "#ffffff";
-
-        ctx.fillRect(
-            0,
-            0,
-            width,
-            height
-        );
-
-    }
-
-
-    /*
-     * Draw image
-     */
-
     ctx.drawImage(
         selectedImage,
+        x,
+        y,
+        width,
+        height,
         0,
         0,
         width,
@@ -1236,9 +2158,192 @@ function resizeImage() {
     );
 
 
-    /*
-     * Convert
-     */
+    resizedDataUrl =
+        canvas.toDataURL(
+            "image/jpeg",
+            0.90
+        );
+
+
+    showResult();
+
+}
+
+
+/* =====================================================
+   COMPRESS
+===================================================== */
+
+document
+    .getElementById("compressQuality")
+    .addEventListener("input", function() {
+
+        document
+            .getElementById("compressQualityValue")
+            .textContent =
+            this.value + "%";
+
+    });
+
+
+function compressImage() {
+
+    if (!selectedImage) {
+
+        alert("पहले photo upload करें।");
+
+        return;
+
+    }
+
+
+    const quality =
+        parseInt(
+            document.getElementById(
+                "compressQuality"
+            ).value
+        ) / 100;
+
+
+    const canvas =
+        document.createElement("canvas");
+
+
+    canvas.width =
+        selectedImage.width;
+
+    canvas.height =
+        selectedImage.height;
+
+
+    const ctx =
+        canvas.getContext("2d");
+
+
+    ctx.fillStyle =
+        "#ffffff";
+
+
+    ctx.fillRect(
+        0,
+        0,
+        canvas.width,
+        canvas.height
+    );
+
+
+    ctx.drawImage(
+        selectedImage,
+        0,
+        0
+    );
+
+
+    resizedDataUrl =
+        canvas.toDataURL(
+            "image/jpeg",
+            quality
+        );
+
+
+    showResult();
+
+
+    const originalSize =
+        originalFile
+            ? originalFile.size
+            : 0;
+
+
+    const resultBytes =
+        dataUrlToBytes(
+            resizedDataUrl
+        );
+
+
+    const result =
+        document.getElementById(
+            "compressResult"
+        );
+
+
+    result.innerHTML =
+        "📦 Original Size: <strong>" +
+        formatFileSize(originalSize) +
+        "</strong><br>" +
+
+        "✨ Compressed Size: <strong>" +
+        formatFileSize(resultBytes) +
+        "</strong>";
+
+
+    result.style.display =
+        "block";
+
+}
+
+
+/* =====================================================
+   FORMAT CONVERTER
+===================================================== */
+
+function convertFormat() {
+
+    if (!selectedImage) {
+
+        alert("पहले photo upload करें।");
+
+        return;
+
+    }
+
+
+    const format =
+        document.getElementById(
+            "convertFormat"
+        ).value;
+
+
+    let quality =
+        0.90;
+
+
+    const canvas =
+        document.createElement("canvas");
+
+
+    canvas.width =
+        selectedImage.width;
+
+    canvas.height =
+        selectedImage.height;
+
+
+    const ctx =
+        canvas.getContext("2d");
+
+
+    if (format === "image/jpeg") {
+
+        ctx.fillStyle =
+            "#ffffff";
+
+        ctx.fillRect(
+            0,
+            0,
+            canvas.width,
+            canvas.height
+        );
+
+    }
+
+
+    ctx.drawImage(
+        selectedImage,
+        0,
+        0
+    );
+
 
     resizedDataUrl =
         canvas.toDataURL(
@@ -1247,31 +2352,74 @@ function resizeImage() {
         );
 
 
-    /*
-     * Preview
-     */
+    showResult();
+
+}
+
+
+/* =====================================================
+   SHOW RESULT
+===================================================== */
+
+function showResult() {
 
     document
         .getElementById("resizedPreview")
-        .src = resizedDataUrl;
+        .src =
+        resizedDataUrl;
 
-
-    /*
-     * Enable download
-     */
-
-    document
-        .getElementById("downloadBtn")
-        .disabled = false;
-
-
-    /*
-     * Success message
-     */
 
     document
         .getElementById("successMessage")
-        .style.display = "block";
+        .style.display =
+        "block";
+
+
+    document
+        .getElementById("passportDownload")
+        .disabled =
+        false;
+
+
+    document
+        .getElementById("customDownload")
+        .disabled =
+        false;
+
+
+    document
+        .getElementById("cropDownload")
+        .disabled =
+        false;
+
+
+    document
+        .getElementById("compressDownload")
+        .disabled =
+        false;
+
+
+    document
+        .getElementById("formatDownload")
+        .disabled =
+        false;
+
+}
+
+
+/* =====================================================
+   DATA URL SIZE
+===================================================== */
+
+function dataUrlToBytes(dataUrl) {
+
+    const base64 =
+        dataUrl.split(",")[1];
+
+
+    return Math.floor(
+        base64.length * 0.75
+    );
 
 }
 
@@ -1284,30 +2432,37 @@ function downloadImage() {
 
     if (!resizedDataUrl) {
 
-        alert("पहले photo resize करें।");
+        alert("पहले photo process करें।");
 
         return;
 
     }
 
 
-    const format =
-        document.getElementById("format").value;
+    let extension =
+        "jpg";
 
 
-    let extension = "jpg";
+    if (
+        resizedDataUrl.startsWith(
+            "data:image/png"
+        )
+    ) {
 
-
-    if (format === "image/png") {
-
-        extension = "png";
+        extension =
+            "png";
 
     }
 
 
-    if (format === "image/webp") {
+    if (
+        resizedDataUrl.startsWith(
+            "data:image/webp"
+        )
+    ) {
 
-        extension = "webp";
+        extension =
+            "webp";
 
     }
 
@@ -1325,13 +2480,17 @@ function downloadImage() {
         extension;
 
 
-    document.body.appendChild(link);
+    document.body.appendChild(
+        link
+    );
 
 
     link.click();
 
 
-    document.body.removeChild(link);
+    document.body.removeChild(
+        link
+    );
 
 }
 
@@ -1342,14 +2501,22 @@ function downloadImage() {
 
 function resetTool() {
 
-    selectedImage = null;
+    selectedImage =
+        null;
 
-    resizedDataUrl = null;
+
+    originalFile =
+        null;
+
+
+    resizedDataUrl =
+        null;
 
 
     document
         .getElementById("imageInput")
-        .value = "";
+        .value =
+        "";
 
 
     document
@@ -1363,43 +2530,130 @@ function resetTool() {
 
 
     document
+        .getElementById("cropPreview")
+        .removeAttribute("src");
+
+
+    document
         .getElementById("fileInfo")
-        .style.display = "none";
+        .style.display =
+        "none";
 
 
     document
         .getElementById("successMessage")
-        .style.display = "none";
+        .style.display =
+        "none";
 
 
     document
-        .getElementById("downloadBtn")
-        .disabled = true;
+        .getElementById("compressResult")
+        .style.display =
+        "none";
 
 
     document
-        .getElementById("width")
-        .value = 630;
+        .getElementById("passportDownload")
+        .disabled =
+        true;
 
 
     document
-        .getElementById("height")
-        .value = 810;
+        .getElementById("customDownload")
+        .disabled =
+        true;
 
 
     document
-        .getElementById("format")
-        .value = "image/jpeg";
+        .getElementById("cropDownload")
+        .disabled =
+        true;
+
+
+    document
+        .getElementById("compressDownload")
+        .disabled =
+        true;
+
+
+    document
+        .getElementById("formatDownload")
+        .disabled =
+        true;
+
+
+    document
+        .getElementById("customWidth")
+        .value =
+        630;
+
+
+    document
+        .getElementById("customHeight")
+        .value =
+        810;
 
 
     document
         .getElementById("quality")
-        .value = 90;
+        .value =
+        90;
 
 
     document
         .getElementById("qualityValue")
-        .textContent = "90%";
+        .textContent =
+        "90%";
+
+
+    document
+        .querySelectorAll(
+            ".image-menu-btn"
+        )
+        .forEach(function(btn) {
+
+            btn.classList.remove(
+                "active"
+            );
+
+        });
+
+
+    const firstButton =
+        document.querySelector(
+            ".image-menu-btn"
+        );
+
+
+    if (firstButton) {
+
+        firstButton.classList.add(
+            "active"
+        );
+
+    }
+
+
+    document
+        .querySelectorAll(
+            ".image-tool-section"
+        )
+        .forEach(function(section) {
+
+            section.classList.remove(
+                "active"
+            );
+
+        });
+
+
+    document
+        .getElementById(
+            "upload-section"
+        )
+        .classList.add(
+            "active"
+        );
 
 }
 
@@ -1411,34 +2665,48 @@ function resetTool() {
 function toggleMenu() {
 
     const nav =
-        document.getElementById("main-nav");
+        document.getElementById(
+            "main-nav"
+        );
 
 
     const button =
-        document.getElementById("menuButton");
+        document.getElementById(
+            "menuButton"
+        );
 
 
-    nav.classList.toggle("mobile-show");
+    nav.classList.toggle(
+        "mobile-show"
+    );
 
 
     const isOpen =
-        nav.classList.contains("mobile-show");
+        nav.classList.contains(
+            "mobile-show"
+        );
 
 
     button.innerHTML =
-        isOpen ? "✕" : "☰";
+        isOpen
+            ? "✕"
+            : "☰";
 
 
     button.setAttribute(
         "aria-expanded",
-        isOpen ? "true" : "false"
+        isOpen
+            ? "true"
+            : "false"
     );
 
 }
 
 
 document
-    .querySelectorAll("#main-nav a")
+    .querySelectorAll(
+        "#main-nav a"
+    )
     .forEach(function(link) {
 
         link.addEventListener(
@@ -1446,11 +2714,15 @@ document
             function() {
 
                 const nav =
-                    document.getElementById("main-nav");
+                    document.getElementById(
+                        "main-nav"
+                    );
 
 
                 const button =
-                    document.getElementById("menuButton");
+                    document.getElementById(
+                        "menuButton"
+                    );
 
 
                 nav.classList.remove(
@@ -1458,7 +2730,8 @@ document
                 );
 
 
-                button.innerHTML = "☰";
+                button.innerHTML =
+                    "☰";
 
 
                 button.setAttribute(
