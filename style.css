@@ -1,9 +1,14 @@
 /* =====================================================
    AJ DIGITAL POINT
-   Sarkari Portal Style CSS
-===================================================== */
+   SARKARI NETWORK STYLE
+   ===================================================== */
+
+
+/* ================= RESET ================= */
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -14,24 +19,22 @@ html {
 
 
 body {
-    margin: 0;
-    padding: 0;
-
     font-family:
         Arial,
         Helvetica,
         sans-serif;
 
-    background: #f1f4f8;
+    background: #f3f3f3;
 
     color: #222;
 
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 
 a {
     text-decoration: none;
+
     color: inherit;
 }
 
@@ -41,17 +44,17 @@ img {
 }
 
 
-/* =====================================================
-   SKIP LINK
-===================================================== */
+/* ================= SKIP LINK ================= */
 
 .skip-link {
     position: absolute;
 
     left: -9999px;
+
     top: 10px;
 
     background: #000;
+
     color: #fff;
 
     padding: 8px 12px;
@@ -67,46 +70,38 @@ img {
 
 /* =====================================================
    HEADER
-===================================================== */
+   ===================================================== */
 
 .site-header {
+    width: 100%;
+
     background: #ffffff;
 
-    border-bottom:
-        1px solid #d9dfe7;
+    border-bottom: 1px solid #ddd;
 
     box-shadow:
-        0 2px 8px rgba(0, 0, 0, 0.08);
-
-    position: sticky;
-
-    top: 0;
-
-    z-index: 1000;
+        0 2px 7px rgba(0,0,0,0.08);
 }
 
 
 .header-top {
-    max-width: 1100px;
+    max-width: 1150px;
 
     margin: auto;
 
-    min-height: 76px;
-
-    padding:
-        8px 15px;
+    min-height: 88px;
 
     display: flex;
 
     align-items: center;
 
     justify-content: space-between;
+
+    padding: 10px 15px;
 }
 
 
-/* =====================================================
-   BRAND
-===================================================== */
+/* ================= BRAND ================= */
 
 .brand {
     display: flex;
@@ -114,67 +109,67 @@ img {
     align-items: center;
 
     gap: 10px;
+}
 
-    min-width: 0;
+
+.logo-link {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
 }
 
 
 .site-logo {
-    width: 54px;
-    height: 54px;
+    width: 65px;
 
-    object-fit: contain;
+    height: 65px;
 
     display: block;
 
-    flex-shrink: 0;
+    object-fit: contain;
+
+    border-radius: 8px;
 }
 
 
-.brand-text {
-    min-width: 0;
-}
+.brand-info h1 {
+    font-size: 28px;
 
+    line-height: 1.2;
 
-.brand-text h1 {
-    margin: 0;
-
-    color: #174ea6;
-
-    font-size: 25px;
-
-    line-height: 1.1;
+    color: #0b4ea2;
 
     font-weight: 800;
 }
 
 
-.brand-text p {
-    margin: 3px 0 0;
+.brand-info p {
+    font-size: 14px;
 
     color: #555;
 
-    font-size: 13px;
+    margin-top: 2px;
 }
 
 
-/* =====================================================
-   MOBILE MENU BUTTON
-===================================================== */
+/* ================= MOBILE MENU ================= */
 
-.menu-btn {
+.mobile-menu-btn {
     display: none;
 
-    border: 0;
+    border: none;
 
-    background: #174ea6;
+    background: #0b4ea2;
 
     color: #fff;
 
-    font-size: 23px;
+    font-size: 24px;
 
     width: 42px;
-    height: 40px;
+
+    height: 42px;
 
     border-radius: 5px;
 
@@ -184,10 +179,10 @@ img {
 
 /* =====================================================
    NAVIGATION
-===================================================== */
+   ===================================================== */
 
 .main-nav {
-    max-width: 1100px;
+    max-width: 1150px;
 
     margin: auto;
 
@@ -195,161 +190,139 @@ img {
 
     flex-wrap: wrap;
 
-    align-items: center;
-
     justify-content: center;
 
-    border-top:
-        1px solid #edf0f4;
+    background: #0b4ea2;
 }
 
 
 .main-nav a {
-    padding:
-        10px 14px;
+    color: #fff;
+
+    padding: 11px 16px;
 
     font-size: 14px;
 
-    font-weight: 700;
+    font-weight: 600;
 
-    color: #222;
+    border-right: 1px solid
+        rgba(255,255,255,0.18);
 
-    border-right:
-        1px solid #eee;
-
-    transition:
-        background 0.2s,
-        color 0.2s;
-}
-
-
-.main-nav a:first-child {
-    border-left:
-        1px solid #eee;
+    transition: 0.2s;
 }
 
 
 .main-nav a:hover {
-    background: #174ea6;
-
-    color: #fff;
+    background: #083b7d;
 }
 
 
 /* =====================================================
    WELCOME BAR
-===================================================== */
+   ===================================================== */
 
 .welcome-bar {
-    max-width: 1100px;
+    max-width: 1150px;
 
-    margin:
-        12px auto 0;
-
-    padding:
-        10px 15px;
+    margin: 12px auto 0;
 
     background: #fff;
 
-    border:
-        1px solid #dce2ea;
+    border: 1px solid #ddd;
+
+    padding: 10px 15px;
+
+    font-size: 15px;
+
+    color: #333;
 
     text-align: center;
-
-    font-size: 14px;
 }
 
 
 .welcome-bar strong {
-    color: #174ea6;
+    color: #0b4ea2;
 }
 
 
 /* =====================================================
    IMPORTANT LINKS
-===================================================== */
+   ===================================================== */
 
-.important-section {
-    max-width: 1100px;
+.notice-section {
+    max-width: 1150px;
 
-    margin:
-        10px auto;
+    margin: 10px auto;
 
     background: #fff;
 
-    border:
-        1px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 
-.section-title {
-    padding:
-        10px 15px;
+.notice-title {
+    background: #0b4ea2;
 
     color: #fff;
 
-    font-weight: 800;
+    padding: 10px 15px;
+
+    font-weight: bold;
 
     font-size: 16px;
 }
 
 
-.red-title {
-    background: #c62828;
+.notice-links {
+    display: flex;
+
+    flex-wrap: wrap;
 }
 
 
-.important-links {
-    display: grid;
+.notice-links a {
+    flex: 1;
 
-    grid-template-columns:
-        repeat(4, 1fr);
-}
+    min-width: 180px;
 
-
-.important-links a {
-    padding:
-        11px 12px;
+    padding: 11px;
 
     text-align: center;
 
-    border-right:
-        1px solid #eee;
+    color: #0b4ea2;
 
-    color: #174ea6;
+    font-weight: 600;
 
-    font-size: 14px;
+    border-right: 1px solid #ddd;
 
-    font-weight: 700;
+    border-bottom: 1px solid #ddd;
 }
 
 
-.important-links a:hover {
-    background: #eef4ff;
+.notice-links a:hover {
+    background: #eef5ff;
 }
 
 
 /* =====================================================
    MAIN CONTAINER
-===================================================== */
+   ===================================================== */
 
 .container {
-    max-width: 1100px;
+    max-width: 1150px;
 
     margin: auto;
 
-    padding:
-        0 10px 30px;
+    padding: 0 10px 30px;
 }
 
 
 /* =====================================================
    QUICK SERVICES
-===================================================== */
+   ===================================================== */
 
 .quick-section {
-    margin:
-        12px 0;
+    margin-top: 12px;
 }
 
 
@@ -363,20 +336,20 @@ img {
 }
 
 
-.quick-card {
-    min-height: 105px;
+.quick-box {
+    min-height: 115px;
+
+    padding: 12px 8px;
 
     display: flex;
 
     flex-direction: column;
 
-    align-items: center;
-
     justify-content: center;
 
-    text-align: center;
+    align-items: center;
 
-    padding: 8px;
+    text-align: center;
 
     color: #fff;
 
@@ -384,138 +357,126 @@ img {
 
     transition:
         transform 0.2s,
-        opacity 0.2s;
+        box-shadow 0.2s;
 }
 
 
-.quick-card:hover {
-    transform:
-        translateY(-2px);
+.quick-box:hover {
+    transform: translateY(-2px);
 
-    opacity: 0.92;
+    box-shadow:
+        0 4px 12px
+        rgba(0,0,0,0.15);
 }
 
 
 .quick-icon {
-    font-size: 27px;
-
-    line-height: 1;
+    font-size: 28px;
 
     margin-bottom: 5px;
 }
 
 
-.quick-card strong {
-    font-size: 13px;
+.quick-box strong {
+    font-size: 15px;
 }
 
 
-.quick-card small {
-    margin-top: 3px;
+.quick-box small {
+    font-size: 11px;
 
-    font-size: 10px;
+    margin-top: 3px;
 
     opacity: 0.95;
 }
 
 
-.blue {
-    background: #1769aa;
+.blue-box {
+    background: #0b4ea2;
 }
 
 
-.green {
-    background: #16865b;
+.green-box {
+    background: #168a45;
 }
 
 
-.red {
+.red-box {
     background: #c62828;
 }
 
 
-.orange {
-    background: #e87500;
+.orange-box {
+    background: #e67e22;
 }
 
 
-.purple {
-    background: #6941a5;
+.purple-box {
+    background: #7048a8;
 }
 
 
-.teal {
+.teal-box {
     background: #087f8c;
 }
 
 
 /* =====================================================
    SEARCH
-===================================================== */
+   ===================================================== */
 
 .search-section {
-    margin:
-        12px 0;
+    margin: 14px 0;
 }
 
 
 .search-section input {
     width: 100%;
 
-    padding:
-        13px 15px;
+    padding: 13px 15px;
 
-    border:
-        1px solid #cbd3dd;
+    border: 1px solid #bbb;
 
     border-radius: 3px;
 
-    font-size: 15px;
-
     background: #fff;
+
+    font-size: 15px;
 
     outline: none;
 }
 
 
 .search-section input:focus {
-    border-color: #174ea6;
+    border-color: #0b4ea2;
 
     box-shadow:
         0 0 0 2px
-        rgba(23, 78, 166, 0.12);
+        rgba(11,78,162,0.12);
 }
 
 
 /* =====================================================
    JOIN US
-===================================================== */
+   ===================================================== */
 
 .join-section {
     background: #fff;
 
-    border:
-        1px solid #ddd;
+    border: 1px solid #ddd;
 
     margin-bottom: 12px;
-
-    display: flex;
-
-    align-items: stretch;
 }
 
 
-.join-heading {
-    background: #174ea6;
+.join-title {
+    background: #222;
 
     color: #fff;
 
-    padding:
-        11px 15px;
+    padding: 9px 14px;
 
-    font-weight: 800;
-
-    white-space: nowrap;
+    font-weight: bold;
 }
 
 
@@ -523,302 +484,262 @@ img {
     display: flex;
 
     flex-wrap: wrap;
-
-    align-items: center;
 }
 
 
 .join-links a {
-    padding:
-        9px 13px;
+    padding: 9px 14px;
 
-    font-size: 13px;
+    color: #0b4ea2;
 
-    color: #174ea6;
+    font-size: 14px;
 
-    font-weight: 700;
+    font-weight: 600;
 
-    border-right:
-        1px solid #eee;
+    border-right: 1px solid #ddd;
 }
 
 
 .join-links a:hover {
-    background: #eef4ff;
+    background: #f0f5ff;
 }
 
 
 /* =====================================================
-   PORTAL SECTION
-===================================================== */
+   PORTAL SECTIONS
+   ===================================================== */
 
 .portal-section {
     background: #fff;
 
-    border:
-        1px solid #d7dde5;
+    border: 1px solid #d7d7d7;
 
-    margin:
-        12px 0;
+    margin-bottom: 14px;
 
-    overflow: hidden;
+    box-shadow:
+        0 1px 3px
+        rgba(0,0,0,0.04);
 }
 
 
-.portal-header {
-    min-height: 46px;
+/* ================= SECTION HEADER ================= */
 
+.portal-heading {
     display: flex;
 
     align-items: center;
 
     justify-content: space-between;
 
-    padding:
-        8px 14px;
+    padding: 10px 14px;
 
     color: #fff;
 }
 
 
-.portal-header h2 {
-    margin: 0;
+.portal-heading h2 {
+    font-size: 18px;
 
-    font-size: 17px;
-
-    line-height: 1.3;
+    font-weight: 700;
 }
 
 
-.portal-header a {
+.portal-heading a {
     color: #fff;
 
     font-size: 13px;
 
-    font-weight: 700;
+    font-weight: bold;
 }
 
 
-.blue-header {
-    background: #174ea6;
+.blue-heading {
+    background: #0b4ea2;
 }
 
 
-.green-header {
-    background: #16865b;
+.green-heading {
+    background: #168a45;
 }
 
 
-.red-header {
+.red-heading {
     background: #c62828;
 }
 
 
-.orange-header {
-    background: #e87500;
+.orange-heading {
+    background: #d86b00;
 }
 
 
-.purple-header {
-    background: #6941a5;
+.purple-heading {
+    background: #7048a8;
 }
 
 
-.teal-header {
+.teal-heading {
     background: #087f8c;
 }
 
 
-/* =====================================================
-   SERVICE GRID
-===================================================== */
+/* ================= LINKS ================= */
 
-.service-grid {
+.portal-links {
     display: grid;
 
     grid-template-columns:
-        repeat(2, 1fr);
+        repeat(3, 1fr);
 }
 
 
-.service-item {
-    min-height: 47px;
+.portal-links a {
+    display: block;
 
-    display: flex;
+    padding: 11px 13px;
 
-    align-items: center;
+    border-right: 1px solid #eee;
 
-    justify-content: space-between;
+    border-bottom: 1px solid #eee;
 
-    gap: 10px;
-
-    padding:
-        10px 13px;
-
-    color: #174ea6;
+    color: #174d8d;
 
     font-size: 14px;
 
-    font-weight: 700;
+    font-weight: 600;
 
-    border-bottom:
-        1px solid #edf0f3;
+    background: #fff;
 
-    transition:
-        background 0.15s,
-        padding 0.15s;
+    transition: 0.2s;
 }
 
 
-.service-item:nth-child(odd) {
-    border-right:
-        1px solid #edf0f3;
-}
+.portal-links a:hover {
+    background: #f1f6fd;
 
-
-.service-item:hover {
-    background: #f1f6ff;
+    color: #063e88;
 
     padding-left: 17px;
 }
 
 
-.service-item span {
-    color: #888;
-
-    font-size: 16px;
-}
-
-
 /* =====================================================
-   STATUS PANEL
-===================================================== */
+   STATUS
+   ===================================================== */
 
 .status-panel {
     background: #fff;
 
-    border:
-        1px solid #d7dde5;
+    border: 1px solid #ddd;
 
-    margin:
-        12px 0;
-
-    padding:
-        18px;
+    margin-bottom: 14px;
 
     text-align: center;
+
+    padding-bottom: 18px;
 }
 
 
-.status-panel h2 {
-    margin:
-        0 0 5px;
+.status-title {
+    background: #0b4ea2;
 
-    color: #174ea6;
+    color: #fff;
 
-    font-size: 19px;
+    padding: 11px;
+
+    font-size: 18px;
+
+    font-weight: bold;
 }
 
 
 .status-panel p {
-    margin:
-        0 0 13px;
+    padding: 12px;
 
     font-size: 14px;
-
-    color: #555;
 }
 
 
 .status-button {
     display: inline-block;
 
-    background: #174ea6;
+    background: #168a45;
 
     color: #fff;
 
-    padding:
-        10px 18px;
+    padding: 10px 18px;
 
-    border-radius: 4px;
+    border-radius: 3px;
+
+    font-weight: bold;
 
     font-size: 14px;
-
-    font-weight: 700;
 }
 
 
 .status-button:hover {
-    background: #0f3c82;
+    background: #116b36;
 }
 
 
 /* =====================================================
    ABOUT
-===================================================== */
+   ===================================================== */
 
 .about-panel {
     background: #fff;
 
-    border:
-        1px solid #d7dde5;
+    border: 1px solid #ddd;
 
-    padding:
-        18px;
+    margin-bottom: 14px;
 
-    margin:
-        12px 0;
+    padding: 18px;
 }
 
 
 .about-panel h2 {
-    margin-top: 0;
+    color: #0b4ea2;
 
-    color: #174ea6;
-
-    font-size: 19px;
-
-    border-bottom:
-        2px solid #174ea6;
+    border-bottom: 2px solid #0b4ea2;
 
     padding-bottom: 7px;
+
+    margin-bottom: 12px;
+
+    font-size: 20px;
 }
 
 
 .about-panel p {
-    font-size: 14px;
+    margin-bottom: 10px;
 
-    color: #444;
+    font-size: 14px;
 }
 
 
-.notice-warning {
-    background: #fff8e1;
+.important-text {
+    background: #fff7df;
 
-    border-left:
-        4px solid #f0a000;
+    border-left: 4px solid #f0a000;
 
-    padding:
-        10px 12px;
+    padding: 10px;
 
-    font-size: 13px;
+    color: #744d00;
 
-    color: #664d03;
+    margin-top: 12px;
 }
 
 
 /* =====================================================
    CONTACT
-===================================================== */
+   ===================================================== */
 
 .contact-panel {
     background: #fff;
 
-    border:
-        1px solid #d7dde5;
+    border: 1px solid #ddd;
 
-    margin:
-        12px 0;
+    margin-bottom: 15px;
 }
 
 
@@ -833,116 +754,123 @@ img {
 
 
 .contact-card {
-    padding:
-        18px;
+    padding: 18px;
+
+    border-right: 1px solid #eee;
 
     text-align: center;
-
-    border-right:
-        1px solid #edf0f3;
 }
 
 
 .contact-card:last-child {
-    border-right: 0;
-}
-
-
-.contact-icon {
-    font-size: 30px;
+    border-right: none;
 }
 
 
 .contact-card h3 {
-    margin:
-        6px 0;
+    color: #0b4ea2;
 
-    color: #174ea6;
+    margin-bottom: 8px;
 
     font-size: 17px;
 }
 
 
 .contact-card p {
-    font-size: 13px;
+    font-size: 14px;
 
-    color: #555;
+    margin-bottom: 10px;
 }
 
 
 .contact-button {
     display: inline-block;
 
-    background: #174ea6;
+    background: #0b4ea2;
 
     color: #fff;
 
-    padding:
-        8px 13px;
+    padding: 8px 14px;
 
     border-radius: 3px;
 
     font-size: 13px;
 
-    font-weight: 700;
+    font-weight: bold;
 }
 
 
 .contact-button:hover {
-    background: #0f3c82;
+    background: #083b7d;
 }
 
 
 /* =====================================================
    FOOTER
-===================================================== */
+   ===================================================== */
 
 footer {
-    background: #17202b;
+    background: #222;
 
-    color: #fff;
+    color: #ddd;
 
     margin-top: 20px;
 }
 
 
 .footer-inner {
-    max-width: 1100px;
+    max-width: 1150px;
 
     margin: auto;
 
-    padding:
-        25px 15px;
+    padding: 25px 15px;
 
     text-align: center;
 }
 
 
-.footer-logo {
-    width: 48px;
-    height: 48px;
+.footer-brand {
+    display: flex;
 
-    object-fit: contain;
+    align-items: center;
 
-    margin-bottom: 5px;
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-bottom: 12px;
 }
 
 
-.footer-inner h2 {
-    margin:
-        0 0 3px;
+.footer-logo {
+    width: 45px;
+
+    height: 45px;
+
+    object-fit: contain;
+
+    border-radius: 5px;
+}
+
+
+.footer-brand h2 {
+    color: #fff;
 
     font-size: 20px;
 }
 
 
-.footer-inner p {
-    margin:
-        5px 0;
+.footer-brand p {
+    font-size: 12px;
 
+    color: #bbb;
+}
+
+
+.footer-inner > p {
     font-size: 13px;
 
-    color: #d6dbe1;
+    margin: 5px 0;
 }
 
 
@@ -953,48 +881,58 @@ footer {
 
     flex-wrap: wrap;
 
-    margin:
-        15px 0;
+    margin: 15px 0;
 }
 
 
 .footer-links a {
-    padding:
-        5px 11px;
-
-    font-size: 13px;
-
     color: #fff;
 
-    border-right:
-        1px solid #58616b;
-}
+    padding: 5px 12px;
 
+    border-right: 1px solid #555;
 
-.footer-links a:last-child {
-    border-right: 0;
+    font-size: 13px;
 }
 
 
 .footer-links a:hover {
-    color: #8bb7ff;
+    color: #7db4ff;
 }
 
 
 .footer-inner hr {
-    border: 0;
+    border: none;
 
-    border-top:
-        1px solid #3b4652;
+    border-top: 1px solid #444;
 
-    margin:
-        15px 0;
+    margin: 12px 0;
 }
 
 
 /* =====================================================
-   RESPONSIVE - TABLET
-===================================================== */
+   DESKTOP WIDTH
+   ===================================================== */
+
+@media (min-width: 1200px) {
+
+    .header-top,
+    .main-nav,
+    .container,
+    .welcome-bar,
+    .notice-section,
+    .footer-inner {
+
+        max-width: 1150px;
+
+    }
+
+}
+
+
+/* =====================================================
+   TABLET
+   ===================================================== */
 
 @media (max-width: 900px) {
 
@@ -1004,62 +942,34 @@ footer {
     }
 
 
-    .important-links {
+    .portal-links {
         grid-template-columns:
             repeat(2, 1fr);
-    }
-
-
-    .important-links a:nth-child(2) {
-        border-right: 0;
-    }
-
-
-    .contact-grid {
-        grid-template-columns:
-            1fr;
-    }
-
-
-    .contact-card {
-        border-right: 0;
-
-        border-bottom:
-            1px solid #edf0f3;
-    }
-
-
-    .contact-card:last-child {
-        border-bottom: 0;
     }
 
 }
 
 
 /* =====================================================
-   RESPONSIVE - MOBILE
-===================================================== */
+   MOBILE
+   ===================================================== */
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
 
-    .site-header {
-        position: sticky;
 
-        top: 0;
-    }
-
+    /* HEADER */
 
     .header-top {
-        min-height: 65px;
+        min-height: 68px;
 
-        padding:
-            6px 10px;
+        padding: 8px 10px;
     }
 
 
     .site-logo {
-        width: 44px;
-        height: 44px;
+        width: 48px;
+
+        height: 48px;
     }
 
 
@@ -1068,36 +978,37 @@ footer {
     }
 
 
-    .brand-text h1 {
-        font-size: 18px;
+    .brand-info h1 {
+        font-size: 19px;
     }
 
 
-    .brand-text p {
+    .brand-info p {
         font-size: 10px;
+
+        line-height: 1.2;
     }
 
 
-    .menu-btn {
+    /* MOBILE BUTTON */
+
+    .mobile-menu-btn {
         display: block;
     }
 
+
+    /* NAV */
 
     .main-nav {
         display: none;
 
         flex-direction: column;
 
-        align-items: stretch;
-
         width: 100%;
-
-        border-top:
-            1px solid #ddd;
     }
 
 
-    .main-nav.show {
+    .main-nav.mobile-show {
         display: flex;
     }
 
@@ -1105,60 +1016,60 @@ footer {
     .main-nav a {
         width: 100%;
 
-        border:
-            0;
+        padding: 12px 15px;
 
         border-bottom:
-            1px solid #eee;
+            1px solid
+            rgba(255,255,255,0.15);
 
-        padding:
-            12px 15px;
-
-        text-align: left;
-
-        font-size: 14px;
+        border-right: none;
     }
 
 
-    .main-nav a:first-child {
-        border-left: 0;
-    }
-
+    /* WELCOME */
 
     .welcome-bar {
         margin-top: 8px;
 
-        font-size: 12px;
+        font-size: 13px;
 
-        padding: 8px 10px;
+        padding: 9px;
     }
 
+
+    /* IMPORTANT LINKS */
+
+    .notice-section {
+        margin: 8px 5px;
+    }
+
+
+    .notice-links {
+        display: grid;
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    .notice-links a {
+        min-width: 0;
+
+        font-size: 12px;
+
+        padding: 9px 5px;
+    }
+
+
+    /* CONTAINER */
 
     .container {
         padding:
-            0 7px 20px;
+            0 5px 20px;
     }
 
 
-    .important-section {
-        margin:
-            8px 7px;
-    }
-
-
-    .important-links {
-        grid-template-columns:
-            1fr 1fr;
-    }
-
-
-    .important-links a {
-        font-size: 12px;
-
-        padding:
-            9px 5px;
-    }
-
+    /* QUICK */
 
     .quick-grid {
         grid-template-columns:
@@ -1168,8 +1079,10 @@ footer {
     }
 
 
-    .quick-card {
-        min-height: 90px;
+    .quick-box {
+        min-height: 95px;
+
+        padding: 8px 5px;
     }
 
 
@@ -1178,28 +1091,26 @@ footer {
     }
 
 
-    .quick-card strong {
-        font-size: 12px;
+    .quick-box strong {
+        font-size: 13px;
     }
 
 
-    .quick-card small {
+    .quick-box small {
         font-size: 9px;
     }
 
 
-    .join-section {
-        display: block;
+    /* SEARCH */
+
+    .search-section input {
+        padding: 11px;
+
+        font-size: 13px;
     }
 
 
-    .join-heading {
-        text-align: center;
-
-        padding:
-            9px;
-    }
-
+    /* JOIN */
 
     .join-links {
         display: grid;
@@ -1212,69 +1123,73 @@ footer {
     .join-links a {
         text-align: center;
 
-        border-bottom:
-            1px solid #eee;
+        border-bottom: 1px solid #ddd;
+
+        font-size: 12px;
+
+        padding: 8px;
     }
 
 
-    .portal-header {
-        min-height: 43px;
+    /* SECTION */
 
-        padding:
-            8px 10px;
+    .portal-heading {
+        padding: 9px 10px;
     }
 
 
-    .portal-header h2 {
+    .portal-heading h2 {
         font-size: 15px;
     }
 
 
-    .portal-header a {
+    .portal-heading a {
         font-size: 11px;
     }
 
 
-    .service-grid {
+    .portal-links {
         grid-template-columns:
             1fr;
     }
 
 
-    .service-item {
-        min-height: 44px;
+    .portal-links a {
+        padding: 10px;
 
         font-size: 13px;
 
-        padding:
-            9px 10px;
+        border-right: none;
     }
 
 
-    .service-item:nth-child(odd) {
-        border-right: 0;
+    /* STATUS */
+
+    .status-title {
+        font-size: 15px;
+
+        padding: 9px;
     }
 
 
-    .service-item:hover {
-        padding-left: 13px;
+    .status-panel p {
+        font-size: 12px;
+
+        padding: 10px;
     }
 
 
-    .status-panel {
-        padding:
-            15px 10px;
+    .status-button {
+        font-size: 12px;
+
+        padding: 8px 13px;
     }
 
 
-    .status-panel h2 {
-        font-size: 17px;
-    }
-
+    /* ABOUT */
 
     .about-panel {
-        padding:
-            14px 12px;
+        padding: 13px;
     }
 
 
@@ -1288,23 +1203,43 @@ footer {
     }
 
 
-    .contact-card {
-        padding:
-            15px 10px;
+    /* CONTACT */
+
+    .contact-grid {
+        grid-template-columns: 1fr;
     }
 
 
+    .contact-card {
+        border-right: none;
+
+        border-bottom: 1px solid #eee;
+
+        padding: 14px;
+    }
+
+
+    .contact-card:last-child {
+        border-bottom: none;
+    }
+
+
+    /* FOOTER */
+
     .footer-inner {
-        padding:
-            20px 10px;
+        padding: 20px 10px;
+    }
+
+
+    .footer-brand h2 {
+        font-size: 17px;
     }
 
 
     .footer-links a {
-        font-size: 12px;
+        font-size: 11px;
 
-        padding:
-            4px 8px;
+        padding: 4px 8px;
     }
 
 }
@@ -1312,43 +1247,29 @@ footer {
 
 /* =====================================================
    VERY SMALL MOBILE
-===================================================== */
+   ===================================================== */
 
 @media (max-width: 380px) {
 
-    .brand-text h1 {
-        font-size: 16px;
+    .brand-info h1 {
+        font-size: 17px;
     }
 
 
-    .brand-text p {
+    .brand-info p {
         font-size: 9px;
     }
 
 
     .site-logo {
-        width: 40px;
-        height: 40px;
+        width: 44px;
+
+        height: 44px;
     }
 
 
-    .quick-grid {
-        grid-template-columns:
-            1fr 1fr;
-    }
-
-
-    .important-links {
-        grid-template-columns:
-            1fr;
-    }
-
-
-    .important-links a {
-        border-right: 0;
-
-        border-bottom:
-            1px solid #eee;
+    .quick-box strong {
+        font-size: 12px;
     }
 
 }
