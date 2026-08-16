@@ -1,3 +1,9 @@
+/* =====================================================
+   AJ DIGITAL POINT
+   Sarkari Result / Sarkari Network Style CSS
+===================================================== */
+
+
 /* ================= RESET ================= */
 
 * {
@@ -6,579 +12,1159 @@
     box-sizing: border-box;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
     background: #f1f3f6;
+
     color: #222;
+
     line-height: 1.6;
 }
 
+
+/* ================= LINKS ================= */
+
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 
-/* ================= HEADER ================= */
+/* ================= SKIP LINK ================= */
 
-.main-header {
-    background: white;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+.skip-link {
+    position: absolute;
+
+    left: -9999px;
+
+    top: 10px;
+
+    background: #000;
+
+    color: #fff;
+
+    padding: 10px 15px;
+
+    z-index: 9999;
 }
 
-.header-container {
+
+.skip-link:focus {
+    left: 10px;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.site-header {
+    background: #ffffff;
+
+    border-bottom: 1px solid #ddd;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+.header-inner {
     max-width: 1200px;
+
     margin: auto;
-    padding: 18px 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo-area {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.logo {
-    display: block;
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    visibility: visible;
-    opacity: 1;
-}
-
-.brand-text h1 {
-    color: #0d47a1;
-    font-size: 30px;
-}
-
-.brand-text p {
-    color: #555;
-    font-size: 15px;
-}
-
-
-/* ================= NAV ================= */
-
-nav {
-    background: #0d47a1;
-
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-nav a {
-    color: white;
-    padding: 14px 18px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background: #08316f;
-}
-
-.menu-btn {
-    display: none;
-    border: none;
-    background: #0d47a1;
-    color: white;
-    font-size: 25px;
-    padding: 8px 12px;
-    border-radius: 5px;
-}
-
-
-/* ================= NOTICE ================= */
-
-.notice {
-    max-width: 1200px;
-    margin: 15px auto;
-
-    padding: 13px 20px;
-
-    background: #fff3cd;
-    border: 1px solid #ffe08a;
-
-    color: #664d03;
-
-    text-align: center;
-}
-
-
-/* ================= QUICK SERVICES ================= */
-
-.quick-services {
-    max-width: 1200px;
-    margin: 20px auto;
-
-    display: grid;
-    grid-template-columns:
-        repeat(6, 1fr);
-
-    gap: 10px;
-
-    padding: 0 15px;
-}
-
-.quick-box {
-    color: white;
-
-    padding: 18px 10px;
 
     min-height: 125px;
 
-    text-align: center;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 15px 20px;
+}
+
+
+/* ================= BRAND ================= */
+
+.brand {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+
+.brand a {
+    display: flex;
+
+    align-items: center;
+}
+
+
+/* ================= LOGO ================= */
+
+.site-logo {
+    width: 95px;
+
+    height: 95px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* ================= BRAND TEXT ================= */
+
+.brand-info h1 {
+    font-size: 32px;
+
+    color: #124e9e;
+
+    font-weight: 800;
+
+    margin-bottom: 3px;
+}
+
+
+.brand-info p {
+    color: #444;
+
+    font-size: 16px;
+}
+
+
+/* =====================================================
+   MOBILE MENU BUTTON
+===================================================== */
+
+.mobile-menu-btn {
+    display: none;
+
+    border: none;
+
+    background: #124e9e;
+
+    color: #fff;
+
+    font-size: 25px;
+
+    padding: 8px 12px;
 
     border-radius: 5px;
 
+    cursor: pointer;
+}
+
+
+/* =====================================================
+   MAIN NAVIGATION
+===================================================== */
+
+.main-nav {
+    background: #104b9e;
+
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    padding: 0;
+}
+
+
+.main-nav a {
+    color: #fff;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    padding: 15px 20px;
 
     transition: 0.2s;
 }
 
-.quick-box:hover {
-    transform: translateY(-4px);
-    opacity: 0.9;
+
+.main-nav a:hover {
+    background: #08366f;
+
+    color: #fff;
 }
 
-.quick-box span {
-    font-size: 30px;
+
+/* =====================================================
+   WELCOME BAR
+===================================================== */
+
+.welcome-bar {
+    max-width: 1100px;
+
+    margin: 15px auto 0;
+
+    background: #fff3cd;
+
+    border: 1px solid #f0d98c;
+
+    color: #5b4500;
+
+    text-align: center;
+
+    padding: 12px;
+
+    font-size: 17px;
 }
+
+
+.welcome-bar strong {
+    color: #b00000;
+}
+
+
+/* =====================================================
+   IMPORTANT NOTICE
+===================================================== */
+
+.notice-section {
+    max-width: 1100px;
+
+    margin: 12px auto;
+
+    border: 1px solid #bbb;
+
+    background: #fff;
+}
+
+
+.notice-title {
+    background: #075db8;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+
+.notice-links {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+}
+
+
+.notice-links a {
+    text-align: center;
+
+    padding: 12px 8px;
+
+    border-right: 1px solid #ddd;
+
+    color: #0046a0;
+
+    font-weight: bold;
+
+    background: #fff;
+}
+
+
+.notice-links a:hover {
+    background: #eaf2ff;
+
+    color: #d00000;
+}
+
+
+/* =====================================================
+   MAIN CONTAINER
+===================================================== */
+
+.container {
+    width: 100%;
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 0 10px 40px;
+}
+
+
+/* =====================================================
+   QUICK SERVICES
+===================================================== */
+
+.quick-section {
+    margin: 15px 0;
+}
+
+
+.quick-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(6, 1fr);
+
+    gap: 10px;
+}
+
+
+.quick-box {
+    min-height: 130px;
+
+    color: #fff;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 12px 7px;
+
+    border-radius: 5px;
+
+    transition: 0.2s;
+
+    box-shadow:
+        0 2px 5px rgba(0, 0, 0, 0.12);
+}
+
+
+.quick-box:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.quick-icon {
+    font-size: 30px;
+
+    margin-bottom: 5px;
+}
+
 
 .quick-box strong {
     font-size: 16px;
 }
 
+
 .quick-box small {
     font-size: 12px;
+
     margin-top: 5px;
 }
 
 
-/* COLORS */
+/* ================= QUICK COLORS ================= */
 
-.blue {
-    background: #0d6efd;
+.box-blue {
+    background: #1267dc;
 }
 
-.green {
-    background: #198754;
+
+.box-green {
+    background: #168c57;
 }
 
-.red {
+
+.box-red {
     background: #dc3545;
 }
 
-.orange {
-    background: #fd7e14;
-}
 
-.purple {
-    background: #6f42c1;
-}
-
-.teal {
-    background: #008c95;
+.box-orange {
+    background: #ff7a12;
 }
 
 
-/* ================= SEARCH ================= */
+.box-purple {
+    background: #7043c4;
+}
+
+
+.box-teal {
+    background: #078f96;
+}
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
 
 .search-section {
-    max-width: 900px;
-    margin: 25px auto;
+    background: #fff;
 
-    background: white;
+    border: 1px solid #ddd;
 
-    padding: 25px;
+    padding: 20px;
+
+    margin: 20px auto;
+
+    box-shadow:
+        0 2px 7px rgba(0, 0, 0, 0.08);
+}
+
+
+#serviceSearch {
+    width: 100%;
+
+    padding: 14px 16px;
+
+    border: 1px solid #bbb;
+
+    border-radius: 4px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+
+#serviceSearch:focus {
+    border-color: #1267dc;
+
+    box-shadow:
+        0 0 0 2px rgba(18, 103, 220, 0.12);
+}
+
+
+/* =====================================================
+   JOIN US
+===================================================== */
+
+.join-section {
+    margin: 15px 0;
+
+    border: 1px solid #aaa;
+
+    background: #fff;
+}
+
+
+.join-title {
+    background: #222c70;
+
+    color: #fff;
 
     text-align: center;
 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 8px;
+
+    font-weight: bold;
+
+    font-size: 17px;
 }
 
-.search-section h2 {
-    color: #0d47a1;
+
+.join-links {
+    display: grid;
+
+    grid-template-columns:
+        repeat(6, 1fr);
+}
+
+
+.join-links a {
+    padding: 11px 5px;
+
+    text-align: center;
+
+    color: #003fa3;
+
+    font-weight: bold;
+
+    border-right: 1px solid #ddd;
+}
+
+
+.join-links a:hover {
+    background: #eef4ff;
+
+    color: #d00000;
+}
+
+
+/* =====================================================
+   PORTAL SECTION
+===================================================== */
+
+.portal-section {
+    background: #fff;
+
+    border: 1px solid #aaa;
+
+    margin: 18px 0;
+
+    overflow: hidden;
+}
+
+
+/* =====================================================
+   PORTAL HEADING
+===================================================== */
+
+.portal-heading {
+    min-height: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 18px;
+
+    color: #fff;
+}
+
+
+.portal-heading h2 {
+    font-size: 20px;
+
+    margin: 0;
+}
+
+
+.portal-heading a {
+    color: #fff;
+
+    font-weight: bold;
+
+    background: rgba(0, 0, 0, 0.18);
+
+    padding: 5px 10px;
+
+    border-radius: 3px;
+}
+
+
+.portal-heading a:hover {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+
+/* ================= HEADING COLORS ================= */
+
+.blue-heading {
+    background: #0965bd;
+}
+
+
+.green-heading {
+    background: #168a50;
+}
+
+
+.red-heading {
+    background: #c92e3c;
+}
+
+
+.orange-heading {
+    background: #ef7411;
+}
+
+
+.purple-heading {
+    background: #6840b5;
+}
+
+
+.teal-heading {
+    background: #087f86;
+}
+
+
+/* =====================================================
+   PORTAL LINKS
+===================================================== */
+
+.portal-links {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+}
+
+
+.portal-links a {
+    display: block;
+
+    padding: 12px 16px;
+
+    border-bottom: 1px solid #ddd;
+
+    border-right: 1px solid #ddd;
+
+    color: #003fc4;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    background: #fff;
+
+    transition: 0.15s;
+}
+
+
+.portal-links a:hover {
+    background: #f0f6ff;
+
+    color: #d00000;
+
+    padding-left: 21px;
+}
+
+
+/* =====================================================
+   STATUS PANEL
+===================================================== */
+
+.status-panel {
+    background: #fff;
+
+    border: 1px solid #aaa;
+
+    margin: 20px 0;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+
+.status-title {
+    background: #075db8;
+
+    color: #fff;
+
+    font-size: 21px;
+
+    font-weight: bold;
+
+    padding: 12px;
+
+    margin: -20px -20px 15px;
+}
+
+
+.status-panel p {
+    font-size: 16px;
+
     margin-bottom: 15px;
 }
 
-.search-section input {
-    width: 100%;
 
-    padding: 14px;
+.status-button {
+    display: inline-block;
 
-    border: 1px solid #ccc;
+    background: #075db8;
 
-    border-radius: 5px;
+    color: #fff;
+
+    padding: 11px 22px;
+
+    border-radius: 4px;
+
+    font-weight: bold;
+}
+
+
+.status-button:hover {
+    background: #043e7c;
+}
+
+
+/* =====================================================
+   ABOUT
+===================================================== */
+
+.about-panel {
+    background: #fff;
+
+    border: 1px solid #aaa;
+
+    margin: 20px 0;
+
+    padding: 20px;
+}
+
+
+.about-panel h2 {
+    background: #104e9f;
+
+    color: #fff;
+
+    padding: 10px 15px;
+
+    margin: -20px -20px 18px;
+
+    font-size: 21px;
+}
+
+
+.about-panel p {
+    margin-bottom: 12px;
 
     font-size: 16px;
 }
 
 
-/* ================= CONTENT ================= */
+.important-text {
+    background: #fff3cd;
 
-.content {
-    max-width: 1100px;
-    margin: auto;
-    padding: 10px 15px;
+    border: 1px solid #efd68b;
+
+    padding: 10px;
+
+    color: #6b5100;
 }
 
 
-/* ================= SERVICE SECTION ================= */
+/* =====================================================
+   CONTACT
+===================================================== */
 
-.service-section {
-    background: white;
+.contact-panel {
+    background: #fff;
 
-    margin: 25px 0;
+    border: 1px solid #aaa;
 
-    border-radius: 5px;
+    margin: 20px 0;
 
     overflow: hidden;
-
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 
-/* ================= SECTION HEADING ================= */
-
-.section-heading {
-    color: white;
-
-    padding: 15px 20px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.section-heading h2 {
-    font-size: 20px;
-}
-
-.section-heading a {
-    color: white;
-    font-weight: bold;
-}
-
-
-/* HEADING COLORS */
-
-.blue-heading {
-    background: #0d6efd;
-}
-
-.green-heading {
-    background: #198754;
-}
-
-.red-heading {
-    background: #dc3545;
-}
-
-.orange-heading {
-    background: #fd7e14;
-}
-
-.purple-heading {
-    background: #6f42c1;
-}
-
-
-/* ================= SERVICE TABLE ================= */
-
-.service-table {
-    width: 100%;
-}
-
-.service-row {
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 14px 20px;
-
-    border-bottom: 1px solid #eee;
-}
-
-.service-row:last-child {
-    border-bottom: none;
-}
-
-.service-row:hover {
-    background: #f8f9fa;
-}
-
-.service-row a {
-    background: #0d6efd;
-
-    color: white;
-
-    padding: 7px 15px;
-
-    border-radius: 4px;
-
-    font-size: 14px;
-}
-
-.service-row a:hover {
-    background: #084298;
-}
-
-
-/* ================= SERVICE GRID ================= */
-
-.service-grid {
+.contact-content {
     display: grid;
 
     grid-template-columns:
-        repeat(2, 1fr);
+        repeat(3, 1fr);
 
     gap: 0;
 }
 
-.service-item {
-    padding: 16px 20px;
 
-    border-bottom: 1px solid #eee;
-    border-right: 1px solid #eee;
+.contact-content > div {
+    padding: 20px;
 
-    color: #0d47a1;
+    border-right: 1px solid #ddd;
+
+    text-align: center;
+}
+
+
+.contact-content h3 {
+    color: #124e9e;
+
+    margin-bottom: 8px;
+}
+
+
+.contact-content p {
+    margin-bottom: 12px;
+}
+
+
+.contact-button {
+    display: inline-block;
+
+    background: #1267dc;
+
+    color: #fff;
+
+    padding: 8px 16px;
+
+    border-radius: 4px;
 
     font-weight: bold;
 }
 
-.service-item:hover {
-    background: #f1f7ff;
-    color: #dc3545;
+
+.contact-button:hover {
+    background: #084a9c;
 }
 
 
-/* ================= ABOUT ================= */
-
-.about-section {
-    max-width: 1100px;
-
-    margin: 30px auto;
-
-    background: white;
-
-    padding: 30px;
-
-    border-left: 6px solid #0d6efd;
-
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.about-section h2 {
-    color: #0d47a1;
-
-    margin-bottom: 15px;
-}
-
-
-/* ================= CONTACT ================= */
-
-.contact-section {
-    max-width: 1100px;
-
-    margin: 30px auto;
-
-    padding: 30px 15px;
-}
-
-.contact-section > h2 {
-    text-align: center;
-
-    color: #0d47a1;
-
-    margin-bottom: 25px;
-}
-
-.contact-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    gap: 15px;
-}
-
-.contact-card {
-    background: white;
-
-    padding: 25px 15px;
-
-    text-align: center;
-
-    border-radius: 5px;
-
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.contact-card span {
-    font-size: 35px;
-}
-
-.contact-card h3 {
-    margin: 8px 0;
-
-    color: #0d47a1;
-}
-
-.contact-btn {
-    display: inline-block;
-
-    background: #0d6efd;
-
-    color: white;
-
-    padding: 8px 18px;
-
-    border-radius: 5px;
-
-    margin-top: 10px;
-}
-
-
-/* ================= FOOTER ================= */
+/* =====================================================
+   FOOTER
+===================================================== */
 
 footer {
     background: #172b4d;
 
-    color: white;
+    color: #fff;
+
+    margin-top: 30px;
+
+    padding: 30px 15px;
 
     text-align: center;
-
-    padding: 35px 15px;
-
-    margin-top: 40px;
 }
 
-.footer-content h3 {
-    font-size: 24px;
+
+.footer-inner {
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+
+.footer-inner h2 {
+    font-size: 25px;
 
     margin-bottom: 5px;
 }
 
-.footer-content hr {
-    max-width: 700px;
 
-    margin: 20px auto;
-
-    border: 0;
-
-    border-top: 1px solid rgba(255,255,255,0.3);
+.footer-inner p {
+    margin: 5px 0;
 }
 
 
-/* ================= MOBILE ================= */
+.footer-links {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px 20px;
+
+    margin: 18px 0;
+}
+
+
+.footer-links a {
+    color: #fff;
+
+    font-weight: bold;
+}
+
+
+.footer-links a:hover {
+    color: #ffd43b;
+}
+
+
+.footer-inner hr {
+    border: 0;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+    margin: 20px 0;
+}
+
+
+/* =====================================================
+   RESPONSIVE - TABLET
+===================================================== */
 
 @media (max-width: 900px) {
 
-    .quick-services {
+
+    .quick-grid {
         grid-template-columns:
             repeat(3, 1fr);
     }
 
-    .contact-grid {
+
+    .notice-links {
         grid-template-columns:
             repeat(2, 1fr);
     }
 
+
+    .join-links {
+        grid-template-columns:
+            repeat(3, 1fr);
+    }
+
+
+    .contact-content {
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .contact-content > div {
+        border-right: none;
+
+        border-bottom: 1px solid #ddd;
+    }
+
 }
 
+
+
+/* =====================================================
+   RESPONSIVE - MOBILE
+===================================================== */
 
 @media (max-width: 650px) {
 
-    .header-container {
+
+    /* HEADER */
+
+    .header-inner {
+        min-height: auto;
+
         padding: 12px 15px;
     }
 
-    .logo {
-        width: 60px;
-        height: 60px;
+
+    .brand {
+        gap: 10px;
     }
 
-    .brand-text h1 {
+
+    .site-logo {
+        width: 70px;
+
+        height: 70px;
+    }
+
+
+    .brand-info h1 {
         font-size: 21px;
     }
 
-    .brand-text p {
+
+    .brand-info p {
         font-size: 12px;
     }
 
-    .menu-btn {
+
+    /* MOBILE BUTTON */
+
+    .mobile-menu-btn {
         display: block;
     }
 
-    nav {
+
+    /* NAV */
+
+    .main-nav {
         display: none;
 
         flex-direction: column;
+
+        align-items: stretch;
     }
 
-    nav.show {
+
+    .main-nav.mobile-show {
         display: flex;
     }
 
-    nav a {
+
+    .main-nav a {
+        width: 100%;
+
         text-align: center;
 
-        border-bottom:
-            1px solid rgba(255,255,255,0.15);
+        padding: 12px;
     }
 
-    .quick-services {
+
+    /* WELCOME */
+
+    .welcome-bar {
+        margin: 10px;
+
+        font-size: 14px;
+    }
+
+
+    /* NOTICE */
+
+    .notice-section {
+        margin: 10px;
+    }
+
+
+    .notice-links {
+        grid-template-columns: 1fr;
+    }
+
+
+    .notice-links a {
+        border-right: none;
+
+        border-bottom: 1px solid #ddd;
+    }
+
+
+    /* CONTAINER */
+
+    .container {
+        padding: 0 8px 30px;
+    }
+
+
+    /* QUICK */
+
+    .quick-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap: 8px;
+    }
+
+
+    .quick-box {
+        min-height: 115px;
+    }
+
+
+    .quick-icon {
+        font-size: 25px;
+    }
+
+
+    .quick-box strong {
+        font-size: 14px;
+    }
+
+
+    .quick-box small {
+        font-size: 11px;
+    }
+
+
+    /* JOIN */
+
+    .join-links {
         grid-template-columns:
             repeat(2, 1fr);
     }
 
-    .quick-box {
-        min-height: 110px;
-    }
 
-    .section-heading {
-        padding: 13px 15px;
-    }
+    /* PORTAL */
 
-    .section-heading h2 {
-        font-size: 16px;
-    }
-
-    .service-grid {
+    .portal-links {
         grid-template-columns: 1fr;
     }
 
-    .service-item {
+
+    .portal-links a {
         border-right: none;
+
+        font-size: 15px;
     }
 
-    .service-row {
-        padding: 12px 15px;
+
+    .portal-heading {
+        padding: 8px 12px;
+
+        min-height: 48px;
     }
 
-    .contact-grid {
+
+    .portal-heading h2 {
+        font-size: 17px;
+    }
+
+
+    /* STATUS */
+
+    .status-title {
+        font-size: 18px;
+    }
+
+
+    /* CONTACT */
+
+    .contact-content {
         grid-template-columns: 1fr;
     }
 
-    .hero h2 {
-        font-size: 28px;
+
+    /* FOOTER */
+
+    .footer-links {
+        flex-direction: column;
+
+        gap: 10px;
     }
 
 }
 
 
+
+/* =====================================================
+   VERY SMALL MOBILE
+===================================================== */
+
 @media (max-width: 400px) {
 
-    .quick-services {
-        grid-template-columns: 1fr;
+
+    .site-logo {
+        width: 60px;
+
+        height: 60px;
+    }
+
+
+    .brand-info h1 {
+        font-size: 18px;
+    }
+
+
+    .brand-info p {
+        font-size: 10px;
+    }
+
+
+    .quick-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .quick-box {
+        min-height: 105px;
+    }
+
+
+    .portal-heading h2 {
+        font-size: 15px;
+    }
+
+
+    .portal-heading a {
+        font-size: 12px;
+
+        padding: 4px 7px;
     }
 
 }
