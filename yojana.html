@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJ DIGITAL POINT | Yojana Details</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.yojana-detail{max-width:760px;margin:40px auto;padding:24px;background:#fff;border:1px solid #ddd;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.yojana-detail h2{margin-top:0;color:#0b4ea2}.yojana-detail .brand-name{font-weight:700;color:#0b4ea2}.yojana-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.yojana-actions a{display:inline-block;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:700}.apply-btn{background:#0b4ea2;color:#fff}.back-btn{background:#eee;color:#222}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="header-top"><div class="brand"><a href="index.html" class="logo-link"><img src="logo.png" alt="AJ DIGITAL POINT Logo" class="site-logo" width="65" height="65"></a><div class="brand-info"><h1>AJ DIGITAL POINT</h1><p>CSC & Online Digital Services</p></div></div></div>
+<nav class="main-nav"><a href="index.html">🏠 Home</a><a href="index.html#yojana">📢 Yojana</a><a href="index.html#services">📋 Services</a><a href="index.html#contact">📞 Contact</a></nav></header>
+<div class="welcome-bar"><strong>AJ DIGITAL POINT</strong> — Yojana & Online Service Information</div>
+<main class="container">
+<section class="yojana-detail">
+<p class="brand-name">AJ DIGITAL POINT</p>
+<h2 id="schemeTitle">Yojana / Service</h2>
+<p>यह योजना जानकारी <strong>AJ DIGITAL POINT</strong> के माध्यम से उपलब्ध कराई गई है। आवेदन या अंतिम तारीख से पहले संबंधित official portal की जानकारी जरूर verify करें।</p>
+<div class="yojana-actions"><a id="applyLink" class="apply-btn" href="#" target="_blank" rel="noopener noreferrer">🔗 Apply / View Details</a><a class="back-btn" href="index.html#yojana">← वापस Yojana List</a></div>
+</section>
+</main>
+<script>
+(function(){
+ const p=new URLSearchParams(location.search);
+ const target=p.get('url');
+ const title=p.get('title');
+ const titleEl=document.getElementById('schemeTitle');
+ const link=document.getElementById('applyLink');
+ if(title) titleEl.textContent=title;
+ if(target){
+   try{ const u=new URL(target); if(u.protocol==='https:'){ link.href=u.href; } else { link.style.display='none'; } }
+   catch(e){ link.style.display='none'; }
+ } else { link.style.display='none'; }
+})();
+</script>
+</body>
+</html>
