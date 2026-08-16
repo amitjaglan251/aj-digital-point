@@ -24,6 +24,16 @@ function searchPortal() {
 document.addEventListener("DOMContentLoaded", function() {
     const search = document.getElementById("portalSearch");
     if (search) search.addEventListener("keydown", function(event) { if (event.key === "Enter") searchPortal(); });
+
+    /* Route all Yojana links through AJ DIGITAL POINT first. */
+    document.querySelectorAll('a[href*="sarkarinetwork.com/"]').forEach(function(link) {
+        const originalUrl = link.href;
+        const title = link.textContent.trim();
+        const localUrl = "yojana.html?title=" + encodeURIComponent(title) + "&url=" + encodeURIComponent(originalUrl);
+        link.setAttribute("href", localUrl);
+        link.removeAttribute("target");
+        link.removeAttribute("rel");
+    });
 });
 
 function showMessage(message) {
