@@ -1,6 +1,6 @@
 /* =====================================================
    AJ DIGITAL POINT
-   Sarkari Result / Sarkari Network Style CSS
+   Compact Sarkari Portal Style
 ===================================================== */
 
 
@@ -32,15 +32,13 @@ body {
 }
 
 
-/* ================= LINKS ================= */
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
 
-/* ================= SKIP LINK ================= */
+/* ================= SKIP ================= */
 
 .skip-link {
     position: absolute;
@@ -69,21 +67,21 @@ a {
 ===================================================== */
 
 .site-header {
-    background: #ffffff;
+    background: #fff;
 
     border-bottom: 1px solid #ddd;
 
     box-shadow:
-        0 2px 8px rgba(0, 0, 0, 0.08);
+        0 2px 8px rgba(0,0,0,0.08);
 }
 
 
 .header-inner {
-    max-width: 1200px;
+    max-width: 1100px;
 
     margin: auto;
 
-    min-height: 125px;
+    min-height: 90px;
 
     display: flex;
 
@@ -91,18 +89,20 @@ a {
 
     justify-content: space-between;
 
-    padding: 15px 20px;
+    padding: 10px 15px;
 }
 
 
-/* ================= BRAND ================= */
+/* =====================================================
+   BRAND
+===================================================== */
 
 .brand {
     display: flex;
 
     align-items: center;
 
-    gap: 20px;
+    gap: 12px;
 }
 
 
@@ -113,12 +113,14 @@ a {
 }
 
 
-/* ================= LOGO ================= */
+/* =====================================================
+   LOGO
+===================================================== */
 
 .site-logo {
-    width: 95px;
+    width: 65px;
 
-    height: 95px;
+    height: 65px;
 
     object-fit: contain;
 
@@ -126,65 +128,91 @@ a {
 }
 
 
-/* ================= BRAND TEXT ================= */
+/* =====================================================
+   BRAND TEXT
+===================================================== */
 
 .brand-info h1 {
-    font-size: 32px;
+    margin: 0;
+
+    font-size: 25px;
 
     color: #124e9e;
 
     font-weight: 800;
 
-    margin-bottom: 3px;
+    line-height: 1.2;
 }
 
 
 .brand-info p {
-    color: #444;
+    margin: 3px 0 0;
 
-    font-size: 16px;
+    font-size: 13px;
+
+    color: #444;
 }
 
 
 /* =====================================================
-   MOBILE MENU BUTTON
+   MENU BUTTON
 ===================================================== */
 
 .mobile-menu-btn {
-    display: none;
+    display: block;
 
     border: none;
 
-    background: #124e9e;
+    background: #104b9e;
 
     color: #fff;
 
-    font-size: 25px;
+    font-size: 24px;
 
-    padding: 8px 12px;
+    width: 45px;
+
+    height: 42px;
 
     border-radius: 5px;
 
     cursor: pointer;
+
+    line-height: 42px;
+
+    padding: 0;
+}
+
+
+.mobile-menu-btn:hover {
+    background: #08366f;
 }
 
 
 /* =====================================================
-   MAIN NAVIGATION
+   NAVIGATION
 ===================================================== */
 
 .main-nav {
+    display: none;
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
     background: #104b9e;
 
+    flex-direction: column;
+
+    align-items: stretch;
+
+    border-top:
+        1px solid
+        rgba(255,255,255,0.2);
+}
+
+
+.main-nav.mobile-show {
     display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    flex-wrap: wrap;
-
-    padding: 0;
 }
 
 
@@ -195,7 +223,13 @@ a {
 
     font-weight: 700;
 
-    padding: 15px 20px;
+    padding: 13px 18px;
+
+    text-align: left;
+
+    border-bottom:
+        1px solid
+        rgba(255,255,255,0.15);
 
     transition: 0.2s;
 }
@@ -209,25 +243,25 @@ a {
 
 
 /* =====================================================
-   WELCOME BAR
+   WELCOME
 ===================================================== */
 
 .welcome-bar {
     max-width: 1100px;
 
-    margin: 15px auto 0;
+    margin: 12px auto;
 
     background: #fff3cd;
 
-    border: 1px solid #f0d98c;
+    border: 1px solid #efd98d;
 
     color: #5b4500;
 
     text-align: center;
 
-    padding: 12px;
+    padding: 10px;
 
-    font-size: 17px;
+    font-size: 15px;
 }
 
 
@@ -237,7 +271,7 @@ a {
 
 
 /* =====================================================
-   IMPORTANT NOTICE
+   NOTICE
 ===================================================== */
 
 .notice-section {
@@ -245,7 +279,7 @@ a {
 
     margin: 12px auto;
 
-    border: 1px solid #bbb;
+    border: 1px solid #aaa;
 
     background: #fff;
 }
@@ -258,9 +292,9 @@ a {
 
     text-align: center;
 
-    padding: 10px;
+    padding: 9px;
 
-    font-size: 18px;
+    font-size: 17px;
 
     font-weight: bold;
 }
@@ -277,7 +311,7 @@ a {
 .notice-links a {
     text-align: center;
 
-    padding: 12px 8px;
+    padding: 10px 6px;
 
     border-right: 1px solid #ddd;
 
@@ -285,12 +319,12 @@ a {
 
     font-weight: bold;
 
-    background: #fff;
+    font-size: 14px;
 }
 
 
 .notice-links a:hover {
-    background: #eaf2ff;
+    background: #edf4ff;
 
     color: #d00000;
 }
@@ -307,16 +341,16 @@ a {
 
     margin: auto;
 
-    padding: 0 10px 40px;
+    padding: 0 8px 35px;
 }
 
 
 /* =====================================================
-   QUICK SERVICES
+   QUICK BOXES
 ===================================================== */
 
 .quick-section {
-    margin: 15px 0;
+    margin: 14px 0;
 }
 
 
@@ -326,12 +360,12 @@ a {
     grid-template-columns:
         repeat(6, 1fr);
 
-    gap: 10px;
+    gap: 8px;
 }
 
 
 .quick-box {
-    min-height: 130px;
+    min-height: 105px;
 
     color: #fff;
 
@@ -345,45 +379,45 @@ a {
 
     justify-content: center;
 
-    padding: 12px 7px;
+    padding: 8px 5px;
 
-    border-radius: 5px;
+    border-radius: 4px;
 
     transition: 0.2s;
 
     box-shadow:
-        0 2px 5px rgba(0, 0, 0, 0.12);
+        0 2px 5px
+        rgba(0,0,0,0.12);
 }
 
 
 .quick-box:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 
     box-shadow:
-        0 5px 12px rgba(0, 0, 0, 0.2);
+        0 4px 10px
+        rgba(0,0,0,0.2);
 }
 
 
 .quick-icon {
-    font-size: 30px;
+    font-size: 26px;
 
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 
 .quick-box strong {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
 .quick-box small {
-    font-size: 12px;
+    font-size: 11px;
 
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
-
-/* ================= QUICK COLORS ================= */
 
 .box-blue {
     background: #1267dc;
@@ -424,25 +458,26 @@ a {
 
     border: 1px solid #ddd;
 
-    padding: 20px;
+    padding: 14px;
 
-    margin: 20px auto;
+    margin: 15px 0;
 
     box-shadow:
-        0 2px 7px rgba(0, 0, 0, 0.08);
+        0 2px 5px
+        rgba(0,0,0,0.06);
 }
 
 
 #serviceSearch {
     width: 100%;
 
-    padding: 14px 16px;
+    padding: 12px 14px;
 
-    border: 1px solid #bbb;
+    border: 1px solid #aaa;
 
     border-radius: 4px;
 
-    font-size: 16px;
+    font-size: 15px;
 
     outline: none;
 }
@@ -452,12 +487,13 @@ a {
     border-color: #1267dc;
 
     box-shadow:
-        0 0 0 2px rgba(18, 103, 220, 0.12);
+        0 0 0 2px
+        rgba(18,103,220,0.12);
 }
 
 
 /* =====================================================
-   JOIN US
+   JOIN
 ===================================================== */
 
 .join-section {
@@ -480,7 +516,7 @@ a {
 
     font-weight: bold;
 
-    font-size: 17px;
+    font-size: 16px;
 }
 
 
@@ -493,13 +529,15 @@ a {
 
 
 .join-links a {
-    padding: 11px 5px;
+    padding: 9px 4px;
 
     text-align: center;
 
     color: #003fa3;
 
     font-weight: bold;
+
+    font-size: 13px;
 
     border-right: 1px solid #ddd;
 }
@@ -513,7 +551,7 @@ a {
 
 
 /* =====================================================
-   PORTAL SECTION
+   PORTAL SECTIONS
 ===================================================== */
 
 .portal-section {
@@ -521,7 +559,7 @@ a {
 
     border: 1px solid #aaa;
 
-    margin: 18px 0;
+    margin: 16px 0;
 
     overflow: hidden;
 }
@@ -532,7 +570,7 @@ a {
 ===================================================== */
 
 .portal-heading {
-    min-height: 50px;
+    min-height: 48px;
 
     display: flex;
 
@@ -540,14 +578,14 @@ a {
 
     justify-content: space-between;
 
-    padding: 0 18px;
+    padding: 7px 14px;
 
     color: #fff;
 }
 
 
 .portal-heading h2 {
-    font-size: 20px;
+    font-size: 18px;
 
     margin: 0;
 }
@@ -556,22 +594,18 @@ a {
 .portal-heading a {
     color: #fff;
 
+    font-size: 13px;
+
     font-weight: bold;
 
-    background: rgba(0, 0, 0, 0.18);
+    background:
+        rgba(0,0,0,0.18);
 
-    padding: 5px 10px;
+    padding: 4px 8px;
 
     border-radius: 3px;
 }
 
-
-.portal-heading a:hover {
-    background: rgba(0, 0, 0, 0.35);
-}
-
-
-/* ================= HEADING COLORS ================= */
 
 .blue-heading {
     background: #0965bd;
@@ -618,7 +652,7 @@ a {
 .portal-links a {
     display: block;
 
-    padding: 12px 16px;
+    padding: 10px 14px;
 
     border-bottom: 1px solid #ddd;
 
@@ -626,7 +660,7 @@ a {
 
     color: #003fc4;
 
-    font-size: 16px;
+    font-size: 15px;
 
     font-weight: 600;
 
@@ -641,12 +675,12 @@ a {
 
     color: #d00000;
 
-    padding-left: 21px;
+    padding-left: 18px;
 }
 
 
 /* =====================================================
-   STATUS PANEL
+   STATUS
 ===================================================== */
 
 .status-panel {
@@ -654,9 +688,9 @@ a {
 
     border: 1px solid #aaa;
 
-    margin: 20px 0;
+    margin: 18px 0;
 
-    padding: 20px;
+    padding: 18px;
 
     text-align: center;
 }
@@ -667,20 +701,21 @@ a {
 
     color: #fff;
 
-    font-size: 21px;
+    font-size: 19px;
 
     font-weight: bold;
 
-    padding: 12px;
+    padding: 10px;
 
-    margin: -20px -20px 15px;
+    margin:
+        -18px -18px 14px;
 }
 
 
 .status-panel p {
-    font-size: 16px;
+    font-size: 15px;
 
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 
@@ -691,11 +726,13 @@ a {
 
     color: #fff;
 
-    padding: 11px 22px;
+    padding: 9px 18px;
 
     border-radius: 4px;
 
     font-weight: bold;
+
+    font-size: 14px;
 }
 
 
@@ -713,9 +750,9 @@ a {
 
     border: 1px solid #aaa;
 
-    margin: 20px 0;
+    margin: 18px 0;
 
-    padding: 20px;
+    padding: 18px;
 }
 
 
@@ -724,18 +761,19 @@ a {
 
     color: #fff;
 
-    padding: 10px 15px;
+    padding: 9px 13px;
 
-    margin: -20px -20px 18px;
+    margin:
+        -18px -18px 15px;
 
-    font-size: 21px;
+    font-size: 19px;
 }
 
 
 .about-panel p {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 
-    font-size: 16px;
+    font-size: 15px;
 }
 
 
@@ -744,7 +782,7 @@ a {
 
     border: 1px solid #efd68b;
 
-    padding: 10px;
+    padding: 9px;
 
     color: #6b5100;
 }
@@ -759,7 +797,7 @@ a {
 
     border: 1px solid #aaa;
 
-    margin: 20px 0;
+    margin: 18px 0;
 
     overflow: hidden;
 }
@@ -770,13 +808,11 @@ a {
 
     grid-template-columns:
         repeat(3, 1fr);
-
-    gap: 0;
 }
 
 
 .contact-content > div {
-    padding: 20px;
+    padding: 18px;
 
     border-right: 1px solid #ddd;
 
@@ -787,12 +823,16 @@ a {
 .contact-content h3 {
     color: #124e9e;
 
-    margin-bottom: 8px;
+    margin-bottom: 6px;
+
+    font-size: 17px;
 }
 
 
 .contact-content p {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
 }
 
 
@@ -803,11 +843,13 @@ a {
 
     color: #fff;
 
-    padding: 8px 16px;
+    padding: 7px 14px;
 
     border-radius: 4px;
 
     font-weight: bold;
+
+    font-size: 14px;
 }
 
 
@@ -825,9 +867,9 @@ footer {
 
     color: #fff;
 
-    margin-top: 30px;
+    margin-top: 25px;
 
-    padding: 30px 15px;
+    padding: 25px 12px;
 
     text-align: center;
 }
@@ -841,14 +883,16 @@ footer {
 
 
 .footer-inner h2 {
-    font-size: 25px;
+    font-size: 22px;
 
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 
 .footer-inner p {
-    margin: 5px 0;
+    margin: 4px 0;
+
+    font-size: 14px;
 }
 
 
@@ -859,9 +903,9 @@ footer {
 
     flex-wrap: wrap;
 
-    gap: 8px 20px;
+    gap: 8px 18px;
 
-    margin: 18px 0;
+    margin: 15px 0;
 }
 
 
@@ -869,6 +913,8 @@ footer {
     color: #fff;
 
     font-weight: bold;
+
+    font-size: 14px;
 }
 
 
@@ -880,14 +926,16 @@ footer {
 .footer-inner hr {
     border: 0;
 
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-top:
+        1px solid
+        rgba(255,255,255,0.3);
 
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 
 /* =====================================================
-   RESPONSIVE - TABLET
+   TABLET
 ===================================================== */
 
 @media (max-width: 900px) {
@@ -926,90 +974,64 @@ footer {
 }
 
 
-
 /* =====================================================
-   RESPONSIVE - MOBILE
+   MOBILE
 ===================================================== */
 
 @media (max-width: 650px) {
 
 
-    /* HEADER */
-
     .header-inner {
-        min-height: auto;
+        min-height: 78px;
 
-        padding: 12px 15px;
-    }
-
-
-    .brand {
-        gap: 10px;
+        padding: 8px 12px;
     }
 
 
     .site-logo {
-        width: 70px;
+        width: 55px;
 
-        height: 70px;
+        height: 55px;
+    }
+
+
+    .brand {
+        gap: 9px;
     }
 
 
     .brand-info h1 {
-        font-size: 21px;
+        font-size: 19px;
     }
 
 
     .brand-info p {
-        font-size: 12px;
+        font-size: 11px;
     }
 
-
-    /* MOBILE BUTTON */
 
     .mobile-menu-btn {
-        display: block;
+        width: 42px;
+
+        height: 40px;
+
+        line-height: 40px;
+
+        font-size: 22px;
     }
 
-
-    /* NAV */
-
-    .main-nav {
-        display: none;
-
-        flex-direction: column;
-
-        align-items: stretch;
-    }
-
-
-    .main-nav.mobile-show {
-        display: flex;
-    }
-
-
-    .main-nav a {
-        width: 100%;
-
-        text-align: center;
-
-        padding: 12px;
-    }
-
-
-    /* WELCOME */
 
     .welcome-bar {
-        margin: 10px;
+        margin: 8px;
 
-        font-size: 14px;
+        font-size: 13px;
+
+        padding: 8px;
     }
 
 
-    /* NOTICE */
-
     .notice-section {
-        margin: 10px;
+        margin: 8px;
     }
 
 
@@ -1022,55 +1044,50 @@ footer {
         border-right: none;
 
         border-bottom: 1px solid #ddd;
+
+        padding: 9px;
     }
 
-
-    /* CONTAINER */
 
     .container {
-        padding: 0 8px 30px;
+        padding:
+            0 7px 25px;
     }
 
-
-    /* QUICK */
 
     .quick-grid {
         grid-template-columns:
             repeat(2, 1fr);
 
-        gap: 8px;
+        gap: 7px;
     }
 
 
     .quick-box {
-        min-height: 115px;
+        min-height: 95px;
     }
 
 
     .quick-icon {
-        font-size: 25px;
+        font-size: 23px;
     }
 
 
     .quick-box strong {
-        font-size: 14px;
+        font-size: 13px;
     }
 
 
     .quick-box small {
-        font-size: 11px;
+        font-size: 10px;
     }
 
-
-    /* JOIN */
 
     .join-links {
         grid-template-columns:
             repeat(2, 1fr);
     }
 
-
-    /* PORTAL */
 
     .portal-links {
         grid-template-columns: 1fr;
@@ -1080,64 +1097,74 @@ footer {
     .portal-links a {
         border-right: none;
 
-        font-size: 15px;
+        font-size: 14px;
+
+        padding: 10px 12px;
     }
 
 
     .portal-heading {
-        padding: 8px 12px;
+        min-height: 45px;
 
-        min-height: 48px;
+        padding: 7px 10px;
     }
 
 
     .portal-heading h2 {
+        font-size: 16px;
+    }
+
+
+    .portal-heading a {
+        font-size: 11px;
+
+        padding: 3px 6px;
+    }
+
+
+    .status-title {
         font-size: 17px;
     }
 
-
-    /* STATUS */
-
-    .status-title {
-        font-size: 18px;
-    }
-
-
-    /* CONTACT */
 
     .contact-content {
         grid-template-columns: 1fr;
     }
 
 
-    /* FOOTER */
+    .contact-content > div {
+        border-right: none;
+
+        border-bottom:
+            1px solid #ddd;
+    }
+
 
     .footer-links {
         flex-direction: column;
 
-        gap: 10px;
+        gap: 8px;
     }
 
 }
 
 
-
 /* =====================================================
-   VERY SMALL MOBILE
+   SMALL MOBILE
 ===================================================== */
 
 @media (max-width: 400px) {
 
 
     .site-logo {
-        width: 60px;
+        width: 50px;
 
-        height: 60px;
+        height: 50px;
     }
 
 
     .brand-info h1 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
 
@@ -1146,25 +1173,18 @@ footer {
     }
 
 
-    .quick-grid {
-        grid-template-columns: 1fr 1fr;
+    .quick-box {
+        min-height: 90px;
     }
 
 
-    .quick-box {
-        min-height: 105px;
+    .quick-icon {
+        font-size: 21px;
     }
 
 
     .portal-heading h2 {
         font-size: 15px;
-    }
-
-
-    .portal-heading a {
-        font-size: 12px;
-
-        padding: 4px 7px;
     }
 
 }
