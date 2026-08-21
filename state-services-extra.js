@@ -22,21 +22,23 @@ Uttarakhand:[['education','🎓 Admissions','Uttarakhand Admissions','https://uk
 Himachal_Pradesh:[['education','🎓 Admissions','Himachal Pradesh Admissions','https://admissions.hpushimla.in/'],['jobs','💼 Govt Jobs','HPPSC Recruitment','https://hppsc.hp.gov.in/'],['jobs','🧑‍🏫 Teacher Jobs','HP Education Recruitment','https://education.hp.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','HPPSC notices and results','https://hppsc.hp.gov.in/']],
 Assam:[['education','🎓 Admissions','Assam Higher Education','https://dhe.assam.gov.in/'],['jobs','💼 Govt Jobs','Assam Public Service Commission','https://apsc.nic.in/'],['jobs','🧑‍🏫 Teacher Jobs','Assam Education Recruitment','https://education.assam.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','APSC notices and results','https://apsc.nic.in/']],
 Goa:[['education','🎓 Admissions','Goa Admissions','https://dhe.goa.gov.in/'],['jobs','💼 Govt Jobs','Goa Public Service Commission','https://gpsc.goa.gov.in/'],['jobs','🧑‍🏫 Teacher Jobs','Goa Education','https://education.goa.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','GPSC notices and results','https://gpsc.goa.gov.in/']],
-Jammu_Kashmir:[['education','🎓 Admissions','J&K Admissions','https://jkadworld.com/'],['jobs','💼 Govt Jobs','JKPSC Recruitment','https://jkpsc.nic.in/'],['jobs','🧑‍🏫 Teacher Jobs','J&K Education','https://schooleducation.jk.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','JKPSC notices and results','https://jkpsc.nic.in/']]
+Jammu_Kashmir:[['education','🎓 Admissions','J&K Admissions','https://jk.gov.in/'],['jobs','💼 Govt Jobs','JKPSC Recruitment','https://jkpsc.nic.in/'],['jobs','🧑‍🏫 Teacher Jobs','J&K Education','https://schooleducation.jk.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','JKPSC notices and results','https://jkpsc.nic.in/']]
 };
 const key=new URLSearchParams(location.search).get('state')||'Haryana';
 const rows=extra[key]||[];
 const seen=new Set();
+function addCard(grid,html){const d=document.createElement('div');d.className='service-card extra-service-card detailed-info-card';d.innerHTML=html;grid.appendChild(d)}
 rows.forEach(x=>{
-  const grid=document.getElementById(x[0]+'Grid');
-  if(!grid)return;
-  const signature=x[1]+'|'+x[3];
-  if(seen.has(signature))return;
-  const duplicate=[...grid.querySelectorAll('a')].some(a=>a.href===x[3]);
-  if(duplicate)return;
-  seen.add(signature);
-  const d=document.createElement('div');d.className='service-card extra-service-card';
-  d.innerHTML='<h3>'+x[1]+'</h3><div>'+x[2]+'</div><a href="'+x[3]+'" target="_blank" rel="noopener noreferrer">Open Official Portal →</a>';
-  grid.appendChild(d);
+ const grid=document.getElementById(x[0]+'Grid'); if(!grid)return;
+ const signature=x[1]+'|'+x[3]; if(seen.has(signature))return;
+ const duplicate=[...grid.querySelectorAll('a')].some(a=>a.href===x[3]); if(duplicate && x[0]!=='education' && x[0]!=='scholarship')return;
+ seen.add(signature);
+ if(x[0]==='education'){
+  addCard(grid,'<h3>🎓 Education / Admission</h3><div class="detail-lines"><div>📚 <b>Course / College Details:</b> Official portal पर उपलब्ध courses और colleges देखें</div><div>👥 <b>Eligibility:</b> संबंधित course / admission notification के अनुसार</div><div>📅 <b>Important Dates:</b> Current admission notification देखें</div><div>📄 <b>Documents:</b> Official admission instructions के अनुसार</div><div>💰 <b>Fee:</b> Course / counselling portal पर verify करें</div></div><a href="'+x[3]+'" target="_blank" rel="noopener noreferrer">📝 Apply / Admission →</a><a href="'+x[3]+'" target="_blank" rel="noopener noreferrer">📄 Prospectus / Details →</a><a href="'+x[3]+'" target="_blank" rel="noopener noreferrer">🌐 Official Website →</a>');
+ } else if(x[0]==='scholarship'){
+  addCard(grid,'<h3>🏆 Scholarship</h3><div class="detail-lines"><div>📚 <b>Scholarship Details:</b> उपलब्ध schemes और student benefits देखें</div><div>👥 <b>Eligibility:</b> संबंधित scholarship scheme के नियम</div><div>📅 <b>Important Dates:</b> Current application notice देखें</div><div>📄 <b>Documents:</b> Scheme instructions के अनुसार</div><div>💰 <b>Fee:</b> Application requirements official portal पर verify करें</div></div><a href="'+x[3]+'" target="_blank" rel="noopener noreferrer">📝 Apply / Scholarship →</a><a href="'+x[3]+'" target="_blank" rel="noopener noreferrer">📄 Guidelines / Details →</a><a href="'+x[3]+'" target="_blank" rel="noopener noreferrer">🌐 Official Website →</a>');
+ } else {
+  const d=document.createElement('div');d.className='service-card extra-service-card';d.innerHTML='<h3>'+x[1]+'</h3><div>'+x[2]+'</div><a href="'+x[3]+'" target="_blank" rel="noopener noreferrer">Open Official Portal →</a>';grid.appendChild(d);
+ }
 });
 })();
