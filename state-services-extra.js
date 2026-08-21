@@ -42,3 +42,48 @@ rows.forEach(x=>{
  }
 });
 })();
+
+/* Detailed pattern for remaining State Services */
+(function(){
+ const key=new URLSearchParams(location.search).get('state')||'Haryana';
+ const grids={certificates:'certificatesGrid',land:'landGrid',police:'policeGrid',transport:'transportGrid'};
+ const labels={certificates:'📜 Certificates',land:'🏠 Land Records',police:'👮 Police Services',transport:'🚗 Transport Services'};
+ const descriptions={
+  certificates:['📌 Service Details','Income, caste, residence, EWS और अन्य citizen certificates के लिए संबंधित state portal देखें','📄 Required Documents','Identity proof, address proof, photo और service-specific documents — current portal instructions verify करें'],
+  land:['📌 Service Details','Land records, ownership/record extracts, mutation और related services के लिए state land portal देखें','📄 Required Documents','Identity proof, land/property details और application-specific documents — portal instructions verify करें'],
+  police:['📌 Service Details','Police verification, citizen services, complaint/status और उपलब्ध online services के लिए official state police portal देखें','📄 Required Documents','Identity proof, address/contact details और service-specific documents — official instructions verify करें'],
+  transport:['📌 Service Details','Driving licence, vehicle/RC, permit, tax और available transport services के लिए official state transport portal देखें','📄 Required Documents','Identity proof, vehicle/licence details, photographs और service-specific documents — portal instructions verify करें']
+ };
+ const stateOfficial={
+  Haryana:{certificates:'https://saralharyana.gov.in/',land:'https://jamabandi.nic.in/',police:'https://haryanapolice.gov.in/',transport:'https://hartrans.gov.in/'},
+  Rajasthan:{certificates:'https://emitra.rajasthan.gov.in/',land:'https://apnakhata.rajasthan.gov.in/',police:'https://police.rajasthan.gov.in/',transport:'https://transport.rajasthan.gov.in/'},
+  Punjab:{certificates:'https://eservices.punjab.gov.in/',land:'https://jamabandi.punjab.gov.in/',police:'https://punjabpolice.gov.in/',transport:'https://punjabtransport.org/'},
+  Delhi:{certificates:'https://edistrict.delhigovt.nic.in/',land:'https://revenue.delhi.gov.in/',police:'https://delhipolice.gov.in/',transport:'https://transport.delhi.gov.in/'},
+  Uttar_Pradesh:{certificates:'https://edistrict.up.gov.in/',land:'https://upbhulekh.gov.in/',police:'https://uppolice.gov.in/',transport:'https://parivahan.gov.in/'},
+  Bihar:{certificates:'https://serviceonline.bihar.gov.in/',land:'https://biharbhumi.bihar.gov.in/',police:'https://police.bihar.gov.in/',transport:'https://parivahan.gov.in/'},
+  Maharashtra:{certificates:'https://aaplesarkar.mahaonline.gov.in/',land:'https://bhulekh.mahabhumi.gov.in/',police:'https://www.mahapolice.gov.in/',transport:'https://transport.maharashtra.gov.in/'},
+  Gujarat:{certificates:'https://www.digitalgujarat.gov.in/',land:'https://anyror.gujarat.gov.in/',police:'https://police.gujarat.gov.in/',transport:'https://cot.gujarat.gov.in/'},
+  Karnataka:{certificates:'https://sevasindhu.karnataka.gov.in/',land:'https://landrecords.karnataka.gov.in/',police:'https://ksp.karnataka.gov.in/',transport:'https://transport.karnataka.gov.in/'},
+  Madhya_Pradesh:{certificates:'https://mpedistrict.gov.in/',land:'https://mpbhulekh.gov.in/',police:'https://mppolice.gov.in/',transport:'https://transport.mp.gov.in/'},
+  West_Bengal:{certificates:'https://edistrict.wb.gov.in/',land:'https://banglarbhumi.gov.in/',police:'https://wbpolice.gov.in/',transport:'https://transport.wb.gov.in/'},
+  Tamil_Nadu:{certificates:'https://www.tnesevai.tn.gov.in/',land:'https://eservices.tn.gov.in/',police:'https://eservices.tnpolice.gov.in/',transport:'https://transport.tn.gov.in/'},
+  Telangana:{certificates:'https://ts.meeseva.telangana.gov.in/',land:'https://bhubharati.telangana.gov.in/',police:'https://www.tspolice.gov.in/',transport:'https://transport.telangana.gov.in/'},
+  Andhra_Pradesh:{certificates:'https://gramawardsachivalayam.ap.gov.in/',land:'https://meebhoomi.ap.gov.in/',police:'https://appolice.gov.in/',transport:'https://transport.ap.gov.in/'},
+  Kerala:{certificates:'https://edistrict.kerala.gov.in/',land:'https://revenue.kerala.gov.in/',police:'https://keralapolice.gov.in/',transport:'https://mvd.kerala.gov.in/'},
+  Jharkhand:{certificates:'https://jharsewa.jharkhand.gov.in/',land:'https://jharbhoomi.jharkhand.gov.in/',police:'https://www.jhpolice.gov.in/',transport:'https://transport.jharkhand.gov.in/'},
+  Chhattisgarh:{certificates:'https://edistrict.cgstate.gov.in/',land:'https://bhuiyan.cg.nic.in/',police:'https://cgpolice.gov.in/',transport:'https://transport.cg.gov.in/'},
+  Uttarakhand:{certificates:'https://eservices.uk.gov.in/',land:'https://bhulekh.uk.gov.in/',police:'https://uttarakhandpolice.uk.gov.in/',transport:'https://transport.uk.gov.in/'},
+  Himachal_Pradesh:{certificates:'https://edistrict.hp.gov.in/',land:'https://himachal.nic.in/',police:'https://hppolice.gov.in/',transport:'https://himachal.nic.in/transport'},
+  Assam:{certificates:'https://sewasetu.assam.gov.in/',land:'https://revenue.assam.gov.in/',police:'https://police.assam.gov.in/',transport:'https://transport.assam.gov.in/'},
+  Goa:{certificates:'https://goaonline.gov.in/',land:'https://dslr.goa.gov.in/',police:'https://citizen.goapolice.gov.in/',transport:'https://goatransport.gov.in/'},
+  Jammu_Kashmir:{certificates:'https://jansugam.jk.gov.in/',land:'https://landrecords.jk.gov.in/',police:'https://jkpolice.gov.in/',transport:'https://jaktrans.nic.in/'}
+ };
+ const links=stateOfficial[key]||{};
+ Object.keys(grids).forEach(type=>{
+  const grid=document.getElementById(grids[type]); if(!grid||!links[type])return;
+  const c=document.createElement('div'); c.className='service-card detailed-info-card';
+  const d=descriptions[type];
+  c.innerHTML='<h3>'+labels[type]+'</h3><div class="detail-lines"><div><b>'+d[0]+':</b> '+d[1]+'</div><div><b>'+d[2]+':</b> '+d[3]+'</div><div>📅 <b>Important Information:</b> Current rules, fee and processing time official portal पर verify करें</div></div><a href="'+links[type]+'" target="_blank" rel="noopener noreferrer">📝 Apply / Service Portal →</a><a href="'+links[type]+'" target="_blank" rel="noopener noreferrer">📄 Guidelines / Details →</a><a href="'+links[type]+'" target="_blank" rel="noopener noreferrer">🌐 Official Website →</a>';
+  grid.appendChild(c);
+ });
+})();
