@@ -1,0 +1,19 @@
+/* New State Folder Pattern */
+.statewise-section .statewise-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px}
+.statewise-section .statewise-card{position:relative;overflow:hidden;border:0;border-radius:20px;padding:0;background:transparent;box-shadow:none;min-height:150px;cursor:pointer;transition:transform .2s ease,filter .2s ease}
+.statewise-section .statewise-card:hover{transform:translateY(-5px);filter:drop-shadow(0 12px 18px rgba(15,23,42,.14))}
+.statewise-section .statewise-card:before{content:"";position:absolute;left:0;right:0;top:0;height:18px;background:linear-gradient(135deg,#1d4ed8,#7c3aed);border-radius:18px 18px 8px 8px;z-index:0}
+.statewise-section .statewise-card:after{content:"↗";position:absolute;right:16px;top:35px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#eef2ff;color:#4338ca;font-size:18px;font-weight:900;z-index:2}
+.statewise-section .statewise-card h3{position:relative;margin:0;padding:35px 58px 4px 20px;font-size:18px;color:#0f172a;background:#fff;z-index:1}
+.statewise-section .statewise-card .state-name{position:relative;padding:0 20px 16px;color:#64748b;background:#fff;font-weight:700;z-index:1}
+.statewise-section .statewise-card .state-desc{display:none}
+.statewise-section .statewise-card .state-service-links{display:none}
+.statewise-section .statewise-card:has(.state-name){border-radius:20px}
+.statewise-section .statewise-card .state-name:after{content:"Open State Services";display:block;margin-top:9px;font-size:11px;color:#4338ca;font-weight:800;letter-spacing:.3px}
+.statewise-section .statewise-card.state-highlight:before{background:linear-gradient(135deg,#059669,#0f766e)}
+.statewise-section .statewise-card.state-highlight:after{background:#ecfdf5;color:#047857}
+.statewise-section .statewise-card.is-open{min-height:150px}
+.statewise-section .statewise-card.is-open .state-desc{display:block;padding:0 20px 12px;background:#fff;margin:0;color:#64748b;font-size:13px}
+.statewise-section .statewise-card.is-open .state-service-links{display:grid;padding:0 16px 16px;background:#fff;grid-template-columns:1fr 1fr}
+.statewise-section .statewise-card.is-open:after{content:"✕"}
+@media(max-width:600px){.statewise-section .statewise-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.statewise-section .statewise-card{min-height:125px}.statewise-section .statewise-card h3{font-size:15px;padding:31px 44px 3px 13px}.statewise-section .statewise-card .state-name{padding:0 13px 12px;font-size:12px}.statewise-section .statewise-card:after{right:9px;top:29px;width:28px;height:28px;font-size:15px}.statewise-section .statewise-card .state-name:after{font-size:9px;margin-top:7px}.statewise-section .statewise-card.is-open{grid-column:1/-1}.statewise-section .statewise-card.is-open .state-service-links{grid-template-columns:1fr 1fr}}
