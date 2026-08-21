@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PDF Lock & Unlock | AJ DIGITAL POINT</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+main{max-width:900px;margin:25px auto;padding:16px}.card{background:#fff;padding:22px;border-radius:16px;box-shadow:0 4px 18px #0001}.panel{border:1px solid #ddd;border-radius:12px;padding:16px;margin:14px 0;background:#fafafa}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.grid label{font-weight:700;font-size:14px}.grid input,.grid select{width:100%;padding:11px;margin-top:6px;box-sizing:border-box;border:1px solid #ccc;border-radius:8px}.btn{padding:12px 16px;border:0;border-radius:9px;background:#0757ad;color:#fff;font-weight:700;cursor:pointer;margin:6px 4px 6px 0}.btn.secondary{background:#555}.btn:disabled{opacity:.5;cursor:not-allowed}.info{background:#eef7ff;padding:12px;border-radius:9px;margin:12px 0}.warn{background:#fff7e6;padding:12px;border-radius:9px;color:#7a4d00}.small{font-size:12px;color:#666}.hidden{display:none!important}.progress{height:10px;background:#eee;border-radius:8px;overflow:hidden}.bar{height:100%;width:0;background:#0757ad;transition:width .2s}@media(max-width:600px){main{padding:8px}.card{padding:14px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main><div class="card">
+<a href="tools-center.html">← Tools Center</a>
+<h1>🔐 PDF Lock & Unlock</h1>
+<p>PDF को password से lock करें या सही password देकर unlocked copy बनाएं।</p>
+<div class="panel">
+<h3>📄 PDF चुनें</h3>
+<input id="pdfFile" type="file" accept="application/pdf">
+<div id="info" class="info">कोई PDF select नहीं की गई।</div>
+</div>
+<div class="panel">
+<h3>⚙️ Action</h3>
+<div class="grid">
+<label>Action<select id="action"><option value="lock">🔒 Lock PDF</option><option value="unlock">🔓 Unlock PDF</option></select></label>
+<label>Output Quality<select id="quality"><option value="1.4">Maximum</option><option value="1.1" selected>High</option><option value="0.85">Balanced</option></select></label>
+</div>
+<div class="grid" style="margin-top:12px">
+<label id="passLabel">Password<input id="password" type="password" autocomplete="new-password" minlength="4"></label>
+<label id="confirmLabel">Confirm Password<input id="password2" type="password" autocomplete="new-password" minlength="4"></label>
+</div>
+<p id="actionHint" class="small">Lock करने के लिए नया password कम से कम 4 characters का रखें।</p>
+</div>
+<div class="warn">⚠️ Unlock/Lock of an existing PDF is performed locally by rendering pages and rebuilding the PDF. इससे text/vector layers, forms, links और कुछ metadata preserve नहीं हो सकते। Visual content preserve करने के लिए इसे document copy की तरह इस्तेमाल करें।</div>
+<div class="progress" style="margin-top:14px"><div id="bar" class="bar"></div></div>
+<button id="process" class="btn" disabled>🔐 Process PDF</button>
+<button id="download" class="btn secondary" disabled>⬇️ Download</button>
+<p class="small">आपकी PDF server पर upload नहीं होती; processing browser में होती है।</p>
+</div></main>
+<script>
+const $=id=>document.getElementById(id);let file=null,outBlob=null;
+pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+$('pdfFile').onchange=e=>{file=e.target.files[0]||null;outBlob=null;$('download').disabled=true;$('process').disabled=!file;$('info').textContent=file?file.name+' • '+Math.round(file.size/1024)+' KB':'कोई PDF select नहीं की गई।'};
+$('action').onchange=()=>{let unlock=$('action').value==='unlock';$('confirmLabel').classList.toggle('hidden',unlock);$('passLabel').querySelector('label');$('actionHint').textContent=unlock?'Unlock करने के लिए उसी PDF का password डालें।':'Lock करने के लिए नया password कम से कम 4 characters का रखें।';$('password').value='';$('password2').value='';};
+function getPassword(){return $('password').value}
+async function openPdf(bytes){return await pdfjsLib.getDocument({data:bytes,password:getPassword}).promise}
+async function buildPdf(doc){let {jsPDF}=window.jspdf,pdf=null,total=doc.numPages,q=+$('quality').value;for(let n=1;n<=total;n++){let page=await doc.getPage(n),base=page.getViewport({scale:q});let canvas=document.createElement('canvas');canvas.width=Math.ceil(base.width);canvas.height=Math.ceil(base.height);let ctx=canvas.getContext('2d',{alpha:false});await page.render({canvasContext:ctx,viewport:base,background:'white'}).promise;let mmW=base.width*25.4/96,mmH=base.height*25.4/96;let orientation=mmW>mmH?'l':'p';if(!pdf)pdf=new jsPDF({orientation,unit:'mm',format:[mmW,mmH],compress:true,putOnlyUsedFonts:true});else pdf.addPage([mmW,mmH],orientation);pdf.addImage(canvas.toDataURL('image/jpeg',.9),'JPEG',0,0,mmW,mmH,undefined,'FAST');$('bar').style.width=Math.round(n/total*100)+'%';$('info').textContent='Page '+n+' / '+total+' process हो रहा है...';await new Promise(r=>setTimeout(r,0));}return pdf}
+$('process').onclick=async()=>{if(!file)return;let action=$('action').value,p=getPassword();if(action==='lock'&&(p.length<4||p!==$('password2').value)){ $('info').textContent=p.length<4?'Password कम से कम 4 characters का रखें।':'Password match नहीं है।';return}if(action==='unlock'&&!p){$('info').textContent='Unlock के लिए password डालें।';return}$('process').disabled=true;$('download').disabled=true;$('bar').style.width='0%';try{let bytes=new Uint8Array(await file.arrayBuffer()),doc=await openPdf(bytes);let pdf=await buildPdf(doc);if(action==='lock'){pdf.setProperties({title:file.name.replace(/\.pdf$/i,''),author:'AJ DIGITAL POINT'});outBlob=pdf.output('blob',{encryption:{userPassword:p,ownerPassword:p+'-owner-'+Date.now(),userPermissions:['print']}})}else{outBlob=pdf.output('blob')} $('download').disabled=false;$('info').textContent=action==='lock'?'🔒 Locked PDF तैयार है।':'🔓 Unlocked PDF तैयार है।';}catch(e){console.error(e);let msg=String(e&&e.message||e);if(action==='unlock'&&/password|incorrect|encrypted/i.test(msg))msg='Password गलत है या PDF को इस browser में open नहीं किया जा सका।';$('info').textContent='❌ '+msg}finally{$('process').disabled=false}};
+$('download').onclick=()=>{if(!outBlob)return;let base=file?file.name.replace(/\.pdf$/i,''):'document';let suffix=$('action').value==='lock'?'-locked':'-unlocked';let u=URL.createObjectURL(outBlob),a=document.createElement('a');a.href=u;a.download=base+suffix+'.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)};
+</script>
+</body></html>
