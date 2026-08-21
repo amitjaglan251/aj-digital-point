@@ -1,0 +1,20 @@
+/* AJ DIGITAL POINT - homepage enhancements */
+:root{--aj-blue:#0b4ea2;--aj-green:#168a45;--aj-bg:#f3f7fb}
+body{background:linear-gradient(180deg,#eef5fc 0,#f7f9fc 320px,#f3f3f3 100%)}
+.site-header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.97);backdrop-filter:blur(8px)}
+.brand-info h1{letter-spacing:.3px}
+.quick-box{border-radius:12px;box-shadow:0 5px 15px rgba(11,78,162,.12)}
+.quick-box:hover{transform:translateY(-4px);box-shadow:0 10px 22px rgba(11,78,162,.18)}
+.search-section{position:relative}
+.search-section:before{content:'🔎';position:absolute;left:14px;top:11px;font-size:17px;z-index:1}
+.search-section input{padding-left:42px;border-radius:10px;height:48px}
+.notice-section,.join-section,.portal-section,.status-panel{border-radius:12px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.portal-links a{min-height:48px;display:flex;align-items:center}
+.portal-links a:hover{transform:none}
+.aj-highlight{margin:14px 0;padding:18px;border-radius:12px;background:linear-gradient(135deg,#0b4ea2,#176dcc);color:#fff;box-shadow:0 8px 22px rgba(11,78,162,.2)}
+.aj-highlight h2{margin-bottom:5px;font-size:21px}.aj-highlight p{margin-bottom:12px;opacity:.95}
+.aj-actions{display:flex;flex-wrap:wrap;gap:8px}.aj-actions a{background:#fff;color:#0b4ea2;padding:9px 13px;border-radius:8px;font-weight:700;font-size:13px}
+.aj-tools{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:14px 0}.aj-tool{background:#fff;border:1px solid #dbe5f0;border-radius:10px;padding:12px;text-align:center;color:#0b4ea2;font-weight:700}.aj-tool small{display:block;color:#666;font-weight:400;margin-top:3px}
+.aj-floating{position:fixed;right:16px;bottom:18px;z-index:1200;display:flex;flex-direction:column;gap:8px}.aj-floating a{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#168a45;color:#fff;font-size:22px;box-shadow:0 5px 15px rgba(0,0,0,.2)}
+@media(max-width:800px){.quick-grid{grid-template-columns:repeat(3,1fr)}.aj-tools{grid-template-columns:repeat(2,1fr)}.site-header{position:relative}}
+@media(max-width:480px){.quick-grid{grid-template-columns:repeat(2,1fr)}.brand-info h1{font-size:22px}.brand-info p{font-size:12px}.aj-highlight{padding:14px}.aj-actions a{flex:1;text-align:center}.notice-links a{min-width:50%}}
