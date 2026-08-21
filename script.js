@@ -34,6 +34,35 @@ document.addEventListener("DOMContentLoaded", function() {
         link.removeAttribute("target");
         link.removeAttribute("rel");
     });
+
+    /* State folders: clicking a state card opens only that state's services. */
+    const stateNames = {
+        "Haryana":"Haryana", "Rajasthan":"Rajasthan", "Punjab":"Punjab", "Delhi":"Delhi",
+        "Uttar Pradesh":"Uttar_Pradesh", "Bihar":"Bihar", "Maharashtra":"Maharashtra", "Gujarat":"Gujarat",
+        "Karnataka":"Karnataka", "Madhya Pradesh":"Madhya_Pradesh", "West Bengal":"West_Bengal",
+        "Tamil Nadu":"Tamil_Nadu", "Andhra Pradesh":"Andhra_Pradesh", "Telangana":"Telangana",
+        "Kerala":"Kerala", "Jharkhand":"Jharkhand", "Chhattisgarh":"Chhattisgarh", "Uttarakhand":"Uttarakhand",
+        "Himachal Pradesh":"Himachal_Pradesh", "Assam":"Assam", "Goa":"Goa"
+    };
+    document.querySelectorAll(".statewise-card").forEach(function(card) {
+        const heading = card.querySelector("h3");
+        if (!heading) return;
+        const state = heading.textContent.trim();
+        const key = stateNames[state];
+        if (!key) return;
+        card.classList.add("state-folder-clickable");
+        card.setAttribute("role", "link");
+        card.setAttribute("tabindex", "0");
+        card.setAttribute("title", "Open " + state + " services");
+        function openState() { window.location.href = "state-services.html?state=" + encodeURIComponent(key); }
+        card.addEventListener("click", function(event) {
+            if (event.target.closest("a")) return;
+            openState();
+        });
+        card.addEventListener("keydown", function(event) {
+            if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openState(); }
+        });
+    });
 });
 
 function showMessage(message) {
