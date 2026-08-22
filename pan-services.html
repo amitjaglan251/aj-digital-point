@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AJ DIGITAL POINT PAN Card services - New PAN, Correction, Reprint and PAN-Aadhaar assistance.">
+<title>PAN Card Services | AJ DIGITAL POINT</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.pan-wrap{max-width:1050px;margin:30px auto;padding:0 16px}.pan-hero{background:linear-gradient(135deg,#0b4ea2,#1769d1);color:#fff;border-radius:18px;padding:34px 24px;text-align:center}.pan-hero h1{margin:0 0 10px}.pan-hero p{margin:0;line-height:1.6}.pan-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0}.pan-card{background:#fff;border:1px solid #e5e7eb;border-radius:15px;padding:20px;box-shadow:0 5px 18px rgba(0,0,0,.06)}.pan-card h2{font-size:20px;margin:0 0 8px}.pan-card p{line-height:1.6;color:#4b5563}.pan-btn{display:inline-block;background:#0b4ea2;color:#fff;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:700;margin-top:8px}.pan-form{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:24px;box-shadow:0 5px 18px rgba(0,0,0,.06)}.pan-form h2{text-align:center}.row{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.field{margin-bottom:15px}.field label{display:block;font-weight:700;margin-bottom:6px}.field input,.field select{width:100%;box-sizing:border-box;padding:12px;border:1px solid #cbd5e1;border-radius:9px;font-size:15px}.submit{width:100%;border:0;background:#0b4ea2;color:#fff;padding:14px;border-radius:10px;font-size:16px;font-weight:800;cursor:pointer}.note{background:#fff7ed;border-left:4px solid #f97316;padding:14px;margin-top:18px;line-height:1.6}@media(max-width:650px){.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="header-top"><div class="brand"><a href="index.html" class="logo-link"><img src="logo.png" alt="AJ DIGITAL POINT Logo" class="site-logo" width="65" height="65"></a><div class="brand-info"><h1>AJ DIGITAL POINT</h1><p>CSC & Online Digital Services</p></div></div></div><nav class="main-nav"><a href="index.html">🏠 Home</a><a href="pan-services.html">🪪 PAN Card</a><a href="aadhaar-update.html">🆔 Aadhaar</a><a href="status-check.html">🔎 Check Status</a><a href="admin.html">🔐 Admin</a></nav></header>
+<main class="pan-wrap">
+<section class="pan-hero"><h1>🪪 PAN Card Services</h1><p>New PAN Card, Correction, Reprint और PAN related assistance के लिए online request submit करें।</p></section>
+<section class="pan-grid">
+<div class="pan-card"><h2>🆕 New PAN Card</h2><p>नया PAN Card application assistance.</p><a class="pan-btn" href="#panForm">Apply Now</a></div>
+<div class="pan-card"><h2>✏️ PAN Correction</h2><p>Name, DOB और अन्य details correction assistance.</p><a class="pan-btn" href="#panForm">Request Correction</a></div>
+<div class="pan-card"><h2>🔁 PAN Reprint</h2><p>Existing PAN के reprint/duplicate assistance.</p><a class="pan-btn" href="#panForm">Request Reprint</a></div>
+<div class="pan-card"><h2>🔗 PAN-Aadhaar</h2><p>PAN-Aadhaar linking related assistance.</p><a class="pan-btn" href="#panForm">Get Assistance</a></div>
+</section>
+<section id="panForm" class="pan-form">
+<h2>📋 PAN Service Request</h2>
+<form id="panRequestForm">
+<div class="row"><div class="field"><label for="service">Service</label><select id="service" required><option value="">Select Service</option><option>New PAN Card</option><option>PAN Correction</option><option>PAN Reprint</option><option>PAN-Aadhaar Assistance</option></select></div><div class="field"><label for="name">Applicant Name</label><input id="name" required maxlength="100" placeholder="पूरा नाम"></div></div>
+<div class="row"><div class="field"><label for="mobile">Mobile Number</label><input id="mobile" inputmode="numeric" maxlength="10" pattern="[0-9]{10}" required placeholder="10 digit mobile"></div><div class="field"><label for="email">Email (Optional)</label><input id="email" type="email" maxlength="120" placeholder="Email"></div></div>
+<div class="row"><div class="field"><label for="pan">Existing PAN (Optional)</label><input id="pan" maxlength="10" placeholder="यदि उपलब्ध हो"></div><div class="field"><label for="remark">Remark (Optional)</label><input id="remark" maxlength="250" placeholder="Service details"></div></div>
+<button class="submit" type="submit">🚀 Submit PAN Request</button>
+</form>
+<div id="result" hidden></div>
+<div class="note">⚠️ यह AJ DIGITAL POINT की assistance/request service है। PAN की final issue/correction संबंधित authorised government process के अनुसार होगी। OTP, password या unnecessary sensitive credentials यहाँ submit न करें।</div>
+</section>
+</main>
+<footer><div class="footer-inner"><h3>AJ DIGITAL POINT</h3><p>Jalalpur Kalan, Jind, Haryana - 126102</p><p>📞 8053620341</p></div></footer>
+<script type="module">
+const form=document.getElementById('panRequestForm');
+const result=document.getElementById('result');
+form.addEventListener('submit',async(e)=>{e.preventDefault();
+const service=document.getElementById('service').value,name=document.getElementById('name').value.trim(),mobile=document.getElementById('mobile').value.trim(),email=document.getElementById('email').value.trim(),pan=document.getElementById('pan').value.trim().toUpperCase(),remark=document.getElementById('remark').value.trim();
+if(!/^[0-9]{10}$/.test(mobile)){alert('कृपया सही 10 digit mobile number दर्ज करें।');return;}
+const requestId='AJPAN-'+new Date().toISOString().slice(0,10).replaceAll('-','').slice(2)+'-'+Math.floor(1000+Math.random()*9000);
+try{const {initializeApp}=await import('https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js');const {getFirestore,collection,addDoc}=await import('https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js');
+const config={apiKey:'REPLACE_WITH_YOUR_FIREBASE_API_KEY',authDomain:'REPLACE_WITH_YOUR_FIREBASE_AUTH_DOMAIN',projectId:'REPLACE_WITH_YOUR_FIREBASE_PROJECT_ID',storageBucket:'REPLACE_WITH_YOUR_FIREBASE_STORAGE_BUCKET',messagingSenderId:'REPLACE_WITH_YOUR_FIREBASE_MESSAGING_SENDER_ID',appId:'REPLACE_WITH_YOUR_FIREBASE_APP_ID'};
+if(config.apiKey.startsWith('REPLACE_')) throw new Error('Firebase config missing');
+const app=initializeApp(config);const db=getFirestore(app);await addDoc(collection(db,'serviceRequests'),{requestId,serviceType:'PAN_CARD',service,name,mobile,email,pan,remark,status:'Pending',createdAt:new Date().toISOString()});
+result.hidden=false;result.style='margin-top:18px;padding:16px;background:#ecfdf5;border:1px solid #86efac;border-radius:10px;font-weight:700';result.innerHTML=`✅ Request submitted successfully.<br>आपकी Request ID: <strong>${requestId}</strong><br><small>Status Check page से इस ID को check करें।</small>`;form.reset();
+}catch(err){console.error(err);result.hidden=false;result.style='margin-top:18px;padding:16px;background:#fef2f2;border:1px solid #fecaca;border-radius:10px';result.innerHTML='⚠️ Request save नहीं हो सकी। Firebase configuration/rules check करें।';}});
+</script>
+</body></html>
