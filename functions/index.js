@@ -20,7 +20,9 @@ exports.bootstrapAdmin=onCall({secrets:[ADMIN_EMAIL]},async(req)=>{
   const allowed=(ADMIN_EMAIL.value()||'').trim().toLowerCase();
   const email=(req.auth.token.email||'').trim().toLowerCase();
   if(!allowed||email!==allowed) throw new HttpsError('permission-denied','This account is not the configured admin.');
-  await admin.auth().setCustomUserClaims(req.auth.uid,{...(req.auth.token||{}),admin:true});
+
+  // Set only the custom claim we own. Do not copy Firebase's reserved token claims.
+  await admin.auth().setCustomUserClaims(req.auth.uid,{admin:true});
   return {ok:true,message:'Admin claim set. Please sign out and sign in again.'};
 });
 
