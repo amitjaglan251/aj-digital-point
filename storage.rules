@@ -1,0 +1,30 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // Supporting documents for Aadhaar assistance requests.
+    // Files are never publicly readable.
+    match /aadhaarRequests/{requestId}/documents/{fileName} {
+
+      // Customers may upload only authenticated-session files.
+      // The client uses Firebase Anonymous Auth for the request flow.
+      allow create: if request.auth != null
+        && request.resource.size <= 5 * 1024 * 1024
+        && request.resource.contentType.matches('image/(jpeg|png)|application/pdf');
+
+      // Only a trusted Firebase custom-claim admin can view documents.
+      allow read: if request.auth != null
+        && request.auth.token.admin == true;
+
+      // Prevent clients from replacing or deleting submitted documents.
+      allow update, delete: if request.auth != null
+        && request.auth.token.admin == true;
+    }
+
+    // Deny everything else by default.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
