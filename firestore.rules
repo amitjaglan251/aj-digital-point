@@ -1,29 +1,24 @@
 rules_version = '2';
-
 service cloud.firestore {
   match /databases/{database}/documents {
+    match /aadhaarRequests/{requestId} {
+      allow create: if request.auth != null
+        && request.resource.data.requestId == requestId
+        && request.resource.data.status == 'Pending';
+      allow get: if request.auth != null
+        && request.auth.token.firebase.sign_in_provider == 'anonymous';
+      allow list, read, update, delete: if request.auth != null
+        && request.auth.token.admin == true;
+    }
     match /serviceRequests/{requestId} {
-      // Customer request creation requires Firebase Authentication.
-      // The client may create only a new request in Payment Pending state.
       allow create: if request.auth != null
         && request.resource.data.requestId == requestId
         && request.resource.data.status == 'Payment Pending'
-        && request.resource.data.keys().hasOnly([
-          'requestId', 'service', 'name', 'mobile', 'email', 'status', 'createdAt', 'source'
-        ]);
-
-      // Production admin access must be granted by a trusted environment
-      // using a Firebase custom claim: admin == true.
-      // Never trust a client-side "isAdmin" flag.
-      allow read: if request.auth != null
-        && request.auth.token.admin == true;
-
-      allow update: if request.auth != null
-        && request.auth.token.admin == true
+        && request.resource.data.keys().hasOnly(['requestId','service','name','mobile','email','status','createdAt','source']);
+      allow read: if request.auth != null && request.auth.token.admin == true;
+      allow update: if request.auth != null && request.auth.token.admin == true
         && request.resource.data.requestId == resource.data.requestId;
-
-      allow delete: if request.auth != null
-        && request.auth.token.admin == true;
+      allow delete: if request.auth != null && request.auth.token.admin == true;
     }
   }
 }
