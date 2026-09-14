@@ -1,6 +1,5 @@
 const services=[
 {c:'identity',i:'🪪',n:'PAN Card Services',d:'New PAN, correction, reprint और official PAN services.',u:'pan-service-request.html',k:'pan card permanent account number correction reprint',b:'Popular'},
-{c:'identity',i:'🔎',n:'PAN Status',d:'AJ DIGITAL POINT request status और authorised PAN status services.',u:'pan-status.html',k:'pan status track application',b:'Popular'},
 {c:'identity',i:'🔗',n:'PAN–Aadhaar Link Status',d:'Income Tax Department की official service से link status check करें.',u:'service-details.html?service=link',k:'pan aadhaar link linking'},
 {c:'identity',i:'🔎',n:'PAN Verification',d:'Authorized/official PAN verification service.',u:'https://www.incometax.gov.in/iec/foportal/',o:1,k:'pan verify verification income tax',b:'Official'},
 {c:'identity',i:'🗳️',n:'Voter ID',d:'Voter registration, correction और status के official services.',u:'service-details.html?service=voter',k:'voter election epic'},
