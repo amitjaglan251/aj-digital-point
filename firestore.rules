@@ -2,14 +2,15 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     match /aadhaarRequests/{requestId} {
+      // Public/client creation only. Do not allow anonymous clients to read
+      // arbitrary requests because records may contain sensitive information.
       allow create: if request.auth != null
         && request.resource.data.requestId == requestId
         && request.resource.data.status == 'Pending';
-      allow get: if request.auth != null
-        && request.auth.token.firebase.sign_in_provider == 'anonymous';
       allow list, read, update, delete: if request.auth != null
         && request.auth.token.admin == true;
     }
+
     match /serviceRequests/{requestId} {
       allow create: if request.auth != null
         && request.resource.data.requestId == requestId
@@ -19,6 +20,11 @@ service cloud.firestore {
       allow update: if request.auth != null && request.auth.token.admin == true
         && request.resource.data.requestId == resource.data.requestId;
       allow delete: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // Deny access to any other Firestore collections by default.
+    match /{document=**} {
+      allow read, write: if false;
     }
   }
 }
