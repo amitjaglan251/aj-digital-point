@@ -26,7 +26,7 @@ const services=[
 {c:'documents',i:'📄',n:'Image to PDF',d:'Multiple images को PDF में convert करें.',u:'image-to-pdf.html',k:'image jpg png pdf converter',b:'Popular'},
 {c:'documents',i:'🧮',n:'Age Calculator',d:'Age calculation utility.',u:'age-calculator.html',k:'age date calculator'},
 {c:'documents',i:'🗂️',n:'PDF Tools',d:'PDF और document utilities के लिए available online tools देखें.',u:'online-tools.html',k:'pdf document tools converter'},
-{c:'jobs',i:'💼',n:'Haryana Govt Jobs',d:'Haryana government job updates और links.',u:'haryana-govt-jobs.html',k:'haryana government sarkari jobs recruitment',b:'Popular'},
+{c:'jobs',i:'💼',n:'Haryana Govt Jobs',d:'Haryana government job updates और links.',u:'government-jobs.html',k:'haryana government sarkari jobs recruitment',b:'Popular'},
 {c:'jobs',i:'🎓',n:'Education Services',d:'Education-related government portals और resources.',u:'https://www.india.gov.in/',o:1,k:'education scholarship student india',b:'Official'}
 ];
 const grid=document.getElementById('serviceGrid'),search=document.getElementById('search'),cat=document.getElementById('category'),empty=document.getElementById('empty'),count=document.getElementById('resultCount'),pills=[...document.querySelectorAll('.pill')];
