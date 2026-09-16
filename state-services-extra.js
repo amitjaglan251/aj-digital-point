@@ -22,7 +22,8 @@ Uttarakhand:[['education','🎓 Admissions','Uttarakhand Admissions','https://uk
 Himachal_Pradesh:[['education','🎓 Admissions','Himachal Pradesh Admissions','https://admissions.hpushimla.in/'],['jobs','💼 Govt Jobs','HPPSC Recruitment','https://hppsc.hp.gov.in/'],['jobs','🧑‍🏫 Teacher Jobs','HP Education Recruitment','https://education.hp.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','HPPSC notices and results','https://hppsc.hp.gov.in/']],
 Assam:[['education','🎓 Admissions','Assam Higher Education','https://dhe.assam.gov.in/'],['jobs','💼 Govt Jobs','Assam Public Service Commission','https://apsc.nic.in/'],['jobs','🧑‍🏫 Teacher Jobs','Assam Education Recruitment','https://education.assam.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','APSC notices and results','https://apsc.nic.in/']],
 Goa:[['education','🎓 Admissions','Goa Admissions','https://dhe.goa.gov.in/'],['jobs','💼 Govt Jobs','Goa Public Service Commission','https://gpsc.goa.gov.in/'],['jobs','🧑‍🏫 Teacher Jobs','Goa Education','https://education.goa.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','GPSC notices and results','https://gpsc.goa.gov.in/']],
-Jammu_Kashmir:[['education','🎓 Admissions','J&K Admissions','https://jk.gov.in/'],['jobs','💼 Govt Jobs','JKPSC Recruitment','https://jkpsc.nic.in/'],['jobs','🧑‍🏫 Teacher Jobs','J&K Education','https://schooleducation.jk.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','JKPSC notices and results','https://jkpsc.nic.in/']]
+Jammu_Kashmir:[['education','🎓 Admissions','J&K Admissions','https://jk.gov.in/'],['jobs','💼 Govt Jobs','JKPSC Recruitment','https://jkpsc.nic.in/'],['jobs','🧑‍🏫 Teacher Jobs','J&K Education','https://schooleducation.jk.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['jobs','🎫 Admit Card & Result','JKPSC notices and results','https://jkpsc.nic.in/']],
+Chandigarh:[['certificates','🧾 Citizen Services','Chandigarh Administration online services','https://chandigarh.gov.in/'],['education','🎓 Education','Education Department / services','https://chdeducation.gov.in/'],['jobs','💼 Govt Jobs','Chandigarh Administration recruitment / notices','https://chandigarh.gov.in/'],['scholarship','🏆 Scholarship','National Scholarship Portal','https://scholarships.gov.in/'],['transport','🚗 Transport','Chandigarh Transport / registration services','https://chandigarh.gov.in/']]
 };
 const key=new URLSearchParams(location.search).get('state')||'Haryana';
 const rows=extra[key]||[];
@@ -76,7 +77,8 @@ rows.forEach(x=>{
   Himachal_Pradesh:{certificates:'https://edistrict.hp.gov.in/',land:'https://himachal.nic.in/',police:'https://hppolice.gov.in/',transport:'https://himachal.nic.in/transport'},
   Assam:{certificates:'https://sewasetu.assam.gov.in/',land:'https://revenue.assam.gov.in/',police:'https://police.assam.gov.in/',transport:'https://transport.assam.gov.in/'},
   Goa:{certificates:'https://goaonline.gov.in/',land:'https://dslr.goa.gov.in/',police:'https://citizen.goapolice.gov.in/',transport:'https://goatransport.gov.in/'},
-  Jammu_Kashmir:{certificates:'https://jansugam.jk.gov.in/',land:'https://landrecords.jk.gov.in/',police:'https://jkpolice.gov.in/',transport:'https://jaktrans.nic.in/'}
+  Jammu_Kashmir:{certificates:'https://jansugam.jk.gov.in/',land:'https://landrecords.jk.gov.in/',police:'https://jkpolice.gov.in/',transport:'https://jaktrans.nic.in/'},
+  Chandigarh:{certificates:'https://chandigarh.gov.in/',land:'https://chandigarh.gov.in/',police:'https://chandigarhpolice.gov.in/',transport:'https://chandigarh.gov.in/'}
  };
  const links=stateOfficial[key]||{};
  Object.keys(grids).forEach(type=>{
@@ -86,4 +88,18 @@ rows.forEach(x=>{
   c.innerHTML='<h3>'+labels[type]+'</h3><div class="detail-lines"><div><b>'+d[0]+':</b> '+d[1]+'</div><div><b>'+d[2]+':</b> '+d[3]+'</div><div>📅 <b>Important Information:</b> Current rules, fee and processing time official portal पर verify करें</div></div><a href="'+links[type]+'" target="_blank" rel="noopener noreferrer">📝 Apply / Service Portal →</a><a href="'+links[type]+'" target="_blank" rel="noopener noreferrer">📄 Guidelines / Details →</a><a href="'+links[type]+'" target="_blank" rel="noopener noreferrer">🌐 Official Website →</a>';
   grid.appendChild(c);
  });
+})();
+
+/* Public state selector: one hub, all supported state/UT routes */
+(function(){
+ const stateNames={Haryana:'Haryana',Rajasthan:'Rajasthan',Punjab:'Punjab',Delhi:'Delhi',Uttar_Pradesh:'Uttar Pradesh',Bihar:'Bihar',Maharashtra:'Maharashtra',Gujarat:'Gujarat',Karnataka:'Karnataka',Madhya_Pradesh:'Madhya Pradesh',West_Bengal:'West Bengal',Odisha:'Odisha',Tamil_Nadu:'Tamil Nadu',Telangana:'Telangana',Andhra_Pradesh:'Andhra Pradesh',Kerala:'Kerala',Jharkhand:'Jharkhand',Chhattisgarh:'Chhattisgarh',Uttarakhand:'Uttarakhand',Himachal_Pradesh:'Himachal Pradesh',Assam:'Assam',Goa:'Goa',Jammu_Kashmir:'Jammu & Kashmir',Chandigarh:'Chandigarh'};
+ const current=new URLSearchParams(location.search).get('state')||'Haryana';
+ const head=document.querySelector('.state-head'); if(!head)return;
+ const box=document.createElement('div'); box.className='state-selector-box';
+ const label=document.createElement('label'); label.textContent='🌐 State / UT चुनें'; label.setAttribute('for','stateSelector');
+ const select=document.createElement('select'); select.id='stateSelector'; select.setAttribute('aria-label','Select State or Union Territory');
+ Object.entries(stateNames).forEach(([key,name])=>{const o=document.createElement('option');o.value=key;o.textContent=name;if(key===current)o.selected=true;select.appendChild(o)});
+ select.addEventListener('change',()=>{location.href='state-services.html?state='+encodeURIComponent(select.value)});
+ box.append(label,select); head.appendChild(box);
+ const note=document.createElement('p'); note.className='state-independent-note'; note.textContent='ℹ️ AJ DIGITAL POINT एक independent information/service portal है। आवेदन या शुल्क से पहले संबंधित official portal की current जानकारी verify करें।'; head.appendChild(note);
 })();
