@@ -118,7 +118,7 @@ rows.forEach(x=>{
   Dadra_Daman_Diu:{name:'Dadra & Nagar Haveli and Daman & Diu',jobs:'https://ddd.gov.in/',teacher:'https://ddd.gov.in/',portal:'https://ddd.gov.in/'},
   Ladakh:{name:'Ladakh',jobs:'https://ladakh.gov.in/',teacher:'https://ladakh.gov.in/',portal:'https://ladakh.gov.in/'},
   Lakshadweep:{name:'Lakshadweep',jobs:'https://lakshadweep.gov.in/notice_category/recruitment/',teacher:'https://lakshadweep.gov.in/',portal:'https://lakshadweep.gov.in/'},
-  Puducherry:{name:'Puducherry',jobs:'https://www.py.gov.in/recruitment',teacher:'https://schooledn.py.gov.in/',portal:'https://www.py.gov.in/'}
+  Puducherry:{name:'Puducherry',jobs:'https://recruitment.py.gov.in/',teacher:'https://schooledn.py.gov.in/',portal:'https://www.py.gov.in/'}
  };
  const key=new URLSearchParams(location.search).get('state');
  const s=remaining[key]; if(!s)return;
