@@ -103,3 +103,32 @@ rows.forEach(x=>{
  box.append(label,select); head.appendChild(box);
  const note=document.createElement('p'); note.className='state-independent-note'; note.textContent='ℹ️ AJ DIGITAL POINT एक independent information/service portal है। आवेदन या शुल्क से पहले संबंधित official portal की current जानकारी verify करें।'; head.appendChild(note);
 })();
+
+/* Coverage completion: recruitment links for the remaining State/UT entries */
+(function(){
+ const remaining={
+  Arunachal_Pradesh:{name:'Arunachal Pradesh',jobs:'https://www.appsc.gov.in/',teacher:'https://education.arunachal.gov.in/',portal:'https://arunachalpradesh.gov.in/'},
+  Manipur:{name:'Manipur',jobs:'https://mpscmanipur.gov.in/',teacher:'https://education.mn.gov.in/',portal:'https://manipur.gov.in/'},
+  Meghalaya:{name:'Meghalaya',jobs:'https://meghalaya.gov.in/',teacher:'https://megeducation.gov.in/',portal:'https://meghalaya.gov.in/'},
+  Mizoram:{name:'Mizoram',jobs:'https://mpsc.mizoram.gov.in/',teacher:'https://schooleducation.mizoram.gov.in/',portal:'https://mizoram.gov.in/'},
+  Nagaland:{name:'Nagaland',jobs:'https://npsc.nagaland.gov.in/',teacher:'https://education.nagaland.gov.in/',portal:'https://nagaland.gov.in/'},
+  Sikkim:{name:'Sikkim',jobs:'https://spsc.sikkim.gov.in/',teacher:'https://education.sikkim.gov.in/',portal:'https://sikkim.gov.in/'},
+  Tripura:{name:'Tripura',jobs:'https://tpsc.tripura.gov.in/',teacher:'https://schooleducation.tripura.gov.in/',portal:'https://tripura.gov.in/'},
+  Andaman_Nicobar:{name:'Andaman & Nicobar Islands',jobs:'https://andaman.gov.in/',teacher:'https://education.andaman.gov.in/',portal:'https://andaman.gov.in/'},
+  Dadra_Daman_Diu:{name:'Dadra & Nagar Haveli and Daman & Diu',jobs:'https://ddd.gov.in/',teacher:'https://ddd.gov.in/',portal:'https://ddd.gov.in/'},
+  Ladakh:{name:'Ladakh',jobs:'https://ladakh.gov.in/',teacher:'https://ladakh.gov.in/',portal:'https://ladakh.gov.in/'},
+  Lakshadweep:{name:'Lakshadweep',jobs:'https://lakshadweep.gov.in/notice_category/recruitment/',teacher:'https://lakshadweep.gov.in/',portal:'https://lakshadweep.gov.in/'},
+  Puducherry:{name:'Puducherry',jobs:'https://www.py.gov.in/recruitment',teacher:'https://schooledn.py.gov.in/',portal:'https://www.py.gov.in/'}
+ };
+ const key=new URLSearchParams(location.search).get('state');
+ const s=remaining[key]; if(!s)return;
+ const add=(gridId,title,desc,url)=>{const g=document.getElementById(gridId);if(!g)return;const d=document.createElement('div');d.className='service-card extra-service-card coverage-complete-card';d.innerHTML='<h3>'+title+'</h3><div>'+desc+'</div><a href="'+url+'" target="_blank" rel="noopener noreferrer">Open Official Portal →</a>';g.appendChild(d)};
+ add('jobs','💼 Government Jobs / Recruitment',s.name+' की current vacancies, recruitment advertisements, application, admit card और result notices official portal पर verify करें।',s.jobs);
+ add('jobs','🎫 Admit Card / Result','Recruitment schedules, admit cards, answer keys और results official portal पर check करें।',s.jobs);
+ add('jobs','🧑‍🏫 Teacher / Education Recruitment','Teacher और education-related recruitment notices संबंधित official education portal पर verify करें।',s.teacher);
+ add('education','🎓 Education / Admission','Admissions, courses और education notices संबंधित official government portal पर verify करें।',s.portal);
+ add('certificates','📜 Citizen Services','Certificates और citizen services के लिए संबंधित official government portal देखें।',s.portal);
+ add('scholarship','🏆 Scholarships / Schemes','Scholarship eligibility, dates और scheme details official portal पर verify करें।','https://www.myscheme.gov.in/');
+ add('police','👮 Police / Verification','Police और verification services के लिए संबंधित official government portal देखें।',s.portal);
+ add('transport','🚗 Transport Services','Driving licence, vehicle registration और transport services के लिए official portal देखें.','https://parivahan.gov.in/');
+})();
