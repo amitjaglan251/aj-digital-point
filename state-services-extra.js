@@ -90,20 +90,6 @@ rows.forEach(x=>{
  });
 })();
 
-/* Public state selector: one hub, all supported state/UT routes */
-(function(){
- const stateNames={Haryana:'Haryana',Rajasthan:'Rajasthan',Punjab:'Punjab',Delhi:'Delhi',Uttar_Pradesh:'Uttar Pradesh',Bihar:'Bihar',Maharashtra:'Maharashtra',Gujarat:'Gujarat',Karnataka:'Karnataka',Madhya_Pradesh:'Madhya Pradesh',West_Bengal:'West Bengal',Odisha:'Odisha',Tamil_Nadu:'Tamil Nadu',Telangana:'Telangana',Andhra_Pradesh:'Andhra Pradesh',Kerala:'Kerala',Jharkhand:'Jharkhand',Chhattisgarh:'Chhattisgarh',Uttarakhand:'Uttarakhand',Himachal_Pradesh:'Himachal Pradesh',Assam:'Assam',Goa:'Goa',Jammu_Kashmir:'Jammu & Kashmir',Chandigarh:'Chandigarh'};
- const current=new URLSearchParams(location.search).get('state')||'Haryana';
- const head=document.querySelector('.state-head'); if(!head)return;
- const box=document.createElement('div'); box.className='state-selector-box';
- const label=document.createElement('label'); label.textContent='🌐 State / UT चुनें'; label.setAttribute('for','stateSelector');
- const select=document.createElement('select'); select.id='stateSelector'; select.setAttribute('aria-label','Select State or Union Territory');
- Object.entries(stateNames).forEach(([key,name])=>{const o=document.createElement('option');o.value=key;o.textContent=name;if(key===current)o.selected=true;select.appendChild(o)});
- select.addEventListener('change',()=>{location.href='state-services.html?state='+encodeURIComponent(select.value)});
- box.append(label,select); head.appendChild(box);
- const note=document.createElement('p'); note.className='state-independent-note'; note.textContent='ℹ️ AJ DIGITAL POINT एक independent information/service portal है। आवेदन या शुल्क से पहले संबंधित official portal की current जानकारी verify करें।'; head.appendChild(note);
-})();
-
 /* Coverage completion: recruitment links for the remaining State/UT entries */
 (function(){
  const remaining={
