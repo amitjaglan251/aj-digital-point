@@ -109,10 +109,10 @@ rows.forEach(x=>{
  const remaining={
   Arunachal_Pradesh:{name:'Arunachal Pradesh',jobs:'https://www.appsc.gov.in/',teacher:'https://education.arunachal.gov.in/',portal:'https://arunachalpradesh.gov.in/'},
   Manipur:{name:'Manipur',jobs:'https://mpscmanipur.gov.in/',teacher:'https://education.mn.gov.in/',portal:'https://manipur.gov.in/'},
-  Meghalaya:{name:'Meghalaya',jobs:'https://meghalaya.gov.in/',teacher:'https://megeducation.gov.in/',portal:'https://meghalaya.gov.in/'},
-  Mizoram:{name:'Mizoram',jobs:'https://mpsc.mizoram.gov.in/',teacher:'https://schooleducation.mizoram.gov.in/',portal:'https://mizoram.gov.in/'},
+  Meghalaya:{name:'Meghalaya',jobs:'https://www.mpsc.meghalaya.gov.in/',teacher:'https://megeducation.gov.in/',portal:'https://meghalaya.gov.in/'},
+  Mizoram:{name:'Mizoram',jobs:'https://mpsconline.mizoram.gov.in/',teacher:'https://schooleducation.mizoram.gov.in/',portal:'https://mizoram.gov.in/'},
   Nagaland:{name:'Nagaland',jobs:'https://npsc.nagaland.gov.in/',teacher:'https://education.nagaland.gov.in/',portal:'https://nagaland.gov.in/'},
-  Sikkim:{name:'Sikkim',jobs:'https://spsc.sikkim.gov.in/',teacher:'https://education.sikkim.gov.in/',portal:'https://sikkim.gov.in/'},
+  Sikkim:{name:'Sikkim',jobs:'https://spscrecruitment.sikkim.gov.in/rpaonline/login',teacher:'https://education.sikkim.gov.in/',portal:'https://sikkim.gov.in/'},
   Tripura:{name:'Tripura',jobs:'https://tpsc.tripura.gov.in/',teacher:'https://schooleducation.tripura.gov.in/',portal:'https://tripura.gov.in/'},
   Andaman_Nicobar:{name:'Andaman & Nicobar Islands',jobs:'https://andaman.gov.in/',teacher:'https://education.andaman.gov.in/',portal:'https://andaman.gov.in/'},
   Dadra_Daman_Diu:{name:'Dadra & Nagar Haveli and Daman & Diu',jobs:'https://ddd.gov.in/',teacher:'https://ddd.gov.in/',portal:'https://ddd.gov.in/'},
