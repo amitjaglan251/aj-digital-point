@@ -12,3 +12,7 @@ body:has(.aj-highlight) footer{max-width:1000px;margin:8px auto 0;padding:12px 1
 body:has(.aj-highlight) footer b{font-size:12px;letter-spacing:.3px}
 body:has(.aj-highlight) footer span{opacity:.9}
 @media(max-width:650px){body:has(.aj-highlight) #contact>p{font-size:10px;padding:7px 8px}body:has(.aj-highlight) #contact .portal-links a{font-size:10px}body:has(.aj-highlight) footer{margin-top:6px;padding:11px 7px 13px;font-size:9px;gap:4px}body:has(.aj-highlight) footer b{font-size:11px}}
+
+
+/* State Wise mobile/navigation polish */
+.state-selector-box,.all-state-selector{display:flex;flex-direction:column;gap:7px;margin:14px 0;max-width:560px}.state-selector-box select,.all-state-selector select{width:100%;box-sizing:border-box;padding:12px;border:1px solid #bbb;border-radius:10px;background:#fff;font-size:16px;min-height:44px}.state-independent-note,.all-state-note{margin:10px 0;padding:10px 12px;border-radius:10px;background:#f5f8ff;font-size:13px;line-height:1.5}.coverage-complete-card{min-height:120px}.coverage-complete-card a,.detailed-info-card a{display:inline-block;margin:8px 8px 0 0}@media(max-width:600px){.state-tabs{overflow-x:auto;display:flex;gap:7px;padding-bottom:8px}.state-tabs button{white-space:nowrap;flex:0 0 auto}.state-selector-box select,.all-state-selector select{font-size:16px}.coverage-complete-card a,.detailed-info-card a{display:block;margin-right:0;text-align:center}}
