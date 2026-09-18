@@ -100,9 +100,9 @@ rows.forEach(x=>{
   Nagaland:{name:'Nagaland',jobs:'https://npsc.nagaland.gov.in/',teacher:'https://education.nagaland.gov.in/',portal:'https://nagaland.gov.in/'},
   Sikkim:{name:'Sikkim',jobs:'https://spscrecruitment.sikkim.gov.in/rpaonline/login',teacher:'https://education.sikkim.gov.in/',portal:'https://sikkim.gov.in/'},
   Tripura:{name:'Tripura',jobs:'https://tpsc.tripura.gov.in/',teacher:'https://schooleducation.tripura.gov.in/',portal:'https://tripura.gov.in/'},
-  Andaman_Nicobar:{name:'Andaman & Nicobar Islands',jobs:'https://andaman.gov.in/',teacher:'https://education.andaman.gov.in/',portal:'https://andaman.gov.in/'},
-  Dadra_Daman_Diu:{name:'Dadra & Nagar Haveli and Daman & Diu',jobs:'https://ddd.gov.in/',teacher:'https://ddd.gov.in/',portal:'https://ddd.gov.in/'},
-  Ladakh:{name:'Ladakh',jobs:'https://ladakh.gov.in/',teacher:'https://ladakh.gov.in/',portal:'https://ladakh.gov.in/'},
+  Andaman_Nicobar:{name:'Andaman & Nicobar Islands',jobs:'https://erecruitment.andamannicobar.gov.in/',teacher:'https://education.andaman.gov.in/',portal:'https://andaman.gov.in/'},
+  Dadra_Daman_Diu:{name:'Dadra & Nagar Haveli and Daman & Diu',jobs:'https://ddd.gov.in/notice-category/recruitments/',teacher:'https://ddd.gov.in/',portal:'https://ddd.gov.in/'},
+  Ladakh:{name:'Ladakh',jobs:'https://jobportal.ladakh.gov.in/',teacher:'https://ladakh.gov.in/',portal:'https://ladakh.gov.in/'},
   Lakshadweep:{name:'Lakshadweep',jobs:'https://lakshadweep.gov.in/notice_category/recruitment/',teacher:'https://lakshadweep.gov.in/',portal:'https://lakshadweep.gov.in/'},
   Puducherry:{name:'Puducherry',jobs:'https://recruitment.py.gov.in/',teacher:'https://schooledn.py.gov.in/',portal:'https://www.py.gov.in/'}
  };
