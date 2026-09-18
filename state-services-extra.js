@@ -93,6 +93,8 @@ rows.forEach(x=>{
 /* Coverage completion: recruitment links for the remaining State/UT entries */
 (function(){
  const remaining={
+  Odisha:{name:'Odisha',jobs:'https://www.opsc.gov.in/',teacher:'https://www.ossc.gov.in/',portal:'https://odisha.gov.in/'},
+
   Arunachal_Pradesh:{name:'Arunachal Pradesh',jobs:'https://www.appsc.gov.in/',teacher:'https://education.arunachal.gov.in/',portal:'https://arunachalpradesh.gov.in/'},
   Manipur:{name:'Manipur',jobs:'https://mpscmanipur.gov.in/',teacher:'https://education.mn.gov.in/',portal:'https://manipur.gov.in/'},
   Meghalaya:{name:'Meghalaya',jobs:'https://www.mpsc.meghalaya.gov.in/',teacher:'https://megeducation.gov.in/',portal:'https://meghalaya.gov.in/'},
