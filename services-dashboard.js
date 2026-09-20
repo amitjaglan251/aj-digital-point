@@ -32,6 +32,7 @@ const services=[
 {c:'citizen',i:'👮',n:'Haryana Police Services',d:'Police verification और citizen services के official links.',u:'https://haryanapolice.gov.in/',o:1,k:'police verification pcc haryana police'},
 {c:'citizen',i:'🌾',n:'Haryana Agriculture',d:'Agriculture department की official services.',u:'https://agri.haryana.gov.in/',o:1,k:'farmer agriculture fasal subsidy'},
 {c:'citizen',i:'💼',n:'Haryana Employment',d:'Employment और job-seeker services.',u:'https://hrex.gov.in/',o:1,k:'employment rojgar hrex job'},
+{c:'documents',i:'🪪',n:'All Card Print',d:'Aadhaar, PAN, Voter ID, Ayushman, e-Shram, DL, RC आदि की customer-provided PDF/image को print-ready करें.',u:'card-print.html',k:'aadhaar pan voter ayushman eshram dl rc card print pvc print id card',b:'Popular'},
 {c:'documents',i:'🖼️',n:'Photo Resize',d:'Online image resize tool.',u:'image-resizer.html',k:'photo image resize compress'},
 {c:'documents',i:'🪪',n:'Passport Photo + Background',d:'Passport-size photo को white या custom color background के साथ तैयार करें.',u:'passport-photo.html',k:'passport photo white background color background size dpi'},
 {c:'documents',i:'🎯',n:'Photo DPI Converter',d:'Photo output को 72, 96, 150, 200, 300 या 600 DPI में तैयार करें.',u:'photo-dpi-converter.html',k:'dpi converter photo 72 96 150 200 300 600 dpi'},
