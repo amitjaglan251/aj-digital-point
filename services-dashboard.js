@@ -34,7 +34,7 @@ const services=[
 {c:'citizen',i:'💼',n:'Haryana Employment',d:'Employment और job-seeker services.',u:'https://hrex.gov.in/',o:1,k:'employment rojgar hrex job'},
 {c:'documents',i:'🖼️',n:'Photo Resize',d:'Online image resize tool.',u:'image-resizer.html',k:'photo image resize compress'},
 {c:'documents',i:'🪪',n:'Passport Photo + Background',d:'Passport-size photo को white या custom color background के साथ तैयार करें.',u:'passport-photo.html',k:'passport photo white background color background size dpi'},
-{c:'documents',i:'🎯',n:'Photo DPI Converter',d:'Photo output को 72, 96, 150, 200, 300 या 600 DPI में तैयार करें.',u:'photo-dpi-converter.html',k:'dpi converter photo 72 96 150 200 300 600 dpi'}
+{c:'documents',i:'🎯',n:'Photo DPI Converter',d:'Photo output को 72, 96, 150, 200, 300 या 600 DPI में तैयार करें.',u:'photo-dpi-converter.html',k:'dpi converter photo 72 96 150 200 300 600 dpi'},
 {c:'documents',i:'📄',n:'Image to PDF',d:'Multiple images को PDF में convert करें.',u:'image-to-pdf.html',k:'image jpg png pdf converter',b:'Popular'},
 {c:'documents',i:'🧮',n:'Age Calculator',d:'Age calculation utility.',u:'age-calculator.html',k:'age date calculator'},
 {c:'documents',i:'🗂️',n:'PDF Tools',d:'PDF और document utilities के लिए available online tools देखें.',u:'online-tools.html',k:'pdf document tools converter'},
