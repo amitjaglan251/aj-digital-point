@@ -3,13 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="PDF-to-Card Print — PDF को Aadhaar/ID card के 85.60 × 53.98 mm standard card size में print करें।">
-<meta name="robots" content="index,follow">
+<meta name="description" content="PDF-to-Card Print — PDF को 85.60 × 53.98 mm ID card size में fit करके preview और print करें।">
 <title>PDF-to-Card Print | AJ DIGITAL POINT</title>
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}.top{padding:14px 18px;background:#0b4ea2;color:#fff}.top a{color:#fff;text-decoration:none;font-weight:800}.wrap{max-width:1050px;margin:auto;padding:16px}.hero,.panel{background:#fff;border:1px solid #dbe3ee;border-radius:16px;padding:18px;margin-bottom:16px;box-shadow:0 7px 22px rgba(0,0,0,.05)}h1{margin:4px 0 8px}.note{background:#fff8df;border:1px solid #efd47b;border-radius:10px;padding:11px;line-height:1.5}.steps{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.steps span{background:#eef4ff;color:#0b4ea2;border-radius:999px;padding:7px 10px;font-weight:800;font-size:13px}.controls{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.control{display:flex;flex-direction:column;gap:6px}.control label{font-weight:800}.control input,.control select{padding:11px;border:1px solid #cbd5e1;border-radius:9px;background:#fff}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.btn{padding:11px 15px;border:0;border-radius:9px;background:#0b4ea2;color:#fff;font-weight:800;cursor:pointer}.btn.secondary{background:#eef4ff;color:#0b4ea2}.btn:disabled{opacity:.5;cursor:not-allowed}.status{margin-top:10px;font-size:13px;font-weight:800}.preview-wrap{overflow:auto}.preview{display:flex;flex-direction:column;gap:12px;align-items:center;border:2px dashed #cbd5e1;border-radius:12px;padding:16px;min-height:180px}.sheet{width:210mm;height:297mm;background:#fff;display:grid;position:relative;grid-template-columns:repeat(2,85.6mm);grid-template-rows:repeat(4,53.98mm);gap:7mm 6mm;align-content:center;justify-content:center;padding:0;box-sizing:border-box}.custom-sheet{width:6.9in;height:2.2in;background:#fff;display:flex;align-items:center;justify-content:center;box-sizing:border-box}.custom-card{width:6.9in;height:2.2in;background:#fff;border:1px solid #888;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;break-inside:avoid;page-break-inside:avoid}.custom-card canvas{width:100%;height:100%;display:block}.preview-id-card{width:85.60mm;height:53.98mm;background:#fff;border:1px solid #888;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.12);flex:0 0 auto}.preview-id-card canvas{width:100%;height:100%;display:block}.card{width:85.60mm;height:53.98mm;background:#fff;border:1px solid #888;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;break-inside:avoid;page-break-inside:avoid}.card canvas{width:100%;height:100%;display:block}.cut-mark{position:absolute;width:3mm;height:3mm;pointer-events:none}.cut-mark:before,.cut-mark:after{content:"";position:absolute;background:#111}.cut-mark:before{width:3mm;height:.25mm;top:1.375mm;left:0}.cut-mark:after{width:.25mm;height:3mm;top:0;left:1.375mm}.sheet .cut-mark.tl{top:calc(50% - 101.46mm);left:calc(50% - 91.3mm)}.sheet .cut-mark.tr{top:calc(50% - 101.46mm);left:calc(50% + 88.3mm)}.sheet .cut-mark.bl{top:calc(50% + 98.46mm);left:calc(50% - 91.3mm)}.sheet .cut-mark.br{top:calc(50% + 98.46mm);left:calc(50% + 88.3mm)}.label{position:absolute;left:2mm;bottom:1.5mm;background:rgba(255,255,255,.9);padding:1mm 1.5mm;border-radius:1.5mm;font-size:8pt;font-weight:800}.empty{color:#64748b;text-align:center;padding:30px}.help{font-size:13px;color:#64748b;line-height:1.5}.badge{display:inline-block;padding:5px 8px;border-radius:7px;background:#e9f7ee;color:#166534;font-size:12px;font-weight:800}
-@media(max-width:700px){.controls{grid-template-columns:1fr}.wrap{padding:11px}.preview{align-items:flex-start}.sheet{transform-origin:top left;transform:scale(.48);margin-right:-98mm;margin-bottom:-145mm}.actions .btn{width:100%}}
-@media print{body{background:#fff}.top,.hero,.controls-panel,.footer-note,#previewTitle,.no-print{display:none!important}.wrap{padding:0;max-width:none}.preview{border:0;padding:0;display:block;overflow:visible}.sheet{break-after:page;page-break-after:always}.custom-sheet{width:6.9in;height:2.2in;break-after:page;page-break-after:always}.print-front .print-back-side{display:none}.print-back .print-front-side{display:none}.custom-card{width:6.9in;height:2.2in;break-inside:avoid;page-break-inside:avoid}.card{break-inside:avoid;page-break-inside:avoid}.label{display:none}.card canvas,.custom-card canvas{print-color-adjust:exact;-webkit-print-color-adjust:exact}@page{size:auto;margin:0}}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}.top{padding:14px 18px;background:#0b4ea2}.top a{color:#fff;text-decoration:none;font-weight:800}.wrap{max-width:1050px;margin:auto;padding:16px}.panel,.hero{background:#fff;border:1px solid #dbe3ee;border-radius:16px;padding:18px;margin-bottom:16px;box-shadow:0 5px 18px rgba(0,0,0,.05)}h1{margin:4px 0 8px}.note{background:#fff8df;border:1px solid #efd47b;border-radius:10px;padding:11px;line-height:1.5}.steps{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.steps span{background:#eef4ff;color:#0b4ea2;border-radius:999px;padding:7px 10px;font-weight:800;font-size:13px}.controls{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.control{display:flex;flex-direction:column;gap:6px}.control label{font-weight:800}.control input,.control select{padding:11px;border:1px solid #cbd5e1;border-radius:9px;background:#fff}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.btn{padding:11px 15px;border:0;border-radius:9px;background:#0b4ea2;color:#fff;font-weight:800;cursor:pointer}.btn.secondary{background:#eef4ff;color:#0b4ea2}.btn:disabled{opacity:.45;cursor:not-allowed}.status{margin-top:10px;font-size:13px;font-weight:800}.help{font-size:13px;color:#64748b;line-height:1.5}.preview-wrap{overflow:auto}.preview{display:flex;flex-direction:column;align-items:center;gap:14px;border:2px dashed #cbd5e1;border-radius:12px;padding:16px;min-height:190px}.id-card{width:85.60mm;height:53.98mm;background:#fff;border:1px solid #777;position:relative;overflow:hidden;flex:0 0 auto}.id-card canvas,.wide-card canvas,.a4-card canvas{display:block;width:100%;height:100%}.wide-sheet{width:6.9in;height:2.2in;background:#fff;display:flex;align-items:center;justify-content:center;break-after:page;page-break-after:always}.wide-card{width:6.9in;height:2.2in;background:#fff;border:1px solid #777;overflow:hidden;position:relative}.a4-sheet{width:210mm;height:297mm;background:#fff;display:grid;grid-template-columns:repeat(2,85.60mm);grid-template-rows:repeat(4,53.98mm);column-gap:6mm;row-gap:7mm;align-content:center;justify-content:center;break-after:page;page-break-after:always}.a4-card{width:85.60mm;height:53.98mm;background:#fff;border:1px solid #777;overflow:hidden;position:relative}.label{position:absolute;left:2mm;bottom:1.5mm;background:rgba(255,255,255,.9);padding:1mm;font-size:8pt;font-weight:800}.empty{padding:30px;color:#64748b;text-align:center}.preview-id{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;align-items:flex-start}.side-front,.side-back{display:block}.hidden-print-side{display:none!important}
+@media(max-width:700px){.controls{grid-template-columns:1fr}.wrap{padding:10px}.actions .btn{width:100%}.preview{align-items:flex-start}.id-card{transform-origin:top left;transform:scale(.82);margin-right:-15mm;margin-bottom:-10mm}}
+@media print{
+body{background:#fff}.top,.hero,.controls-panel,.footer-note,#previewTitle,.no-print{display:none!important}.wrap{padding:0;max-width:none}.preview{border:0;padding:0;display:block;overflow:visible}.id-card{break-after:page;page-break-after:always}.wide-sheet{break-after:page;page-break-after:always}.a4-sheet{break-after:page;page-break-after:always}.label{display:none}@page{size:auto;margin:0}canvas{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
@@ -18,51 +19,112 @@
 <main class="wrap">
 <section class="hero">
 <h1>🪪 PDF-to-Card Print</h1>
-<p>अपनी मौजूद <b>PDF</b> को card-size में fit करके साफ़ preview देखें और सीधे print करें।</p>
-<div class="note">🔐 File browser/device में ही process होती है। यह tool किसी सरकारी record को retrieve, verify या alter नहीं करता। केवल अपने/अधिकृत दस्तावेज़ ही print करें।</div>
-<div class="steps"><span>1. PDF चुनें</span><span>2. Card size</span><span>3. Fit/Fill</span><span>4. Preview</span><span>5. Print</span></div>
+<p>PDF को exact card-size में fit करके preview और print करें।</p>
+<div class="note">🔐 PDF आपके browser/device में process होती है। केवल अपने या अधिकृत दस्तावेज़ ही print करें।</div>
+<div class="steps"><span>1. PDF चुनें</span><span>2. Size चुनें</span><span>3. Fit/Fill</span><span>4. Preview</span><span>5. Print</span></div>
 </section>
-
 <section class="panel controls-panel">
 <div class="controls">
-<div class="control"><label>1. PDF File</label><input id="file" type="file" accept="application/pdf,.pdf"></div>
-<div class="control"><label>2. Card Size</label><select id="cardSize"><option value="id" selected>85.60 × 53.98 mm — Aadhaar/ID Card</option><option value="wide">6.9 × 2.2 inch — Custom Card</option><option value="a4">A4 — Full document</option></select></div>
+<div class="control"><label>1. PDF File</label><input id="file" type="file" accept=".pdf,application/pdf"></div>
+<div class="control"><label>2. Card Size</label><select id="cardSize"><option value="id" selected>85.60 × 53.98 mm — Aadhaar/ID Card</option><option value="wide">6.9 × 2.2 inch — Custom Card</option><option value="a4">A4 — Full Document</option></select></div>
 <div class="control"><label>3. PDF Placement</label><select id="fitMode"><option value="fit">Fit — पूरा page, crop नहीं</option><option value="fill">Fill — card पूरा भरें</option></select></div>
-<div class="control"><label>4. Quality</label><select id="dpi"><option value="300">300 DPI — Clear</option><option value="600">600 DPI — Extra Clear</option></select></div>
+<div class="control"><label>4. Quality</label><select id="dpi"><option value="300" selected>300 DPI — Clear</option><option value="600">600 DPI — Extra Clear</option></select></div>
 <div class="control"><label>5. Copies</label><input id="copies" type="number" min="1" max="20" value="1"></div>
-<div class="control"><label>7. Pages / Sides</label><select id="pages"><option value="all">Auto Front + Back — सभी pages</option><option value="first">Front only — First page</option><option value="second">Back only — Second page</option></select></div>
+<div class="control"><label>6. Pages / Sides</label><select id="pages"><option value="all" selected>All PDF Pages — Front + Back</option><option value="first">Front only — First page</option><option value="second">Back only — Second page</option></select></div>
 </div>
 <div id="status" class="status">कोई PDF select नहीं की गई।</div>
 <div class="actions">
 <button id="previewBtn" class="btn" disabled>👁️ Generate Preview</button>
-<button id="printBtn" class="btn" disabled>🖨️ Print Both / All</button><button id="frontBtn" class="btn secondary" disabled>🪪 Print Front</button><button id="backBtn" class="btn secondary" disabled>🔄 Print Back</button>
+<button id="printBtn" class="btn" disabled>🖨️ Print Both / All</button>
+<button id="frontBtn" class="btn secondary" disabled>🪪 Print Front</button>
+<button id="backBtn" class="btn secondary" disabled>🔄 Print Back</button>
 <button id="clearBtn" class="btn secondary">Clear</button>
 </div>
-<p class="help"><b>Custom card:</b> Aadhaar/ID card: 85.60 × 53.98 mm. Custom wide card: 6.9 × 2.2 inch (175.26 × 55.88 mm). PDF की पूरी page detail को <b>Fit</b> किया जाता है, इसलिए एक side में content छोटा हो सकता है लेकिन crop नहीं होगा। 2 pages होने पर Page 1 = Front और Page 2 = Back. अगर PDF की जानकारी एक page में नहीं आती, तो अगला PDF page अपने आप अगली side/card पर जाएगा—कोई page/detail छोड़ी नहीं जाएगी.</p><p class="help"><b>A4 sheet layout:</b> 2 columns × 4 rows = 8 cards per A4 sheet केवल ID/Card mode में लागू है.</p><p class="help">ID/Card mode में PDF page को 85.60 × 53.98 mm canvas पर रखा जाता है। <b>Fit</b> में पूरा page सुरक्षित रहता है; <b>Fill</b> में card भरने के लिए crop हो सकता है। Print dialog में browser/printer scaling को <b>100% / Actual size</b> रखें।</p>
+<p class="help"><b>ID Card:</b> 85.60 × 53.98 mm. <b>Custom:</b> 6.9 × 2.2 inch. Fit पूरा PDF page रखता है; Fill crop कर सकता है। 2-page PDF में Page 1 = Front और Page 2 = Back.</p>
 </section>
-
 <section class="panel">
 <h2 id="previewTitle">PDF-to-Card Preview</h2>
 <div class="preview-wrap"><div id="preview" class="preview"><div class="empty">PDF चुनने के बाद यहाँ preview आएगा।</div></div></div>
 </section>
-<p class="footer-note help">Printing/formatting assistance only. Document authenticity या government-issued status की कोई guarantee नहीं।</p>
+<p class="footer-note help">Printing/formatting assistance only. Document authenticity या government-issued status की guarantee नहीं।</p>
 </main>
-
 <script>
-const file=document.getElementById('file'),cardSize=document.getElementById('cardSize'),fitMode=document.getElementById('fitMode'),dpiEl=document.getElementById('dpi'),copies=document.getElementById('copies'),pages=document.getElementById('pages'),preview=document.getElementById('preview'),status=document.getElementById('status'),previewBtn=document.getElementById('previewBtn'),printBtn=document.getElementById('printBtn'),frontBtn=document.getElementById('frontBtn'),backBtn=document.getElementById('backBtn'),clearBtn=document.getElementById('clear');
-let pdfUrl='',pdfDoc=null,renderedCanvases=[],selectedFile=null;
-const mmPx=(mm,d)=>Math.round(mm/25.4*d);
-function setStatus(t){status.textContent=t}
-function selectedPages(n){if(pages.value==='first')return n?[1]:[];if(pages.value==='second')return n>=2?[2]:[];return Array.from({length:n},(_,i)=>i+1)}
-function updatePrintButtons(){const sideMode=cardSize.value==='wide'||cardSize.value==='id';frontBtn.disabled=!renderedCanvases.length||!sideMode;backBtn.disabled=!renderedCanvases.length||!sideMode;printBtn.disabled=!renderedCanvases.length}function target(){const d=Math.max(300,Math.min(600,Number(dpiEl.value)||300));if(cardSize.value==='a4')return{w:mmPx(210,d),h:mmPx(297,d),cw:'210mm',ch:'297mm'};if(cardSize.value==='wide')return{w:mmPx(175.26,d),h:mmPx(55.88,d),cw:'6.9in',ch:'2.2in'};return{w:mmPx(85.60,d),h:mmPx(53.98,d),cw:'85.60mm',ch:'53.98mm'}}
-async function renderPage(pageNo){const page=await pdfDoc.getPage(pageNo),t=target(),raw=page.getViewport({scale:1});let scale;if(fitMode.value==='fill')scale=Math.max(t.w/raw.width,t.h/raw.height);else scale=Math.min(t.w/raw.width,t.h/raw.height);const vp=page.getViewport({scale});const c=document.createElement('canvas');c.width=t.w;c.height=t.h;const ctx=c.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,t.w,t.h);const x=(t.w-vp.width)/2,y=(t.h-vp.height)/2;await page.render({canvasContext:ctx,viewport:vp,transform:[1,0,0,1,x,y]}).promise;return c}
-async function generate(){const chosen=file.files&&file.files[0];if(chosen)selectedFile=chosen;if(!selectedFile){setStatus('⚠️ पहले PDF file चुनें।');return}if(!pdfjsLib){setStatus('⚠️ PDF engine load नहीं हुआ। Internet connection check करके page refresh करें।');return}previewBtn.disabled=true;printBtn.disabled=true;frontBtn.disabled=true;backBtn.disabled=true;renderedCanvases=[];preview.innerHTML='<div class="empty">📄 PDF pages render हो रहे हैं…</div>';try{const pgs=selectedPages(pdfDoc.numPages);if(!pgs.length){setStatus('⚠️ चुना हुआ page PDF में मौजूद नहीं है।');preview.innerHTML='<div class="empty">Second page उपलब्ध नहीं है।</div>';return}const n=Math.min(20,Math.max(1,Number(copies.value)||1));const t=target();if(cardSize.value==='id'){for(let copy=0;copy<n;copy++){for(const p of pgs){const c=await renderPage(p);renderedCanvases.push({canvas:c,page:p,side:pdfDoc.numPages===2?(p===1?'Front':'Back'):'Page '+p});const item=renderedCanvases[renderedCanvases.length-1],d=document.createElement('div');d.className='preview-id-card '+(item.side==='Back'?'print-back-side':'print-front-side');d.appendChild(item.canvas);preview.appendChild(d)}}}else if(cardSize.value==='a4'){for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p);renderedCanvases.push({canvas:c,page:p})}}else if(cardSize.value==='wide'){const sidePages=pgs;for(let copy=0;copy<n;copy++)for(let i=0;i<sidePages.length;i++){const p=sidePages[i],c=await renderPage(p);renderedCanvases.push({canvas:c,page:p,side:pages.value==='first'?'Front':pages.value==='second'?'Back':(p%2===1?'Front':'Back')});const item=renderedCanvases[renderedCanvases.length-1],sheet=document.createElement('div');sheet.className='custom-sheet';const d=document.createElement('div');d.className='custom-card';d.appendChild(item.canvas);const l=document.createElement('span');l.className='label';l.textContent=item.side+' • PDF Page '+p;d.appendChild(l);sheet.appendChild(d);preview.appendChild(sheet)}}}else{const sheet=document.createElement('div');sheet.className='sheet';for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p),d=document.createElement('div');d.className='card';d.appendChild(c);const l=document.createElement('span');l.className='label';l.textContent=pdfDoc.numPages===2?(p===1?'Front':'Back'):'Page '+p;d.appendChild(l);sheet.appendChild(d);renderedCanvases.push({canvas:c,page:p})}preview.innerHTML='';preview.appendChild(sheet)}if(cardSize.value==='a4'){preview.innerHTML='';if(pgs.length===1){for(let copy=0;copy<n;copy++){const sheet=document.createElement('div');sheet.className='sheet';for(const cls of ['tl','tr','bl','br']){const mark=document.createElement('i');mark.className='cut-mark '+cls;sheet.appendChild(mark)}for(let k=0;k<8;k++){const d=document.createElement('div');d.className='card';const cv=document.createElement('canvas');cv.width=renderedCanvases[0].canvas.width;cv.height=renderedCanvases[0].canvas.height;cv.getContext('2d').drawImage(renderedCanvases[0].canvas,0,0);d.appendChild(cv);sheet.appendChild(d)}preview.appendChild(sheet)}}else{for(const item of renderedCanvases){const sheet=document.createElement('div');sheet.className='sheet';sheet.style.display='flex';sheet.style.alignItems='center';sheet.style.justifyContent='center';const d=document.createElement('div');d.className='card';d.style.width='190mm';d.style.height='277mm';d.appendChild(item.canvas);sheet.appendChild(d);preview.appendChild(sheet)}}}setStatus('✅ Preview तैयार • '+pgs.length+' page(s) • '+n+' copy/copies • '+dpiEl.value+' DPI.');previewBtn.disabled=false;updatePrintButtons();}catch(e){console.error(e);preview.innerHTML='<div class="empty">⚠️ PDF render नहीं हो सका। PDF दोबारा चुनें या Open/Browser PDF viewer से print करें।</div>';setStatus('⚠️ '+(e.message||'PDF processing error'));previewBtn.disabled=false;updatePrintButtons()}}
-file.onchange=async()=>{if(pdfUrl)URL.revokeObjectURL(pdfUrl);pdfUrl='';pdfDoc=null;renderedCanvases=[];selectedFile=null;preview.innerHTML='<div class="empty">PDF load हो रही है…</div>';previewBtn.disabled=true;printBtn.disabled=true;frontBtn.disabled=true;backBtn.disabled=true;const f=file.files[0];if(!f){setStatus('कोई PDF select नहीं की गई।');return}selectedFile=f;previewBtn.disabled=false;setStatus('📄 PDF select हो गई है — अब Generate Preview दबाएँ।');if(f.size>50*1024*1024){file.value='';setStatus('⚠️ PDF 50 MB से बड़ी है।');preview.innerHTML='<div class="empty">50 MB से छोटी PDF चुनें।</div>';return}pdfUrl=URL.createObjectURL(f);try{if(!pdfjsLib){throw new Error('PDF.js engine unavailable')}pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';pdfDoc=await pdfjsLib.getDocument({url:pdfUrl,disableAutoFetch:false,disableStream:false}).promise;setStatus('✅ PDF ready • '+pdfDoc.numPages+' page(s). Preview generate करें।');previewBtn.disabled=false;updatePrintButtons()}catch(e){console.error(e);setStatus('⚠️ PDF load नहीं हो सकी: '+(e.message||'Unknown error'));preview.innerHTML='<div class="empty">PDF select हो गई है। अब Generate Preview दबाएँ; जरूरत हो तो page refresh करके फिर try करें।</div>';updatePrintButtons()}};
-previewBtn.onclick=()=>{const chosen=file.files&&file.files[0];if(chosen)selectedFile=chosen;if(!selectedFile){setStatus('⚠️ पहले PDF file चुनें।');file.click();return}generate()};
-[cardSize,fitMode,dpiEl,copies,pages].forEach(el=>el.addEventListener('change',()=>{if(pdfDoc)generate();else updatePrintButtons()}));
-copies.addEventListener('input',()=>{if(pdfDoc){clearTimeout(window._copyTimer);window._copyTimer=setTimeout(generate,300)}});
-function printSide(side){if(!renderedCanvases.length)return;if(cardSize.value!=='wide'&&cardSize.value!=='id')return;document.body.classList.remove('print-front','print-back');document.body.classList.add(side==='Front'?'print-front':'print-back');status.textContent='🖨️ '+side+' print — Scale = 100% / Actual size रखें।';window.print();setTimeout(()=>document.body.classList.remove('print-front','print-back'),500)}printBtn.onclick=()=>{if(!renderedCanvases.length)return;status.textContent='🖨️ Print dialog खोलें — Scale = 100% / Actual size रखें।';window.print()};frontBtn.onclick=()=>printSide('Front');backBtn.onclick=()=>printSide('Back');
-clearBtn.onclick=()=>{if(pdfUrl)URL.revokeObjectURL(pdfUrl);pdfUrl='';pdfDoc=null;renderedCanvases=[];selectedFile=null;file.value='';preview.innerHTML='<div class="empty">PDF चुनने के बाद यहाँ preview आएगा।</div>';previewBtn.disabled=true;printBtn.disabled=true;frontBtn.disabled=true;backBtn.disabled=true;setStatus('कोई PDF select नहीं की गई।')};
+const $=id=>document.getElementById(id);
+const file=$('file'),cardSize=$('cardSize'),fitMode=$('fitMode'),dpi=$('dpi'),copies=$('copies'),pages=$('pages'),preview=$('preview'),status=$('status'),previewBtn=$('previewBtn'),printBtn=$('printBtn'),frontBtn=$('frontBtn'),backBtn=$('backBtn'),clearBtn=$('clearBtn');
+let pdfDoc=null,pdfBytes=null,rendered=[],busy=false;
+function msg(t){status.textContent=t}
+function mmPx(mm,d){return Math.round(mm/25.4*d)}
+function target(){const d=Number(dpi.value)||300;if(cardSize.value==='wide')return{w:mmPx(175.26,d),h:mmPx(55.88,d)};if(cardSize.value==='a4')return{w:mmPx(210,d),h:mmPx(297,d)};return{w:mmPx(85.60,d),h:mmPx(53.98,d)}}
+function chosenPages(n){if(pages.value==='first')return n>=1?[1]:[];if(pages.value==='second')return n>=2?[2]:[];return Array.from({length:n},(_,i)=>i+1)}
+function setPrintState(){const ok=rendered.length>0;const sides=cardSize.value!=='a4';printBtn.disabled=!ok;frontBtn.disabled=!ok||!sides;backBtn.disabled=!ok||!sides}
+async function loadPdf(fileObj){
+ if(!window.pdfjsLib)throw new Error('PDF engine load नहीं हुआ');
+ const buf=await fileObj.arrayBuffer();pdfBytes=new Uint8Array(buf);
+ pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+ pdfDoc=await pdfjsLib.getDocument({data:pdfBytes}).promise;
+}
+async function renderPage(num){
+ const page=await pdfDoc.getPage(num),t=target(),raw=page.getViewport({scale:1});
+ const scale=fitMode.value==='fill'?Math.max(t.w/raw.width,t.h/raw.height):Math.min(t.w/raw.width,t.h/raw.height);
+ const vp=page.getViewport({scale}),c=document.createElement('canvas');c.width=t.w;c.height=t.h;
+ const ctx=c.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,t.w,t.h);
+ await page.render({canvasContext:ctx,viewport:vp,transform:[1,0,0,1,(t.w-vp.width)/2,(t.h-vp.height)/2]}).promise;return c;
+}
+function cardCanvas(src,cls,label){
+ const d=document.createElement('div');d.className=cls;
+ const c=document.createElement('canvas');c.width=src.width;c.height=src.height;c.getContext('2d').drawImage(src,0,0);d.appendChild(c);
+ if(label){const l=document.createElement('span');l.className='label';l.textContent=label;d.appendChild(l)}
+ return d;
+}
+async function generate(){
+ if(busy)return;
+ const f=file.files&&file.files[0];if(!f){msg('⚠️ पहले PDF file चुनें।');return}
+ if(f.type&&f.type!=='application/pdf'&&!/\.pdf$/i.test(f.name)){msg('⚠️ केवल PDF file चुनें।');return}
+ if(f.size>50*1024*1024){msg('⚠️ PDF 50 MB से बड़ी है।');return}
+ busy=true;previewBtn.disabled=true;printBtn.disabled=true;frontBtn.disabled=true;backBtn.disabled=true;rendered=[];preview.innerHTML='<div class="empty">📄 PDF render हो रही है…</div>';
+ try{
+  if(!pdfDoc)await loadPdf(f);
+  const pgs=chosenPages(pdfDoc.numPages);if(!pgs.length)throw new Error('Second page उपलब्ध नहीं है');
+  const n=Math.min(20,Math.max(1,parseInt(copies.value,10)||1));
+  const items=[];for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p);items.push({canvas:c,page:p,side:pdfDoc.numPages===2?(p===1?'Front':'Back'):'Page '+p})}
+  rendered=items;preview.innerHTML='';
+  if(cardSize.value==='id'){
+   const box=document.createElement('div');box.className='preview-id';
+   items.forEach(it=>box.appendChild(cardCanvas(it.canvas,'id-card '+(it.side==='Back'?'side-back':'side-front'),it.side+' • Page '+it.page)));
+   preview.appendChild(box);
+  }else if(cardSize.value==='wide'){
+   items.forEach(it=>{const s=document.createElement('div');s.className='wide-sheet '+(it.side==='Back'?'side-back':'side-front');s.appendChild(cardCanvas(it.canvas,'wide-card',it.side+' • Page '+it.page));preview.appendChild(s)})
+  }else{
+   if(pgs.length===1){for(let copy=0;copy<n;copy++){const s=document.createElement('div');s.className='a4-sheet';const src=items[0].canvas;for(let k=0;k<8;k++)s.appendChild(cardCanvas(src,'a4-card',''));preview.appendChild(s)}}
+   else items.forEach(it=>{const s=document.createElement('div');s.className='a4-sheet';const d=cardCanvas(it.canvas,'a4-card',it.side+' • Page '+it.page);d.style.width='190mm';d.style.height='277mm';s.style.display='flex';s.style.alignItems='center';s.style.justifyContent='center';s.appendChild(d);preview.appendChild(s)})
+  }
+  msg('✅ Preview तैयार • '+pgs.length+' PDF page(s) • '+n+' copy/copies • '+dpi.value+' DPI');
+ }catch(e){console.error(e);pdfDoc=null;preview.innerHTML='<div class="empty">⚠️ PDF load/render नहीं हो सकी। दूसरी PDF try करें या page refresh करें।</div>';msg('⚠️ '+(e.message||'PDF processing error'))}
+ finally{busy=false;previewBtn.disabled=false;setPrintState()}
+}
+file.addEventListener('change',async()=>{
+ pdfDoc=null;rendered=[];preview.innerHTML='<div class="empty">PDF तैयार हो रही है…</div>';previewBtn.disabled=true;setPrintState();
+ const f=file.files&&file.files[0];if(!f){msg('कोई PDF select नहीं की गई।');return}
+ if(f.size>50*1024*1024){msg('⚠️ PDF 50 MB से बड़ी है।');preview.innerHTML='<div class="empty">50 MB से छोटी PDF चुनें।</div>';return}
+ try{await loadPdf(f);previewBtn.disabled=false;msg('✅ PDF select हो गई है • '+pdfDoc.numPages+' page(s) • Generate Preview दबाएँ।')}
+ catch(e){pdfDoc=null;msg('⚠️ PDF select हुई, लेकिन load नहीं हो सकी। '+(e.message||''));preview.innerHTML='<div class="empty">PDF load नहीं हुई। Page refresh करके फिर try करें।</div>'}
+ setPrintState()
+});
+previewBtn.addEventListener('click',generate);
+[cardSize,fitMode,dpi,pages].forEach(el=>el.addEventListener('change',()=>{if(file.files&&file.files[0]){pdfDoc=null;generate()}}));
+copies.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});
+function printSide(side){
+ if(!rendered.length)return;
+ document.body.classList.remove('print-front','print-back');
+ document.body.classList.add(side==='Front'?'print-front':'print-back');
+ document.querySelectorAll('.side-front,.side-back').forEach(el=>el.classList.remove('hidden-print-side'));
+ document.querySelectorAll(side==='Front'?'.side-back':'.side-front').forEach(el=>el.classList.add('hidden-print-side'));
+ msg('🖨️ '+side+' print — Scale 100% / Actual size रखें।');window.print();
+ setTimeout(()=>{document.body.classList.remove('print-front','print-back');document.querySelectorAll('.hidden-print-side').forEach(el=>el.classList.remove('hidden-print-side'))},500);
+}
+printBtn.addEventListener('click',()=>{if(rendered.length){msg('🖨️ Print dialog — Scale 100% / Actual size रखें।');window.print()}});
+frontBtn.addEventListener('click',()=>printSide('Front'));backBtn.addEventListener('click',()=>printSide('Back'));
+clearBtn.addEventListener('click',()=>{file.value='';pdfDoc=null;pdfBytes=null;rendered=[];preview.innerHTML='<div class="empty">PDF चुनने के बाद यहाँ preview आएगा।</div>';previewBtn.disabled=true;setPrintState();msg('कोई PDF select नहीं की गई।')});
 </script>
 </body>
 </html>
