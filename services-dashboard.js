@@ -33,6 +33,7 @@ const services=[
 {c:'citizen',i:'🌾',n:'Haryana Agriculture',d:'Agriculture department की official services.',u:'https://agri.haryana.gov.in/',o:1,k:'farmer agriculture fasal subsidy'},
 {c:'citizen',i:'💼',n:'Haryana Employment',d:'Employment और job-seeker services.',u:'https://hrex.gov.in/',o:1,k:'employment rojgar hrex job'},
 {c:'documents',i:'🪪',n:'All Card Print',d:'Aadhaar, PAN, Voter ID, Ayushman, e-Shram, DL, RC आदि की customer-provided PDF/image को print-ready करें.',u:'card-print.html',k:'aadhaar pan voter ayushman eshram dl rc card print pvc print id card',b:'Popular'},
+{c:'documents',i:'📄',n:'PDF-to-Card Print',d:'अपनी मौजूद PDF को 85.6 × 54 mm card size में fit करके preview और print करें.',u:'pdf-to-card-print.html',k:'pdf to card print pdf card 85.6 54 mm id card fit fill a4',b:'New'},
 {c:'documents',i:'🪄',n:'Photo Background Remover',d:'Photo background remove करके transparent PNG बनाएं.',u:'photo-background-remover.html',k:'photo background remove transparent png'},
 {c:'documents',i:'🎨',n:'Photo Background Colour',d:'Photo के light/uniform background का colour बदलें.',u:'photo-background-colour.html',k:'photo background colour change white blue red'},
 {c:'documents',i:'🏷️',n:'Photo Name / Date',d:'Photo पर नाम और date जोड़कर print-ready image बनाएं.',u:'photo-name-date.html',k:'photo name date text add print'},
