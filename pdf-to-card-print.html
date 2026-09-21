@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="PDF-to-Card Print — अपनी PDF को 85.6 × 54 mm card size में fit करके print करें।">
+<meta name="robots" content="index,follow">
+<title>PDF-to-Card Print | AJ DIGITAL POINT</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}.top{padding:14px 18px;background:#0b4ea2;color:#fff}.top a{color:#fff;text-decoration:none;font-weight:800}.wrap{max-width:1050px;margin:auto;padding:16px}.hero,.panel{background:#fff;border:1px solid #dbe3ee;border-radius:16px;padding:18px;margin-bottom:16px;box-shadow:0 7px 22px rgba(0,0,0,.05)}h1{margin:4px 0 8px}.note{background:#fff8df;border:1px solid #efd47b;border-radius:10px;padding:11px;line-height:1.5}.steps{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.steps span{background:#eef4ff;color:#0b4ea2;border-radius:999px;padding:7px 10px;font-weight:800;font-size:13px}.controls{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.control{display:flex;flex-direction:column;gap:6px}.control label{font-weight:800}.control input,.control select{padding:11px;border:1px solid #cbd5e1;border-radius:9px;background:#fff}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.btn{padding:11px 15px;border:0;border-radius:9px;background:#0b4ea2;color:#fff;font-weight:800;cursor:pointer}.btn.secondary{background:#eef4ff;color:#0b4ea2}.btn:disabled{opacity:.5;cursor:not-allowed}.status{margin-top:10px;font-size:13px;font-weight:800}.preview-wrap{overflow:auto}.preview{display:flex;flex-direction:column;gap:12px;align-items:center;border:2px dashed #cbd5e1;border-radius:12px;padding:16px;min-height:180px}.sheet{width:190mm;min-height:277mm;background:#fff;display:grid;grid-template-columns:repeat(2,85.6mm);grid-auto-rows:54mm;gap:4mm 6mm;align-content:start;justify-content:center;padding:0}.card{width:85.6mm;height:54mm;background:#fff;border:1px solid #888;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;break-inside:avoid;page-break-inside:avoid}.card canvas{width:100%;height:100%;display:block}.label{position:absolute;left:2mm;bottom:1.5mm;background:rgba(255,255,255,.9);padding:1mm 1.5mm;border-radius:1.5mm;font-size:8pt;font-weight:800}.empty{color:#64748b;text-align:center;padding:30px}.help{font-size:13px;color:#64748b;line-height:1.5}.badge{display:inline-block;padding:5px 8px;border-radius:7px;background:#e9f7ee;color:#166534;font-size:12px;font-weight:800}
+@media(max-width:700px){.controls{grid-template-columns:1fr}.wrap{padding:11px}.preview{align-items:flex-start}.sheet{transform-origin:top left;transform:scale(.48);margin-right:-98mm;margin-bottom:-145mm}.actions .btn{width:100%}}
+@media print{body{background:#fff}.top,.hero,.controls-panel,.footer-note,#previewTitle,.no-print{display:none!important}.wrap{padding:0;max-width:none}.preview{border:0;padding:0;display:block;overflow:visible}.sheet{break-after:page;page-break-after:always}.card{break-inside:avoid;page-break-inside:avoid}.label{display:none}.card canvas{print-color-adjust:exact;-webkit-print-color-adjust:exact}@page{size:A4 portrait;margin:10mm}}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+<header class="top"><a href="services-dashboard.html">← All Services</a></header>
+<main class="wrap">
+<section class="hero">
+<h1>🪪 PDF-to-Card Print</h1>
+<p>अपनी मौजूद <b>PDF</b> को card-size में fit करके साफ़ preview देखें और सीधे print करें।</p>
+<div class="note">🔐 File browser/device में ही process होती है। यह tool किसी सरकारी record को retrieve, verify या alter नहीं करता। केवल अपने/अधिकृत दस्तावेज़ ही print करें।</div>
+<div class="steps"><span>1. PDF चुनें</span><span>2. Card size</span><span>3. Fit/Fill</span><span>4. Preview</span><span>5. Print</span></div>
+</section>
+
+<section class="panel controls-panel">
+<div class="controls">
+<div class="control"><label>1. PDF File</label><input id="file" type="file" accept="application/pdf,.pdf"></div>
+<div class="control"><label>2. Card Size</label><select id="cardSize"><option value="id">85.6 × 54 mm — ID/Card</option><option value="a4">A4 — Full document</option></select></div>
+<div class="control"><label>3. PDF Placement</label><select id="fitMode"><option value="fit">Fit — पूरा page, crop नहीं</option><option value="fill">Fill — card पूरा भरें</option></select></div>
+<div class="control"><label>4. Quality</label><select id="dpi"><option value="300">300 DPI — Clear</option><option value="600">600 DPI — Extra Clear</option></select></div>
+<div class="control"><label>5. Copies</label><input id="copies" type="number" min="1" max="20" value="1"></div>
+<div class="control"><label>6. Pages</label><select id="pages"><option value="all">All PDF pages</option><option value="first">First page only</option><option value="second">Second page only</option></select></div>
+</div>
+<div id="status" class="status">कोई PDF select नहीं की गई।</div>
+<div class="actions">
+<button id="previewBtn" class="btn" disabled>👁️ Generate Preview</button>
+<button id="printBtn" class="btn" disabled>🖨️ Print Card</button>
+<button id="clearBtn" class="btn secondary">Clear</button>
+</div>
+<p class="help">ID/Card mode में PDF page को 85.6 × 54 mm canvas पर रखा जाता है। <b>Fit</b> में पूरा page सुरक्षित रहता है; <b>Fill</b> में card भरने के लिए crop हो सकता है। Print dialog में browser/printer scaling को <b>100% / Actual size</b> रखें।</p>
+</section>
+
+<section class="panel">
+<h2 id="previewTitle">PDF-to-Card Preview</h2>
+<div class="preview-wrap"><div id="preview" class="preview"><div class="empty">PDF चुनने के बाद यहाँ preview आएगा।</div></div></div>
+</section>
+<p class="footer-note help">Printing/formatting assistance only. Document authenticity या government-issued status की कोई guarantee नहीं।</p>
+</main>
+
+<script>
+const file=document.getElementById('file'),cardSize=document.getElementById('cardSize'),fitMode=document.getElementById('fitMode'),dpiEl=document.getElementById('dpi'),copies=document.getElementById('copies'),pages=document.getElementById('pages'),preview=document.getElementById('preview'),status=document.getElementById('status'),previewBtn=document.getElementById('previewBtn'),printBtn=document.getElementById('printBtn'),clearBtn=document.getElementById('clear');
+let pdfUrl='',pdfDoc=null,renderedCanvases=[];
+const mmPx=(mm,d)=>Math.round(mm/25.4*d);
+function setStatus(t){status.textContent=t}
+function selectedPages(n){if(pages.value==='first')return n?[1]:[];if(pages.value==='second')return n>=2?[2]:[];return Array.from({length:n},(_,i)=>i+1)}
+function target(){const d=Math.max(300,Math.min(600,Number(dpiEl.value)||300));return cardSize.value==='a4'?{w:mmPx(210,d),h:mmPx(297,d),cw:'210mm',ch:'297mm'}:{w:mmPx(85.6,d),h:mmPx(54,d),cw:'85.6mm',ch:'54mm'}}
+async function renderPage(pageNo){const page=await pdfDoc.getPage(pageNo),t=target(),raw=page.getViewport({scale:1});let scale;if(fitMode.value==='fill')scale=Math.max(t.w/raw.width,t.h/raw.height);else scale=Math.min(t.w/raw.width,t.h/raw.height);const vp=page.getViewport({scale});const c=document.createElement('canvas');c.width=t.w;c.height=t.h;const ctx=c.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,t.w,t.h);const x=(t.w-vp.width)/2,y=(t.h-vp.height)/2;await page.render({canvasContext:ctx,viewport:vp,transform:[1,0,0,1,x,y]}).promise;return c}
+async function generate(){if(!pdfDoc)return;previewBtn.disabled=true;printBtn.disabled=true;renderedCanvases=[];preview.innerHTML='<div class="empty">📄 PDF pages render हो रहे हैं…</div>';try{const pgs=selectedPages(pdfDoc.numPages);if(!pgs.length){setStatus('⚠️ चुना हुआ page PDF में मौजूद नहीं है।');preview.innerHTML='<div class="empty">Second page उपलब्ध नहीं है।</div>';return}const n=Math.min(20,Math.max(1,Number(copies.value)||1));const t=target();if(cardSize.value==='a4'){for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p);renderedCanvases.push({canvas:c,page:p})}}else{const sheet=document.createElement('div');sheet.className='sheet';for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p),d=document.createElement('div');d.className='card';d.appendChild(c);const l=document.createElement('span');l.className='label';l.textContent=pdfDoc.numPages===2?(p===1?'Front':'Back'):'Page '+p;d.appendChild(l);sheet.appendChild(d);renderedCanvases.push({canvas:c,page:p})}preview.innerHTML='';preview.appendChild(sheet)}if(cardSize.value==='a4'){preview.innerHTML='';for(const item of renderedCanvases){const sheet=document.createElement('div');sheet.className='sheet';sheet.style.display='flex';sheet.style.alignItems='center';sheet.style.justifyContent='center';const d=document.createElement('div');d.className='card';d.style.width='190mm';d.style.height='277mm';d.appendChild(item.canvas);sheet.appendChild(d);preview.appendChild(sheet)}}setStatus('✅ Preview तैयार • '+pgs.length+' page(s) • '+n+' copy/copies • '+dpiEl.value+' DPI.');previewBtn.disabled=false;printBtn.disabled=false}catch(e){console.error(e);preview.innerHTML='<div class="empty">⚠️ PDF render नहीं हो सका। PDF दोबारा चुनें या Open/Browser PDF viewer से print करें।</div>';setStatus('⚠️ '+(e.message||'PDF processing error'));previewBtn.disabled=false}}
+file.onchange=async()=>{if(pdfUrl)URL.revokeObjectURL(pdfUrl);pdfUrl='';pdfDoc=null;renderedCanvases=[];preview.innerHTML='<div class="empty">PDF load हो रही है…</div>';previewBtn.disabled=true;printBtn.disabled=true;const f=file.files[0];if(!f){setStatus('कोई PDF select नहीं की गई।');return}if(f.size>50*1024*1024){file.value='';setStatus('⚠️ PDF 50 MB से बड़ी है।');preview.innerHTML='<div class="empty">50 MB से छोटी PDF चुनें।</div>';return}pdfUrl=URL.createObjectURL(f);try{pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';pdfDoc=await pdfjsLib.getDocument({url:pdfUrl}).promise;setStatus('✅ PDF ready • '+pdfDoc.numPages+' page(s). Preview generate करें।');previewBtn.disabled=false}catch(e){console.error(e);setStatus('⚠️ PDF load नहीं हो सकी: '+(e.message||'Unknown error'));preview.innerHTML='<div class="empty">PDF open नहीं हो सकी।</div>'}};
+previewBtn.onclick=generate;
+[cardSize,fitMode,dpiEl,copies,pages].forEach(el=>el.addEventListener('change',()=>{if(pdfDoc)generate()}));
+copies.addEventListener('input',()=>{if(pdfDoc){clearTimeout(window._copyTimer);window._copyTimer=setTimeout(generate,300)}});
+printBtn.onclick=()=>{if(!renderedCanvases.length)return;status.textContent='🖨️ Print dialog खोलें — Scale = 100% / Actual size रखें।';window.print()};
+clearBtn.onclick=()=>{if(pdfUrl)URL.revokeObjectURL(pdfUrl);pdfUrl='';pdfDoc=null;renderedCanvases=[];file.value='';preview.innerHTML='<div class="empty">PDF चुनने के बाद यहाँ preview आएगा।</div>';previewBtn.disabled=true;printBtn.disabled=true;setStatus('कोई PDF select नहीं की गई।')};
+</script>
+</body>
+</html>
