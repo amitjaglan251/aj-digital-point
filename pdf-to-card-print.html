@@ -35,7 +35,7 @@ body{background:#fff}.top,.hero,.controls-panel,.footer-note,#previewTitle,.no-p
 <div id="status" class="status">कोई PDF select नहीं की गई।</div><p class="help">इन actions से केवल print size/layout preset बदलता है। यह tool कोई Aadhaar/PAN record जारी, verify या retrieve नहीं करता।</p>
 <div class="quick-actions no-print"><button id="aadhaarAction" class="quick-btn active" type="button">🪪 Aadhaar Card Print</button><button id="panAction" class="quick-btn" type="button">💳 PAN Card Print</button></div><div class="actions">
 <button id="previewBtn" class="btn" disabled>👁️ Generate Preview</button>
-<button id="printBtn" class="btn" disabled>🖨️ Print Both / All</button>
+<button id="printBtn" class="btn" disabled>🖨️ Batch Print All Cards</button>
 <button id="frontBtn" class="btn secondary" disabled>🪪 Print Front</button>
 <button id="backBtn" class="btn secondary" disabled>🔄 Print Back</button>
 <button id="clearBtn" class="btn secondary">Clear</button>
@@ -77,7 +77,7 @@ async function renderPage(num){
 function cardCanvas(src,cls,label){
  const d=document.createElement('div');d.className=cls;
  const c=document.createElement('canvas');c.width=src.width;c.height=src.height;c.getContext('2d').drawImage(src,0,0);d.appendChild(c);
- if(label){const l=document.createElement('span');l.className='label';l.textContent=label;d.appendChild(l)}
+ if(label){const l=document.createElement('span');l.className='label no-print';l.textContent=label;d.appendChild(l)}
  return d;
 }
 async function generate(){
@@ -102,7 +102,7 @@ async function generate(){
    if(pgs.length===1){for(let copy=0;copy<n;copy++){const s=document.createElement('div');s.className='a4-sheet';const src=items[0].canvas;for(let k=0;k<8;k++)s.appendChild(cardCanvas(src,'a4-card',''));preview.appendChild(s)}}
    else items.forEach(it=>{const s=document.createElement('div');s.className='a4-sheet';const d=cardCanvas(it.canvas,'a4-card',it.side+' • Page '+it.page);d.style.width='190mm';d.style.height='277mm';s.style.display='flex';s.style.alignItems='center';s.style.justifyContent='center';s.appendChild(d);preview.appendChild(s)})
   }
-  msg('✅ Preview तैयार • '+pgs.length+' PDF page(s) • '+n+' copy/copies • '+dpi.value+' DPI');
+  msg('✅ Batch preview तैयार • '+pgs.length+' PDF page(s) × '+n+' copy/copies • पूरा PDF content card पर fit किया गया है।');
  }catch(e){console.error(e);pdfDoc=null;preview.innerHTML='<div class="empty">⚠️ PDF load/render नहीं हो सकी। दूसरी PDF try करें या page refresh करें।</div>';msg('⚠️ '+(e.message||'PDF processing error'))}
  finally{busy=false;previewBtn.disabled=false;setPrintState()}
 }
@@ -126,7 +126,7 @@ function printSide(side){
  msg('🖨️ '+side+' print — Scale 100% / Actual size रखें।');window.print();
  setTimeout(()=>{document.body.classList.remove('print-front','print-back');document.querySelectorAll('.hidden-print-side').forEach(el=>el.classList.remove('hidden-print-side'))},500);
 }
-printBtn.addEventListener('click',()=>{if(rendered.length){msg('🖨️ Print dialog — Scale 100% / Actual size रखें।');window.print()}});
+printBtn.addEventListener('click',()=>{if(rendered.length){msg('🖨️ Batch print — सभी चुने हुए PDF pages/cards print होंगे। Scale 100% / Actual size रखें।');window.print()}});
 frontBtn.addEventListener('click',()=>printSide('Front'));backBtn.addEventListener('click',()=>printSide('Back'));
 clearBtn.addEventListener('click',()=>{file.value='';pdfDoc=null;pdfBytes=null;rendered=[];preview.innerHTML='<div class="empty">PDF चुनने के बाद यहाँ preview आएगा।</div>';previewBtn.disabled=true;setPrintState();msg('कोई PDF select नहीं की गई।')});
 </script>
