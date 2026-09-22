@@ -58,9 +58,9 @@ function setCardPreset(type){activeCard=type;cardSize.value='id';aadhaarAction.c
 aadhaarAction.addEventListener('click',()=>setCardPreset('aadhaar'));panAction.addEventListener('click',()=>setCardPreset('pan'));
 if(initialType==='pan')setCardPreset('pan');else setCardPreset('aadhaar');
 function mmPx(mm,d){return Math.round(mm/25.4*d)}
-function target(){const d=Number(dpi.value)||300;if(cardSize.value==='wide')return{w:mmPx(175.26,d),h:mmPx(55.88,d)};if(cardSize.value==='a4')return{w:mmPx(210,d),h:mmPx(297,d)};return{w:mmPx(85.60,d),h:mmPx(53.98,d)}}
+function target(){const d=Number(dpi.value)||300;if(cardSize.value==='wide')return{w:mmPx(175.26,d),h:mmPx(55.88,d)};if(cardSize.value==='a4'||cardSize.value==='a4batch')return{w:mmPx(210,d),h:mmPx(297,d)};return{w:mmPx(85.60,d),h:mmPx(53.98,d)}}
 function chosenPages(n){if(pages.value==='first')return n>=1?[1]:[];if(pages.value==='second')return n>=2?[2]:[];return Array.from({length:n},(_,i)=>i+1)}
-function setPrintState(){const ok=rendered.length>0;const sides=cardSize.value!=='a4';printBtn.disabled=!ok;frontBtn.disabled=!ok||!sides;backBtn.disabled=!ok||!sides}
+function setPrintState(){const ok=rendered.length>0;const sides=cardSize.value!=='a4'&&cardSize.value!=='a4batch';printBtn.disabled=!ok;frontBtn.disabled=!ok||!sides;backBtn.disabled=!ok||!sides}
 async function loadPdf(fileObj){
  if(!window.pdfjsLib)throw new Error('PDF engine load नहीं हुआ');
  const buf=await fileObj.arrayBuffer();pdfBytes=new Uint8Array(buf);
