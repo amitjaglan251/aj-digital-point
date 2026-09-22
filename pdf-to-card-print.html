@@ -137,9 +137,9 @@ function printSide(side){
  msg('🖨️ '+side+' print — Scale 100% / Actual size रखें।');window.print();
  setTimeout(()=>{document.body.classList.remove('print-front','print-back');document.querySelectorAll('.hidden-print-side').forEach(el=>el.classList.remove('hidden-print-side'))},500);
 }
-printBtn.addEventListener('click',()=>{if(rendered.length){msg('🖨️ Batch print — सभी चुने हुए PDF pages/cards print होंगे। Scale 100% / Actual size रखें।');window.print()}});
+printBtn.addEventListener('click',()=>{if(rendered.length){const pages=Math.ceil(rendered.length/(cardSize.value==='a4batch'?8:1));msg('🖨️ Batch print शुरू — '+rendered.length+' card side(s), लगभग '+pages+' print page(s)। Printer में Scale 100% / Actual size रखें और Fit to page बंद रखें।');window.print()}});
 frontBtn.addEventListener('click',()=>printSide('Front'));backBtn.addEventListener('click',()=>printSide('Back'));
-clearBtn.addEventListener('click',()=>{file.value='';pdfDoc=null;pdfBytes=null;rendered=[];preview.innerHTML='<div class="empty">PDF चुनने के बाद यहाँ preview आएगा।</div>';previewBtn.disabled=true;setPrintState();msg('कोई PDF select नहीं की गई।')});
+clearBtn.addEventListener('click',()=>{file.value='';pdfDoc=null;pdfBytes=null;rendered=[];preview.innerHTML='<div class="empty">PDF चुनने के बाद यहाँ preview आएगा।</div>';const prog=document.getElementById('batchProgress'),fill=document.getElementById('batchProgressFill'),pt=document.getElementById('batchProgressText'),summary=document.getElementById('batchSummary');if(prog)prog.hidden=true;if(fill)fill.style.width='0%';if(pt)pt.textContent='0%';if(summary)summary.textContent='📦 Batch Summary: PDF चुनें।';previewBtn.disabled=true;setPrintState();msg('कोई PDF select नहीं की गई।')});
 </script>
 </body>
 </html>
