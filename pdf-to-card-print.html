@@ -97,7 +97,7 @@ async function generate(){
   if(!pdfDoc)await loadPdf(f);
   const pgs=chosenPages(pdfDoc.numPages);if(!pgs.length)throw new Error('Second page उपलब्ध नहीं है');
   const n=Math.min(100,Math.max(1,parseInt(copies.value,10)||1));
-  let items=[];const total=pgs.length*n;let done=0;const memWarn=total>40||((Number(dpi.value)||300)>=600&&total>12);if(memWarn)msg('ℹ️ Large batch detected • memory-safe rendering चालू है। '+total+' card/page renders process होंगे।');const sequence=(pairFrontBack&&pdfDoc.numPages===2&&pgs.length===2)?[1,2]:pgs;for(let copy=0;copy<n;copy++)for(const p of sequence){const c=await renderPage(p);const textContent=await extractPageText(p);const side=(pairFrontBack&&pdfDoc.numPages===2)?(p===1?'Front':'Back'):'Page '+p;items.push({canvas:c,page:p,side,text:textContent});done++;if(fill){const pct=Math.round(done/total*100);fill.style.width=pct+'%';pt.textContent=pct+'%'}}
+  let items=[];const total=pgs.length*n;let done=0;const memWarn=total>40||((Number(dpi.value)||300)>=600&&total>12);if(memWarn)msg('ℹ️ Large batch detected • memory-safe rendering चालू है। '+total+' card/page renders process होंगे।');const sequence=(pairFrontBack&&pdfDoc.numPages===2&&pgs.length===2)?[1,2]:pgs;for(let copy=0;copy<n;copy++)for(const p of sequence){const c=await renderPage(p);let textContent='';try{textContent=await extractPageText(p)}catch(textErr){console.warn('PDF text layer read skipped:',textErr)}const side=(pairFrontBack&&pdfDoc.numPages===2)?(p===1?'Front':'Back'):'Page '+p;items.push({canvas:c,page:p,side,text:textContent});done++;if(fill){const pct=Math.round(done/total*100);fill.style.width=pct+'%';pt.textContent=pct+'%'}}
   rendered=items;const summary=document.getElementById('batchSummary');if(summary)summary.textContent='📦 Batch Summary: '+pgs.length+' PDF page(s) × '+n+' copy/copies = '+items.length+' card side(s) • '+((pairFrontBack&&pdfDoc.numPages===2)?'Front → Back pairing active':'page order preserved')+' • Print sequence verified.';preview.innerHTML='';
   if(cardSize.value==='id'){
    const box=document.createElement('div');box.className='preview-id';
@@ -122,6 +122,7 @@ file.addEventListener('change',async()=>{
  try{await loadPdf(f);previewBtn.disabled=false;msg('✅ PDF select हो गई है • '+pdfDoc.numPages+' page(s) • Generate Preview दबाएँ।')}
  catch(e){pdfDoc=null;msg('⚠️ PDF select हुई, लेकिन load नहीं हो सकी। '+(e.message||''));preview.innerHTML='<div class="empty">PDF load नहीं हुई। Page refresh करके फिर try करें।</div>'}
  setPrintState()
+ if(pdfDoc&&pdfDoc.numPages){previewBtn.disabled=false;generate()}
 });
 previewBtn.addEventListener('click',generate);
 [cardSize,fitMode,dpi,pages].forEach(el=>el.addEventListener('change',()=>{if(file.files&&file.files[0]){pdfDoc=null;generate()}}));
