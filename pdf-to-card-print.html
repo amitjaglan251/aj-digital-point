@@ -74,8 +74,14 @@ async function waitForPdfJs(){
 async function loadPdf(fileObj){
  if(!(await waitForPdfJs()))throw new Error('PDF preview engine load नहीं हुआ। Internet connection check करें.');
  const buf=await fileObj.arrayBuffer();pdfBytes=new Uint8Array(buf);
- pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js';
- pdfDoc=await pdfjsLib.getDocument({data:pdfBytes,disableAutoFetch:false}).promise;
+ // Worker disabled deliberately: this avoids browser/CDN worker failures that can stop preview.
+ pdfDoc=await pdfjsLib.getDocument({
+   data:pdfBytes,
+   disableWorker:true,
+   disableAutoFetch:false,
+   isEvalSupported:false,
+   useWorkerFetch:false
+ }).promise;
 }
 async function extractPageText(num){
  const page=await pdfDoc.getPage(num); const tc=await page.getTextContent();
