@@ -99,6 +99,8 @@ async function generate(){
    preview.appendChild(box);
   }else if(cardSize.value==='wide'){
    items.forEach(it=>{const s=document.createElement('div');s.className='wide-sheet '+(it.side==='Back'?'side-back':'side-front');s.appendChild(cardCanvas(it.canvas,'wide-card',it.side+' • Page '+it.page));preview.appendChild(s)})
+  }else if(cardSize.value==='a4batch'){
+   for(let start=0;start<items.length;start+=8){const s=document.createElement('div');s.className='a4-sheet batch-sheet';for(let k=0;k<8;k++){const it=items[start+k];if(!it)break;s.appendChild(cardCanvas(it.canvas,'a4-card '+(it.side==='Back'?'side-back':'side-front'),''))}preview.appendChild(s)}
   }else{
    if(pgs.length===1){for(let copy=0;copy<n;copy++){const s=document.createElement('div');s.className='a4-sheet';const src=items[0].canvas;for(let k=0;k<8;k++)s.appendChild(cardCanvas(src,'a4-card',''));preview.appendChild(s)}}
    else items.forEach(it=>{const s=document.createElement('div');s.className='a4-sheet';const d=cardCanvas(it.canvas,'a4-card',it.side+' • Page '+it.page);d.style.width='190mm';d.style.height='277mm';s.style.display='flex';s.style.alignItems='center';s.style.justifyContent='center';s.appendChild(d);preview.appendChild(s)})
