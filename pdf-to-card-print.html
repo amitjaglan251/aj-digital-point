@@ -95,7 +95,7 @@ async function generate(){
   if(!pdfDoc)await loadPdf(f);
   const pgs=chosenPages(pdfDoc.numPages);if(!pgs.length)throw new Error('Second page उपलब्ध नहीं है');
   const n=Math.min(100,Math.max(1,parseInt(copies.value,10)||1));
-  const items=[];const total=pgs.length*n;let done=0;for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p);const textContent=await extractPageText(p);const side=(pairFrontBack&&pdfDoc.numPages===2)?(p===1?'Front':'Back'):'Page '+p;items.push({canvas:c,page:p,side,text:textContent});done++;if(fill){const pct=Math.round(done/total*100);fill.style.width=pct+'%';pt.textContent=pct+'%'}}
+  const items=[];const total=pgs.length*n;let done=0;const memWarn=total>40||((Number(dpi.value)||300)>=600&&total>12);if(memWarn)msg('ℹ️ Large batch detected • memory-safe rendering चालू है। '+total+' card/page renders process होंगे।');for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p);const textContent=await extractPageText(p);const side=(pairFrontBack&&pdfDoc.numPages===2)?(p===1?'Front':'Back'):'Page '+p;items.push({canvas:c,page:p,side,text:textContent});done++;if(fill){const pct=Math.round(done/total*100);fill.style.width=pct+'%';pt.textContent=pct+'%'}}
   rendered=items;preview.innerHTML='';
   if(cardSize.value==='id'){
    const box=document.createElement('div');box.className='preview-id';
