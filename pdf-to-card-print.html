@@ -67,6 +67,10 @@ async function loadPdf(fileObj){
  pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
  pdfDoc=await pdfjsLib.getDocument({data:pdfBytes}).promise;
 }
+async function extractPageText(num){
+ const page=await pdfDoc.getPage(num); const tc=await page.getTextContent();
+ return tc.items.map(x=>x.str||'').join(' ').replace(/\\s+/g,' ').trim();
+}
 async function renderPage(num){
  const page=await pdfDoc.getPage(num),t=target(),raw=page.getViewport({scale:1});
  const scale=fitMode.value==='fill'?Math.max(t.w/raw.width,t.h/raw.height):Math.min(t.w/raw.width,t.h/raw.height);
@@ -91,7 +95,7 @@ async function generate(){
   if(!pdfDoc)await loadPdf(f);
   const pgs=chosenPages(pdfDoc.numPages);if(!pgs.length)throw new Error('Second page उपलब्ध नहीं है');
   const n=Math.min(20,Math.max(1,parseInt(copies.value,10)||1));
-  const items=[];for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p);const side=(pairFrontBack&&pdfDoc.numPages===2)?(p===1?'Front':'Back'):'Page '+p;items.push({canvas:c,page:p,side})}
+  const items=[];for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p);const textContent=await extractPageText(p);const side=(pairFrontBack&&pdfDoc.numPages===2)?(p===1?'Front':'Back'):'Page '+p;items.push({canvas:c,page:p,side,text:textContent})}
   rendered=items;preview.innerHTML='';
   if(cardSize.value==='id'){
    const box=document.createElement('div');box.className='preview-id';
@@ -105,7 +109,7 @@ async function generate(){
    if(pgs.length===1){for(let copy=0;copy<n;copy++){const s=document.createElement('div');s.className='a4-sheet';const src=items[0].canvas;for(let k=0;k<8;k++)s.appendChild(cardCanvas(src,'a4-card',''));preview.appendChild(s)}}
    else items.forEach(it=>{const s=document.createElement('div');s.className='a4-sheet';const d=cardCanvas(it.canvas,'a4-card',it.side+' • Page '+it.page);d.style.width='190mm';d.style.height='277mm';s.style.display='flex';s.style.alignItems='center';s.style.justifyContent='center';s.appendChild(d);preview.appendChild(s)})
   }
-  msg('✅ Batch preview तैयार • '+pgs.length+' PDF page(s) × '+n+' copy/copies • पूरा PDF content card पर fit किया गया है।');
+  msg('✅ Batch preview तैयार • '+pgs.length+' PDF page(s) × '+n+' copy/copies • पूरा visual content + PDF text layer पढ़ी गई।');
  }catch(e){console.error(e);pdfDoc=null;preview.innerHTML='<div class="empty">⚠️ PDF load/render नहीं हो सकी। दूसरी PDF try करें या page refresh करें।</div>';msg('⚠️ '+(e.message||'PDF processing error'))}
  finally{busy=false;previewBtn.disabled=false;setPrintState()}
 }
