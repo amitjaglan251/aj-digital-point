@@ -131,7 +131,9 @@ previewBtn.addEventListener('click',generate);
 [cardSize,fitMode,dpi,pages].forEach(el=>el.addEventListener('change',()=>{if(file.files&&file.files[0]){pdfDoc=null;generate()}}));
 copies.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});
 document.getElementById('onePerPage')?.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});
-document.getElementById('pairFrontBack')?.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});\ndocument.getElementById('duplexMirror')?.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});\ndocument.getElementById('duplexBatch')?.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});
+document.getElementById('pairFrontBack')?.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});
+document.getElementById('duplexMirror')?.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});
+document.getElementById('duplexBatch')?.addEventListener('change',()=>{if(file.files&&file.files[0]&&pdfDoc)generate()});
 function printSide(side){
  if(!rendered.length)return;
  document.body.classList.remove('print-front','print-back');
