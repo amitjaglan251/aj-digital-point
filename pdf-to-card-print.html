@@ -94,7 +94,7 @@ async function generate(){
  try{
   if(!pdfDoc)await loadPdf(f);
   const pgs=chosenPages(pdfDoc.numPages);if(!pgs.length)throw new Error('Second page उपलब्ध नहीं है');
-  const n=Math.min(20,Math.max(1,parseInt(copies.value,10)||1));
+  const n=Math.min(100,Math.max(1,parseInt(copies.value,10)||1));
   const items=[];for(let copy=0;copy<n;copy++)for(const p of pgs){const c=await renderPage(p);const textContent=await extractPageText(p);const side=(pairFrontBack&&pdfDoc.numPages===2)?(p===1?'Front':'Back'):'Page '+p;items.push({canvas:c,page:p,side,text:textContent})}
   rendered=items;preview.innerHTML='';
   if(cardSize.value==='id'){
