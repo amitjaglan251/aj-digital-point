@@ -52,9 +52,11 @@ body{background:#fff}.top,.hero,.controls-panel,.footer-note,#previewTitle,.no-p
 const $=id=>document.getElementById(id);
 const file=$('file'),cardSize=$('cardSize'),aadhaarAction=$('aadhaarAction'),panAction=$('panAction'),fitMode=$('fitMode'),dpi=$('dpi'),copies=$('copies'),pages=$('pages'),preview=$('preview'),status=$('status'),previewBtn=$('previewBtn'),printBtn=$('printBtn'),frontBtn=$('frontBtn'),backBtn=$('backBtn'),clearBtn=$('clearBtn');
 let pdfDoc=null,pdfBytes=null,rendered=[],busy=false,activeCard='aadhaar';
+const initialType=new URLSearchParams(location.search).get('type');
 function msg(t){status.textContent=t}
 function setCardPreset(type){activeCard=type;cardSize.value='id';aadhaarAction.classList.toggle('active',type==='aadhaar');panAction.classList.toggle('active',type==='pan');msg(type==='aadhaar'?'🪪 Aadhaar Card Print preset selected — PDF चुनें।':'💳 PAN Card Print preset selected — PDF चुनें।');if(file.files&&file.files[0]){pdfDoc=null;generate()}}
 aadhaarAction.addEventListener('click',()=>setCardPreset('aadhaar'));panAction.addEventListener('click',()=>setCardPreset('pan'));
+if(initialType==='pan')setCardPreset('pan');else setCardPreset('aadhaar');
 function mmPx(mm,d){return Math.round(mm/25.4*d)}
 function target(){const d=Number(dpi.value)||300;if(cardSize.value==='wide')return{w:mmPx(175.26,d),h:mmPx(55.88,d)};if(cardSize.value==='a4')return{w:mmPx(210,d),h:mmPx(297,d)};return{w:mmPx(85.60,d),h:mmPx(53.98,d)}}
 function chosenPages(n){if(pages.value==='first')return n>=1?[1]:[];if(pages.value==='second')return n>=2?[2]:[];return Array.from({length:n},(_,i)=>i+1)}
