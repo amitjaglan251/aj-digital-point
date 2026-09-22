@@ -81,7 +81,8 @@ async function renderPage(num){
 }
 function cardCanvas(src,cls,label){
  const d=document.createElement('div');d.className=cls;
- const c=document.createElement('canvas');c.width=src.width;c.height=src.height;c.getContext('2d').drawImage(src,0,0);d.appendChild(c);
+ const c=document.createElement('canvas');c.width=src.width;c.height=src.height;
+ const ctx=c.getContext('2d',{alpha:false});ctx.drawImage(src,0,0);d.appendChild(c);
  if(label){const l=document.createElement('span');l.className='label no-print';l.textContent=label;d.appendChild(l)}
  return d;
 }
