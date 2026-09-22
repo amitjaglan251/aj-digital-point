@@ -12,7 +12,8 @@
 body{background:#fff}.top,.hero,.controls-panel,.footer-note,#previewTitle,.no-print{display:none!important}.wrap{padding:0;max-width:none}.preview{border:0;padding:0;display:block;overflow:visible}.id-card{break-after:page;page-break-after:always}.wide-sheet{break-after:page;page-break-after:always}.a4-sheet{break-after:page;page-break-after:always}.batch-sheet{display:grid!important}.label{display:none}@page{size:auto;margin:0}canvas{print-color-adjust:exact;-webkit-print-color-adjust:exact}
 }
 </style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>window.__pdfjsLoaded=false;</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" onload="window.__pdfjsLoaded=true"></script>
 </head>
 <body>
 <header class="top"><a href="services-dashboard.html">← All Services</a></header>
@@ -61,8 +62,9 @@ function mmPx(mm,d){return Math.round(mm/25.4*d)}
 function target(){const d=Number(dpi.value)||300;if(cardSize.value==='wide')return{w:mmPx(175.26,d),h:mmPx(55.88,d)};if(cardSize.value==='a4'||cardSize.value==='a4batch')return{w:mmPx(210,d),h:mmPx(297,d)};return{w:mmPx(85.60,d),h:mmPx(53.98,d)}}
 function chosenPages(n){if(pages.value==='first')return n>=1?[1]:[];if(pages.value==='second')return n>=2?[2]:[];return Array.from({length:n},(_,i)=>i+1)}
 function setPrintState(){const ok=rendered.length>0;const sides=cardSize.value!=='a4'&&cardSize.value!=='a4batch';printBtn.disabled=!ok;frontBtn.disabled=!ok||!sides;backBtn.disabled=!ok||!sides}
+async function waitForPdfJs(){for(let i=0;i<100;i++){if(window.pdfjsLib)return true;await new Promise(r=>setTimeout(r,100))}return false}
 async function loadPdf(fileObj){
- if(!window.pdfjsLib)throw new Error('PDF engine load नहीं हुआ');
+ if(!(await waitForPdfJs()))throw new Error('PDF engine load नहीं हुआ — internet/CDN access check करें');
  const buf=await fileObj.arrayBuffer();pdfBytes=new Uint8Array(buf);
  pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
  pdfDoc=await pdfjsLib.getDocument({data:pdfBytes}).promise;
@@ -115,6 +117,7 @@ async function generate(){
  }catch(e){console.error(e);pdfDoc=null;preview.innerHTML='<div class="empty">⚠️ PDF load/render नहीं हो सकी। दूसरी PDF try करें या page refresh करें।</div>';msg('⚠️ '+(e.message||'PDF processing error'))}
  finally{busy=false;previewBtn.disabled=false;setPrintState()}
 }
+window.addEventListener('load',()=>{if(file.files&&file.files[0])return;preview.innerHTML='<div class="empty">PDF चुनने के बाद preview अपने-आप बनेगा।</div>'});
 file.addEventListener('change',async()=>{
  pdfDoc=null;rendered=[];preview.innerHTML='<div class="empty">PDF तैयार हो रही है…</div>';previewBtn.disabled=true;setPrintState();
  const f=file.files&&file.files[0];if(!f){msg('कोई PDF select नहीं की गई।');return}
