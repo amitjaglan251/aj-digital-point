@@ -92,7 +92,7 @@ async function renderPage(num){
  const scale=fitMode.value==='fill'?Math.max(t.w/raw.width,t.h/raw.height):Math.min(t.w/raw.width,t.h/raw.height);
  const vp=page.getViewport({scale});
  const c=document.createElement('canvas');c.width=Math.max(1,Math.round(t.w));c.height=Math.max(1,Math.round(t.h));
- const ctx=c.getContext('2d',{alpha:false});ctx.fillStyle='#fff';ctx.fillRect(0,0,t.w,t.h);
+ const ctx=c.getContext('2d',{alpha:false});if(!ctx)throw new Error('Canvas rendering उपलब्ध नहीं है');ctx.fillStyle='#fff';ctx.fillRect(0,0,t.w,t.h);
  await page.render({canvasContext:ctx,viewport:vp,transform:[1,0,0,1,(t.w-vp.width)/2,(t.h-vp.height)/2]}).promise;return c;
 }
 function cardCanvas(src,cls,label){
@@ -104,6 +104,7 @@ function cardCanvas(src,cls,label){
 }
 async function generate(){
  if(busy)return;
+ if(!window.pdfjsLib){msg('⏳ PDF engine अभी load हो रहा है…');try{if(!(await waitForPdfJs()))throw new Error('PDF engine उपलब्ध नहीं है')}catch(e){preview.innerHTML='<div class="empty">⚠️ PDF engine load नहीं हुआ। Internet/CDN access check करें।</div>';msg('⚠️ PDF engine unavailable');return}}
  const f=file.files&&file.files[0];if(!f){msg('⚠️ पहले PDF file चुनें।');return}
  const onePerPage=document.getElementById('onePerPage')?.checked!==false; const pairFrontBack=document.getElementById('pairFrontBack')?.checked!==false;
  if(f.type&&f.type!=='application/pdf'&&!/\.pdf$/i.test(f.name)){msg('⚠️ केवल PDF file चुनें।');return}
@@ -128,7 +129,7 @@ async function generate(){
    else items.forEach(it=>{const s=document.createElement('div');s.className='a4-sheet';const d=cardCanvas(it.canvas,'a4-card',it.side+' • Page '+it.page);d.style.width='190mm';d.style.height='277mm';s.style.display='flex';s.style.alignItems='center';s.style.justifyContent='center';s.appendChild(d);preview.appendChild(s)})
   }
   msg('✅ Batch preview तैयार • '+pgs.length+' PDF page(s) × '+n+' copy/copies • पूरा visual content + PDF text layer पढ़ी गई।');
- }catch(e){console.error(e);pdfDoc=null;preview.innerHTML='<div class="empty">⚠️ PDF load/render नहीं हो सकी। दूसरी PDF try करें या page refresh करें।</div>';msg('⚠️ '+(e.message||'PDF processing error'))}
+ }catch(e){console.error('PDF CARD PREVIEW ERROR',e);pdfDoc=null;preview.innerHTML='<div class="empty"><b>⚠️ Preview error</b><br>'+String(e.message||e).replace(/[<>]/g,'')+'<br><small>PDF दुबारा चुनें या Generate Preview दबाएँ।</small></div>';msg('⚠️ Preview error: '+(e.message||'PDF processing error'))}
  finally{busy=false;previewBtn.disabled=false;setPrintState()}
 }
 window.addEventListener('load',()=>{if(file.files&&file.files[0])return;preview.innerHTML='<div class="empty">PDF चुनने के बाद preview अपने-आप बनेगा।</div>'});
