@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Join Images Online | AJ DIGITAL POINT</title>
-<meta name="description" content="AJ DIGITAL POINT Join Images tool — कई photos को horizontal या vertical एक image में जोड़ें, border, alignment, sorting और rotation के साथ।">
+<meta name="description" content="AJ DIGITAL POINT Join Images tool — कई photos को horizontal या vertical एक image में जोड़ें, proper या free style positioning, border, sorting और rotation के साथ।">
 <link rel="canonical" href="https://amitjaglan251.github.io/aj-digital-point/join-images.html">
 <link rel="stylesheet" href="portal.css">
 <style>
@@ -14,9 +14,9 @@
 .controls{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}.control{border:1px solid var(--border);border-radius:11px;padding:11px;background:#fff}.control label{display:block;font-size:12px;font-weight:800;margin-bottom:7px}
 select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;padding:9px;border:1px solid #ccd6e3;border-radius:8px;background:#fff}.check{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700}.check input{width:auto}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.btn{border:1px solid #ccd6e3;background:#fff;border-radius:9px;padding:10px 14px;font-weight:800;cursor:pointer}.btn.primary{background:var(--blue);color:#fff;border-color:var(--blue)}.btn:disabled{opacity:.45;cursor:not-allowed}.status{font-size:12px;color:var(--muted);margin-top:9px}
-.preview{overflow:auto;border:1px solid var(--border);border-radius:12px;background:#f4f6f9;padding:12px;min-height:220px}.preview canvas{display:block;margin:auto;max-width:100%;height:auto;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-.files-list{display:grid;gap:7px;margin-top:12px}.file-row{display:flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:9px;background:#fff;padding:8px;transition:.15s}.file-row.dragging{opacity:.45}.file-row.drag-over{border-color:var(--blue);background:#eef5ff}.file-row img{width:54px;height:42px;object-fit:cover;border-radius:6px}.file-row span{flex:1;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.file-row button{border:0;background:#fff;cursor:pointer;font-size:16px;padding:3px 5px}.drag-handle{cursor:grab;font-size:17px;color:var(--muted);user-select:none}.rotate-btn{font-size:15px!important}
-.note{font-size:11px;color:var(--muted);margin-top:10px}.hint{font-size:11px;color:var(--muted);margin:10px 2px 0}
+.preview{overflow:auto;border:1px solid var(--border);border-radius:12px;background:#f4f6f9;padding:12px;min-height:220px}.preview canvas{display:block;margin:auto;max-width:100%;height:auto;box-shadow:0 2px 12px rgba(0,0,0,.08);touch-action:none}
+.files-list{display:grid;gap:7px;margin-top:12px}.file-row{display:flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:9px;background:#fff;padding:8px;transition:.15s}.file-row.dragging{opacity:.45}.file-row.drag-over{border-color:var(--blue);background:#eef5ff}.file-row img{width:54px;height:42px;object-fit:cover;border-radius:6px}.file-row span{flex:1;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.file-row button{border:0;background:#fff;cursor:pointer;font-size:16px;padding:3px 5px}.drag-handle{cursor:grab;font-size:17px;color:var(--muted);user-select:none}.rotate-btn{font-size:15px!important}.scale-btn{font-size:13px!important}
+.note{font-size:11px;color:var(--muted);margin-top:10px}.hint{font-size:11px;color:var(--muted);margin:10px 2px 0}.free-note{display:none;margin-top:9px;padding:9px;border-radius:9px;background:#eef5ff;color:#315784;font-size:12px}.free-note.show{display:block}
 @media(max-width:800px){.controls{grid-template-columns:repeat(2,1fr)}.join-hero h1{font-size:22px}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.join-card{padding:11px}.drop{min-height:145px}.file-row{gap:5px}.file-row img{width:48px;height:38px}}
 </style>
@@ -26,11 +26,11 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 <nav class="mainnav"><a href="index.html">🏠 Home</a><a href="latest-jobs.html">💼 Jobs</a><a href="admit-card.html">🎫 Admit Card</a><a href="results.html">📊 Result</a><a class="active" href="online-tools.html">🛠️ Tools</a></nav></header>
 <main class="wrap join-wrap">
 <div class="back"><a href="online-tools.html">← Online Tools</a> <span>›</span> <b>Join Images</b></div>
-<section class="panel join-hero"><h1>🖼️ Join Images Online</h1><p>कई photos को एक ही image में Horizontal या Vertical जोड़ें — alignment, border, spacing, order और rotation के साथ।</p></section>
+<section class="panel join-hero"><h1>🖼️ Join Images Online</h1><p>कई photos को एक ही image में Horizontal या Vertical जोड़ें — alignment, border, spacing, order, rotation और Free Style positioning के साथ।</p></section>
 <section class="panel join-card">
 <div id="drop" class="drop"><div><div style="font-size:38px">📤</div><strong>Select Or Drag & Drop Images Here</strong><small>JPG, PNG, WEBP — जितनी images चाहें चुनें</small><button class="btn primary" type="button" id="selectBtn" style="margin-top:12px">Select Images</button></div></div>
 <input id="files" type="file" accept="image/*" multiple>
-<div id="filesList" class="files-list"></div><div class="hint">↕ किसी image को mouse/touch से drag करके उसका क्रम बदलें • ⟳ से image 90° rotate करें</div>
+<div id="filesList" class="files-list"></div><div class="hint">↕ image को drag करके क्रम बदलें • ⟳ 90° rotate • ＋ / − size बदलें</div>
 <div class="controls">
 <div class="control"><label>Direction</label><select id="direction"><option value="horizontal">↔ Horizontal</option><option value="vertical">↕ Vertical</option></select></div>
 <div class="control"><label>Arrange</label><select id="arrange"><option value="proper">Proper Align</option><option value="free">Free Style</option></select></div>
@@ -43,24 +43,25 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 <div class="control"><label class="check"><input id="fit" type="checkbox" checked> Fit images to common size</label></div>
 <div class="control"><label class="check"><input id="border" type="checkbox"> Add Border To Images</label></div>
 </div>
+<div id="freeNote" class="free-note">🎯 Free Style चालू है: नीचे Preview में किसी photo को mouse/touch से drag करके उसकी position बदलें। हर image के ＋ / − से size बदलें।</div>
 <div class="actions"><button class="btn primary" id="joinBtn" disabled>🔗 Join Images</button><button class="btn" id="clearBtn">Clear All</button><button class="btn" id="downloadBtn" disabled>⬇️ Download</button></div>
 <div class="status" id="status">पहले images select करें।</div>
 </section>
 <section class="panel join-card"><h2 style="margin-top:0">Preview</h2><div class="preview"><canvas id="canvas" width="1" height="1"></canvas></div><div class="note">🔒 Processing browser में local होती है। आपकी selected photos किसी server पर upload नहीं की जातीं।</div></section>
 </main>
 <script>
-const $=id=>document.getElementById(id);let imgs=[],resultBlob=null,dragIndex=-1;
-const drop=$('drop'),files=$('files'),list=$('filesList');
+const $=id=>document.getElementById(id);let imgs=[],resultBlob=null,dragIndex=-1,freeReady=false;
+const drop=$('drop'),files=$('files'),list=$('filesList'),canvas=$('canvas');
 $('selectBtn').onclick=e=>{e.stopPropagation();files.click()};drop.onclick=()=>files.click();
 ['dragenter','dragover'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.add('drag')}));
 ['dragleave','drop'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.remove('drag')}));
 drop.addEventListener('drop',e=>loadFiles(e.dataTransfer.files));files.addEventListener('change',e=>{loadFiles(e.target.files);e.target.value=''});
-function loadFiles(fs){const arr=[...fs].filter(f=>f.type.startsWith('image/'));if(!arr.length)return;arr.forEach(f=>{const u=URL.createObjectURL(f),im=new Image();im.onload=()=>{imgs.push({file:f,img:im,url:u,rotate:0});renderList();updateState()};im.src=u})}
+function loadFiles(fs){const arr=[...fs].filter(f=>f.type.startsWith('image/'));if(!arr.length)return;arr.forEach(f=>{const u=URL.createObjectURL(f),im=new Image();im.onload=()=>{imgs.push({file:f,img:im,url:u,rotate:0,scale:1,x:null,y:null});renderList();updateState();if($('arrange').value==='free')initFreePositions()};im.src=u})}
 function renderList(){
  list.innerHTML='';
  imgs.forEach((x,i)=>{
-  const r=document.createElement('div');r.className='file-row';r.draggable=true;r.dataset.index=i;
-  r.innerHTML='<span class="drag-handle" title="Drag to reorder">⋮⋮</span><img src="'+x.url+'" alt=""><span>'+escapeHtml(x.file.name)+'</span><button title="Move left">←</button><button title="Move right">→</button><button class="rotate-btn" title="Rotate 90°">⟳</button><button title="Remove">×</button>';
+  const r=document.createElement('div');r.className='file-row';r.draggable=true;
+  r.innerHTML='<span class="drag-handle" title="Drag to reorder">⋮⋮</span><img src="'+x.url+'" alt=""><span>'+escapeHtml(x.file.name)+'</span><button title="Move left">←</button><button title="Move right">→</button><button class="rotate-btn" title="Rotate 90°">⟳</button><button class="scale-btn" title="Make smaller">−</button><button class="scale-btn" title="Make larger">＋</button><button title="Remove">×</button>';
   r.addEventListener('dragstart',e=>{dragIndex=i;r.classList.add('dragging');e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',String(i))});
   r.addEventListener('dragover',e=>{e.preventDefault();r.classList.add('drag-over');e.dataTransfer.dropEffect='move'});
   r.addEventListener('dragleave',()=>r.classList.remove('drag-over'));
@@ -70,31 +71,44 @@ function renderList(){
   bs[0].onclick=e=>{e.stopPropagation();if(i>0){[imgs[i-1],imgs[i]]=[imgs[i],imgs[i-1]];renderList();joinImages()}};
   bs[1].onclick=e=>{e.stopPropagation();if(i<imgs.length-1){[imgs[i+1],imgs[i]]=[imgs[i],imgs[i+1]];renderList();joinImages()}};
   bs[2].onclick=e=>{e.stopPropagation();x.rotate=(x.rotate+90)%360;renderList();joinImages()};
-  bs[3].onclick=e=>{e.stopPropagation();URL.revokeObjectURL(x.url);imgs.splice(i,1);renderList();updateState();if(imgs.length)joinImages()};
+  bs[3].onclick=e=>{e.stopPropagation();x.scale=Math.max(.2,x.scale-.1);joinImages()};
+  bs[4].onclick=e=>{e.stopPropagation();x.scale=Math.min(3,x.scale+.1);joinImages()};
+  bs[5].onclick=e=>{e.stopPropagation();URL.revokeObjectURL(x.url);imgs.splice(i,1);renderList();updateState();if(imgs.length)joinImages()};
   list.appendChild(r)
  })
 }
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
-function updateState(){$('joinBtn').disabled=imgs.length<1;$('status').textContent=imgs.length?imgs.length+' image'+(imgs.length>1?'s':'')+' selected. Join Images दबाएं।':'पहले images select करें।'}
+function updateState(){$('joinBtn').disabled=imgs.length<1;$('status').textContent=imgs.length?imgs.length+' image'+(imgs.length>1?'s':'')+' selected. Join Images दबाएं।':'पहले images select करें।';$('freeNote').classList.toggle('show',$('arrange').value==='free')}
 $('joinBtn').onclick=joinImages;
-$('clearBtn').onclick=()=>{imgs.forEach(x=>URL.revokeObjectURL(x.url));imgs=[];resultBlob=null;renderList();updateState();$('downloadBtn').disabled=true;$('canvas').width=1;$('canvas').height=1};
+$('clearBtn').onclick=()=>{imgs.forEach(x=>URL.revokeObjectURL(x.url));imgs=[];resultBlob=null;freeReady=false;renderList();updateState();$('downloadBtn').disabled=true;canvas.width=1;canvas.height=1};
 $('downloadBtn').onclick=()=>{if(!resultBlob)return;const a=document.createElement('a');a.href=URL.createObjectURL(resultBlob);a.download='AJ-Joined-Images.'+($('format').value==='image/png'?'png':'jpg');a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+function rotatedSize(x){const w=x.img.naturalWidth*x.scale,h=x.img.naturalHeight*x.scale;return x.rotate%180?{w:h,h:w}:{w,h}}
+function initFreePositions(){const gap=Math.max(20,+$('spacing').value||20),dir=$('direction').value;let pos=gap;imgs.forEach(x=>{const s=rotatedSize(x);if(x.x===null){if(dir==='horizontal'){x.x=pos+s.w/2;x.y=Math.max(s.h/2,300);pos+=s.w+gap}else{x.x=Math.max(s.w/2,400);x.y=pos+s.h/2;pos+=s.h+gap}}});freeReady=true}
+function hitTest(mx,my){for(let i=imgs.length-1;i>=0;i--){const x=imgs[i],s=rotatedSize(x),left=(x.x||0)-s.w/2,top=(x.y||0)-s.h/2;if(mx>=left&&mx<=left+s.w&&my>=top&&my<=top+s.h)return i}return -1}
+function drawFree(){
+ if(!imgs.length)return;
+ initFreePositions();
+ const W=1000,H=700,ctx=canvas.getContext('2d');canvas.width=W;canvas.height=H;ctx.fillStyle=$('borderColor').value;ctx.fillRect(0,0,W,H);
+ imgs.forEach(x=>{const s=rotatedSize(x),bw=$('border').checked?Math.max(1,Math.min(8,+$('spacing').value||1)):0;ctx.save();ctx.translate(x.x,x.y);ctx.rotate(x.rotate*Math.PI/180);ctx.drawImage(x.img,-s.w/2+bw,-s.h/2+bw,Math.max(1,s.w-2*bw),Math.max(1,s.h-2*bw));if($('border').checked){ctx.strokeStyle=$('borderColor').value;ctx.lineWidth=bw;ctx.strokeRect(-s.w/2+bw/2,-s.h/2+bw/2,s.w-bw,s.h-bw)}ctx.restore()});
+}
+let activeFree=-1,draggingFree=false,lastPX=0,lastPY=0;
+canvas.addEventListener('pointerdown',e=>{if($('arrange').value!=='free'||!imgs.length)return;const r=canvas.getBoundingClientRect(),sx=canvas.width/r.width,sy=canvas.height/r.height,mx=(e.clientX-r.left)*sx,my=(e.clientY-r.top)*sy;activeFree=hitTest(mx,my);if(activeFree>=0){draggingFree=true;lastPX=mx;lastPY=my;canvas.setPointerCapture(e.pointerId)}});
+canvas.addEventListener('pointermove',e=>{if(!draggingFree||activeFree<0)return;const r=canvas.getBoundingClientRect(),sx=canvas.width/r.width,sy=canvas.height/r.height,mx=(e.clientX-r.left)*sx,my=(e.clientY-r.top)*sy,x=imgs[activeFree];x.x+=mx-lastPX;x.y+=my-lastPY;lastPX=mx;lastPY=my;drawFree()});
+canvas.addEventListener('pointerup',e=>{if(draggingFree){draggingFree=false;activeFree=-1;try{canvas.releasePointerCapture(e.pointerId)}catch{}}});
+canvas.addEventListener('pointercancel',()=>{draggingFree=false;activeFree=-1});
 async function joinImages(){
  if(!imgs.length)return;
  const dir=$('direction').value,fit=$('fit').checked,free=$('arrange').value==='free',gap=Math.max(0,+$('spacing').value||0),addBorder=$('border').checked;
- const items=imgs.map(x=>{const w=x.img.naturalWidth,h=x.img.naturalHeight,rot=x.rotate%360,sw=rot%180?h:w,sh=rot%180?w:h;return {...x,w,h,sw,sh}});
+ if(free){drawFree();resultBlob=await new Promise(r=>canvas.toBlob(r,$('format').value,Math.min(1,Math.max(.5,+$('quality').value||.95))));$('downloadBtn').disabled=!resultBlob;$('status').textContent='✅ Free Style preview ready — photos को drag करके position बदलें।';return}
+ const items=imgs.map(x=>{const w=x.img.naturalWidth*x.scale,h=x.img.naturalHeight*x.scale,rot=x.rotate%360,sw=rot%180?h:w,sh=rot%180?w:h;return {...x,w,h,sw,sh}});
  let sizes=items.map(x=>({w:x.sw,h:x.sh}));
  if(fit){if(dir==='horizontal'){const h=Math.min(...sizes.map(s=>s.h));sizes=sizes.map(s=>({w:Math.round(s.w*h/s.h),h}));}else{const w=Math.min(...sizes.map(s=>s.w));sizes=sizes.map(s=>({w,h:Math.round(s.h*w/s.w)}));}}
  let W,H;if(dir==='horizontal'){W=sizes.reduce((a,s)=>a+s.w,0)+gap*(sizes.length-1);H=Math.max(...sizes.map(s=>s.h))}else{W=Math.max(...sizes.map(s=>s.w));H=sizes.reduce((a,s)=>a+s.h,0)+gap*(sizes.length-1)}
- const c=$('canvas'),ctx=c.getContext('2d');c.width=Math.max(1,W);c.height=Math.max(1,H);ctx.fillStyle=$('borderColor').value;ctx.fillRect(0,0,c.width,c.height);
- let pos=0;
- items.forEach((it,i)=>{const s=sizes[i];let x=0,y=0;if(dir==='horizontal'){x=pos;y=free?0:Math.round((H-s.h)/2);pos+=s.w+gap}else{y=pos;x=free?0:Math.round((W-s.w)/2);pos+=s.h+gap}
-  const bw=addBorder?Math.min(gap,Math.floor(Math.min(s.w,s.h)/20)):0;const dw=Math.max(1,s.w-2*bw),dh=Math.max(1,s.h-2*bw);
-  ctx.save();ctx.translate(x+s.w/2,y+s.h/2);ctx.rotate(it.rotate*Math.PI/180);ctx.drawImage(it.img,-dw/2,-dh/2,dw,dh);ctx.restore();
-  if(addBorder){ctx.strokeStyle=$('borderColor').value;ctx.lineWidth=Math.max(1,bw||1);ctx.strokeRect(x+bw/2,y+bw/2,Math.max(1,s.w-bw),Math.max(1,s.h-bw))}
- });
- const mime=$('format').value,quality=Math.min(1,Math.max(.5,+$('quality').value||.95));resultBlob=await new Promise(r=>c.toBlob(r,mime,quality));$('downloadBtn').disabled=!resultBlob;$('status').textContent='✅ '+imgs.length+' images joined successfully.';
+ const c=canvas,ctx=c.getContext('2d');c.width=Math.max(1,W);c.height=Math.max(1,H);ctx.fillStyle=$('borderColor').value;ctx.fillRect(0,0,c.width,c.height);let pos=0;
+ items.forEach((it,i)=>{const s=sizes[i];let x=0,y=0;if(dir==='horizontal'){x=pos;y=Math.round((H-s.h)/2);pos+=s.w+gap}else{y=pos;x=Math.round((W-s.w)/2);pos+=s.h+gap}const bw=addBorder?Math.min(gap,Math.floor(Math.min(s.w,s.h)/20)):0,dw=Math.max(1,s.w-2*bw),dh=Math.max(1,s.h-2*bw);ctx.save();ctx.translate(x+s.w/2,y+s.h/2);ctx.rotate(it.rotate*Math.PI/180);ctx.drawImage(it.img,-dw/2,-dh/2,dw,dh);ctx.restore();if(addBorder){ctx.strokeStyle=$('borderColor').value;ctx.lineWidth=Math.max(1,bw||1);ctx.strokeRect(x+bw/2,y+bw/2,Math.max(1,s.w-bw),Math.max(1,s.h-bw))}});
+ resultBlob=await new Promise(r=>c.toBlob(r,$('format').value,Math.min(1,Math.max(.5,+$('quality').value||.95))));$('downloadBtn').disabled=!resultBlob;$('status').textContent='✅ '+imgs.length+' images joined successfully.';
 }
-['direction','arrange','spacing','borderColor','fit','border','format','quality'].forEach(id=>$(id).addEventListener('change',()=>{if(imgs.length)joinImages()}));
+$('arrange').addEventListener('change',()=>{updateState();if(imgs.length){if($('arrange').value==='free'){initFreePositions();drawFree()}else joinImages()}});
+['direction','spacing','borderColor','fit','border','format','quality'].forEach(id=>$(id).addEventListener('change',()=>{if(imgs.length)joinImages()}));
 </script>
 </body></html>
