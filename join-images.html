@@ -20,6 +20,7 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 .crop-tools{display:none;gap:8px;flex-wrap:wrap;margin-top:9px}.crop-tools.show{display:flex}.crop-tools .btn{padding:8px 10px;font-size:12px}
 @media(max-width:800px){.controls{grid-template-columns:repeat(2,1fr)}.join-hero h1{font-size:22px}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.join-card{padding:11px}.drop{min-height:145px}.file-row{gap:4px}.file-row img{width:46px;height:36px}.file-row button{padding:3px 3px}}
+.crop-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:9999;align-items:center;justify-content:center;padding:14px}.crop-modal.show{display:flex}.crop-box{width:min(900px,96vw);max-height:94vh;background:#fff;border-radius:14px;padding:14px;box-sizing:border-box;display:flex;flex-direction:column;gap:10px}.crop-stage{position:relative;background:#222;border-radius:10px;overflow:hidden;display:grid;place-items:center;min-height:240px;touch-action:none}.crop-stage canvas{max-width:100%;max-height:62vh;display:block;touch-action:none}.crop-overlay{position:absolute;border:2px solid #fff;box-shadow:0 0 0 9999px rgba(0,0,0,.45);cursor:move;touch-action:none}.crop-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}.crop-info{font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -53,15 +54,16 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 </section>
 <section class="panel join-card"><h2 style="margin-top:0">Preview</h2><div class="preview"><canvas id="canvas" width="1" height="1"></canvas></div><div class="note">🔒 Processing browser में local होती है। Selected photos browser में ही process होती हैं।</div></section>
 </main>
+<div id="cropModal" class="crop-modal" aria-hidden="true"><div class="crop-box"><b>✂️ Crop Image</b><div class="crop-info">Crop box को drag करें। Apply के बाद selected area ही preview में रहेगा।</div><div id="cropStage" class="crop-stage"><canvas id="cropCanvas"></canvas><div id="cropOverlay" class="crop-overlay"></div></div><div class="crop-actions"><button class="btn" id="cropCancel">Cancel</button><button class="btn primary" id="cropApply">Apply Crop</button></div></div></div>
 <script>
 const $=id=>document.getElementById(id);
-let imgs=[],resultBlob=null,dragIndex=-1,activeFree=-1,draggingFree=false,resizingFree=false,lastPX=0,lastPY=0;
+let imgs=[],resultBlob=null,dragIndex=-1,activeFree=-1,draggingFree=false,resizingFree=false,lastPX=0,lastPY=0,cropIndex=-1,cropRect={x:.05,y:.05,w:.9,h:.9},cropStart=null;
 const drop=$('drop'),files=$('files'),list=$('filesList'),canvas=$('canvas');
 $('selectBtn').onclick=e=>{e.stopPropagation();files.click()};drop.onclick=()=>files.click();
 ['dragenter','dragover'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.add('drag')}));
 ['dragleave','drop'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.remove('drag')}));
 drop.addEventListener('drop',e=>loadFiles(e.dataTransfer.files));files.addEventListener('change',e=>{loadFiles(e.target.files);e.target.value=''});
-function makeItem(f){const u=URL.createObjectURL(f),im=new Image();const x={file:f,img:im,url:u,rotate:0,scale:1,x:null,y:null,crop:0};im.onload=()=>{imgs.push(x);renderList();updateState();if($('arrange').value==='free')initFreePositions();};im.src=u}
+function makeItem(f){const u=URL.createObjectURL(f),im=new Image();const x={file:f,img:im,url:u,rotate:0,scale:1,x:null,y:null,crop:0,cropX:0,cropY:0,cropW:1,cropH:1};im.onload=()=>{imgs.push(x);renderList();updateState();if($('arrange').value==='free')initFreePositions();};im.src=u}
 function loadFiles(fs){[...fs].filter(f=>f.type.startsWith('image/')).forEach(makeItem)}
 function renderList(){
  list.innerHTML='';
@@ -78,10 +80,10 @@ function renderList(){
   bs[2].onclick=e=>{e.stopPropagation();x.rotate=(x.rotate+90)%360;renderList();joinImages()};
   bs[3].onclick=e=>{e.stopPropagation();x.scale=Math.max(.2,x.scale-.1);joinImages()};
   bs[4].onclick=e=>{e.stopPropagation();x.scale=Math.min(3,x.scale+.1);joinImages()};
-  bs[5].onclick=e=>{e.stopPropagation();const n={...x,file:x.file,img:x.img,url:x.url,rotate:x.rotate,scale:x.scale,x:x.x+20,y:x.y+20,crop:x.crop};imgs.splice(i+1,0,n);renderList();joinImages()};
+  bs[5].onclick=e=>{e.stopPropagation();const n={...x,file:x.file,img:x.img,url:x.url,rotate:x.rotate,scale:x.scale,x:(x.x??400)+20,y:(x.y??300)+20,crop:x.crop,cropX:x.cropX,cropY:x.cropY,cropW:x.cropW,cropH:x.cropH};imgs.splice(i+1,0,n);renderList();joinImages()};
   bs[6].onclick=e=>{e.stopPropagation();if(i<imgs.length-1){const n=imgs.splice(i,1)[0];imgs.splice(i+1,0,n);renderList();joinImages()}};
   bs[7].onclick=e=>{e.stopPropagation();if(i>0){const n=imgs.splice(i,1)[0];imgs.splice(i-1,0,n);renderList();joinImages()}};
-  bs[8].onclick=e=>{e.stopPropagation();activeFree=i;updateCropTools();if($('arrange').value==='free')drawFree(true)};
+  bs[8].onclick=e=>{e.stopPropagation();activeFree=i;updateCropTools();openCropEditor(i)};
   bs[9].onclick=e=>{e.stopPropagation();URL.revokeObjectURL(x.url);imgs.splice(i,1);if(activeFree===i)activeFree=-1;renderList();updateState();if(imgs.length)joinImages()};
   list.appendChild(r)
  })
@@ -90,16 +92,16 @@ function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','
 function updateState(){$('joinBtn').disabled=!imgs.length;$('resetBtn').disabled=!imgs.length;$('status').textContent=imgs.length?imgs.length+' image'+(imgs.length>1?'s':'')+' selected. Join Images दबाएं।':'पहले images select करें।';$('freeNote').classList.toggle('show',$('arrange').value==='free');updateCropTools()}
 function updateCropTools(){$('cropTools').classList.toggle('show',$('arrange').value==='free'&&activeFree>=0)}
 $('joinBtn').onclick=joinImages;
-$('resetBtn').onclick=()=>{imgs.forEach(x=>{x.rotate=0;x.scale=1;x.x=null;x.y=null;x.crop=0});activeFree=-1;initFreePositions();joinImages();updateCropTools();$('status').textContent='↺ Layout reset हो गया।'};
+$('resetBtn').onclick=()=>{imgs.forEach(x=>{x.rotate=0;x.scale=1;x.x=null;x.y=null;x.crop=0;x.cropX=0;x.cropY=0;x.cropW=1;x.cropH=1});activeFree=-1;initFreePositions();joinImages();updateCropTools();$('status').textContent='↺ Layout reset हो गया।'};
 $('clearBtn').onclick=()=>{imgs.forEach(x=>URL.revokeObjectURL(x.url));imgs=[];resultBlob=null;activeFree=-1;renderList();updateState();$('downloadBtn').disabled=true;canvas.width=1;canvas.height=1};
 $('downloadBtn').onclick=()=>{if(!resultBlob)return;const a=document.createElement('a');a.href=URL.createObjectURL(resultBlob);a.download='AJ-Joined-Images.'+($('format').value==='image/png'?'png':'jpg');a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
-function rotatedSize(x){const w=x.img.naturalWidth*x.scale*(1-x.crop),h=x.img.naturalHeight*x.scale*(1-x.crop);return x.rotate%180?{w:h,h:w}:{w,h}}
+function rotatedSize(x){const w=x.img.naturalWidth*x.scale*x.cropW,h=x.img.naturalHeight*x.scale*x.cropH;return x.rotate%180?{w:h,h:w}:{w,h}}
 function initFreePositions(){const gap=Math.max(20,+$('spacing').value||20),dir=$('direction').value;let pos=gap;imgs.forEach(x=>{const s=rotatedSize(x);if(x.x===null){if(dir==='horizontal'){x.x=pos+s.w/2;x.y=Math.max(s.h/2,300);pos+=s.w+gap}else{x.x=Math.max(s.w/2,400);x.y=pos+s.h/2;pos+=s.h+gap}}})}
 function hitTest(mx,my){for(let i=imgs.length-1;i>=0;i--){const x=imgs[i],s=rotatedSize(x),left=(x.x||0)-s.w/2,top=(x.y||0)-s.h/2;if(mx>=left&&mx<=left+s.w&&my>=top&&my<=top+s.h)return i}return -1}
 function handleHit(mx,my,i){if(i<0)return false;const x=imgs[i],s=rotatedSize(x),hx=x.x+s.w/2,hy=x.y+s.h/2,d=Math.max(18,Math.min(32,s.w*.06));return Math.abs(mx-hx)<=d&&Math.abs(my-hy)<=d}
 function drawFree(showUi=true){
  if(!imgs.length)return;initFreePositions();const W=1000,H=700,ctx=canvas.getContext('2d');canvas.width=W;canvas.height=H;ctx.fillStyle=$('borderColor').value;ctx.fillRect(0,0,W,H);
- imgs.forEach((x,i)=>{const s=rotatedSize(x),bw=$('border').checked?Math.max(1,Math.min(8,+$('spacing').value||1)):0;ctx.save();ctx.translate(x.x,x.y);ctx.rotate(x.rotate*Math.PI/180);const crop=x.crop||0,sw=x.img.naturalWidth*x.scale,sh=x.img.naturalHeight*x.scale,cw=sw*(1-crop),ch=sh*(1-crop),sx=(sw-cw)/2,sy=(sh-ch)/2;ctx.drawImage(x.img,sx,sy,cw,ch,-s.w/2+bw,-s.h/2+bw,Math.max(1,s.w-2*bw),Math.max(1,s.h-2*bw));if($('border').checked){ctx.strokeStyle=$('borderColor').value;ctx.lineWidth=bw;ctx.strokeRect(-s.w/2+bw/2,-s.h/2+bw/2,s.w-bw,s.h-bw)}ctx.restore()});
+ imgs.forEach((x,i)=>{const s=rotatedSize(x),bw=$('border').checked?Math.max(1,Math.min(8,+$('spacing').value||1)):0;ctx.save();ctx.translate(x.x,x.y);ctx.rotate(x.rotate*Math.PI/180);const sw=x.img.naturalWidth*x.scale,sh=x.img.naturalHeight*x.scale,cw=sw*x.cropW,ch=sh*x.cropH,sx=sw*x.cropX,sy=sh*x.cropY;ctx.drawImage(x.img,sx,sy,cw,ch,-s.w/2+bw,-s.h/2+bw,Math.max(1,s.w-2*bw),Math.max(1,s.h-2*bw));if($('border').checked){ctx.strokeStyle=$('borderColor').value;ctx.lineWidth=bw;ctx.strokeRect(-s.w/2+bw/2,-s.h/2+bw/2,s.w-bw,s.h-bw)}ctx.restore()});
  if(showUi&&activeFree>=0&&imgs[activeFree]){const x=imgs[activeFree],s=rotatedSize(x),ctx2=canvas.getContext('2d');ctx2.save();ctx2.translate(x.x,x.y);ctx2.rotate(x.rotate*Math.PI/180);ctx2.strokeStyle='#123f80';ctx2.lineWidth=3;ctx2.setLineDash([8,5]);ctx2.strokeRect(-s.w/2,-s.h/2,s.w,s.h);ctx2.setLineDash([]);ctx2.fillStyle='#fff';ctx2.strokeStyle='#123f80';ctx2.lineWidth=2;ctx2.beginPath();ctx2.arc(s.w/2,s.h/2,8,0,Math.PI*2);ctx2.fill();ctx2.stroke();ctx2.restore()}
 }
 function redrawFree(){drawFree(true)}
@@ -107,17 +109,23 @@ canvas.addEventListener('pointerdown',e=>{if($('arrange').value!=='free'||!imgs.
 canvas.addEventListener('pointermove',e=>{if(activeFree<0||(!draggingFree&&!resizingFree))return;const r=canvas.getBoundingClientRect(),sx=canvas.width/r.width,sy=canvas.height/r.height,mx=(e.clientX-r.left)*sx,my=(e.clientY-r.top)*sy,x=imgs[activeFree];if(resizingFree){const current=Math.abs(mx-x.x);const base=Math.max(20,Math.abs(lastPX-x.x));x.scale=Math.max(.2,Math.min(3,x.scale*(current/base||1)))}else{x.x+=mx-lastPX;x.y+=my-lastPY}lastPX=mx;lastPY=my;redrawFree()});
 canvas.addEventListener('pointerup',e=>{if(activeFree>=0){draggingFree=false;resizingFree=false;try{canvas.releasePointerCapture(e.pointerId)}catch{};generateFreeBlob()}});
 canvas.addEventListener('pointercancel',()=>{draggingFree=false;resizingFree=false;activeFree=-1;updateCropTools();redrawFree()});
-function cropSelected(amount){if(activeFree<0||!imgs[activeFree])return;imgs[activeFree].crop=Math.min(.8,Math.max(0,amount));renderList();drawFree(true);generateFreeBlob()}
-$('crop25').onclick=()=>cropSelected(.25);$('crop50').onclick=()=>cropSelected(.5);$('cropReset').onclick=()=>cropSelected(0);
+function openCropEditor(i){if(!imgs[i])return;cropIndex=i;const im=imgs[i].img,cc=$('cropCanvas'),stage=$('cropStage');const maxW=Math.max(240,Math.min(820,stage.clientWidth-4)),maxH=Math.max(220,Math.min(560,window.innerHeight*.62)),scale=Math.min(maxW/im.naturalWidth,maxH/im.naturalHeight,1);cc.width=Math.max(1,Math.round(im.naturalWidth*scale));cc.height=Math.max(1,Math.round(im.naturalHeight*scale));cc.getContext('2d').drawImage(im,0,0,cc.width,cc.height);cropRect={x:im&&imgs[i].cropW<1?imgs[i].cropX:.05,y:im&&imgs[i].cropH<1?imgs[i].cropY:.05,w:imgs[i].cropW||.9,h:imgs[i].cropH||.9};updateCropOverlay();$('cropModal').classList.add('show');$('cropModal').setAttribute('aria-hidden','false')}
+function cropPoint(e){const r=$('cropCanvas').getBoundingClientRect();return{x:Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),y:Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))}}
+function updateCropOverlay(){const cc=$('cropCanvas'),ov=$('cropOverlay');ov.style.left=(cc.offsetLeft+cropRect.x*cc.clientWidth)+'px';ov.style.top=(cc.offsetTop+cropRect.y*cc.clientHeight)+'px';ov.style.width=(cropRect.w*cc.clientWidth)+'px';ov.style.height=(cropRect.h*cc.clientHeight)+'px'}
+$('cropOverlay').addEventListener('pointerdown',e=>{e.preventDefault();cropStart={p:cropPoint(e),r:{...cropRect}};$('cropOverlay').setPointerCapture(e.pointerId)});
+$('cropOverlay').addEventListener('pointermove',e=>{if(!cropStart)return;const p=cropPoint(e),dx=p.x-cropStart.p.x,dy=p.y-cropStart.p.y;cropRect.x=Math.max(0,Math.min(1-cropRect.w,cropStart.r.x+dx));cropRect.y=Math.max(0,Math.min(1-cropRect.h,cropStart.r.y+dy));updateCropOverlay()});
+$('cropOverlay').addEventListener('pointerup',()=>cropStart=null);$('cropOverlay').addEventListener('pointercancel',()=>cropStart=null);
+$('cropApply').onclick=()=>{if(cropIndex<0)return;const x=imgs[cropIndex];x.cropX=cropRect.x;x.cropY=cropRect.y;x.cropW=cropRect.w;x.cropH=cropRect.h;x.crop=1-Math.min(cropRect.w,cropRect.h);renderList();closeCropEditor();joinImages();$('status').textContent='✂️ Custom crop applied.'};
+$('cropCancel').onclick=closeCropEditor;$('cropModal').addEventListener('click',e=>{if(e.target.id==='cropModal')closeCropEditor()});function closeCropEditor(){$('cropModal').classList.remove('show');$('cropModal').setAttribute('aria-hidden','true');cropIndex=-1;cropStart=null}
 async function generateFreeBlob(){drawFree(false);resultBlob=await new Promise(r=>canvas.toBlob(r,$('format').value,Math.min(1,Math.max(.5,+$('quality').value||.95))));$('downloadBtn').disabled=!resultBlob;drawFree(true);$('status').textContent='✅ Free Style layout updated.'}
 async function joinImages(){
  if(!imgs.length)return;const dir=$('direction').value,fit=$('fit').checked,free=$('arrange').value==='free',gap=Math.max(0,+$('spacing').value||0),addBorder=$('border').checked;
  if(free){drawFree(false);resultBlob=await new Promise(r=>canvas.toBlob(r,$('format').value,Math.min(1,Math.max(.5,+$('quality').value||.95))));$('downloadBtn').disabled=!resultBlob;drawFree(true);$('status').textContent='✅ Free Style preview ready — image select करके drag/resize/crop करें।';return}
- const items=imgs.map(x=>{const w=x.img.naturalWidth*x.scale*(1-x.crop),h=x.img.naturalHeight*x.scale*(1-x.crop),rot=x.rotate%360,sw=rot%180?h:w,sh=rot%180?w:h;return {...x,w,h,sw,sh}});let sizes=items.map(x=>({w:x.sw,h:x.sh}));
+ const items=imgs.map(x=>{const w=x.img.naturalWidth*x.scale*x.cropW,h=x.img.naturalHeight*x.scale*x.cropH,rot=x.rotate%360,sw=rot%180?h:w,sh=rot%180?w:h;return {...x,w,h,sw,sh}});let sizes=items.map(x=>({w:x.sw,h:x.sh}));
  if(fit){if(dir==='horizontal'){const h=Math.min(...sizes.map(s=>s.h));sizes=sizes.map(s=>({w:Math.round(s.w*h/s.h),h}));}else{const w=Math.min(...sizes.map(s=>s.w));sizes=sizes.map(s=>({w,h:Math.round(s.h*w/s.w)}));}}
  let W,H;if(dir==='horizontal'){W=sizes.reduce((a,s)=>a+s.w,0)+gap*(sizes.length-1);H=Math.max(...sizes.map(s=>s.h))}else{W=Math.max(...sizes.map(s=>s.w));H=sizes.reduce((a,s)=>a+s.h,0)+gap*(sizes.length-1)}
  const c=canvas,ctx=c.getContext('2d');c.width=Math.max(1,W);c.height=Math.max(1,H);ctx.fillStyle=$('borderColor').value;ctx.fillRect(0,0,c.width,c.height);let pos=0;
- items.forEach((it,i)=>{const s=sizes[i];let x=0,y=0;if(dir==='horizontal'){x=pos;y=Math.round((H-s.h)/2);pos+=s.w+gap}else{y=pos;x=Math.round((W-s.w)/2);pos+=s.h+gap}const bw=addBorder?Math.min(gap,Math.floor(Math.min(s.w,s.h)/20)):0,dw=Math.max(1,s.w-2*bw),dh=Math.max(1,s.h-2*bw),crop=it.crop||0,sw=it.img.naturalWidth*it.scale,sh=it.img.naturalHeight*it.scale,cw=sw*(1-crop),ch=sh*(1-crop);ctx.save();ctx.translate(x+s.w/2,y+s.h/2);ctx.rotate(it.rotate*Math.PI/180);ctx.drawImage(it.img,(sw-cw)/2,(sh-ch)/2,cw,ch,-dw/2,-dh/2,dw,dh);ctx.restore();if(addBorder){ctx.strokeStyle=$('borderColor').value;ctx.lineWidth=Math.max(1,bw||1);ctx.strokeRect(x+bw/2,y+bw/2,Math.max(1,s.w-bw),Math.max(1,s.h-bw))}});
+ items.forEach((it,i)=>{const s=sizes[i];let x=0,y=0;if(dir==='horizontal'){x=pos;y=Math.round((H-s.h)/2);pos+=s.w+gap}else{y=pos;x=Math.round((W-s.w)/2);pos+=s.h+gap}const bw=addBorder?Math.min(gap,Math.floor(Math.min(s.w,s.h)/20)):0,dw=Math.max(1,s.w-2*bw),dh=Math.max(1,s.h-2*bw),sw=it.img.naturalWidth*it.scale,sh=it.img.naturalHeight*it.scale,cw=sw*it.cropW,ch=sh*it.cropH;ctx.save();ctx.translate(x+s.w/2,y+s.h/2);ctx.rotate(it.rotate*Math.PI/180);ctx.drawImage(it.img,sw*it.cropX,sh*it.cropY,cw,ch,-dw/2,-dh/2,dw,dh);ctx.restore();if(addBorder){ctx.strokeStyle=$('borderColor').value;ctx.lineWidth=Math.max(1,bw||1);ctx.strokeRect(x+bw/2,y+bw/2,Math.max(1,s.w-bw),Math.max(1,s.h-bw))}});
  resultBlob=await new Promise(r=>c.toBlob(r,$('format').value,Math.min(1,Math.max(.5,+$('quality').value||.95))));$('downloadBtn').disabled=!resultBlob;$('status').textContent='✅ '+imgs.length+' images joined successfully.';
 }
 $('arrange').addEventListener('change',()=>{activeFree=-1;updateState();if(imgs.length)joinImages()});
