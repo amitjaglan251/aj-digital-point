@@ -22,7 +22,7 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.btn{border:1px solid #ccd6e3;background:#fff;border-radius:9px;padding:10px 14px;font-weight:800;cursor:pointer}.btn.primary{background:var(--blue);color:#fff;border-color:var(--blue)}.btn:disabled{opacity:.45;cursor:not-allowed}
 .status{font-size:12px;color:var(--muted);margin-top:9px}
 .preview{overflow:auto;border:1px solid var(--border);border-radius:12px;background:#f4f6f9;padding:12px;min-height:220px}.preview canvas{display:block;margin:auto;max-width:100%;height:auto;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-.files-list{display:grid;gap:7px;margin-top:12px}.file-row{display:flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:9px;background:#fff;padding:8px}.file-row img{width:54px;height:42px;object-fit:cover;border-radius:6px}.file-row span{flex:1;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.file-row button{border:0;background:#fff;cursor:pointer;font-size:18px}
+.files-list{display:grid;gap:7px;margin-top:12px}.file-row{display:flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:9px;background:#fff;padding:8px}.file-row img{width:54px;height:42px;object-fit:cover;border-radius:6px}.file-row span{flex:1;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.file-row button{border:0;background:#fff;cursor:pointer;font-size:16px;padding:3px 5px}
 .note{font-size:11px;color:var(--muted);margin-top:10px}
 @media(max-width:800px){.controls{grid-template-columns:repeat(2,1fr)}.join-hero h1{font-size:22px}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.join-card{padding:11px}.drop{min-height:145px}}
@@ -43,12 +43,14 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 <div class="control"><label>Arrange</label><select id="arrange"><option value="proper">Proper Align</option><option value="free">Free Style</option></select></div>
 <div class="control"><label>Spacing / Border Width</label><input id="spacing" type="number" min="0" max="100" value="0"></div>
 <div class="control"><label>Border Color</label><input id="borderColor" type="color" value="#ffffff"></div>
+<div class="control"><label>Output Format</label><select id="format"><option value="image/jpeg">JPG</option><option value="image/png">PNG</option></select></div>
+<div class="control"><label>Quality (JPG)</label><input id="quality" type="number" min="0.5" max="1" step="0.05" value="0.95"></div>
 </div>
 <div class="controls" style="grid-template-columns:1fr 1fr">
 <div class="control"><label class="check"><input id="fit" type="checkbox" checked> Fit images to common size</label></div>
 <div class="control"><label class="check"><input id="border" type="checkbox"> Add Border To Images</label></div>
 </div>
-<div class="actions"><button class="btn primary" id="joinBtn" disabled>🔗 Join Images</button><button class="btn" id="clearBtn">Clear All</button><button class="btn" id="downloadBtn" disabled>⬇️ Download JPG</button></div>
+<div class="actions"><button class="btn primary" id="joinBtn" disabled>🔗 Join Images</button><button class="btn" id="clearBtn">Clear All</button><button class="btn" id="downloadBtn" disabled>⬇️ Download</button></div>
 <div class="status" id="status">पहले images select करें।</div>
 </section>
 <section class="panel join-card"><h2 style="margin-top:0">Preview</h2><div class="preview"><canvas id="canvas" width="1" height="1"></canvas></div><div class="note">🔒 Processing browser में local होती है। आपकी selected photos किसी server पर upload नहीं की जातीं।</div></section>
@@ -61,16 +63,16 @@ $('selectBtn').onclick=e=>{e.stopPropagation();files.click()}; drop.onclick=()=>
 ['dragenter','dragover'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.add('drag')}));
 ['dragleave','drop'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.remove('drag')}));
 drop.addEventListener('drop',e=>loadFiles(e.dataTransfer.files));
-files.addEventListener('change',e=>loadFiles(e.target.files));
+files.addEventListener('change',e=>{loadFiles(e.target.files);e.target.value=''});
 function loadFiles(fs){const arr=[...fs].filter(f=>f.type.startsWith('image/')); if(!arr.length)return;
  arr.forEach(f=>{const u=URL.createObjectURL(f), im=new Image(); im.onload=()=>{imgs.push({file:f,img:im,url:u});renderList();updateState();}; im.src=u;});
 }
-function renderList(){list.innerHTML='';imgs.forEach((x,i)=>{const r=document.createElement('div');r.className='file-row';r.innerHTML='<img src="'+x.url+'"><span>'+escapeHtml(x.file.name)+'</span><button title="Remove">×</button>';r.querySelector('button').onclick=()=>{URL.revokeObjectURL(x.url);imgs.splice(i,1);renderList();updateState()};list.appendChild(r)})}
+function renderList(){list.innerHTML='';imgs.forEach((x,i)=>{const r=document.createElement('div');r.className='file-row';r.innerHTML='<img src="'+x.url+'"><span>'+escapeHtml(x.file.name)+'</span><button title="Move left" data-move="up">←</button><button title="Move right" data-move="down">→</button><button title="Remove">×</button>';r.querySelector('[data-move="up"]').onclick=e=>{e.stopPropagation();if(i>0){[imgs[i-1],imgs[i]]=[imgs[i],imgs[i-1]];renderList();joinImages()}};r.querySelector('[data-move="down"]').onclick=e=>{e.stopPropagation();if(i<imgs.length-1){[imgs[i+1],imgs[i]]=[imgs[i],imgs[i+1]];renderList();joinImages()}};r.querySelector('button:last-child').onclick=e=>{e.stopPropagation();URL.revokeObjectURL(x.url);imgs.splice(i,1);renderList();updateState();if(imgs.length)joinImages()};list.appendChild(r)})}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
 function updateState(){$('joinBtn').disabled=imgs.length<1;$('status').textContent=imgs.length?imgs.length+' image'+(imgs.length>1?'s':'')+' selected. Join Images दबाएं।':'पहले images select करें।'}
 $('joinBtn').onclick=joinImages;
 $('clearBtn').onclick=()=>{imgs.forEach(x=>URL.revokeObjectURL(x.url));imgs=[];resultBlob=null;renderList();updateState();$('downloadBtn').disabled=true;$('canvas').width=1;$('canvas').height=1};
-$('downloadBtn').onclick=()=>{if(!resultBlob)return;const a=document.createElement('a');a.href=URL.createObjectURL(resultBlob);a.download='AJ-Joined-Images.jpg';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+$('downloadBtn').onclick=()=>{if(!resultBlob)return;const a=document.createElement('a');a.href=URL.createObjectURL(resultBlob);a.download='AJ-Joined-Images.'+($('format').value==='image/png'?'png':'jpg');a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
 async function joinImages(){
  if(!imgs.length)return;
  const dir=$('direction').value, fit=$('fit').checked, free=$('arrange').value==='free', gap=Math.max(0,+$('spacing').value||0), addBorder=$('border').checked;
@@ -87,8 +89,8 @@ async function joinImages(){
    const bw=addBorder?Math.min(gap,Math.floor(Math.min(s.w,s.h)/20)):0;
    ctx.drawImage(im,x+bw,y+bw,s.w-2*bw,s.h-2*bw);
  });
- resultBlob=await new Promise(r=>c.toBlob(r,'image/jpeg',.95));$('downloadBtn').disabled=!resultBlob;$('status').textContent='✅ '+imgs.length+' images joined successfully.';
+ const mime=$('format').value,quality=Math.min(1,Math.max(.5,+$('quality').value||.95));resultBlob=await new Promise(r=>c.toBlob(r,mime,quality));$('downloadBtn').disabled=!resultBlob;$('status').textContent='✅ '+imgs.length+' images joined successfully.';
 }
-['direction','arrange','spacing','borderColor','fit','border'].forEach(id=>$(id).addEventListener('change',()=>{if(imgs.length)joinImages()}));
+['direction','arrange','spacing','borderColor','fit','border','format','quality'].forEach(id=>$(id).addEventListener('change',()=>{if(imgs.length)joinImages()}));
 </script>
 </body></html>
