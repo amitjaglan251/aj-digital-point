@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Join Images Online | AJ DIGITAL POINT</title>
+<meta name="description" content="AJ DIGITAL POINT Join Images tool — कई photos को horizontal या vertical एक image में जोड़ें, border और alignment के साथ।">
+<link rel="canonical" href="https://amitjaglan251.github.io/aj-digital-point/join-images.html">
+<link rel="stylesheet" href="portal.css">
+<style>
+:root{--blue:#123f80;--border:#dce3ec;--muted:#667085}
+.join-wrap{max-width:1100px;margin:auto}
+.back{margin:10px 0;font-size:13px}.back a{color:var(--blue);font-weight:800;text-decoration:none}
+.join-hero{padding:18px;margin-bottom:14px}.join-hero h1{margin:0 0 6px;font-size:26px}.join-hero p{margin:0;color:var(--muted)}
+.join-card{padding:16px;margin-bottom:14px}
+.drop{border:2px dashed #b9c7d8;border-radius:16px;background:#f8fbff;min-height:170px;display:grid;place-items:center;text-align:center;padding:20px;cursor:pointer;transition:.15s}
+.drop.drag{border-color:var(--blue);background:#eef5ff}.drop strong{display:block;font-size:18px}.drop small{display:block;color:var(--muted);margin-top:7px}
+#files{display:none}
+.controls{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.control{border:1px solid var(--border);border-radius:11px;padding:11px;background:#fff}.control label{display:block;font-size:12px;font-weight:800;margin-bottom:7px}
+select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;padding:9px;border:1px solid #ccd6e3;border-radius:8px;background:#fff}
+.check{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700}.check input{width:auto}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.btn{border:1px solid #ccd6e3;background:#fff;border-radius:9px;padding:10px 14px;font-weight:800;cursor:pointer}.btn.primary{background:var(--blue);color:#fff;border-color:var(--blue)}.btn:disabled{opacity:.45;cursor:not-allowed}
+.status{font-size:12px;color:var(--muted);margin-top:9px}
+.preview{overflow:auto;border:1px solid var(--border);border-radius:12px;background:#f4f6f9;padding:12px;min-height:220px}.preview canvas{display:block;margin:auto;max-width:100%;height:auto;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.files-list{display:grid;gap:7px;margin-top:12px}.file-row{display:flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:9px;background:#fff;padding:8px}.file-row img{width:54px;height:42px;object-fit:cover;border-radius:6px}.file-row span{flex:1;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.file-row button{border:0;background:#fff;cursor:pointer;font-size:18px}
+.note{font-size:11px;color:var(--muted);margin-top:10px}
+@media(max-width:800px){.controls{grid-template-columns:repeat(2,1fr)}.join-hero h1{font-size:22px}}
+@media(max-width:500px){.controls{grid-template-columns:1fr}.join-card{padding:11px}.drop{min-height:145px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in"><a class="brand" href="index.html"><img src="logo.png" alt="AJ DIGITAL POINT"><span><b>AJ DIGITAL POINT</b><small>CSC & Online Digital Services</small></span></a></div>
+<nav class="mainnav"><a href="index.html">🏠 Home</a><a href="latest-jobs.html">💼 Jobs</a><a href="admit-card.html">🎫 Admit Card</a><a href="results.html">📊 Result</a><a class="active" href="online-tools.html">🛠️ Tools</a></nav></header>
+<main class="wrap join-wrap">
+<div class="back"><a href="online-tools.html">← Online Tools</a> <span>›</span> <b>Join Images</b></div>
+<section class="panel join-hero"><h1>🖼️ Join Images Online</h1><p>कई photos को एक ही image में Horizontal या Vertical जोड़ें — alignment, border और spacing के साथ।</p></section>
+<section class="panel join-card">
+<div id="drop" class="drop"><div><div style="font-size:38px">📤</div><strong>Select Or Drag & Drop Images Here</strong><small>JPG, PNG, WEBP — जितनी images चाहें चुनें</small><button class="btn primary" type="button" id="selectBtn" style="margin-top:12px">Select Images</button></div></div>
+<input id="files" type="file" accept="image/*" multiple>
+<div id="filesList" class="files-list"></div>
+<div class="controls">
+<div class="control"><label>Direction</label><select id="direction"><option value="horizontal">↔ Horizontal</option><option value="vertical">↕ Vertical</option></select></div>
+<div class="control"><label>Arrange</label><select id="arrange"><option value="proper">Proper Align</option><option value="free">Free Style</option></select></div>
+<div class="control"><label>Spacing / Border Width</label><input id="spacing" type="number" min="0" max="100" value="0"></div>
+<div class="control"><label>Border Color</label><input id="borderColor" type="color" value="#ffffff"></div>
+</div>
+<div class="controls" style="grid-template-columns:1fr 1fr">
+<div class="control"><label class="check"><input id="fit" type="checkbox" checked> Fit images to common size</label></div>
+<div class="control"><label class="check"><input id="border" type="checkbox"> Add Border To Images</label></div>
+</div>
+<div class="actions"><button class="btn primary" id="joinBtn" disabled>🔗 Join Images</button><button class="btn" id="clearBtn">Clear All</button><button class="btn" id="downloadBtn" disabled>⬇️ Download JPG</button></div>
+<div class="status" id="status">पहले images select करें।</div>
+</section>
+<section class="panel join-card"><h2 style="margin-top:0">Preview</h2><div class="preview"><canvas id="canvas" width="1" height="1"></canvas></div><div class="note">🔒 Processing browser में local होती है। आपकी selected photos किसी server पर upload नहीं की जातीं।</div></section>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+let imgs=[], resultBlob=null;
+const drop=$('drop'), files=$('files'), list=$('filesList');
+$('selectBtn').onclick=e=>{e.stopPropagation();files.click()}; drop.onclick=()=>files.click();
+['dragenter','dragover'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.add('drag')}));
+['dragleave','drop'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.remove('drag')}));
+drop.addEventListener('drop',e=>loadFiles(e.dataTransfer.files));
+files.addEventListener('change',e=>loadFiles(e.target.files));
+function loadFiles(fs){const arr=[...fs].filter(f=>f.type.startsWith('image/')); if(!arr.length)return;
+ arr.forEach(f=>{const u=URL.createObjectURL(f), im=new Image(); im.onload=()=>{imgs.push({file:f,img:im,url:u});renderList();updateState();}; im.src=u;});
+}
+function renderList(){list.innerHTML='';imgs.forEach((x,i)=>{const r=document.createElement('div');r.className='file-row';r.innerHTML='<img src="'+x.url+'"><span>'+escapeHtml(x.file.name)+'</span><button title="Remove">×</button>';r.querySelector('button').onclick=()=>{URL.revokeObjectURL(x.url);imgs.splice(i,1);renderList();updateState()};list.appendChild(r)})}
+function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function updateState(){$('joinBtn').disabled=imgs.length<1;$('status').textContent=imgs.length?imgs.length+' image'+(imgs.length>1?'s':'')+' selected. Join Images दबाएं।':'पहले images select करें।'}
+$('joinBtn').onclick=joinImages;
+$('clearBtn').onclick=()=>{imgs.forEach(x=>URL.revokeObjectURL(x.url));imgs=[];resultBlob=null;renderList();updateState();$('downloadBtn').disabled=true;$('canvas').width=1;$('canvas').height=1};
+$('downloadBtn').onclick=()=>{if(!resultBlob)return;const a=document.createElement('a');a.href=URL.createObjectURL(resultBlob);a.download='AJ-Joined-Images.jpg';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+async function joinImages(){
+ if(!imgs.length)return;
+ const dir=$('direction').value, fit=$('fit').checked, free=$('arrange').value==='free', gap=Math.max(0,+$('spacing').value||0), addBorder=$('border').checked;
+ const loaded=imgs.map(x=>x.img);
+ let sizes=loaded.map(im=>({w:im.naturalWidth,h:im.naturalHeight}));
+ if(fit){if(dir==='horizontal'){const h=Math.min(...sizes.map(s=>s.h));sizes=sizes.map(s=>({w:Math.round(s.w*h/s.h),h}));}else{const w=Math.min(...sizes.map(s=>s.w));sizes=sizes.map(s=>({w,h:Math.round(s.h*w/s.w)}));}}
+ let W,H;
+ if(dir==='horizontal'){W=sizes.reduce((a,s)=>a+s.w,0)+gap*(sizes.length-1);H=Math.max(...sizes.map(s=>s.h));}
+ else{W=Math.max(...sizes.map(s=>s.w));H=sizes.reduce((a,s)=>a+s.h,0)+gap*(sizes.length-1);}
+ const c=$('canvas'),ctx=c.getContext('2d');c.width=W;c.height=H;ctx.fillStyle=$('borderColor').value;ctx.fillRect(0,0,W,H);
+ let pos=0;
+ loaded.forEach((im,i)=>{const s=sizes[i];let x=0,y=0;if(dir==='horizontal'){x=pos; y=free?0:Math.round((H-s.h)/2);pos+=s.w+gap}else{y=pos;x=free?0:Math.round((W-s.w)/2);pos+=s.h+gap}
+   if(addBorder){ctx.fillStyle=$('borderColor').value;ctx.fillRect(x,y,s.w,s.h)}
+   const bw=addBorder?Math.min(gap,Math.floor(Math.min(s.w,s.h)/20)):0;
+   ctx.drawImage(im,x+bw,y+bw,s.w-2*bw,s.h-2*bw);
+ });
+ resultBlob=await new Promise(r=>c.toBlob(r,'image/jpeg',.95));$('downloadBtn').disabled=!resultBlob;$('status').textContent='✅ '+imgs.length+' images joined successfully.';
+}
+['direction','arrange','spacing','borderColor','fit','border'].forEach(id=>$(id).addEventListener('change',()=>{if(imgs.length)joinImages()}));
+</script>
+</body></html>
