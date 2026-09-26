@@ -25,9 +25,9 @@ main{max-width:900px;margin:24px auto;padding:16px}.box{background:#fff;border:1
 <div class="note"><b>ध्यान दें:</b> Output pixel dimensions = physical size × selected DPI. उदाहरण: 2×2 inch at 300 DPI = 600×600 pixels.</div>
 </div></main>
 <script>
-const $=id=>document.getElementById(id),file=$('file'),canvas=$('canvas'),ctx=canvas.getContext('2d'),status=$('status'),download=$('download');let img=null;
+const $=id=>document.getElementById(id),file=$('file'),canvas=$('canvas'),ctx=canvas.getContext('2d'),status=$('status'),download=$('download');let img=null,sourceUrl='';
 function render(){if(!img)return;const dpi=Math.max(1,Number($('dpi').value)||300),w=Math.max(1,Math.round((Number($('width').value)||2)*dpi)),h=Math.max(1,Math.round((Number($('height').value)||2)*dpi));canvas.width=w;canvas.height=h;const bg=$('bg').value;if(bg!=='original'){ctx.fillStyle=bg==='custom'?$('color').value:bg;ctx.fillRect(0,0,w,h)}else ctx.clearRect(0,0,w,h);const scale=Math.max(w/img.width,h/img.height),sw=w/scale,sh=h/scale,sx=(img.width-sw)/2,sy=(img.height-sh)/2;ctx.drawImage(img,sx,sy,sw,sh,0,0,w,h);status.textContent='✅ '+w+' × '+h+' pixels at '+dpi+' DPI ('+(w/dpi).toFixed(2)+' × '+(h/dpi).toFixed(2)+' inch)';download.disabled=false}
-file.onchange=()=>{const f=file.files[0];if(!f)return;img=new Image();img.onload=()=>{status.textContent='✅ Photo loaded.';render()};img.src=URL.createObjectURL(f)};
+file.onchange=()=>{const f=file.files[0];if(!f)return;if(sourceUrl)URL.revokeObjectURL(sourceUrl);sourceUrl=URL.createObjectURL(f);img=new Image();img.onload=()=>{status.textContent='✅ Photo loaded.';render()};img.onerror=()=>{status.textContent='❌ Photo load failed.';download.disabled=true};img.src=sourceUrl};
 $('convert').onclick=render;$('dpi').onchange=render;$('width').oninput=render;$('height').oninput=render;$('bg').onchange=()=>{$('colorWrap').style.display=$('bg').value==='custom'?'block':'none';render()};$('color').oninput=render;
-download.onclick=()=>{const a=document.createElement('a');a.href=canvas.toDataURL('image/jpeg',.95);a.download='AJ-DIGITAL-POINT-'+$('dpi').value+'DPI.jpg';a.click()};
+download.onclick=()=>{if(!img||!canvas.width||!canvas.height)return;const a=document.createElement('a');a.href=canvas.toDataURL('image/jpeg',.95);a.download='AJ-DIGITAL-POINT-'+$('dpi').value+'DPI.jpg';document.body.appendChild(a);a.click();a.remove()};window.addEventListener('beforeunload',()=>{if(sourceUrl)URL.revokeObjectURL(sourceUrl)});
 </script></body></html>
