@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Service Help & Request | AJ DIGITAL POINT</title>
+<meta name="description" content="AJ DIGITAL POINT पर service चुनें, जरूरी जानकारी देखें और WhatsApp पर सहायता request भेजें।">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://amitjaglan251.github.io/aj-digital-point/service-help.html">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="enhancements.css">
+<style>
+.help-wrap{max-width:900px;margin:18px auto;padding:0 12px}.help-hero,.help-panel,.help-note{background:#fff;border:1px solid #e2e8f0;border-radius:16px;box-shadow:0 3px 14px rgba(15,23,42,.05)}.help-hero{padding:20px;text-align:center;background:linear-gradient(135deg,#f8fbff,#eef6ff)}.help-hero h1{margin:0 0 8px;color:#123f80}.help-hero p{margin:0;color:#64748b}.help-panel{margin-top:14px;padding:16px}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.service-btn{border:1px solid #dbe4ef;background:#fff;border-radius:12px;padding:13px;text-align:left;cursor:pointer;font-weight:800;color:#172033}.service-btn small{display:block;color:#64748b;font-weight:500;margin-top:4px}.service-btn.active{border-color:#123f80;background:#eef5ff}.field{margin-top:14px}.field label{display:block;font-weight:800;margin-bottom:6px}.field input,.field textarea{width:100%;box-sizing:border-box;padding:12px;border:1px solid #cbd5e1;border-radius:10px;font:inherit}.field textarea{min-height:100px;resize:vertical}.send{display:block;width:100%;margin-top:14px;border:0;border-radius:11px;padding:13px;background:#128c4b;color:#fff;font-weight:900;font-size:15px;cursor:pointer}.help-note{margin-top:14px;padding:13px;color:#475569;font-size:12px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}.step{padding:13px;background:#f8fafc;border-radius:12px;text-align:center;font-weight:800}.step span{display:block;font-size:24px;margin-bottom:5px}@media(max-width:650px){.service-grid,.steps{grid-template-columns:1fr 1fr}}@media(max-width:430px){.service-grid,.steps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="header-top"><div class="brand"><a href="index.html" class="logo-link"><img src="logo.png" alt="AJ DIGITAL POINT Logo" class="site-logo" width="65" height="65"></a><div class="brand-info"><h1>AJ DIGITAL POINT</h1><p>SARKARI JOB & DIGITAL SERVICE PORTAL</p></div></div><button class="mobile-menu-btn" id="menuButton" onclick="toggleMenu()" aria-label="Open Menu" aria-expanded="false" aria-controls="main-nav">☰</button></div>
+<nav id="main-nav" class="main-nav"><a href="index.html">🏠 Home</a><a href="latest-jobs.html">💼 Jobs</a><a href="services-dashboard.html">📋 Services</a><a href="online-tools.html">🛠️ Tools</a><a href="service-help.html" aria-current="page">💬 Help</a></nav></header>
+<div class="welcome-bar"><strong>AJ DIGITAL POINT</strong> — Service Help</div>
+<main class="help-wrap">
+<section class="help-hero"><h1>💬 आपको किस service में मदद चाहिए?</h1><p>Service चुनें → अपना सवाल लिखें → WhatsApp पर request भेजें।</p></section>
+<section class="help-panel">
+<h2>1️⃣ Service चुनें</h2>
+<div class="service-grid" id="serviceGrid">
+<button class="service-btn active" data-service="PAN Card">🪪 PAN Card<small>New / Correction / Reprint</small></button>
+<button class="service-btn" data-service="Voter ID">🗳️ Voter ID<small>Registration / Correction</small></button>
+<button class="service-btn" data-service="Aadhaar Guidance">🪪 Aadhaar Guidance<small>Update / information</small></button>
+<button class="service-btn" data-service="Passport">🛂 Passport<small>Application guidance</small></button>
+<button class="service-btn" data-service="DL / RC">🚗 DL / RC<small>Driving licence / vehicle</small></button>
+<button class="service-btn" data-service="Certificate">📜 Certificates<small>Income / caste / residence / EWS</small></button>
+<button class="service-btn" data-service="Ayushman">🏥 Ayushman<small>PM-JAY guidance</small></button>
+<button class="service-btn" data-service="Government Job">💼 Government Job<small>Form / eligibility / dates</small></button>
+<button class="service-btn" data-service="Online Tool">🛠️ Online Tool<small>Photo / PDF / print tools</small></button>
+</div>
+<div class="field"><label for="name">2️⃣ आपका नाम (optional)</label><input id="name" maxlength="60" placeholder="नाम लिखें"></div>
+<div class="field"><label for="message">3️⃣ अपनी समस्या / काम लिखें</label><textarea id="message" maxlength="500" placeholder="जैसे: PAN correction के लिए कौन-कौन से documents चाहिए?"></textarea></div>
+<button class="send" id="send">💬 WhatsApp पर Request भेजें</button>
+</section>
+<section class="steps"><div class="step"><span>1️⃣</span>Service चुनें</div><div class="step"><span>2️⃣</span>काम लिखें</div><div class="step"><span>3️⃣</span>WhatsApp भेजें</div></section>
+<div class="help-note">🔒 यह page request को website पर save नहीं करता। WhatsApp खोलने से पहले message में कोई unnecessary sensitive document number या password न लिखें। Final fee, eligibility और application status संबंधित official portal से verify करें।</div>
+</main>
+<footer><b>AJ DIGITAL POINT</b><span>© 2026 • Independent Sarkari Job & Digital Service Portal</span></footer>
+<script>
+let selected="PAN Card";
+document.querySelectorAll(".service-btn").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".service-btn").forEach(x=>x.classList.remove("active"));b.classList.add("active");selected=b.dataset.service}));
+document.getElementById("send").addEventListener("click",()=>{const name=document.getElementById("name").value.trim();const msg=document.getElementById("message").value.trim();if(!msg){alert("कृपया अपनी समस्या/काम लिखें।");return}const text="Namaste AJ DIGITAL POINT,%0AService: "+encodeURIComponent(selected)+"%0AName: "+encodeURIComponent(name||"Not provided")+"%0ARequest: "+encodeURIComponent(msg);window.open("https://wa.me/918053620341?text="+text,"_blank","noopener,noreferrer")});
+function toggleMenu(){const n=document.getElementById("main-nav"),b=document.getElementById("menuButton");const open=n.classList.toggle("open");b.setAttribute("aria-expanded",open?"true":"false")}
+</script>
+</body></html>
