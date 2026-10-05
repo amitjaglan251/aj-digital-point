@@ -27,6 +27,7 @@ const services=[
 {c:'jobs',i:'💼',n:'National Career Service',d:'Government-supported job search और career services के लिए official NCS portal.',u:'https://ncs.gov.in/',o:1,k:'national career service ncs jobs employment career',b:'Official'},
 {c:'citizen',i:'📜',n:'Haryana Certificates',d:'Income, caste, residence, EWS आदि के official Haryana services.',u:'service-details.html?service=cert',k:'haryana income caste certificate residence domicile ews',b:'Popular'},
 {c:'citizen',i:'🏥',n:'Ayushman Bharat',d:'Ayushman Bharat की official information और services.',u:'https://pmjay.gov.in/',o:1,k:'ayushman health pmjay card',b:'Official'},
+{c:'citizen',i:'🏥',n:'PM-JAY Beneficiary Portal',d:'Ayushman Bharat PM-JAY beneficiary portal — eligibility, beneficiary services और card-related official access.',u:'https://beneficiary.nha.gov.in/',o:1,k:'pmjay beneficiary ayushman bharat beneficiary portal nha card health',b:'Official'},
 {c:'citizen',i:'👨‍👩‍👧',n:'Haryana Family ID',d:'Parivar Pehchan Patra का official portal.',u:'https://meraparivar.haryana.gov.in/',o:1,k:'family id parivar pehchan patra ppp'},
 {c:'citizen',i:'🏠',n:'Haryana Land Records',d:'Jamabandi और land record services.',u:'https://jamabandi.nic.in/',o:1,k:'jamabandi land record property',b:'Official'},
 {c:'citizen',i:'👮',n:'Haryana Police Services',d:'Police verification और citizen services के official links.',u:'https://haryanapolice.gov.in/',o:1,k:'police verification pcc haryana police'},
