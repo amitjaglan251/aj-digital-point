@@ -70,4 +70,6 @@ function closeMenu(){menu.classList.remove('open');menuBtn.setAttribute('aria-ex
 menuBtn.onclick=()=>{const open=menu.classList.toggle('open');menuBtn.setAttribute('aria-expanded',open?'true':'false');};
 menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();});
+const initialSearch=new URLSearchParams(location.search).get('search');
+if(initialSearch){search.value=initialSearch;}
 setupSuggestions();render();renderRecent();
