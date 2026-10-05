@@ -50,8 +50,10 @@ const services=[
 {c:'jobs',i:'🎓',n:'Education Services',d:'Education-related government portals और resources.',u:'https://www.india.gov.in/',o:1,k:'education scholarship student india',b:'Official'}
 ];
 const grid=document.getElementById('serviceGrid'),search=document.getElementById('search'),cat=document.getElementById('category'),empty=document.getElementById('empty'),count=document.getElementById('resultCount'),pills=[...document.querySelectorAll('.pill')];
-document.getElementById('totalServices').textContent=services.length;
-document.getElementById('totalCategories').textContent=new Set(services.map(s=>s.c)).size;
+const totalServices=document.getElementById('totalServices');
+const totalCategories=document.getElementById('totalCategories');
+if(totalServices)totalServices.textContent=services.length;
+if(totalCategories)totalCategories.textContent=new Set(services.map(s=>s.c)).size;
 const recentKey='ajdp_recent_services';
 const recent=()=>{try{return JSON.parse(localStorage.getItem(recentKey)||'[]')}catch{return[]}};
 function saveRecent(name){const a=[name,...recent().filter(x=>x!==name)].slice(0,5);localStorage.setItem(recentKey,JSON.stringify(a));renderRecent();}
