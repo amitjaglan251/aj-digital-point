@@ -23,7 +23,10 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 @media(max-width:500px){.controls{grid-template-columns:1fr}.join-card{padding:11px}.drop{min-height:145px}.file-row{gap:4px}.file-row img{width:46px;height:36px}.file-row button{padding:3px 3px}}
 .crop-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:9999;align-items:center;justify-content:center;padding:14px}.crop-modal.show{display:flex}.crop-box{width:min(900px,96vw);max-height:94vh;background:#fff;border-radius:14px;padding:14px;box-sizing:border-box;display:flex;flex-direction:column;gap:10px}.crop-stage{position:relative;background:#222;border-radius:10px;overflow:hidden;display:grid;place-items:center;min-height:240px;touch-action:none}.crop-stage canvas{max-width:100%;max-height:62vh;display:block;touch-action:none}.crop-overlay{position:absolute;border:2px solid #fff;box-shadow:0 0 0 9999px rgba(0,0,0,.45);cursor:move;touch-action:none}.crop-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}.crop-info{font-size:12px;color:var(--muted)}
 </style>
-</head>
+<style id="join-multi-photo-ui">
+#addMoreBtn{margin-left:5px}
+@media(max-width:500px){#addMoreBtn{display:block;margin-left:0}}
+</style></head>
 <body>
 <header class="top"><div class="top-in"><a class="brand" href="index.html"><img src="logo.png" alt="AJ DIGITAL POINT"><span><b>AJ DIGITAL POINT</b><small>CSC & Online Digital Services</small></span></a></div>
 <nav class="mainnav"><a href="index.html">🏠 Home</a><a href="latest-jobs.html">💼 Jobs</a><a href="admit-card.html">🎫 Admit Card</a><a href="results.html">📊 Result</a><a class="active" href="online-tools.html">🛠️ Tools</a></nav></header>
@@ -31,9 +34,9 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 <div class="back"><a href="online-tools.html">← Online Tools</a> <span>›</span> <b>Join Images</b></div>
 <section class="panel join-hero"><h1>🖼️ Join Images Online</h1><p>कई photos को एक image में जोड़ें — alignment, spacing, order, rotation, crop, layers और Free Style positioning के साथ।</p></section>
 <section class="panel join-card">
-<div id="drop" class="drop"><div><div style="font-size:38px">📤</div><strong>Select Or Drag & Drop Images Here</strong><small>JPG, PNG, WEBP — जितनी images चाहें चुनें</small><button class="btn primary" type="button" id="selectBtn" style="margin-top:12px">Select Images</button></div></div>
+<div id="drop" class="drop"><div><div style="font-size:38px">📤</div><strong>Select Or Drag & Drop Images Here</strong><small>JPG, PNG, WEBP — जितनी images चाहें चुनें</small><button class="btn primary" type="button" id="selectBtn" style="margin-top:12px">Select Images</button><button class="btn" type="button" id="addMoreBtn" style="margin-top:12px">＋ Add More Photos</button></div></div>
 <input id="files" type="file" accept="image/*" multiple>
-<div id="filesList" class="files-list"></div><div class="hint">↕ क्रम बदलें • ⟳ rotate • ＋/− size • ⧉ duplicate • ↑/↓ layer • ✂ crop</div>
+<div id="filesList" class="files-list"></div><div id="multiAddNote" class="free-note show" style="display:block">📸 आप 2, 5, 10 या उससे ज्यादा photos भी एक साथ जोड़ सकते हैं। <b>Add More Photos</b> से बाद में और photos भी जोड़ें।</div><div class="hint">↕ क्रम बदलें • ⟳ rotate • ＋/− size • ⧉ duplicate • ↑/↓ layer • ✂ crop</div>
 <div class="controls">
 <div class="control"><label>Direction</label><select id="direction"><option value="horizontal">↔ Horizontal</option><option value="vertical">↕ Vertical</option></select></div>
 <div class="control"><label>Arrange</label><select id="arrange"><option value="proper">Proper Align</option><option value="free">Free Style</option></select></div>
@@ -60,7 +63,7 @@ select,input[type=number],input[type=color]{width:100%;box-sizing:border-box;pad
 const $=id=>document.getElementById(id);
 let imgs=[],resultBlob=null,dragIndex=-1,activeFree=-1,draggingFree=false,resizingFree=false,lastPX=0,lastPY=0,cropIndex=-1,cropRect={x:.05,y:.05,w:.9,h:.9},cropStart=null;
 const drop=$('drop'),files=$('files'),list=$('filesList'),canvas=$('canvas');
-$('selectBtn').onclick=e=>{e.stopPropagation();files.click()};drop.onclick=()=>files.click();
+$('selectBtn').onclick=e=>{e.stopPropagation();files.click()};drop.onclick=()=>files.click();$('addMoreBtn').onclick=e=>{e.stopPropagation();files.click()};
 ['dragenter','dragover'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.add('drag')}));
 ['dragleave','drop'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.remove('drag')}));
 drop.addEventListener('drop',e=>loadFiles(e.dataTransfer.files));files.addEventListener('change',e=>{loadFiles(e.target.files);e.target.value=''});
