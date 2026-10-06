@@ -9,23 +9,55 @@
 <div id="all"></div><div id="app"></div><p class="source-note">🕒 Data refresh target: 05-10-2026. Latest entries are based on official recruitment/career sources checked for this update. Private-company openings can close without a fixed public last date.</p>
 <section class="notice"><b>Important:</b> AJ DIGITAL POINT independent information portal है, government website नहीं। Fee, age, qualification, vacancy, last date और selection की final जानकारी संबंधित official notification/portal से verify करें।</section></main>
 <nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="govt-schemes.html">🏛️<span>Schemes</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer>
-<script src="central-jobs.js"></script><script>
+<script src="central-jobs.js"></script>
+<script>
 (function(){
-const data=Array.isArray(window.AJ_JOB_DATA)?window.AJ_JOB_DATA:[],q=document.getElementById('q'),app=document.getElementById('app');
-const expired=x=>{const s=String(x.lastDate||''),m=s.match(/(\\d{2})[\\/-](\\d{2})[\\/-](\\d{4})/);if(!m)return false;return new Date(+m[3],+m[2]-1,+m[1])<new Date(new Date().setHours(0,0,0,0))&&!/upcoming|awaited|notification/i.test(s);};
-const esc=v=>String(v??'').replace(/[&<>"']/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
-function card(x){const ex=expired(x);return '<article class="job-card '+(ex?'expired':'')+'"><h3>'+esc(x.title)+'</h3><div class="last">Last Date: '+esc(x.lastDate||'Check official portal')+'</div><div class="meta"><b>Vacancy:</b> '+esc(x.vacancy||'As per notification')+'<br><b>Mode:</b> '+esc(x.mode||'Online')+(x.qualification?'<br><b>Qualification:</b> '+esc(x.qualification):'')+'</div><span class="badge">'+(ex?'🔴 Expired':'🟢 Active')+'</span><div class="actions"><a href="job-details.html?job='+encodeURIComponent(x.id)+'">Details</a><a class="secondary" href="'+esc(x.apply||x.official||'#')+'" target="_blank" rel="noopener noreferrer">Apply / Official</a></div></article>';}
-function matchesFilter(x,f){if(f==='active')return !expired(x);if(f==='expired')return expired(x);if(f==='all')return true;const h=(x.title+' '+x.category+' '+x.mode+' '+(x.qualification||'')+' '+(x.vacancy||'')).toLowerCase();if(f==='Central Job')return /central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik/i.test(h);if(f==='State Job')return /haryana|punjab|rajasthan|uttar pradesh|bihar|andhra|state|police|psssb|hssc/i.test(h);if(f==='Private Job')return /private|jio|tcs|infosys|cognizant|hcl|company/i.test(h);if(f==='Railway')return /railway|rrb|ncrtc/i.test(h);if(f==='Defence')return /defence|drdo|army|navy|air force|crpf|assam rifles|aoc/i.test(h);if(f==='Banking')return /bank|ibps|sbi|rbi|nabard|banking/i.test(h);if(f==='Teaching')return /teacher|teaching|school|university|college|education|professor|faculty/i.test(h);return x.category===f;}
-function render(f){const raw=q.value.trim().toLowerCase();let list=data.filter(x=>{const hay=(x.title+' '+x.category+' '+x.mode+' '+(x.qualification||'')+' '+(x.vacancy||'')+' '+(x.age||'')).toLowerCase();return (!raw||hay.includes(raw))&&matchesFilter(x,f);});
-const order=['Central Job','State Job','Private Job','Railway Jobs','Defence Jobs','Banking Jobs','Teaching Jobs','Teaching / University','Health / Teaching','Haryana Health Jobs','Apprenticeship','10th Pass','12th Pass','Government Jobs','Central Government Jobs','UPSC Jobs','SSC Jobs','Punjab Jobs','Punjab Police','Punjab Court Jobs','Rajasthan Jobs','Police Jobs','Defence / Research','Insurance Jobs','UPSC / EPFO'];
-const cats=[...order,...new Set(list.map(x=>x.category))].filter((v,i,a)=>a.indexOf(v)===i);
-app.innerHTML=cats.map(cat=>{const rows=list.filter(x=>x.category===cat);if(!rows.length)return '';return '<section><div class="job-section-title">'+esc(cat)+' <span style="float:right">'+rows.length+'</span></div><div class="job-grid">'+rows.map(card).join('')+'</div></section>';}).join('')||'<div class="empty"><b>No matching vacancy found.</b><br>Search/filter बदलकर फिर देखें.</div>';}
-document.getElementById('centralCount').textContent=data.filter(x=>matchesFilter(x,'Central Job')&&!expired(x)).length;
-document.getElementById('stateCount').textContent=data.filter(x=>matchesFilter(x,'State Job')&&!expired(x)).length;
-document.getElementById('privateCount').textContent=data.filter(x=>matchesFilter(x,'Private Job')&&!expired(x)).length;
-document.getElementById('activeCount').textContent=data.filter(x=>!expired(x)).length;
-let current='active';q.addEventListener('input',()=>render(current));document.getElementById('clearSearch').onclick=()=>{q.value='';render(current);q.focus();};
-document.querySelectorAll('#filters button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#filters button').forEach(x=>x.classList.remove('active'));b.classList.add('active');current=b.dataset.filter;render(current);}));
-render(current);
+  const data = Array.isArray(window.AJ_JOB_DATA) ? window.AJ_JOB_DATA : [];
+  const app = document.getElementById('app');
+  const q = document.getElementById('q');
+  const expired = x => {
+    const m = String(x.lastDate || '').match(/(\d{2})\/(\d{2})\/(\d{4})/);
+    if (!m) return false;
+    return new Date(+m[3], +m[2]-1, +m[1]) < new Date(new Date().setHours(0,0,0,0));
+  };
+  const esc = v => String(v == null ? '' : v).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+  function card(x){
+    const ex=expired(x);
+    return '<article class="job-card '+(ex?'expired':'')+'"><h3>'+esc(x.title)+'</h3><div class="last">Last Date: '+esc(x.lastDate||'Check official portal')+'</div><div class="meta"><b>Vacancy:</b> '+esc(x.vacancy||'As per notification')+'<br><b>Mode:</b> '+esc(x.mode||'Online')+(x.qualification?'<br><b>Qualification:</b> '+esc(x.qualification):'')+'</div><span class="badge">'+(ex?'🔴 Expired':'🟢 Active')+'</span><div class="actions"><a href="job-details.html?job='+encodeURIComponent(x.id||'')+'">Details</a><a class="secondary" href="'+esc(x.apply||x.official||'#')+'" target="_blank" rel="noopener noreferrer">Apply / Official</a></div></article>';
+  }
+  function render(filter){
+    const term=q.value.trim().toLowerCase();
+    let list=data.filter(x=>{
+      const hay=(x.title+' '+x.category+' '+x.mode+' '+(x.qualification||'')+' '+(x.vacancy||'')+' '+(x.age||'')).toLowerCase();
+      if(term && !hay.includes(term)) return false;
+      if(filter==='all') return true;
+      if(filter==='expired') return expired(x);
+      if(filter==='active') return !expired(x);
+      if(filter==='Central Job') return /central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik/i.test(hay);
+      if(filter==='State Job') return /haryana|punjab|rajasthan|uttar pradesh|bihar|andhra|state|police|psssb|hssc/i.test(hay);
+      if(filter==='Private Job') return /private|jio|tcs|infosys|cognizant|hcl|company/i.test(hay);
+      if(filter==='Railway') return /railway|rrb|ncrtc/i.test(hay);
+      if(filter==='Defence') return /defence|drdo|army|navy|air force|crpf|assam rifles|aoc/i.test(hay);
+      if(filter==='Banking') return /bank|ibps|sbi|rbi|nabard|banking/i.test(hay);
+      if(filter==='Teaching') return /teacher|teaching|school|university|college|education|professor|faculty/i.test(hay);
+      return x.category===filter;
+    });
+    const cats=[...new Set(list.map(x=>x.category||'Other'))];
+    app.innerHTML=cats.map(cat=>{
+      const rows=list.filter(x=>(x.category||'Other')===cat);
+      return '<section><div class="job-section-title">'+esc(cat)+' <span style="float:right">'+rows.length+'</span></div><div class="job-grid">'+rows.map(card).join('')+'</div></section>';
+    }).join('') || '<div class="empty"><b>No matching vacancy found.</b><br>“All” दबाकर सभी jobs देखें.</div>';
+    document.getElementById('activeCount').textContent=data.filter(x=>!expired(x)).length;
+    document.getElementById('centralCount').textContent=data.filter(x=>/central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik/i.test((x.title+' '+x.category+' '+x.mode).toLowerCase())&&!expired(x)).length;
+    document.getElementById('stateCount').textContent=data.filter(x=>/haryana|punjab|rajasthan|state|police|psssb|hssc/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
+    document.getElementById('privateCount').textContent=data.filter(x=>/private|jio|tcs|infosys|cognizant|hcl|company/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
+  }
+  let current='all';
+  document.querySelectorAll('#filters button').forEach(b=>b.classList.remove('active'));
+  const allBtn=document.querySelector('#filters button[data-filter="all"]'); if(allBtn) allBtn.classList.add('active');
+  document.querySelectorAll('#filters button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#filters button').forEach(z=>z.classList.remove('active'));b.classList.add('active');current=b.dataset.filter;render(current);}));
+  q.addEventListener('input',()=>render(current));
+  document.getElementById('clearSearch').onclick=()=>{q.value='';render(current);};
+  render(current);
 })();
 </script></body></html>
