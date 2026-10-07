@@ -7816,4 +7816,24 @@ window.AJ_JOB_DATA = [
     "updates": "Record added to AJ DIGITAL POINT jobs directory; verify final dates and post-wise details from the official notification.",
     "dataAuditDate": "07/10/2026"
   },
+  {
+    "id": "ecr-gdce-1465-2026",
+    "category": "Railway",
+    "state": "Bihar / Jharkhand / East Central Railway",
+    "title": "East Central Railway GDCE Recruitment 2026",
+    "lastDate": "15/10/2026",
+    "mode": "Online",
+    "openDate": "18/09/2026",
+    "vacancy": "1465 Posts — ALP and other posts",
+    "qualification": "Railway employee eligibility and post-wise qualification as prescribed under the GDCE notification.",
+    "age": "As prescribed in the official GDCE notification.",
+    "fee": "As prescribed / applicable to eligible candidates.",
+    "selection": "CBT, aptitude/typing test where applicable, document verification and medical examination as prescribed.",
+    "apply": "https://ecr.indianrailways.gov.in/",
+    "official": "https://ecr.indianrailways.gov.in/",
+    "notice": "https://ecr.indianrailways.gov.in/",
+    "documents": "Railway employee/service details, photograph, signature, ID and post-specific qualification/documents as prescribed.",
+    "updates": "East Central Railway GDCE recruitment: 1465 ALP and other posts; applications reported open through 15/10/2026.",
+    "dataAuditDate": "07/10/2026"
+  },
 ];
