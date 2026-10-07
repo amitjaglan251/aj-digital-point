@@ -4803,5 +4803,39 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "ITI certificate, marksheets, DOB proof, photograph, ID and apprenticeship registration/documents as applicable."
+  },
+  {
+    "id": "rrb-paramedical-cen-05-2026",
+    "category": "Railway Job",
+    "title": "RRB Paramedical Recruitment 2026 — CEN 05/2026",
+    "lastDate": "09/10/2026",
+    "mode": "Online",
+    "openDate": "11/09/2026",
+    "vacancy": "590 posts — Nursing Superintendent, Pharmacist, Health & Malaria Inspector Grade III and other paramedical categories",
+    "qualification": "Post-wise prescribed medical/paramedical qualification",
+    "age": "Post-wise age limit as per CEN 05/2026",
+    "fee": "As prescribed in the official CEN",
+    "selection": "Computer Based Test, document verification and medical examination as applicable",
+    "apply": "https://www.rrbapply.gov.in/",
+    "notice": "https://www.rrbcdg.gov.in/",
+    "official": "https://www.rrbcdg.gov.in/",
+    "documents": "Educational/paramedical certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable."
+  },
+  {
+    "id": "railway-western-sports-quota-2026-27",
+    "category": "Railway Job",
+    "title": "Western Railway Sports Quota Recruitment 2026-27",
+    "lastDate": "Check official notification",
+    "mode": "Online",
+    "openDate": "27/08/2026",
+    "vacancy": "Sports Quota posts for the 2026-27 recruitment year",
+    "qualification": "Post-wise educational qualification and prescribed sports achievement criteria",
+    "age": "As prescribed in the official notification",
+    "fee": "As prescribed in the official notification",
+    "selection": "Sports trial/assessment and document verification as prescribed",
+    "apply": "https://rrc-wr.com/Home/Notifications",
+    "notice": "https://rrc-wr.com/Home/Notifications",
+    "official": "https://rrc-wr.com/",
+    "documents": "Educational certificates, sports certificates, DOB proof, photograph, ID and category documents where applicable."
   }
 ];
