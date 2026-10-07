@@ -214,7 +214,17 @@ window.AJ_JOB_DATA = [
     "category": "Central Job",
     "title": "SSC CHSL 2536 LDC, JSA, DEO Post Online Form",
     "lastDate": "07/10/2026 11:00 PM",
-    "mode": "Online"
+    "mode": "Online",
+    "openDate": "08/04/2026",
+    "vacancy": "2,536 posts — LDC/JSA and DEO posts",
+    "qualification": "12th Standard pass or equivalent from a recognized Board/University; post-specific Science stream with Mathematics requirement for DEO where prescribed.",
+    "age": "18–27 years as on 01/01/2027, with applicable category-wise relaxation as per SSC rules.",
+    "fee": "₹100; women candidates and SC/ST/PwBD/eligible Ex-Servicemen candidates exempt as prescribed.",
+    "selection": "Computer Based Examination, Tier-II (including skill/typing tests where applicable) and document verification as prescribed.",
+    "documents": "Matriculation/10th certificate for DOB, 12th qualification certificate and marksheet, valid photo ID, category/EWS/PwBD/ExSM certificate where applicable, disability/eligibility certificates where applicable, and other documents required by SSC at verification.",
+    "apply": "https://ssc.gov.in/",
+    "notice": "https://ssc.gov.in/",
+    "official": "https://ssc.gov.in/"
   },
   {
     "id": "bank-of-baroda-2482-lbo",
