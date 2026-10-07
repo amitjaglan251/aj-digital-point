@@ -47,7 +47,7 @@ body{background:var(--bg);color:var(--text)}
 @media(max-width:520px){.home-wrap{padding:8px}.hero-clean{padding:14px}.category-grid{grid-template-columns:repeat(2,1fr)}.section{padding:10px}.jobs-search button{padding:0 10px}.header-top{padding:8px 10px!important}.logo-link{flex-basis:52px!important;width:52px!important;height:52px!important}.site-logo{width:48px!important;height:48px!important}.brand{gap:8px!important}.brand-info p{font-size:9px!important}.main-nav{padding:6px!important}.main-nav a{font-size:11px!important;padding:7px 8px!important}}
 
 .info-section .section-intro{font-size:11px;color:#64748b;margin:0 0 8px;line-height:1.45}.info-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}.info-card{display:block;text-decoration:none;background:#f8fbff;border:1px solid #d9e5f3;border-radius:10px;padding:10px;color:var(--navy);transition:.15s}.info-card:hover{transform:translateY(-2px);border-color:#9ab9df;box-shadow:0 5px 14px #0b4ea20d}.info-card b{display:block;font-size:12px}.info-card small{display:block;margin-top:4px;color:#64748b;font-size:9px;line-height:1.35}@media(max-width:800px){.info-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.info-grid{grid-template-columns:1fr 1fr}.info-card{padding:9px}}
-</style>
+.state-jobs-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.state-job-card{border:1px solid #d9e5f3;background:#f8fbff;border-radius:10px;padding:10px}.state-job-head{display:flex;justify-content:space-between;gap:6px;align-items:center;margin-bottom:6px}.state-job-head b{font-size:12px;color:var(--navy)}.state-job-head a{font-size:9px;font-weight:900;color:var(--blue);text-decoration:none}.state-job-item{display:block;padding:6px 0;border-top:1px solid #e5edf6;text-decoration:none}.state-job-item b{display:block;font-size:10px;color:#173e72;line-height:1.3}.state-job-item small{display:block;font-size:9px;color:#64748b;margin-top:2px}@media(max-width:520px){.state-jobs-grid{grid-template-columns:1fr}}</style>
 </head>
 <body>
 <header class="site-header">
@@ -144,6 +144,12 @@ body{background:var(--bg);color:var(--text)}
     </div>
   </section>
 
+  <section class="section state-jobs-section">
+    <div class="section-title"><h2>📍 State-wise Latest Jobs</h2><a href="latest-jobs.html?filter=State%20Job#state">सभी State Jobs →</a></div>
+    <p class="section-intro">हर State / UT के उपलब्ध latest job records नीचे दिखाए गए हैं। State पर click करके उसकी पूरी vacancy list देखें।</p>
+    <div id="stateJobsGrid" class="state-jobs-grid"></div>
+  </section>
+
   <section class="section info-section">
     <div class="section-title"><h2>⏳ Upcoming Jobs</h2><a href="latest-jobs.html?filter=Upcoming%20Vacancy">सभी Upcoming →</a></div>
     <p class="section-intro">जल्द शुरू होने वाली भर्ती, आगामी आवेदन और आने वाले recruitment updates.</p>
@@ -218,7 +224,9 @@ body{background:var(--bg);color:var(--text)}
 </nav>
 <footer><b>AJ DIGITAL POINT</b><span>© 2026 • Independent Sarkari Job & Digital Service Portal</span></footer>
 
+<script src="central-jobs.js?v=20261007-4"></script>
 <script>
+function renderStateJobs(){const el=document.getElementById("stateJobsGrid");const data=Array.isArray(window.AJ_JOB_DATA)?window.AJ_JOB_DATA:[];const groups={};data.forEach(j=>{if((j.category==="State Job"||j.category==="Teaching")&&j.state&&j.title&&!String(j.lastDate||"").toLowerCase().includes("expired"))(groups[j.state]??=[]).push(j)});const states=Object.keys(groups).sort();el.innerHTML=states.map(s=>{const jobs=groups[s].slice(0,3);const link="latest-jobs.html?state="+encodeURIComponent(s)+"#state";return "<div class=\"state-job-card\"><div class=\"state-job-head\"><b>📍 "+s+"</b><a href=\""+link+"\">View all →</a></div>"+jobs.map(j=>"<a class=\"state-job-item\" href=\""+(j.notice||j.apply||link)+"\" target=\"_blank\" rel=\"noopener noreferrer\"><b>"+j.title+"</b><small>📅 Last Date: "+(j.lastDate||"See notification")+" • "+(j.vacancy||"Vacancy details")+"</small></a>").join("")+"</div>"}).join("")||"<p class=\"notice\">State-wise jobs अभी उपलब्ध नहीं हैं।</p>"}renderStateJobs();
 function toggleMenu(){const n=document.getElementById('main-nav'),b=document.getElementById('menuButton');const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');b.textContent=o?'×':'☰'}
 document.getElementById('main-nav').addEventListener('click',e=>{if(e.target.closest('a')){document.getElementById('main-nav').classList.remove('open');document.getElementById('menuButton').textContent='☰';document.getElementById('menuButton').setAttribute('aria-expanded','false')}})
 function searchJobs(){const q=document.getElementById('jobSearch').value.trim();location.href='latest-jobs.html'+(q?'?q='+encodeURIComponent(q):'')}
