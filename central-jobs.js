@@ -2695,9 +2695,9 @@ window.AJ_JOB_DATA = [
     "shortInfo": "SSC Stenographer Grade C & D Examination 2025: Paper-I was conducted in August 2025, CBE result was declared on 28/11/2025, Skill Test was held from 28/01/2026 to 29/01/2026, and SSC has published subsequent allocation and marks notices.",
     "dataAuditDate": "07/10/2026",
     "links": {
-      "notification": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_steno_2025.pdf",
       "official": "https://ssc.gov.in/",
-      "marks": "https://ssc.gov.in/",
+      "marks": "https://ssc.gov.in/?pfrom=news",
       "result": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/Result%20Writeup_2025_Steno%20C%20and%20Steno%20D.pdf",
       "optionPreference": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Steno%202025%20Option-cum-preference.pdf",
       "frtaResult": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/Result%20Writeup_2025_Steno%20C%20and%20Steno%20D.pdf"
