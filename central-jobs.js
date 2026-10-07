@@ -1285,7 +1285,7 @@ window.AJ_JOB_DATA = [
     "id": "upcoming-rrb-alp-2026-27",
     "category": "Upcoming Vacancy",
     "title": "Railway RRB ALP — Upcoming Recruitment",
-    "lastDate": "Notification awaited",
+    "lastDate": "03–05/11/2026 (Exam)",
     "mode": "Upcoming",
     "qualification": "10th + ITI / Diploma / Degree in prescribed engineering disciplines",
     "age": "To be announced",
@@ -1304,7 +1304,9 @@ window.AJ_JOB_DATA = [
     "feeDate": "To be announced in official notification",
     "correctionDate": "If applicable, as per official notification",
     "examDate": "To be announced by recruiting authority",
-    "categoryVacancy": "Post/category-wise details will be published in the official notification"
+    "categoryVacancy": "Post/category-wise details will be published in the official notification",
+    "vacancy": "11,127 posts — CEN 01/2026; application closed",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "upcoming-rrb-technician-2026-27",
@@ -1868,7 +1870,9 @@ window.AJ_JOB_DATA = [
     "selection": "CET Phase-II / post-wise selection as notified",
     "apply": "https://hssc.gov.in/",
     "notice": "https://hssc.gov.in/",
-    "official": "https://hssc.gov.in/"
+    "official": "https://hssc.gov.in/",
+    "vacancy": "CET Phase-II Group-C posts — as per Advt. 06/2026",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "haryana-government-upcoming-recruitment-2026-27",
@@ -2165,15 +2169,16 @@ window.AJ_JOB_DATA = [
     "id": "sssc-punjab-district-court-clerk-2026",
     "category": "Punjab Court Jobs",
     "title": "Punjab District Courts Clerk Recruitment 2026 — Advt. 37C/SSSC/PB/2026",
-    "lastDate": "Check official advertisement",
+    "lastDate": "04/11/2026 04:00 PM",
     "mode": "Online",
-    "vacancy": "As per advertisement",
+    "vacancy": "1,270 Clerk Posts",
     "qualification": "As prescribed for Clerk post",
     "age": "As per notification",
     "selection": "As notified by SSSC",
     "apply": "https://sssc.gov.in/",
     "notice": "https://sssc.gov.in/notice-board",
-    "official": "https://sssc.gov.in/"
+    "official": "https://sssc.gov.in/",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "rajasthan-contractual-safai-karamchari-2026",
@@ -3782,10 +3787,10 @@ window.AJ_JOB_DATA = [
     "category": "State Job",
     "state": "Andhra Pradesh",
     "title": "APPSC Group-I Services — Notification No.07/2026",
-    "lastDate": "Check official notification",
+    "lastDate": "27/10/2026 11:59 PM",
     "mode": "Online",
     "openDate": "06/10/2026",
-    "vacancy": "Various Group-I posts",
+    "vacancy": "166 Posts",
     "qualification": "Post-wise degree/qualification as prescribed in APPSC notification",
     "age": "Post-wise age limit and relaxation as prescribed",
     "fee": "As prescribed by APPSC",
@@ -3793,17 +3798,18 @@ window.AJ_JOB_DATA = [
     "apply": "https://portal-psc.ap.gov.in/",
     "notice": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
     "official": "https://portal-psc.ap.gov.in/",
-    "documents": "DOB proof, degree/marksheets, photo, signature, valid ID, AP/local/category certificates where applicable, experience/NOC if required."
+    "documents": "DOB proof, degree/marksheets, photo, signature, valid ID, AP/local/category certificates where applicable, experience/NOC if required.",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "appsc-aee-2026-latest",
     "category": "State Job",
     "state": "Andhra Pradesh",
     "title": "APPSC Assistant Environmental Engineer — Notification No.08/2026",
-    "lastDate": "Check official notification",
+    "lastDate": "27/10/2026 11:59 PM",
     "mode": "Online",
     "openDate": "06/10/2026",
-    "vacancy": "Assistant Environmental Engineer posts",
+    "vacancy": "41 Posts",
     "qualification": "Relevant Engineering qualification as prescribed",
     "age": "As prescribed in notification",
     "fee": "As prescribed by APPSC",
@@ -3811,17 +3817,18 @@ window.AJ_JOB_DATA = [
     "apply": "https://portal-psc.ap.gov.in/",
     "notice": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
     "official": "https://portal-psc.ap.gov.in/",
-    "documents": "Engineering qualification certificate and marksheets, DOB proof, photo, signature, ID, category/local certificates where applicable."
+    "documents": "Engineering qualification certificate and marksheets, DOB proof, photo, signature, ID, category/local certificates where applicable.",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "appsc-horticulture-officer-2026",
     "category": "State Job",
     "state": "Andhra Pradesh",
     "title": "APPSC Horticulture Officer — Notification No.19/2026",
-    "lastDate": "Check official notification",
+    "lastDate": "27/10/2026 11:59 PM",
     "mode": "Online",
     "openDate": "06/10/2026",
-    "vacancy": "Horticulture Officer posts",
+    "vacancy": "37 Posts",
     "qualification": "Relevant horticulture/agriculture qualification as prescribed",
     "age": "As prescribed",
     "fee": "As prescribed",
@@ -3829,7 +3836,8 @@ window.AJ_JOB_DATA = [
     "apply": "https://portal-psc.ap.gov.in/",
     "notice": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
     "official": "https://portal-psc.ap.gov.in/",
-    "documents": "Degree/marksheets, DOB proof, photo, signature, ID, category/local certificate where applicable."
+    "documents": "Degree/marksheets, DOB proof, photo, signature, ID, category/local certificate where applicable.",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "arunachal-appsc-063-2026",
@@ -4178,10 +4186,10 @@ window.AJ_JOB_DATA = [
     "category": "State Job",
     "state": "Haryana",
     "title": "HSSC CET Group-D 05/2026 — Apply / Recruitment",
-    "lastDate": "Check official HSSC notice",
+    "lastDate": "03/07/2026 11:59 PM",
     "mode": "Online",
     "openDate": "Notification-wise",
-    "vacancy": "Group-D posts as per HSSC recruitment notice",
+    "vacancy": "CET Group-D posts — as per Advt. 05/2026",
     "qualification": "As prescribed by HSSC",
     "age": "As prescribed by HSSC",
     "fee": "As prescribed",
@@ -4189,17 +4197,18 @@ window.AJ_JOB_DATA = [
     "apply": "https://hssc.gov.in/",
     "notice": "https://hssc.gov.in/",
     "official": "https://hssc.gov.in/",
-    "documents": "10th certificate/DOB proof, photo, signature, valid ID, Haryana domicile/category/EWS certificates where applicable and other prescribed documents."
+    "documents": "10th certificate/DOB proof, photo, signature, valid ID, Haryana domicile/category/EWS certificates where applicable and other prescribed documents.",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "appsc-group1-aee-ho-2026",
     "category": "State Job",
     "state": "Andhra Pradesh",
     "title": "APPSC Group-I Services / Assistant Environmental Engineer / Horticulture Officer Recruitment 2026",
-    "lastDate": "Check official notification/application schedule",
+    "lastDate": "27/10/2026 11:59 PM",
     "mode": "Online",
     "openDate": "06/10/2026",
-    "vacancy": "Multiple posts — post-wise vacancies in Notifications 07/2026, 08/2026 and 19/2026",
+    "vacancy": "Group-I: 166 posts; AEE: 41 posts; Horticulture Officer: 37 posts",
     "qualification": "Post-wise Degree/Engineering/Agriculture/Horticulture or other prescribed qualification",
     "age": "Post-wise age limit and relaxations as prescribed in notification",
     "fee": "As prescribed by APPSC",
@@ -4207,7 +4216,8 @@ window.AJ_JOB_DATA = [
     "apply": "https://portal-psc.ap.gov.in/",
     "notice": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
     "official": "https://portal-psc.ap.gov.in/",
-    "documents": "DOB proof, prescribed educational certificates/marksheets, photo, signature, valid ID, AP/local-status or category certificates where applicable, experience/NOC where prescribed."
+    "documents": "DOB proof, prescribed educational certificates/marksheets, photo, signature, valid ID, AP/local-status or category certificates where applicable, experience/NOC where prescribed.",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "gssc-fso-veterinary-assistant-2026",
@@ -4505,7 +4515,7 @@ window.AJ_JOB_DATA = [
     "lastDate": "16/11/2026 11:45 PM",
     "mode": "Upcoming Online",
     "openDate": "12/10/2026 02:30 PM",
-    "vacancy": "435 Posts — 57 Laboratory Assistant + 378 Laboratory Assistant-cum-Storekeeper",
+    "vacancy": "435 Posts",
     "qualification": "Bachelor's Degree with Honours in the respective practical subject and Odia-language requirements as prescribed in the advertisement",
     "age": "As prescribed by State Selection Board, Odisha",
     "fee": "UR/SEBC ₹500; SC/ST/PwD ₹200",
@@ -4513,17 +4523,18 @@ window.AJ_JOB_DATA = [
     "apply": "https://ssbodisha.ac.in/",
     "notice": "https://ssbodisha.ac.in/",
     "official": "https://ssbodisha.ac.in/",
-    "documents": "Degree/marksheets, Odia-language eligibility proof, DOB proof, photograph, signature, valid ID and category certificates where applicable."
+    "documents": "Degree/marksheets, Odia-language eligibility proof, DOB proof, photograph, signature, valid ID and category certificates where applicable.",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "odisha-ssb-junior-assistant-chse-2026",
     "category": "State Job",
     "state": "Odisha",
     "title": "Odisha SSB Junior Assistant in CHSE Recruitment 2026 — Advt. 03/2026",
-    "lastDate": "Check official correction/application notice",
+    "lastDate": "13/04/2026",
     "mode": "Online / Correction",
     "openDate": "29/06/2026",
-    "vacancy": "Junior Assistant posts in CHSE (Odisha) — as per Advertisement No. 03/2026",
+    "vacancy": "883 Posts",
     "qualification": "As prescribed in SSB Odisha Advertisement No. 03/2026",
     "age": "As prescribed in the advertisement",
     "fee": "As prescribed",
@@ -4531,7 +4542,8 @@ window.AJ_JOB_DATA = [
     "apply": "https://ssbodisha.ac.in/",
     "notice": "https://ssbodisha.ac.in/",
     "official": "https://ssbodisha.ac.in/",
-    "documents": "Prescribed educational qualification, DOB proof, photograph, signature, valid ID and category certificates where applicable."
+    "documents": "Prescribed educational qualification, DOB proof, photograph, signature, valid ID and category certificates where applicable.",
+    "lastChecked": "07/10/2026"
   },
   {
     "id": "canara-bank-apprentice-3500-2026",
