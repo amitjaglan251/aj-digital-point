@@ -100,7 +100,7 @@
   <h2>📢 Important Note</h2>
   <div class="warning"><b>ध्यान दें:</b> AJ DIGITAL POINT independent information portal है। Recruitment की final vacancy, dates, eligibility, fee, selection, result, admit card और document requirements संबंधित official authority की notification/website से verify करें.</div>
 </section>
-</main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261007-5"></script><script>(function(){
+</main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261007-10"></script><script>(function(){
 const p=new URLSearchParams(location.search),id=(p.get('job')||p.get('id')||'').trim();
 const d=(window.AJ_JOB_DATA||[]).find(x=>String(x.id)===id);
 const fallback='Not separately published / Not applicable';
@@ -141,19 +141,37 @@ const finalDocs=docs.length?docs:base;
 dl.innerHTML=finalDocs.map(x=>'<li>'+esc(x)+'</li>').join('');
 const links=d.links||{};
 const linkItems=[
-['🚀 Apply Online',d.apply,'green'],
-['📄 Download Notification',d.notice,''],
-['🌐 Official Website',d.official,''],
-['📢 Result',links.result,''],
-['🎫 Admit Card',links.admitCard,''],
-['📝 Answer Key',links.answerKey,''],
-['📊 Cutoff',links.cutoff,''],
-['📋 Vacancy Details',links.vacancy,''],
-['📚 Syllabus',links.syllabus,''],
-['🧾 Correction Notice',links.correction,'']
+ ['🚀 Apply Online Link',links.apply||d.apply,'green'],
+ ['📄 Download Official Notification',links.notification||d.notice,''],
+ ['🌐 Official Website',links.official||d.official,''],
+ ['📊 Download Marks / Check Marks',links.marks,''],
+ ['🏆 Download Final Result / Check Result Notice',links.result,''],
+ ['📉 Check Cutoff / Download Cutoff',links.cutoff,''],
+ ['🔄 Download Revised FRTA Result',links.revisedFrtaResult,''],
+ ['📉 Download Revised FRTA Cutoff',links.revisedFrtaCutoff,''],
+ ['📋 Download FRTA Result',links.frtaResult,''],
+ ['📉 Download FRTA Cutoff',links.frtaCutoff,''],
+ ['📝 Online Option Cum Preference Form',links.optionPreference,''],
+ ['📢 Check Option Cum Preference Form Notice',links.optionPreferenceNotice,''],
+ ['📌 Check Final Vacancy Notice',links.finalVacancyNotice,''],
+ ['🏙️ Download Skill Test Exam City Details',links.skillTestCity,''],
+ ['📢 Check Skill Test Exam City Notice',links.skillTestCityNotice,''],
+ ['🗝️ Download Final Answer Key / Marks',links.finalAnswerKey,''],
+ ['📢 Check Final Answer Key / Marks Notice',links.finalAnswerKeyNotice,''],
+ ['📅 Check Skill Test Date Notice',links.skillTestDateNotice,''],
+ ['📝 Download Answer Key',links.answerKey,''],
+ ['📢 Check Answer Key Notice',links.answerKeyNotice,''],
+ ['🎫 Download Admit Card',links.admitCard,''],
+ ['🏙️ Check Exam City Details',links.examCity,''],
+ ['📅 Check Exam Date Notice',links.examDateNotice,''],
+ ['📋 Check Vacancy Details Notice',links.vacancy,''],
+ ['📚 Previous Year Papers / Syllabus',links.previousPapers||links.syllabus,'']
 ];
 const lg=document.getElementById('linkGrid');
 lg.innerHTML=linkItems.filter(x=>x[1]).map(x=>'<a class="detail-link '+x[2]+'" href="'+esc(x[1])+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('');
+if(!lg.innerHTML){
+ lg.innerHTML='<a class="detail-link green" href="'+esc(d.apply||d.official||'#')+'" target="_blank" rel="noopener noreferrer">🚀 Apply / Official Link ↗</a>';
+}
 const c=document.getElementById('chips');
 c.innerHTML='<span class="chip">'+esc(d.category||'Recruitment')+'</span><span class="chip">'+esc(d.mode||'Online')+'</span><span class="chip">'+(isUpcoming?'⏳ Upcoming':'📌 Current / Listed')+'</span>'+(d.state?'<span class="chip">📍 '+esc(d.state)+'</span>':'');
 document.querySelector('meta[name="description"]').setAttribute('content',(d.title||'Recruitment')+' — complete job details, important dates, vacancy, eligibility, fee, selection process and official links.');
