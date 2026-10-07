@@ -39,22 +39,22 @@
   <table class="detail-table">
     <tr><td>Application Begin / Opening Date</td><td id="openDate">—</td></tr>
     <tr><td>Last Date for Apply Online / Submit Form</td><td id="lastDate">—</td></tr>
-    <tr><td>Fee Payment Last Date</td><td id="feeDate">Official notification के अनुसार</td></tr>
-    <tr><td>Correction / Edit Date</td><td id="correctionDate">यदि लागू हो, official notification देखें</td></tr>
-    <tr><td>Exam / Selection Date</td><td id="examDate">Official authority द्वारा घोषित होने पर update किया जाएगा</td></tr>
-    <tr><td>Latest Update</td><td id="updates">Official notification / portal update देखें</td></tr>
+    <tr><td>Fee Payment Last Date</td><td id="feeDate">Not separately published / Not applicable</td></tr>
+    <tr><td>Correction / Edit Date</td><td id="correctionDate">Not separately published / Not applicable</td></tr>
+    <tr><td>Exam / Selection Date</td><td id="examDate">Not separately published / Not applicable</td></tr>
+    <tr><td>Latest Update</td><td id="updates">—</td></tr>
     <tr><td>AJ Digital Point Data Audit</td><td id="dataAuditDate">07/10/2026</td></tr>
   </table>
 </section>
 
 <section class="jobbox">
   <h2>💰 Application Fee</h2>
-  <ul><li id="fee">Official notification के अनुसार</li><li>Payment Mode: संबंधित भर्ती के official portal/notification में दिए गए माध्यम से.</li></ul>
+  <ul><li id="fee">—</li><li id="paymentMode">Payment mode: —</li></ul>
 </section>
 
 <section class="jobbox">
   <h2>🎯 Age Limit</h2>
-  <ul><li id="age">Official notification के अनुसार</li><li>Age relaxation: Government rules और recruitment notification के अनुसार, यदि लागू हो.</li></ul>
+  <ul><li id="age">—</li><li id="ageRelaxation">Age relaxation: —</li></ul>
 </section>
 
 <section class="jobbox">
@@ -76,7 +76,7 @@
 
 <section class="jobbox">
   <h2>📄 Required Documents</h2>
-  <p class="muted">यह checklist guidance के लिए है। Final document list हमेशा original notification से verify करें.</p>
+  <p class="muted">नीचे वही recruitment-specific documents दिखाए जाते हैं जो इस vacancy record में दर्ज हैं; generic checklist तभी दिखाई जाएगी जब job record में documents उपलब्ध न हों.</p>
   <ul id="documentsList"></ul>
 </section>
 
@@ -88,15 +88,7 @@
 
 <section class="jobbox">
   <h2>🧾 How to Fill / Apply Online Form</h2>
-  <ol>
-    <li>सबसे पहले पूरी official notification पढ़ें और eligibility check करें.</li>
-    <li>Application शुरू करने से पहले photograph, signature, ID proof, certificates और category documents तैयार रखें.</li>
-    <li>Official Apply Online / Recruitment Portal खोलें.</li>
-    <li>Registration / Login पूरा करें और application form में basic तथा educational details भरें.</li>
-    <li>जहाँ लागू हो, photograph/signature/documents upload करें और fee जमा करें.</li>
-    <li>Final preview में सभी details ध्यान से check करके form submit करें.</li>
-    <li>Submitted application, registration number और payment/acknowledgement का record सुरक्षित रखें.</li>
-  </ol>
+  <ol id="applySteps"></ol>
 </section>
 
 <section class="jobbox">
@@ -111,7 +103,7 @@
 </main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261007-5"></script><script>(function(){
 const p=new URLSearchParams(location.search),id=(p.get('job')||p.get('id')||'').trim();
 const d=(window.AJ_JOB_DATA||[]).find(x=>String(x.id)===id);
-const fallback='Official notification के अनुसार';
+const fallback='Not separately published / Not applicable';
 const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=(v!==undefined&&v!==null&&String(v).trim()!=='')?v:fallback;};
 const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 if(!d){document.getElementById('jobTitle').textContent='Job Not Found';document.getElementById('jobSub').textContent='कृपया Latest Jobs page से job चुनें।';return;}
@@ -130,9 +122,23 @@ set('eligibilityExtra',d.eligibility||'Post-specific subject, experience, local-
 set('selection',d.selection);set('salary',d.salary);
 document.getElementById('shortInfo').textContent=d.shortInfo||((d.title||'This recruitment')+' के लिए important dates, vacancy, eligibility, fee, selection process, documents और official links नीचे दिए गए हैं।');
 const dl=document.getElementById('documentsList');
+const steps=document.getElementById('applySteps');
+const applySteps=Array.isArray(d.applySteps)?d.applySteps:[
+'Official notification / recruitment notice खोलकर post-wise eligibility और dates verify करें.',
+'इस vacancy record में दिए recruitment-specific documents तैयार रखें.',
+'Apply Online / application portal खोलें: '+(d.apply||d.official||'official portal'),
+'Registration/Login करके candidate details, education और other required fields भरें.',
+'Recruitment के अनुसार photo, signature और certificates upload करें.',
+'ऊपर दिए vacancy-specific fee के अनुसार payment करें, यदि लागू हो.',
+'Final preview में नाम, DOB, category, qualification, post preference और contact details check करके submit करें.',
+'Final application PDF / acknowledgement और payment receipt सुरक्षित रखें.'
+];
+steps.innerHTML=applySteps.map(x=>'<li>'+esc(x)+'</li>').join('');
+
 const docs=Array.isArray(d.documents)?d.documents:(d.documents?[d.documents]:[]);
-const base=['Recent passport-size photograph','Signature','Valid photo ID / accepted ID proof','Educational certificates / marksheets','DOB proof where required','Category / EWS / OBC / SC / ST / PwBD / ESM certificate, if applicable','Experience certificate / NOC, if applicable'];
-dl.innerHTML=[...docs,...base.filter(x=>!docs.some(y=>String(y).toLowerCase().includes(x.toLowerCase().split(' ')[0])))].map(x=>'<li>'+esc(x)+'</li>').join('');
+const base=['Recent passport-size photograph','Signature','Valid photo ID / accepted ID proof','Educational certificates / marksheets','DOB proof where required'];
+const finalDocs=docs.length?docs:base;
+dl.innerHTML=finalDocs.map(x=>'<li>'+esc(x)+'</li>').join('');
 const links=d.links||{};
 const linkItems=[
 ['🚀 Apply Online',d.apply,'green'],
