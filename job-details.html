@@ -100,7 +100,7 @@
   <h2>📢 Important Note</h2>
   <div class="warning"><b>ध्यान दें:</b> AJ DIGITAL POINT independent information portal है। Recruitment की final vacancy, dates, eligibility, fee, selection, result, admit card और document requirements संबंधित official authority की notification/website से verify करें.</div>
 </section>
-</main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261007-10"></script><script>(function(){
+</main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261007-11"></script><script>(function(){
 const p=new URLSearchParams(location.search),id=(p.get('job')||p.get('id')||'').trim();
 const d=(window.AJ_JOB_DATA||[]).find(x=>String(x.id)===id);
 const fallback='Not separately published / Not applicable';
@@ -167,8 +167,15 @@ const linkItems=[
  ['📋 Check Vacancy Details Notice',links.vacancy,''],
  ['📚 Previous Year Papers / Syllabus',links.previousPapers||links.syllabus,'']
 ];
-const lg=document.getElementById('linkGrid');
-lg.innerHTML=linkItems.filter(x=>x[1]).map(x=>'<a class="detail-link '+x[2]+'" href="'+esc(x[1])+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('');
+const orgHay=String((d.title||'')+' '+(d.organization||'')+' '+(d.category||'')).toLowerCase();
+const portalLinks=[];
+if(/ssc/.test(orgHay)) portalLinks.push(['🌐 SSC Official Website', 'https://ssc.gov.in/']);
+if(/upsc/.test(orgHay)) portalLinks.push(['🏆 UPSC Final Results', 'https://www.upsc.gov.in/exams-related-info/final-result'],['🌐 UPSC Official Website','https://www.upsc.gov.in/']);
+if(/ibps/.test(orgHay)) portalLinks.push(['📊 IBPS Result / Score Portal','https://www.ibps.in/'],['🌐 IBPS Official Website','https://www.ibps.in/']);
+if(/rrb|railway/.test(orgHay)) portalLinks.push(['📊 RRB Result / Updates','https://www.rrbcdg.gov.in/archive.php'],['🎫 RRB Official Apply / Candidate Portal','https://www.rrbapply.gov.in/']);
+if(/hssc/.test(orgHay)) portalLinks.push(['🌐 HSSC Official Recruitment Website','https://hssc.gov.in/']);
+const allLinks=linkItems.filter(x=>x[1]).concat(portalLinks.map(x=>[x[0],x[1],'']));
+lg.innerHTML=allLinks.map(x=>'<a class="detail-link '+x[2]+'" href="'+esc(x[1])+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('');
 if(!lg.innerHTML){
  lg.innerHTML='<a class="detail-link green" href="'+esc(d.apply||d.official||'#')+'" target="_blank" rel="noopener noreferrer">🚀 Apply / Official Link ↗</a>';
 }
