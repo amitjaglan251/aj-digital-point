@@ -7,7 +7,7 @@
 </div>
 <section class="portal-sections" id="portalSections"><div class="portal-title">📋 सभी Jobs & Important Sections</div><div class="portal-grid"></div></section><main class="wrap"><div class="crumb">Home › Latest Jobs & Vacancies</div><section class="hero"><h1>नई Vacancy एक जगह</h1><p>Job name, vacancy, qualification, last date और official apply link जल्दी देखें। किसी भर्ती की अंतिम जानकारी हमेशा official notification से verify करें।</p></section>
 <div class="summary-strip"><div><b>Central</b><strong id="centralCount">0</strong></div><div><b>State / Haryana</b><strong id="stateCount">0</strong></div><div><b>Private</b><strong id="privateCount">0</strong></div><div><b>Active</b><strong id="activeCount">0</strong></div><div><b>Upcoming</b><strong id="upcomingCount">0</strong></div></div>
-<div class="jobs-tools"><input id="q" type="search" placeholder="🔎 Job, company, qualification, state खोजें..." aria-label="Search jobs"><button class="btn" id="clearSearch" type="button">Clear</button></div>
+<div class="jobs-tools"><input id="q" type="search" placeholder="🔎 Job, company, qualification, state खोजें..." aria-label="Search jobs"><span id="stateIndicator" style="display:none;background:#e8f7ea;color:#087a19;border:1px solid #9bd3a2;border-radius:8px;padding:8px 10px;font-weight:900;font-size:11px"></span><button class="btn" id="clearSearch" type="button">Clear</button></div>
 <div class="filter-tabs" id="filters"><button class="active" data-filter="active">🟢 Active</button><button data-filter="all">📋 All</button><button data-filter="expired">🔴 Expired</button><button data-filter="Central Job">🇮🇳 Central</button><button data-filter="State Job">🏛️ State</button><button data-filter="Private Job">🏢 Private</button><button data-filter="Railway">🚆 Railway</button><button data-filter="Defence">🪖 Defence</button><button data-filter="Banking">🏦 Banking</button><button data-filter="Teaching">🎓 Teaching</button><button data-filter="Upcoming Vacancy">⏳ Upcoming</button></div>
 <div id="all"></div><div id="app"></div><p class="source-note">🕒 Data refresh target: 07-10-2026. State/UT recruitment feeds are linked to official recruitment sources; live vacancies and deadlines are notification-wise. Latest entries are based on official recruitment/career sources checked for this update. Private-company openings can close without a fixed public last date.</p>
 <section class="notice"><b>Important:</b> AJ DIGITAL POINT independent information portal है, government website नहीं। Fee, age, qualification, vacancy, last date और selection की final जानकारी संबंधित official notification/portal से verify करें।</section></main>
@@ -17,6 +17,15 @@
 (function(){
   const data = Array.isArray(window.AJ_JOB_DATA) ? window.AJ_JOB_DATA : [];
   const params = new URLSearchParams(location.search); const stateParam = params.get('state') || ''; const filterParam = params.get('filter') || '';
+  const stateNames = ['Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat','Haryana','Himachal Pradesh','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal','Andaman & Nicobar Islands','Chandigarh','Dadra & Nagar Haveli and Daman & Diu','Delhi','Jammu & Kashmir','Ladakh','Lakshadweep','Puducherry'];
+  const normState = v => String(v||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,' ').trim();
+  const stateMatch = (x, st) => {
+    if(!st) return true;
+    const target=normState(st), actual=normState(x.state);
+    if(actual===target || actual.includes(target) || target.includes(actual)) return true;
+    const hay=normState((x.title||'')+' '+(x.category||'')+' '+(x.mode||''));
+    return hay.includes(target);
+  };
   const app = document.getElementById('app');
   const q = document.getElementById('q');
   const upcoming = x => x && (x.category === 'Upcoming Vacancy' || x.mode === 'Upcoming');
@@ -35,7 +44,7 @@
     let list=data.filter(x=>{
       const hay=(x.title+' '+x.category+' '+x.mode+' '+(x.qualification||'')+' '+(x.vacancy||'')+' '+(x.age||'')).toLowerCase();
       if(term && !hay.includes(term)) return false;
-      if(stateParam && String(x.state||'').toLowerCase()!==stateParam.toLowerCase()) return false;
+      if(stateParam && !stateMatch(x,stateParam)) return false;
       if(filter==='all') return true;
       if(filter==='expired') return expired(x);
       if(filter==='active') return !expired(x) && !upcoming(x);
@@ -59,11 +68,13 @@
     document.getElementById('stateCount').textContent=data.filter(x=>/haryana|punjab|rajasthan|state|police|psssb|hssc/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
     document.getElementById('privateCount').textContent=data.filter(x=>/private|jio|tcs|infosys|cognizant|hcl|company/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
   }
-  let current=filterParam || (stateParam ? 'all' : 'all');
+  let current=filterParam || 'all';
+  if(stateParam){ q.value=''; }
   document.querySelectorAll('#filters button').forEach(b=>b.classList.remove('active'));
   const selectedBtn=document.querySelector('#filters button[data-filter="'+CSS.escape(current)+'"]'); if(selectedBtn) selectedBtn.classList.add('active'); else { const allBtn=document.querySelector('#filters button[data-filter="all"]'); if(allBtn) allBtn.classList.add('active'); }
   document.querySelectorAll('#filters button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#filters button').forEach(z=>z.classList.remove('active'));b.classList.add('active');current=b.dataset.filter;render(current);}));
   q.addEventListener('input',()=>render(current));
+  if(stateParam){ const si=document.getElementById('stateIndicator'); if(si){si.textContent='📍 '+stateParam+' Jobs';si.style.display='inline-flex';} }
   document.getElementById('clearSearch').onclick=()=>{q.value='';render(current);};
   render(current);
 })();
