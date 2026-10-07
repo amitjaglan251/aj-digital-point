@@ -15,7 +15,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://bmhrc.ac.in/content/Hindi/2532_1_Advertisement.aspx",
     "official": "https://bmhrc.ac.in/",
     "documents": "Application-stage documents: recent passport-size photograph, signature, valid photo ID, 10th/12th/ITI/Diploma/Degree certificate and marksheets as applicable to the post, category/EWS/PwBD/Ex-Serviceman certificate where applicable, experience certificate where required, and NOC for candidates already employed in Government/PSU/autonomous bodies if required. Originals/certified documents must be produced when called for verification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-04-2026-je-correction",
@@ -33,7 +33,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.rrbsecunderabad.gov.in/employment-notice/",
     "official": "https://www.rrbsecunderabad.gov.in/",
     "documents": "Keep the original application details and CEN-04/2026 records ready; 10th certificate for DOB, prescribed Diploma/Degree and marksheets, valid caste/EWS/PwBD/ExSM certificate where applicable, recent photograph/signature and valid photo ID. For DV, originals plus self-attested copies and NOC where applicable are required as prescribed in the CEN.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-engineering-services-2026",
@@ -51,7 +51,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.upsc.gov.in/content/annual-calendar-2027-0",
     "official": "https://www.upsc.gov.in/",
     "documents": "Application/verification documents: age/DOB certificate, engineering degree or qualifying educational certificate, category certificate (SC/ST/OBC/EWS) where applicable, certificate for age/fee concession where applicable, and originals at the Personality Test. Keep photograph/signature and prescribed application records ready; UPSC requires supporting certificates after the written result and originals at Personality Test.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-cen-05-2026-paramedical",
@@ -69,7 +69,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.rrbcdg.gov.in/",
     "official": "https://www.rrbcdg.gov.in/",
     "documents": "10th certificate for DOB, post-specific paramedical qualification certificate and marksheets, valid registration certificate where the post requires professional registration, caste/EWS/PwBD/ExSM certificate where applicable, recent photograph/signature, valid photo ID, and NOC where applicable. Originals and self-attested copies must be produced at Document Verification as prescribed in the CEN.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "india-optel-project-technician-2026",
@@ -87,7 +87,7 @@ window.AJ_JOB_DATA = [
     "official": "https://indiaoptel.in/",
     "documents": "Recent photograph, signature, valid ID/DOB proof, prescribed educational/technical qualification certificates and marksheets, experience certificate where required, category certificate where applicable, and other documents specifically listed in the official notification.",
     "vacancy": "Post-wise vacancy — see official notification",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mecl-non-executive-2026",
@@ -105,7 +105,7 @@ window.AJ_JOB_DATA = [
     "official": "https://mecl.co.in/",
     "documents": "Recent photograph, signature, valid photo ID, DOB proof/10th certificate, post-specific educational qualification and marksheets, caste/EWS/PwBD/ExSM certificate where applicable, experience certificate where required, NOC where applicable, and other documents specifically required in Advertisement No. 03/Rectt./2026.",
     "vacancy": "Post-wise vacancy — see official notification",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-advt-11-2026",
@@ -123,7 +123,7 @@ window.AJ_JOB_DATA = [
     "official": "https://www.upsc.gov.in/",
     "documents": "DOB/age proof, prescribed educational qualification and marksheets, category/EWS/PwBD/age-relaxation certificates where applicable, experience certificate where required, photograph/signature and other certificates specifically prescribed for the post; originals are required at later verification/interview stages as applicable.",
     "vacancy": "Post-wise vacancy — see official notification",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-epfo-80-apfc",
@@ -141,7 +141,7 @@ window.AJ_JOB_DATA = [
     "official": "https://www.upsc.gov.in/",
     "apply": "https://www.upsc.gov.in/",
     "notice": "https://www.upsc.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rcfl-94-management-trainee-2026",
@@ -159,7 +159,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ncrtc-supervisor-jr-maintainer",
@@ -177,7 +177,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ssc-cpo-si-2026",
@@ -195,7 +195,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://ssc.gov.in/",
     "official": "https://ssc.gov.in/",
     "vacancy": "Post-wise vacancy — see official notification",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ibps-rrb-office-assistant-officer-2026",
@@ -213,7 +213,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/index.php/rural-bank-xv/",
     "official": "https://www.ibps.in/",
     "documents": "Recent photograph, signature, left thumb impression, handwritten declaration, valid photo ID, DOB/10th certificate, prescribed educational certificates and marksheets, category/EWS/PwBD/ExSM certificate where applicable; experience certificate for applicable Officer Scale II/III posts.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bank-of-india-specialist-officer-2026",
@@ -231,7 +231,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.bankofindia.co.in/career",
     "official": "https://www.bankofindia.co.in/",
     "vacancy": "Post-wise vacancy — see official notification",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ssc-chte-2025-preference",
@@ -249,7 +249,7 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "uiicl-225-administrative-officer",
@@ -267,7 +267,7 @@ window.AJ_JOB_DATA = [
     "apply": "https://uiic.co.in/recruitment",
     "notice": "https://uiic.co.in/recruitment",
     "official": "https://uiic.co.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ssc-chsl-2536-2026",
@@ -285,7 +285,7 @@ window.AJ_JOB_DATA = [
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
     "official": "https://ssc.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bank-of-baroda-2482-lbo",
@@ -303,7 +303,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nspcl-senior-assistant-officer-engineer",
@@ -321,7 +321,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sbi-specialist-cadre-officer-2026",
@@ -339,7 +339,7 @@ window.AJ_JOB_DATA = [
     "official": "https://sbi.bank.in/",
     "apply": "https://sbi.bank.in/",
     "notice": "https://sbi.bank.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bank-of-baroda-1100-so-2026",
@@ -357,7 +357,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ibps-11403-clerk-correction",
@@ -375,7 +375,7 @@ window.AJ_JOB_DATA = [
     "official": "https://www.ibps.in/",
     "apply": "https://www.ibps.in/",
     "notice": "https://www.ibps.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "pfrda-assistant-manager-grade-a",
@@ -393,7 +393,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.pfrda.org.in/",
     "official": "https://www.pfrda.org.in/",
     "vacancy": "Post-wise vacancy — see official notification",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "india-post-23757-gds-2026",
@@ -411,7 +411,7 @@ window.AJ_JOB_DATA = [
     "apply": "https://indiapostgdsonline.gov.in/",
     "notice": "https://indiapostgdsonline.gov.in/",
     "official": "https://www.indiapost.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-127-geo-scientist",
@@ -429,7 +429,7 @@ window.AJ_JOB_DATA = [
     "official": "https://www.upsc.gov.in/",
     "apply": "https://www.upsc.gov.in/",
     "notice": "https://www.upsc.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ssc-1748-je-2026",
@@ -447,7 +447,7 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "gate-2027",
@@ -465,7 +465,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nic-scientific-technical-assistant",
@@ -483,7 +483,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bgissl-2049-various-vacancies",
@@ -501,7 +501,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "concor-mt-assistant-officer",
@@ -519,7 +519,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "uco-bank-specialist-officer",
@@ -537,7 +537,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "beml-non-executive-2026",
@@ -555,7 +555,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sbi-trade-finance-officer",
@@ -573,7 +573,7 @@ window.AJ_JOB_DATA = [
     "official": "https://sbi.bank.in/",
     "apply": "https://sbi.bank.in/",
     "notice": "https://sbi.bank.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "indian-overseas-bank-so",
@@ -591,7 +591,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "federal-bank-sales-officer-2026",
@@ -609,7 +609,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "pgcil-apprentice-2026",
@@ -627,7 +627,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "spmcil-assistant-manager",
@@ -645,7 +645,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ngel-engineer-executive",
@@ -663,7 +663,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "south-indian-bank-junior-officer",
@@ -681,7 +681,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "csir-43-technician-1",
@@ -699,7 +699,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "itbp-capf-282-medical-officer",
@@ -717,7 +717,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "aai-389-jr-executive-manager",
@@ -735,7 +735,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bank-of-baroda-specialist-officer",
@@ -753,7 +753,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "dgqa-15-technician",
@@ -771,7 +771,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "iaf-agniveer-non-combatant",
@@ -789,7 +789,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "isro-92-scientist-engineer-2026",
@@ -807,7 +807,7 @@ window.AJ_JOB_DATA = [
     "official": "https://www.isro.gov.in/",
     "apply": "https://www.isro.gov.in/",
     "notice": "https://www.isro.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "indian-navy-275-ssc-officer",
@@ -825,7 +825,7 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "south-indian-bank-probationary-officer",
@@ -843,7 +843,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "icsi-executive-assistant",
@@ -861,7 +861,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "army-ncc-special-entry-women",
@@ -879,7 +879,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "army-ncc-special-entry-men",
@@ -897,7 +897,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "delhi-dpcc-environment-engineer",
@@ -915,7 +915,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsssc-jr-engineer-agriculture",
@@ -933,7 +933,7 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "psssb-04-26-group-d",
@@ -951,7 +951,7 @@ window.AJ_JOB_DATA = [
     "official": "https://sssb.punjab.gov.in/",
     "apply": "https://sssb.punjab.gov.in/",
     "notice": "https://sssb.punjab.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "kea-210-group-c-2026",
@@ -969,7 +969,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "gadvasu-non-teaching-2026",
@@ -987,7 +987,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upessc-12405-assistant-teacher",
@@ -1005,7 +1005,7 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "delhi-dtl-assistant-manager-trainee",
@@ -1023,7 +1023,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "csir-neeri-technical-officer-ta",
@@ -1041,7 +1041,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bseb-bihar-stet-2026",
@@ -1059,7 +1059,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mp-high-court-1174-assistant",
@@ -1077,7 +1077,7 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "isro-sac-jrf-2026",
@@ -1095,7 +1095,7 @@ window.AJ_JOB_DATA = [
     "official": "https://www.isro.gov.in/",
     "vacancy": "Post-wise vacancy — see official notification",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "isro-nsil-cmd-2026",
@@ -1113,7 +1113,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.isro.gov.in/ViewAllOpportunities.html",
     "official": "https://www.isro.gov.in/",
     "documents": "Application-stage/verification documents should include recent photograph and signature, proof of date of birth, qualifying degree/marksheets and post-specific higher qualification, experience certificate where required for Research Associate/Project Scientist-I, category/PwBD certificate where applicable, and NOC for candidates employed in Government/PSU/autonomous bodies when required. Produce originals when called for verification/interview.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-advt-12-2026",
@@ -1138,7 +1138,7 @@ window.AJ_JOB_DATA = [
       "Experience certificate/NOC where applicable",
       "Valid photo ID"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ssc-chsl-2026-2536",
@@ -1162,7 +1162,7 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/EWS/PwBD certificate where applicable"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-cen-05-2026-paramedical-new",
@@ -1187,7 +1187,7 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/EWS/PwBD/ExSM certificate where applicable"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mecl-nonexecutive-03-2026",
@@ -1212,7 +1212,7 @@ window.AJ_JOB_DATA = [
       "Experience certificate where required",
       "Valid photo ID"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ncrtc-supervisor-jr-maintainer-2026",
@@ -1236,7 +1236,7 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category certificate where applicable"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ignou-nonteaching-2026",
@@ -1261,7 +1261,7 @@ window.AJ_JOB_DATA = [
       "Experience certificate where required",
       "Valid photo ID"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-jio-graduate-engineer-trainee-87210862",
@@ -1284,7 +1284,7 @@ window.AJ_JOB_DATA = [
       "Government-issued ID when requested during recruitment",
       "Role-specific documents"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-jio-home-service-intern-rohtak",
@@ -1306,7 +1306,7 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-jio-customer-care-amritsar",
@@ -1328,7 +1328,7 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-jio-customer-care-pathankot",
@@ -1350,7 +1350,7 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-jio-area-talent-acquisition-jalandhar",
@@ -1372,7 +1372,7 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Experience details where required"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-cognizant-sr-quality-engineer-2026",
@@ -1395,7 +1395,7 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-cognizant-data-scientist-bangalore-2026",
@@ -1417,7 +1417,7 @@ window.AJ_JOB_DATA = [
       "Technical skills/experience",
       "Educational details"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-cognizant-power-platform-chennai-2026",
@@ -1439,7 +1439,7 @@ window.AJ_JOB_DATA = [
       "Relevant technical experience",
       "Educational details"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-tcs-india-careers-2026",
@@ -1461,7 +1461,7 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-infosys-careers-2026",
@@ -1483,7 +1483,7 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "private-hcltech-india-careers-2026",
@@ -1505,7 +1505,7 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-ntpc-2026-5165",
@@ -1529,7 +1529,7 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/EWS/PwBD/ExSM certificate where applicable"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "punjab-court-clerk-2026-1270",
@@ -1554,7 +1554,7 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category certificate where applicable"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ncs-official-job-search-2026",
@@ -1576,7 +1576,7 @@ window.AJ_JOB_DATA = [
       "Education/skill documents as requested",
       "Valid ID when legitimately requested"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ncs-government-recruitment-directory-2026",
@@ -1596,7 +1596,7 @@ window.AJ_JOB_DATA = [
     "documents": [
       "As required by individual recruitment notification"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sci-jca-250-2026",
@@ -1620,7 +1620,7 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/PwBD/ExSM certificate where applicable"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "hpsc-fso-45-2026",
@@ -1644,7 +1644,7 @@ window.AJ_JOB_DATA = [
       "Haryana/category certificate where applicable",
       "Valid photo ID"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "canara-graduate-apprentice-2026",
@@ -1668,7 +1668,7 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category certificate where applicable"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "kucbl-manager-assistant-manager-2026",
@@ -1692,7 +1692,7 @@ window.AJ_JOB_DATA = [
       "Recent photograph/signature",
       "Valid photo ID"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nit-nonfaculty-2026",
@@ -1716,7 +1716,7 @@ window.AJ_JOB_DATA = [
       "Recent photograph/signature",
       "Valid photo ID"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mpa-class-1-2-2026",
@@ -1740,7 +1740,7 @@ window.AJ_JOB_DATA = [
       "Recent photograph/signature",
       "Valid photo ID"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ieb-special-recruitment-2026",
@@ -1764,7 +1764,7 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/disability certificate where applicable"
     ],
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ssc-cgl-2026",
@@ -1792,7 +1792,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ssc-chsl-2027",
@@ -1820,7 +1820,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-rrb-group-d-2026-27",
@@ -1849,7 +1849,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-rrb-alp-2026-27",
@@ -1879,7 +1879,7 @@ window.AJ_JOB_DATA = [
     "lastChecked": "07/10/2026",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-rrb-technician-2026-27",
@@ -1908,7 +1908,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ibps-po-2027",
@@ -1936,7 +1936,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ibps-clerk-2027",
@@ -1964,7 +1964,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ibps-rrb-2027",
@@ -1992,7 +1992,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-upsc-civil-services-2027",
@@ -2020,7 +2020,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-upsc-nda-na-2027",
@@ -2048,7 +2048,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-upsc-cds-2027",
@@ -2076,7 +2076,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-hssc-group-c-2026-27",
@@ -2105,7 +2105,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-haryana-police-2026-27",
@@ -2134,7 +2134,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-reet-2026",
@@ -2162,7 +2162,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-bpsc-tre-5-2027",
@@ -2190,7 +2190,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "banking-ibps-2026-27-calendar",
@@ -2218,7 +2218,7 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "age": "Post-wise age limit and relaxation as prescribed in the official notification.",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "banking-sbi-cbo-upcoming-2026",
@@ -2247,7 +2247,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "banking-rbi-upcoming-2026-27",
@@ -2275,7 +2275,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "banking-nabard-upcoming-2026-27",
@@ -2303,7 +2303,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sainik-school-teaching-nonteaching-2026-27",
@@ -2333,7 +2333,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sainik-school-contractual-staff-2026",
@@ -2362,7 +2362,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nvs-recruitment-2026-27",
@@ -2391,7 +2391,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nvs-contractual-teachers-2026-27",
@@ -2420,7 +2420,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nvs-class-11-lateral-entry-2027-28",
@@ -2448,7 +2448,7 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "age": "Post-wise age limit and relaxation as prescribed in the official notification.",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ibps-so-xvi-2026",
@@ -2466,7 +2466,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/",
     "official": "https://www.ibps.in/",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ibps-banker-faculty-executive-secretary-2026",
@@ -2484,7 +2484,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/",
     "official": "https://www.ibps.in/",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bank-of-baroda-regular-hr-2026",
@@ -2502,7 +2502,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://bankofbaroda.bank.in/career/current-opportunities",
     "official": "https://bankofbaroda.bank.in/",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "hssc-cet-group-d-05-2026",
@@ -2520,7 +2520,7 @@ window.AJ_JOB_DATA = [
     "fee": "General ₹100; Haryana SC/BC/EWS/EBP(GC) ₹25; Haryana Ex-Servicemen Nil, as applicable under the CET advertisement/instructions.",
     "documents": "Mandatory documents as specified in Advt. 05/2026: recent photograph/signature and identity/DOB proof; relevant qualification/supporting certificates; BCA/BCB/EWS certificate issued within the prescribed period; DSC/OSC certificate where applicable; PwBD/ESP/ESM-family eligibility certificates where applicable. Upload/attach only the documents and formats prescribed by HSSC.",
     "vacancy": "Post-wise vacancy — see official notification",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "hssc-advt-06-2026-group-c",
@@ -2539,7 +2539,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "haryana-government-upcoming-recruitment-2026-27",
@@ -2557,7 +2557,7 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "haryana-private-jobs-2026-27",
@@ -2575,7 +2575,7 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "iocl-western-apprentice-335-2026",
@@ -2593,7 +2593,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-rci-apprentice-2027",
@@ -2611,7 +2611,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-pxe-apprentice-2026",
@@ -2629,7 +2629,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-dipr-iti-apprentice-2026",
@@ -2647,7 +2647,7 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "naval-dockyard-mumbai-apprentice-283-2026",
@@ -2665,7 +2665,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ssc-chsl-2026-2536",
@@ -2683,7 +2683,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mp-police-asi-subedar-steno-655-2026",
@@ -2701,7 +2701,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "army-aoc-group-c-2615-2026",
@@ -2719,7 +2719,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mecl-accountant-other-2026",
@@ -2737,7 +2737,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ndma-young-consultant-2026",
@@ -2755,7 +2755,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nbems-executive-director-2026",
@@ -2773,7 +2773,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-ntpc-5165-2026",
@@ -2791,7 +2791,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-alp-11127-2026-exam",
@@ -2809,7 +2809,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrc-western-sports-quota-2026-27",
@@ -2827,7 +2827,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-director-dia-coe-2026",
@@ -2845,7 +2845,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-dgre-jrf-2026-27",
@@ -2863,7 +2863,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-mtrdc-jrf-2026",
@@ -2881,7 +2881,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "psssb-group-b-13-2026",
@@ -2899,7 +2899,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "punjab-police-10000-upcoming-2026",
@@ -2917,7 +2917,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sssc-punjab-district-court-clerk-2026",
@@ -2936,7 +2936,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rajasthan-contractual-safai-karamchari-2026",
@@ -2954,7 +2954,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ap-police-constable-1027-2026",
@@ -2972,7 +2972,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ruhs-medical-officer-600-2026",
@@ -2990,7 +2990,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "assam-rifles-technical-tradesman-354-2026",
@@ -3008,7 +3008,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "crpf-sports-quota-521-2026",
@@ -3026,7 +3026,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-direct-recruitment-12-2026",
@@ -3044,7 +3044,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "employment-news-nsic-tsc-2026",
@@ -3062,7 +3062,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "employment-news-cfti-2026",
@@ -3080,7 +3080,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ignou-nonteaching-2026",
@@ -3098,7 +3098,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ignou-teaching-2026",
@@ -3116,7 +3116,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bpsc-tre-4-32388-2026",
@@ -3134,7 +3134,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upessc-assistant-professor-1936-2026",
@@ -3152,7 +3152,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "up-pgt-2607-2026",
@@ -3170,7 +3170,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "esic-alwar-faculty-166-2026",
@@ -3188,7 +3188,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "haryana-health-multiple-2026",
@@ -3206,7 +3206,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "uiic-ao-225-2026",
@@ -3224,7 +3224,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ibps-csa-xvi-2026",
@@ -3242,7 +3242,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ibps-so-xvi-2026-main",
@@ -3260,7 +3260,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ibps-rrb-xv-2026",
@@ -3278,7 +3278,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ibps-local-bank-officer-2026-27",
@@ -3296,7 +3296,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-adv-12-2026-direct-2026",
@@ -3314,7 +3314,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-engineering-services-2027",
@@ -3332,7 +3332,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ssc-cpo-1871-2026",
@@ -3350,7 +3350,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ssc-chsl-2026-exam-update",
@@ -3368,7 +3368,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upsc-epfo-apfc-80-2026",
@@ -3386,7 +3386,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "supreme-court-jca-250-2026",
@@ -3404,7 +3404,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "canara-bank-apprentice-3500-2026",
@@ -3422,7 +3422,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nit-non-faculty-2026",
@@ -3440,7 +3440,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mpa-class-1-2-2026",
@@ -3458,7 +3458,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "kucbl-manager-assistant-manager-2026",
@@ -3476,7 +3476,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ieb-srd-2026",
@@ -3494,7 +3494,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sahitya-akademi-30-2026",
@@ -3512,7 +3512,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-nursing-superintendent-365-2026",
@@ -3530,7 +3530,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-paramedical-590-2026",
@@ -3548,7 +3548,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rajasthan-safai-24752-2026",
@@ -3566,7 +3566,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "up-prt-12405-2026",
@@ -3584,7 +3584,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "up-pgt-2607-2026-oct",
@@ -3602,7 +3602,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bpsc-tre-4-33320-2026",
@@ -3620,7 +3620,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "up-assistant-professor-1926-2026",
@@ -3638,7 +3638,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "aiims-rewari-jr-25-2026",
@@ -3656,7 +3656,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sainik-school-kunjpura-15-2026",
@@ -3674,7 +3674,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nift-em-jrf-2026",
@@ -3692,7 +3692,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rites-assistant-manager-2-2026",
@@ -3710,7 +3710,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mp-police-7500-2026",
@@ -3728,7 +3728,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mp-asi-subedar-655-2026",
@@ -3746,7 +3746,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrc-jaipur-apprentice-2008-2026",
@@ -3764,7 +3764,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "cdac-844-2026",
@@ -3782,7 +3782,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mecon-159-ftft-2026",
@@ -3800,7 +3800,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "dsssb-641-2026",
@@ -3818,7 +3818,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ssc-gd-2027",
@@ -3836,7 +3836,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-upsc-nda-na-i-2027",
@@ -3854,7 +3854,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-upsc-cds-i-2027",
@@ -3872,7 +3872,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-upsc-cisf-ac-2027",
@@ -3890,7 +3890,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ssc-cgl-2027",
@@ -3908,7 +3908,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ssc-chsl-2027",
@@ -3936,7 +3936,7 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "Post/category-wise details will be published in the official notification",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ssc-je-2027",
@@ -3954,7 +3954,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-rrb-group-d-next",
@@ -3972,7 +3972,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-rrb-alp-next",
@@ -3990,7 +3990,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ibps-po-2027",
@@ -4018,7 +4018,7 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "Post/category-wise details will be published in the official notification",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ibps-clerk-2027",
@@ -4046,7 +4046,7 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "Post/category-wise details will be published in the official notification",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-ibps-rrb-2027",
@@ -4074,7 +4074,7 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "Post/category-wise details will be published in the official notification",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-hssc-group-c-2027",
@@ -4092,7 +4092,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-haryana-police-2027",
@@ -4110,7 +4110,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-nvs-2027",
@@ -4128,7 +4128,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "upcoming-sainik-schools-2027",
@@ -4146,7 +4146,7 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-andhra-pradesh",
@@ -4165,7 +4165,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://portal-psc.ap.gov.in/",
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-arunachal-pradesh",
@@ -4184,7 +4184,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.appsc.gov.in/",
     "official": "https://www.appsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-assam",
@@ -4203,7 +4203,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://apsc.nic.in/",
     "official": "https://apsc.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-bihar",
@@ -4222,7 +4222,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://bpsc.bihar.gov.in/",
     "official": "https://bpsc.bihar.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-chhattisgarh",
@@ -4241,7 +4241,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://psc.cg.gov.in/",
     "official": "https://psc.cg.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-goa",
@@ -4260,7 +4260,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://gssc.goa.gov.in/",
     "official": "https://gssc.goa.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-gujarat",
@@ -4279,7 +4279,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://gpsc.gujarat.gov.in/",
     "official": "https://gpsc.gujarat.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-haryana",
@@ -4298,7 +4298,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://hssc.gov.in/",
     "official": "https://hssc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-himachal-pradesh",
@@ -4317,7 +4317,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-jharkhand",
@@ -4336,7 +4336,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.jpsc.gov.in/",
     "official": "https://www.jpsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-karnataka",
@@ -4355,7 +4355,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://kpsc.kar.nic.in/",
     "official": "https://kpsc.kar.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-kerala",
@@ -4374,7 +4374,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.keralapsc.gov.in/",
     "official": "https://www.keralapsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-madhya-pradesh",
@@ -4393,7 +4393,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://mppsc.mp.gov.in/",
     "official": "https://mppsc.mp.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-maharashtra",
@@ -4412,7 +4412,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://mpsc.gov.in/",
     "official": "https://mpsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-manipur",
@@ -4431,7 +4431,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://mpscmanipur.gov.in/",
     "official": "https://mpscmanipur.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-meghalaya",
@@ -4450,7 +4450,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://mpsc.nic.in/",
     "official": "https://mpsc.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-mizoram",
@@ -4469,7 +4469,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://mpsc.mizoram.gov.in/",
     "official": "https://mpsc.mizoram.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-nagaland",
@@ -4488,7 +4488,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://npsc.nagaland.gov.in/",
     "official": "https://npsc.nagaland.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-odisha",
@@ -4507,7 +4507,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.opsc.gov.in/",
     "official": "https://www.opsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-punjab",
@@ -4526,7 +4526,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://ppsc.gov.in/",
     "official": "https://ppsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-rajasthan",
@@ -4545,7 +4545,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://rpsc.rajasthan.gov.in/",
     "official": "https://rpsc.rajasthan.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-sikkim",
@@ -4564,7 +4564,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://spsc.sikkim.gov.in/",
     "official": "https://spsc.sikkim.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-tamil-nadu",
@@ -4583,7 +4583,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.tnpsc.gov.in/",
     "official": "https://www.tnpsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-telangana",
@@ -4602,7 +4602,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.tspsc.gov.in/",
     "official": "https://www.tspsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-tripura",
@@ -4621,7 +4621,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://tpsc.tripura.gov.in/",
     "official": "https://tpsc.tripura.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-uttar-pradesh",
@@ -4640,7 +4640,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://uppsc.up.nic.in/",
     "official": "https://uppsc.up.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-uttarakhand",
@@ -4659,7 +4659,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://psc.uk.gov.in/",
     "official": "https://psc.uk.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-west-bengal",
@@ -4678,7 +4678,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://psc.wb.gov.in/",
     "official": "https://psc.wb.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-andaman-nicobar-islands",
@@ -4697,7 +4697,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.andaman.gov.in/",
     "official": "https://www.andaman.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-chandigarh",
@@ -4716,7 +4716,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://chandigarh.gov.in/",
     "official": "https://chandigarh.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-dadra-nagar-haveli-and-daman-diu",
@@ -4735,7 +4735,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://ddd.gov.in/",
     "official": "https://ddd.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-delhi",
@@ -4754,7 +4754,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://dsssb.delhi.gov.in/",
     "official": "https://dsssb.delhi.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-jammu-kashmir",
@@ -4773,7 +4773,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://jkpsc.nic.in/",
     "official": "https://jkpsc.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-ladakh",
@@ -4792,7 +4792,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://ladakh.gov.in/",
     "official": "https://ladakh.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-lakshadweep",
@@ -4811,7 +4811,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://lakshadweep.gov.in/",
     "official": "https://lakshadweep.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "state-puducherry",
@@ -4830,7 +4830,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.py.gov.in/",
     "official": "https://www.py.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "appsc-group1-2026-latest",
@@ -4850,7 +4850,7 @@ window.AJ_JOB_DATA = [
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "DOB proof, degree/marksheets, photo, signature, valid ID, AP/local/category certificates where applicable, experience/NOC if required.",
     "lastChecked": "07/10/2026",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "appsc-aee-2026-latest",
@@ -4870,7 +4870,7 @@ window.AJ_JOB_DATA = [
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "Engineering qualification certificate and marksheets, DOB proof, photo, signature, ID, category/local certificates where applicable.",
     "lastChecked": "07/10/2026",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "appsc-horticulture-officer-2026",
@@ -4890,7 +4890,7 @@ window.AJ_JOB_DATA = [
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "Degree/marksheets, DOB proof, photo, signature, ID, category/local certificate where applicable.",
     "lastChecked": "07/10/2026",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "arunachal-appsc-063-2026",
@@ -4909,7 +4909,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
     "official": "https://www.appsc.gov.in/",
     "documents": "Qualification/marksheets, DOB proof, photo, signature, valid ID and Arunachal/local/category certificates where required.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "arunachal-appsc-062-2026",
@@ -4928,7 +4928,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
     "official": "https://www.appsc.gov.in/",
     "documents": "Qualification/marksheets, DOB proof, photo, signature, valid ID and Arunachal/local/category certificates where required.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "bihar-bpsc-72nd-cce-2026",
@@ -4947,7 +4947,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://bpsc.bihar.gov.in/exam-calendar/",
     "official": "https://bpsc.bihar.gov.in/",
     "documents": "Degree/marksheets, DOB proof, photo, signature, valid ID, Bihar/category certificates where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "goa-chairman-gspcb-2026",
@@ -4966,7 +4966,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.goa.gov.in/citizen/recruitment/",
     "official": "https://www.goa.gov.in/",
     "documents": "Application form, qualification/experience proof, DOB proof, photo, ID and supporting certificates as prescribed.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "goa-tourism-manager-marketing-2026",
@@ -4985,7 +4985,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.goa.gov.in/citizen/recruitment/",
     "official": "https://www.goa.gov.in/",
     "documents": "Qualification, experience, DOB, photo, ID and other certificates prescribed in advertisement.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "goa-junior-engineer-civil-2026",
@@ -5004,7 +5004,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.goa.gov.in/citizen/recruitment/",
     "official": "https://www.goa.gov.in/",
     "documents": "Civil Engineering certificate/marksheets, DOB proof, photo, ID, category/experience documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "hppscc-64-10-2026",
@@ -5023,7 +5023,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "Medical qualification, registration, experience, DOB, photo, ID and category certificates as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "hppsc-agriculture-development-officer-2026",
@@ -5042,7 +5042,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "Agriculture qualification/marksheets, DOB proof, photo, ID, category/domicile and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "kerala-psc-gazette-151-161-2026",
@@ -5061,7 +5061,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.keralapsc.gov.in/notifications",
     "official": "https://www.keralapsc.gov.in/",
     "documents": "10th/12th/degree or post-specific qualification, DOB proof, photo, signature, ID and community/category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "odisha-aee-civil-2026",
@@ -5080,7 +5080,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.opsc.gov.in/",
     "official": "https://www.opsc.gov.in/",
     "documents": "Engineering degree/marksheets, DOB proof, photo, signature, valid ID, Odisha/category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "odisha-assistant-agriculture-engineer-2026",
@@ -5099,7 +5099,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.opsc.gov.in/",
     "official": "https://www.opsc.gov.in/",
     "documents": "Agricultural Engineering qualification, DOB proof, photo, signature, ID and category certificates as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "puducherry-vice-chancellor-ptu-2026",
@@ -5118,7 +5118,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.py.gov.in/recruitment",
     "official": "https://www.py.gov.in/",
     "documents": "Academic/professional profile, experience, DOB, ID and supporting documents as prescribed.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "puducherry-dowry-advisory-board-2026",
@@ -5137,7 +5137,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.py.gov.in/recruitment",
     "official": "https://www.py.gov.in/",
     "documents": "Application, ID, DOB, qualification/experience and supporting documents as prescribed.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "puducherry-forest-consultant-2026",
@@ -5156,7 +5156,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.py.gov.in/recruitment",
     "official": "https://www.py.gov.in/",
     "documents": "Retirement/service record, qualification/experience proof, DOB, ID and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "andaman-dhs-various-posts-2026",
@@ -5175,7 +5175,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://andamannicobar.gov.in/vacancy_all",
     "official": "https://andamannicobar.gov.in/",
     "documents": "Post-specific qualification, DOB proof, photo, ID, experience/category certificates where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "andaman-inland-vessel-surveyor-2026",
@@ -5194,7 +5194,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://andamannicobar.gov.in/vacancy_all",
     "official": "https://andamannicobar.gov.in/",
     "documents": "Relevant qualification/experience, DOB proof, photo, ID and prescribed certificates.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "chandigarh-utcps-contract-2026",
@@ -5213,7 +5213,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://chandigarh.gov.in/public-notice",
     "official": "https://chandigarh.gov.in/",
     "documents": "Post-specific qualification, DOB proof, photo, ID, experience/category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ddd-disaster-project-officer-diu-2026",
@@ -5232,7 +5232,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://ddd.gov.in/notice-category/recruitments/",
     "official": "https://ddd.gov.in/",
     "documents": "Prescribed qualification/experience, DOB proof, photo, ID and supporting certificates.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "lakshadweep-nursing-allied-2026",
@@ -5251,7 +5251,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://lakshadweep.gov.in/notice_category/recruitment/",
     "official": "https://lakshadweep.gov.in/",
     "documents": "Professional qualification, registration, DOB proof, photo, ID, experience and other certificates as prescribed.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "haryana-hssc-groupd-052026",
@@ -5271,7 +5271,7 @@ window.AJ_JOB_DATA = [
     "official": "https://hssc.gov.in/",
     "documents": "10th certificate/DOB proof, photo, signature, valid ID, Haryana domicile/category/EWS certificates where applicable and other prescribed documents.",
     "lastChecked": "07/10/2026",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "appsc-group1-aee-ho-2026",
@@ -5291,7 +5291,7 @@ window.AJ_JOB_DATA = [
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "DOB proof, prescribed educational certificates/marksheets, photo, signature, valid ID, AP/local-status or category certificates where applicable, experience/NOC where prescribed.",
     "lastChecked": "07/10/2026",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "gssc-fso-veterinary-assistant-2026",
@@ -5310,7 +5310,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://gssc.goa.gov.in/",
     "official": "https://gssc.goa.gov.in/",
     "documents": "DOB proof, prescribed qualification and marksheets, professional registration where required, photo, signature, valid ID and category certificates where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "btsc-scientific-assistant-30-2026",
@@ -5329,7 +5329,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://btsc.bihar.gov.in/recruitment?page=0",
     "official": "https://btsc.bihar.gov.in/",
     "documents": "DOB proof, prescribed degree/qualification and marksheets, photo, signature, valid ID, Bihar/category certificates where applicable and other documents specified in Advt. 30/2026.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "btsc-fso-29-2026",
@@ -5348,7 +5348,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://btsc.bihar.gov.in/hi/node/1236",
     "official": "https://btsc.bihar.gov.in/",
     "documents": "DOB proof, prescribed qualification/marksheets, photo, signature, valid ID, Bihar/category certificates where applicable and other documents specified in Advt. 29/2026.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "btsc-fishery-extension-28-2026",
@@ -5367,7 +5367,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://btsc.bihar.gov.in/recruitment?page=0",
     "official": "https://btsc.bihar.gov.in/",
     "documents": "DOB proof, prescribed Fisheries qualification/marksheets, photo, signature, valid ID, Bihar/category certificates where applicable and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "hppsc-assistant-professor-gi-surgery-64-2026",
@@ -5386,7 +5386,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "DOB proof, MBBS/medical degrees, super-specialty qualification, registration, experience where required, photo, signature, valid ID and category certificates where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "hppsc-ado-63-2026",
@@ -5405,7 +5405,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "DOB proof, Agriculture degree/marksheets, photo, signature, valid ID, Himachal/category certificates where applicable and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mphc-steno-388-2026",
@@ -5424,7 +5424,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://mphc.gov.in/exam-cell",
     "official": "https://mphc.gov.in/",
     "documents": "10th/DOB proof, prescribed educational certificate, computer/typing/shorthand qualification where applicable, photo, signature, valid ID, category certificate and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "psssb-groupb-13-2026",
@@ -5443,7 +5443,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://sssb.punjab.gov.in/",
     "official": "https://sssb.punjab.gov.in/",
     "documents": "DOB proof, post-specific degree/diploma and marksheets, photo, signature, valid ID, Punjab domicile/category/EWS certificates where applicable and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "punjab-court-clerk-1270-2026",
@@ -5462,7 +5462,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://sssc.gov.in/notice-board",
     "official": "https://sssc.gov.in/",
     "documents": "DOB proof, graduation certificate/marksheets, computer qualification/proficiency evidence, photo, signature, valid ID, category/PwBD/ESM/EWS certificates where applicable and other documents prescribed by SSSC.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mpesb-police-constable-gd-2026",
@@ -5481,7 +5481,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx?Action=showServiceList",
     "official": "https://esb.mponline.gov.in/",
     "documents": "DOB proof, prescribed education certificate, photo, signature, valid ID, MP domicile/category certificates where applicable and other documents prescribed in the official rulebook.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mpesb-subedar-asi-steno-2026",
@@ -5500,7 +5500,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx?Action=showServiceList",
     "official": "https://esb.mponline.gov.in/",
     "documents": "DOB proof, prescribed qualification/marksheets, shorthand/typing/computer certificates where applicable, photo, signature, valid ID, MP domicile/category certificates and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mpesb-naib-tehsildar-limited-2026",
@@ -5519,7 +5519,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx?Action=showServiceList",
     "official": "https://esb.mponline.gov.in/",
     "documents": "Service/employment records, DOB proof, qualification and eligibility documents, photo, signature, ID and other certificates prescribed for eligible candidates.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "odisha-osssc-radiographer-2026-v2",
@@ -5538,7 +5538,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://osssc.gov.in/Public/OSSSC/Default.aspx",
     "official": "https://osssc.gov.in/",
     "documents": "Radiographer qualification/registration, DOB proof, photograph, signature, valid ID and applicable category certificates.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rajasthan-safai-karamchari-2026-v2",
@@ -5557,7 +5557,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.recruitment.rajasthan.gov.in/",
     "official": "https://www.recruitment.rajasthan.gov.in/",
     "documents": "DOB proof, prescribed eligibility documents, photograph, ID and category/domicile certificates where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "kerala-psc-gazette-151-161-2026-v2",
@@ -5576,7 +5576,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.keralapsc.gov.in/notifications",
     "official": "https://www.keralapsc.gov.in/",
     "documents": "Post-wise qualification, DOB proof, photograph, valid ID and supporting certificates as prescribed.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "appsc-hostel-welfare-officer-73-2026",
@@ -5595,7 +5595,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "DOB proof, prescribed degree/marksheets, photograph, signature, valid ID and applicable category/local-status certificates as prescribed.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "odisha-ssb-lab-assistant-435-2026",
@@ -5615,7 +5615,7 @@ window.AJ_JOB_DATA = [
     "official": "https://ssbodisha.ac.in/",
     "documents": "Degree/marksheets, Odia-language eligibility proof, DOB proof, photograph, signature, valid ID and category certificates where applicable.",
     "lastChecked": "07/10/2026",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "odisha-ssb-junior-assistant-chse-2026",
@@ -5635,7 +5635,7 @@ window.AJ_JOB_DATA = [
     "official": "https://ssbodisha.ac.in/",
     "documents": "Prescribed educational qualification, DOB proof, photograph, signature, valid ID and category certificates where applicable.",
     "lastChecked": "07/10/2026",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "canara-bank-apprentice-3500-2026",
@@ -5653,7 +5653,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://canarabank.com/pages/careers",
     "official": "https://canarabank.com/",
     "documents": "Graduation certificate/marksheets, DOB proof, NATS enrollment details, photograph, signature, valid photo ID and category/local-language documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrc-nwr-apprentice-2008-2026",
@@ -5671,7 +5671,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://rrcjaipur.in/",
     "official": "https://rrcjaipur.in/",
     "documents": "10th certificate/marksheet, ITI certificate and marksheet, DOB proof, photograph, signature, valid ID, caste/EWS/PwBD certificate where applicable and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-drl-jrf-ra-2026",
@@ -5689,7 +5689,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Prescribed degree/qualification, marksheets, DOB proof, photograph, valid ID, category certificates where applicable and documents specified in the DRDO advertisement.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-dmrl-jrf-2026",
@@ -5707,7 +5707,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Relevant degree/qualification and marksheets, DOB proof, photograph, valid ID and category/other supporting documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-cair-jrf-2026",
@@ -5725,7 +5725,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Relevant degree/qualification and marksheets, DOB proof, photograph, valid ID and category/other supporting documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-rci-apprentices-2027",
@@ -5743,7 +5743,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Relevant qualification/ITI or degree certificates and marksheets, DOB proof, photograph, valid ID, apprenticeship registration details and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "kucbl-managers-assistant-managers-2026",
@@ -5761,7 +5761,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/index.php/recruitment/",
     "official": "https://www.ibps.in/",
     "documents": "Educational certificates/marksheets, DOB proof, photograph, signature, valid ID, experience and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "nit-non-faculty-2026",
@@ -5779,7 +5779,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/index.php/recruitment/",
     "official": "https://www.ibps.in/",
     "documents": "Prescribed educational certificates, marksheets, DOB proof, photograph, signature, valid ID, experience and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "mpa-class-i-ii-posts-2026",
@@ -5797,7 +5797,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/index.php/recruitment/",
     "official": "https://www.ibps.in/",
     "documents": "Prescribed qualification, marksheets, DOB proof, photograph, signature, valid ID and experience/category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "railway-ncr-gdce-01-2026",
@@ -5815,7 +5815,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://rrcpryj.org/notification/",
     "official": "https://rrcpryj.org/",
     "documents": "Railway employee/service records, prescribed qualification documents, employee ID and other documents specified in the GDCE notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "railway-nwr-cultural-quota-2026",
@@ -5833,7 +5833,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://rrcjaipur.in/",
     "official": "https://rrcjaipur.in/",
     "documents": "Educational qualification, cultural achievement certificates, DOB proof, photograph, valid ID and other prescribed documents.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "railway-rci-apprentice-2026-27",
@@ -5851,7 +5851,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Relevant ITI/diploma/degree certificates and marksheets, DOB proof, photograph, valid ID, apprenticeship registration and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sbi-sco-contract-25-2026",
@@ -5869,7 +5869,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://sbi.bank.in/web/careers/current-openings1",
     "official": "https://sbi.bank.in/web/careers/",
     "documents": "Educational/professional certificates, marksheets, DOB proof, photograph, valid ID, experience certificates and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sbi-sco-contract-24-2026",
@@ -5887,7 +5887,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://sbi.bank.in/web/careers/current-openings1",
     "official": "https://sbi.bank.in/web/careers/",
     "documents": "Educational/professional certificates, marksheets, DOB proof, photograph, valid ID, experience certificates and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sbi-sco-dean-faculty-marketing-20-2026",
@@ -5905,7 +5905,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://sbi.bank.in/web/careers/current-openings1",
     "official": "https://sbi.bank.in/web/careers/",
     "documents": "Educational/professional certificates, marksheets, DOB proof, photograph, valid ID, experience certificates and other documents prescribed by SBI.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-pxe-apprentice-2026-27",
@@ -5923,7 +5923,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and apprenticeship registration/documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "drdo-dipr-iti-apprentice-2026",
@@ -5941,7 +5941,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "ITI certificate, marksheets, DOB proof, photograph, ID and apprenticeship registration/documents as applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "rrb-paramedical-cen-05-2026",
@@ -5959,7 +5959,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.rrbcdg.gov.in/",
     "official": "https://www.rrbcdg.gov.in/",
     "documents": "Educational/paramedical certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "railway-western-sports-quota-2026-27",
@@ -5977,7 +5977,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://rrc-wr.com/Home/Notifications",
     "official": "https://rrc-wr.com/",
     "documents": "Educational certificates, sports certificates, DOB proof, photograph, ID and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "sainik-school-mainpuri-tgt-counsellor-oct-2026",
@@ -5995,7 +5995,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.sainikschoolmainpuri.com/notifications",
     "official": "https://www.sainikschoolmainpuri.com/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and experience/category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "kvs-deputy-commissioner-direct-2026",
@@ -6013,7 +6013,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://kvsangathan.nic.in/en/updates/",
     "official": "https://kvsangathan.nic.in/",
     "documents": "Educational certificates, experience/service documents, DOB proof, photograph, ID and other documents prescribed by KVS.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ircon-mts-office-support-015-2026",
@@ -6031,7 +6031,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ircon-clerk-deo-017-2026",
@@ -6049,7 +6049,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ircon-storekeeper-material-018-2026",
@@ -6067,7 +6067,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ircon-trade-technician-019-2026",
@@ -6085,7 +6085,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "ITI/trade certificate, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "iit-jodhpur-apprentice-2-2026",
@@ -6103,7 +6103,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://iitj.ac.in/office-of-establishment-nf/en/establishment-nf-recruitment",
     "official": "https://iitj.ac.in/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and apprenticeship/NATS documents where applicable.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "apprenticeship-job-fair-begusarai-2026",
@@ -6121,7 +6121,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://apprenticeship.bopter.org/jobfair",
     "official": "https://apprenticeship.bopter.org/jobfair",
     "documents": "Educational/ITI/diploma/degree certificates, ID, photograph and documents requested by participating establishments.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "tnpsc-group4-2026",
@@ -6140,7 +6140,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.tnpsc.gov.in/English/Notification.aspx",
     "official": "https://www.tnpsc.gov.in/",
     "documents": "As prescribed in official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "appsc-arunachal-063-2026",
@@ -6159,7 +6159,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
     "official": "https://www.appsc.gov.in/",
     "documents": "As prescribed in official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "appsc-arunachal-062-2026",
@@ -6178,7 +6178,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
     "official": "https://www.appsc.gov.in/",
     "documents": "As prescribed in official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "tnpsc-technical-08-2026",
@@ -6197,7 +6197,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://apply.tnpscexams.in/notification",
     "official": "https://www.tnpsc.gov.in/",
     "documents": "As prescribed in official notification.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "telangana-hyd-ayush-2026",
@@ -6216,7 +6216,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://hyderabad.telangana.gov.in/notice_category/recruitment/",
     "official": "https://hyderabad.telangana.gov.in/",
     "documents": "Application as prescribed in official notice.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "maharashtra-raigad-kotwal-2026",
@@ -6235,7 +6235,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://raigad.gov.in/en/notice_category/recruitment/",
     "official": "https://raigad.gov.in/",
     "documents": "As prescribed in official notice.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   },
   {
     "id": "ddd-samagra-shiksha-2026",
@@ -6254,6 +6254,6 @@ window.AJ_JOB_DATA = [
     "notice": "https://ddd.gov.in/notice-category/Recruitments/",
     "official": "https://ddd.gov.in/",
     "documents": "As prescribed in official notice.",
-    "lastVerified": "07/10/2026"
+    "dataAuditDate": "07/10/2026"
   }
 ];
