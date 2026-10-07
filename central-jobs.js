@@ -4494,4 +4494,23 @@ window.AJ_JOB_DATA = [
   "official": "https://ssbodisha.ac.in/",
   "documents": "Degree/marksheets, Odia-language eligibility proof, DOB proof, photograph, signature, valid ID and category certificates where applicable."
 }
+,
+{
+  "id": "odisha-ssb-junior-assistant-chse-2026",
+  "category": "State Job",
+  "state": "Odisha",
+  "title": "Odisha SSB Junior Assistant in CHSE Recruitment 2026 — Advt. 03/2026",
+  "lastDate": "Check official correction/application notice",
+  "mode": "Online / Correction",
+  "openDate": "29/06/2026",
+  "vacancy": "Junior Assistant posts in CHSE (Odisha) — as per Advertisement No. 03/2026",
+  "qualification": "As prescribed in SSB Odisha Advertisement No. 03/2026",
+  "age": "As prescribed in the advertisement",
+  "fee": "As prescribed",
+  "selection": "As prescribed by SSB Odisha",
+  "apply": "https://ssbodisha.ac.in/",
+  "notice": "https://ssbodisha.ac.in/",
+  "official": "https://ssbodisha.ac.in/",
+  "documents": "Prescribed educational qualification, DOB proof, photograph, signature, valid ID and category certificates where applicable."
+}
 ];
