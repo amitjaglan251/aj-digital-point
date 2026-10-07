@@ -82,7 +82,6 @@ window.AJ_JOB_DATA = [
     "notice": "https://indiaoptel.in/career/",
     "official": "https://indiaoptel.in/",
     "documents": "Recent photograph, signature, valid ID/DOB proof, prescribed educational/technical qualification certificates and marksheets, experience certificate where required, category certificate where applicable, and other documents specifically listed in the official notification."
-  }
   },
   {
     "id": "mecl-non-executive-2026",
