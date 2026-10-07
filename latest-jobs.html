@@ -16,7 +16,7 @@
 <div id="all"></div><div id="app"></div><p class="source-note">🕒 Data refresh target: 07-10-2026. State/UT recruitment feeds are linked to official recruitment sources; live vacancies and deadlines are notification-wise. Latest entries are based on official recruitment/career sources checked for this update. Private-company openings can close without a fixed public last date.</p>
 <section class="notice"><b>Important:</b> AJ DIGITAL POINT independent information portal है, government website नहीं। Fee, age, qualification, vacancy, last date और selection की final जानकारी संबंधित official notification/portal से verify करें।</section></main>
 <nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="govt-schemes.html">🏛️<span>Schemes</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer>
-<script src="central-jobs.js?v=20261007-8"></script>
+<script src="central-jobs.js?v=20261007-9"></script>
 <script>
 (function(){
   const data = Array.isArray(window.AJ_JOB_DATA) ? window.AJ_JOB_DATA : [];
@@ -104,9 +104,13 @@
   ['📝 Apprenticeship / ITI',x=>/apprent|iti|technician|trade|trainee/i.test(hay(x)),'latest-jobs.html?filter=all']
  ];
  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
- root.innerHTML=groups.map(g=>{
-   const rows=data.filter(g[1]).filter(x=>!expired(x)).slice(0,8);
-   return '<div class="portal-box"><h3>'+g[0]+'</h3><div class="portal-links">'+(rows.length?rows.map(x=>'<a href="job-details.html?job='+encodeURIComponent(x.id||'')+'">'+esc(x.title)+'</a>').join(''):'<div class="portal-empty">अभी कोई active entry नहीं</div>')+'<a class="portal-more" href="'+g[2]+'">View More</a></div></div>';
+ root.innerHTML=groups.map((g,gi)=>{
+   let rows=data.filter(g[1]);
+   if(gi===0) rows=rows.filter(x=>!expired(x)&&!upcoming(x));
+   if(gi===1) rows=rows.filter(x=>upcoming(x));
+   rows.sort((a,b)=>(expired(a)?1:0)-(expired(b)?1:0));
+   rows=rows.slice(0,8);
+   return '<div class="portal-box"><h3>'+g[0]+'</h3><div class="portal-links">'+(rows.length?rows.map(x=>'<a href="job-details.html?job='+encodeURIComponent(x.id||'')+'">'+esc(x.title)+'</a>').join(''):'<div class="portal-empty">अभी कोई matching entry नहीं</div>')+'<a class="portal-more" href="'+g[2]+'">View More</a></div></div>';
  }).join('');
 })();
 </script></body></html>
