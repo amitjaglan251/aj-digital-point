@@ -137,9 +137,11 @@ const finalDocs=docs.length?docs:['इस vacancy record में official requ
 dl.innerHTML=finalDocs.map(x=>'<li>'+esc(x)+'</li>').join('');
 const links=d.links||{};
 const lg=document.getElementById('linkGrid');
+const isDirectFileOrNoticeUrl=u=>{if(!u)return false; const x=String(u).toLowerCase(); return /\.pdf(?:[?#].*)?$/.test(x)||/\/api\/attachment\//.test(x)||/\/download(?:[/?#]|$)/.test(x)||/download\?/.test(x);};
+const directNotification=links.notification||(isDirectFileOrNoticeUrl(d.notice)?d.notice:'');
 const linkItems=[
  ['🚀 Apply Online Link',links.apply||d.apply,'green'],
- ['📄 Download Official Notification',links.notification||d.notice,''],
+ ['📄 Download Official Notification',directNotification,''],
  ['🌐 Official Website',links.official||d.official,''],
  ['📊 Download Marks / Check Marks',links.marks,''],
  ['🏆 Download Final Result / Check Result Notice',links.result,''],
