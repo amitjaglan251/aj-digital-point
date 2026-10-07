@@ -101,7 +101,7 @@
 </main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261007-11"></script><script>(function(){
 const p=new URLSearchParams(location.search),id=(p.get('job')||p.get('id')||'').trim();
 const d=(window.AJ_JOB_DATA||[]).find(x=>String(x.id)===id);
-const fallback='Not separately published / Not applicable';
+const fallback='इस vacancy record में official notification/data उपलब्ध नहीं है';
 const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=(v!==undefined&&v!==null&&String(v).trim()!=='')?v:fallback;};
 const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 if(!d){document.getElementById('jobTitle').textContent='Job Not Found';document.getElementById('jobSub').textContent='कृपया Latest Jobs page से job चुनें।';return;}
@@ -133,8 +133,7 @@ const applySteps=Array.isArray(d.applySteps)?d.applySteps:[
 steps.innerHTML=applySteps.map(x=>'<li>'+esc(x)+'</li>').join('');
 
 const docs=Array.isArray(d.documents)?d.documents:(d.documents?[d.documents]:[]);
-const base=['Recent passport-size photograph','Signature','Valid photo ID / accepted ID proof','Educational certificates / marksheets','DOB proof where required'];
-const finalDocs=docs.length?docs:base;
+const finalDocs=docs.length?docs:['इस vacancy record में official required-documents list उपलब्ध नहीं है — कोई अनुमानित checklist नहीं दिखाई जा रही है।'];
 dl.innerHTML=finalDocs.map(x=>'<li>'+esc(x)+'</li>').join('');
 const links=d.links||{};
 const lg=document.getElementById('linkGrid');
@@ -165,17 +164,10 @@ const linkItems=[
  ['📋 Check Vacancy Details Notice',links.vacancy,''],
  ['📚 Previous Year Papers / Syllabus',links.previousPapers||links.syllabus,'']
 ];
-const orgHay=String((d.title||'')+' '+(d.organization||'')+' '+(d.category||'')).toLowerCase();
-const portalLinks=[];
-if(/ssc/.test(orgHay)) portalLinks.push(['🌐 SSC Official Website', 'https://ssc.gov.in/']);
-if(/upsc/.test(orgHay)) portalLinks.push(['🏆 UPSC Final Results', 'https://www.upsc.gov.in/exams-related-info/final-result'],['🌐 UPSC Official Website','https://www.upsc.gov.in/']);
-if(/ibps/.test(orgHay)) portalLinks.push(['📊 IBPS Result / Score Portal','https://www.ibps.in/'],['🌐 IBPS Official Website','https://www.ibps.in/']);
-if(/rrb|railway/.test(orgHay)) portalLinks.push(['📊 RRB Result / Updates','https://www.rrbcdg.gov.in/archive.php'],['🎫 RRB Official Apply / Candidate Portal','https://www.rrbapply.gov.in/']);
-if(/hssc/.test(orgHay)) portalLinks.push(['🌐 HSSC Official Recruitment Website','https://hssc.gov.in/']);
-const allLinks=linkItems.filter(x=>x[1]).concat(portalLinks.map(x=>[x[0],x[1],'']));
+const allLinks=linkItems.filter(x=>x[1]);
 lg.innerHTML=allLinks.map(x=>'<a class="detail-link '+x[2]+'" href="'+esc(x[1])+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('');
 if(!lg.innerHTML){
- lg.innerHTML='<a class="detail-link green" href="'+esc(d.apply||d.official||'#')+'" target="_blank" rel="noopener noreferrer">🚀 Apply / Official Link ↗</a>';
+ lg.innerHTML='<div class="warning"><b>Official direct links उपलब्ध नहीं हैं.</b> इस record के लिए कोई अनुमानित/duplicate homepage link नहीं बनाया गया है।</div>';
 }
 const c=document.getElementById('chips');
 c.innerHTML='<span class="chip">'+esc(d.category||'Recruitment')+'</span><span class="chip">'+esc(d.mode||'Online')+'</span><span class="chip">'+(isUpcoming?'⏳ Upcoming':'📌 Current / Listed')+'</span>'+(d.state?'<span class="chip">📍 '+esc(d.state)+'</span>':'');
