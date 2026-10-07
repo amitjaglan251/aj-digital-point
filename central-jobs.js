@@ -4939,5 +4939,39 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "ITI/trade certificate, marksheets, DOB proof, photograph, valid ID and category documents where applicable."
+  },
+  {
+    "id": "iit-jodhpur-apprentice-2-2026",
+    "category": "Apprenticeship",
+    "title": "IIT Jodhpur Apprentice Recruitment 2026 — IITJ/Apprentice (2)/2026",
+    "lastDate": "Check official advertisement",
+    "mode": "Online",
+    "openDate": "30/09/2026",
+    "vacancy": "Apprentice positions as notified by IIT Jodhpur",
+    "qualification": "Relevant qualification as prescribed in the official advertisement",
+    "age": "As prescribed in the official advertisement",
+    "fee": "As prescribed in the official advertisement",
+    "selection": "As prescribed by IIT Jodhpur",
+    "apply": "https://iitj.ac.in/office-of-establishment-nf/en/establishment-nf-recruitment",
+    "notice": "https://iitj.ac.in/office-of-establishment-nf/en/establishment-nf-recruitment",
+    "official": "https://iitj.ac.in/",
+    "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and apprenticeship/NATS documents where applicable."
+  },
+  {
+    "id": "apprenticeship-job-fair-begusarai-2026",
+    "category": "Apprenticeship",
+    "title": "Apprenticeship-Cum-Job Fair — Begusarai, Bihar — 07 October 2026",
+    "lastDate": "07/10/2026",
+    "mode": "Apprenticeship-Cum-Job Fair",
+    "openDate": "07/10/2026",
+    "vacancy": "910 vacancies across 20 registered establishments",
+    "qualification": "As prescribed by participating establishments",
+    "age": "As prescribed by participating establishments",
+    "fee": "As per fair/establishment requirements",
+    "selection": "Employer/establishment-wise selection",
+    "apply": "https://apprenticeship.bopter.org/jobfair",
+    "notice": "https://apprenticeship.bopter.org/jobfair",
+    "official": "https://apprenticeship.bopter.org/jobfair",
+    "documents": "Educational/ITI/diploma/degree certificates, ID, photograph and documents requested by participating establishments."
   }
 ];
