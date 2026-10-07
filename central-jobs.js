@@ -6954,3 +6954,32 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "07/10/2026"
   }
 ];
+
+(function(){
+  // Direct-link policy: only exact target URLs are exposed as result/marks/cutoff/
+  // answer-key/admit-card/exam-city/notice buttons. Generic home/listing URLs are not reused.
+  const directFile=u=>{
+    if(!u) return false;
+    const x=String(u).toLowerCase();
+    return /\.pdf(?:[?#].*)?$/.test(x) ||
+           /\/api\/attachment\//.test(x) ||
+           /\/download(?:[/?#]|$)/.test(x) ||
+           /download\?/.test(x);
+  };
+  const protectedFields=["notification","result","marks","cutoff","answerKey","admitCard","examCity",
+    "examDateNotice","skillTestCity","skillTestCityNotice","finalAnswerKey","finalAnswerKeyNotice",
+    "optionPreference","optionPreferenceNotice","frtaResult","frtaCutoff","revisedFrtaResult",
+    "revisedFrtaCutoff","vacancy","finalVacancyNotice","notice"];
+  window.AJ_JOB_DATA.forEach(d=>{
+    d.links=d.links||{};
+    if(!d.links.notification && directFile(d.notice)) d.links.notification=d.notice;
+    protectedFields.forEach(k=>{
+      const u=d.links[k];
+      if(!u) return;
+      // Never label an organization's generic homepage or the same generic apply portal
+      // as a result/marks/cutoff/etc. button.
+      if(k!=="notice" && k!=="notification" && (u===d.official || u===d.apply)) delete d.links[k];
+      if((k==="notice" || k==="notification") && u===d.official) delete d.links[k];
+    });
+  });
+})();
