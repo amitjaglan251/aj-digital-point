@@ -4457,4 +4457,41 @@ window.AJ_JOB_DATA = [
   "official": "https://www.keralapsc.gov.in/",
   "documents": "Post-wise qualification, DOB proof, photograph, valid ID and supporting certificates as prescribed."
 }
+,
+{
+  "id": "appsc-hostel-welfare-officer-73-2026",
+  "category": "State Job",
+  "state": "Andhra Pradesh",
+  "title": "APPSC Hostel Welfare Officer Grade-II Recruitment 2026 — Notification No. 25/2026",
+  "lastDate": "29/10/2026",
+  "mode": "Online",
+  "openDate": "09/10/2026",
+  "vacancy": "73 Posts — Social Welfare 21, Tribal Welfare 23, BC Welfare 29",
+  "qualification": "Bachelor's degree or equivalent as prescribed in Notification No. 25/2026",
+  "age": "As prescribed by APPSC, with applicable relaxations",
+  "fee": "As prescribed by APPSC",
+  "selection": "Single-level Computer Based Recruitment Test; post-wise conditions as prescribed",
+  "apply": "https://portal-psc.ap.gov.in/",
+  "notice": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
+  "official": "https://portal-psc.ap.gov.in/",
+  "documents": "DOB proof, prescribed degree/marksheets, photograph, signature, valid ID and applicable category/local-status certificates as prescribed."
+},
+{
+  "id": "odisha-ssb-lab-assistant-435-2026",
+  "category": "State Job",
+  "state": "Odisha",
+  "title": "Odisha SSB Laboratory Assistant-cum-Storekeeper Recruitment 2026 — Advt. 04/2026",
+  "lastDate": "16/11/2026 11:45 PM",
+  "mode": "Upcoming Online",
+  "openDate": "12/10/2026 02:30 PM",
+  "vacancy": "435 Posts — 57 Laboratory Assistant + 378 Laboratory Assistant-cum-Storekeeper",
+  "qualification": "Bachelor's Degree with Honours in the respective practical subject and Odia-language requirements as prescribed in the advertisement",
+  "age": "As prescribed by State Selection Board, Odisha",
+  "fee": "UR/SEBC ₹500; SC/ST/PwD ₹200",
+  "selection": "As prescribed in SSB Odisha detailed advertisement",
+  "apply": "https://ssbodisha.ac.in/",
+  "notice": "https://ssbodisha.ac.in/",
+  "official": "https://ssbodisha.ac.in/",
+  "documents": "Degree/marksheets, Odia-language eligibility proof, DOB proof, photograph, signature, valid ID and category certificates where applicable."
+}
 ];
