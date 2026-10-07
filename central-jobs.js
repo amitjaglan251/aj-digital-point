@@ -4531,4 +4531,22 @@ window.AJ_JOB_DATA = [
   "official": "https://canarabank.com/",
   "documents": "Graduation certificate/marksheets, DOB proof, NATS enrollment details, photograph, signature, valid photo ID and category/local-language documents where applicable."
 }
+,
+{
+  "id": "rrc-nwr-apprentice-2008-2026",
+  "category": "Central Job",
+  "title": "RRC North Western Railway Act Apprentice Recruitment 2026 — 2,008 Posts",
+  "lastDate": "06/11/2026",
+  "mode": "Online",
+  "openDate": "06/10/2026",
+  "vacancy": "2,008 Act Apprentice posts",
+  "qualification": "10th pass with minimum prescribed marks and ITI in relevant trade from recognized institution",
+  "age": "15–24 years as prescribed, with applicable relaxation",
+  "fee": "As prescribed in RRC NWR notification; exempt categories as applicable",
+  "selection": "Merit based on prescribed 10th and ITI marks, document verification and medical fitness as prescribed",
+  "apply": "https://rrcjaipur.in/",
+  "notice": "https://rrcjaipur.in/",
+  "official": "https://rrcjaipur.in/",
+  "documents": "10th certificate/marksheet, ITI certificate and marksheet, DOB proof, photograph, signature, valid ID, caste/EWS/PwBD certificate where applicable and other prescribed documents."
+}
 ];
