@@ -4513,4 +4513,22 @@ window.AJ_JOB_DATA = [
   "official": "https://ssbodisha.ac.in/",
   "documents": "Prescribed educational qualification, DOB proof, photograph, signature, valid ID and category certificates where applicable."
 }
+,
+{
+  "id": "canara-bank-apprentice-3500-2026",
+  "category": "Central Job",
+  "title": "Canara Bank Graduate Apprentice Recruitment 2026 — 3,500 Posts",
+  "lastDate": "17/10/2026",
+  "mode": "Online",
+  "openDate": "01/10/2026",
+  "vacancy": "3,500 Graduate Apprentice posts — FY 2026-27",
+  "qualification": "Graduate degree in any discipline from a recognized university/equivalent as prescribed",
+  "age": "20–28 years as on 01/09/2026, with applicable relaxation",
+  "fee": "As prescribed in the official notification; SC/ST/PwBD candidates exempt as applicable",
+  "selection": "Shortlisting on qualifying marks, local language test, document verification and medical fitness as prescribed",
+  "apply": "https://canarabank.com/pages/careers",
+  "notice": "https://canarabank.com/pages/careers",
+  "official": "https://canarabank.com/",
+  "documents": "Graduation certificate/marksheets, DOB proof, NATS enrollment details, photograph, signature, valid photo ID and category/local-language documents where applicable."
+}
 ];
