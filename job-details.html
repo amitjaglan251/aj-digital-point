@@ -16,9 +16,7 @@
 <table class="sr-table title-table"><tr><th>Name Of Post :</th><td id="nameOfPost">—</td></tr></table>
 
 <section class="jobbox intro-box">
-  <table class="detail-table meta-table">
-    <tr><td>Post Date / Update :</td><td><b id="postUpdate">07 October 2026</b></td></tr>
-    <tr><td>Short Information</td><td id="shortInfo">Complete recruitment information, important dates, eligibility, vacancy, application fee, selection process and official links are given below.</td></tr>
+  <table class="detail-table meta-table">    <tr><td>Short Information</td><td id="shortInfo">Complete recruitment information, important dates, eligibility, vacancy, application fee, selection process and official links are given below.</td></tr>
   </table>
 </section>
 
@@ -108,11 +106,10 @@ const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=(v!==u
 const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 if(!d){document.getElementById('jobTitle').textContent='Job Not Found';document.getElementById('jobSub').textContent='कृपया Latest Jobs page से job चुनें।';return;}
 const isUpcoming=d.category==='Upcoming Vacancy'||d.mode==='Upcoming';
-const dateNow=d.dataAuditDate||'07/10/2026';
 document.title=(d.title||'Job Details')+' | AJ DIGITAL POINT';
 set('jobTitle',d.title);set('jobSub',(d.category||'Recruitment')+' • '+(d.mode||'Online')+' • Complete Details');
 set('nameOfPost',d.post||d.title);set('post',d.post||d.title);set('vacancyPost',d.post||d.title);
-set('postUpdate',dateNow+' | Latest verified update');set('org',d.organization||d.department||'Official notification में देखें');
+set('org',d.organization||d.department||'Official notification में देखें');
 set('vacancy',d.vacancy);set('vacancy2',d.vacancy);set('categoryVacancy',d.categoryVacancy);
 set('topMode',d.mode);set('state',d.state||'All India / As per notification');
 set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':'Current / Listed Recruitment');
