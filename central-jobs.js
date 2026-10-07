@@ -158,9 +158,9 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
-    "apply": "",
-    "notice": "",
+    "official": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+    "apply": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+    "notice": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
     "dataAuditDate": "07/10/2026"
   },
   {
@@ -321,9 +321,9 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
-    "apply": "",
-    "notice": "",
+    "official": "https://www.nspcl.co.in/index.php/page/10",
+    "apply": "https://www.nspcl.co.in/index.php/page/10",
+    "notice": "https://www.nspcl.co.in/index.php/page/10",
     "dataAuditDate": "07/10/2026"
   },
   {
@@ -483,9 +483,9 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
-    "apply": "",
-    "notice": "",
+    "official": "https://recruit-delhi.nielit.gov.in/",
+    "apply": "https://recruit-delhi.nielit.gov.in/",
+    "notice": "https://recruit-delhi.nielit.gov.in/",
     "dataAuditDate": "07/10/2026"
   },
   {
@@ -519,9 +519,9 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
-    "apply": "",
-    "notice": "",
+    "official": "https://www.concorindia.co.in/",
+    "apply": "https://www.concorindia.co.in/",
+    "notice": "https://www.concorindia.co.in/",
     "dataAuditDate": "07/10/2026"
   },
   {
@@ -537,9 +537,9 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
-    "apply": "",
-    "notice": "",
+    "official": "https://uco.bank.in/web/guest/job-opportunities",
+    "apply": "https://uco.bank.in/web/guest/job-opportunities",
+    "notice": "https://uco.bank.in/web/guest/job-opportunities",
     "dataAuditDate": "07/10/2026"
   },
   {
@@ -555,9 +555,9 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
-    "apply": "",
-    "notice": "",
+    "official": "https://www.bemlindia.in/careers/",
+    "apply": "https://www.bemlindia.in/careers/",
+    "notice": "https://www.bemlindia.in/careers/",
     "dataAuditDate": "07/10/2026"
   },
   {
