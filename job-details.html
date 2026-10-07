@@ -139,8 +139,9 @@ const links=d.links||{};
 const lg=document.getElementById('linkGrid');
 const isDirectFileOrNoticeUrl=u=>{if(!u)return false; const x=String(u).toLowerCase(); return /\.pdf(?:[?#].*)?$/.test(x)||/\/api\/attachment\//.test(x)||/\/download(?:[/?#]|$)/.test(x)||/download\?/.test(x);};
 const directNotification=links.notification||(isDirectFileOrNoticeUrl(d.notice)?d.notice:'');
+const directApply=(links.apply||d.apply) && String(links.apply||d.apply)!==String(d.official||'') && String(links.apply||d.apply)!==String(d.notice||'') ? (links.apply||d.apply) : '';
 const linkItems=[
- ['🚀 Apply Online Link',links.apply||d.apply,'green'],
+ ['🚀 Apply Online Link',directApply,'green'],
  ['📄 Download Official Notification',directNotification,''],
  ['🌐 Official Website',links.official||d.official,''],
  ['📊 Download Marks / Check Marks',links.marks,''],
