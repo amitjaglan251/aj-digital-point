@@ -4769,5 +4769,39 @@ window.AJ_JOB_DATA = [
     "notice": "https://sbi.bank.in/web/careers/current-openings1",
     "official": "https://sbi.bank.in/web/careers/",
     "documents": "Educational/professional certificates, marksheets, DOB proof, photograph, valid ID, experience certificates and other documents prescribed by SBI."
+  },
+  {
+    "id": "drdo-pxe-apprentice-2026-27",
+    "category": "Defence Job",
+    "title": "DRDO PXE Balasore Apprentice Recruitment 2026-27",
+    "lastDate": "12/10/2026",
+    "mode": "Online",
+    "openDate": "23/09/2026",
+    "vacancy": "Apprentice positions under Apprentices Act; branch-wise details in official advertisement",
+    "qualification": "Relevant ITI / Diploma / Degree as prescribed for the trade",
+    "age": "As prescribed in the official apprenticeship notice",
+    "fee": "As prescribed in the official notice",
+    "selection": "As per DRDO apprenticeship notification",
+    "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
+    "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
+    "official": "https://drdo.gov.in/",
+    "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and apprenticeship registration/documents as applicable."
+  },
+  {
+    "id": "drdo-dipr-iti-apprentice-2026",
+    "category": "Defence Job",
+    "title": "DRDO DIPR Delhi ITI Apprentice Recruitment 2026",
+    "lastDate": "13/10/2026",
+    "mode": "Online",
+    "openDate": "22/09/2026",
+    "vacancy": "ITI pass-out Apprentice positions as notified by DIPR",
+    "qualification": "ITI pass-out in relevant trade",
+    "age": "As prescribed in the official DRDO notice",
+    "fee": "As prescribed in the official notice",
+    "selection": "As per DRDO apprenticeship notification",
+    "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
+    "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
+    "official": "https://drdo.gov.in/",
+    "documents": "ITI certificate, marksheets, DOB proof, photograph, ID and apprenticeship registration/documents as applicable."
   }
 ];
