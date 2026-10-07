@@ -16,7 +16,7 @@
 <script>
 (function(){
   const data = Array.isArray(window.AJ_JOB_DATA) ? window.AJ_JOB_DATA : [];
-  const stateParam = new URLSearchParams(location.search).get('state') || '';
+  const params = new URLSearchParams(location.search); const stateParam = params.get('state') || ''; const filterParam = params.get('filter') || '';
   const app = document.getElementById('app');
   const q = document.getElementById('q');
   const upcoming = x => x && (x.category === 'Upcoming Vacancy' || x.mode === 'Upcoming');
@@ -59,9 +59,9 @@
     document.getElementById('stateCount').textContent=data.filter(x=>/haryana|punjab|rajasthan|state|police|psssb|hssc/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
     document.getElementById('privateCount').textContent=data.filter(x=>/private|jio|tcs|infosys|cognizant|hcl|company/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
   }
-  let current=stateParam ? 'all' : 'all';
+  let current=filterParam || (stateParam ? 'all' : 'all');
   document.querySelectorAll('#filters button').forEach(b=>b.classList.remove('active'));
-  const allBtn=document.querySelector('#filters button[data-filter="all"]'); if(allBtn) allBtn.classList.add('active');
+  const selectedBtn=document.querySelector('#filters button[data-filter="'+CSS.escape(current)+'"]'); if(selectedBtn) selectedBtn.classList.add('active'); else { const allBtn=document.querySelector('#filters button[data-filter="all"]'); if(allBtn) allBtn.classList.add('active'); }
   document.querySelectorAll('#filters button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#filters button').forEach(z=>z.classList.remove('active'));b.classList.add('active');current=b.dataset.filter;render(current);}));
   q.addEventListener('input',()=>render(current));
   document.getElementById('clearSearch').onclick=()=>{q.value='';render(current);};
