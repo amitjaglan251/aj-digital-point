@@ -113,7 +113,7 @@ set('org',d.organization||d.department||'Official notification में दे�
 set('vacancy',d.vacancy);set('vacancy2',d.vacancy);set('categoryVacancy',d.categoryVacancy);
 set('topMode',d.mode);set('state',d.state||'All India / As per notification');
 set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':'Current / Listed Recruitment');
-set('openDate',d.openDate);set('lastDate',d.lastDate);set('feeDate',d.feeDate);set('correctionDate',d.correctionDate);set('examDate',d.examDate);set('updates',d.updates);set('dataAuditDate',dateNow);
+set('openDate',d.openDate);set('lastDate',d.lastDate);set('feeDate',d.feeDate);set('correctionDate',d.correctionDate);set('examDate',d.examDate);set('updates',d.updates);set('dataAuditDate',d.dataAuditDate);
 set('fee',d.fee);set('age',d.age);set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification: '+fallback);
 set('eligibilityExtra',d.eligibility||'Post-specific subject, experience, local-language या other conditions: '+fallback);
 set('selection',d.selection);set('salary',d.salary);
@@ -137,6 +137,7 @@ const base=['Recent passport-size photograph','Signature','Valid photo ID / acce
 const finalDocs=docs.length?docs:base;
 dl.innerHTML=finalDocs.map(x=>'<li>'+esc(x)+'</li>').join('');
 const links=d.links||{};
+const lg=document.getElementById('linkGrid');
 const linkItems=[
  ['🚀 Apply Online Link',links.apply||d.apply,'green'],
  ['📄 Download Official Notification',links.notification||d.notice,''],
