@@ -15,9 +15,9 @@ window.AJ_JOB_DATA = [
     "notice": "https://bmhrc.ac.in/content/Hindi/2532_1_Advertisement.aspx",
     "official": "https://bmhrc.ac.in/",
     "documents": "Recent photograph, signature, valid photo ID, DOB proof/10th certificate, post-specific educational/technical certificates and marksheets, category/EWS/PwBD/ESM certificate where applicable, experience certificate where required, and NOC where applicable. Original documents are required at verification as prescribed.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
     "notificationDate": "17/09/2026",
-  }
+  },
   {
     "id": "rrb-04-2026-je-correction",
     "category": "Central Job",
@@ -70,9 +70,9 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.rrbcdg.gov.in/",
     "official": "https://www.rrbcdg.gov.in/",
     "documents": "10th certificate for DOB, post-specific paramedical qualification certificate and marksheets, valid registration certificate where the post requires professional registration, caste/EWS/PwBD/ExSM certificate where applicable, recent photograph/signature, valid photo ID, and NOC where applicable. Originals and self-attested copies must be produced at Document Verification as prescribed in the CEN.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
     "notificationDate": "14/09/2026",
-  }
+  },
   {
     "id": "india-optel-project-technician-2026",
     "category": "Central Job",
@@ -287,9 +287,9 @@ window.AJ_JOB_DATA = [
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
     "official": "https://ssc.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
     "notificationDate": "30/09/2026",
-  }
+  },
   {
     "id": "bank-of-baroda-2482-lbo",
     "category": "Central Job",
