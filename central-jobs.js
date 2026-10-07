@@ -3044,7 +3044,11 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "links": {
+      "notification": "https://www.upsc.gov.in/recruitment/recruitment-advertisement",
+      "apply": "https://upsconline.nic.in/"
+    }
   },
   {
     "id": "employment-news-nsic-tsc-2026",
@@ -5424,7 +5428,11 @@ window.AJ_JOB_DATA = [
     "notice": "https://mphc.gov.in/exam-cell",
     "official": "https://mphc.gov.in/",
     "documents": "10th/DOB proof, prescribed educational certificate, computer/typing/shorthand qualification where applicable, photo, signature, valid ID, category certificate and other prescribed documents.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "links": {
+      "notification": "https://mphc.gov.in/exam-cell",
+      "official": "https://mphc.gov.in/"
+    }
   },
   {
     "id": "psssb-groupb-13-2026",
@@ -5462,7 +5470,11 @@ window.AJ_JOB_DATA = [
     "notice": "https://sssc.gov.in/notice-board",
     "official": "https://sssc.gov.in/",
     "documents": "DOB proof, graduation certificate/marksheets, computer qualification/proficiency evidence, photo, signature, valid ID, category/PwBD/ESM/EWS certificates where applicable and other documents prescribed by SSSC.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "links": {
+      "notification": "https://sssc.gov.in/notice-board",
+      "official": "https://sssc.gov.in/"
+    }
   },
   {
     "id": "mpesb-police-constable-gd-2026",
@@ -5615,7 +5627,11 @@ window.AJ_JOB_DATA = [
     "official": "https://ssbodisha.ac.in/",
     "documents": "Degree/marksheets, Odia-language eligibility proof, DOB proof, photograph, signature, valid ID and category certificates where applicable.",
     "lastChecked": "07/10/2026",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "links": {
+      "notification": "https://ssbodisha.ac.in/",
+      "official": "https://ssbodisha.ac.in/"
+    }
   },
   {
     "id": "odisha-ssb-junior-assistant-chse-2026",
@@ -6654,7 +6670,11 @@ window.AJ_JOB_DATA = [
     "official": "https://nationalinsurance.nic.co.in/",
     "documents": "Degree/professional certificate, ID, photograph, signature and prescribed documents.",
     "updates": "Notification released 07/10/2026; applications 08/10/2026–28/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "links": {
+      "notification": "https://nationalinsurance.nic.co.in/en/recruitments",
+      "official": "https://nationalinsurance.nic.co.in/"
+    }
   },
   {
     "id": "uksssc-groupc-553-2026",
@@ -6674,7 +6694,11 @@ window.AJ_JOB_DATA = [
     "official": "https://sssc.uk.gov.in/",
     "documents": "As prescribed in official advertisement.",
     "updates": "Advertisement No. 80/UKSSSC/2026; official advertisement page shows end date 07/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "links": {
+      "notification": "https://sssc.uk.gov.in/",
+      "official": "https://sssc.uk.gov.in/"
+    }
   },
   {
     "id": "uksssc-scaler-2026",
@@ -6834,7 +6858,11 @@ window.AJ_JOB_DATA = [
     "official": "https://www.cdac.in/",
     "documents": "Post-wise certificates, ID and prescribed documents.",
     "updates": "Current recruitment listing dated 05/10/2026; last date 26/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "links": {
+      "notification": "https://www.cdac.in/index.aspx?id=job_opportunities",
+      "official": "https://www.cdac.in/"
+    }
   },
   {
     "id": "kerala-cusat-assistant-prof-2-2026",
@@ -6974,7 +7002,11 @@ window.AJ_JOB_DATA = [
     "official": "https://www.appsc.gov.in/",
     "documents": "As prescribed in official advertisement.",
     "updates": "APPSC official recruitment portal shows Advt. 063/2026; last date 12/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "links": {
+      "notification": "https://appsc.gov.in/",
+      "official": "https://appsc.gov.in/"
+    }
   },
   {
     "id": "meghalaya-kisce-nutritionist-yp-2026",
