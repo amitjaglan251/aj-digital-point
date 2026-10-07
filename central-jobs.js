@@ -4837,5 +4837,39 @@ window.AJ_JOB_DATA = [
     "notice": "https://rrc-wr.com/Home/Notifications",
     "official": "https://rrc-wr.com/",
     "documents": "Educational certificates, sports certificates, DOB proof, photograph, ID and category documents where applicable."
+  },
+  {
+    "id": "sainik-school-mainpuri-tgt-counsellor-oct-2026",
+    "category": "Teaching Job",
+    "title": "Sainik School Mainpuri Recruitment — TGT English & Counsellor (Contractual) October 2026",
+    "lastDate": "31/10/2026",
+    "mode": "As per school notification",
+    "openDate": "06/10/2026",
+    "vacancy": "TGT English and Counsellor contractual posts",
+    "qualification": "Post-wise qualification as prescribed in the official notification",
+    "age": "As prescribed in the official notification",
+    "fee": "As prescribed in the official notification",
+    "selection": "As prescribed by Sainik School Mainpuri",
+    "apply": "https://www.sainikschoolmainpuri.com/notifications",
+    "notice": "https://www.sainikschoolmainpuri.com/notifications",
+    "official": "https://www.sainikschoolmainpuri.com/",
+    "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and experience/category documents where applicable."
+  },
+  {
+    "id": "kvs-deputy-commissioner-direct-2026",
+    "category": "Teaching Job",
+    "title": "Kendriya Vidyalaya Sangathan — Deputy Commissioner Direct Recruitment 2026",
+    "lastDate": "Check official Advertisement No. 05/2026",
+    "mode": "Online/As per notification",
+    "openDate": "01/10/2026",
+    "vacancy": "Deputy Commissioner — direct recruitment",
+    "qualification": "As prescribed in KVS Advertisement No. 05/2026",
+    "age": "As prescribed in the official advertisement",
+    "fee": "As prescribed in the official advertisement",
+    "selection": "As prescribed by KVS",
+    "apply": "https://kvsangathan.nic.in/en/updates/",
+    "notice": "https://kvsangathan.nic.in/en/updates/",
+    "official": "https://kvsangathan.nic.in/",
+    "documents": "Educational certificates, experience/service documents, DOB proof, photograph, ID and other documents prescribed by KVS."
   }
 ];
