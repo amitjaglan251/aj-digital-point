@@ -16,7 +16,7 @@ window.AJ_JOB_DATA = [
     "official": "https://bmhrc.ac.in/",
     "documents": "Recent photograph, signature, valid photo ID, DOB proof/10th certificate, post-specific educational/technical certificates and marksheets, category/EWS/PwBD/ESM certificate where applicable, experience certificate where required, and NOC where applicable. Original documents are required at verification as prescribed.",
     "dataAuditDate": "07/10/2026",
-    "notificationDate": "17/09/2026",
+    "notificationDate": "17/09/2026"
   },
   {
     "id": "rrb-04-2026-je-correction",
@@ -71,7 +71,7 @@ window.AJ_JOB_DATA = [
     "official": "https://www.rrbcdg.gov.in/",
     "documents": "10th certificate for DOB, post-specific paramedical qualification certificate and marksheets, valid registration certificate where the post requires professional registration, caste/EWS/PwBD/ExSM certificate where applicable, recent photograph/signature, valid photo ID, and NOC where applicable. Originals and self-attested copies must be produced at Document Verification as prescribed in the CEN.",
     "dataAuditDate": "07/10/2026",
-    "notificationDate": "14/09/2026",
+    "notificationDate": "14/09/2026"
   },
   {
     "id": "india-optel-project-technician-2026",
@@ -288,7 +288,7 @@ window.AJ_JOB_DATA = [
     "notice": "https://ssc.gov.in/",
     "official": "https://ssc.gov.in/",
     "dataAuditDate": "07/10/2026",
-    "notificationDate": "30/09/2026",
+    "notificationDate": "30/09/2026"
   },
   {
     "id": "bank-of-baroda-2482-lbo",
@@ -2671,24 +2671,6 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "07/10/2026"
   },
   {
-    "id": "ssc-chsl-2026-2536",
-    "category": "12th Pass",
-    "title": "SSC CHSL 2026 — 2,536 Posts",
-    "lastDate": "07/10/2026",
-    "mode": "Online",
-    "vacancy": "2,536",
-    "qualification": "12th pass",
-    "age": "18-27 years (post-wise)",
-    "selection": "Tier-I, Tier-II and skill/typing test where applicable",
-    "apply": "https://ssc.gov.in/",
-    "notice": "https://ssc.gov.in/",
-    "official": "https://ssc.gov.in/",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
     "id": "mp-police-asi-subedar-steno-655-2026",
     "category": "12th Pass",
     "title": "MP Police ASI / Subedar / Stenographer Recruitment 2026 — 655 Posts",
@@ -3012,7 +2994,7 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
     "dataAuditDate": "07/10/2026"
-  },,
+  },
   {
     "id": "upsc-direct-recruitment-12-2026",
     "category": "UPSC Jobs",
@@ -3066,24 +3048,6 @@ window.AJ_JOB_DATA = [
     "apply": "https://employmentnews.gov.in/newemp/MoreContentS.aspx?n=WebAdvertisement",
     "notice": "https://employmentnews.gov.in/newemp/MoreContentS.aspx?n=WebAdvertisement",
     "official": "https://employmentnews.gov.in/",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
-    "id": "ignou-nonteaching-2026",
-    "category": "Teaching / University",
-    "title": "IGNOU Non-Teaching Recruitment 2026",
-    "lastDate": "02/11/2026",
-    "mode": "Online",
-    "vacancy": "14",
-    "qualification": "Post-wise qualification",
-    "age": "Post-wise age limit",
-    "selection": "As per IGNOU recruitment rules",
-    "apply": "https://www.ignou.ac.in/announcement/Career",
-    "notice": "https://www.ignou.ac.in/announcement/Career",
-    "official": "https://www.ignou.ac.in/",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
@@ -3376,7 +3340,7 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
     "dataAuditDate": "07/10/2026"
-  },,
+  },
   {
     "id": "canara-bank-apprentice-3500-2026",
     "category": "Banking Jobs",
@@ -3405,42 +3369,6 @@ window.AJ_JOB_DATA = [
     "qualification": "Post-wise qualification",
     "age": "Post-wise",
     "selection": "As per NIT notification",
-    "apply": "https://www.ibps.in/index.php/recruitment/",
-    "notice": "https://www.ibps.in/index.php/recruitment/",
-    "official": "https://www.ibps.in/",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
-    "id": "mpa-class-1-2-2026",
-    "category": "Central Government Jobs",
-    "title": "MPA Class I & II Recruitment 2026",
-    "lastDate": "28/10/2026",
-    "mode": "Online",
-    "vacancy": "Post-wise",
-    "qualification": "Post-wise qualification",
-    "age": "As per notification",
-    "selection": "As notified",
-    "apply": "https://www.ibps.in/index.php/recruitment/",
-    "notice": "https://www.ibps.in/index.php/recruitment/",
-    "official": "https://www.ibps.in/",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
-    "id": "kucbl-manager-assistant-manager-2026",
-    "category": "Banking Jobs",
-    "title": "KUCBL Managers & Assistant Managers Recruitment 2026",
-    "lastDate": "25/10/2026",
-    "mode": "Online",
-    "vacancy": "Post-wise",
-    "qualification": "Post-wise banking/graduate/professional qualification",
-    "age": "As per notification",
-    "selection": "As notified",
     "apply": "https://www.ibps.in/index.php/recruitment/",
     "notice": "https://www.ibps.in/index.php/recruitment/",
     "official": "https://www.ibps.in/",
@@ -3502,7 +3430,7 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
     "dataAuditDate": "07/10/2026"
-  },,
+  },
   {
     "id": "rajasthan-safai-24752-2026",
     "category": "Rajasthan Jobs",
@@ -3864,34 +3792,6 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "07/10/2026"
   },
   {
-    "id": "upcoming-ssc-chsl-2027",
-    "category": "Upcoming Vacancy",
-    "title": "SSC CHSL 2027 — Upcoming 12th Level Recruitment",
-    "lastDate": "Expected as per next SSC calendar/notification",
-    "mode": "Upcoming",
-    "vacancy": "To be notified",
-    "qualification": "12th pass / post-wise eligibility",
-    "age": "As per SSC notification",
-    "selection": "Tier-I / Tier-II + skill/typing where applicable",
-    "apply": "https://ssc.gov.in/",
-    "notice": "https://ssc.gov.in/",
-    "official": "https://ssc.gov.in/",
-    "documents": [
-      "10th/Matric certificate for DOB",
-      "12th certificate/marksheet",
-      "Recent photograph and signature",
-      "Valid photo ID",
-      "Category/EWS/PwBD/ExSM certificate if applicable"
-    ],
-    "feeDate": "To be announced in official notification",
-    "correctionDate": "If applicable, as per official notification",
-    "examDate": "To be announced by recruiting authority",
-    "categoryVacancy": "Post/category-wise details will be published in the official notification",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
     "id": "upcoming-ssc-je-2027",
     "category": "Upcoming Vacancy",
     "title": "SSC Junior Engineer 2027 — Upcoming",
@@ -3943,90 +3843,6 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
-    "id": "upcoming-ibps-po-2027",
-    "category": "Upcoming Vacancy",
-    "title": "IBPS PO / Management Trainee 2027 — Upcoming Cycle",
-    "lastDate": "Next official calendar/notification awaited",
-    "mode": "Upcoming",
-    "vacancy": "To be notified",
-    "qualification": "Graduation",
-    "age": "As per IBPS notification",
-    "selection": "Prelims + Mains + Interview",
-    "apply": "https://www.ibps.in/",
-    "notice": "https://www.ibps.in/index.php/recruitment/",
-    "official": "https://www.ibps.in/",
-    "documents": [
-      "10th certificate for DOB",
-      "Graduation certificate/marksheets",
-      "Recent photograph/signature",
-      "Valid photo ID",
-      "Category certificate if applicable"
-    ],
-    "feeDate": "To be announced in official notification",
-    "correctionDate": "If applicable, as per official notification",
-    "examDate": "To be announced by recruiting authority",
-    "categoryVacancy": "Post/category-wise details will be published in the official notification",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
-    "id": "upcoming-ibps-clerk-2027",
-    "category": "Upcoming Vacancy",
-    "title": "IBPS CSA / Clerk 2027 — Upcoming Cycle",
-    "lastDate": "Next official calendar/notification awaited",
-    "mode": "Upcoming",
-    "vacancy": "To be notified",
-    "qualification": "Graduation + local language requirements as prescribed",
-    "age": "As per IBPS notification",
-    "selection": "Prelims + Mains",
-    "apply": "https://www.ibps.in/",
-    "notice": "https://www.ibps.in/index.php/recruitment/",
-    "official": "https://www.ibps.in/",
-    "documents": [
-      "10th certificate for DOB",
-      "Graduation certificate/marksheets",
-      "Recent photograph/signature",
-      "Valid photo ID",
-      "Category certificate if applicable"
-    ],
-    "feeDate": "To be announced in official notification",
-    "correctionDate": "If applicable, as per official notification",
-    "examDate": "To be announced by recruiting authority",
-    "categoryVacancy": "Post/category-wise details will be published in the official notification",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
-    "id": "upcoming-ibps-rrb-2027",
-    "category": "Upcoming Vacancy",
-    "title": "IBPS RRB 2027 — Office Assistant & Officer Scale I/II/III",
-    "lastDate": "Next official calendar/notification awaited",
-    "mode": "Upcoming",
-    "vacancy": "To be notified",
-    "qualification": "Graduation / post-specific qualification",
-    "age": "Post-wise as per IBPS notification",
-    "selection": "Prelims/Main or Single Exam + Interview where applicable",
-    "apply": "https://www.ibps.in/",
-    "notice": "https://www.ibps.in/index.php/rural-bank-xv/",
-    "official": "https://www.ibps.in/",
-    "documents": [
-      "10th certificate for DOB",
-      "Graduation/professional qualification",
-      "Recent photograph/signature",
-      "Valid photo ID",
-      "Category certificate if applicable"
-    ],
-    "feeDate": "To be announced in official notification",
-    "correctionDate": "If applicable, as per official notification",
-    "examDate": "To be announced by recruiting authority",
-    "categoryVacancy": "Post/category-wise details will be published in the official notification",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "dataAuditDate": "07/10/2026"
   },
   {
@@ -5401,7 +5217,7 @@ window.AJ_JOB_DATA = [
     "official": "https://sssb.punjab.gov.in/",
     "documents": "DOB proof, post-specific degree/diploma and marksheets, photo, signature, valid ID, Punjab domicile/category/EWS certificates where applicable and other prescribed documents.",
     "dataAuditDate": "07/10/2026"
-  },,
+  },
   {
     "id": "mpesb-police-constable-gd-2026",
     "category": "State Job",
@@ -5580,24 +5396,6 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "07/10/2026"
   },
   {
-    "id": "canara-bank-apprentice-3500-2026",
-    "category": "Central Job",
-    "title": "Canara Bank Graduate Apprentice Recruitment 2026 — 3,500 Posts",
-    "lastDate": "17/10/2026",
-    "mode": "Online",
-    "openDate": "01/10/2026",
-    "vacancy": "3,500 Graduate Apprentice posts — FY 2026-27",
-    "qualification": "Graduate degree in any discipline from a recognized university/equivalent as prescribed",
-    "age": "20–28 years as on 01/09/2026, with applicable relaxation",
-    "fee": "As prescribed in the official notification; SC/ST/PwBD candidates exempt as applicable",
-    "selection": "Shortlisting on qualifying marks, local language test, document verification and medical fitness as prescribed",
-    "apply": "https://canarabank.com/pages/careers",
-    "notice": "https://canarabank.com/pages/careers",
-    "official": "https://canarabank.com/",
-    "documents": "Graduation certificate/marksheets, DOB proof, NATS enrollment details, photograph, signature, valid photo ID and category/local-language documents where applicable.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
     "id": "rrc-nwr-apprentice-2008-2026",
     "category": "Central Job",
     "title": "RRC North Western Railway Act Apprentice Recruitment 2026 — 2,008 Posts",
@@ -5703,24 +5501,6 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/index.php/recruitment/",
     "official": "https://www.ibps.in/",
     "documents": "Educational certificates/marksheets, DOB proof, photograph, signature, valid ID, experience and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
-    "id": "nit-non-faculty-2026",
-    "category": "Central Job",
-    "title": "NIT Non-Faculty Recruitment 2026",
-    "lastDate": "30/10/2026",
-    "mode": "Online",
-    "openDate": "01/10/2026",
-    "vacancy": "Non-Faculty posts as notified by NIT",
-    "qualification": "Post-wise prescribed qualification and experience",
-    "age": "Post-wise as prescribed",
-    "fee": "As prescribed",
-    "selection": "As prescribed in the detailed recruitment notice",
-    "apply": "https://www.ibps.in/index.php/recruitment/",
-    "notice": "https://www.ibps.in/index.php/recruitment/",
-    "official": "https://www.ibps.in/",
-    "documents": "Prescribed educational certificates, marksheets, DOB proof, photograph, signature, valid ID, experience and category documents where applicable.",
     "dataAuditDate": "07/10/2026"
   },
   {
@@ -5865,24 +5645,6 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and apprenticeship registration/documents as applicable.",
-    "dataAuditDate": "07/10/2026"
-  },
-  {
-    "id": "drdo-dipr-iti-apprentice-2026",
-    "category": "Defence Job",
-    "title": "DRDO DIPR Delhi ITI Apprentice Recruitment 2026",
-    "lastDate": "13/10/2026",
-    "mode": "Online",
-    "openDate": "22/09/2026",
-    "vacancy": "ITI pass-out Apprentice positions as notified by DIPR",
-    "qualification": "ITI pass-out in relevant trade",
-    "age": "As prescribed in the official DRDO notice",
-    "fee": "As prescribed in the official notice",
-    "selection": "As per DRDO apprenticeship notification",
-    "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/",
-    "documents": "ITI certificate, marksheets, DOB proof, photograph, ID and apprenticeship registration/documents as applicable.",
     "dataAuditDate": "07/10/2026"
   },
   {
@@ -7373,5 +7135,5 @@ window.AJ_JOB_DATA = [
     "documents": "As prescribed in notification.",
     "updates": "Notification dated 25/09/2026 invites online applications for 01 vacant Cook (Group-D) post.",
     "dataAuditDate": "07/10/2026"
-  },,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  }
 ];
