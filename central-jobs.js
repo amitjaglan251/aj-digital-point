@@ -72,8 +72,17 @@ window.AJ_JOB_DATA = [
     "category": "Central Job",
     "title": "India Optel (IOL) Project Technician Offline Form",
     "lastDate": "03/10/2026 05:00 PM",
-    "mode": "Offline"
-  },
+    "mode": "Offline",
+    "openDate": "As per official notification",
+    "qualification": "Project Technician eligibility as prescribed in the official India Optel Limited notification.",
+    "age": "As prescribed in the official India Optel Limited notification.",
+    "fee": "As prescribed in the official notification.",
+    "selection": "As prescribed in the official India Optel Limited notification.",
+    "apply": "https://indiaoptel.in/career/",
+    "notice": "https://indiaoptel.in/career/",
+    "official": "https://indiaoptel.in/",
+    "documents": "Recent photograph, signature, valid ID/DOB proof, prescribed educational/technical qualification certificates and marksheets, experience certificate where required, category certificate where applicable, and other documents specifically listed in the official notification."
+  }
   {
     "id": "mecl-non-executive-2026",
     "category": "Central Job",
@@ -87,8 +96,9 @@ window.AJ_JOB_DATA = [
     "selection": "Online examination and post-specific stages as prescribed",
     "apply": "https://mecl.co.in/",
     "notice": "https://mecl.co.in/ContentPageMecl.aspx?Antispam=10aab51a-a2f7-47b2-a9e1-381b1d656a61&ControlID=61&Lng=EN&MyAntispam=8bfec7cf-f4d2-4e75-b8e6-fd02a3581c4e&page=advertisement-notices-and-results",
-    "official": "https://mecl.co.in/"
-  },
+    "official": "https://mecl.co.in/",
+    "documents": "Recent photograph, signature, valid photo ID, DOB proof/10th certificate, post-specific educational qualification and marksheets, caste/EWS/PwBD/ExSM certificate where applicable, experience certificate where required, NOC where applicable, and other documents specifically required in Advertisement No. 03/Rectt./2026."
+  }
   {
     "id": "upsc-advt-11-2026",
     "category": "Central Job",
@@ -102,8 +112,9 @@ window.AJ_JOB_DATA = [
     "selection": "Recruitment Test and/or interview as prescribed for the respective post",
     "apply": "https://upsconline.nic.in/",
     "notice": "https://www.upsc.gov.in/whats-new/11%20-%202026",
-    "official": "https://www.upsc.gov.in/"
-  },
+    "official": "https://www.upsc.gov.in/",
+    "documents": "DOB/age proof, prescribed educational qualification and marksheets, category/EWS/PwBD/age-relaxation certificates where applicable, experience certificate where required, photograph/signature and other certificates specifically prescribed for the post; originals are required at later verification/interview stages as applicable."
+  }
   {
     "id": "upsc-epfo-80-apfc",
     "category": "Central Job",
@@ -155,8 +166,9 @@ window.AJ_JOB_DATA = [
     "selection": "Preliminary/Main examination and post-specific interview/other stages as prescribed",
     "apply": "https://ibpsreg.ibps.in/",
     "notice": "https://www.ibps.in/index.php/rural-bank-xv/",
-    "official": "https://www.ibps.in/"
-  },
+    "official": "https://www.ibps.in/",
+    "documents": "Recent photograph, signature, left thumb impression, handwritten declaration, valid photo ID, 10th certificate/DOB proof, post-specific educational qualification and marksheets, category/EWS/PwBD/ExSM certificate where applicable, and experience certificate for Officer Scale II/III posts where prescribed."
+  }
   {
     "id": "bank-of-india-specialist-officer-2026",
     "category": "Central Job",
@@ -1830,8 +1842,11 @@ window.AJ_JOB_DATA = [
     "selection": "CET/selection process as notified",
     "apply": "https://hssc.gov.in/",
     "notice": "https://hssc.gov.in/",
-    "official": "https://hssc.gov.in/"
-  },
+    "official": "https://hssc.gov.in/",
+    "openDate": "19/06/2026",
+    "fee": "General ₹100; Haryana SC/BC/EWS/EBP(GC) ₹25; Haryana Ex-Servicemen Nil, as applicable under the CET advertisement/instructions.",
+    "documents": "Mandatory documents as specified in Advt. 05/2026: recent photograph/signature and identity/DOB proof; relevant qualification/supporting certificates; BCA/BCB/EWS certificate issued within the prescribed period; DSC/OSC certificate where applicable; PwBD/ESP/ESM-family eligibility certificates where applicable. Upload/attach only the documents and formats prescribed by HSSC."
+  }
   {
     "id": "hssc-advt-06-2026-group-c",
     "category": "State Job",
