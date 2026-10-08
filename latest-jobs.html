@@ -88,6 +88,18 @@
   if(stateParam){ const si=document.getElementById('stateIndicator'); if(si){si.textContent='📍 '+stateParam+' Jobs';si.style.display='inline-flex';} }
   document.getElementById('clearSearch').onclick=()=>{q.value='';render(current);};
   render(current);
+  // State name click: after filtering, automatically move the cursor/viewport to that state's jobs.
+  if(stateParam){
+    const jumpToStateJobs=()=>{
+      const target=document.getElementById('app');
+      if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+    };
+    if(location.hash==='#state') setTimeout(jumpToStateJobs,120);
+  }
+  document.querySelectorAll('.state-nav a[href*="?state="]').forEach(a=>a.addEventListener('click',()=>{
+    // The new page will load the selected state and then smoothly scroll to its filtered jobs.
+    sessionStorage.setItem('ajStateJobsAutoScroll','1');
+  }));
 })();
 </script><script id="portal-section-script">
 (function(){
