@@ -143,7 +143,19 @@ const renderList=(targetId,boxId,items)=>{
 renderList('postQualifications','postQualificationBox',d.postQualifications);
 renderList('postVacancies','postVacancyBox',d.postVacancies);
 const physicalRows=Array.isArray(d.physicalEligibility)?d.physicalEligibility:[];
-renderList('physicalDetails','physicalBox',physicalRows);
+const physicalRoot=document.getElementById('physicalDetails'),physicalBox=document.getElementById('physicalBox');
+if(physicalRoot&&physicalBox){
+ physicalRoot.innerHTML=physicalRows.map(x=>{
+  const label=x.region||x.category||x.label||'Physical standard';
+  const parts=[];
+  if(x.height)parts.push('Height: '+x.height);
+  if(x.chest)parts.push('Chest: '+x.chest);
+  if(x.race)parts.push('Race: '+x.race);
+  if(x.details)parts.push(x.details);
+  return '<p><b>'+esc(label)+':</b> '+esc(parts.join(' • ')||x.value||'As per notification')+'</p>';
+ }).join('');
+ physicalBox.hidden=!physicalRows.length;
+}
 const related=Array.isArray(d.relatedLinks)?d.relatedLinks:[];
 const relatedRoot=document.getElementById('relatedLinks'),relatedBox=document.getElementById('relatedLinksBox');
 if(relatedRoot&&relatedBox){
