@@ -132,7 +132,7 @@
    if(gi===1) rows=rows.filter(x=>upcoming(x));
    rows.sort((a,b)=>(expired(a)?1:0)-(expired(b)?1:0));
    rows=rows.slice(0,8);
-   return '<div class="portal-box"><h3>'+g[0]+'</h3><div class="portal-links">'+(rows.length?rows.map(x=>'<a href="job-details.html?job='+encodeURIComponent(x.id||'')+'">'+esc(x.title)+'</a>').join(''):'<div class="portal-empty">अभी कोई matching entry नहीं</div>')+'<a class="portal-more" href="'+g[2]+'">View More</a></div></div>';
+   return '<div class="portal-box"><h3>'+g[0]+'</h3><div class="portal-links">'+(rows.length?rows.map(x=>'<a href="job-details.html?job='+encodeURIComponent(x.id||'')+'">'+esc(x.title)+'</a>').join(''):'<div class="portal-empty">अभी कोई matching entry नहीं</div>')+'</div></div>';
  }).join('');
 })();
 </script></body></html>
