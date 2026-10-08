@@ -107,6 +107,7 @@
   ['🏢 Private Jobs',x=>/private|jio|tcs|infosys|cognizant|hcl|company/i.test(hay(x)),'latest-jobs.html?filter=Private%20Job'],
   ['🩺 Medical / MBBS / Nursing',x=>/medical|mbbs|aiims|nursing|doctor|health|paramedical|pharmacist|research scientist|technical support|fso/i.test(hay(x)+' '+(x.organization||'')),'latest-jobs.html?filter=Medical'],
   ['📚 NET / UGC / JRF',x=>/ugc|csir|net|nta|assistant professor|jrf/i.test(hay(x)+' '+(x.organization||'')),'latest-jobs.html?filter=NET%20%2F%20UGC%20%2F%20Exams'],
+  ['🎓 Counselling & Admission Dates',x=>/counselling \/ admission|counselling|counseling|seat allotment/i.test(hay(x)+' '+(x.organization||'')),'latest-jobs.html?filter=Counselling%20%2F%20Admission'],
   ['📝 Apprenticeship / ITI',x=>/apprent|iti|technician|trade|trainee/i.test(hay(x)),'latest-jobs.html?filter=all']
  ];
  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
