@@ -53,13 +53,16 @@
       if(filter==='all') return true;
       if(filter==='expired') return expired(x);
       if(filter==='active') return !expired(x) && !upcoming(x);
-      if(filter==='Central Job') return /central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik/i.test(hay);
-      if(filter==='State Job') return /haryana|punjab|rajasthan|uttar pradesh|bihar|andhra|state|police|psssb|hssc/i.test(hay);
-      if(filter==='Private Job') return /private|jio|tcs|infosys|cognizant|hcl|company/i.test(hay);
-      if(filter==='Railway') return /railway|rrb|ncrtc/i.test(hay);
-      if(filter==='Defence') return /defence|drdo|army|navy|air force|crpf|assam rifles|aoc/i.test(hay);
-      if(filter==='Banking') return /bank|ibps|sbi|rbi|nabard|banking/i.test(hay);
-      if(filter==='Teaching') return /teacher|teaching|school|university|college|education|professor|faculty/i.test(hay);
+      const allHay=(hay+' '+(x.state||'')+' '+(x.organization||'')).toLowerCase();
+      if(filter==='Central Job') return /central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik|nta|ugc|csir|net|aiims|icmr|mbbs|medical|neet|isro/i.test(allHay) && !/private job/i.test(String(x.category||''));
+      if(filter==='State Job') return /haryana|punjab|rajasthan|uttar pradesh|bihar|andhra|state|police|psssb|hssc|hpsc|psc/i.test(allHay);
+      if(filter==='Private Job') return /private|jio|tcs|infosys|cognizant|hcl|company/i.test(allHay);
+      if(filter==='Railway') return /railway|rrb|ncrtc/i.test(allHay);
+      if(filter==='Defence') return /defence|drdo|army|navy|air force|crpf|assam rifles|aoc|coast guard/i.test(allHay);
+      if(filter==='Banking') return /bank|ibps|sbi|rbi|nabard|banking/i.test(allHay);
+      if(filter==='Teaching') return /teacher|teaching|school|university|college|education|professor|faculty|ugc|net|csir/i.test(allHay);
+      if(filter==='Medical') return /medical|mbbs|aiims|nursing|doctor|health|paramedical|pharmacist|research scientist|technical support|fso/i.test(allHay);
+      if(filter==='NET / UGC / Exams') return /ugc|csir|net|nta|assistant professor|jrf/i.test(allHay);
       return x.category===filter;
     });
     const cats=[...new Set(list.map(x=>x.category||'Other'))];
@@ -102,6 +105,8 @@
   ['🎓 Teaching Jobs',x=>/teacher|teaching|school|university|college|education|professor|faculty/i.test(hay(x)),'latest-jobs.html?filter=Teaching'],
   ['🏛️ State / Haryana',x=>/haryana|punjab|rajasthan|uttar pradesh|bihar|state|police|psssb|hssc/i.test(hay(x)),'latest-jobs.html?filter=State%20Job'],
   ['🏢 Private Jobs',x=>/private|jio|tcs|infosys|cognizant|hcl|company/i.test(hay(x)),'latest-jobs.html?filter=Private%20Job'],
+  ['🩺 Medical / MBBS / Nursing',x=>/medical|mbbs|aiims|nursing|doctor|health|paramedical|pharmacist|research scientist|technical support|fso/i.test(hay(x)+' '+(x.organization||'')),'latest-jobs.html?filter=Medical'],
+  ['📚 NET / UGC / JRF',x=>/ugc|csir|net|nta|assistant professor|jrf/i.test(hay(x)+' '+(x.organization||'')),'latest-jobs.html?filter=NET%20%2F%20UGC%20%2F%20Exams'],
   ['📝 Apprenticeship / ITI',x=>/apprent|iti|technician|trade|trainee/i.test(hay(x)),'latest-jobs.html?filter=all']
  ];
  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
