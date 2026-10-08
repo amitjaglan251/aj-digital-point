@@ -7205,7 +7205,51 @@ window.AJ_JOB_DATA = [
     "documents": "Educational, age, category and other documents as prescribed in the official notification.",
     "updates": "Latest recruitment listing verified on 08/10/2026.",
     "dataAuditDate": "08/10/2026"
-  }
+  },
+{
+  "id": "haryana-hpsc-fso-25-2026",
+  "category": "State Job",
+  "state": "Haryana",
+  "organization": "Haryana Public Service Commission (HPSC)",
+  "title": "HPSC Food Safety Officer (Group-B) Recruitment 2026 — Advt. No. 25/2026",
+  "lastDate": "19/10/2026 05:00 PM",
+  "openDate": "28/09/2026",
+  "mode": "Online",
+  "vacancy": "45 posts",
+  "qualification": "Food technology, dairy/oil technology, biotechnology, agricultural sciences, veterinary sciences, biochemistry, microbiology, chemistry or medicine/MBBS/BDS/AYUSH qualification as prescribed in the official advertisement, with the prescribed Hindi/Sanskrit requirement.",
+  "age": "18–42 years as prescribed in the advertisement; applicable Haryana category relaxations.",
+  "fee": "As prescribed in HPSC Advertisement No. 25/2026.",
+  "selection": "As prescribed by HPSC for Food Safety Officer (Group-B).",
+  "apply": "https://hpsc.gov.in/",
+  "notice": "https://hpsc.gov.in/",
+  "official": "https://hpsc.gov.in/",
+  "documents": "Educational qualification/degree certificates and marksheets, age proof, Haryana domicile/category certificates where applicable, photograph, signature and other documents specifically required by Advertisement No. 25/2026.",
+  "updates": "Advertisement No. 25/2026; Food Safety Officer (Group-B), Food and Drugs Administration Department, Haryana. Application window 28/09/2026 to 19/10/2026.",
+  "dataAuditDate": "08/10/2026",
+  "notificationDate": "19/09/2026"
+},
+{
+  "id": "aiims-rewari-junior-resident-25-2026",
+  "category": "Central Job",
+  "state": "Haryana",
+  "organization": "All India Institute of Medical Sciences, Rewari",
+  "title": "AIIMS Rewari Junior Resident (Non-Academic) Recruitment 2026 — Advt. JR/01/2026",
+  "lastDate": "28/10/2026",
+  "openDate": "29/09/2026",
+  "mode": "Offline / As per official advertisement",
+  "vacancy": "25 posts",
+  "qualification": "MBBS degree from a recognized institution with internship/registration requirements as prescribed in the official advertisement.",
+  "age": "As prescribed in Advertisement No. JR/01/2026.",
+  "fee": "As prescribed in Advertisement No. JR/01/2026.",
+  "selection": "As prescribed in the official AIIMS Rewari Junior Resident advertisement.",
+  "apply": "https://aiimsrewari.edu.in/nonfaculty.html",
+  "notice": "https://aiimsrewari.edu.in/nonfaculty.html",
+  "official": "https://aiimsrewari.edu.in/",
+  "documents": "MBBS degree/marksheets, internship completion proof, medical registration, age proof, photograph/signature and category/other certificates as specifically required in the advertisement.",
+  "updates": "AIIMS Rewari official Non-Faculty Recruitment page lists the Junior Resident (Non-Academic) advertisement uploaded on 29/09/2026.",
+  "dataAuditDate": "08/10/2026",
+  "notificationDate": "29/09/2026"
+}
 ];
 
 (function(){
