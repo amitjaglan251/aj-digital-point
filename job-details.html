@@ -40,7 +40,7 @@ body{background:linear-gradient(180deg,#eef6ff 0,#fff 340px);color:#132238}
 .crumb,.easy-back{color:#52677e}
 @media(max-width:700px){.detail-hero{padding:18px!important;border-radius:0 0 14px 14px}.overview-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:0 10px}.jobbox>*:not(h2){margin-left:10px;margin-right:10px}.jobbox .detail-table{width:calc(100% - 20px);margin-left:10px;margin-right:10px}.jobbox h2{font-size:16px;padding:11px}.detail-table td,.detail-table th{padding:8px;font-size:13px}.link-grid{padding:0 10px}}
 @media(max-width:420px){.overview-grid{grid-template-columns:1fr}.chips .chip{font-size:11px}.detail-hero h1{font-size:23px}}
-</style></head><body><header class="top"><div class="top-in"><a class="brand" href="index.html"><img src="logo.png" alt="AJ DIGITAL POINT"><span><b>AJ DIGITAL POINT</b><small>CSC & Online Digital Services</small></span></a></div><nav class="mainnav"><a href="index.html">🏠 Home</a><a class="active" href="latest-jobs.html">💼 Latest Jobs</a><a href="admit-card.html">🎫 Admit Card</a><a href="results.html">📊 Result</a><a href="answer-key.html">📝 Answer Key</a><a href="govt-schemes.html">🏛️ Schemes</a><a href="online-tools.html">🛠️ Tools</a></nav></header><main class="wrap">
+.related-link-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:10px 12px;margin:7px 0;border:1px solid #c9dff4;border-radius:10px;background:linear-gradient(90deg,#f1f8ff,#fff)}.related-direct-link{display:inline-flex;align-items:center;gap:6px;background:#075fc7;color:#fff!important;text-decoration:none!important;font-weight:900;padding:9px 13px;border-radius:8px;box-shadow:0 2px 5px #075fc722}.related-direct-link:hover{background:#064b91}.related-date{font-size:12px;color:#475569;font-weight:800}@media(max-width:520px){.related-link-row{align-items:flex-start;flex-direction:column}.related-direct-link{width:100%;box-sizing:border-box;justify-content:center}}</style></head><body><header class="top"><div class="top-in"><a class="brand" href="index.html"><img src="logo.png" alt="AJ DIGITAL POINT"><span><b>AJ DIGITAL POINT</b><small>CSC & Online Digital Services</small></span></a></div><nav class="mainnav"><a href="index.html">🏠 Home</a><a class="active" href="latest-jobs.html">💼 Latest Jobs</a><a href="admit-card.html">🎫 Admit Card</a><a href="results.html">📊 Result</a><a href="answer-key.html">📝 Answer Key</a><a href="govt-schemes.html">🏛️ Schemes</a><a href="online-tools.html">🛠️ Tools</a></nav></header><main class="wrap">
 <div class="easy-back"><a href="latest-jobs.html">← Jobs पर वापस</a><span>›</span><b>Complete Job Details</b></div>
 <div class="crumb"><a href="latest-jobs.html">Latest Jobs</a> › Complete Details</div>
 
@@ -212,10 +212,18 @@ const related=suppliedRelated.length?suppliedRelated:[
 ];
 const relatedRoot=document.getElementById('relatedLinks'),relatedBox=document.getElementById('relatedLinksBox');
 if(relatedRoot&&relatedBox){
+ const normalizeLinkLabel=label=>{
+  const s=String(label||'').toLowerCase();
+  if(/apply|fill online|application form/.test(s)) return 'Fill Online Form / Apply Now';
+  if(/notification|recruitment notice|full notice/.test(s)) return 'Full Notification / Recruitment Notice';
+  if(/official website|website/.test(s)) return 'Official Website';
+  return label||'Official Link';
+ };
  relatedRoot.innerHTML=related.length?related.map(x=>{
-  const label=x.title||x.label||'Official Link',url=x.url||x.href||'',date=x.date||'';
-  return '<p><b>'+esc(label)+'</b>'+(date?' — '+esc(date):'')+(url?' — <a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Open link ↗</a>':'')+'</p>';
- }).join(''):'<p class="muted">इस vacancy record में apply/notification/official website links दर्ज नहीं हैं। कृपया संबंधित भर्ती संस्था की official website पर जाँचें।</p>';
+  const label=normalizeLinkLabel(x.title||x.label),url=x.url||x.href||'',date=x.date||'';
+  const safeUrl=/^https?:\\/\\//i.test(url);
+  return '<p class="related-link-row">'+(date?'<span class="related-date">'+esc(date)+'</span> ':'')+(safeUrl?'<a class="related-direct-link" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+' ↗</a>':'<b>'+esc(label)+'</b><span class="muted"> — Direct link उपलब्ध नहीं</span>')+'</p>';
+ }).join(''):'<p class="muted">इस vacancy record में apply/notification/official website links दर्ज नहीं हैं।</p>';
  relatedBox.hidden=false;
 }
 set('selection',d.selection);set('salary',d.salary);
