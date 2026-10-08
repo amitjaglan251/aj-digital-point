@@ -162,7 +162,8 @@ if(physicalRoot&&physicalBox){
   if(x.details)parts.push(x.details);
   return '<p><b>'+esc(label)+':</b> '+esc(parts.join(' • ')||x.value||'As per notification')+'</p>';
  }).join('');
- physicalBox.hidden=!physicalRows.length;
+ if(!physicalRows.length) physicalRoot.innerHTML='<p class="muted">इस vacancy record में PST/PET standards दर्ज नहीं हैं। Physical test लागू है या नहीं, यह official notification से verify करें.</p>';
+ physicalBox.hidden=false;
 }
 const related=Array.isArray(d.relatedLinks)?d.relatedLinks:[];
 const relatedRoot=document.getElementById('relatedLinks'),relatedBox=document.getElementById('relatedLinksBox');
