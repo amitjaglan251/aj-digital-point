@@ -131,7 +131,15 @@ set('eligibilityExtra',d.eligibility||'Post-specific subject, experience, local-
 const renderList=(targetId,boxId,items)=>{
  const target=document.getElementById(targetId),box=document.getElementById(boxId);
  if(!target||!box)return;
- if(!Array.isArray(items)||!items.length){box.hidden=true;return;}
+ if(!Array.isArray(items)||!items.length){
+  const messages={
+   postQualifications:'इस vacancy record में post-wise qualification दर्ज नहीं है। कृपया Full Notification में post/trade-wise eligibility verify करें.',
+   postVacancies:'इस vacancy record में post-wise vacancy breakup दर्ज नहीं है। कृपया official notification देखें.',
+   physicalDetails:'इस vacancy record में PST/PET standards दर्ज नहीं हैं। Physical test लागू है या नहीं, यह official notification से verify करें.'
+  };
+  target.innerHTML='<p class="muted">'+esc(messages[targetId]||'इस vacancy record में यह विवरण उपलब्ध नहीं है। कृपया official notification देखें.')+'</p>';
+  box.hidden=false;return;
+ }
  target.innerHTML=items.map(item=>{
    if(typeof item==='string') return '<p>'+esc(item)+'</p>';
    const label=item.post||item.category||item.label||item.region||item.name||'Details';
