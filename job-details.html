@@ -71,6 +71,18 @@
     <li id="eligibilityExtra">Post-specific subject, experience, local-language या other conditions: official notification के अनुसार.</li>
   </ul>
 </section>
+<section class="jobbox" id="postQualificationBox" hidden>
+  <h2>🎓 Post-wise Qualification</h2><div id="postQualifications"></div>
+</section>
+<section class="jobbox" id="postVacancyBox" hidden>
+  <h2>📊 Post-wise Vacancies</h2><div id="postVacancies"></div>
+</section>
+<section class="jobbox" id="physicalBox" hidden>
+  <h2>📏 Physical Eligibility (PST / PET)</h2><div id="physicalDetails"></div>
+</section>
+<section class="jobbox" id="relatedLinksBox" hidden>
+  <h2>🔗 Important Related Links & Issue Dates</h2><div id="relatedLinks"></div>
+</section>
 
 <section class="jobbox">
   <h2>📄 Required Documents</h2>
@@ -116,6 +128,31 @@ set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':'Current / Listed Recruitm
 set('openDate',d.openDate);set('lastDate',d.lastDate);set('feeDate',d.feeDate);set('correctionDate',d.correctionDate);set('examDate',d.examDate);set('updates',d.updates);set('dataAuditDate',d.dataAuditDate);
 set('fee',d.fee);set('age',d.age);set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification: '+fallback);
 set('eligibilityExtra',d.eligibility||'Post-specific subject, experience, local-language या other conditions: '+fallback);
+const renderList=(targetId,boxId,items)=>{
+ const target=document.getElementById(targetId),box=document.getElementById(boxId);
+ if(!target||!box)return;
+ if(!Array.isArray(items)||!items.length){box.hidden=true;return;}
+ target.innerHTML=items.map(item=>{
+   if(typeof item==='string') return '<p>'+esc(item)+'</p>';
+   const label=item.post||item.category||item.label||item.region||item.name||'Details';
+   const value=item.qualification||item.vacancy||item.total||item.value||item.height||item.race||item.details||'';
+   return '<p><b>'+esc(label)+':</b> '+esc(value)+'</p>';
+ }).join('');
+ box.hidden=false;
+};
+renderList('postQualifications','postQualificationBox',d.postQualifications);
+renderList('postVacancies','postVacancyBox',d.postVacancies);
+const physicalRows=Array.isArray(d.physicalEligibility)?d.physicalEligibility:[];
+renderList('physicalDetails','physicalBox',physicalRows);
+const related=Array.isArray(d.relatedLinks)?d.relatedLinks:[];
+const relatedRoot=document.getElementById('relatedLinks'),relatedBox=document.getElementById('relatedLinksBox');
+if(relatedRoot&&relatedBox){
+ relatedRoot.innerHTML=related.map(x=>{
+  const label=x.title||x.label||'Official Link',url=x.url||x.href||'',date=x.date||'';
+  return '<p><b>'+esc(label)+'</b>'+(date?' — '+esc(date):'')+(url?' — <a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Open link ↗</a>':'')+'</p>';
+ }).join('');
+ relatedBox.hidden=!related.length;
+}
 set('selection',d.selection);set('salary',d.salary);
 document.getElementById('shortInfo').textContent=d.shortInfo||((d.title||'This recruitment')+' के लिए important dates, vacancy, eligibility, fee, selection process, documents और official links नीचे दिए गए हैं।');
 const dl=document.getElementById('documentsList');
