@@ -47,12 +47,12 @@
 
 <section class="jobbox">
   <h2>💰 Application Fee</h2>
-  <ul><li id="fee">—</li><li id="paymentMode">Payment mode: —</li></ul>
+  <ul><li id="fee">—</li><li id="paymentMode">Payment mode: as prescribed in official notification</li></ul>
 </section>
 
 <section class="jobbox">
   <h2>🎯 Age Limit</h2>
-  <ul><li id="age">—</li><li id="ageRelaxation">Age relaxation: —</li></ul>
+  <ul><li id="age">—</li><li id="ageAsOn">Age limit calculation date: as stated in official notification</li><li id="ageRelaxation">Age relaxation: as prescribed in official notification</li></ul>
 </section>
 
 <section class="jobbox">
@@ -126,7 +126,7 @@ set('vacancy',d.vacancy);set('vacancy2',d.vacancy);set('categoryVacancy',d.categ
 set('topMode',d.mode);set('state',d.state||'All India / As per notification');
 set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':'Current / Listed Recruitment');
 set('openDate',d.openDate);set('lastDate',d.lastDate);set('feeDate',d.feeDate);set('correctionDate',d.correctionDate);set('examDate',d.examDate);set('updates',d.updates);set('dataAuditDate',d.dataAuditDate);
-set('fee',d.fee);set('age',d.age);set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification: '+fallback);
+set('fee',d.fee);set('paymentMode','Payment mode: '+(d.paymentMode||((d.fee||'').match(/payment\s*[:：]\s*([^.;]+)/i)||[])[1]||'As prescribed in official notification'));set('age',d.age);set('ageAsOn','Age limit calculation date: '+(d.ageAsOn||d.ageLimitAsOn||'As stated in official notification'));set('ageRelaxation','Age relaxation: '+(d.ageRelaxation||'As prescribed in official notification'));set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification: '+fallback);
 set('eligibilityExtra',d.eligibility||'Post-specific subject, experience, local-language या other conditions: '+fallback);
 const renderList=(targetId,boxId,items)=>{
  const target=document.getElementById(targetId),box=document.getElementById(boxId);
@@ -165,14 +165,19 @@ if(physicalRoot&&physicalBox){
  if(!physicalRows.length) physicalRoot.innerHTML='<p class="muted">इस vacancy record में PST/PET standards दर्ज नहीं हैं। Physical test लागू है या नहीं, यह official notification से verify करें.</p>';
  physicalBox.hidden=false;
 }
-const related=Array.isArray(d.relatedLinks)?d.relatedLinks:[];
+const suppliedRelated=Array.isArray(d.relatedLinks)?d.relatedLinks:[];
+const related=suppliedRelated.length?suppliedRelated:[
+ ...(d.apply?[{title:'Fill Online Form / Apply Now',date:d.openDate||'',url:d.apply}]:[]),
+ ...(d.notice?[{title:'Full Notification / Recruitment Notice',date:d.notificationDate||'',url:d.notice}]:[]),
+ ...(d.official?[{title:'Official Website',date:'',url:d.official}]:[])
+];
 const relatedRoot=document.getElementById('relatedLinks'),relatedBox=document.getElementById('relatedLinksBox');
 if(relatedRoot&&relatedBox){
- relatedRoot.innerHTML=related.map(x=>{
+ relatedRoot.innerHTML=related.length?related.map(x=>{
   const label=x.title||x.label||'Official Link',url=x.url||x.href||'',date=x.date||'';
   return '<p><b>'+esc(label)+'</b>'+(date?' — '+esc(date):'')+(url?' — <a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Open link ↗</a>':'')+'</p>';
- }).join('');
- relatedBox.hidden=!related.length;
+ }).join(''):'<p class="muted">इस vacancy record में apply/notification/official website links दर्ज नहीं हैं। कृपया संबंधित भर्ती संस्था की official website पर जाँचें।</p>';
+ relatedBox.hidden=false;
 }
 set('selection',d.selection);set('salary',d.salary);
 document.getElementById('shortInfo').textContent=d.shortInfo||((d.title||'This recruitment')+' के लिए important dates, vacancy, eligibility, fee, selection process, documents और official links नीचे दिए गए हैं।');
