@@ -7251,57 +7251,108 @@ window.AJ_JOB_DATA = [
   "notificationDate": "29/09/2026"
 },
 {
-  "id": "csir-ugc-net-dec-2026",
-  "category": "Exam / Online Form",
-  "state": "All India",
-  "organization": "National Testing Agency (NTA) / CSIR",
-  "title": "Joint CSIR-UGC NET December 2026 Online Form",
-  "openDate": "08/10/2026",
-  "lastDate": "05/11/2026 11:50 PM",
-  "mode": "Online",
-  "vacancy": "Not a vacancy — eligibility examination for JRF, Assistant Professor and PhD admission categories.",
-  "qualification": "Relevant postgraduate degree or final-year eligibility as prescribed in the official Information Bulletin; subject-specific requirements apply.",
-  "age": "JRF age limit and relaxations as prescribed; no upper age limit for Assistant Professor eligibility category, subject to official rules.",
-  "fee": "Category-wise examination fee as prescribed in the official Information Bulletin.",
-  "selection": "Computer Based Test (CBT); subject groups and eligibility outcomes as prescribed by NTA/CSIR.",
-  "apply": "https://csirnet.nta.nic.in/",
-  "notice": "https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/10/20261007908428552.pdf",
-  "official": "https://csirnet.nta.nic.in/",
-  "documents": "Recent photograph, signature, identity and category certificates where applicable, qualifying degree/marksheets and other documents required by the Information Bulletin.",
-  "updates": "Official application notice is published. Current reported application deadline is 05/11/2026; exam dates are reported as 19, 22 and 27 December 2026. Verify all schedule details in the official notice/portal before applying.",
-  "dataAuditDate": "08/10/2026",
-  "notificationDate": "08/10/2026",
-  "links": {
-    "notification": "https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/10/20261007908428552.pdf",
-    "official": "https://csirnet.nta.nic.in/"
-  }
-},
+    "id": "csir-ugc-net-dec-2026",
+    "category": "Exam / Online Form",
+    "state": "All India",
+    "organization": "National Testing Agency (NTA) / CSIR",
+    "title": "Joint CSIR-UGC NET December 2026 Online Form",
+    "openDate": "08/10/2026",
+    "lastDate": "05/11/2026 11:50 PM",
+    "mode": "Online",
+    "vacancy": "Not a vacancy — eligibility examination for JRF, Assistant Professor and PhD admission categories.",
+    "qualification": "Relevant postgraduate degree or final-year eligibility as prescribed in the official Information Bulletin; subject-specific requirements apply.",
+    "age": "JRF age limit and relaxations as prescribed; no upper age limit for Assistant Professor eligibility category, subject to official rules.",
+    "fee": "Category-wise examination fee as prescribed in the official Information Bulletin.",
+    "selection": "Computer Based Test (CBT); subject groups and eligibility outcomes as prescribed by NTA/CSIR.",
+    "apply": "https://csirnet.nta.nic.in/",
+    "notice": "https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/10/20261007908428552.pdf",
+    "official": "https://csirnet.nta.nic.in/",
+    "documents": "Recent photograph, signature, identity and category certificates where applicable, qualifying degree/marksheets and other documents required by the Information Bulletin.",
+    "updates": "December 2026 application notice is listed on the official portal. Confirm subject/shift and subsequent dates from NTA's latest notice.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "08/10/2026",
+    "links": {
+      "notification": "https://csirnet.nta.nic.in/documents/",
+      "official": "https://csirnet.nta.nic.in/"
+    },
+    "examDate": "19/12/2026, 22/12/2026 and 27/12/2026 (subject/shift to be confirmed in official notice)",
+    "shortInfo": "CSIR-UGC NET is an eligibility exam, not counselling. Track application, exam, answer key, result/rank and e-certificate dates on the official portal.",
+    "importantDates": [
+      {
+        "label": "Application Opens",
+        "date": "08/10/2026"
+      },
+      {
+        "label": "Last Date to Apply",
+        "date": "05/11/2026"
+      },
+      {
+        "label": "Exam Dates",
+        "date": "19/12/2026, 22/12/2026 and 27/12/2026"
+      },
+      {
+        "label": "Admit Card / Exam City",
+        "date": "To be announced by NTA"
+      },
+      {
+        "label": "Answer Key",
+        "date": "To be announced by NTA"
+      },
+      {
+        "label": "Result / Rank / Certificate",
+        "date": "To be announced by NTA"
+      }
+    ]
+  },
 {
-  "id": "ugc-net-june-2026-scorecard",
-  "category": "Result / Score Card",
-  "state": "All India",
-  "organization": "National Testing Agency (NTA) / University Grants Commission",
-  "title": "UGC-NET June 2026 — Score Card, Final Answer Key & Result Updates",
-  "openDate": "June 2026 examination cycle",
-  "lastDate": "Application closed — result/scorecard/certificate updates",
-  "mode": "Online result / scorecard",
-  "vacancy": "Not a vacancy — eligibility test for JRF, Assistant Professor and PhD admission categories.",
-  "qualification": "As prescribed in the UGC-NET June 2026 Information Bulletin.",
-  "age": "JRF age eligibility and relaxations as prescribed; no upper age limit for Assistant Professor category, subject to official rules.",
-  "fee": "Application window closed.",
-  "selection": "UGC-NET examination; scorecard and final answer key are available through official candidate services.",
-  "apply": "https://ugcnet.nta.nic.in/",
-  "notice": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/202609171984449363.pdf",
-  "official": "https://ugcnet.nta.nic.in/",
-  "documents": "Application number and login credentials are required to access candidate scorecard/certificate services.",
-  "updates": "Key dates: result for 84 subjects declared 28/08/2026; English, Commerce and Sociology re-exam result declared 17/09/2026; e-certificate notice published 24/09/2026. UGC-NET has no single centralised counselling calendar; PhD admission dates are announced separately by each university. Check official notices for next steps.",
-  "dataAuditDate": "08/10/2026",
-  "links": {
+    "id": "ugc-net-june-2026-scorecard",
+    "category": "Result / Score Card",
+    "state": "All India",
+    "organization": "National Testing Agency (NTA) / University Grants Commission",
+    "title": "UGC-NET June 2026 — Score Card, Final Answer Key & Result Updates",
+    "openDate": "June 2026 examination cycle",
+    "lastDate": "Application closed — result/scorecard/certificate updates",
+    "mode": "Online result / scorecard",
+    "vacancy": "Not a vacancy — eligibility test for JRF, Assistant Professor and PhD admission categories.",
+    "qualification": "As prescribed in the UGC-NET June 2026 Information Bulletin.",
+    "age": "JRF age eligibility and relaxations as prescribed; no upper age limit for Assistant Professor category, subject to official rules.",
+    "fee": "Application window closed.",
+    "selection": "UGC-NET examination; scorecard and final answer key are available through official candidate services.",
+    "apply": "https://ugcnet.nta.nic.in/",
+    "notice": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/202609171984449363.pdf",
     "official": "https://ugcnet.nta.nic.in/",
-    "result": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/20260828605740344.pdf",
-    "answerKey": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/20260828776295170.pdf"
-  }
-},
+    "documents": "Application number and login credentials are required to access candidate scorecard/certificate services.",
+    "updates": "Official UGC-NET portal lists June 2026 scorecard, final answer key, result and e-certificate notices.",
+    "dataAuditDate": "08/10/2026",
+    "links": {
+      "official": "https://ugcnet.nta.nic.in/",
+      "result": "https://ugcnet.nta.nic.in/",
+      "answerKey": "https://ugcnet.nta.nic.in/"
+    },
+    "shortInfo": "UGC-NET June 2026 is in scorecard/result/e-certificate stage. UGC-NET has no single central counselling calendar; PhD/admission dates are announced separately by each university.",
+    "importantDates": [
+      {
+        "label": "June 2026 Exam Cycle",
+        "date": "See official NTA notices"
+      },
+      {
+        "label": "Re-examination",
+        "date": "09/09/2026 and 10/09/2026 (official notices)"
+      },
+      {
+        "label": "Score Card / Final Answer Key",
+        "date": "Available / check official portal"
+      },
+      {
+        "label": "e-Certificate",
+        "date": "Issuance notice listed on official portal"
+      },
+      {
+        "label": "University PhD / Admission Counselling",
+        "date": "University-wise schedule; no common UGC-NET counselling date"
+      }
+    ]
+  },
 {
   "id": "aiims-delhi-project-research-scientist-ii-medical-2026-1015",
   "category": "Medical / Research Job",
@@ -7429,6 +7480,59 @@ window.AJ_JOB_DATA = [
   "dataAuditDate": "08/10/2026",
   "links": {
     "official": "https://mcc.nic.in/pg-medical-counselling/"
+  }
+},
+{
+  "id": "neet-ug-mbbs-counselling-2026",
+  "category": "Counselling / Admission",
+  "state": "All India",
+  "organization": "Medical Counselling Committee (MCC) / DGHS",
+  "title": "NEET UG 2026 MBBS / BDS Counselling — Schedule, Seat Matrix & Allotment",
+  "openDate": "Round 3 registration: 22/09/2026",
+  "lastDate": "Round 3 registration closed: 27/09/2026; see latest MCC schedule for subsequent rounds",
+  "mode": "Online counselling",
+  "vacancy": "MBBS / BDS and B.Sc Nursing seats under MCC-managed quotas; seat matrix varies by round.",
+  "qualification": "NEET UG 2026 qualified candidates meeting MCC and course-specific eligibility requirements.",
+  "age": "As per NEET UG 2026 Information Bulletin and applicable rules.",
+  "fee": "Registration/security deposit as prescribed by MCC; check the current official bulletin.",
+  "selection": "Registration → choice filling/locking → seat allotment → document verification and reporting. State quota counselling is run separately by state authorities.",
+  "apply": "https://mcc.nic.in/ug-%20medical-counselling/",
+  "notice": "https://mcc.nic.in/eservices-schedule-ug/",
+  "official": "https://mcc.nic.in/ug-%20medical-counselling/",
+  "documents": "NEET UG scorecard/admit card, allotment letter, Class 10/12 certificates, identity proof, category/domicile certificates where applicable, and documents specified by MCC/state authority.",
+  "updates": "MCC official page lists Round 3 final allotment result; check the official current-events and schedule pages for any further/stray vacancy round.",
+  "dataAuditDate": "08/10/2026",
+  "importantDates": [
+    {
+      "label": "Round 3 Registration",
+      "date": "22/09/2026 – 27/09/2026"
+    },
+    {
+      "label": "Choice Filling / Locking",
+      "date": "23/09/2026 – 28/09/2026"
+    },
+    {
+      "label": "Round 3 Seat Allotment Result",
+      "date": "30/09/2026"
+    },
+    {
+      "label": "Round 3 Reporting",
+      "date": "02/10/2026 – 09/10/2026; verify any revised MCC notice"
+    },
+    {
+      "label": "Further / Stray Vacancy Round",
+      "date": "Check latest MCC official schedule; dates may be revised"
+    },
+    {
+      "label": "State Quota MBBS Counselling",
+      "date": "State-wise schedule published separately"
+    }
+  ],
+  "shortInfo": "Round-wise NEET UG counselling dates, seat matrix, allotment and reporting information. State quota dates are published by each state authority.",
+  "links": {
+    "official": "https://mcc.nic.in/ug-%20medical-counselling/",
+    "notification": "https://mcc.nic.in/eservices-schedule-ug/",
+    "result": "https://mcc.nic.in/current-events-ug/"
   }
 }
 ];
