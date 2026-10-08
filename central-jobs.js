@@ -7105,6 +7105,46 @@ window.AJ_JOB_DATA = [
     "updates": "Rajasthan State Recruitment Portal currently lists CONTRACTUAL SAFAI KARAMCHARI - 2026 under Local Self Government; last date shown as 13/10/2026.",
     "dataAuditDate": "08/10/2026",
     "notificationDate": "28/09/2026"
+  },
+  {
+    "id": "upsssc-youth-welfare-412-2026",
+    "category": "State Job",
+    "state": "Uttar Pradesh",
+    "title": "UPSSSC Regional Youth Welfare & Territorial Development Officer / Exercise Trainer Recruitment 2026 — Advt. 23-Exam/2026",
+    "lastDate": "06/11/2026",
+    "openDate": "16/10/2026",
+    "mode": "Online",
+    "vacancy": "412 posts",
+    "qualification": "As prescribed in the official recruitment notification.",
+    "age": "As prescribed in the official recruitment notification.",
+    "fee": "As prescribed in the official recruitment notification.",
+    "selection": "PET-2025 normalized score based shortlisting followed by Main Examination and post-specific stages as prescribed.",
+    "apply": "https://upsssc.gov.in/",
+    "notice": "https://upsssc.gov.in/",
+    "official": "https://upsssc.gov.in/",
+    "documents": "Educational, age, category and other documents as prescribed in the official notification.",
+    "updates": "Verified current state recruitment listing checked on 08/10/2026.",
+    "dataAuditDate": "08/10/2026"
+  },
+  {
+    "id": "rajasthan-jen-direct-joint-2026",
+    "category": "State Job",
+    "state": "Rajasthan",
+    "title": "Rajasthan Direct Joint Recruitment of JEN 2026",
+    "lastDate": "See official Rajasthan Recruitment Portal",
+    "openDate": "14/09/2026",
+    "mode": "Online",
+    "vacancy": "Post-wise vacancies as per official JEN 2026 recruitment notice",
+    "qualification": "As prescribed in the official recruitment notification.",
+    "age": "As prescribed in the official recruitment notification.",
+    "fee": "As prescribed in the official recruitment notification.",
+    "selection": "As prescribed by RSSB for Direct Joint Recruitment of JEN 2026.",
+    "apply": "https://recruitment.rajasthan.gov.in/",
+    "notice": "https://recruitment.rajasthan.gov.in/",
+    "official": "https://recruitment.rajasthan.gov.in/",
+    "documents": "Educational, age, category and other documents as prescribed in the official notification.",
+    "updates": "Verified current state recruitment listing checked on 08/10/2026.",
+    "dataAuditDate": "08/10/2026"
   }
 ];
 
