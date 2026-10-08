@@ -6952,6 +6952,52 @@ window.AJ_JOB_DATA = [
     "documents": "As prescribed in notification.",
     "updates": "Notification dated 25/09/2026 invites online applications for 01 vacant Cook (Group-D) post.",
     "dataAuditDate": "07/10/2026"
+  },
+  {
+    "id": "punjab-sssc-clerk-1270-2026",
+    "category": "State Job",
+    "state": "Punjab",
+    "title": "Punjab District Courts Clerk Recruitment 2026 — Advt. 37C/SSSC/PB/2026",
+    "lastDate": "04/11/2026 04:00 PM",
+    "mode": "Online",
+    "openDate": "07/10/2026 04:00 PM",
+    "vacancy": "1,270 Posts",
+    "qualification": "Bachelor of Arts/Bachelor of Science or equivalent from a recognized University; Matriculation with Punjabi as a subject; proficiency in computer operation.",
+    "age": "18–37 years as on 01/01/2026; category-wise relaxation as prescribed.",
+    "fee": "SC/BC/OBC/ESM/EWS Punjab ₹710; PwBD Punjab ₹875; other categories ₹1,200, including facilitation charges.",
+    "selection": "Computer Based Test, Computer Proficiency Test and document/testimonial verification as prescribed.",
+    "apply": "https://www.sssc.gov.in/",
+    "notice": "https://www.sssc.gov.in/storage/notices/Advt%20dated%2003.10.2026%20Pb%20Clerk.pdf",
+    "official": "https://www.sssc.gov.in/",
+    "documents": "Educational qualification and marksheets, Matriculation certificate, Punjabi subject proof, category/domicile certificates where applicable, photograph, signature, valid ID and other documents prescribed in the advertisement.",
+    "updates": "Advertisement No. 37C/SSSC/PB/2026 dated 03/10/2026; online applications open 07/10/2026 and close 04/11/2026.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "03/10/2026",
+    "links": {
+      "notification": "https://www.sssc.gov.in/storage/notices/Advt%20dated%2003.10.2026%20Pb%20Clerk.pdf",
+      "official": "https://www.sssc.gov.in/"
+    }
+  },
+  {
+    "id": "rajasthan-contractual-safai-karamchari-2026",
+    "category": "State Job",
+    "state": "Rajasthan",
+    "title": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
+    "lastDate": "13/10/2026",
+    "mode": "Online",
+    "openDate": "28/09/2026",
+    "vacancy": "As per official Rajasthan Recruitment Portal",
+    "qualification": "As prescribed in the official recruitment notice.",
+    "age": "As prescribed in the official recruitment notice.",
+    "fee": "As prescribed in the official recruitment notice.",
+    "selection": "As prescribed by Local Self Government Department, Rajasthan.",
+    "apply": "https://recruitment.rajasthan.gov.in/",
+    "notice": "https://recruitment.rajasthan.gov.in/",
+    "official": "https://recruitment.rajasthan.gov.in/",
+    "documents": "As prescribed in the official recruitment notice; no estimated checklist added.",
+    "updates": "Rajasthan State Recruitment Portal currently lists CONTRACTUAL SAFAI KARAMCHARI - 2026 under Local Self Government; last date shown as 13/10/2026.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "28/09/2026"
   }
 ];
 
