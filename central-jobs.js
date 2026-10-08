@@ -7283,7 +7283,7 @@ window.AJ_JOB_DATA = [
   "organization": "National Testing Agency (NTA) / University Grants Commission",
   "title": "UGC-NET June 2026 — Score Card, Final Answer Key & Result Updates",
   "openDate": "June 2026 examination cycle",
-  "lastDate": "Application closed — result/scorecard stage",
+  "lastDate": "Application closed — result/scorecard/certificate updates",
   "mode": "Online result / scorecard",
   "vacancy": "Not a vacancy — eligibility test for JRF, Assistant Professor and PhD admission categories.",
   "qualification": "As prescribed in the UGC-NET June 2026 Information Bulletin.",
@@ -7291,15 +7291,15 @@ window.AJ_JOB_DATA = [
   "fee": "Application window closed.",
   "selection": "UGC-NET examination; scorecard and final answer key are available through official candidate services.",
   "apply": "https://ugcnet.nta.nic.in/",
-  "notice": "https://ugcnet.nta.nic.in/",
+  "notice": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/202609171984449363.pdf",
   "official": "https://ugcnet.nta.nic.in/",
   "documents": "Application number and login credentials are required to access candidate scorecard/certificate services.",
-  "updates": "Official UGC-NET portal lists June 2026 scorecard/re-exam and final answer key notices. This is a result update, not a new application form.",
+  "updates": "Key dates: result for 84 subjects declared 28/08/2026; English, Commerce and Sociology re-exam result declared 17/09/2026; e-certificate notice published 24/09/2026. UGC-NET has no single centralised counselling calendar; PhD admission dates are announced separately by each university. Check official notices for next steps.",
   "dataAuditDate": "08/10/2026",
   "links": {
     "official": "https://ugcnet.nta.nic.in/",
-    "result": "https://ugcnet.nta.nic.in/",
-    "answerKey": "https://ugcnet.nta.nic.in/"
+    "result": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/20260828605740344.pdf",
+    "answerKey": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/20260828776295170.pdf"
   }
 },
 {
@@ -7378,6 +7378,57 @@ window.AJ_JOB_DATA = [
   "links": {
     "notification": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
     "official": "https://www.aiims.edu/"
+  }
+},
+{
+  "id": "neet-ug-2026-mbbs-counselling-dates-round3-stray",
+  "category": "Counselling / Admission",
+  "state": "All India",
+  "organization": "Medical Counselling Committee (MCC) / State Counselling Authorities",
+  "title": "NEET UG 2026 MBBS / BDS / B.Sc Nursing — Counselling Date List (Round 3 & Stray Round)",
+  "openDate": "12/10/2026",
+  "lastDate": "26/10/2026",
+  "mode": "Online counselling / seat allotment",
+  "vacancy": "MBBS, BDS and B.Sc Nursing counselling; seats vary by round, quota and institution.",
+  "qualification": "NEET UG 2026 qualified candidates meeting applicable MCC/state counselling rules.",
+  "age": "As per NEET UG and the applicable counselling bulletin.",
+  "fee": "Registration fee and security deposit vary by quota/category; check official portal.",
+  "selection": "Registration, choice filling/locking, seat allotment and reporting as per counselling authority.",
+  "apply": "https://mcc.admissions.nic.in/",
+  "notice": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609151605377053.pdf",
+  "official": "https://mcc.nic.in/ug-%20medical-counselling/",
+  "documents": "NEET UG admit card/scorecard, allotment letter if allotted, identity proof, educational certificates, category/domicile certificates where applicable and documents required by the authority.",
+  "updates": "Official MCC schedule: Round 3 AIQ choice filling 23–28/09/2026; result 30/09/2026; reporting 01–09/10/2026. State Round 3 admission schedule 28/09–09/10/2026, last joining 14/10/2026. Online Stray Vacancy Round: registration 12–14/10/2026 (payment till 06:00 PM on 14/10); choice filling 12–15/10 (locking till 10:00 AM on 15/10); allotment 17/10; reporting 19–26/10/2026. State Round 4 schedule 17–21/10/2026; last joining 26/10/2026. Dates may be revised; verify official MCC/state notices.",
+  "dataAuditDate": "08/10/2026",
+  "notificationDate": "15/09/2026",
+  "links": {
+    "notification": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609151605377053.pdf",
+    "stateSchedule": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/20260915112025817.pdf",
+    "official": "https://mcc.nic.in/ug-%20medical-counselling/"
+  }
+},
+{
+  "id": "neet-pg-2026-counselling-official-status",
+  "category": "Counselling / Admission",
+  "state": "All India",
+  "organization": "Medical Counselling Committee (MCC)",
+  "title": "NEET PG 2026 — Counselling Schedule / Seat Matrix Official Update",
+  "openDate": "Official update pending",
+  "lastDate": "Not confirmed on MCC page",
+  "mode": "Online counselling — check official portal",
+  "vacancy": "MD/MS and other eligible postgraduate medical seats; seat matrix subject to official publication.",
+  "qualification": "NEET PG 2026 qualified candidates meeting applicable MCC counselling rules.",
+  "age": "As prescribed in the NEET PG information bulletin.",
+  "fee": "Check official counselling bulletin.",
+  "selection": "Registration, choice filling/locking, seat allotment and reporting as per MCC schedule.",
+  "apply": "https://mcc.admissions.nic.in/",
+  "notice": "https://mcc.nic.in/pg-medical-counselling/",
+  "official": "https://mcc.nic.in/pg-medical-counselling/",
+  "documents": "NEET PG score/rank, identity proof, MBBS degree, internship completion and registration documents, category certificates where applicable, and documents listed in the official bulletin.",
+  "updates": "MCC's PG Medical Counselling page currently says the NMC/NBEMS seat matrix is awaited. Do not rely on unverified dates; confirm schedule and registration window on the official MCC page.",
+  "dataAuditDate": "08/10/2026",
+  "links": {
+    "official": "https://mcc.nic.in/pg-medical-counselling/"
   }
 }
 ];
