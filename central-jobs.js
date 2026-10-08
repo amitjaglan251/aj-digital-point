@@ -7322,12 +7322,14 @@ window.AJ_JOB_DATA = [
     "notice": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/202609171984449363.pdf",
     "official": "https://ugcnet.nta.nic.in/",
     "documents": "Application number and login credentials are required to access candidate scorecard/certificate services.",
-    "updates": "Official UGC-NET portal lists June 2026 scorecard, final answer key, result and e-certificate notices.",
+    "updates": "Key dates: result for 84 subjects declared 28/08/2026; English, Commerce and Sociology re-exam result declared 17/09/2026; e-certificate notice published 24/09/2026. UGC-NET has no single centralised counselling calendar; PhD admission dates are announced separately by each university. Check official notices for next steps.",
     "dataAuditDate": "08/10/2026",
     "links": {
       "official": "https://ugcnet.nta.nic.in/",
-      "result": "https://ugcnet.nta.nic.in/",
-      "answerKey": "https://ugcnet.nta.nic.in/"
+      "result": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/20260828605740344.pdf",
+      "certificateNotice": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/20260924982245914.pdf",
+      "reExamResult": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/202609171984449363.pdf",
+      "answerKey": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/20260828776295170.pdf"
     },
     "shortInfo": "UGC-NET June 2026 is in scorecard/result/e-certificate stage. UGC-NET has no single central counselling calendar; PhD/admission dates are announced separately by each university.",
     "importantDates": [
