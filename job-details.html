@@ -174,11 +174,18 @@ const cleanPostName=(value)=>{
   if(isMissing(v)) return '';
   // Strip notice identifiers and generic listing words while preserving the actual role/exam name.
   v=v.replace(/\s*[—–-]\s*(?:Advt\.?|Advertisement|Notification|official notice|dates and|vacancy count|applications closed|deadline requires|official notice not confirmed).*$/i,'');
+  if(d.organization && v.toLowerCase().startsWith(String(d.organization).trim().toLowerCase())) {
+    v=v.slice(String(d.organization).trim().length).replace(/^[\s:—–-]+/,'');
+  }
+  v=v.replace(/^(?:UPSC|SSC|RRB|IBPS|APPSC|WBPSC|TNPSC|HSSC|HPSC|SBI|BOB|BOI|UIICL|NICL|MECL|RCF|RCFL|ICMR[- ]BMHRC|NCRTC|GADVASU)\s+/i,'');
+  v=v.replace(/^(?:CEN|Advt\.?|Advertisement|Notification)\s*(?:No\.?\s*)?[\w.\/()-]+\s*/i,'');
+  v=v.replace(/^\d{1,4}\/\d{4}\s*/,'');
   v=v.replace(/\b(?:Advertisement|Notification)\s+No\.?\s*[\w.\/()-]+/gi,' ');
   v=v.replace(/\b(?:Direct\s+)?Recruitment\b/gi,' ');
   v=v.replace(/\b(?:Online\s+Form|Apply\s+Online|Online\s+Application|Vacancy)\b/gi,' ');
   v=v.replace(/\s*\b(?:2024|2025|2026|2027)\b\s*/g,' ');
   v=v.replace(/\s+/g,' ').replace(/^[\s:—–-]+|[\s:—–-]+$/g,'').trim();
+  if(!v || /^(?:India Optel Limited|Various Posts?|Various Vacancies?)$/i.test(v)) return 'Various notified posts — post-wise titles official notification में देखें';
   return v;
 };
 const explicitPost=[d.postName,d.postTitle,d.vacancyPost].find(v=>!isMissing(v));
