@@ -145,6 +145,12 @@ body{background:linear-gradient(180deg,#eef6ff 0,#fff 340px);color:#132238}
   <div class="link-grid" id="linkGrid"></div>
 </section>
 
+<section class="jobbox" id="verificationBox">
+  <h2>🔎 Official Verification Status</h2>
+  <p id="verificationStatus">इस भर्ती की जानकारी आधिकारिक नोटिस से मिलाएँ।</p>
+  <p id="verificationSource" class="muted"></p>
+</section>
+
 <section class="jobbox">
   <h2>📢 Important Note</h2>
   <div class="warning"><b>ध्यान दें:</b> AJ DIGITAL POINT independent information portal है। Recruitment की final vacancy, dates, eligibility, fee, selection, result, admit card और document requirements संबंधित official authority की notification/website से verify करें.</div>
@@ -164,7 +170,7 @@ const isExpired=!!latestDeadline && latestDeadline < new Date(new Date().setHour
 document.title=(d.title||'Job Details')+' | AJ DIGITAL POINT';
 set('jobTitle',d.title);set('jobSub',(d.category||'Recruitment')+' • '+(d.mode||'Online')+' • Complete Details');
 set('nameOfPost',d.post||d.title);set('post',d.post||d.title);set('vacancyPost',d.post||d.title);
-set('org',d.organization||d.department||'Official notification में देखें');
+set('org',d.organization||d.department||d.authority||'Recruiting authority इस रिकॉर्ड में अलग से दर्ज नहीं है; official notice में देखें.');
 set('vacancy',d.vacancy);set('vacancy2',d.vacancy);set('categoryVacancy',d.categoryVacancy);
 set('topMode',d.mode);set('state',d.state||'All India / As per notification');
 set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':(isExpired?'EXPIRED — application deadline passed; check official extension/corrigendum before any further action':'Application window may be open — verify official portal'));
@@ -242,6 +248,8 @@ if(relatedRoot&&relatedBox){
 set('selection',d.selection,'इस record में selection stages दर्ज नहीं हैं; official notification देखें।');
 set('salary',d.salary,'Salary / Pay Level इस record में दर्ज नहीं है; official notification में pay scale देखें।');
 document.getElementById('shortInfo').textContent=d.shortInfo||((d.title||'This recruitment')+' के लिए important dates, vacancy, eligibility, fee, selection process, documents और official links नीचे दिए गए हैं।');
+set('verificationStatus',d.verificationStatus,'इस रिकॉर्ड के लिए अलग verification note उपलब्ध नहीं है; आवेदन करने से पहले official notice से सभी विवरण मिलाएँ.');
+set('verificationSource',d.categoryVacancySource||('Official notice: '+(d.notice||d.official||'इस रिकॉर्ड में अलग source link दर्ज नहीं है.')));
 const dl=document.getElementById('documentsList');
 const steps=document.getElementById('applySteps');
 const applySteps=Array.isArray(d.applySteps)?d.applySteps:[
@@ -257,7 +265,9 @@ const applySteps=Array.isArray(d.applySteps)?d.applySteps:[
 steps.innerHTML=applySteps.map(x=>'<li>'+esc(x)+'</li>').join('');
 
 const docs=Array.isArray(d.documents)?d.documents:(d.documents?[d.documents]:[]);
-const finalDocs=docs.length?docs:['इस vacancy record में official required-documents list उपलब्ध नहीं है — कोई अनुमानित checklist नहीं दिखाई जा रही है।'];
+const genericDocs=['आवेदन में भरी जानकारी से मेल खाता पहचान प्रमाण और जन्मतिथि/10वीं का प्रमाणपत्र तैयार रखें.','पद के अनुसार शैक्षणिक योग्यता, marksheets, professional registration या experience certificate तैयार रखें.','आरक्षण/छूट का दावा करने पर ही वैध category, EWS, PwBD, Ex-Servicemen या अन्य संबंधित प्रमाणपत्र रखें.','आवेदन पोर्टल के निर्देशानुसार हाल की photograph, signature और आवश्यक scanned files तैयार रखें.','यह सामान्य तैयारी सूची है; अंतिम और अनिवार्य दस्तावेज official notification तथा application portal से ही confirm करें.'];
+const docsLookGeneric=docs.length && docs.every(x=>/official notification|not available|not recorded|as prescribed|इस vacancy record में/i.test(String(x)));
+const finalDocs=docs.length&&!docsLookGeneric?docs:genericDocs;
 dl.innerHTML=finalDocs.map(x=>'<li>'+esc(x)+'</li>').join('');
 const links=d.links||{};
 const lg=document.getElementById('linkGrid');
@@ -297,6 +307,8 @@ if(!lg.innerHTML){
  lg.innerHTML='<div class="warning"><b>Official direct links उपलब्ध नहीं हैं.</b> इस record के लिए कोई अनुमानित/duplicate homepage link नहीं बनाया गया है।</div>';
 }
 const c=document.getElementById('chips');
-c.innerHTML='<span class="chip">'+esc(d.category||'Recruitment')+'</span><span class="chip">'+esc(d.mode||'Online')+'</span><span class="chip">'+(isUpcoming?'⏳ Upcoming':'📌 Current / Listed')+'</span>'+(d.state?'<span class="chip">📍 '+esc(d.state)+'</span>':'');
+const verifyText=String(d.verificationStatus||'').toLowerCase();
+const statusChip=/unconfirmed|not confirmed|unverified|partial|provisional/.test(verifyText)?'⚠️ Verify Official Notice':(isUpcoming?'⏳ Upcoming':(isExpired?'⌛ Deadline Passed':'📌 Listed'));
+c.innerHTML='<span class="chip">'+esc(d.category||'Recruitment')+'</span><span class="chip">'+esc(d.mode||'Online')+'</span><span class="chip">'+esc(statusChip)+'</span>'+(d.state?'<span class="chip">📍 '+esc(d.state)+'</span>':'');
 document.querySelector('meta[name="description"]').setAttribute('content',(d.title||'Recruitment')+' — complete job details, important dates, vacancy, eligibility, fee, selection process and official links.');
 })();</script></body></html>
