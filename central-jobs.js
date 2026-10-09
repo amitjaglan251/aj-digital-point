@@ -1,5 +1,5 @@
 window.AJ_JOB_DATA = [
-  {
+{
     "id": "punjab-district-courts-clerk-37c-2026",
     "category": "State Job",
     "state": "Punjab",
@@ -8,15 +8,15 @@ window.AJ_JOB_DATA = [
     "lastDate": "04/11/2026 04:00 PM",
     "openDate": "07/10/2026 04:00 PM",
     "mode": "Online",
-    "vacancy": "1,270 Clerk posts in Punjab District Courts. The notice gives category and anticipated-vacancy tables; vacancy counts may change before merit list/posting.",
-    "qualification": "BA/BSc or equivalent from a recognized university; Matriculation with Punjabi as a subject; proficiency in computer operation.",
-    "age": "18–37 years as on 01/01/2026 for UR. Punjab SC and BC/OBC: 5-year relaxation; Punjab PwBD: 10-year relaxation; Punjab Ex-servicemen and in-service employee rules differ. Punjab residence is required for reserved-category concessions.",
-    "fee": "Non-refundable: Punjab SC/BC/OBC/ESM/EWS ₹710; Punjab PwBD ₹875; all other categories ₹1,200.",
-    "selection": "Online CBT (General Knowledge and English Composition) with objective and subjective components, followed by mandatory Computer Proficiency Test for shortlisted candidates. Negative marking of 1/4 mark for wrong MCQ answers.",
+    "vacancy": "1,270 Clerk posts in Punjab District Courts. Official vacancy table separates current vacancies as on 31/08/2026 from anticipated vacancies up to 28/02/2027; the notice warns totals may change before merit-list preparation/posting.",
+    "qualification": "Bachelor of Arts (BA), Bachelor of Science (BSc) or equivalent from a recognized university; Matriculation with Punjabi as one subject; proficiency in computer operation. Eligibility qualification must be held by the application closing date.",
+    "age": "As on 01/01/2026: UR 18–37 years; Punjab SC and BC/OBC candidates get 5 years' upper-age relaxation; Punjab PwBD 10 years; Punjab Ex-servicemen: military service rendered + 3 years; eligible in-service employees up to 45 years under the stated rules. Reservation, fee concession and most category benefits require Punjab residence.",
+    "fee": "Non-refundable online fee: Punjab SC/BC/OBC/ESM/EWS ₹710 (₹550 facilitation + ₹160 exam fee); Punjab PwBD ₹875 (₹550 + ₹325); all other categories ₹1,200 (₹550 + ₹650). 'Others' gender applicants pay according to their category.",
+    "selection": "Two-hour online CBT, 100 marks: General Knowledge 50 objective marks; English Composition 20 objective marks + 30 subjective marks (essay, letter, précis, Punjabi-to-English translation). Minimum 33% in each subject and 40% aggregate; subjective English is checked only after at least 33% in GK. Negative marking: 1/4 mark per wrong MCQ. Shortlisted candidates take qualifying CPT: 10-minute spreadsheet test (minimum 4/10) then English typing at 30 WPM. Final merit from written exam marks.",
     "notice": "https://sssc.gov.in/storage/notices/Advt%20dated%2003.10.2026%20Pb%20Clerk.pdf",
     "official": "https://www.sssc.gov.in/public/notice-board",
     "apply": "https://www.sssc.gov.in/",
-    "documents": "Educational certificates, Punjabi qualification proof, computer proficiency evidence and category/reservation certificates where applicable, as prescribed in the advertisement.",
+    "documents": "BA/BSc/equivalent degree; Matriculation certificate showing Punjabi; proof of computer proficiency as prescribed; valid Punjab residence/category certificates for reservation or fee concessions; ESM/PwBD and other relevant certificates if applicable. Government/court employees should obtain NOC and keep it ready.",
     "dataAuditDate": "09/10/2026",
     "notificationDate": "03/10/2026",
     "salary": "₹29,200 (Level 5) for fresh recruitment/appointment.",
@@ -25,10 +25,10 @@ window.AJ_JOB_DATA = [
     "feeDate": "Fee is non-refundable and must be paid with the online application by the closing deadline.",
     "correctionDate": "No general correction window stated in the advertisement.",
     "examDate": "Not yet specified; SSSC will announce the date on its official website.",
-    "categoryVacancy": "The official notice's category table includes UR/General, Punjab EWS, SC (Balmikis/Mazhbi Sikhs and Others), BC/OBC, Freedom Fighter, Sportsman, PwBD subcategories and Punjab Ex-Servicemen categories. Use the 14-page PDF for the full current/anticipated category and gender split; do not sum horizontal reservations as separate posts.",
-    "categoryVacancySource": "See the detailed vacancy table on pages 1–2 of the official notice; includes current vacancies as of 31/08/2026 and anticipated vacancies through 28/02/2027.",
-    "verificationStatus": "VERIFIED FROM OFFICIAL 14-PAGE PDF — opening/closing dates, 1,270 posts, qualifications, age, fees, pay and selection method checked. The detailed category table contains current and anticipated vacancies plus horizontal reservations; consult the PDF for the complete breakdown.",
-    "updates": "Official SSSC notice board dated 03/10/2026 lists Advertisement 37C/SSSC/PB/2026. Applications open 07/10/2026 4:00 PM and close 04/11/2026 4:00 PM."
+    "categoryVacancy": "Official PDF (page 1) current vacancies as on 31/08/2026, with women counts in parentheses: UR/General 201 (71); Punjab EWS 96 (45); SC Balmikis/Mazhbi Sikhs 99 (70); SC Others 83 (60); Punjab BC/OBC 69 (64); Freedom Fighter 11 (9); Sportsman General 8 (18 shown in women column in the notice—confirm table layout before interpreting); Sportsman SC 22; PwBD: LV 14, HH 10, locomotor/identified SD-SI 8, SLD/MI/MD 10; Punjab Ex-Servicemen: General 55, SC Balmiki/Mazhbi Sikh 36, SC Others 36, BC/OBC 35. Anticipated-vacancy and women columns are also shown separately through 28/02/2027. PwBD, sports and Ex-servicemen rows are reservation subcategories; do not add all rows as independent posts or treat them as the 1,270 vertical-category total.",
+    "categoryVacancySource": "Official SSSC detailed employment notice 37C/SSSC/PB/2026, page 1 (vacancy table) and pages 2–4 (age, qualification, pay and fees): https://sssc.gov.in/storage/notices/Advt%20dated%2003.10.2026%20Pb%20Clerk.pdf",
+    "verificationStatus": "VERIFIED AGAINST OFFICIAL SSSC 14-PAGE PDF: advertisement number/date, 1,270 vacancies, opening/closing date, eligibility, age limits, fee table, Level-5 pay and CBT/CPT selection rules checked. The official table distinguishes current, anticipated and horizontal-reservation categories; its rows must not be summed as if all were independent vertical vacancies.",
+    "updates": "Official SSSC notice board lists the advertisement dated 03/10/2026. Online application: 07/10/2026 04:00 PM to 04/11/2026 04:00 PM. Current vacancy figures as on 31/08/2026; anticipated vacancies up to 28/02/2027 are separately tabulated. Exam date to be announced."
   },
   {
     "id": "appsc-group-i-07-2026",
