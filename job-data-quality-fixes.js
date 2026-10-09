@@ -1,71 +1,99 @@
-/* AJ DIGITAL POINT — verified data corrections for the job-details dataset.
-   Sources checked 09/10/2026:
-   TRAI official vacancy listing: https://www.trai.gov.in/vacancies
-   Haryana CS Office Guwahati notice: https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf
-   Haryana CS Office Kolkata notice: https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf
-*/
+/* AJ DIGITAL POINT — verified job-data corrections.
+ * Checked 09/10/2026 against TRAI's official vacancy listing and Haryana CS Office notices.
+ * Never merge distinct notifications when their locations/deadlines differ.
+ */
 (function(){
-  const data=window.AJ_JOB_DATA;
-  if(!Array.isArray(data)) return;
-  const d=data.find(x=>x && x.id==="haryana-cs-joint-advisor-trai-2026");
-  if(!d) return;
-  Object.assign(d,{
-    category:"Central Job",
-    state:"Assam / West Bengal",
-    organization:"Telecom Regulatory Authority of India (TRAI)",
-    department:"TRAI Camp Office Guwahati (under TRAI RO Kolkata) and TRAI Regional Office Kolkata",
-    authority:"Telecom Regulatory Authority of India",
-    title:"TRAI Joint Advisor Notices 2026 — Guwahati & Kolkata (2 Separate Deputation Notices)",
-    post:"Joint Advisor — Guwahati and Kolkata (separate notices)",
-    shortInfo:"यह एक संयुक्त सारांश है, एक single vacancy नहीं। TRAI ने Guwahati Camp Office के लिए 1 Joint Advisor post और Kolkata Regional Office के लिए 1 Joint Advisor post अलग-अलग notices में प्रकाशित की है। दोनों deputation (foreign service terms) के लिए हैं; दोनों की dates अलग हैं।",
-    openDate:"Guwahati: 28/09/2026; Kolkata: 14/05/2026. Haryana Chief Secretary Office ने दोनों notices 07/10/2026 को repost किए।",
-    lastDate:"Guwahati: 06/11/2026; Kolkata: 16/10/2026 (TRAI official listing के अनुसार)",
-    feeDate:"दोनों deputation notices में अलग fee-payment date प्रकाशित नहीं है; application fee निर्दिष्ट नहीं है।",
-    correctionDate:"दोनों notices के लिए कोई correction window official listing में दर्ज नहीं है।",
-    examDate:"कोई written exam date प्रकाशित नहीं; selection deputation process के अनुसार।",
-    mode:"Online application plus prescribed forwarding / hard-copy process, as stated in each notice",
-    vacancy:"2 separate notices; 1 Joint Advisor post at Guwahati + 1 Joint Advisor post at Kolkata (2 posts total, separately notified)",
-    categoryVacancy:"Guwahati: 1 Joint Advisor post. Kolkata: 1 Joint Advisor post. Category-wise reservation breakup इन deputation notices में प्रकाशित नहीं है।",
-    qualification:"संबंधित क्षेत्र में अनुभव के साथ इनमें से एक qualification route: AICTE-recognised institution से Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering में Bachelor's degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor's या Master's degree; या ICAI / ICMAI membership. अंतिम पात्रता संबंधित location की official PDF से मिलाएँ।",
-    eligibility:"यह सामान्य public direct recruitment नहीं है। पात्र serving officers Central/State Government, UT Administration, autonomous body, statutory organisation, PSU, recognised university या recognised research institution से होने चाहिए और संबंधित notice में दिए service conditions में से एक पूरा करना चाहिए: parent cadre/department में analogous post पर regular service; या Level-12 (₹78,800–₹2,09,200) में regular appointment के बाद 4 वर्ष सेवा; या Group A/equivalent में कम-से-कम 12 वर्ष regular service, जिसमें Level-11/equivalent पर कम-से-कम 6 वर्ष regular service शामिल हो। प्रत्येक notice की PDF में exact wording और conditions verify करें।",
-    age:"अधिकतम 56 वर्ष, संबंधित post के लिए TRAI में आवेदन प्राप्त होने की अंतिम तिथि पर।",
-    ageAsOn:"Guwahati: 06/11/2026; Kolkata: 16/10/2026 (दोनों posts की अलग closing dates)",
-    ageRelaxation:"अलग category-wise relaxation सूचीबद्ध नहीं; deputation notice में अधिकतम आयु 56 वर्ष दी गई है। संबंधित official PDF को अंतिम मानें।",
-    fee:"दोनों official deputation notices में application fee निर्दिष्ट नहीं है।",
-    paymentMode:"Application fee/payment method notice में निर्दिष्ट नहीं है। किसी third party को payment न करें; केवल official TRAI portal और notice के निर्देश मानें।",
-    selection:"Relevant service eligibility, qualifications and experience के आधार पर deputation process. Written examination/test schedule इन listings में प्रकाशित नहीं है।",
-    salary:"Pay Level-13: ₹1,23,100–₹2,15,900 (7th CPC Pay Matrix), plus applicable allowances as per rules.",
-    apply:"https://vacancies.trai.gov.in/",
-    notice:"https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf",
-    official:"https://www.trai.gov.in/vacancies",
-    documents:"Online application का printout; पिछले 5 वर्षों के attested ACR/APAR; vigilance/disciplinary clearance; cadre clearance; relevant educational qualification, service and experience records; और संबंधित notification में बताए अन्य deputation papers. Exact checklist location-specific PDF से verify करें।",
-    updates:"TRAI official listing: Guwahati notice released 28/09/2026, last date 06/11/2026; Kolkata notice released 14/05/2026, latest listed last date 16/10/2026. Haryana Chief Secretary Office ने दोनों notices 07/10/2026 को publish/repost किए।",
-    dataAuditDate:"09/10/2026",
-    postQualifications:[
-      {label:"Post / location 1",value:"Joint Advisor — TRAI Camp Office Guwahati (under TRAI RO Kolkata); 1 post; last date 06/11/2026."},
-      {label:"Post / location 2",value:"Joint Advisor — TRAI Regional Office Kolkata; 1 post; latest listed last date 16/10/2026."},
-      {label:"Eligible applicant",value:"Eligible serving government / PSU / other specified public-sector officers on deputation; this is not a general open direct-recruitment vacancy."},
-      {label:"Education and service",value:"Specified engineering degree, eligible Bachelor's/Master's degree route, or ICAI/ICMAI membership, plus the relevant experience/service conditions. Check the location-specific official PDF."}
+  const data = window.AJ_JOB_DATA;
+  if (!Array.isArray(data)) return;
+
+  const idx = data.findIndex(x => x && x.id === "haryana-cs-joint-advisor-trai-2026");
+  if (idx < 0) return;
+  const base = data[idx];
+
+  const common = {
+    category: "Central Job",
+    organization: "Telecom Regulatory Authority of India (TRAI)",
+    department: "Telecom Regulatory Authority of India",
+    authority: "Telecom Regulatory Authority of India",
+    post: "Joint Advisor",
+    mode: "Deputation on foreign service terms; follow the location-specific official notice for submission procedure.",
+    feeDate: "अलग fee-payment date प्रकाशित नहीं है।",
+    correctionDate: "Official listing में correction window प्रकाशित नहीं है।",
+    examDate: "Written exam date प्रकाशित नहीं है; deputation selection notice के अनुसार होगा।",
+    fee: "TRAI की official vacancy listing में application fee का उल्लेख नहीं है; PDF notice के निर्देश अंतिम मानें।",
+    paymentMode: "Fee/payment method को notice में verify करें। किसी अनधिकृत व्यक्ति या third-party को भुगतान न करें।",
+    age: "अधिकतम आयु 56 वर्ष (TRAI official listing/notice के अनुसार; संबंधित अंतिम तारीख पर लागू शर्तें देखें)।",
+    ageRelaxation: "अलग category-wise relaxation की पुष्टि उपलब्ध summary से नहीं होती; official notice देखें।",
+    eligibility: "यह deputation vacancy है, सामान्य open direct recruitment नहीं। केवल notice में निर्धारित service/cadre eligibility पूरी करने वाले serving officers आवेदन करें।",
+    selection: "Deputation प्रक्रिया; exact scrutiny, forwarding और selection conditions के लिए location-specific official PDF देखें।",
+    salary: "Pay Level-13: ₹1,23,100–₹2,15,900 (official vacancy information के अनुसार); allowances/conditions notice और applicable rules के अनुसार।",
+    official: "https://www.trai.gov.in/vacancies",
+    apply: "https://vacancies.trai.gov.in/",
+    dataAuditDate: "09/10/2026",
+    updates: "TRAI official vacancy listing को 09/10/2026 को cross-check किया गया। Haryana Chief Secretary Office ने notice 07/10/2026 को repost किया।",
+    physicalEligibility: [
+      {label:"PST / PET",details:"यह deputation notice है। TRAI vacancy summary में PST/PET standards सूचीबद्ध नहीं हैं; कोई physical standard लागू है या नहीं, full official PDF देखें।"}
+    ]
+  };
+
+  const guwahati = Object.assign({}, base, common, {
+    id: "trai-joint-advisor-guwahati-2026",
+    category: "Central Job",
+    state: "Assam — Guwahati",
+    organization: "Telecom Regulatory Authority of India (TRAI)",
+    department: "TRAI Camp Office Guwahati (under TRAI Regional Office Kolkata)",
+    title: "TRAI Joint Advisor Recruitment 2026 — Guwahati",
+    post: "Joint Advisor — TRAI Camp Office Guwahati",
+    shortInfo: "TRAI Camp Office Guwahati (under TRAI Regional Office Kolkata) में Joint Advisor के 1 पद के लिए deputation notice। यह सामान्य direct recruitment नहीं है; eligibility और application forwarding के लिए official notice पढ़ें।",
+    openDate: "28/09/2026",
+    lastDate: "06/11/2026",
+    vacancy: "1 post",
+    categoryVacancy: "Joint Advisor — Guwahati: 1 post. Category-wise breakup official summary में सूचीबद्ध नहीं है।",
+    qualification: "Education, experience और service eligibility की सटीक शर्तें Guwahati-specific official PDF में verify करें।",
+    eligibilityExtra: "केवल notice में निर्धारित eligible serving government/PSU/other public-sector officers; deputation/cadre conditions लागू।",
+    ageAsOn: "06/11/2026 — application receipt की अंतिम तारीख के संबंध में official notice देखें।",
+    documents: "Official notice में मांगे गए application, service/cadre, vigilance/disciplinary clearance, APAR/ACR, qualification और experience documents; exact checklist PDF से लें।",
+    notice: "https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf",
+    links: {apply:"https://vacancies.trai.gov.in/", notification:"https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf", official:"https://www.trai.gov.in/vacancies"},
+    relatedLinks: [
+      {title:"Guwahati Joint Advisor — Official Notice (Haryana CS Office PDF)",date:"TRAI release 28/09/2026; listed last date 06/11/2026",url:"https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf"},
+      {title:"TRAI Official Vacancies",date:"Official listing",url:"https://www.trai.gov.in/vacancies"},
+      {title:"TRAI Vacancy / Apply Portal",date:"Official portal",url:"https://vacancies.trai.gov.in/"}
     ],
-    postVacancies:[
-      {post:"Joint Advisor — TRAI Camp Office Guwahati",vacancy:"1 post; last date 06/11/2026"},
-      {post:"Joint Advisor — TRAI Regional Office Kolkata",vacancy:"1 post; latest listed last date 16/10/2026"}
-    ],
-    physicalEligibility:[
-      {label:"PST / PET",details:"TRAI vacancy listings and the notices are deputation notices; no PST/PET standards are listed in the vacancy summary. Check the full location-specific notice for any additional condition."}
-    ],
-    relatedLinks:[
-      {title:"Apply / TRAI Vacancy Portal",date:"Official application portal",url:"https://vacancies.trai.gov.in/"},
-      {title:"Guwahati Joint Advisor Notice — Haryana CS Office PDF",date:"Published 07/10/2026; TRAI release 28/09/2026; last date 06/11/2026",url:"https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf"},
-      {title:"Kolkata Joint Advisor Notice — Haryana CS Office PDF",date:"Published 07/10/2026; TRAI release 14/05/2026; latest listed last date 16/10/2026",url:"https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf"},
-      {title:"TRAI Official Vacancies Listing",date:"Verified 09/10/2026",url:"https://www.trai.gov.in/vacancies"}
-    ],
-    links:{
-      apply:"https://vacancies.trai.gov.in/",
-      notification:"https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf",
-      official:"https://www.trai.gov.in/vacancies"
-    },
-    verificationStatus:"Verified against TRAI's official vacancy listing and both Haryana Chief Secretary Office PDF notices. This record summarizes two separate posts; each location has its own deadline and notification.",
-    verificationSource:"TRAI vacancies: https://www.trai.gov.in/vacancies | Guwahati PDF: https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf | Kolkata PDF: https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf"
+    verificationStatus: "TRAI official listing से post count, release date और closing date cross-check किए गए। Qualification/service conditions के लिए linked Guwahati-specific PDF को अंतिम मानें।",
+    verificationSource: "https://www.trai.gov.in/vacancies | https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Guwahati.pdf"
   });
+
+  const kolkata = Object.assign({}, base, common, {
+    id: "trai-joint-advisor-kolkata-2026",
+    category: "Central Job",
+    state: "West Bengal — Kolkata",
+    organization: "Telecom Regulatory Authority of India (TRAI)",
+    department: "TRAI Regional Office Kolkata",
+    title: "TRAI Joint Advisor Recruitment 2026 — Kolkata",
+    post: "Joint Advisor — TRAI Regional Office Kolkata",
+    shortInfo: "TRAI Regional Office Kolkata में Joint Advisor के 1 पद के लिए अलग deputation notice। यह Guwahati notice से अलग vacancy है। Eligibility, extension notices और application forwarding के लिए official PDF/listing देखें।",
+    openDate: "14/05/2026",
+    lastDate: "16/10/2026 (TRAI official vacancy listing पर प्रदर्शित)",
+    vacancy: "1 post",
+    categoryVacancy: "Joint Advisor — Kolkata: 1 post. Category-wise breakup official summary में सूचीबद्ध नहीं है।",
+    qualification: "Education, experience और service eligibility की सटीक शर्तें Kolkata-specific official PDF तथा जारी extension letters में verify करें।",
+    eligibilityExtra: "केवल notice में निर्धारित eligible serving government/PSU/other public-sector officers; deputation/cadre conditions लागू।",
+    ageAsOn: "16/10/2026 — application receipt की अंतिम तारीख के संबंध में official notice और extensions देखें।",
+    documents: "Official notice में मांगे गए application, service/cadre, vigilance/disciplinary clearance, APAR/ACR, qualification और experience documents; exact checklist PDF से लें।",
+    notice: "https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf",
+    links: {apply:"https://vacancies.trai.gov.in/", notification:"https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf", official:"https://www.trai.gov.in/vacancies"},
+    relatedLinks: [
+      {title:"Kolkata Joint Advisor — Official Notice (Haryana CS Office PDF)",date:"TRAI release 14/05/2026; listing shows last date 16/10/2026",url:"https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf"},
+      {title:"TRAI Official Vacancies and extension letters",date:"Official listing",url:"https://www.trai.gov.in/vacancies"},
+      {title:"TRAI Vacancy / Apply Portal",date:"Official portal",url:"https://vacancies.trai.gov.in/"}
+    ],
+    verificationStatus: "TRAI official listing से post count, release date और currently displayed closing date cross-check किए गए। Kolkata notice के extension letters भी official listing में हैं; linked notice/listing को अंतिम मानें।",
+    verificationSource: "https://www.trai.gov.in/vacancies | https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf"
+  });
+
+  // Replace the old combined summary with two independent, searchable job records.
+  data[idx] = guwahati;
+  if (!data.some(x => x && x.id === kolkata.id)) data.push(kolkata);
+  window.AJ_JOB_DATA = data;
 })();
