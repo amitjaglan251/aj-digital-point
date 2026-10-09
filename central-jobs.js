@@ -7612,7 +7612,7 @@ window.AJ_JOB_DATA = [
     "selection": "As prescribed in the official CGEPT recruitment notification.",
     "notice": "https://joinindiancoastguard.cdac.in/",
     "official": "https://joinindiancoastguard.cdac.in/",
-    "apply": "https://naukriconnect.com/defence/",
+    "apply": "https://joinindiancoastguard.cdac.in/",
     "documents": "Keep educational certificates, identity proof, photograph, signature and category certificates ready as required by the official notification.",
     "updates": "Third-party information/application link supplied for reference. Before submitting personal details or payment, verify the recruitment notice and application process on the official Indian Coast Guard recruitment portal.",
     "dataAuditDate": "09/10/2026",
