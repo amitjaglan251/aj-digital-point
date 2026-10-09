@@ -174,7 +174,7 @@ const cleanPostName=(value)=>{
   if(isMissing(v)) return '';
   // Strip notice identifiers and generic listing words while preserving the actual role/exam name.
   v=v.replace(/\s*[—–-]\s*(?:Advt\.?|Advertisement|Notification|official notice|dates and|vacancy count|applications closed|deadline requires|official notice not confirmed).*$/i,'');
-  v=v.replace(/\b(?:Advertisement|Notification)\s+No\.?\s*[\w./()-]+/gi,' ');
+  v=v.replace(/\b(?:Advertisement|Notification)\s+No\.?\s*[\w.\/()-]+/gi,' ');
   v=v.replace(/\b(?:Direct\s+)?Recruitment\b/gi,' ');
   v=v.replace(/\b(?:Online\s+Form|Apply\s+Online|Online\s+Application|Vacancy)\b/gi,' ');
   v=v.replace(/\s*\b(?:2024|2025|2026|2027)\b\s*/g,' ');
