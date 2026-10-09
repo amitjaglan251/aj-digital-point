@@ -80,7 +80,7 @@ body{background:linear-gradient(180deg,#eef6ff 0,#fff 340px);color:#132238}
     <tr><td>Correction / Edit Date</td><td id="correctionDate">Not separately published / Not applicable</td></tr>
     <tr><td>Exam / Selection Date</td><td id="examDate">Not separately published / Not applicable</td></tr>
     <tr><td>Latest Update</td><td id="updates">—</td></tr>
-    <tr><td>AJ Digital Point Data Audit</td><td id="dataAuditDate">07/10/2026</td></tr>
+    <tr><td>AJ Digital Point Data Audit</td><td id="dataAuditDate">09/10/2026</td></tr>
   </table>
 </section>
 
@@ -152,8 +152,9 @@ body{background:linear-gradient(180deg,#eef6ff 0,#fff 340px);color:#132238}
 </main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261007-11"></script><script>(function(){
 const p=new URLSearchParams(location.search),id=(p.get('job')||p.get('id')||'').trim();
 const d=(window.AJ_JOB_DATA||[]).find(x=>String(x.id)===id);
-const fallback='इस vacancy record में official notification/data उपलब्ध नहीं है';
-const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=(v!==undefined&&v!==null&&String(v).trim()!=='')?v:fallback;};
+const fallback='इस vacancy record में यह जानकारी दर्ज नहीं है। सही विवरण के लिए संबंधित official notification खोलें; अनुमानित जानकारी नहीं दिखाई जाएगी।';
+const isMissing=v=>v===undefined||v===null||String(v).trim()===''||['—','-','–','N/A','NA','null','undefined'].includes(String(v).trim());
+const set=(id,v,missingText=fallback)=>{const e=document.getElementById(id);if(e)e.textContent=!isMissing(v)?v:missingText;};
 const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 if(!d){document.getElementById('jobTitle').textContent='Job Not Found';document.getElementById('jobSub').textContent='कृपया Latest Jobs page से job चुनें।';return;}
 const isUpcoming=d.category==='Upcoming Vacancy'||d.mode==='Upcoming';
@@ -163,10 +164,16 @@ set('nameOfPost',d.post||d.title);set('post',d.post||d.title);set('vacancyPost',
 set('org',d.organization||d.department||'Official notification में देखें');
 set('vacancy',d.vacancy);set('vacancy2',d.vacancy);set('categoryVacancy',d.categoryVacancy);
 set('topMode',d.mode);set('state',d.state||'All India / As per notification');
-set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':'Current / Listed Recruitment');
-set('openDate',d.openDate);set('lastDate',d.lastDate);set('feeDate',d.feeDate);set('correctionDate',d.correctionDate);set('examDate',d.examDate);set('updates',d.updates);set('dataAuditDate',d.dataAuditDate);
+const deadlineMatch=String(d.lastDate||'').match(/(\d{2})\/(\d{2})\/(\d{4})/);
+const isExpired=deadlineMatch && new Date(+deadlineMatch[3],+deadlineMatch[2]-1,+deadlineMatch[1]) < new Date(new Date().setHours(0,0,0,0));
+set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':(isExpired?'Last date passed — verify official notice':'Listed recruitment — verify current status'));
+set('openDate',d.openDate);set('lastDate',d.lastDate);set('feeDate',d.feeDate,'Official notification में अलग fee-payment date दर्ज नहीं है।');
+set('correctionDate',d.correctionDate,'Correction window की तारीख इस record में दर्ज नहीं है; official notice देखें।');
+set('examDate',d.examDate,'Exam/selection date इस record में दर्ज नहीं है; official notice देखें।');
+set('updates',d.updates,'इस भर्ती के लिए कोई अलग latest update इस record में दर्ज नहीं है।');
+set('dataAuditDate',d.dataAuditDate||'09/10/2026');
 set('fee',d.fee);set('paymentMode','Payment mode: '+(d.paymentMode||((d.fee||'').match(/payment\s*[:：]\s*([^.;]+)/i)||[])[1]||'As prescribed in official notification'));set('age',d.age);set('ageAsOn','Age limit calculation date: '+(d.ageAsOn||d.ageLimitAsOn||'As stated in official notification'));set('ageRelaxation','Age relaxation: '+(d.ageRelaxation||'As prescribed in official notification'));set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification: '+fallback);
-set('eligibilityExtra',d.eligibility||'Post-specific subject, experience, local-language या other conditions: '+fallback);
+set('eligibilityExtra',d.eligibility,'Post-specific subject, experience, local-language और अन्य conditions इस record में दर्ज नहीं हैं; official notification देखें.');
 const renderList=(targetId,boxId,items)=>{
  const target=document.getElementById(targetId),box=document.getElementById(boxId);
  if(!target||!box)return;
@@ -226,7 +233,8 @@ if(relatedRoot&&relatedBox){
  }).join(''):'<p class="muted">इस vacancy record में apply/notification/official website links दर्ज नहीं हैं।</p>';
  relatedBox.hidden=false;
 }
-set('selection',d.selection);set('salary',d.salary);
+set('selection',d.selection,'इस record में selection stages दर्ज नहीं हैं; official notification देखें।');
+set('salary',d.salary,'Salary / Pay Level इस record में दर्ज नहीं है; official notification में pay scale देखें।');
 document.getElementById('shortInfo').textContent=d.shortInfo||((d.title||'This recruitment')+' के लिए important dates, vacancy, eligibility, fee, selection process, documents और official links नीचे दिए गए हैं।');
 const dl=document.getElementById('documentsList');
 const steps=document.getElementById('applySteps');
