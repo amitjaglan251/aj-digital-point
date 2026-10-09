@@ -748,22 +748,53 @@ window.AJ_JOB_DATA = [
   {
     "id": "gate-2027",
     "category": "Central Job",
-    "title": "GATE 2027 Notification and Online Form",
-    "post": "GATE 2027 Notification and Online Form",
-    "shortInfo": "**GATE 2027 Notification and Online Form**. Vacancy: Post-wise vacancy — see official notification Eligibility: Post-wise educational qualification as prescribed in the official notification. Last date: 05/10/2026 11:59 PM Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
-    "lastDate": "05/10/2026 11:59 PM",
+    "title": "GATE 2027 — Online Application / Exam Schedule",
+    "post": "Graduate Aptitude Test in Engineering (GATE) 2027",
+    "shortInfo": "GATE 2027 का official portal बताता है कि regular registration 05/10/2026 को बंद हुआ और late-fee registration 12/10/2026 तक खुला है। Application correction window 14–21/10/2026; परीक्षा 06, 07, 13, 14, 20 और 21/02/2027 को प्रस्तावित है। यह परीक्षा है, पदों की भर्ती नहीं।",
+    "lastDate": "12/10/2026 (late fee सहित)",
     "mode": "Online",
-    "openDate": "See official notification",
-    "vacancy": "Post-wise vacancy — see official notification",
-    "qualification": "Post-wise educational qualification as prescribed in the official notification.",
-    "age": "Post-wise age limit and relaxation as prescribed in the official notification.",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
-    "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
-    "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "openDate": "02/09/2026",
+    "vacancy": "लागू नहीं — GATE 2027 एक national-level examination है, भर्ती पदों की vacancy नहीं।",
+    "qualification": "Engineering/Technology/Architecture/Science/Commerce/Arts/Humanities आदि के किसी government-approved undergraduate degree programme के तीसरे वर्ष या उससे आगे पढ़ रहे विद्यार्थी, अथवा eligible degree पूरी कर चुके उम्मीदवार; programme-specific details official eligibility page पर देखें।",
+    "age": "कोई age limit नहीं।",
+    "fee": "एक पेपर: Female/SC/ST/PwD ₹1,000 regular / ₹1,500 extended; अन्य उम्मीदवारों सहित foreign nationals ₹2,000 regular / ₹2,500 extended. दो पेपर: Female/SC/ST/PwD ₹2,000 regular / ₹2,500 extended; अन्य उम्मीदवार ₹4,000 regular / ₹4,500 extended.",
+    "selection": "Computer-Based Test (CBT); official schedule के अनुसार परीक्षा फरवरी 2027 में और result 19/03/2027 को घोषित होने की तारीख दी गई है।",
+    "documents": "Recent photograph, signature, valid photo ID और आवेदन में मांगी गई जानकारी तैयार रखें। SC/ST/PwD fee concession के लिए official instructions के अनुसार संबंधित certificate/document आवश्यक हो सकता है। DigiLocker और upload rules official Required Documents/FAQ pages से जाँचें।",
+    "official": "https://gate2027.iitm.ac.in/",
+    "apply": "https://gate2027.iitm.ac.in/",
+    "notice": "https://gate2027.iitm.ac.in/notifications",
+    "dataAuditDate": "09/10/2026",
+    "feeDate": "12/10/2026 — late-fee registration की अंतिम तिथि; portal पर payment application के साथ पूरा करें।",
+    "correctionDate": "14/10/2026 से 21/10/2026",
+    "examDate": "06, 07, 13, 14, 20 और 21/02/2027",
+    "updates": "Official website के अनुसार late-fee registration 12/10/2026 तक खुला है; correction 14–21/10/2026; city allotment 04/01/2027; examination 06–21/02/2027 के निर्दिष्ट दिनों में; result 19/03/2027. Dates liable to change.",
+    "categoryVacancy": "Post-wise vacancy लागू नहीं। GATE score का उपयोग higher education और कुछ PSU recruitment processes में हो सकता है; अलग employer vacancies के लिए अलग notice देखना होगा।",
+    "eligibility": "GATE 2027 में कोई age limit नहीं है। उम्मीदवार एक या allowed combination के अनुसार दो test papers चुन सकते हैं। GATE score admission या PSU employment की गारंटी नहीं देता; institution/employer के अलग नियम लागू होंगे।",
+    "ageAsOn": "Not applicable — official GATE 2027 FAQ में age limit नहीं है।",
+    "ageRelaxation": "Not applicable — age limit नहीं है।",
+    "paymentMode": "Online payment options official GOAPS portal पर application भरने के बाद उपलब्ध होते हैं; service/processing/bank charges अलग लग सकते हैं।",
+    "salary": "लागू नहीं — यह परीक्षा है, नौकरी/वेतन वाली भर्ती नहीं।",
+    "ageLimitAsOn": "Not applicable — no age limit",
+    "postQualifications": [
+      {
+        "label": "General eligibility",
+        "value": "Government-approved undergraduate degree programme के third year or higher में अध्ययनरत या qualifying degree पूरी कर चुके उम्मीदवार; degree/programme-wise eligibility official page पर।"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "GATE 2027 examination में PST/PET भर्ती मानक लागू नहीं हैं।"
+      }
+    ],
+    "links": {
+      "apply": "https://gate2027.iitm.ac.in/",
+      "notification": "https://gate2027.iitm.ac.in/notifications",
+      "official": "https://gate2027.iitm.ac.in/",
+      "syllabus": "https://gate2027.iitm.ac.in/"
+    },
+    "verificationStatus": "Verified from official GATE 2027 website, Important Dates, Application Fees, Eligibility Criteria and Notifications pages as of 09/10/2026.",
+    "verificationSource": "Official: https://gate2027.iitm.ac.in/ | Important dates: https://gate2027.iitm.ac.in/important_dates | Fees: https://gate2027.iitm.ac.in/application_fees | Eligibility: https://gate2027.iitm.ac.in/eligibility_criteria"
   },
   {
     "id": "nic-scientific-technical-assistant",
