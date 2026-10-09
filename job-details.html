@@ -149,7 +149,7 @@ body{background:linear-gradient(180deg,#eef6ff 0,#fff 340px);color:#132238}
   <h2>📢 Important Note</h2>
   <div class="warning"><b>ध्यान दें:</b> AJ DIGITAL POINT independent information portal है। Recruitment की final vacancy, dates, eligibility, fee, selection, result, admit card और document requirements संबंधित official authority की notification/website से verify करें.</div>
 </section>
-</main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261007-11"></script><script>(function(){
+</main><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><script src="central-jobs.js?v=20261009-1"></script><script>(function(){
 const p=new URLSearchParams(location.search),id=(p.get('job')||p.get('id')||'').trim();
 const d=(window.AJ_JOB_DATA||[]).find(x=>String(x.id)===id);
 const fallback='इस vacancy record में यह जानकारी दर्ज नहीं है। सही विवरण के लिए संबंधित official notification खोलें; अनुमानित जानकारी नहीं दिखाई जाएगी।';
@@ -158,15 +158,16 @@ const set=(id,v,missingText=fallback)=>{const e=document.getElementById(id);if(e
 const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 if(!d){document.getElementById('jobTitle').textContent='Job Not Found';document.getElementById('jobSub').textContent='कृपया Latest Jobs page से job चुनें।';return;}
 const isUpcoming=d.category==='Upcoming Vacancy'||d.mode==='Upcoming';
+const dateTokens=String(d.lastDate||'').match(/\d{2}\/\d{2}\/\d{4}/g)||[];
+const latestDeadline=dateTokens.map(v=>{const p=v.split('/').map(Number);return new Date(p[2],p[1]-1,p[0]);}).sort((a,b)=>b-a)[0];
+const isExpired=!!latestDeadline && latestDeadline < new Date(new Date().setHours(0,0,0,0));
 document.title=(d.title||'Job Details')+' | AJ DIGITAL POINT';
 set('jobTitle',d.title);set('jobSub',(d.category||'Recruitment')+' • '+(d.mode||'Online')+' • Complete Details');
 set('nameOfPost',d.post||d.title);set('post',d.post||d.title);set('vacancyPost',d.post||d.title);
 set('org',d.organization||d.department||'Official notification में देखें');
 set('vacancy',d.vacancy);set('vacancy2',d.vacancy);set('categoryVacancy',d.categoryVacancy);
 set('topMode',d.mode);set('state',d.state||'All India / As per notification');
-const deadlineMatch=String(d.lastDate||'').match(/(\d{2})\/(\d{2})\/(\d{4})/);
-const isExpired=deadlineMatch && new Date(+deadlineMatch[3],+deadlineMatch[2]-1,+deadlineMatch[1]) < new Date(new Date().setHours(0,0,0,0));
-set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':(isExpired?'Last date passed — verify official notice':'Listed recruitment — verify current status'));
+set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':(isExpired?'EXPIRED — application deadline passed; check official extension/corrigendum before any further action':'Application window may be open — verify official portal'));
 set('openDate',d.openDate,'Application opening date इस record में दर्ज नहीं है; official notification देखें।');set('lastDate',d.lastDate,'Last date इस record में दर्ज नहीं है; official notification देखें।');set('feeDate',d.feeDate,'Official notification में अलग fee-payment date दर्ज नहीं है।');
 set('correctionDate',d.correctionDate,'Correction window की तारीख इस record में दर्ज नहीं है; official notice देखें।');
 set('examDate',d.examDate,'Exam/selection date इस record में दर्ज नहीं है; official notice देखें।');
