@@ -170,6 +170,7 @@ const isExpired=!!latestDeadline && latestDeadline < new Date(new Date().setHour
 document.title=(d.title||'Job Details')+' | AJ DIGITAL POINT';
 set('jobTitle',d.title);set('jobSub',(d.category||'Recruitment')+' • '+(d.mode||'Online')+' • Complete Details');
 const cleanPostName=(value)=>{
+  if(/^ncrtc-supervisor-jr-maintainer(?:-2026)?$/i.test(String(d.id||''))) return 'O&M Staff; Supervisor and Junior Maintainer posts';
   let v=String(value||'').trim();
   if(isMissing(v)) return '';
   // Strip notice identifiers and generic listing words while preserving the actual role/exam name.
@@ -184,6 +185,8 @@ const cleanPostName=(value)=>{
   v=v.replace(/\b(?:Direct\s+)?Recruitment\b/gi,' ');
   v=v.replace(/\b(?:Online\s+Form|Apply\s+Online|Online\s+Application|Vacancy)\b/gi,' ');
   v=v.replace(/\s*\b(?:2024|2025|2026|2027)\b\s*/g,' ');
+  v=v.replace(/\s*[—–-]\s*[\d,]+\s+posts?\s*$/i,'');
+  v=v.replace(/\s*\([\d,]+\s+posts?\)\s*$/i,'');
   v=v.replace(/\s+/g,' ').replace(/^[\s:—–-]+|[\s:—–-]+$/g,'').trim();
   if(!v || /^(?:India Optel Limited|Various Posts?|Various Vacancies?)$/i.test(v)) return 'Various notified posts — post-wise titles official notification में देखें';
   return v;
