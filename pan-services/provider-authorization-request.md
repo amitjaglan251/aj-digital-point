@@ -25,7 +25,7 @@ Please advise the correct official application channel and exact documents requi
 
 Regards,  
 AJ Digital Point  
-Business contact: [insert verified business email/phone]  
+Business contact: 8053620641 (business phone; add a monitored business email before sending if available)  
 Website: https://amitjaglan251.github.io/aj-digital-point/pan-services/
 
 **Before sending:** replace the contact placeholder with a verified business contact and attach only the business documents the provider explicitly requests through its official channel. Do not include any customer's PAN/Aadhaar number, OTP, or identity documents in this inquiry.
