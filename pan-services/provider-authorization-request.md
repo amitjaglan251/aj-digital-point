@@ -10,7 +10,7 @@ AJ Digital Point is preparing a customer-assistance portal for PAN-related servi
 
 Please clarify eligibility, required business registration/KYC documents, authorized service categories, onboarding procedure, written agreement/authorization, API documentation and sandbox access (if available), security requirements, charges, permitted use, customer-consent obligations, support/grievance requirements, and the production approval process.
 
-We would like to understand the availability and authorization requirements separately for:
+We would like to understand availability and authorization requirements separately for:
 1. New PAN application assistance/submission, if a partner program permits it.
 2. PAN correction/update application assistance/submission, if permitted.
 3. Reprint or e-PAN workflows, if an authorized integration is available.
@@ -19,7 +19,7 @@ We would like to understand the availability and authorization requirements sepa
 
 We understand these are different services and that access to a PAN-verification facility does not automatically authorize PAN application submission, reprint, e-PAN download, or status retrieval. We will not assume API availability or eligibility unless you confirm it in writing.
 
-We will not scrape your website, use undocumented/private endpoints, share provider credentials in browser code, or enable a live customer-data workflow before written authorization and completion of the required privacy, technical, and security reviews.
+We will not scrape your website, use undocumented/private endpoints, share provider credentials in browser code, or enable a live customer-data workflow before written authorization and completion of required privacy, technical, and security reviews.
 
 Please advise the correct official application channel and exact documents required for our business category.
 
