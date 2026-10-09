@@ -172,7 +172,12 @@ set('correctionDate',d.correctionDate,'Correction window की तारीख 
 set('examDate',d.examDate,'Exam/selection date इस record में दर्ज नहीं है; official notice देखें।');
 set('updates',d.updates,'इस भर्ती के लिए कोई अलग latest update इस record में दर्ज नहीं है।');
 set('dataAuditDate',d.dataAuditDate||'09/10/2026');
-set('fee',d.fee);set('paymentMode','Payment mode: '+(d.paymentMode||((d.fee||'').match(/payment\s*[:：]\s*([^.;]+)/i)||[])[1]||'As prescribed in official notification'));set('age',d.age);set('ageAsOn','Age limit calculation date: '+(d.ageAsOn||d.ageLimitAsOn||'As stated in official notification'));set('ageRelaxation','Age relaxation: '+(d.ageRelaxation||'As prescribed in official notification'));set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification इस record में दर्ज नहीं है; official notification देखें।');
+set('fee',d.fee,'Application fee की category-wise राशि इस record में दर्ज नहीं है। Official notification में fee/exemption verify करें.');
+set('paymentMode','Payment mode: '+(d.paymentMode||((d.fee||'').match(/payment\\s*[:：]\\s*([^.;]+)/i)||[])[1]||'इस record में दर्ज नहीं; official notification देखें'));
+set('age',d.age,'Age limit इस record में दर्ज नहीं है। Official notification में minimum/maximum age verify करें।');
+set('ageAsOn','Age limit calculation date: '+(d.ageAsOn||d.ageLimitAsOn||'इस record में दर्ज नहीं; official notification देखें'));
+set('ageRelaxation','Age relaxation: '+(d.ageRelaxation||'Category-wise relaxation इस record में दर्ज नहीं; official notification देखें'));
+set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification इस record में दर्ज नहीं है; official notification देखें।');
 set('eligibilityExtra',d.eligibility,'Post-specific subject, experience, local-language और अन्य conditions इस record में दर्ज नहीं हैं; official notification देखें.');
 const renderList=(targetId,boxId,items)=>{
  const target=document.getElementById(targetId),box=document.getElementById(boxId);
