@@ -169,7 +169,24 @@ const latestDeadline=dateTokens.map(v=>{const p=v.split('/').map(Number);return 
 const isExpired=!!latestDeadline && latestDeadline < new Date(new Date().setHours(0,0,0,0));
 document.title=(d.title||'Job Details')+' | AJ DIGITAL POINT';
 set('jobTitle',d.title);set('jobSub',(d.category||'Recruitment')+' • '+(d.mode||'Online')+' • Complete Details');
-const postName=[d.postName,d.postTitle,d.post,d.vacancyPost].find(v=>!isMissing(v))||(!isMissing(d.title)?d.title:'पद का नाम आधिकारिक अधिसूचना में देखें');\nset('nameOfPost',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें।');set('post',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें।');set('vacancyPost',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें.');
+const cleanPostName=(value)=>{
+  let v=String(value||'').trim();
+  if(isMissing(v)) return '';
+  // Strip notice identifiers and generic listing words while preserving the actual role/exam name.
+  v=v.replace(/\s*[—–-]\s*(?:Advt\.?|Advertisement|Notification|official notice|dates and|vacancy count|applications closed|deadline requires|official notice not confirmed).*$/i,'');
+  v=v.replace(/\b(?:Advertisement|Notification)\s+No\.?\s*[\w./()-]+/gi,' ');
+  v=v.replace(/\b(?:Direct\s+)?Recruitment\b/gi,' ');
+  v=v.replace(/\b(?:Online\s+Form|Apply\s+Online|Online\s+Application|Vacancy)\b/gi,' ');
+  v=v.replace(/\s*\b(?:2024|2025|2026|2027)\b\s*/g,' ');
+  v=v.replace(/\s+/g,' ').replace(/^[\s:—–-]+|[\s:—–-]+$/g,'').trim();
+  return v;
+};
+const explicitPost=[d.postName,d.postTitle,d.vacancyPost].find(v=>!isMissing(v));
+let postName=explicitPost||(!isMissing(d.post)&&d.post!==d.title?d.post:'');
+if(!postName) postName=cleanPostName(d.title)||d.title||'पद का नाम आधिकारिक अधिसूचना में देखें';
+set('nameOfPost',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें।');
+set('post',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें।');
+set('vacancyPost',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें।');
 set('org',d.organization||d.department||d.authority||'Recruiting authority इस रिकॉर्ड में अलग से दर्ज नहीं है; official notice में देखें.');
 set('vacancy',d.vacancy);set('vacancy2',d.vacancy);set('categoryVacancy',d.categoryVacancy);
 set('topMode',d.mode);set('state',d.state||'All India / As per notification');
