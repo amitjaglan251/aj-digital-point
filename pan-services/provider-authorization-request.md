@@ -1,27 +1,31 @@
-# Provider authorization request — PAN services integration
+# Provider authorization request — AJ Digital Point PAN Services
 
-Use this as a draft to submit through the provider's official business/partner onboarding channel. Confirm the recipient and required application format directly with the provider.
+Use this as an inquiry draft for **both Protean and UTIITSL**, submitted separately through each provider's verified official business/partner channel. It is not an approval, application submission, or proof of eligibility.
 
-**Subject:** Request for authorized PAN services API / integration partner onboarding
+**Subject:** Request for official partner onboarding / authorized PAN service integration information
 
-Dear Provider Business / Partner Onboarding Team,
+Dear Business / Partner Onboarding Team,
 
-AJ Digital Point is preparing a customer-assistance portal for PAN-related services. We would like to understand whether your organization currently offers an authorized API or integration-partner program for the following proposed use cases:
+AJ Digital Point is preparing a customer-assistance portal for PAN-related services. We request guidance on whether your organization offers an authorized business, service-centre, or API/integration program that our business may apply for.
 
-- New PAN application assistance, where permitted
-- PAN correction/update assistance, where permitted
-- Reprint / e-PAN guidance or status workflows, where permitted
-- Application status workflows supported by your official API, where permitted
+Please clarify eligibility, required business registration/KYC documents, authorized service categories, onboarding procedure, written agreement/authorization, API documentation and sandbox access (if available), security requirements, charges, permitted use, customer-consent obligations, support/grievance requirements, and the production approval process.
 
-Please share the official eligibility criteria, onboarding steps, required business/KYC documents, agreement and compliance requirements, API documentation, sandbox access process, security standards, permitted use, pricing, support/grievance requirements, and production go-live approval process.
+We would like to understand the availability and authorization requirements separately for:
+1. New PAN application assistance/submission, if a partner program permits it.
+2. PAN correction/update application assistance/submission, if permitted.
+3. Reprint or e-PAN workflows, if an authorized integration is available.
+4. Application-status workflows, if an authorized integration is available.
+5. PAN verification API access, if our organization and stated use case are eligible.
 
-We will not use private endpoints, scrape provider websites, collect credentials in the browser, or enable any live PAN data workflow before receiving written authorization and completing the required technical, privacy, and security reviews.
+We understand these are different services and that access to a PAN-verification facility does not automatically authorize PAN application submission, reprint, e-PAN download, or status retrieval. We will not assume API availability or eligibility unless you confirm it in writing.
 
-Please confirm the correct application channel and any documents required from our business.
+We will not scrape your website, use undocumented/private endpoints, share provider credentials in browser code, or enable a live customer-data workflow before written authorization and completion of the required privacy, technical, and security reviews.
+
+Please advise the correct official application channel and exact documents required for our business category.
 
 Regards,  
 AJ Digital Point  
 Business contact: [insert verified business email/phone]  
 Website: https://amitjaglan251.github.io/aj-digital-point/pan-services/
 
-**Before sending:** replace the contact placeholder with a real business contact. Do not include customers' PAN/Aadhaar numbers, OTPs, or identity documents in the inquiry.
+**Before sending:** replace the contact placeholder with a verified business contact and attach only the business documents the provider explicitly requests through its official channel. Do not include any customer's PAN/Aadhaar number, OTP, or identity documents in this inquiry.
