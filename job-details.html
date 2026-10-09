@@ -257,7 +257,7 @@ if(relatedRoot&&relatedBox){
  };
  relatedRoot.innerHTML=related.length?related.map(x=>{
   const label=normalizeLinkLabel(x.title||x.label),url=x.url||x.href||'',date=x.date||'';
-  const safeUrl=/^https?:\\/\\//i.test(url);
+  const safeUrl=/^https?:\/\//i.test(url);
   return '<p class="related-link-row">'+(date?'<span class="related-date">'+esc(date)+'</span> ':'')+(safeUrl?'<a class="related-direct-link" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+' ↗</a>':'<b>'+esc(label)+'</b><span class="muted"> — Direct link उपलब्ध नहीं</span>')+'</p>';
  }).join(''):'<p class="muted">इस vacancy record में apply/notification/official website links दर्ज नहीं हैं।</p>';
  relatedBox.hidden=false;
