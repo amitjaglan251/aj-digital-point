@@ -1,5 +1,4 @@
 window.AJ_JOB_DATA = [
-
   {
     "id": "punjab-district-courts-clerk-37c-2026",
     "category": "State Job",
@@ -18,8 +17,15 @@ window.AJ_JOB_DATA = [
     "official": "https://sssc.gov.in/",
     "apply": "https://sssc.gov.in/",
     "documents": "Educational certificates, Punjabi qualification proof, computer proficiency evidence and category/reservation certificates where applicable, as prescribed in the advertisement.",
-    "dataAuditDate": "08/10/2026",
-    "notificationDate": "03/10/2026"
+    "dataAuditDate": "09/10/2026",
+    "notificationDate": "03/10/2026",
+    "salary": "₹29,200 (Level-5), as stated in the recruitment notice.",
+    "ageAsOn": "01/01/2026",
+    "ageRelaxation": "Punjab SC/BC/OBC: up to 5 years; Punjab PwBD: up to 10 years; Punjab ESM: military service plus 3 years; eligible in-service employees: maximum age 45. State-residency and notification conditions apply.",
+    "feeDate": "04/11/2026, 04:00 PM (application closing time; separate fee deadline not stated in the notice summary).",
+    "correctionDate": "No separate correction window confirmed in the available notice details; check SSSC notice/portal.",
+    "examDate": "Not announced in the available recruitment notice details; check SSSC official updates.",
+    "categoryVacancy": "1,270 total posts. The official notice contains the category-wise roster; exact category counts have not been independently transcribed here, so verify the notice PDF before relying on a category count."
   },
   {
     "id": "appsc-group-i-07-2026",
@@ -105,7 +111,6 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "08/10/2026",
     "notificationDate": "06/10/2026"
   },
-
   {
     "id": "icmr-bmhrc-group-b-c-2026",
     "category": "Central Job",
@@ -159,7 +164,15 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.upsc.gov.in/content/annual-calendar-2027-0",
     "official": "https://www.upsc.gov.in/",
     "documents": "Application/verification documents: age/DOB certificate, engineering degree or qualifying educational certificate, category certificate (SC/ST/OBC/EWS) where applicable, certificate for age/fee concession where applicable, and originals at the Personality Test. Keep photograph/signature and prescribed application records ready; UPSC requires supporting certificates after the written result and originals at Personality Test.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "09/10/2026",
+    "ageAsOn": "01/01/2027",
+    "ageRelaxation": "Category-based relaxation as specified in the official UPSC Engineering Services Examination 2027 notification.",
+    "feeDate": "06/10/2026, 06:00 PM (same as the application deadline shown by UPSC).",
+    "correctionDate": "No separate correction window confirmed on the UPSC examination page; check the official notification/portal.",
+    "examDate": "Preliminary examination: 31/01/2027. Main examination date to be checked in the official UPSC notice/calendar.",
+    "salary": "Pay and service allocation depend on the engineering service/post allotted; see the official notification and service-specific pay rules.",
+    "categoryVacancy": "480 vacancies reported for the examination; branch/category-wise final breakup should be verified in the official notification. Application deadline passed on 06/10/2026 at 06:00 PM.",
+    "updates": "Application deadline passed: 06/10/2026 at 06:00 PM. Preliminary examination is scheduled for 31/01/2027 according to UPSC's examination page."
   },
   {
     "id": "rrb-cen-05-2026-paramedical",
@@ -3146,55 +3159,191 @@ window.AJ_JOB_DATA = [
     "notificationDate": "25/09/2026",
     "categoryVacancy": "Grand Total: 354 posts",
     "postQualifications": [
-      {"post":"Warrant Officer (Cipher)","qualification":"12th Science with Physics, Mathematics and English plus 2-year ITI (NSQF Level 4 or above) in ICT / IT / Electronics Engineering / Computer Science / Computer Engineering / Electrical Engineering / Instrumentation Technology OR Bachelor's Degree in Electronics or Information & Communication Technology."},
-      {"post":"Rifleman (Electrical Fitter Signal)","qualification":"10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Electrical Engineering / Electrician Power Distribution / Electrician / Instrumentation Technology / Instrument Mechanic / Power Electronic System / Electronic System Design & Repair."},
-      {"post":"Rifleman (Lineman Field)","qualification":"10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Electronics / Electrical Engineering, relevant electrician, instrumentation, power electronics, fibre-to-home or OFC trades as specified."},
-      {"post":"Rifleman (Armourer)","qualification":"10th passed with ITI certificate in Welding trade."},
-      {"post":"Rifleman (Engineer Equipment Mechanic)","qualification":"10th passed with 2-year ITI in Power Electric Systems Mechanic / Mechanic Diesel OR 2/3-year Diploma in Engineer Equipment Mechanic."},
-      {"post":"Rifleman (Recovery Vehicle Mechanic)","qualification":"10th passed with 2-year ITI certificate in Recovery Vehicle Mechanic AND valid HMV / Transport Vehicle Driving Licence OR 10th passed with valid HMV / Transport Vehicle Driving Licence."},
-      {"post":"Rifleman (Electrician Motor Vehicle)","qualification":"10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Electrician / Electrical Engineering / Technical / Power Electronics / Communication System."},
-      {"post":"Havildar (Instrument Mechanic)","qualification":"10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Instrument Mechanic / Technology / Electronic Mechanic / Technology."},
-      {"post":"Rifleman (Metalsmith)","qualification":"10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Metalsmith / Metallurgy."},
-      {"post":"Rifleman (Upholster)","qualification":"10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Upholster trade."},
-      {"post":"Rifleman Store Keeper Technical (EME)","qualification":"Class 10 passed."},
-      {"post":"Rifleman (Vehicle Mechanic)","qualification":"10th passed with minimum 2 years technical training from ITI OR 2/3-year Diploma in Mechanic Motor Vehicle / Mechanic / Mechanic Diesel / Fitter / Mechanic Engineering Technology / Automobile Engineering."},
-      {"post":"Rifleman (Welder)","qualification":"10th passed with 2 years technical training from ITI OR Diploma in Welder / Metallurgy."},
-      {"post":"Warrant Officer (Draughtsman)","qualification":"10th passed and 3-year Diploma in Architectural Assistantship from a recognized Polytechnic / Institution."},
-      {"post":"Warrant Officer (Operation Theatre Technician)","qualification":"12th passed, minimum 2-year Diploma in Operation Theatre Technician and at least 1-year work experience as OT Technician in a recognized hospital with at least 50 beds."},
-      {"post":"Warrant Officer (Physiotherapist)","qualification":"12th passed, minimum 2-year Diploma in Physiotherapy and at least 1-year work experience as Physiotherapist at a recognized hospital / physiotherapy centre with at least 50 beds."},
-      {"post":"Rifleman (Mason)","qualification":"10th passed; must qualify trade test and provide self-certification / undertaking for 1 year work experience in the trade."}
+      {
+        "post": "Warrant Officer (Cipher)",
+        "qualification": "12th Science with Physics, Mathematics and English plus 2-year ITI (NSQF Level 4 or above) in ICT / IT / Electronics Engineering / Computer Science / Computer Engineering / Electrical Engineering / Instrumentation Technology OR Bachelor's Degree in Electronics or Information & Communication Technology."
+      },
+      {
+        "post": "Rifleman (Electrical Fitter Signal)",
+        "qualification": "10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Electrical Engineering / Electrician Power Distribution / Electrician / Instrumentation Technology / Instrument Mechanic / Power Electronic System / Electronic System Design & Repair."
+      },
+      {
+        "post": "Rifleman (Lineman Field)",
+        "qualification": "10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Electronics / Electrical Engineering, relevant electrician, instrumentation, power electronics, fibre-to-home or OFC trades as specified."
+      },
+      {
+        "post": "Rifleman (Armourer)",
+        "qualification": "10th passed with ITI certificate in Welding trade."
+      },
+      {
+        "post": "Rifleman (Engineer Equipment Mechanic)",
+        "qualification": "10th passed with 2-year ITI in Power Electric Systems Mechanic / Mechanic Diesel OR 2/3-year Diploma in Engineer Equipment Mechanic."
+      },
+      {
+        "post": "Rifleman (Recovery Vehicle Mechanic)",
+        "qualification": "10th passed with 2-year ITI certificate in Recovery Vehicle Mechanic AND valid HMV / Transport Vehicle Driving Licence OR 10th passed with valid HMV / Transport Vehicle Driving Licence."
+      },
+      {
+        "post": "Rifleman (Electrician Motor Vehicle)",
+        "qualification": "10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Electrician / Electrical Engineering / Technical / Power Electronics / Communication System."
+      },
+      {
+        "post": "Havildar (Instrument Mechanic)",
+        "qualification": "10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Instrument Mechanic / Technology / Electronic Mechanic / Technology."
+      },
+      {
+        "post": "Rifleman (Metalsmith)",
+        "qualification": "10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Metalsmith / Metallurgy."
+      },
+      {
+        "post": "Rifleman (Upholster)",
+        "qualification": "10th passed with 2 years technical training from ITI OR 2/3-year Diploma in Upholster trade."
+      },
+      {
+        "post": "Rifleman Store Keeper Technical (EME)",
+        "qualification": "Class 10 passed."
+      },
+      {
+        "post": "Rifleman (Vehicle Mechanic)",
+        "qualification": "10th passed with minimum 2 years technical training from ITI OR 2/3-year Diploma in Mechanic Motor Vehicle / Mechanic / Mechanic Diesel / Fitter / Mechanic Engineering Technology / Automobile Engineering."
+      },
+      {
+        "post": "Rifleman (Welder)",
+        "qualification": "10th passed with 2 years technical training from ITI OR Diploma in Welder / Metallurgy."
+      },
+      {
+        "post": "Warrant Officer (Draughtsman)",
+        "qualification": "10th passed and 3-year Diploma in Architectural Assistantship from a recognized Polytechnic / Institution."
+      },
+      {
+        "post": "Warrant Officer (Operation Theatre Technician)",
+        "qualification": "12th passed, minimum 2-year Diploma in Operation Theatre Technician and at least 1-year work experience as OT Technician in a recognized hospital with at least 50 beds."
+      },
+      {
+        "post": "Warrant Officer (Physiotherapist)",
+        "qualification": "12th passed, minimum 2-year Diploma in Physiotherapy and at least 1-year work experience as Physiotherapist at a recognized hospital / physiotherapy centre with at least 50 beds."
+      },
+      {
+        "post": "Rifleman (Mason)",
+        "qualification": "10th passed; must qualify trade test and provide self-certification / undertaking for 1 year work experience in the trade."
+      }
     ],
     "postVacancies": [
-      {"post":"Warrant Officer (Cipher)","vacancy":"124"},
-      {"post":"Rifleman (Electrical Fitter Signal)","vacancy":"32"},
-      {"post":"Rifleman (Lineman Field)","vacancy":"21"},
-      {"post":"Rifleman (Armourer)","vacancy":"29"},
-      {"post":"Rifleman (Engineer Equipment Mechanic)","vacancy":"10"},
-      {"post":"Rifleman (Recovery Vehicle Mechanic)","vacancy":"13"},
-      {"post":"Rifleman (Electrician Motor Vehicle)","vacancy":"22"},
-      {"post":"Havildar (Instrument Mechanic)","vacancy":"6"},
-      {"post":"Rifleman (Metalsmith)","vacancy":"19"},
-      {"post":"Rifleman (Upholster)","vacancy":"3"},
-      {"post":"Rifleman Store Keeper Technical (EME)","vacancy":"16"},
-      {"post":"Rifleman (Vehicle Mechanic)","vacancy":"23"},
-      {"post":"Rifleman (Welder)","vacancy":"2"},
-      {"post":"Warrant Officer (Draughtsman)","vacancy":"2"},
-      {"post":"Warrant Officer (Operation Theatre Technician)","vacancy":"1"},
-      {"post":"Warrant Officer (Physiotherapist)","vacancy":"2"},
-      {"post":"Rifleman (Mason)","vacancy":"29"}
+      {
+        "post": "Warrant Officer (Cipher)",
+        "vacancy": "124"
+      },
+      {
+        "post": "Rifleman (Electrical Fitter Signal)",
+        "vacancy": "32"
+      },
+      {
+        "post": "Rifleman (Lineman Field)",
+        "vacancy": "21"
+      },
+      {
+        "post": "Rifleman (Armourer)",
+        "vacancy": "29"
+      },
+      {
+        "post": "Rifleman (Engineer Equipment Mechanic)",
+        "vacancy": "10"
+      },
+      {
+        "post": "Rifleman (Recovery Vehicle Mechanic)",
+        "vacancy": "13"
+      },
+      {
+        "post": "Rifleman (Electrician Motor Vehicle)",
+        "vacancy": "22"
+      },
+      {
+        "post": "Havildar (Instrument Mechanic)",
+        "vacancy": "6"
+      },
+      {
+        "post": "Rifleman (Metalsmith)",
+        "vacancy": "19"
+      },
+      {
+        "post": "Rifleman (Upholster)",
+        "vacancy": "3"
+      },
+      {
+        "post": "Rifleman Store Keeper Technical (EME)",
+        "vacancy": "16"
+      },
+      {
+        "post": "Rifleman (Vehicle Mechanic)",
+        "vacancy": "23"
+      },
+      {
+        "post": "Rifleman (Welder)",
+        "vacancy": "2"
+      },
+      {
+        "post": "Warrant Officer (Draughtsman)",
+        "vacancy": "2"
+      },
+      {
+        "post": "Warrant Officer (Operation Theatre Technician)",
+        "vacancy": "1"
+      },
+      {
+        "post": "Warrant Officer (Physiotherapist)",
+        "vacancy": "2"
+      },
+      {
+        "post": "Rifleman (Mason)",
+        "vacancy": "29"
+      }
     ],
     "physicalEligibility": [
-      {"region":"All India (General)","height":"170 cm","details":"Chest: 80–85 cm"},
-      {"region":"Garhwalis, Kumaonis, Dogras, Marathas and NE States / HP / J&K / Ladakh","height":"165 cm","details":"Chest: 78–83 cm"},
-      {"region":"Scheduled Tribes (ST)","height":"162.5 cm","details":"Chest: 76–81 cm"},
-      {"region":"All India except Ladakh Region","race":"5 km run within 24 minutes"},
-      {"region":"Ladakh Region only","race":"1.6 km run within 7 minutes"}
+      {
+        "region": "All India (General)",
+        "height": "170 cm",
+        "details": "Chest: 80–85 cm"
+      },
+      {
+        "region": "Garhwalis, Kumaonis, Dogras, Marathas and NE States / HP / J&K / Ladakh",
+        "height": "165 cm",
+        "details": "Chest: 78–83 cm"
+      },
+      {
+        "region": "Scheduled Tribes (ST)",
+        "height": "162.5 cm",
+        "details": "Chest: 76–81 cm"
+      },
+      {
+        "region": "All India except Ladakh Region",
+        "race": "5 km run within 24 minutes"
+      },
+      {
+        "region": "Ladakh Region only",
+        "race": "1.6 km run within 7 minutes"
+      }
     ],
     "relatedLinks": [
-      {"title":"Fill Online Form / Apply Now","date":"28/09/2026","url":"https://www.assamrifles.gov.in/onlineapp/Default.aspx"},
-      {"title":"Full Notification","date":"25/09/2026","url":"https://sarkari.network/wp-content/uploads/6bdde044-7327-4c42-9cab-0b308d79393a.pdf"},
-      {"title":"Short Notification","date":"21/09/2026","url":"https://sarkari.network/wp-content/uploads/Assam-Rifles-Group-C-Recruitment-2026-Short-Notice.pdf"},
-      {"title":"Official Website","date":"21/09/2026","url":"https://www.assamrifles.gov.in/join-assam-rifles"}
+      {
+        "title": "Fill Online Form / Apply Now",
+        "date": "28/09/2026",
+        "url": "https://www.assamrifles.gov.in/onlineapp/Default.aspx"
+      },
+      {
+        "title": "Full Notification",
+        "date": "25/09/2026",
+        "url": "https://sarkari.network/wp-content/uploads/6bdde044-7327-4c42-9cab-0b308d79393a.pdf"
+      },
+      {
+        "title": "Short Notification",
+        "date": "21/09/2026",
+        "url": "https://sarkari.network/wp-content/uploads/Assam-Rifles-Group-C-Recruitment-2026-Short-Notice.pdf"
+      },
+      {
+        "title": "Official Website",
+        "date": "21/09/2026",
+        "url": "https://www.assamrifles.gov.in/join-assam-rifles"
+      }
     ]
   },
   {
@@ -7265,51 +7414,51 @@ window.AJ_JOB_DATA = [
     "updates": "Latest recruitment listing verified on 08/10/2026.",
     "dataAuditDate": "08/10/2026"
   },
-{
-  "id": "haryana-hpsc-fso-25-2026",
-  "category": "State Job",
-  "state": "Haryana",
-  "organization": "Haryana Public Service Commission (HPSC)",
-  "title": "HPSC Food Safety Officer (Group-B) Recruitment 2026 — Advt. No. 25/2026",
-  "lastDate": "19/10/2026 05:00 PM",
-  "openDate": "28/09/2026",
-  "mode": "Online",
-  "vacancy": "45 posts",
-  "qualification": "Food technology, dairy/oil technology, biotechnology, agricultural sciences, veterinary sciences, biochemistry, microbiology, chemistry or medicine/MBBS/BDS/AYUSH qualification as prescribed in the official advertisement, with the prescribed Hindi/Sanskrit requirement.",
-  "age": "18–42 years as prescribed in the advertisement; applicable Haryana category relaxations.",
-  "fee": "As prescribed in HPSC Advertisement No. 25/2026.",
-  "selection": "As prescribed by HPSC for Food Safety Officer (Group-B).",
-  "apply": "https://hpsc.gov.in/",
-  "notice": "https://hpsc.gov.in/",
-  "official": "https://hpsc.gov.in/",
-  "documents": "Educational qualification/degree certificates and marksheets, age proof, Haryana domicile/category certificates where applicable, photograph, signature and other documents specifically required by Advertisement No. 25/2026.",
-  "updates": "Advertisement No. 25/2026; Food Safety Officer (Group-B), Food and Drugs Administration Department, Haryana. Application window 28/09/2026 to 19/10/2026.",
-  "dataAuditDate": "08/10/2026",
-  "notificationDate": "19/09/2026"
-},
-{
-  "id": "aiims-rewari-junior-resident-25-2026",
-  "category": "Central Job",
-  "state": "Haryana",
-  "organization": "All India Institute of Medical Sciences, Rewari",
-  "title": "AIIMS Rewari Junior Resident (Non-Academic) Recruitment 2026 — Advt. JR/01/2026",
-  "lastDate": "28/10/2026",
-  "openDate": "29/09/2026",
-  "mode": "Offline / As per official advertisement",
-  "vacancy": "25 posts",
-  "qualification": "MBBS degree from a recognized institution with internship/registration requirements as prescribed in the official advertisement.",
-  "age": "As prescribed in Advertisement No. JR/01/2026.",
-  "fee": "As prescribed in Advertisement No. JR/01/2026.",
-  "selection": "As prescribed in the official AIIMS Rewari Junior Resident advertisement.",
-  "apply": "https://aiimsrewari.edu.in/nonfaculty.html",
-  "notice": "https://aiimsrewari.edu.in/nonfaculty.html",
-  "official": "https://aiimsrewari.edu.in/",
-  "documents": "MBBS degree/marksheets, internship completion proof, medical registration, age proof, photograph/signature and category/other certificates as specifically required in the advertisement.",
-  "updates": "AIIMS Rewari official Non-Faculty Recruitment page lists the Junior Resident (Non-Academic) advertisement uploaded on 29/09/2026.",
-  "dataAuditDate": "08/10/2026",
-  "notificationDate": "29/09/2026"
-},
-{
+  {
+    "id": "haryana-hpsc-fso-25-2026",
+    "category": "State Job",
+    "state": "Haryana",
+    "organization": "Haryana Public Service Commission (HPSC)",
+    "title": "HPSC Food Safety Officer (Group-B) Recruitment 2026 — Advt. No. 25/2026",
+    "lastDate": "19/10/2026 05:00 PM",
+    "openDate": "28/09/2026",
+    "mode": "Online",
+    "vacancy": "45 posts",
+    "qualification": "Food technology, dairy/oil technology, biotechnology, agricultural sciences, veterinary sciences, biochemistry, microbiology, chemistry or medicine/MBBS/BDS/AYUSH qualification as prescribed in the official advertisement, with the prescribed Hindi/Sanskrit requirement.",
+    "age": "18–42 years as prescribed in the advertisement; applicable Haryana category relaxations.",
+    "fee": "As prescribed in HPSC Advertisement No. 25/2026.",
+    "selection": "As prescribed by HPSC for Food Safety Officer (Group-B).",
+    "apply": "https://hpsc.gov.in/",
+    "notice": "https://hpsc.gov.in/",
+    "official": "https://hpsc.gov.in/",
+    "documents": "Educational qualification/degree certificates and marksheets, age proof, Haryana domicile/category certificates where applicable, photograph, signature and other documents specifically required by Advertisement No. 25/2026.",
+    "updates": "Advertisement No. 25/2026; Food Safety Officer (Group-B), Food and Drugs Administration Department, Haryana. Application window 28/09/2026 to 19/10/2026.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "19/09/2026"
+  },
+  {
+    "id": "aiims-rewari-junior-resident-25-2026",
+    "category": "Central Job",
+    "state": "Haryana",
+    "organization": "All India Institute of Medical Sciences, Rewari",
+    "title": "AIIMS Rewari Junior Resident (Non-Academic) Recruitment 2026 — Advt. JR/01/2026",
+    "lastDate": "28/10/2026",
+    "openDate": "29/09/2026",
+    "mode": "Offline / As per official advertisement",
+    "vacancy": "25 posts",
+    "qualification": "MBBS degree from a recognized institution with internship/registration requirements as prescribed in the official advertisement.",
+    "age": "As prescribed in Advertisement No. JR/01/2026.",
+    "fee": "As prescribed in Advertisement No. JR/01/2026.",
+    "selection": "As prescribed in the official AIIMS Rewari Junior Resident advertisement.",
+    "apply": "https://aiimsrewari.edu.in/nonfaculty.html",
+    "notice": "https://aiimsrewari.edu.in/nonfaculty.html",
+    "official": "https://aiimsrewari.edu.in/",
+    "documents": "MBBS degree/marksheets, internship completion proof, medical registration, age proof, photograph/signature and category/other certificates as specifically required in the advertisement.",
+    "updates": "AIIMS Rewari official Non-Faculty Recruitment page lists the Junior Resident (Non-Academic) advertisement uploaded on 29/09/2026.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "29/09/2026"
+  },
+  {
     "id": "csir-ugc-net-dec-2026",
     "category": "Exam / Online Form",
     "state": "All India",
@@ -7363,7 +7512,7 @@ window.AJ_JOB_DATA = [
       }
     ]
   },
-{
+  {
     "id": "ugc-net-june-2026-scorecard",
     "category": "Result / Score Card",
     "state": "All India",
@@ -7414,188 +7563,188 @@ window.AJ_JOB_DATA = [
       }
     ]
   },
-{
-  "id": "aiims-delhi-project-research-scientist-ii-medical-2026-1015",
-  "category": "Medical / Research Job",
-  "state": "Delhi",
-  "organization": "All India Institute of Medical Sciences (AIIMS), New Delhi",
-  "title": "AIIMS Delhi Project Research Scientist-II (Medical) — ICMR-funded CDER Project",
-  "openDate": "03/10/2026",
-  "lastDate": "15/10/2026",
-  "mode": "As per official notice",
-  "vacancy": "Contractual project post; exact count and remuneration are in the official notice.",
-  "qualification": "Medical qualification and experience requirements are specified in the AIIMS official advertisement; check the linked notice for the exact eligibility criteria.",
-  "age": "As specified in the official advertisement.",
-  "fee": "As specified in the official advertisement.",
-  "selection": "As specified in the official advertisement.",
-  "apply": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment?id=24796",
-  "notice": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment?id=24796",
-  "official": "https://www.aiims.edu/",
-  "documents": "Degree/registration proof, CV, experience certificates and other documents as listed in the official advertisement.",
-  "updates": "Official AIIMS page lists upload date 03/10/2026 and closing date 15/10/2026.",
-  "dataAuditDate": "08/10/2026",
-  "notificationDate": "03/10/2026",
-  "links": {
-    "notification": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment?id=24796",
-    "official": "https://www.aiims.edu/"
-  }
-},
-{
-  "id": "aiims-delhi-project-research-scientist-ii-medical-2026-1014",
-  "category": "Medical / Research Job",
-  "state": "Delhi",
-  "organization": "All India Institute of Medical Sciences (AIIMS), New Delhi",
-  "title": "AIIMS-IIT-UCL Project Research Scientist-II (Medical) — CDER Project",
-  "openDate": "03/10/2026",
-  "lastDate": "14/10/2026",
-  "mode": "As per official notice",
-  "vacancy": "Project post; exact count and remuneration are in the official notice.",
-  "qualification": "Medical qualification and experience requirements are specified in the AIIMS official advertisement; check the linked notice for the exact eligibility criteria.",
-  "age": "As specified in the official advertisement.",
-  "fee": "As specified in the official advertisement.",
-  "selection": "As specified in the official advertisement.",
-  "apply": "https://www1.aiims.edu/index.php/en/research-project/research-project/232-recruitment/advertisement-for-recruitment",
-  "notice": "https://www1.aiims.edu/index.php/en/research-project/research-project/232-recruitment/advertisement-for-recruitment",
-  "official": "https://www.aiims.edu/",
-  "documents": "Degree/registration proof, CV, experience certificates and other documents as listed in the official advertisement.",
-  "updates": "Official AIIMS research-project listing gives upload date 03/10/2026 and closing date 14/10/2026.",
-  "dataAuditDate": "08/10/2026",
-  "notificationDate": "03/10/2026",
-  "links": {
-    "notification": "https://www1.aiims.edu/index.php/en/research-project/research-project/232-recruitment/advertisement-for-recruitment",
-    "official": "https://www.aiims.edu/"
-  }
-},
-{
-  "id": "aiims-delhi-project-technical-support-ii-2026-1015",
-  "category": "Medical / Research Job",
-  "state": "Delhi",
-  "organization": "All India Institute of Medical Sciences (AIIMS), New Delhi",
-  "title": "AIIMS Delhi Project Technical Support-II — ICMR-funded Project",
-  "openDate": "06/10/2026",
-  "lastDate": "15/10/2026",
-  "mode": "As per official notice",
-  "vacancy": "Temporary project post; exact count and remuneration are in the official notice.",
-  "qualification": "Technical/health-science qualification and experience as specified in the official AIIMS advertisement.",
-  "age": "As specified in the official advertisement.",
-  "fee": "As specified in the official advertisement.",
-  "selection": "As specified in the official advertisement.",
-  "apply": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
-  "notice": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
-  "official": "https://www.aiims.edu/",
-  "documents": "Educational/technical certificates, experience proof, CV, identity proof and any other documents specified in the official advertisement.",
-  "updates": "Official AIIMS recruitment listing gives upload date 06/10/2026 and closing date 15/10/2026.",
-  "dataAuditDate": "08/10/2026",
-  "notificationDate": "06/10/2026",
-  "links": {
-    "notification": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
-    "official": "https://www.aiims.edu/"
-  }
-},
-{
-  "id": "neet-ug-2026-mbbs-counselling-dates-round3-stray",
-  "category": "Counselling / Admission",
-  "state": "All India",
-  "organization": "Medical Counselling Committee (MCC) / State Counselling Authorities",
-  "title": "NEET UG 2026 MBBS / BDS / B.Sc Nursing — Counselling Date List (Round 3 & Stray Round)",
-  "openDate": "12/10/2026",
-  "lastDate": "26/10/2026",
-  "mode": "Online counselling / seat allotment",
-  "vacancy": "MBBS, BDS and B.Sc Nursing counselling; seats vary by round, quota and institution.",
-  "qualification": "NEET UG 2026 qualified candidates meeting applicable MCC/state counselling rules.",
-  "age": "As per NEET UG and the applicable counselling bulletin.",
-  "fee": "Registration fee and security deposit vary by quota/category; check official portal.",
-  "selection": "Registration, choice filling/locking, seat allotment and reporting as per counselling authority.",
-  "apply": "https://mcc.admissions.nic.in/",
-  "notice": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609151605377053.pdf",
-  "official": "https://mcc.nic.in/ug-%20medical-counselling/",
-  "documents": "NEET UG admit card/scorecard, allotment letter if allotted, identity proof, educational certificates, category/domicile certificates where applicable and documents required by the authority.",
-  "updates": "Official MCC schedule: Round 3 AIQ choice filling 23–28/09/2026; result 30/09/2026; reporting 01–09/10/2026. State Round 3 admission schedule 28/09–09/10/2026, last joining 14/10/2026. Online Stray Vacancy Round: registration 12–14/10/2026 (payment till 06:00 PM on 14/10); choice filling 12–15/10 (locking till 10:00 AM on 15/10); allotment 17/10; reporting 19–26/10/2026. State Round 4 schedule 17–21/10/2026; last joining 26/10/2026. Dates may be revised; verify official MCC/state notices.",
-  "dataAuditDate": "08/10/2026",
-  "notificationDate": "15/09/2026",
-  "links": {
-    "notification": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609151605377053.pdf",
-    "stateSchedule": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/20260915112025817.pdf",
-    "official": "https://mcc.nic.in/ug-%20medical-counselling/"
-  }
-},
-{
-  "id": "neet-pg-2026-counselling-official-status",
-  "category": "Counselling / Admission",
-  "state": "All India",
-  "organization": "Medical Counselling Committee (MCC)",
-  "title": "NEET PG 2026 — Counselling Schedule / Seat Matrix Official Update",
-  "openDate": "Official update pending",
-  "lastDate": "Not confirmed on MCC page",
-  "mode": "Online counselling — check official portal",
-  "vacancy": "MD/MS and other eligible postgraduate medical seats; seat matrix subject to official publication.",
-  "qualification": "NEET PG 2026 qualified candidates meeting applicable MCC counselling rules.",
-  "age": "As prescribed in the NEET PG information bulletin.",
-  "fee": "Check official counselling bulletin.",
-  "selection": "Registration, choice filling/locking, seat allotment and reporting as per MCC schedule.",
-  "apply": "https://mcc.admissions.nic.in/",
-  "notice": "https://mcc.nic.in/pg-medical-counselling/",
-  "official": "https://mcc.nic.in/pg-medical-counselling/",
-  "documents": "NEET PG score/rank, identity proof, MBBS degree, internship completion and registration documents, category certificates where applicable, and documents listed in the official bulletin.",
-  "updates": "MCC's PG Medical Counselling page currently says the NMC/NBEMS seat matrix is awaited. Do not rely on unverified dates; confirm schedule and registration window on the official MCC page.",
-  "dataAuditDate": "08/10/2026",
-  "links": {
-    "official": "https://mcc.nic.in/pg-medical-counselling/"
-  }
-},
-{
-  "id": "neet-ug-mbbs-counselling-2026",
-  "category": "Counselling / Admission",
-  "state": "All India",
-  "organization": "Medical Counselling Committee (MCC) / DGHS",
-  "title": "NEET UG 2026 MBBS / BDS Counselling — Schedule, Seat Matrix & Allotment",
-  "openDate": "Round 3 registration: 22/09/2026",
-  "lastDate": "Round 3 registration closed: 27/09/2026; see latest MCC schedule for subsequent rounds",
-  "mode": "Online counselling",
-  "vacancy": "MBBS / BDS and B.Sc Nursing seats under MCC-managed quotas; seat matrix varies by round.",
-  "qualification": "NEET UG 2026 qualified candidates meeting MCC and course-specific eligibility requirements.",
-  "age": "As per NEET UG 2026 Information Bulletin and applicable rules.",
-  "fee": "Registration/security deposit as prescribed by MCC; check the current official bulletin.",
-  "selection": "Registration → choice filling/locking → seat allotment → document verification and reporting. State quota counselling is run separately by state authorities.",
-  "apply": "https://mcc.nic.in/ug-%20medical-counselling/",
-  "notice": "https://mcc.nic.in/eservices-schedule-ug/",
-  "official": "https://mcc.nic.in/ug-%20medical-counselling/",
-  "documents": "NEET UG scorecard/admit card, allotment letter, Class 10/12 certificates, identity proof, category/domicile certificates where applicable, and documents specified by MCC/state authority.",
-  "updates": "MCC official page lists Round 3 final allotment result; check the official current-events and schedule pages for any further/stray vacancy round.",
-  "dataAuditDate": "08/10/2026",
-  "importantDates": [
-    {
-      "label": "Round 3 Registration",
-      "date": "22/09/2026 – 27/09/2026"
-    },
-    {
-      "label": "Choice Filling / Locking",
-      "date": "23/09/2026 – 28/09/2026"
-    },
-    {
-      "label": "Round 3 Seat Allotment Result",
-      "date": "30/09/2026"
-    },
-    {
-      "label": "Round 3 Reporting",
-      "date": "02/10/2026 – 09/10/2026; verify any revised MCC notice"
-    },
-    {
-      "label": "Further / Stray Vacancy Round",
-      "date": "Check latest MCC official schedule; dates may be revised"
-    },
-    {
-      "label": "State Quota MBBS Counselling",
-      "date": "State-wise schedule published separately"
+  {
+    "id": "aiims-delhi-project-research-scientist-ii-medical-2026-1015",
+    "category": "Medical / Research Job",
+    "state": "Delhi",
+    "organization": "All India Institute of Medical Sciences (AIIMS), New Delhi",
+    "title": "AIIMS Delhi Project Research Scientist-II (Medical) — ICMR-funded CDER Project",
+    "openDate": "03/10/2026",
+    "lastDate": "15/10/2026",
+    "mode": "As per official notice",
+    "vacancy": "Contractual project post; exact count and remuneration are in the official notice.",
+    "qualification": "Medical qualification and experience requirements are specified in the AIIMS official advertisement; check the linked notice for the exact eligibility criteria.",
+    "age": "As specified in the official advertisement.",
+    "fee": "As specified in the official advertisement.",
+    "selection": "As specified in the official advertisement.",
+    "apply": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment?id=24796",
+    "notice": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment?id=24796",
+    "official": "https://www.aiims.edu/",
+    "documents": "Degree/registration proof, CV, experience certificates and other documents as listed in the official advertisement.",
+    "updates": "Official AIIMS page lists upload date 03/10/2026 and closing date 15/10/2026.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "03/10/2026",
+    "links": {
+      "notification": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment?id=24796",
+      "official": "https://www.aiims.edu/"
     }
-  ],
-  "shortInfo": "Round-wise NEET UG counselling dates, seat matrix, allotment and reporting information. State quota dates are published by each state authority.",
-  "links": {
+  },
+  {
+    "id": "aiims-delhi-project-research-scientist-ii-medical-2026-1014",
+    "category": "Medical / Research Job",
+    "state": "Delhi",
+    "organization": "All India Institute of Medical Sciences (AIIMS), New Delhi",
+    "title": "AIIMS-IIT-UCL Project Research Scientist-II (Medical) — CDER Project",
+    "openDate": "03/10/2026",
+    "lastDate": "14/10/2026",
+    "mode": "As per official notice",
+    "vacancy": "Project post; exact count and remuneration are in the official notice.",
+    "qualification": "Medical qualification and experience requirements are specified in the AIIMS official advertisement; check the linked notice for the exact eligibility criteria.",
+    "age": "As specified in the official advertisement.",
+    "fee": "As specified in the official advertisement.",
+    "selection": "As specified in the official advertisement.",
+    "apply": "https://www1.aiims.edu/index.php/en/research-project/research-project/232-recruitment/advertisement-for-recruitment",
+    "notice": "https://www1.aiims.edu/index.php/en/research-project/research-project/232-recruitment/advertisement-for-recruitment",
+    "official": "https://www.aiims.edu/",
+    "documents": "Degree/registration proof, CV, experience certificates and other documents as listed in the official advertisement.",
+    "updates": "Official AIIMS research-project listing gives upload date 03/10/2026 and closing date 14/10/2026.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "03/10/2026",
+    "links": {
+      "notification": "https://www1.aiims.edu/index.php/en/research-project/research-project/232-recruitment/advertisement-for-recruitment",
+      "official": "https://www.aiims.edu/"
+    }
+  },
+  {
+    "id": "aiims-delhi-project-technical-support-ii-2026-1015",
+    "category": "Medical / Research Job",
+    "state": "Delhi",
+    "organization": "All India Institute of Medical Sciences (AIIMS), New Delhi",
+    "title": "AIIMS Delhi Project Technical Support-II — ICMR-funded Project",
+    "openDate": "06/10/2026",
+    "lastDate": "15/10/2026",
+    "mode": "As per official notice",
+    "vacancy": "Temporary project post; exact count and remuneration are in the official notice.",
+    "qualification": "Technical/health-science qualification and experience as specified in the official AIIMS advertisement.",
+    "age": "As specified in the official advertisement.",
+    "fee": "As specified in the official advertisement.",
+    "selection": "As specified in the official advertisement.",
+    "apply": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
+    "notice": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
+    "official": "https://www.aiims.edu/",
+    "documents": "Educational/technical certificates, experience proof, CV, identity proof and any other documents specified in the official advertisement.",
+    "updates": "Official AIIMS recruitment listing gives upload date 06/10/2026 and closing date 15/10/2026.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "06/10/2026",
+    "links": {
+      "notification": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
+      "official": "https://www.aiims.edu/"
+    }
+  },
+  {
+    "id": "neet-ug-2026-mbbs-counselling-dates-round3-stray",
+    "category": "Counselling / Admission",
+    "state": "All India",
+    "organization": "Medical Counselling Committee (MCC) / State Counselling Authorities",
+    "title": "NEET UG 2026 MBBS / BDS / B.Sc Nursing — Counselling Date List (Round 3 & Stray Round)",
+    "openDate": "12/10/2026",
+    "lastDate": "26/10/2026",
+    "mode": "Online counselling / seat allotment",
+    "vacancy": "MBBS, BDS and B.Sc Nursing counselling; seats vary by round, quota and institution.",
+    "qualification": "NEET UG 2026 qualified candidates meeting applicable MCC/state counselling rules.",
+    "age": "As per NEET UG and the applicable counselling bulletin.",
+    "fee": "Registration fee and security deposit vary by quota/category; check official portal.",
+    "selection": "Registration, choice filling/locking, seat allotment and reporting as per counselling authority.",
+    "apply": "https://mcc.admissions.nic.in/",
+    "notice": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609151605377053.pdf",
     "official": "https://mcc.nic.in/ug-%20medical-counselling/",
-    "notification": "https://mcc.nic.in/eservices-schedule-ug/",
-    "result": "https://mcc.nic.in/current-events-ug/"
-  }
-},
+    "documents": "NEET UG admit card/scorecard, allotment letter if allotted, identity proof, educational certificates, category/domicile certificates where applicable and documents required by the authority.",
+    "updates": "Official MCC schedule: Round 3 AIQ choice filling 23–28/09/2026; result 30/09/2026; reporting 01–09/10/2026. State Round 3 admission schedule 28/09–09/10/2026, last joining 14/10/2026. Online Stray Vacancy Round: registration 12–14/10/2026 (payment till 06:00 PM on 14/10); choice filling 12–15/10 (locking till 10:00 AM on 15/10); allotment 17/10; reporting 19–26/10/2026. State Round 4 schedule 17–21/10/2026; last joining 26/10/2026. Dates may be revised; verify official MCC/state notices.",
+    "dataAuditDate": "08/10/2026",
+    "notificationDate": "15/09/2026",
+    "links": {
+      "notification": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609151605377053.pdf",
+      "stateSchedule": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/20260915112025817.pdf",
+      "official": "https://mcc.nic.in/ug-%20medical-counselling/"
+    }
+  },
+  {
+    "id": "neet-pg-2026-counselling-official-status",
+    "category": "Counselling / Admission",
+    "state": "All India",
+    "organization": "Medical Counselling Committee (MCC)",
+    "title": "NEET PG 2026 — Counselling Schedule / Seat Matrix Official Update",
+    "openDate": "Official update pending",
+    "lastDate": "Not confirmed on MCC page",
+    "mode": "Online counselling — check official portal",
+    "vacancy": "MD/MS and other eligible postgraduate medical seats; seat matrix subject to official publication.",
+    "qualification": "NEET PG 2026 qualified candidates meeting applicable MCC counselling rules.",
+    "age": "As prescribed in the NEET PG information bulletin.",
+    "fee": "Check official counselling bulletin.",
+    "selection": "Registration, choice filling/locking, seat allotment and reporting as per MCC schedule.",
+    "apply": "https://mcc.admissions.nic.in/",
+    "notice": "https://mcc.nic.in/pg-medical-counselling/",
+    "official": "https://mcc.nic.in/pg-medical-counselling/",
+    "documents": "NEET PG score/rank, identity proof, MBBS degree, internship completion and registration documents, category certificates where applicable, and documents listed in the official bulletin.",
+    "updates": "MCC's PG Medical Counselling page currently says the NMC/NBEMS seat matrix is awaited. Do not rely on unverified dates; confirm schedule and registration window on the official MCC page.",
+    "dataAuditDate": "08/10/2026",
+    "links": {
+      "official": "https://mcc.nic.in/pg-medical-counselling/"
+    }
+  },
+  {
+    "id": "neet-ug-mbbs-counselling-2026",
+    "category": "Counselling / Admission",
+    "state": "All India",
+    "organization": "Medical Counselling Committee (MCC) / DGHS",
+    "title": "NEET UG 2026 MBBS / BDS Counselling — Schedule, Seat Matrix & Allotment",
+    "openDate": "Round 3 registration: 22/09/2026",
+    "lastDate": "Round 3 registration closed: 27/09/2026; see latest MCC schedule for subsequent rounds",
+    "mode": "Online counselling",
+    "vacancy": "MBBS / BDS and B.Sc Nursing seats under MCC-managed quotas; seat matrix varies by round.",
+    "qualification": "NEET UG 2026 qualified candidates meeting MCC and course-specific eligibility requirements.",
+    "age": "As per NEET UG 2026 Information Bulletin and applicable rules.",
+    "fee": "Registration/security deposit as prescribed by MCC; check the current official bulletin.",
+    "selection": "Registration → choice filling/locking → seat allotment → document verification and reporting. State quota counselling is run separately by state authorities.",
+    "apply": "https://mcc.nic.in/ug-%20medical-counselling/",
+    "notice": "https://mcc.nic.in/eservices-schedule-ug/",
+    "official": "https://mcc.nic.in/ug-%20medical-counselling/",
+    "documents": "NEET UG scorecard/admit card, allotment letter, Class 10/12 certificates, identity proof, category/domicile certificates where applicable, and documents specified by MCC/state authority.",
+    "updates": "MCC official page lists Round 3 final allotment result; check the official current-events and schedule pages for any further/stray vacancy round.",
+    "dataAuditDate": "08/10/2026",
+    "importantDates": [
+      {
+        "label": "Round 3 Registration",
+        "date": "22/09/2026 – 27/09/2026"
+      },
+      {
+        "label": "Choice Filling / Locking",
+        "date": "23/09/2026 – 28/09/2026"
+      },
+      {
+        "label": "Round 3 Seat Allotment Result",
+        "date": "30/09/2026"
+      },
+      {
+        "label": "Round 3 Reporting",
+        "date": "02/10/2026 – 09/10/2026; verify any revised MCC notice"
+      },
+      {
+        "label": "Further / Stray Vacancy Round",
+        "date": "Check latest MCC official schedule; dates may be revised"
+      },
+      {
+        "label": "State Quota MBBS Counselling",
+        "date": "State-wise schedule published separately"
+      }
+    ],
+    "shortInfo": "Round-wise NEET UG counselling dates, seat matrix, allotment and reporting information. State quota dates are published by each state authority.",
+    "links": {
+      "official": "https://mcc.nic.in/ug-%20medical-counselling/",
+      "notification": "https://mcc.nic.in/eservices-schedule-ug/",
+      "result": "https://mcc.nic.in/current-events-ug/"
+    }
+  },
   {
     "id": "coast-guard-navik-yantrik-cgept-2026",
     "category": "Central Job",
