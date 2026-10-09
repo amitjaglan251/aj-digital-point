@@ -3174,22 +3174,75 @@ window.AJ_JOB_DATA = [
   {
     "id": "drdo-pxe-apprentice-2026",
     "category": "Apprenticeship",
-    "title": "DRDO PXE Balasore Apprentice Recruitment 2026-27",
-    "post": "DRDO PXE Balasore Apprentice Recruitment 2026-27",
-    "shortInfo": "**DRDO PXE Balasore Apprentice Recruitment 2026-27**. Vacancy: As per Advt. PXE/HRD/AT/01/2026-27 Eligibility: ITI / Diploma / Graduate — discipline-wise Last date: 12/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
+    "title": "DRDO PXE Balasore Apprentices Recruitment 2026–27 — 49 Posts",
+    "post": "Graduate Apprentice (B.Tech) and Technician Apprentice (Diploma)",
+    "shortInfo": "DRDO PXE, Chandipur invites applications for one-year apprenticeship training. Official Advt. PXE/HRD/AT/01/2026-27 lists 49 seats across B.Tech and Diploma disciplines; completed typed application must be sent by Speed Post/Registered Post by 12/10/2026.",
     "lastDate": "12/10/2026",
-    "mode": "Online",
-    "vacancy": "As per Advt. PXE/HRD/AT/01/2026-27",
-    "qualification": "ITI / Diploma / Graduate — discipline-wise",
-    "age": "As prescribed by DRDO",
-    "selection": "Merit / screening as notified",
-    "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
-    "notice": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
-    "official": "https://drdo.gov.in/",
-    "openDate": "See official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "mode": "Offline — typed application by Speed Post / Registered Post",
+    "vacancy": "49 total apprenticeship seats: Graduate Apprentice (B.Tech) 15; Technician Apprentice (Diploma) 34.",
+    "qualification": "Graduate Apprentice: B.Tech in the specified discipline. Technician Apprentice: Diploma in the specified discipline. Candidates must have passed the respective course during 2022–2026, through regular mode, and must register on NATS with a valid enrollment number. Candidates with one year or more of post-qualification training/job experience and candidates with postgraduate degrees are not eligible under this notice.",
+    "age": "Age limit not specified in the advertisement text reviewed; verify any applicable Apprentices Act/rule conditions from the official notice.",
+    "selection": "Applications screened/shortlisted on percentage of marks in essential qualification; shortlisted candidates may be called for written test/interview at PXE Chandipur. Offer/communication by email.",
+    "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/pxe-balasore-invites-eligible-candidates-engagement-apprentices-under",
+    "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtPXE23092026.pdf",
+    "official": "https://drdo.gov.in/drdo/offerings/vacancies",
+    "openDate": "23/09/2026",
+    "fee": "No application fee stated in the official advertisement.",
+    "documents": "Typed completed application form; marksheets/certificates of essential qualification; valid NATS enrollment number; recent passport-size photograph; category certificate for SC/ST/OBC/PwD/EWS where applicable; other documents requested in the advertisement.",
+    "dataAuditDate": "09/10/2026",
+    "organization": "Defence Research and Development Organisation (DRDO), Proof & Experimental Establishment (PXE), Chandipur",
+    "department": "Proof & Experimental Establishment (PXE), Chandipur, Balasore, Odisha",
+    "feeDate": "Application fee not specified in the official advertisement.",
+    "correctionDate": "No correction window listed; application is submitted by post.",
+    "examDate": "Shortlisting by marks; shortlisted candidates may be called for written test/interview. Exact schedule not announced in the notice.",
+    "categoryVacancy": "Graduate Apprentice (B.Tech): Electronics & Communication 4, Mechanical 4, Computer Science 5, Chemical 2. Technician Apprentice (Diploma): Civil 10, Computer Science 5, Electronics & Communication 5, Mechanical 8, Chemical 1, Electrical 2, Cinematography 2, Automobile 2.",
+    "eligibility": "One-year apprenticeship training. Only candidates who passed in 2022, 2023, 2024, 2025 or 2026 are eligible. Application must be typed; handwritten or incomplete forms will be rejected. This apprenticeship does not guarantee employment.",
+    "ageAsOn": "No specific age calculation date stated in the reviewed advertisement.",
+    "ageRelaxation": "No separate age-relaxation table stated in the reviewed advertisement.",
+    "paymentMode": "No fee payment described; application is submitted by Speed Post / Registered Post.",
+    "salary": "Graduate Apprentice stipend ₹12,300 per month; Technician Apprentice stipend ₹10,900 per month; one-year training.",
+    "updates": "Official DRDO vacancy page lists Advertisement PXE/HRD/AT/01/2026-27 published 23/09/2026; application receipt deadline 12/10/2026.",
+    "postQualifications": [
+      {
+        "label": "Graduate Apprentice (B.Tech)",
+        "value": "Electronics & Communication Engineering (4), Mechanical Engineering (4), Computer Science & Engineering (5), Chemical Engineering (2); stipend ₹12,300/month."
+      },
+      {
+        "label": "Technician Apprentice (Diploma)",
+        "value": "Civil (10), Computer Science (5), Electronics & Communication (5), Mechanical (8), Chemical (1), Electrical (2), Cinematography (2), Automobile (2); stipend ₹10,900/month."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Graduate Apprentice (B.Tech)",
+        "vacancy": "15"
+      },
+      {
+        "post": "Technician Apprentice (Diploma)",
+        "vacancy": "34"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "Official apprenticeship advertisement में PST/PET का उल्लेख नहीं है।"
+      }
+    ],
+    "applySteps": [
+      "Official PDF से application form डाउनलोड करें।",
+      "Form को केवल type करके भरें; handwritten forms स्वीकार नहीं होंगे।",
+      "अपने discipline के अनुसार Graduate (B.Tech) या Technician (Diploma) category चुनें।",
+      "NATS portal पर registration और valid enrollment number सुनिश्चित करें।",
+      "Essential qualification marksheets/certificates और लागू category certificate संलग्न करें।",
+      "Completed application को Speed Post/Registered Post से Director, PXE, DRDO, PO Chandipur, District Balasore, Odisha 756025 (Kind Attn. OIC, HRDC) को 12/10/2026 तक भेजें।"
+    ],
+    "links": {
+      "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/pxe-balasore-invites-eligible-candidates-engagement-apprentices-under",
+      "notification": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtPXE23092026.pdf",
+      "official": "https://drdo.gov.in/drdo/offerings/vacancies"
+    },
+    "verificationStatus": "Verified against official DRDO vacancy page and advertisement PDF dated 23/09/2026.",
+    "verificationSource": "Official DRDO notice: https://drdo.gov.in/drdo/sites/default/files/vacancy/advtPXE23092026.pdf"
   },
   {
     "id": "drdo-dipr-iti-apprentice-2026",
@@ -5706,20 +5759,23 @@ window.AJ_JOB_DATA = [
     "state": "Arunachal Pradesh",
     "title": "APPSC Recruitment — Advertisement No.063/2026",
     "post": "APPSC Recruitment — Advertisement No.063/2026",
-    "shortInfo": "**APPSC Recruitment — Advertisement No.063/2026**. Vacancy: Post details in official advertisement Eligibility: As prescribed in Advertisement No.063/2026 Last date: 12/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
-    "lastDate": "12/10/2026",
+    "shortInfo": "APPSC Recruitment — Advertisement No.063/2026. Arunachal Pradesh PSC official recruitment portal currently lists Advertisement No. 063/2026 with prescribed last date 27/10/2026. Post title, vacancy count, opening date, qualification, fee and age details must be checked in the linked advertisement details; these are not fully exposed on the portal listing.",
+    "lastDate": "27/10/2026",
     "mode": "Online",
-    "openDate": "Notification-wise",
-    "vacancy": "Post details in official advertisement",
-    "qualification": "As prescribed in Advertisement No.063/2026",
-    "age": "As prescribed",
-    "fee": "As prescribed",
-    "selection": "As prescribed by APPSC",
+    "openDate": "Official listing does not display opening date in the summary.",
+    "vacancy": "Post name and vacancy count are not exposed in the official listing summary; open Advertisement No. 063/2026 details.",
+    "qualification": "Post-specific qualification is not exposed in the official listing summary; verify the advertisement details before applying.",
+    "age": "Age limit not exposed in the official listing summary; verify the detailed advertisement.",
+    "fee": "Application fee is not exposed in the official listing summary; verify the detailed advertisement.",
+    "selection": "Selection process is not exposed in the official listing summary; verify the detailed advertisement.",
     "apply": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
-    "notice": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
-    "official": "https://www.appsc.gov.in/",
+    "notice": "https://appsc.gov.in/Index/institute_index/ins/RECINS001",
+    "official": "https://appsc.gov.in/",
     "documents": "Qualification/marksheets, DOB proof, photo, signature, valid ID and Arunachal/local/category certificates where required.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "09/10/2026",
+    "updates": "Official APPSC recruitment portal currently lists Advertisement No. 063/2026 with prescribed last date 27/10/2026.",
+    "verificationStatus": "Official APPSC listing checked 09/10/2026; summary displays last date 27/10/2026 but does not expose post/eligibility details in the listing.",
+    "verificationSource": "https://appsc.gov.in/Index/institute_index/ins/RECINS001"
   },
   {
     "id": "arunachal-appsc-062-2026",
@@ -6864,20 +6920,23 @@ window.AJ_JOB_DATA = [
     "state": "Arunachal Pradesh",
     "title": "Arunachal Pradesh PSC Recruitment — Advertisement No.063/2026",
     "post": "Arunachal Pradesh PSC Recruitment — Advertisement No.063/2026",
-    "shortInfo": "**Arunachal Pradesh PSC Recruitment — Advertisement No.063/2026**. Vacancy: Post-wise vacancies as per official advertisement Eligibility: Post-wise as prescribed Last date: 12/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
-    "lastDate": "12/10/2026",
-    "openDate": "2026",
-    "vacancy": "Post-wise vacancies as per official advertisement",
+    "shortInfo": "Arunachal Pradesh PSC Recruitment — Advertisement No.063/2026. Arunachal Pradesh PSC official recruitment portal currently lists Advertisement No. 063/2026 with prescribed last date 27/10/2026. Post title, vacancy count, opening date, qualification, fee and age details must be checked in the linked advertisement details; these are not fully exposed on the portal listing.",
+    "lastDate": "27/10/2026",
+    "openDate": "Official listing does not display opening date in the summary.",
+    "vacancy": "Post name and vacancy count are not exposed in the official listing summary; open Advertisement No. 063/2026 details.",
     "mode": "Online",
-    "qualification": "Post-wise as prescribed",
-    "age": "As prescribed",
-    "fee": "As prescribed",
-    "selection": "As prescribed by APPSC",
+    "qualification": "Post-specific qualification is not exposed in the official listing summary; verify the advertisement details before applying.",
+    "age": "Age limit not exposed in the official listing summary; verify the detailed advertisement.",
+    "fee": "Application fee is not exposed in the official listing summary; verify the detailed advertisement.",
+    "selection": "Selection process is not exposed in the official listing summary; verify the detailed advertisement.",
     "apply": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
-    "notice": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
-    "official": "https://www.appsc.gov.in/",
+    "notice": "https://appsc.gov.in/Index/institute_index/ins/RECINS001",
+    "official": "https://appsc.gov.in/",
     "documents": "As prescribed in official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "09/10/2026",
+    "updates": "Official APPSC recruitment portal currently lists Advertisement No. 063/2026 with prescribed last date 27/10/2026.",
+    "verificationStatus": "Official APPSC listing checked 09/10/2026; summary displays last date 27/10/2026 but does not expose post/eligibility details in the listing.",
+    "verificationSource": "https://appsc.gov.in/Index/institute_index/ins/RECINS001"
   },
   {
     "id": "appsc-arunachal-062-2026",
