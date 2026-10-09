@@ -180,7 +180,7 @@ set('examDate',d.examDate,'Exam/selection date इस record में दर्
 set('updates',d.updates,'इस भर्ती के लिए कोई अलग latest update इस record में दर्ज नहीं है।');
 set('dataAuditDate',d.dataAuditDate||'09/10/2026');
 set('fee',d.fee,'Application fee की category-wise राशि इस record में दर्ज नहीं है। Official notification में fee/exemption verify करें.');
-set('paymentMode','Payment mode: '+(d.paymentMode||'इस record में दर्ज नहीं; official notification देखें'));
+set('paymentMode','Payment mode: '+(d.paymentMode||'यदि शुल्क लागू हो तो केवल official application portal पर उपलब्ध payment method इस्तेमाल करें; fee exemption पहले जाँचें.'));
 set('age',d.age,'Age limit इस record में दर्ज नहीं है। Official notification में minimum/maximum age verify करें।');
 set('ageAsOn','Age limit calculation date: '+(d.ageAsOn||d.ageLimitAsOn||'इस record में दर्ज नहीं; official notification देखें'));
 set('ageRelaxation','Age relaxation: '+(d.ageRelaxation||'Category-wise relaxation इस record में दर्ज नहीं; official notification देखें'));
@@ -246,8 +246,8 @@ if(relatedRoot&&relatedBox){
  relatedBox.hidden=false;
 }
 set('selection',d.selection,'इस record में selection stages दर्ज नहीं हैं; official notification देखें।');
-set('salary',d.salary,'Salary / Pay Level इस record में दर्ज नहीं है; official notification में pay scale देखें।');
-document.getElementById('shortInfo').textContent=d.shortInfo||((d.title||'This recruitment')+' के लिए important dates, vacancy, eligibility, fee, selection process, documents और official links नीचे दिए गए हैं।');
+set('salary',d.salary||d.payScale||d.payLevel,'इस रिकॉर्ड में salary/pay level अलग से दर्ज नहीं है; पद के अनुसार pay scale केवल official notification से confirm करें.');
+document.getElementById('shortInfo').textContent=d.shortInfo||((d.title||'इस भर्ती')+' — कुल पद: '+(d.vacancy||'official notice से पुष्टि करें')+'; योग्यता: '+(d.qualification||'official notice से पुष्टि करें')+'; अंतिम तिथि: '+(d.lastDate||'official notice से पुष्टि करें')+'. फीस, आयु, चयन और दस्तावेज़ की विस्तृत जानकारी नीचे दी गई है।');
 set('verificationStatus',d.verificationStatus,'इस रिकॉर्ड के लिए अलग verification note उपलब्ध नहीं है; आवेदन करने से पहले official notice से सभी विवरण मिलाएँ.');
 set('verificationSource',d.categoryVacancySource||('Official notice: '+(d.notice||d.official||'इस रिकॉर्ड में अलग source link दर्ज नहीं है.')));
 const dl=document.getElementById('documentsList');
