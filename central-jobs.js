@@ -7595,7 +7595,33 @@ window.AJ_JOB_DATA = [
     "notification": "https://mcc.nic.in/eservices-schedule-ug/",
     "result": "https://mcc.nic.in/current-events-ug/"
   }
-}
+},
+  {
+    "id": "coast-guard-navik-yantrik-cgept-2026",
+    "category": "Central Job",
+    "state": "All India",
+    "organization": "Indian Coast Guard",
+    "title": "Indian Coast Guard Navik (GD/DB) & Yantrik Recruitment 2026 — CGEPT 01/2027 and 02/2027",
+    "lastDate": "21/10/2026 05:30 PM",
+    "openDate": "06/10/2026",
+    "mode": "Online",
+    "vacancy": "365 posts (as reported; verify category-wise vacancy in the official notification)",
+    "qualification": "Post-wise eligibility: Navik GD generally requires 10+2 with Maths and Physics; Navik DB requires 10th pass; Yantrik requires the prescribed engineering diploma. Check the official notification for exact criteria.",
+    "age": "Check batch-wise age criteria and category relaxations in the official notification.",
+    "fee": "Check the official notification for category-wise fee and exemptions.",
+    "selection": "As prescribed in the official CGEPT recruitment notification.",
+    "notice": "https://joinindiancoastguard.cdac.in/",
+    "official": "https://joinindiancoastguard.cdac.in/",
+    "apply": "https://naukriconnect.com/defence/",
+    "documents": "Keep educational certificates, identity proof, photograph, signature and category certificates ready as required by the official notification.",
+    "updates": "Third-party information/application link supplied for reference. Before submitting personal details or payment, verify the recruitment notice and application process on the official Indian Coast Guard recruitment portal.",
+    "dataAuditDate": "09/10/2026",
+    "notificationDate": "06/10/2026",
+    "links": {
+      "official": "https://joinindiancoastguard.cdac.in/",
+      "notification": "https://joinindiancoastguard.cdac.in/"
+    }
+  }
 ];
 
 (function(){
