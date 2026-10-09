@@ -5,7 +5,11 @@
   "description": "Security-first backend scaffold for a future provider-authorized PAN integration",
   "type": "module",
   "engines": { "node": ">=20" },
-  "scripts": { "start": "node server.js", "check": "node --check server.js" },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js",
+    "test": "node --test"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
