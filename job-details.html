@@ -169,7 +169,7 @@ const latestDeadline=dateTokens.map(v=>{const p=v.split('/').map(Number);return 
 const isExpired=!!latestDeadline && latestDeadline < new Date(new Date().setHours(0,0,0,0));
 document.title=(d.title||'Job Details')+' | AJ DIGITAL POINT';
 set('jobTitle',d.title);set('jobSub',(d.category||'Recruitment')+' • '+(d.mode||'Online')+' • Complete Details');
-set('nameOfPost',d.post||d.title);set('post',d.post||d.title);set('vacancyPost',d.post||d.title);
+const postName=[d.postName,d.postTitle,d.post,d.vacancyPost].find(v=>!isMissing(v))||(!isMissing(d.title)?d.title:'पद का नाम आधिकारिक अधिसूचना में देखें');\nset('nameOfPost',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें।');set('post',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें।');set('vacancyPost',postName,'पद का नाम इस रिकॉर्ड में उपलब्ध नहीं है; आधिकारिक अधिसूचना देखें.');
 set('org',d.organization||d.department||d.authority||'Recruiting authority इस रिकॉर्ड में अलग से दर्ज नहीं है; official notice में देखें.');
 set('vacancy',d.vacancy);set('vacancy2',d.vacancy);set('categoryVacancy',d.categoryVacancy);
 set('topMode',d.mode);set('state',d.state||'All India / As per notification');
