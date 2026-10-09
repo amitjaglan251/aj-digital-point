@@ -3529,6 +3529,8 @@ window.AJ_JOB_DATA = [
     "category": "Rajasthan Jobs",
     "title": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
     "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
+    "shortInfo": "**Rajasthan Contractual Safai Karamchari Recruitment 2026**. Vacancy: As per official portal Eligibility: As prescribed in notification Last date: 13/10/2026. Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
+    "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
     "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
     "shortInfo": "**Rajasthan Contractual Safai Karamchari Recruitment 2026**. Vacancy: As per official portal Eligibility: As prescribed in notification Last date: 13/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "13/10/2026",
