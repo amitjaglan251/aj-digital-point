@@ -15429,152 +15429,134 @@ window.AJ_JOB_DATA = [
   {
     "id": "trai-joint-advisor-kolkata-2026",
     "category": "Central Job",
-    "state": "West Bengal",
+    "state": "West Bengal / Kolkata",
     "organization": "Telecom Regulatory Authority of India (TRAI)",
-    "department": "TRAI Regional Office, Kolkata",
+    "department": "Human Resources",
     "authority": "Telecom Regulatory Authority of India",
     "title": "TRAI Joint Advisor Recruitment 2026 — Regional Office Kolkata (Deputation)",
     "post": "Joint Advisor",
     "shortInfo": "TRAI में Kolkata Regional Office के Joint Advisor पद पर deputation (foreign service terms) के आधार पर नियुक्ति। Official TRAI vacancy listing के अनुसार आवेदन की अंतिम तिथि 16/10/2026 है। यह serving eligible officers के लिए है; सामान्य direct recruitment नहीं।",
     "openDate": "14/05/2026",
     "lastDate": "16/10/2026",
-    "feeDate": "अलग fee-payment date प्रकाशित नहीं; deputation notice में application fee निर्दिष्ट नहीं है।",
-    "correctionDate": "TRAI official listing पर अलग correction window सूचीबद्ध नहीं है।",
-    "examDate": "लिखित परीक्षा की तारीख प्रकाशित नहीं; notice के अनुसार eligibility और experience पर deputation selection।",
-    "mode": "Online application + prescribed hard-copy forwarding",
-    "vacancy": "1 Joint Advisor post — TRAI Regional Office Kolkata.",
-    "categoryVacancy": "1 Joint Advisor post; अलग category-wise vacancy breakup notice में नहीं दिया गया।",
-    "qualification": "Relevant-field experience plus one or more of: AICTE-recognised Bachelor's degree in Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering; or UGC-recognised Bachelor's or Master's degree in Business Administration / Economics / Commerce / Engineering / Law / Science / Humanities; or ICAI/ICMAI membership.",
-    "eligibility": "Eligible serving officers of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or research institution: (i) analogous post on regular basis; or (ii) 4 years regular service after appointment at Level-12/equivalent; or (iii) at least 12 years regular Group A/equivalent service including at least 6 years at Level-11/equivalent.",
-    "age": "अंतिम आवेदन तिथि पर अधिकतम 56 वर्ष।",
-    "ageAsOn": "16/10/2026 (TRAI official vacancy listing की closing date)",
-    "ageRelaxation": "अलग category-wise relaxation सूचीबद्ध नहीं; deputation के लिए अधिकतम आयु 56 वर्ष की शर्त लागू।",
-    "fee": "Official deputation circular में application fee निर्दिष्ट नहीं है।",
-    "paymentMode": "Payment mode: notice में application fee/payment प्रक्रिया निर्दिष्ट नहीं है; किसी अनधिकृत व्यक्ति को भुगतान न करें।",
-    "selection": "Deputation on foreign service terms based on eligibility and relevant experience; no written exam date is published in the notice. Initial tenure: 3 years. Premature repatriation may lead to a 3-year bar on applying to TRAI vacancies, as stated in the notice.",
-    "salary": "Pay Level-13: ₹1,23,100–₹2,15,900 (7th CPC Pay Matrix) + applicable allowances as per Government rules.",
+    "feeDate": "Application fee and a separate fee-payment deadline are not stated in the official deputation notice.",
+    "correctionDate": "No correction/edit window is stated in the official deputation notice.",
+    "examDate": "No written examination date is stated; appointment is on deputation and selection follows the official process.",
+    "mode": "Deputation on foreign-service terms; initially for 3 years",
+    "vacancy": "1 post",
+    "categoryVacancy": "One Joint Advisor post; category-wise reservation/breakup is not stated in the notice.",
+    "qualification": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership.",
+    "eligibility": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership.",
+    "age": "Maximum 56 years",
+    "ageAsOn": "Maximum age must not exceed 56 years on the last date for submission to TRAI (16/10/2026).",
+    "ageRelaxation": "The notice sets a maximum age of 56 years; separate category-wise relaxation is not stated.",
+    "fee": "No application fee is stated in the official notice.",
+    "paymentMode": "No fee-payment method is stated because no application fee is specified. Apply through the official TRAI vacancies portal; the parent/cadre authority must forward the required hard-copy documents.",
+    "selection": "Deputation/foreign-service terms. Eligible officers’ applications, service clearances and forwarding are handled under the circular and applicable DoPT rules; no written exam date is stated.",
+    "salary": "Pay Level 13: ₹1,23,100–₹2,15,900 (7th CPC pay matrix), plus applicable allowances such as DA/HRA under Government rules.",
     "apply": "https://vacancies.trai.gov.in/",
     "notice": "https://www.trai.gov.in/sites/default/files/2026-05/Vacancy_14052026.pdf",
     "official": "https://www.trai.gov.in/vacancies",
-    "documents": "Online application form का printout; पिछले 5 वर्षों के attested ACR/APAR; vigilance/disciplinary clearance; cadre clearance; relevant qualification, service और experience records; अन्य prescribed deputation papers.",
-    "updates": "TRAI official vacancy listing (checked 09/10/2026) lists closing date 16/10/2026. The original circular is dated 14/05/2026; subsequent extension notices are linked on the TRAI vacancies page.",
+    "documents": "Printed online application form; attested ACR/APARs for the last five years; vigilance/disciplinary clearance; cadre clearance; and other documents required by the circular. The parent/cadre authority is asked to forward the hard copy.",
+    "updates": "Official TRAI listing checked 09/10/2026: Kolkata closing date is 16/10/2026 after extensions; review all extension letters on the official listing.",
     "dataAuditDate": "09/10/2026",
     "postQualifications": [
       {
-        "label": "Eligible officer status",
-        "value": "Serving officer of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or recognised research institution."
-      },
-      {
-        "label": "Educational qualification",
-        "value": "Relevant-field experience plus one or more of: AICTE-recognised Bachelor's degree in Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering; or UGC-recognised Bachelor's or Master's degree in Business Administration / Economics / Commerce / Engineering / Law / Science / Humanities; or ICAI/ICMAI membership."
-      },
-      {
-        "label": "Experience / service eligibility",
-        "value": "Eligible serving officers of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or research institution: (i) analogous post on regular basis; or (ii) 4 years regular service after appointment at Level-12/equivalent; or (iii) at least 12 years regular Group A/equivalent service including at least 6 years at Level-11/equivalent."
+        "label": "Eligibility / service requirement",
+        "value": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership."
       }
     ],
     "postVacancies": [
       {
-        "post": "Joint Advisor — TRAI Regional Office Kolkata",
-        "vacancy": "1 post"
+        "post": "Joint Advisor",
+        "vacancy": "1"
       }
     ],
     "physicalEligibility": [
       {
         "label": "PST / PET",
-        "details": "TRAI deputation circular में PST/PET standard का उल्लेख नहीं है; यह entry किसी physical test को अनिवार्य नहीं मानती।"
+        "details": "No physical standard/efficiency test is mentioned in the official deputation notice."
       }
     ],
     "applySteps": [
-      "TRAI vacancies portal पर Joint Advisor, Regional Office Kolkata notice खोलें।",
-      "Eligibility, experience और deputation conditions को मूल notification तथा extension notices से मिलाएँ।",
-      "Online application भरकर application form डाउनलोड/प्रिंट करें।",
-      "पिछले 5 वर्षों के attested ACR/APAR तथा vigilance/disciplinary और cadre clearance तैयार करें।",
-      "Prescribed forwarding channel से hard copy और documents Senior Research Officer (HR), TRAI, New Delhi को official deadline से पहले भेजें।",
-      "Application acknowledgement और भेजे गए documents का record सुरक्षित रखें।"
+      "Read the complete official TRAI vacancy circular and check service, degree and experience eligibility.",
+      "Submit the application online through https://vacancies.trai.gov.in/.",
+      "Download/print the submitted application and arrange attested ACR/APARs for the last five years, vigilance/disciplinary clearance and cadre clearance.",
+      "Ask the parent/cadre authority to forward the hard copy so it reaches TRAI by the closing date."
     ],
     "links": {
       "apply": "https://vacancies.trai.gov.in/",
       "notification": "https://www.trai.gov.in/sites/default/files/2026-05/Vacancy_14052026.pdf",
+      "notice": "https://www.trai.gov.in/sites/default/files/2026-05/Vacancy_14052026.pdf",
       "official": "https://www.trai.gov.in/vacancies"
     },
-    "verificationStatus": "Verified against TRAI official vacancy listing and original circular; the TRAI listing checked 09/10/2026 shows closing date 16/10/2026.",
-    "verificationSource": "TRAI vacancies: https://www.trai.gov.in/vacancies | Original circular: https://www.trai.gov.in/sites/default/files/2026-05/Vacancy_14052026.pdf"
+    "verificationStatus": "Checked against the official TRAI vacancy circular and the current TRAI vacancies listing on 09/10/2026.",
+    "verificationSource": "https://www.trai.gov.in/sites/default/files/2026-05/Vacancy_14052026.pdf"
   },
   {
     "id": "trai-joint-advisor-guwahati-2026",
     "category": "Central Job",
-    "state": "Assam",
+    "state": "Assam / Guwahati",
     "organization": "Telecom Regulatory Authority of India (TRAI)",
-    "department": "TRAI Camp Office, Guwahati (under TRAI Regional Office Kolkata)",
+    "department": "Human Resources",
     "authority": "Telecom Regulatory Authority of India",
     "title": "TRAI Joint Advisor Recruitment 2026 — Camp Office Guwahati (Deputation)",
     "post": "Joint Advisor",
     "shortInfo": "TRAI के Guwahati Camp Office (under TRAI RO Kolkata) में Joint Advisor का 1 पद deputation पर है। Official vacancy circular dated 28/09/2026 के अनुसार आवेदन की अंतिम तिथि 06/11/2026 है।",
     "openDate": "28/09/2026",
     "lastDate": "06/11/2026",
-    "feeDate": "अलग fee-payment date प्रकाशित नहीं; deputation notice में application fee निर्दिष्ट नहीं है।",
-    "correctionDate": "कोई correction window प्रकाशित नहीं मिली।",
-    "examDate": "लिखित परीक्षा की तारीख प्रकाशित नहीं; चयन deputation प्रक्रिया के अनुसार।",
-    "mode": "Online application + prescribed hard-copy forwarding",
-    "vacancy": "1 Joint Advisor post — TRAI Camp Office Guwahati (under TRAI Regional Office Kolkata).",
-    "categoryVacancy": "1 Joint Advisor post; अलग category-wise vacancy breakup notice में नहीं दिया गया।",
-    "qualification": "Relevant-field experience plus one or more of: AICTE-recognised Bachelor's degree in Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering; or UGC-recognised Bachelor's or Master's degree in Business Administration / Economics / Commerce / Engineering / Law / Science / Humanities; or ICAI/ICMAI membership.",
-    "eligibility": "Eligible serving officers of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or research institution: (i) analogous post on regular basis; or (ii) 4 years regular service after appointment at Level-12/equivalent; or (iii) at least 12 years regular Group A/equivalent service including at least 6 years at Level-11/equivalent.",
-    "age": "अंतिम आवेदन तिथि पर अधिकतम 56 वर्ष।",
-    "ageAsOn": "06/11/2026 (TRAI official vacancy listing/circular closing date)",
-    "ageRelaxation": "अलग category-wise relaxation सूचीबद्ध नहीं; deputation के लिए अधिकतम आयु 56 वर्ष की शर्त लागू।",
-    "fee": "Official deputation circular में application fee निर्दिष्ट नहीं है।",
-    "paymentMode": "Payment mode: notice में application fee/payment प्रक्रिया निर्दिष्ट नहीं है; किसी अनधिकृत व्यक्ति को भुगतान न करें।",
-    "selection": "Deputation on foreign service terms based on eligibility and relevant experience; no written exam date is published. Initial tenure: 3 years.",
-    "salary": "Pay Level-13: ₹1,23,100–₹2,15,900 (7th CPC Pay Matrix) + applicable allowances as per Government rules.",
+    "feeDate": "Application fee and a separate fee-payment deadline are not stated in the official deputation notice.",
+    "correctionDate": "No correction/edit window is stated in the official deputation notice.",
+    "examDate": "No written examination date is stated; appointment is on deputation and selection follows the official process.",
+    "mode": "Deputation on foreign-service terms; initially for 3 years",
+    "vacancy": "1 post",
+    "categoryVacancy": "One Joint Advisor post; category-wise reservation/breakup is not stated in the notice.",
+    "qualification": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership.",
+    "eligibility": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership.",
+    "age": "Maximum 56 years",
+    "ageAsOn": "Maximum age must not exceed 56 years on the last date for submission to TRAI (06/11/2026).",
+    "ageRelaxation": "The notice sets a maximum age of 56 years; separate category-wise relaxation is not stated.",
+    "fee": "No application fee is stated in the official notice.",
+    "paymentMode": "No fee-payment method is stated because no application fee is specified. Apply through the official TRAI vacancies portal; the parent/cadre authority must forward the required hard-copy documents.",
+    "selection": "Deputation/foreign-service terms. Eligible officers’ applications, service clearances and forwarding are handled under the circular and applicable DoPT rules; no written exam date is stated.",
+    "salary": "Pay Level 13: ₹1,23,100–₹2,15,900 (7th CPC pay matrix), plus applicable allowances such as DA/HRA under Government rules.",
     "apply": "https://vacancies.trai.gov.in/",
     "notice": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
     "official": "https://www.trai.gov.in/vacancies",
-    "documents": "Online application form का printout; पिछले 5 वर्षों के attested ACR/APAR; vigilance/disciplinary clearance; cadre clearance; relevant qualification, service और experience records; अन्य prescribed deputation papers.",
-    "updates": "TRAI official vacancy listing (checked 09/10/2026) lists closing date 06/11/2026. Original circular dated 28/09/2026.",
+    "documents": "Printed online application form; attested ACR/APARs for the last five years; vigilance/disciplinary clearance; cadre clearance; and other documents required by the circular. The parent/cadre authority is asked to forward the hard copy.",
+    "updates": "Official TRAI circular dated 28/09/2026; Haryana Chief Secretary Office cross-posted it on 07/10/2026.",
     "dataAuditDate": "09/10/2026",
     "postQualifications": [
       {
-        "label": "Eligible officer status",
-        "value": "Serving officer of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or recognised research institution."
-      },
-      {
-        "label": "Educational qualification",
-        "value": "Relevant-field experience plus one or more of: AICTE-recognised Bachelor's degree in Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering; or UGC-recognised Bachelor's or Master's degree in Business Administration / Economics / Commerce / Engineering / Law / Science / Humanities; or ICAI/ICMAI membership."
-      },
-      {
-        "label": "Experience / service eligibility",
-        "value": "Eligible serving officers of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or research institution: (i) analogous post on regular basis; or (ii) 4 years regular service after appointment at Level-12/equivalent; or (iii) at least 12 years regular Group A/equivalent service including at least 6 years at Level-11/equivalent."
+        "label": "Eligibility / service requirement",
+        "value": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership."
       }
     ],
     "postVacancies": [
       {
-        "post": "Joint Advisor — TRAI Camp Office Guwahati",
-        "vacancy": "1 post"
+        "post": "Joint Advisor",
+        "vacancy": "1"
       }
     ],
     "physicalEligibility": [
       {
         "label": "PST / PET",
-        "details": "TRAI deputation circular में PST/PET standard का उल्लेख नहीं है; यह entry किसी physical test को अनिवार्य नहीं मानती।"
+        "details": "No physical standard/efficiency test is mentioned in the official deputation notice."
       }
     ],
     "applySteps": [
-      "TRAI vacancies portal पर Joint Advisor, Camp Office Guwahati notice खोलें।",
-      "Eligibility, experience और deputation conditions को मूल notification से मिलाएँ।",
-      "Online application भरकर application form डाउनलोड/प्रिंट करें।",
-      "पिछले 5 वर्षों के attested ACR/APAR तथा vigilance/disciplinary और cadre clearance तैयार करें।",
-      "Prescribed forwarding channel से hard copy और documents Senior Research Officer (HR), TRAI, New Delhi को 06/11/2026 तक भेजें।",
-      "Application acknowledgement और भेजे गए documents का record सुरक्षित रखें।"
+      "Read the complete official TRAI vacancy circular and check service, degree and experience eligibility.",
+      "Submit the application online through https://vacancies.trai.gov.in/.",
+      "Download/print the submitted application and arrange attested ACR/APARs for the last five years, vigilance/disciplinary clearance and cadre clearance.",
+      "Ask the parent/cadre authority to forward the hard copy so it reaches TRAI by the closing date."
     ],
     "links": {
       "apply": "https://vacancies.trai.gov.in/",
       "notification": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
+      "notice": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
       "official": "https://www.trai.gov.in/vacancies"
     },
-    "verificationStatus": "Verified against TRAI official vacancy listing and circular dated 28/09/2026; the listing checked 09/10/2026 shows closing date 06/11/2026.",
-    "verificationSource": "TRAI vacancies: https://www.trai.gov.in/vacancies | Original circular: https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf"
+    "verificationStatus": "Checked against the official TRAI vacancy circular and the current TRAI vacancies listing on 09/10/2026.",
+    "verificationSource": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf"
   },
   {
     "id": "andaman-dhs-various-posts-2026-v2",
@@ -19129,52 +19111,69 @@ window.AJ_JOB_DATA = [
   },
   {
     "id": "haryana-cs-joint-advisor-trai-2026",
-    "category": "State Job",
-    "state": "Haryana",
-    "title": "Joint Advisor — TRAI Camp Office Guwahati / Regional Office Kolkata (Deputation)",
-    "lastDate": "See official notice",
-    "mode": "Deputation",
-    "openDate": "07/10/2026",
-    "vacancy": "2 notices / posts as separately notified",
-    "qualification": "Eligible serving government/PSU/appropriate officers as prescribed",
-    "age": "As prescribed in deputation notice",
-    "fee": "No application fee stated",
-    "selection": "Deputation/selection as prescribed by the concerned authority",
-    "apply": "https://csharyana.gov.in/latestnew/",
-    "notice": "https://csharyana.gov.in/latestnew/",
-    "official": "https://csharyana.gov.in/",
-    "documents": "Service record, qualification/experience documents, NOC/cadre clearance and other deputation documents as prescribed.",
-    "updates": "Haryana Chief Secretary Office published Joint Advisor notices on 07/10/2026.",
-    "dataAuditDate": "07/10/2026",
-    "post": "Joint Advisor — TRAI Camp Office Guwahati / Regional Office Kolkata (Deputation)",
-    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
-    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
-    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
-    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
-    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
-    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
-    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
-    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "category": "Central Job",
+    "state": "Assam / Guwahati",
+    "title": "TRAI Joint Advisor Recruitment 2026 — Camp Office Guwahati (Haryana CS Office circular)",
+    "lastDate": "06/11/2026",
+    "mode": "Deputation on foreign-service terms; initially for 3 years",
+    "openDate": "28/09/2026",
+    "vacancy": "1 post",
+    "qualification": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership.",
+    "age": "Maximum 56 years",
+    "fee": "No application fee is stated in the official notice.",
+    "selection": "Deputation/foreign-service terms. Eligible officers’ applications, service clearances and forwarding are handled under the circular and applicable DoPT rules; no written exam date is stated.",
+    "apply": "https://vacancies.trai.gov.in/",
+    "notice": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
+    "official": "https://www.trai.gov.in/vacancies",
+    "documents": "Printed online application form; attested ACR/APARs for the last five years; vigilance/disciplinary clearance; cadre clearance; and other documents required by the circular. The parent/cadre authority is asked to forward the hard copy.",
+    "updates": "Original TRAI circular dated 28/09/2026; Haryana Chief Secretary Office republished it on 07/10/2026. This is one Guwahati post, not a combined Guwahati+Kolkata vacancy.",
+    "dataAuditDate": "09/10/2026",
+    "post": "Joint Advisor",
+    "feeDate": "Application fee and a separate fee-payment deadline are not stated in the official deputation notice.",
+    "correctionDate": "No correction/edit window is stated in the official deputation notice.",
+    "examDate": "No written examination date is stated; appointment is on deputation and selection follows the official process.",
+    "categoryVacancy": "One Joint Advisor post; category-wise reservation/breakup is not stated in the notice.",
+    "ageAsOn": "Maximum age must not exceed 56 years on the last date for submission to TRAI (06/11/2026).",
+    "ageRelaxation": "The notice sets a maximum age of 56 years; separate category-wise relaxation is not stated.",
+    "paymentMode": "No fee-payment method is stated because no application fee is specified. Apply through the official TRAI vacancies portal; the parent/cadre authority must forward the required hard-copy documents.",
+    "salary": "Pay Level 13: ₹1,23,100–₹2,15,900 (7th CPC pay matrix), plus applicable allowances such as DA/HRA under Government rules.",
     "postQualifications": [
       {
-        "label": "Educational Qualification",
-        "value": "Eligible serving government/PSU/appropriate officers as prescribed"
+        "label": "Eligibility / service requirement",
+        "value": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership."
       }
     ],
     "postVacancies": [
       {
-        "post": "Joint Advisor — TRAI Camp Office Guwahati / Regional Office Kolkata (Deputation)",
-        "vacancy": "2 notices / posts as separately notified"
+        "post": "Joint Advisor",
+        "vacancy": "1"
       }
     ],
     "physicalEligibility": [
       {
         "label": "PST / PET",
-        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+        "details": "No physical standard/efficiency test is mentioned in the official deputation notice."
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://csharyana.gov.in/"
+    "verificationStatus": "Checked against the official TRAI vacancy circular and the current TRAI vacancies listing on 09/10/2026.",
+    "verificationSource": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
+    "organization": "Telecom Regulatory Authority of India (TRAI)",
+    "department": "Human Resources",
+    "authority": "Telecom Regulatory Authority of India",
+    "eligibility": "Serving officers of Central/State Governments, UT Administrations, autonomous bodies, statutory organisations, PSUs, recognised universities or research institutions who (i) hold an analogous post regularly; or (ii) have 4 years’ regular service at Level-12/equivalent; or (iii) have at least 12 years’ regular Group A/equivalent service, including at least 6 years at Level-11/equivalent. Relevant-field experience is required, along with one of these qualifications: Bachelor’s degree in Electronics, Telecommunications, Electrical, Electrical & Electronics, IT or Computer Science Engineering (AICTE-recognised); Bachelor’s/Master’s in Business Administration, Economics, Commerce, Engineering, Law, Science or Humanities (UGC-recognised); or ICAI/ICMAI membership.",
+    "applySteps": [
+      "Read the complete official TRAI vacancy circular and check service, degree and experience eligibility.",
+      "Submit the application online through https://vacancies.trai.gov.in/.",
+      "Download/print the submitted application and arrange attested ACR/APARs for the last five years, vigilance/disciplinary clearance and cadre clearance.",
+      "Ask the parent/cadre authority to forward the hard copy so it reaches TRAI by the closing date."
+    ],
+    "links": {
+      "apply": "https://vacancies.trai.gov.in/",
+      "notification": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
+      "notice": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
+      "official": "https://www.trai.gov.in/vacancies"
+    },
+    "shortInfo": "TRAI Camp Office Guwahati (under TRAI Regional Office Kolkata) में Joint Advisor का 1 पद deputation पर है। मूल TRAI circular 28/09/2026 का है; Haryana Chief Secretary Office ने इसे 07/10/2026 को प्रकाशित किया। अंतिम तारीख 06/11/2026। यह direct recruitment नहीं, eligible serving officers के लिए deputation है।"
   }
 ];
 
