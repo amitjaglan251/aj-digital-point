@@ -1,5 +1,5 @@
 window.AJ_JOB_DATA = [
-{
+  {
     "id": "punjab-district-courts-clerk-37c-2026",
     "category": "State Job",
     "state": "Punjab",
@@ -70,7 +70,6 @@ window.AJ_JOB_DATA = [
     "state": "Andhra Pradesh",
     "organization": "Andhra Pradesh Public Service Commission (APPSC)",
     "title": "APPSC Assistant Environmental Engineer Recruitment 2026 — Notification No. 08/2026",
-    "post": "APPSC Horticulture Officer Recruitment 2026 — Notification No. 19/2026",
     "post": "APPSC Assistant Environmental Engineer Recruitment 2026 — Notification No. 08/2026",
     "shortInfo": "**APPSC Assistant Environmental Engineer Recruitment 2026 — Notification No. 08/2026**. Vacancy: 41 Assistant Environmental Engineer vacancies (40 fresh + 1 carried-forward, as reported in the detailed-notice summaries). Eligibility: B.E./B.Tech in Civil, Mechanical, Chemical or Environmental Engineering, or the alternative qualification route specified in the detailed notification. Last date: 27/10/2026 11:59 PM Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "27/10/2026 11:59 PM",
@@ -97,7 +96,7 @@ window.AJ_JOB_DATA = [
     "correctionDate": "APPSC web note indicates corrections may be enabled after the closing date; exact fee/period must be checked in the official web note.",
     "updates": "Applications run 06/10/2026–27/10/2026 11:59 PM according to the detailed-notice summary. Total 41 includes one carried-forward vacancy; CBT date not yet announced."
   },
-{
+  {
     "id": "appsc-horticulture-officer-19-2026",
     "category": "State Job",
     "state": "Andhra Pradesh",
@@ -214,7 +213,6 @@ window.AJ_JOB_DATA = [
     "id": "upsc-engineering-services-2026",
     "category": "Central Job",
     "title": "UPSC Engineering Services (Preliminary) Examination 2027 Online Form",
-    "post": "RRB CEN 05/2026 Paramedical Staff — Official Notice Not Confirmed",
     "post": "UPSC Engineering Services (Preliminary) Examination 2027 Online Form",
     "shortInfo": "**UPSC Engineering Services (Preliminary) Examination 2027 Online Form**. Vacancy: 480 Posts Eligibility: Engineering degree/equivalent in prescribed Civil, Mechanical, Electrical or Electronics & Telecommunication disciplines Last date: 06/10/2026 06:00 PM Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "06/10/2026 06:00 PM",
@@ -239,7 +237,7 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "480 vacancies reported for the examination; branch/category-wise final breakup should be verified in the official notification. Application deadline passed on 06/10/2026 at 06:00 PM.",
     "updates": "Application deadline passed: 06/10/2026 at 06:00 PM. Preliminary examination is scheduled for 31/01/2027 according to UPSC's examination page."
   },
-{
+  {
     "id": "rrb-cen-05-2026-paramedical",
     "category": "Central Job",
     "title": "RRB CEN 05/2026 Paramedical Staff — Official Notice Not Confirmed",
@@ -271,7 +269,6 @@ window.AJ_JOB_DATA = [
     "id": "india-optel-project-technician-2026",
     "category": "Central Job",
     "title": "India Optel Limited Recruitment 2026 — Advertisement IOLHqrs/100(6)/2026-Rectt (160 posts)",
-    "post": "MECL Non-Executive Recruitment 2026 — Advertisement No. 03/Rectt./2026",
     "post": "India Optel Limited Recruitment 2026 — Advertisement IOLHqrs/100(6)/2026-Rectt (160 posts)",
     "shortInfo": "**India Optel Limited Recruitment 2026 — Advertisement IOLHqrs/100(6)/2026-Rectt (160 posts)**. Vacancy: 160 fixed-term contract positions across Project Technician (98), Junior Project Engineer (57), Welfare Officer (3), and Consultant (Coordination) (2). Eligibility: Post-specific. Project Technician: Matriculation + relevant NTC/NAC; Junior Project Engineer: discipline-specific B.Sc./Diploma with experience; Welfare Officer: degree plus relevant PG qualification and experience; Consultant: eligible retired Army officers. Check the respective notice. Last date: 03/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "03/10/2026",
@@ -296,7 +293,7 @@ window.AJ_JOB_DATA = [
     "examDate": "No common exam date stated. Project Technician trade test / interviews are to be notified separately by IOL.",
     "updates": "Verified against Advertisement IOLHqrs/100(6)/2026-Rectt and its separate post notices. Applications closed 03/10/2026; mark EXPIRED unless IOL publishes an official extension."
   },
-{
+  {
     "id": "mecl-non-executive-2026",
     "category": "Central Job",
     "title": "MECL Non-Executive Recruitment 2026 — Advertisement No. 03/Rectt./2026",
@@ -378,7 +375,6 @@ window.AJ_JOB_DATA = [
     "id": "rcfl-94-management-trainee-2026",
     "category": "Central Job",
     "title": "RCF Management Trainee Recruitment 2026 — Advt. 16022026 (Applications Closed)",
-    "post": "NCRTC Recruitment 2026 — O&M Staff (32/2026) & Supervisors/Non-Supervisors (33/2026)",
     "post": "RCF Management Trainee Recruitment 2026 — Advt. 16022026 (Applications Closed)",
     "shortInfo": "**RCF Management Trainee Recruitment 2026 — Advt. 16022026 (Applications Closed)**. Vacancy: Management Trainee roles advertised across Chemical, Boiler, Mechanical, Electrical, Instrumentation, Materials, Civil, Fire, CC Lab, Industrial Engineering, Information Technology, Rajbhasha, Finance and Marketing. The record title says 94 vacancies, but the total has not yet been reconciled against the complete original vacancy table. Eligibility: Discipline-specific engineering/science/commerce/management or language qualifications as set out in the original Advertisement No. 16022026. Last date: 20/09/2026 05:00 PM (extended; closed) Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "20/09/2026 05:00 PM (extended; closed)",
@@ -404,7 +400,7 @@ window.AJ_JOB_DATA = [
     "verificationStatus": "PARTIAL — official RCF page confirms Advertisement No. 16022026, registration began 08/08/2026 and a corrigendum extended the deadline to 20/09/2026 05:00 PM. It also revises the education qualification reckoning date to 01/08/2026 and PwBD age relaxation to 10 years for identified posts. Total 94/category roster/fee/pay and detailed selection still require transcription.",
     "updates": "Applications are closed. The official RCF recruitment page contains multiple corrigenda; the later extension to 20/09/2026 05:00 PM should take precedence over the earlier 10/09/2026 extension."
   },
-{
+  {
     "id": "ncrtc-supervisor-jr-maintainer",
     "category": "Central Job",
     "title": "NCRTC Recruitment 2026 — O&M Staff (32/2026) & Supervisors/Non-Supervisors (33/2026)",
@@ -1359,7 +1355,7 @@ window.AJ_JOB_DATA = [
     "updates": "Official GADVASU notice dated 11/09/2026; online application and fee deadline was revised to 08/10/2026 04:00 PM and has passed. Applicants who already applied must also follow the required offline-document submission: prescribed offline form for non-in-service candidates by 16/10/2026 04:00 PM; hard copies forwarded through proper channel for in-service candidates by 21/10/2026 04:00 PM. No new online applications should be implied by these later offline deadlines.",
     "organization": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU), Ludhiana, Punjab",
     "notificationDate": "11/09/2026 (official GADVASU notice page)"
-},
+  },
   {
     "id": "upessc-12405-assistant-teacher",
     "category": "State Job",
@@ -1384,7 +1380,6 @@ window.AJ_JOB_DATA = [
     "id": "delhi-dtl-assistant-manager-trainee",
     "category": "State Job",
     "title": "Delhi DTL Assist. Manager Trainee Online Form",
-    "post": "CSIR-NEERI Technical Assistant & Technical Officer Recruitment 2026 — Advt. CSIR-NEERI/1/2026",
     "post": "Delhi DTL Assist. Manager Trainee Online Form",
     "shortInfo": "**Delhi DTL Assist. Manager Trainee Online Form**. Vacancy: Post-wise vacancy — see official notification Eligibility: Post-wise educational qualification as prescribed in the official notification. Last date: 30/09/2026 11:59 PM Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "30/09/2026 11:59 PM",
@@ -1401,7 +1396,7 @@ window.AJ_JOB_DATA = [
     "notice": "",
     "dataAuditDate": "07/10/2026"
   },
-{
+  {
     "id": "csir-neeri-technical-officer-ta",
     "category": "Central Job",
     "title": "CSIR-NEERI Technical Assistant & Technical Officer Recruitment 2026 — Advt. CSIR-NEERI/1/2026",
@@ -1603,8 +1598,6 @@ window.AJ_JOB_DATA = [
     "id": "mecl-nonexecutive-03-2026",
     "category": "Central Job",
     "title": "MECL Advertisement 03/Rectt./2026 — Non-Executive Posts",
-    "post": "IGNOU Non-Teaching Recruitment 2026 — Advertisement No. 69/2026/Admn.",
-    "post": "NCRTC Recruitment 2026 — O&M Staff (32/2026) & Supervisors/Non-Supervisors (33/2026)",
     "post": "MECL Advertisement 03/Rectt./2026 — Non-Executive Posts",
     "shortInfo": "**MECL Advertisement 03/Rectt./2026 — Non-Executive Posts**. Vacancy: Various Non-Executive Posts Eligibility: Post-wise qualification as prescribed in Advertisement 03/Rectt./2026 Last date: 11/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "11/10/2026",
@@ -1628,7 +1621,7 @@ window.AJ_JOB_DATA = [
     ],
     "dataAuditDate": "07/10/2026"
   },
-{
+  {
     "id": "ncrtc-supervisor-jr-maintainer-2026",
     "category": "Central Job",
     "title": "NCRTC Recruitment 2026 — O&M Staff (32/2026) & Supervisors/Non-Supervisors (33/2026)",
@@ -1657,7 +1650,7 @@ window.AJ_JOB_DATA = [
     "verificationStatus": "VERIFIED FROM BOTH OFFICIAL NCRTC VACANCY PDFs (Notices 32/2026 and 33/2026) and official jobs page. Vacancy counts, category totals, eligibility, age, fee, pay scale, selection stages and application deadline transcribed from the notices.",
     "updates": "Official NCRTC listing and both detailed PDFs confirm applications opened 10/09/2026 and close 09/10/2026 at 23:55 hrs. Job ID 32/2026 is direct recruitment; Job ID 33/2026 is contract on regular pay scale. Do not rely on third-party intermediaries; apply through NCRTC's official site."
   },
-{
+  {
     "id": "ignou-nonteaching-2026",
     "category": "Central Job",
     "title": "IGNOU Non-Teaching Recruitment 2026 — Advertisement No. 69/2026/Admn.",
@@ -3528,9 +3521,6 @@ window.AJ_JOB_DATA = [
     "id": "rajasthan-contractual-safai-karamchari-2026",
     "category": "Rajasthan Jobs",
     "title": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
-    "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
-    "shortInfo": "**Rajasthan Contractual Safai Karamchari Recruitment 2026**. Vacancy: As per official portal Eligibility: As prescribed in notification Last date: 13/10/2026. Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
-    "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
     "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
     "shortInfo": "**Rajasthan Contractual Safai Karamchari Recruitment 2026**. Vacancy: As per official portal Eligibility: As prescribed in notification Last date: 13/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "13/10/2026",
@@ -6790,7 +6780,6 @@ window.AJ_JOB_DATA = [
     "id": "apprenticeship-job-fair-begusarai-2026",
     "category": "Apprenticeship",
     "title": "Apprenticeship-Cum-Job Fair — Begusarai, Bihar — 07 October 2026",
-    "post": "TNPSC Group IV Services Recruitment 2026 — Notification No. 11/2026",
     "post": "Apprenticeship-Cum-Job Fair — Begusarai, Bihar — 07 October 2026",
     "shortInfo": "**Apprenticeship-Cum-Job Fair — Begusarai, Bihar — 07 October 2026**. Vacancy: 910 vacancies across 20 registered establishments Eligibility: As prescribed by participating establishments Last date: 07/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "07/10/2026",
@@ -6807,7 +6796,7 @@ window.AJ_JOB_DATA = [
     "documents": "Educational/ITI/diploma/degree certificates, ID, photograph and documents requested by participating establishments.",
     "dataAuditDate": "07/10/2026"
   },
-{
+  {
     "id": "tnpsc-group4-2026",
     "category": "State Job",
     "state": "Tamil Nadu",
@@ -6987,26 +6976,154 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "07/10/2026"
   },
   {
-    "id": "haryana-cs-joint-advisor-trai-2026",
-    "category": "State Job",
-    "state": "Haryana",
-    "title": "Joint Advisor — TRAI Camp Office Guwahati / Regional Office Kolkata (Deputation)",
-    "post": "Joint Advisor — TRAI Camp Office Guwahati / Regional Office Kolkata (Deputation)",
-    "shortInfo": "**Joint Advisor — TRAI Camp Office Guwahati / Regional Office Kolkata (Deputation)**. Vacancy: 2 notices / posts as separately notified Eligibility: Eligible serving government/PSU/appropriate officers as prescribed Last date: See official notice Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
-    "lastDate": "See official notice",
-    "mode": "Deputation",
-    "openDate": "07/10/2026",
-    "vacancy": "2 notices / posts as separately notified",
-    "qualification": "Eligible serving government/PSU/appropriate officers as prescribed",
-    "age": "As prescribed in deputation notice",
-    "fee": "No application fee stated",
-    "selection": "Deputation/selection as prescribed by the concerned authority",
-    "apply": "https://csharyana.gov.in/latestnew/",
-    "notice": "https://csharyana.gov.in/latestnew/",
-    "official": "https://csharyana.gov.in/",
-    "documents": "Service record, qualification/experience documents, NOC/cadre clearance and other deputation documents as prescribed.",
-    "updates": "Haryana Chief Secretary Office published Joint Advisor notices on 07/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "id": "trai-joint-advisor-kolkata-2026",
+    "category": "Central Job",
+    "state": "West Bengal",
+    "organization": "Telecom Regulatory Authority of India (TRAI)",
+    "department": "TRAI Regional Office, Kolkata",
+    "authority": "Telecom Regulatory Authority of India",
+    "title": "TRAI Joint Advisor Recruitment 2026 — Regional Office Kolkata (Deputation)",
+    "post": "Joint Advisor",
+    "shortInfo": "TRAI में Kolkata Regional Office के Joint Advisor पद पर deputation (foreign service terms) के आधार पर नियुक्ति। Official TRAI vacancy listing के अनुसार आवेदन की अंतिम तिथि 16/10/2026 है। यह serving eligible officers के लिए है; सामान्य direct recruitment नहीं।",
+    "openDate": "14/05/2026",
+    "lastDate": "16/10/2026",
+    "feeDate": "अलग fee-payment date प्रकाशित नहीं; deputation notice में आवेदन शुल्क निर्दिष्ट नहीं है।",
+    "correctionDate": "कोई correction window प्रकाशित नहीं मिली।",
+    "examDate": "लिखित परीक्षा की तारीख प्रकाशित नहीं; चयन deputation प्रक्रिया के अनुसार।",
+    "mode": "Online application + prescribed hard-copy forwarding",
+    "vacancy": "1 Joint Advisor post (singular post as notified)",
+    "categoryVacancy": "एक Joint Advisor पद; category-wise reservation breakup notice में नहीं दिया गया।",
+    "qualification": "संबंधित क्षेत्र में अनुभव के साथ निम्न में से एक: AICTE-recognised Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering में Bachelor’s degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor’s या Master’s degree; या ICAI / ICMAI membership.",
+    "eligibility": "Central/State Government, UT Administration, autonomous body, statutory organisation, PSU, recognised university या recognised research institution के अधिकारी: (i) parent cadre/department में analogous post पर regular basis पर; या (ii) Level-12 (₹78,800–₹2,09,200) में regular appointment के बाद 4 वर्ष सेवा; या (iii) Group A/equivalent में कम-से-कम 12 वर्ष regular service और Level-11/equivalent पर कम-से-कम 6 वर्ष regular service। नियुक्ति प्रारम्भ में 3 वर्ष की deputation पर।",
+    "age": "अंतिम आवेदन तिथि पर अधिकतम 56 वर्ष।",
+    "ageAsOn": "16/10/2026 (TRAI में applications जमा करने की अंतिम तिथि)",
+    "ageRelaxation": "अलग category-wise relaxation सूचीबद्ध नहीं; deputation के लिए अधिकतम आयु 56 वर्ष की शर्त लागू।",
+    "fee": "Official deputation circular में application fee निर्दिष्ट नहीं है।",
+    "paymentMode": "Payment mode: notice में application fee/payment प्रक्रिया निर्दिष्ट नहीं है; किसी अनधिकृत व्यक्ति को भुगतान न करें।",
+    "selection": "Eligibility और relevant experience के आधार पर deputation selection; notification में written exam date/selection test schedule प्रकाशित नहीं है।",
+    "salary": "Pay Level-13: ₹1,23,100–₹2,15,900 (7th CPC Pay Matrix) + applicable allowances as per Government rules.",
+    "apply": "https://vacancies.trai.gov.in/",
+    "notice": "https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf",
+    "official": "https://www.trai.gov.in/vacancies",
+    "documents": "Online application form का printout; पिछले 5 वर्षों के attested ACR/APAR; vigilance/disciplinary clearance; cadre clearance; relevant qualification, service और experience records; अन्य prescribed deputation papers.",
+    "updates": "TRAI official vacancy page पर Kolkata Joint Advisor post की closing date 16/10/2026 सूचीबद्ध है। Haryana Chief Secretary Office ने संबंधित notice 07/10/2026 को प्रकाशित किया।",
+    "dataAuditDate": "09/10/2026",
+    "postQualifications": [
+      {
+        "label": "Eligible officer status",
+        "value": "Central/State Government, UT Administration, autonomous/statutory body, PSU, recognised university या recognised research institution का eligible serving officer."
+      },
+      {
+        "label": "Educational qualification",
+        "value": "AICTE-recognised specified engineering degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor’s/Master’s degree; या ICAI/ICMAI membership."
+      },
+      {
+        "label": "Experience / service eligibility",
+        "value": "Analogous regular post; या Level-12 में 4 वर्ष regular service; या Group A में 12 वर्ष regular service, जिसमें Level-11 पर 6 वर्ष शामिल हों."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Joint Advisor — TRAI Regional Office Kolkata",
+        "vacancy": "1 post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "Official deputation circular में physical standard test (PST) या physical efficiency test (PET) का उल्लेख नहीं है।"
+      }
+    ],
+    "applySteps": [
+      "TRAI vacancies portal पर Joint Advisor, Regional Office Kolkata notice खोलें।",
+      "Eligibility, experience और deputation conditions को मूल notification तथा extension notices से मिलाएँ।",
+      "Online application भरकर application form डाउनलोड/प्रिंट करें।",
+      "पिछले 5 वर्षों के attested ACR/APAR तथा vigilance/disciplinary और cadre clearance तैयार करें।",
+      "Prescribed forwarding channel से hard copy और documents Senior Research Officer (HR), TRAI, New Delhi को official deadline से पहले भेजें।",
+      "Application acknowledgement और भेजे गए documents का record सुरक्षित रखें।"
+    ],
+    "links": {
+      "apply": "https://vacancies.trai.gov.in/",
+      "notification": "https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf",
+      "official": "https://www.trai.gov.in/vacancies"
+    },
+    "verificationStatus": "Verified against the official TRAI vacancy listing and the official circular hosted by Haryana Chief Secretary Office; latest listed closing date is 16/10/2026.",
+    "verificationSource": "TRAI vacancies: https://www.trai.gov.in/vacancies | Haryana Chief Secretary Office PDF: https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf"
+  },
+  {
+    "id": "trai-joint-advisor-guwahati-2026",
+    "category": "Central Job",
+    "state": "Assam",
+    "organization": "Telecom Regulatory Authority of India (TRAI)",
+    "department": "TRAI Camp Office, Guwahati (under TRAI Regional Office Kolkata)",
+    "authority": "Telecom Regulatory Authority of India",
+    "title": "TRAI Joint Advisor Recruitment 2026 — Camp Office Guwahati (Deputation)",
+    "post": "Joint Advisor",
+    "shortInfo": "TRAI के Guwahati Camp Office (under TRAI RO Kolkata) में Joint Advisor का 1 पद deputation पर है। Official vacancy circular dated 28/09/2026 के अनुसार आवेदन की अंतिम तिथि 06/11/2026 है।",
+    "openDate": "28/09/2026",
+    "lastDate": "06/11/2026",
+    "feeDate": "अलग fee-payment date प्रकाशित नहीं; deputation notice में application fee निर्दिष्ट नहीं है।",
+    "correctionDate": "कोई correction window प्रकाशित नहीं मिली।",
+    "examDate": "लिखित परीक्षा की तारीख प्रकाशित नहीं; चयन deputation प्रक्रिया के अनुसार।",
+    "mode": "Online application + prescribed hard-copy forwarding",
+    "vacancy": "1 Joint Advisor post (singular post as notified)",
+    "categoryVacancy": "एक Joint Advisor पद; category-wise reservation breakup notice में नहीं दिया गया।",
+    "qualification": "संबंधित क्षेत्र में अनुभव के साथ निम्न में से एक: AICTE-recognised Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering में Bachelor’s degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor’s या Master’s degree; या ICAI / ICMAI membership.",
+    "eligibility": "Central/State Government, UT Administration, autonomous body, statutory organisation, PSU, recognised university या recognised research institution के अधिकारी: (i) parent cadre/department में analogous post पर regular basis पर; या (ii) Level-12 (₹78,800–₹2,09,200) में regular appointment के बाद 4 वर्ष सेवा; या (iii) Group A/equivalent में कम-से-कम 12 वर्ष regular service और Level-11/equivalent पर कम-से-कम 6 वर्ष regular service। नियुक्ति प्रारम्भ में 3 वर्ष की deputation पर।",
+    "age": "अंतिम आवेदन तिथि पर अधिकतम 56 वर्ष।",
+    "ageAsOn": "06/11/2026 (TRAI में applications जमा करने की अंतिम तिथि)",
+    "ageRelaxation": "अलग category-wise relaxation सूचीबद्ध नहीं; deputation के लिए अधिकतम आयु 56 वर्ष की शर्त लागू।",
+    "fee": "Official deputation circular में application fee निर्दिष्ट नहीं है।",
+    "paymentMode": "Payment mode: notice में application fee/payment प्रक्रिया निर्दिष्ट नहीं है; किसी अनधिकृत व्यक्ति को भुगतान न करें।",
+    "selection": "Eligibility और relevant experience के आधार पर deputation selection; notification में written exam date/selection test schedule प्रकाशित नहीं है।",
+    "salary": "Pay Level-13: ₹1,23,100–₹2,15,900 (7th CPC Pay Matrix) + applicable allowances as per Government rules.",
+    "apply": "https://vacancies.trai.gov.in/",
+    "notice": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
+    "official": "https://www.trai.gov.in/vacancies",
+    "documents": "Online application form का printout; पिछले 5 वर्षों के attested ACR/APAR; vigilance/disciplinary clearance; cadre clearance; relevant qualification, service और experience records; अन्य prescribed deputation papers.",
+    "updates": "TRAI official circular dated 28/09/2026; official vacancy page lists closing date 06/11/2026.",
+    "dataAuditDate": "09/10/2026",
+    "postQualifications": [
+      {
+        "label": "Eligible officer status",
+        "value": "Central/State Government, UT Administration, autonomous/statutory body, PSU, recognised university या recognised research institution का eligible serving officer."
+      },
+      {
+        "label": "Educational qualification",
+        "value": "AICTE-recognised specified engineering degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor’s/Master’s degree; या ICAI/ICMAI membership."
+      },
+      {
+        "label": "Experience / service eligibility",
+        "value": "Analogous regular post; या Level-12 में 4 वर्ष regular service; या Group A में 12 वर्ष regular service, जिसमें Level-11 पर 6 वर्ष शामिल हों."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Joint Advisor — TRAI Camp Office Guwahati",
+        "vacancy": "1 post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "Official deputation circular में physical standard test (PST) या physical efficiency test (PET) का उल्लेख नहीं है।"
+      }
+    ],
+    "applySteps": [
+      "TRAI vacancies portal पर Joint Advisor, Camp Office Guwahati notice खोलें।",
+      "Eligibility, experience और deputation conditions को मूल notification से मिलाएँ।",
+      "Online application भरकर application form डाउनलोड/प्रिंट करें।",
+      "पिछले 5 वर्षों के attested ACR/APAR तथा vigilance/disciplinary और cadre clearance तैयार करें।",
+      "Prescribed forwarding channel से hard copy और documents Senior Research Officer (HR), TRAI, New Delhi को 06/11/2026 तक भेजें।",
+      "Application acknowledgement और भेजे गए documents का record सुरक्षित रखें।"
+    ],
+    "links": {
+      "apply": "https://vacancies.trai.gov.in/",
+      "notification": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
+      "official": "https://www.trai.gov.in/vacancies"
+    },
+    "verificationStatus": "Verified against the official TRAI vacancy listing and official circular dated 28/09/2026; listed closing date is 06/11/2026.",
+    "verificationSource": "TRAI vacancies: https://www.trai.gov.in/vacancies | Official circular: https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf"
   },
   {
     "id": "andaman-dhs-various-posts-2026-v2",
@@ -7277,7 +7394,6 @@ window.AJ_JOB_DATA = [
     "category": "State Job",
     "state": "West Bengal",
     "title": "WBPSC Principal — District Institute of Education & Training Recruitment 2026",
-    "post": "NICL Administrative Officer (Generalist & Specialist) Scale-I Recruitment 2026–27",
     "post": "WBPSC Principal — District Institute of Education & Training Recruitment 2026",
     "shortInfo": "**WBPSC Principal — District Institute of Education & Training Recruitment 2026**. Vacancy: Principal posts as notified under Advt. 05/2026 Eligibility: As prescribed in WBPSC advertisement Last date: See official extension notice Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "See official extension notice",
@@ -7295,7 +7411,7 @@ window.AJ_JOB_DATA = [
     "updates": "WBPSC official portal lists Advertisement No. 05/2026 and an announcement regarding extension of the online application date.",
     "dataAuditDate": "07/10/2026"
   },
-{
+  {
     "id": "nicl-ao-321-2026",
     "category": "Banking",
     "state": "Central",
@@ -8687,8 +8803,7 @@ window.AJ_JOB_DATA = [
       "official": "https://joinindiancoastguard.cdac.in/",
       "notification": "https://joinindiancoastguard.cdac.in/"
     }
-  }
-,
+  },
   {
     "id": "appsc-group-i-07-2026",
     "category": "State Job",
@@ -8749,7 +8864,7 @@ window.AJ_JOB_DATA = [
     "correctionDate": "APPSC web note indicates corrections may be enabled after the closing date; exact fee/period must be checked in the official web note.",
     "updates": "Applications run 06/10/2026–27/10/2026 11:59 PM according to the detailed-notice summary. Total 41 includes one carried-forward vacancy; CBT date not yet announced."
   },
-{
+  {
     "id": "appsc-horticulture-officer-19-2026",
     "category": "State Job",
     "state": "Andhra Pradesh",
@@ -8880,7 +8995,7 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "480 vacancies reported for the examination; branch/category-wise final breakup should be verified in the official notification. Application deadline passed on 06/10/2026 at 06:00 PM.",
     "updates": "Application deadline passed: 06/10/2026 at 06:00 PM. Preliminary examination is scheduled for 31/01/2027 according to UPSC's examination page."
   },
-{
+  {
     "id": "rrb-cen-05-2026-paramedical",
     "category": "Central Job",
     "title": "RRB CEN 05/2026 Paramedical Staff — Official Notice Not Confirmed",
@@ -8932,7 +9047,7 @@ window.AJ_JOB_DATA = [
     "examDate": "No common exam date stated. Project Technician trade test / interviews are to be notified separately by IOL.",
     "updates": "Verified against Advertisement IOLHqrs/100(6)/2026-Rectt and its separate post notices. Applications closed 03/10/2026; mark EXPIRED unless IOL publishes an official extension."
   },
-{
+  {
     "id": "mecl-non-executive-2026",
     "category": "Central Job",
     "title": "MECL Non-Executive Recruitment 2026 — Advertisement No. 03/Rectt./2026",
@@ -9031,7 +9146,7 @@ window.AJ_JOB_DATA = [
     "verificationStatus": "PARTIAL — official RCF page confirms Advertisement No. 16022026, registration began 08/08/2026 and a corrigendum extended the deadline to 20/09/2026 05:00 PM. It also revises the education qualification reckoning date to 01/08/2026 and PwBD age relaxation to 10 years for identified posts. Total 94/category roster/fee/pay and detailed selection still require transcription.",
     "updates": "Applications are closed. The official RCF recruitment page contains multiple corrigenda; the later extension to 20/09/2026 05:00 PM should take precedence over the earlier 10/09/2026 extension."
   },
-{
+  {
     "id": "ncrtc-supervisor-jr-maintainer",
     "category": "Central Job",
     "title": "NCRTC Recruitment 2026 — O&M Staff (32/2026) & Supervisors/Non-Supervisors (33/2026)",
@@ -9894,7 +10009,7 @@ window.AJ_JOB_DATA = [
     "updates": "Official GADVASU notice dated 11/09/2026; online application and fee deadline was revised to 08/10/2026 04:00 PM and has passed. Applicants who already applied must also follow the required offline-document submission: prescribed offline form for non-in-service candidates by 16/10/2026 04:00 PM; hard copies forwarded through proper channel for in-service candidates by 21/10/2026 04:00 PM. No new online applications should be implied by these later offline deadlines.",
     "organization": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU), Ludhiana, Punjab",
     "notificationDate": "11/09/2026 (official GADVASU notice page)"
-},
+  },
   {
     "id": "upessc-12405-assistant-teacher",
     "category": "State Job",
@@ -9931,7 +10046,7 @@ window.AJ_JOB_DATA = [
     "notice": "",
     "dataAuditDate": "07/10/2026"
   },
-{
+  {
     "id": "csir-neeri-technical-officer-ta",
     "category": "Central Job",
     "title": "CSIR-NEERI Technical Assistant & Technical Officer Recruitment 2026 — Advt. CSIR-NEERI/1/2026",
@@ -10138,7 +10253,7 @@ window.AJ_JOB_DATA = [
     ],
     "dataAuditDate": "07/10/2026"
   },
-{
+  {
     "id": "ncrtc-supervisor-jr-maintainer-2026",
     "category": "Central Job",
     "title": "NCRTC Recruitment 2026 — O&M Staff (32/2026) & Supervisors/Non-Supervisors (33/2026)",
@@ -10165,7 +10280,7 @@ window.AJ_JOB_DATA = [
     "verificationStatus": "VERIFIED FROM BOTH OFFICIAL NCRTC VACANCY PDFs (Notices 32/2026 and 33/2026) and official jobs page. Vacancy counts, category totals, eligibility, age, fee, pay scale, selection stages and application deadline transcribed from the notices.",
     "updates": "Official NCRTC listing and both detailed PDFs confirm applications opened 10/09/2026 and close 09/10/2026 at 23:55 hrs. Job ID 32/2026 is direct recruitment; Job ID 33/2026 is contract on regular pay scale. Do not rely on third-party intermediaries; apply through NCRTC's official site."
   },
-{
+  {
     "id": "ignou-nonteaching-2026",
     "category": "Central Job",
     "title": "IGNOU Non-Teaching Recruitment 2026 — Advertisement No. 69/2026/Admn.",
@@ -14870,7 +14985,7 @@ window.AJ_JOB_DATA = [
     "documents": "Educational/ITI/diploma/degree certificates, ID, photograph and documents requested by participating establishments.",
     "dataAuditDate": "07/10/2026"
   },
-{
+  {
     "id": "tnpsc-group4-2026",
     "category": "State Job",
     "state": "Tamil Nadu",
@@ -15313,7 +15428,7 @@ window.AJ_JOB_DATA = [
     "updates": "WBPSC official portal lists Advertisement No. 05/2026 and an announcement regarding extension of the online application date.",
     "dataAuditDate": "07/10/2026"
   },
-{
+  {
     "id": "nicl-ao-321-2026",
     "category": "Banking",
     "state": "Central",
