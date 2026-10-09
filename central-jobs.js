@@ -30,7 +30,27 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "Official PDF (page 1) current vacancies as on 31/08/2026, with women counts in parentheses: UR/General 201 (71); Punjab EWS 96 (45); SC Balmikis/Mazhbi Sikhs 99 (70); SC Others 83 (60); Punjab BC/OBC 69 (64); Freedom Fighter 11 (9); Sportsman General 8 (18 shown in women column in the notice—confirm table layout before interpreting); Sportsman SC 22; PwBD: LV 14, HH 10, locomotor/identified SD-SI 8, SLD/MI/MD 10; Punjab Ex-Servicemen: General 55, SC Balmiki/Mazhbi Sikh 36, SC Others 36, BC/OBC 35. Anticipated-vacancy and women columns are also shown separately through 28/02/2027. PwBD, sports and Ex-servicemen rows are reservation subcategories; do not add all rows as independent posts or treat them as the 1,270 vertical-category total.",
     "categoryVacancySource": "Official SSSC detailed employment notice 37C/SSSC/PB/2026, page 1 (vacancy table) and pages 2–4 (age, qualification, pay and fees): https://sssc.gov.in/storage/notices/Advt%20dated%2003.10.2026%20Pb%20Clerk.pdf",
     "verificationStatus": "VERIFIED AGAINST OFFICIAL SSSC 14-PAGE PDF: advertisement number/date, 1,270 vacancies, opening/closing date, eligibility, age limits, fee table, Level-5 pay and CBT/CPT selection rules checked. The official table distinguishes current, anticipated and horizontal-reservation categories; its rows must not be summed as if all were independent vertical vacancies.",
-    "updates": "Official SSSC notice board lists the advertisement dated 03/10/2026. Online application: 07/10/2026 04:00 PM to 04/11/2026 04:00 PM. Current vacancy figures as on 31/08/2026; anticipated vacancies up to 28/02/2027 are separately tabulated. Exam date to be announced."
+    "updates": "Official SSSC notice board lists the advertisement dated 03/10/2026. Online application: 07/10/2026 04:00 PM to 04/11/2026 04:00 PM. Current vacancy figures as on 31/08/2026; anticipated vacancies up to 28/02/2027 are separately tabulated. Exam date to be announced.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Bachelor of Arts (BA), Bachelor of Science (BSc) or equivalent from a recognized university; Matriculation with Punjabi as one subject; proficiency in computer operation. Eligibility qualification must be held by the application closing date."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Punjab District Courts Clerk Recruitment 2026 — Advt. No. 37C/SSSC/PB/2026",
+        "vacancy": "1,270 Clerk posts in Punjab District Courts. Official vacancy table separates current vacancies as on 31/08/2026 from anticipated vacancies up to 28/02/2027; the notice warns totals may change before merit-list preparation/posting."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://www.sssc.gov.in/public/notice-board"
   },
   {
     "id": "appsc-group-i-07-2026",
@@ -62,7 +82,27 @@ window.AJ_JOB_DATA = [
     "ageAsOn": "01/07/2026 as reported in the detailed-notice summaries; verify post-wise provisions in the original PDF.",
     "ageRelaxation": "Category and post-specific relaxations apply as stated in the official detailed notification; full table not yet transcribed.",
     "feeDate": "27/10/2026 11:59 PM, subject to the official detailed notification/payment instructions.",
-    "correctionDate": "A post-deadline correction period is reported in summaries, but exact terms should be checked in the APPSC web note."
+    "correctionDate": "A post-deadline correction period is reported in summaries, but exact terms should be checked in the APPSC web note.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Generally a bachelor's degree from a recognized university; DSP (Communications) has a specified engineering qualification. Confirm post-code requirements in the official detailed notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Group-I Services Recruitment 2026 — Notification No. 07/2026",
+        "vacancy": "APPSC official site confirms Notification 07/2026 dated 06/10/2026 for Group-I Services. Public summaries conflict on the total (163 vs 166); keep the total provisional until the official detailed notification's final vacancy table is transcribed."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications"
   },
   {
     "id": "appsc-aee-08-2026",
@@ -94,7 +134,27 @@ window.AJ_JOB_DATA = [
     "ageRelaxation": "Category-specific relaxations as prescribed in the detailed notification.",
     "feeDate": "27/10/2026 11:59 PM; follow the official payment screen and notification.",
     "correctionDate": "APPSC web note indicates corrections may be enabled after the closing date; exact fee/period must be checked in the official web note.",
-    "updates": "Applications run 06/10/2026–27/10/2026 11:59 PM according to the detailed-notice summary. Total 41 includes one carried-forward vacancy; CBT date not yet announced."
+    "updates": "Applications run 06/10/2026–27/10/2026 11:59 PM according to the detailed-notice summary. Total 41 includes one carried-forward vacancy; CBT date not yet announced.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "B.E./B.Tech in Civil, Mechanical, Chemical or Environmental Engineering, or the alternative qualification route specified in the detailed notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Assistant Environmental Engineer Recruitment 2026 — Notification No. 08/2026",
+        "vacancy": "41 Assistant Environmental Engineer vacancies (40 fresh + 1 carried-forward, as reported in the detailed-notice summaries)."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications"
   },
   {
     "id": "appsc-horticulture-officer-19-2026",
@@ -126,7 +186,27 @@ window.AJ_JOB_DATA = [
     "ageRelaxation": "As prescribed in the detailed APPSC notification and Andhra Pradesh government rules. Do not assume a category relaxation without checking the relevant rule and certificate requirements.",
     "feeDate": "27/10/2026 11:59 PM; follow the official application portal for payment cutoff.",
     "correctionDate": "Current detailed-notice summaries report a correction window for seven days after 27/10/2026, with ₹100 per correction; confirm this against the official notification/web note before relying on it.",
-    "updates": "Detailed notification listed by APPSC on 06/10/2026. Apply 06/10/2026 to 27/10/2026 11:59 PM. Exam date is pending. Current summary indicates 37 zonal posts, 4-year B.Sc. Horticulture, pay ₹54,060–₹1,40,540, CBRT plus qualifying CPT. Original official PDF should be checked for final category roster, fee exemptions and local-candidate conditions."
+    "updates": "Detailed notification listed by APPSC on 06/10/2026. Apply 06/10/2026 to 27/10/2026 11:59 PM. Exam date is pending. Current summary indicates 37 zonal posts, 4-year B.Sc. Horticulture, pay ₹54,060–₹1,40,540, CBRT plus qualifying CPT. Original official PDF should be checked for final category roster, fee exemptions and local-candidate conditions.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Four-year B.Sc. Degree or B.Sc. (Hons.) Degree in Horticulture from a recognized university in Andhra Pradesh or a university accredited by ICAR. Required qualification must be held by the detailed-notification date, 06/10/2026."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Horticulture Officer Recruitment 2026 — Notification No. 19/2026",
+        "vacancy": "37 Horticulture Officer posts, zonal recruitment across six zones. Zone-wise: Zone I 7 (1 open + 6 local); Zone II 6 (1 open + 5 local); Zone III 7 (1 open + 6 local); Zone IV 7 (1 open + 6 local); Zone V 6 (1 open + 5 local); Zone VI 4 (1 open + 3 local). Total 6 open and 31 local posts. Published detailed-notice summary category totals: OC 21, SC-I 2, SC-II 1, SC-III 2, ST 2, BC-A 3, BC-B 2, BC-C 1, BC-D 0, BC-E 0, EWS 3. Horizontal reservation summary: 6 women posts (OC), 2 meritorious sportsperson posts. Verify reservation and zone/local eligibility against official PDF."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications"
   },
   {
     "id": "wbpsc-clerkship-12-2024-2026",
@@ -158,7 +238,27 @@ window.AJ_JOB_DATA = [
     "correctionDate": "Not confirmed.",
     "examDate": "Not confirmed by the indicative advertisement.",
     "verificationStatus": "NEEDS OFFICIAL CONFIRMATION — located WBPSC source is only an indicative Advertisement No. 12/2024 dated 23/12/2024 and explicitly says detailed dates/age/fees will be published later. The listed 26/10/2026 deadline must not be presented as verified without the detailed official notice or corrigendum.",
-    "updates": "Official WBPSC indicative advertisement is dated 23/12/2024 and does not itself confirm an application opening/closing date or vacancy total. The current listing's 26/10/2026 deadline remains unverified."
+    "updates": "Official WBPSC indicative advertisement is dated 23/12/2024 and does not itself confirm an application opening/closing date or vacancy total. The current listing's 26/10/2026 deadline remains unverified.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "The 23/12/2024 indicative advertisement says detailed qualification, age, fee and schedule will be published later by WBPSC."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "WBPSC Clerkship Examination 2024 — Advt. No. 12/2024 (2026 deadline requires official confirmation)",
+        "vacancy": "Not stated in the indicative advertisement. Current 2026 vacancy total not confirmed from an official detailed notice."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://psc.wb.gov.in/notification_announcement.jsp"
   },
   {
     "id": "icmr-bmhrc-group-b-c-2026",
@@ -187,7 +287,28 @@ window.AJ_JOB_DATA = [
     "feeDate": "16/10/2026 05:00 PM; fee reconciliation/settlement by 17/10/2026 05:00 PM.",
     "correctionDate": "No edit/correction option after final submission, as stated in the notification.",
     "examDate": "CBT date not announced in the notification; admit card/official website will provide test information.",
-    "updates": "Verified against Advertisement No. 01/BMHRC/Bhopal/2026 dated 17/09/2026. Application window remains open until 16/10/2026 05:00 PM, subject to official updates."
+    "updates": "Verified against Advertisement No. 01/BMHRC/Bhopal/2026 dated 17/09/2026. Application window remains open until 16/10/2026 05:00 PM, subject to official updates.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific qualifications across engineering, nursing, medical records, accounts, administration, pharmacy, technician and attendant/operator posts; see the detailed notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "ICMR-BMHRC Group B & C Direct Recruitment 2026 — Advt. 01/BMHRC/Bhopal/2026",
+        "vacancy": "66 posts: Group B 31; Group C 35."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://bmhrc.ac.in/content/Hindi/2532_1_Advertisement.aspx"
   },
   {
     "id": "rrb-04-2026-je-correction",
@@ -207,7 +328,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.rrbsecunderabad.gov.in/employment-notice/",
     "official": "https://www.rrbsecunderabad.gov.in/",
     "documents": "Keep the original application details and CEN-04/2026 records ready; 10th certificate for DOB, prescribed Diploma/Degree and marksheets, valid caste/EWS/PwBD/ExSM certificate where applicable, recent photograph/signature and valid photo ID. For DV, originals plus self-attested copies and NOC where applicable are required as prescribed in the CEN.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Diploma/Degree in relevant engineering/technical discipline as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB 04/2026 Junior Engineer Correction Form",
+        "vacancy": "4,029 revised posts (JE/DMS/CMA)"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbsecunderabad.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsc-engineering-services-2026",
@@ -235,7 +385,28 @@ window.AJ_JOB_DATA = [
     "examDate": "Preliminary examination: 31/01/2027. Main examination date to be checked in the official UPSC notice/calendar.",
     "salary": "Pay and service allocation depend on the engineering service/post allotted; see the official notification and service-specific pay rules.",
     "categoryVacancy": "480 vacancies reported for the examination; branch/category-wise final breakup should be verified in the official notification. Application deadline passed on 06/10/2026 at 06:00 PM.",
-    "updates": "Application deadline passed: 06/10/2026 at 06:00 PM. Preliminary examination is scheduled for 31/01/2027 according to UPSC's examination page."
+    "updates": "Application deadline passed: 06/10/2026 at 06:00 PM. Preliminary examination is scheduled for 31/01/2027 according to UPSC's examination page.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Engineering degree/equivalent in prescribed Civil, Mechanical, Electrical or Electronics & Telecommunication disciplines"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC Engineering Services (Preliminary) Examination 2027 Online Form",
+        "vacancy": "480 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/"
   },
   {
     "id": "rrb-cen-05-2026-paramedical",
@@ -263,7 +434,29 @@ window.AJ_JOB_DATA = [
     "correctionDate": "UNCONFIRMED — prior modification window not corroborated by the matching official notice.",
     "examDate": "Not confirmed. No matching official CEN 05/2026 Paramedical notice was found in the official RRB recruitment page checked on 09/10/2026.",
     "verificationStatus": "UNCONFIRMED — SAFETY/CORRECTNESS FLAG: The official RRB recruitment-notices page checked on 09/10/2026 did not show a matching CEN 05/2026 Paramedical recruitment notice; it lists different CEN numbering/year combinations. The previously listed 590 vacancies, dates, fee and refund schedule are not verified and must not be presented as confirmed. Keep this record only as an audit placeholder until an official matching notice is found; do not advise applicants to pay or apply based on it.",
-    "updates": "Audit 09/10/2026: matching official CEN 05/2026 Paramedical notice not located. Previously recorded application dates, 590 vacancies, fees and correction window are unverified. Check the official RRB employment-notices page for the exact CEN number before publishing any confirmed vacancy details."
+    "updates": "Audit 09/10/2026: matching official CEN 05/2026 Paramedical notice not located. Previously recorded application dates, 590 vacancies, fees and correction window are unverified. Check the official RRB employment-notices page for the exact CEN number before publishing any confirmed vacancy details.",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "UNCONFIRMED for CEN 05/2026. Paramedical qualifications differ by post; use only the specific qualification stated in the matching official CEN notification if it becomes available."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB CEN 05/2026 Paramedical Staff — Official Notice Not Confirmed",
+        "vacancy": "Previously listed 590 posts could not be corroborated. The matching official CEN 05/2026 Paramedical notification and vacancy annexure were not found on the official RRB recruitment page checked on 09/10/2026. Treat vacancy count as unverified; do not submit an application or pay a fee based only on this listing."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://www.rrbcdg.gov.in/employment-notices.php"
   },
   {
     "id": "india-optel-project-technician-2026",
@@ -291,7 +484,28 @@ window.AJ_JOB_DATA = [
     "feeDate": "Not applicable (no application fee).",
     "correctionDate": "Offline application; no separate correction window stated. Contact IOL through official Career page for any corrigendum.",
     "examDate": "No common exam date stated. Project Technician trade test / interviews are to be notified separately by IOL.",
-    "updates": "Verified against Advertisement IOLHqrs/100(6)/2026-Rectt and its separate post notices. Applications closed 03/10/2026; mark EXPIRED unless IOL publishes an official extension."
+    "updates": "Verified against Advertisement IOLHqrs/100(6)/2026-Rectt and its separate post notices. Applications closed 03/10/2026; mark EXPIRED unless IOL publishes an official extension.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific. Project Technician: Matriculation + relevant NTC/NAC; Junior Project Engineer: discipline-specific B.Sc./Diploma with experience; Welfare Officer: degree plus relevant PG qualification and experience; Consultant: eligible retired Army officers. Check the respective notice."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "India Optel Limited Recruitment 2026 — Advertisement IOLHqrs/100(6)/2026-Rectt (160 posts)",
+        "vacancy": "160 fixed-term contract positions across Project Technician (98), Junior Project Engineer (57), Welfare Officer (3), and Consultant (Coordination) (2)."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://indiaoptel.in/"
   },
   {
     "id": "mecl-non-executive-2026",
@@ -320,7 +534,27 @@ window.AJ_JOB_DATA = [
     "correctionDate": "No correction window confirmed in the advertisement.",
     "examDate": "Not specified in the original advertisement as checked 09/10/2026; monitor MECL official notices.",
     "updates": "Official PDF confirms 122 vacancies across 16 posts, application window 12/09/2026–11/10/2026, eligibility cut-off 01/09/2026. Fee ₹500 for General/OBC/EWS; SC/ST/PwD/Ex-Servicemen/departmental candidates exempt. Written test carries 100% weightage; document verification and qualifying skill/trade test follow where applicable. Written-test venue Nagpur; date not announced in the ad.",
-    "verificationStatus": "VERIFIED AGAINST OFFICIAL 18-PAGE MECL Advertisement No. 03/Rectt./2026 PDF. Confirmed 122 total vacancies across 16 post codes; post totals, major category/fresh/backlog splits, qualifications, experience, age cut-off, fee/exemptions, pay scales, selection sequence and application dates transcribed. Some horizontal reservation notes are complex; applicants should use the original table and its footnotes for their specific post/category."
+    "verificationStatus": "VERIFIED AGAINST OFFICIAL 18-PAGE MECL Advertisement No. 03/Rectt./2026 PDF. Confirmed 122 total vacancies across 16 post codes; post totals, major category/fresh/backlog splits, qualifications, experience, age cut-off, fee/exemptions, pay scales, selection sequence and application dates transcribed. Some horizontal reservation notes are complex; applicants should use the original table and its footnotes for their specific post/category.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific. Examples: Accountant—graduate plus CA/ICWA Intermediate and 3 years relevant accounts experience; Survey Technician—ITI/Diploma in Survey; Sampling Technician—B.Sc. plus relevant sampling experience; Laboratory Technician—B.Sc. Chemistry/Physics/Geology; Assistant (Materials)—graduate with Mathematics or B.Com.; Assistant (Accounts)—B.Com.; Stenographer—graduate plus English shorthand 80 wpm; Electrician—ITI/Diploma Electrical plus valid Wireman certificate and 1 year experience; Junior Driver—10th pass, valid LMV/HMV licences and 1 year combined driving experience. Other posts require relevant trade qualification/experience as specified in the official PDF."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MECL Non-Executive Recruitment 2026 — Advertisement No. 03/Rectt./2026",
+        "vacancy": "122 total vacancies across 16 post codes: Accountant 6; Technician (Survey) 12; Technician (Sampling) 7; Technician (Laboratory) 2; Assistant (Materials) 16; Assistant (Accounts) 10; Stenographer (English) 4; Assistant (Hindi) 1; Electrician 7; Machinist 2; Technician (Drilling) 12; Mechanic 1; Mechanic-cum-Operator (Drilling) 30; Junior Driver 6; Assistant (IT) 3; Assistant (HR) 3. Includes fresh and backlog vacancies. Reservation and Ex-Servicemen/PwBD horizontal allocations are post-specific; use the official table for the detailed roster."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://mecl.co.in/ContentPageMecl.aspx?ControlID=61&Lng=EN&page=advertisement-notices-and-results"
   },
   {
     "id": "upsc-advt-11-2026",
@@ -340,7 +574,36 @@ window.AJ_JOB_DATA = [
     "official": "https://www.upsc.gov.in/",
     "documents": "DOB/age proof, prescribed educational qualification and marksheets, category/EWS/PwBD/age-relaxation certificates where applicable, experience certificate where required, photograph/signature and other certificates specifically prescribed for the post; originals are required at later verification/interview stages as applicable.",
     "vacancy": "Post-wise vacancy — see official notification",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed in Advertisement No. 11/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC Advt. 11/2026 Various Posts Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsc-epfo-80-apfc",
@@ -369,7 +632,27 @@ window.AJ_JOB_DATA = [
     "correctionDate": "Not verified.",
     "examDate": "Not verified.",
     "verificationStatus": "NEEDS OFFICIAL RECONCILIATION — UPSC's current official site lists a notice for 74 APFC posts, while this database entry says 80 and gives a 14/09/2026 deadline. Do not present the count/deadline as verified until the exact advertisement and corrigendum are identified.",
-    "updates": "Record flagged to prevent a potentially incorrect vacancy count and deadline being shown as confirmed. Use the official UPSC recruitment page to identify the matching notice."
+    "updates": "Record flagged to prevent a potentially incorrect vacancy count and deadline being shown as confirmed. Use the official UPSC recruitment page to identify the matching notice.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Must be taken from the exact official APFC advertisement; not verified for the current record."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC EPFO APFC Recruitment — Vacancy Count and Schedule Need Official Reconciliation",
+        "vacancy": "The existing record says 80 APFC, but the UPSC homepage currently lists a notice for 74 APFC posts. These may refer to different notices; 80 is not verified for this record."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://www.upsc.gov.in/recruitment/recruitment-advertisement"
   },
   {
     "id": "rcfl-94-management-trainee-2026",
@@ -398,7 +681,27 @@ window.AJ_JOB_DATA = [
     "correctionDate": "No correction window confirmed in the source reviewed.",
     "examDate": "Not confirmed in the source reviewed.",
     "verificationStatus": "PARTIAL — official RCF page confirms Advertisement No. 16022026, registration began 08/08/2026 and a corrigendum extended the deadline to 20/09/2026 05:00 PM. It also revises the education qualification reckoning date to 01/08/2026 and PwBD age relaxation to 10 years for identified posts. Total 94/category roster/fee/pay and detailed selection still require transcription.",
-    "updates": "Applications are closed. The official RCF recruitment page contains multiple corrigenda; the later extension to 20/09/2026 05:00 PM should take precedence over the earlier 10/09/2026 extension."
+    "updates": "Applications are closed. The official RCF recruitment page contains multiple corrigenda; the later extension to 20/09/2026 05:00 PM should take precedence over the earlier 10/09/2026 extension.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Discipline-specific engineering/science/commerce/management or language qualifications as set out in the original Advertisement No. 16022026."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RCF Management Trainee Recruitment 2026 — Advt. 16022026 (Applications Closed)",
+        "vacancy": "Management Trainee roles advertised across Chemical, Boiler, Mechanical, Electrical, Instrumentation, Materials, Civil, Fire, CC Lab, Industrial Engineering, Information Technology, Rajbhasha, Finance and Marketing. The record title says 94 vacancies, but the total has not yet been reconciled against the complete original vacancy table."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://rcfltd.com/hrrecruitment/recruitment-1"
   },
   {
     "id": "ncrtc-supervisor-jr-maintainer",
@@ -427,7 +730,27 @@ window.AJ_JOB_DATA = [
     "correctionDate": "No correction window confirmed in the official notices.",
     "examDate": "Tentatively November/December 2026 (CBT).",
     "verificationStatus": "VERIFIED FROM BOTH OFFICIAL NCRTC VACANCY PDFs (Notices 32/2026 and 33/2026) and official jobs page. Vacancy counts, category totals, eligibility, age, fee, pay scale, selection stages and application deadline transcribed from the notices.",
-    "updates": "Official NCRTC listing and both detailed PDFs confirm applications opened 10/09/2026 and close 09/10/2026 at 23:55 hrs. Job ID 32/2026 is direct recruitment; Job ID 33/2026 is contract on regular pay scale. Do not rely on third-party intermediaries; apply through NCRTC's official site."
+    "updates": "Official NCRTC listing and both detailed PDFs confirm applications opened 10/09/2026 and close 09/10/2026 at 23:55 hrs. Job ID 32/2026 is direct recruitment; Job ID 33/2026 is contract on regular pay scale. Do not rely on third-party intermediaries; apply through NCRTC's official site.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Notice 32/2026: Supervisor-I Operations — full-time engineering degree/diploma; Electronics/Electrical/Mechanical/Civil supervisors — relevant 3-year full-time diploma (relevant full-time B.E./B.Tech/B.Sc. Engg. also accepted as specified); Junior Maintainer posts require relevant full-time ITI NCVT/SCVT trade certificate (Electrician, Fitter, RAC or Electronics Mechanic). Notice 33/2026: IT supervisors require relevant full-time diploma/BCA/B.Sc IT/B.E./B.Tech or MCA; Full Stack/ITMS/AFC-NCMC posts have the same listed qualification; Corporate Hospitality requires graduate degree in hospitality/hotel administration/management; Corporate Communications requires graduation plus PG degree/diploma in Mass Communication/PR; Electrical/Civil supervisors require relevant full-time diploma (or listed equivalent degree); Junior Maintainer Electrical/Fitter require relevant full-time ITI. All qualifications must meet the post-specific notice conditions."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NCRTC Recruitment 2026 — O&M Staff (32/2026) & Supervisors/Non-Supervisors (33/2026)",
+        "vacancy": "90 posts across two separate notices: Job ID 32/2026 (direct recruitment) — 67 posts: Supervisor-I Operations 2; Electronics 18; Electrical 14; Mechanical 3; Civil 6; Junior Maintainer Electrical 8; Fitter 9; RAC 5; Electronics 2. Job ID 33/2026 (contract, regular pay scale) — 23 posts: Supervisor-I IT 5; IT Full Stack Developer 1; IT Full Stack Developer (ITMS) 1; IT AFC & NCMC (ITMS) 1; Corporate Hospitality 1; Corporate Communications 1; Electrical 2; Civil 7; Junior Maintainer Electrical 2; Fitter 2. Category totals across both notices: UR 65, EWS 2, OBC-NCL 15, SC 6, ST 2. One PwBD reservation is identified in each notice; check the relevant PDF for post/disability mapping."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://www.ncrtc.co.in/jobs.php"
   },
   {
     "id": "ssc-cpo-si-2026",
@@ -451,7 +774,32 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "Tentative post totals: Delhi Police SI Male 205, Female 112; CAPFs SI GD 1,320; CISF SI Fire 234. The UR/SC/ST/OBC/EWS and force-wise roster is in SSC's official vacancy notice and must be checked for revisions.",
     "examDate": "SSC tentative schedule: Paper-I 20/11/2026–28/11/2026; confirm the official SSC schedule for revisions.",
     "salary": "Pay Level 6 ₹35,400–1,12,400 for SI posts; post/force-specific conditions and allowances as prescribed.",
-    "verificationStatus": "PARTIAL — current vacancy totals and exam window cross-checked against published updates; original SSC notice and latest vacancy table still need row-by-row verification."
+    "verificationStatus": "PARTIAL — current vacancy totals and exam window cross-checked against published updates; original SSC notice and latest vacancy table still need row-by-row verification.",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Bachelor's degree from a recognized university/equivalent; post-specific driving licence requirement for Delhi Police SI (Male) where prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CPO Sub-Inspector Vacancy Online Form",
+        "vacancy": "1,871 tentative posts: Delhi Police SI Executive Male 205, Delhi Police SI Executive Female 112, CAPFs SI GD 1,320, and CISF SI Fire 234; confirm final vacancy corrigenda on SSC."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ibps-rrb-office-assistant-officer-2026",
@@ -477,7 +825,30 @@ window.AJ_JOB_DATA = [
     "examDate": "Preliminary/Main/Single examination dates are post-wise as per CRP-RRBs-XV official notification and IBPS exam calendar; verify current schedule before publishing a specific date.",
     "categoryVacancy": "Updated vacancy list as of 25/09/2026 is the latest located IBPS source; bank-wise, state-wise, post-wise and category-wise numbers still need transcription from that attachment.",
     "verificationStatus": "PARTIAL — official IBPS page confirms the 25/09/2026 updated vacancy attachment and the registration portal confirms application/edit/print dates. Latest bank/state/category vacancy table still needs exact transcription; do not use older 15/09 numbers where superseded.",
-    "updates": "Office Assistant portal confirms registration 01/09/2026–27/09/2026, fee payment through 27/09/2026, edit window 07/10/2026–08/10/2026 and application print until 12/10/2026. Officer Scale I/II/III portal separately confirms printing until 12/10/2026; editing terms differ by cadre. IBPS posted updated vacancy lists through 25/09/2026."
+    "updates": "Office Assistant portal confirms registration 01/09/2026–27/09/2026, fee payment through 27/09/2026, edit window 07/10/2026–08/10/2026 and application print until 12/10/2026. Officer Scale I/II/III portal separately confirms printing until 12/10/2026; editing terms differ by cadre. IBPS posted updated vacancy lists through 25/09/2026.",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise graduation/degree or prescribed qualification for Office Assistant and Officer Scale I/II/III"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS CRP-RRBs-XV — Office Assistant & Officers (Updated Vacancy Corrigenda)",
+        "vacancy": "IBPS published updated vacancy lists dated 09/09, 15/09 and 25/09/2026 for CRP-RRBs-XV. Use the latest 25/09/2026 vacancy attachment for bank/state/post/category counts; exact totals have not yet been transcribed into this record."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://www.ibps.in/index.php/rural-bank-xv/"
   },
   {
     "id": "bank-of-india-specialist-officer-2026",
@@ -497,7 +868,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.bankofindia.co.in/career",
     "official": "https://www.bankofindia.co.in/",
     "vacancy": "Post-wise vacancy — see official notification",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise relevant qualification and experience as prescribed for each Specialist Officer stream"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Bank of India Specialist Officer Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.bankofindia.co.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ssc-chte-2025-preference",
@@ -517,7 +917,36 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CHTE Vacancy 2025 Post Preference Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "uiicl-225-administrative-officer",
@@ -537,7 +966,36 @@ window.AJ_JOB_DATA = [
     "apply": "https://uiic.co.in/recruitment",
     "notice": "https://uiic.co.in/recruitment",
     "official": "https://uiic.co.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed professional/technical qualification; discipline-specific eligibility as per UIICL notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UIICL 225 Administrative Officer Online Form",
+        "vacancy": "225 Administrative Officer (Scale I) posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://uiic.co.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ssc-chsl-2536-2026",
@@ -563,7 +1021,31 @@ window.AJ_JOB_DATA = [
     "categoryVacancy": "Not verified against an official 2026 CHSL vacancy table.",
     "salary": "LDC/JSA and DEO pay levels must be verified against the matching detailed notification and post allocation.",
     "verificationStatus": "NEEDS OFFICIAL CONFIRMATION — current SSC official notice board does not substantiate the existing CHSL 2026 closing date or the 2,536 vacancy count. The older SSC tentative calendar has a different planned window; record dates and count should not be treated as verified until a matching detailed notice/corrigendum is located.",
-    "updates": "Flagged application dates, vacancy count and exam window as unverified rather than presenting potentially mismatched dates as fact. Check the latest SSC notification and October 2026 schedule notice before applying."
+    "updates": "Flagged application dates, vacancy count and exam window as unverified rather than presenting potentially mismatched dates as fact. Check the latest SSC notification and October 2026 schedule notice before applying.",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th pass is typical for CHSL; DEO posts may have additional subject requirements. Verify exact post-specific rules against the matching official 2026 notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CHSL 2026 — Dates and 2,536 Vacancy Count Need Official Confirmation",
+        "vacancy": "The database previously listed 2,536 posts, but the matching SSC CHSL 2026 detailed notification and latest vacancy table have not been located in the current official notice board. Treat 2,536 as unverified until matched to an official 2026 notice."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://ssc.gov.in/"
   },
   {
     "id": "bank-of-baroda-2482-lbo",
@@ -583,7 +1065,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Bank of Baroda 2482 LBO Vacancy Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "nspcl-senior-assistant-officer-engineer",
@@ -603,7 +1114,36 @@ window.AJ_JOB_DATA = [
     "official": "https://www.nspcl.co.in/index.php/page/10",
     "apply": "https://www.nspcl.co.in/index.php/page/10",
     "notice": "https://www.nspcl.co.in/index.php/page/10",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NSPCL Senior Assistant Officer Engineer Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.nspcl.co.in/index.php/page/10",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sbi-specialist-cadre-officer-2026",
@@ -623,7 +1163,36 @@ window.AJ_JOB_DATA = [
     "official": "https://sbi.bank.in/",
     "apply": "https://sbi.bank.in/",
     "notice": "https://sbi.bank.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SBI Bank Specialist Cadre Officer Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sbi.bank.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "bank-of-baroda-1100-so-2026",
@@ -643,7 +1212,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Bank of Baroda 1100 SO Vacancy Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ibps-11403-clerk-correction",
@@ -663,7 +1261,36 @@ window.AJ_JOB_DATA = [
     "official": "https://www.ibps.in/",
     "apply": "https://www.ibps.in/",
     "notice": "https://www.ibps.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS 11403 Clerk CRP-XVI Correction Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "pfrda-assistant-manager-grade-a",
@@ -683,7 +1310,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.pfrda.org.in/",
     "official": "https://www.pfrda.org.in/",
     "vacancy": "Post-wise vacancy — see official notification",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed qualification for Grade A Officer streams; relevant degree/professional qualification as applicable"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "PFRDA Assistant Manager (Grade A) Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.pfrda.org.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "india-post-23757-gds-2026",
@@ -703,7 +1359,36 @@ window.AJ_JOB_DATA = [
     "apply": "https://indiapostgdsonline.gov.in/",
     "notice": "https://indiapostgdsonline.gov.in/",
     "official": "https://www.indiapost.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th standard pass with Mathematics and English; local language studied at least up to 10th standard; computer knowledge and other prescribed conditions"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "India Post 23757 Gramin Dak Sevak Online Form",
+        "vacancy": "23,757 GDS posts as listed for Schedule II July 2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.indiapost.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsc-127-geo-scientist",
@@ -723,7 +1408,36 @@ window.AJ_JOB_DATA = [
     "official": "https://www.upsc.gov.in/",
     "apply": "https://www.upsc.gov.in/",
     "notice": "https://www.upsc.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC 127 Geo Scientist Vacancy Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ssc-1748-je-2026",
@@ -743,7 +1457,36 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC 1748 Junior Engineer Vacancy Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "gate-2027",
@@ -794,7 +1537,13 @@ window.AJ_JOB_DATA = [
       "syllabus": "https://gate2027.iitm.ac.in/"
     },
     "verificationStatus": "Verified from official GATE 2027 website, Important Dates, Application Fees, Eligibility Criteria and Notifications pages as of 09/10/2026.",
-    "verificationSource": "Official: https://gate2027.iitm.ac.in/ | Important dates: https://gate2027.iitm.ac.in/important_dates | Fees: https://gate2027.iitm.ac.in/application_fees | Eligibility: https://gate2027.iitm.ac.in/eligibility_criteria"
+    "verificationSource": "Official: https://gate2027.iitm.ac.in/ | Important dates: https://gate2027.iitm.ac.in/important_dates | Fees: https://gate2027.iitm.ac.in/application_fees | Eligibility: https://gate2027.iitm.ac.in/eligibility_criteria",
+    "postVacancies": [
+      {
+        "post": "Graduate Aptitude Test in Engineering (GATE) 2027",
+        "vacancy": "लागू नहीं — GATE 2027 एक national-level examination है, भर्ती पदों की vacancy नहीं।"
+      }
+    ]
   },
   {
     "id": "nic-scientific-technical-assistant",
@@ -814,7 +1563,36 @@ window.AJ_JOB_DATA = [
     "official": "https://recruit-delhi.nielit.gov.in/",
     "apply": "https://recruit-delhi.nielit.gov.in/",
     "notice": "https://recruit-delhi.nielit.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NIC Scientific / Technical Assistant Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://recruit-delhi.nielit.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "bgissl-2049-various-vacancies",
@@ -834,7 +1612,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BGSSL 2049 Various Vacancies Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "concor-mt-assistant-officer",
@@ -854,7 +1661,36 @@ window.AJ_JOB_DATA = [
     "official": "https://www.concorindia.co.in/",
     "apply": "https://www.concorindia.co.in/",
     "notice": "https://www.concorindia.co.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "CONCOR MT, Assistant Officer Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.concorindia.co.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "uco-bank-specialist-officer",
@@ -874,7 +1710,36 @@ window.AJ_JOB_DATA = [
     "official": "https://uco.bank.in/web/guest/job-opportunities",
     "apply": "https://uco.bank.in/web/guest/job-opportunities",
     "notice": "https://uco.bank.in/web/guest/job-opportunities",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UCO Bank Specialist Officer (SO) Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://uco.bank.in/web/guest/job-opportunities",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "beml-non-executive-2026",
@@ -894,7 +1759,36 @@ window.AJ_JOB_DATA = [
     "official": "https://www.bemlindia.in/careers/",
     "apply": "https://www.bemlindia.in/careers/",
     "notice": "https://www.bemlindia.in/careers/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BEML Non-Executive Vacancy Online Form 2026",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.bemlindia.in/careers/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sbi-trade-finance-officer",
@@ -914,7 +1808,36 @@ window.AJ_JOB_DATA = [
     "official": "https://sbi.bank.in/",
     "apply": "https://sbi.bank.in/",
     "notice": "https://sbi.bank.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SBI Bank Trade Finance Officer Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sbi.bank.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "indian-overseas-bank-so",
@@ -934,7 +1857,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Overseas Bank Specialist Officer Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "federal-bank-sales-officer-2026",
@@ -954,7 +1906,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Federal Bank Sales Officer Online Form 2026",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "pgcil-apprentice-2026",
@@ -974,7 +1955,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "PGCIL Apprentice Vacancy Online Form 2026",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "spmcil-assistant-manager",
@@ -994,7 +2004,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SPMCIL Assistant Manager Vacancy Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ngel-engineer-executive",
@@ -1014,7 +2053,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NGEL Engineer/ Executive Vacancy Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "south-indian-bank-junior-officer",
@@ -1034,7 +2102,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "South Indian Bank Junior Officer Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "csir-43-technician-1",
@@ -1054,7 +2151,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "CSIR 43 Technician (1) Vacancy Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "itbp-capf-282-medical-officer",
@@ -1074,7 +2200,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "ITBP CAPF 282 Medical Officer Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "aai-389-jr-executive-manager",
@@ -1094,7 +2249,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "AAI 389 Jr Executive, Manager Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "bank-of-baroda-specialist-officer",
@@ -1114,7 +2298,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Bank of Baroda Specialist Officer Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "dgqa-15-technician",
@@ -1134,7 +2347,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DGQA 15 Technician (Semi-Skilled) Offline Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "iaf-agniveer-non-combatant",
@@ -1154,7 +2396,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IAF Agniveer (Non-Combatant) Offline Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "isro-92-scientist-engineer-2026",
@@ -1174,7 +2445,36 @@ window.AJ_JOB_DATA = [
     "official": "https://www.isro.gov.in/",
     "apply": "https://www.isro.gov.in/",
     "notice": "https://www.isro.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "ISRO 92 Scientist / Engineer Online Form 2026",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.isro.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "indian-navy-275-ssc-officer",
@@ -1194,7 +2494,36 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Indian Navy 275 SSC Officer Posts Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "south-indian-bank-probationary-officer",
@@ -1214,7 +2543,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "South Indian Bank Probationary Officer Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "icsi-executive-assistant",
@@ -1234,7 +2592,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "ICSI Executive Assistant Vacancy Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "army-ncc-special-entry-women",
@@ -1254,7 +2641,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Army NCC Special Entry (Women) Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "army-ncc-special-entry-men",
@@ -1274,7 +2690,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Army NCC Special Entry (Men) Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "delhi-dpcc-environment-engineer",
@@ -1294,7 +2739,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Delhi DPCC Environment Engineer Offline Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsssc-jr-engineer-agriculture",
@@ -1314,7 +2788,36 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSSSC Jr Engineer (Agriculture) Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "psssb-04-26-group-d",
@@ -1334,7 +2837,36 @@ window.AJ_JOB_DATA = [
     "official": "https://sssb.punjab.gov.in/",
     "apply": "https://sssb.punjab.gov.in/",
     "notice": "https://sssb.punjab.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "PSSSB 04/26 Group D (2098 Post) Form Re-Open",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sssb.punjab.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "kea-210-group-c-2026",
@@ -1354,7 +2886,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "KEA 210 Group C Vacancy Online Form 2026",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "gadvasu-non-teaching-2026",
@@ -1385,7 +2946,27 @@ window.AJ_JOB_DATA = [
     "verificationStatus": "VERIFIED AGAINST OFFICIAL GADVASU ADVERTISEMENT NO. 03/2026, CORRIGENDUM-I, GENERAL INSTRUCTIONS (13-PAGE PDF), AND THE THREE POST-WISE ELIGIBILITY/SELECTION PDFs. Confirmed 45 posts and post split, application/fee and offline-submission dates, post-wise qualifications, fee, pay, age/relaxation rules and selection process. The summary notice does not give a reliable category-wise numeric roster, so no category counts are inferred.",
     "updates": "Official GADVASU notice dated 11/09/2026; online application and fee deadline was revised to 08/10/2026 04:00 PM and has passed. Applicants who already applied must also follow the required offline-document submission: prescribed offline form for non-in-service candidates by 16/10/2026 04:00 PM; hard copies forwarded through proper channel for in-service candidates by 21/10/2026 04:00 PM. No new online applications should be implied by these later offline deadlines.",
     "organization": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU), Ludhiana, Punjab",
-    "notificationDate": "11/09/2026 (official GADVASU notice page)"
+    "notificationDate": "11/09/2026 (official GADVASU notice page)",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Steno Typist: Bachelor's degree from a recognized university; at least 120-hour computer course with hands-on experience in personal computer/office productivity/desktop publishing from a government-recognized or ISO-9001-certified reputed institution, OR DOEACC 'O' Level-equivalent course; Punjabi matriculation from a recognized board (as first/second/additional language or accepted equivalent) by the application deadline. Clerk: same degree, computer and Punjabi requirements. Storekeeper: Bachelor's degree with Economics, B.Com. or B.B.A.; same computer and Punjabi requirements. Read each post's official eligibility PDF for full conditions."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "GADVASU Non-Teaching Recruitment 2026 — Advertisement No. 03/2026",
+        "vacancy": "45 posts total: Steno Typist 15; Clerk 20; Storekeeper 10. Post counts are from official Advertisement No. 03/2026."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://www.gadvasu.in/jobnotices/detail/13970"
   },
   {
     "id": "upessc-12405-assistant-teacher",
@@ -1405,7 +2986,36 @@ window.AJ_JOB_DATA = [
     "official": "https://ssc.gov.in/",
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPESSC 12405 Assistant Teacher Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "delhi-dtl-assistant-manager-trainee",
@@ -1425,7 +3035,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Delhi DTL Assist. Manager Trainee Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "csir-neeri-technical-officer-ta",
@@ -1454,7 +3093,27 @@ window.AJ_JOB_DATA = [
     "correctionDate": "No separate correction window confirmed on the recruitment portal.",
     "examDate": "No examination date announced on the official recruitment portal as checked 09/10/2026.",
     "verificationStatus": "SUBSTANTIALLY VERIFIED — official CSIR-NEERI recruitment portal confirms Advt. CSIR-NEERI/1/2026, 13 posts, post/category totals, pay levels, upper ages and 16/09/2026–15/10/2026 05:00 PM application window. Fee, post-code qualifications and selection details cross-checked against detailed-advertisement summaries; candidates must rely on the original linked advertisement for final eligibility and rules.",
-    "updates": "Official portal confirms 16/09/2026 10:00 AM opening and 15/10/2026 05:00 PM closing. The detailed notice covers TA-01 and TO-01 to TO-08; one horizontal PwBD category (a), Blindness/Low Vision reservation is noted. Save/print the submitted form and fee receipt by 15/10/2026 05:00 PM."
+    "updates": "Official portal confirms 16/09/2026 10:00 AM opening and 15/10/2026 05:00 PM closing. The detailed notice covers TA-01 and TO-01 to TO-08; one horizontal PwBD category (a), Blindness/Low Vision reservation is noted. Save/print the submitted form and fee receipt by 15/10/2026 05:00 PM.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "TA-01: B.Sc. or equivalent with at least 60% marks plus 1 year of experience in Science Communication. Technical Officer post codes: TO-01 Civil Engineering B.E./B.Tech; TO-02 M.Sc. Biochemistry; TO-03 M.Sc. Microbiology; TO-04 B.E./B.Tech Chemical Engineering; TO-05 M.Sc. Chemistry; TO-06 B.E./B.Tech Geoinformatics; TO-07 M.Sc. Geology; TO-08 MBA. Technical Officer qualifications require at least 55% marks (or equivalent CGPA). Post-code-specific experience and equivalent qualifications must be checked in the advertisement. Essential qualification results must be declared by 15/10/2026."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "CSIR-NEERI Technical Assistant & Technical Officer Recruitment 2026 — Advt. CSIR-NEERI/1/2026",
+        "vacancy": "13 posts total: Technical Assistant 1 (EWS); Technical Officer 12 (UR 6, EWS 1, OBC-NCL 2, SC 2, ST 1). One post is reserved horizontally for PwBD category (a), Blindness/Low Vision."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://career.neeri.res.in/technical_2026/index.php"
   },
   {
     "id": "bseb-bihar-stet-2026",
@@ -1474,7 +3133,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BSEB Bihar STET 2026 Apply Online Form",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mp-high-court-1174-assistant",
@@ -1494,7 +3182,36 @@ window.AJ_JOB_DATA = [
     "official": "",
     "apply": "",
     "notice": "",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification as prescribed in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MP High Court 1174 Assistant Online Form 2026",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
+    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "isro-sac-jrf-2026",
@@ -1514,7 +3231,36 @@ window.AJ_JOB_DATA = [
     "official": "https://www.isro.gov.in/",
     "vacancy": "Post-wise vacancy — see official notification",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed qualification in relevant science/engineering discipline"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "ISRO SAC JRF / Research Associate / Project Scientist-I Online Form 2026",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.isro.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "isro-nsil-cmd-2026",
@@ -1534,7 +3280,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.isro.gov.in/ViewAllOpportunities.html",
     "official": "https://www.isro.gov.in/",
     "documents": "Application-stage/verification documents should include recent photograph and signature, proof of date of birth, qualifying degree/marksheets and post-specific higher qualification, experience certificate where required for Research Associate/Project Scientist-I, category/PwBD certificate where applicable, and NOC for candidates employed in Government/PSU/autonomous bodies when required. Produce originals when called for verification/interview.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed for CMD on Deputation/Contract basis"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "ISRO NSIL Chairman-cum-Managing Director Online Form 2026",
+        "vacancy": "1 Post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.isro.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsc-advt-12-2026",
@@ -1570,7 +3345,27 @@ window.AJ_JOB_DATA = [
     "correctionDate": "No general application correction window confirmed in the advertisement.",
     "examDate": "Interview/Recruitment Test date, where applicable, to be announced separately.",
     "verificationStatus": "VERIFIED FROM OFFICIAL PDF — advertisement number, 4 post titles, 13 total vacancies, category roster, application dates, fee and pay levels checked against the UPSC Advertisement No. 12/2026 PDF. Detailed post-specific eligibility must still be read before applying.",
-    "updates": "Official PDF states applications open 26/09/2026 and close 16/10/2026 at 18:00. Four listed posts total 13 vacancies. Selection/interview dates are not specified and will be notified separately."
+    "updates": "Official PDF states applications open 26/09/2026 and close 16/10/2026 at 18:00. Four listed posts total 13 vacancies. Selection/interview dates are not specified and will be notified separately.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific. Examples: Junior Technical Officer requires Science/Engineering degree plus Sugar Technology qualification and 3 years' relevant experience; Assistant Legislative Counsel requires law qualification and substantial legal experience; Law Officer requires law degree plus 2 years' legal experience; Cardiology requires recognized medical qualification, DM Cardiology and 3 years' post-PG experience."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC Advertisement No. 12/2026 — 13 Posts, Multiple Departments",
+        "vacancy": "13 posts across four posts: Junior Technical Officer (Sugar Technology) 1 (OBC); Assistant Legislative Counsel 8 (UR4, EWS1, OBC2, SC1; PwBD1 horizontal); Law Officer 3 (UR2, OBC1; PwBD1 horizontal); Specialist Grade II (Junior Scale)-Cardiology 1 (OBC)."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://www.upsc.gov.in/recruitment/recruitment-advertisement"
   },
   {
     "id": "ssc-chsl-2026-2536",
@@ -1596,7 +3391,36 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/EWS/PwBD certificate where applicable"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th pass or post-specific qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CHSL 2026 — LDC/JSA/DEO Recruitment",
+        "vacancy": "2,536 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrb-cen-05-2026-paramedical-new",
@@ -1623,7 +3447,36 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/EWS/PwBD/ExSM certificate where applicable"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed paramedical qualification and registration where required"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB CEN 05/2026 — Paramedical Staff",
+        "vacancy": "590 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbcdg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mecl-nonexecutive-03-2026",
@@ -1650,7 +3503,36 @@ window.AJ_JOB_DATA = [
       "Experience certificate where required",
       "Valid photo ID"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed in Advertisement 03/Rectt./2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MECL Advertisement 03/Rectt./2026 — Non-Executive Posts",
+        "vacancy": "Various Non-Executive Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mecl.co.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ignou-nonteaching-2026",
@@ -1680,7 +3562,27 @@ window.AJ_JOB_DATA = [
     "examDate": "Not announced; any written/CBT/skill test/interview updates will be published on IGNOU's official website.",
     "categoryVacancy": "Assistant Director: UR 2. Technical Manager: UR 3, OBC-NCL 1. Technical Assistant: UR 5, SC 1, OBC-NCL 2. Total 14. Post-specific subcategory roster is detailed in the official 12-page advertisement.",
     "verificationStatus": "VERIFIED FROM OFFICIAL IGNOU CAREER PAGE AND 12-PAGE DETAILED ADVERTISEMENT (Advt. No. 69/2026/Admn.): 14 posts, post-wise category totals, age limits, pay levels, application dates and fee checked. Specific technical specialization/experience must be matched to each post in the PDF.",
-    "updates": "Official career page lists online applications from 03/10/2026 through 02/11/2026 23:59:59. The signed printout with self-attested documents is due by 12/11/2026 according to the detailed advertisement."
+    "updates": "Official career page lists online applications from 03/10/2026 through 02/11/2026 23:59:59. The signed printout with self-attested documents is due by 12/11/2026 according to the detailed advertisement.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific technical qualification and experience. Technical Assistant posts generally require BE/BTech (CS/IT), MSc (CS/IT) or MCA with at least 55% and 3 years of relevant technical experience; Technical Manager roles require the relevant qualification with 5 years of relevant experience; Assistant Director roles require the relevant qualification with 10 years of relevant experience. Check the exact specialization and experience criteria in the official 12-page advertisement."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
+        "vacancy": "14 posts: Assistant Director 2 (UR 2); Technical Manager 4 (UR 3, OBC-NCL 1); Technical Assistant 8 (UR 5, SC 1, OBC-NCL 2). Category totals are from the official advertisement summary table."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://www.ignou.ac.in/announcement/Career?nav=5"
   },
   {
     "id": "private-jio-graduate-engineer-trainee-87210862",
@@ -1705,7 +3607,36 @@ window.AJ_JOB_DATA = [
       "Government-issued ID when requested during recruitment",
       "Role-specific documents"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Engineering/technical qualification as specified in the individual Jio posting"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jio — Graduate Engineer Trainee",
+        "vacancy": "Multiple openings"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.jio.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-jio-home-service-intern-rohtak",
@@ -1729,7 +3660,36 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As specified in the Jio posting"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jio Home Service Intern — Rohtak",
+        "vacancy": "1 listed opening"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.jio.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-jio-customer-care-amritsar",
@@ -1753,7 +3713,36 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As specified in the Jio posting"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jio Customer Care Executive Voice — Amritsar",
+        "vacancy": "1 listed opening"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.jio.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-jio-customer-care-pathankot",
@@ -1777,7 +3766,36 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As specified in the Jio posting"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jio Customer Care Executive Voice — Pathankot",
+        "vacancy": "1 listed opening"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.jio.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-jio-area-talent-acquisition-jalandhar",
@@ -1801,7 +3819,36 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Experience details where required"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As specified in the Jio posting"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jio Area Talent Acquisition Executive — Jalandhar",
+        "vacancy": "1 listed opening"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.jio.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-cognizant-sr-quality-engineer-2026",
@@ -1826,7 +3873,36 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant experience in Java, Selenium, RestAssured and TestNG as described in posting"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Cognizant — Sr. Quality Engineer — Chennai/Bangalore",
+        "vacancy": "1 listed opening"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.cognizant.com/india-en/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-cognizant-data-scientist-bangalore-2026",
@@ -1850,7 +3926,36 @@ window.AJ_JOB_DATA = [
       "Technical skills/experience",
       "Educational details"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "AI/Python, LangChain, LangGraph, Agentic AI, APIs/LLMs as described in posting"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Cognizant — Data Scientist — Bangalore",
+        "vacancy": "1 listed opening"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.cognizant.com/india-en/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-cognizant-power-platform-chennai-2026",
@@ -1874,7 +3979,36 @@ window.AJ_JOB_DATA = [
       "Relevant technical experience",
       "Educational details"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Power Automate Desktop/Cloud, Power Apps, Dataverse and related skills; 3–9 years as listed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Cognizant — Microsoft Power Platform / Power Automate Developer — Chennai",
+        "vacancy": "1 listed opening"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.cognizant.com/india-en/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-tcs-india-careers-2026",
@@ -1898,7 +4032,36 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Role-specific; entry-level, internships and lateral opportunities are listed by TCS"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "TCS India — Entry Level, Internships & Lateral Hiring",
+        "vacancy": "Multiple openings"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.tcs.com/careers/india",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-infosys-careers-2026",
@@ -1922,7 +4085,36 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Role-specific; graduates, experienced professionals and students/internships"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Infosys — Graduates, Experienced & Internships",
+        "vacancy": "Multiple openings"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.infosys.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "private-hcltech-india-careers-2026",
@@ -1946,7 +4138,36 @@ window.AJ_JOB_DATA = [
       "Educational details",
       "Role-specific documents"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Role-specific; current India openings searchable on HCLTech careers"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HCLTech — Current Openings in India",
+        "vacancy": "Multiple openings"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://careers.hcltech.com/go/India/9553955/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrb-ntpc-2026-5165",
@@ -1972,7 +4193,36 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/EWS/PwBD/ExSM certificate where applicable"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduate/12th-level qualification as applicable to the notified post"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB NTPC 2026 — Graduate & Undergraduate Posts",
+        "vacancy": "5,165 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbcdg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "punjab-court-clerk-2026-1270",
@@ -1999,7 +4249,36 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category certificate where applicable"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation with Punjabi studied up to Matriculation, subject to official notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Punjab District Courts Clerk Recruitment 2026",
+        "vacancy": "1,270 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ncs-official-job-search-2026",
@@ -2023,7 +4302,36 @@ window.AJ_JOB_DATA = [
       "Education/skill documents as requested",
       "Valid ID when legitimately requested"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Job-specific"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "National Career Service — Latest Private & Other Job Vacancies",
+        "vacancy": "Live vacancies vary by employer"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ncs.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ncs-government-recruitment-directory-2026",
@@ -2045,7 +4353,36 @@ window.AJ_JOB_DATA = [
     "documents": [
       "As required by individual recruitment notification"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Notification-specific"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NCS Government Job Vacancies Directory — Recruitment Portals",
+        "vacancy": "Multiple departments and recruitment portals"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ncs.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sci-jca-250-2026",
@@ -2071,7 +4408,36 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/PwBD/ExSM certificate where applicable"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Bachelor's degree from a recognized university; computer knowledge/typing requirements as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Supreme Court of India Junior Court Assistant Recruitment 2026",
+        "vacancy": "250 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.sci.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "hpsc-fso-45-2026",
@@ -2097,7 +4463,36 @@ window.AJ_JOB_DATA = [
       "Haryana/category certificate where applicable",
       "Valid photo ID"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Prescribed Bachelor's/Master's/Doctorate qualification in eligible food, agriculture, veterinary, biotechnology, chemistry, microbiology, medicine or related disciplines; Hindi/Sanskrit requirement as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HPSC Food Safety Officer (Group-B) Recruitment 2026",
+        "vacancy": "45 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hpsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "canara-graduate-apprentice-2026",
@@ -2123,7 +4518,36 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category certificate where applicable"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduate degree in a relevant discipline as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Canara Bank Graduate Apprentice Recruitment FY 2026-27",
+        "vacancy": "Graduate Apprentice vacancies as per official notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.canarabank.bank.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "kucbl-manager-assistant-manager-2026",
@@ -2149,7 +4573,36 @@ window.AJ_JOB_DATA = [
       "Recent photograph/signature",
       "Valid photo ID"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification and experience as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "KUCBL Managers & Assistant Managers Recruitment 2026",
+        "vacancy": "As per official recruitment notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "nit-nonfaculty-2026",
@@ -2175,7 +4628,36 @@ window.AJ_JOB_DATA = [
       "Recent photograph/signature",
       "Valid photo ID"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed by the concerned NIT"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NIT Recruitment of Non-Faculty Positions 2026",
+        "vacancy": "As per official recruitment notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mpa-class-1-2-2026",
@@ -2201,7 +4683,36 @@ window.AJ_JOB_DATA = [
       "Recent photograph/signature",
       "Valid photo ID"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification/experience as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MPA Class I & II Posts Recruitment 2026",
+        "vacancy": "Class I & II posts as per official notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ieb-special-recruitment-2026",
@@ -2227,7 +4738,36 @@ window.AJ_JOB_DATA = [
       "Valid photo ID",
       "Category/disability certificate where applicable"
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the detailed SRD notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IEB Special Recruitment Drive (SRD) 2026",
+        "vacancy": "As per official recruitment notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-ssc-cgl-2026",
@@ -2257,7 +4797,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation/post-wise qualification as per official notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CGL 2027 — Upcoming Recruitment",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-ssc-chsl-2027",
@@ -2287,7 +4852,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th pass/post-wise qualification as per official notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CHSL 2027 — Upcoming Recruitment",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-rrb-group-d-2026-27",
@@ -2318,7 +4908,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th/ITI or post-wise qualification as per official CEN"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Railway RRB Group D — Upcoming Recruitment",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbcdg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-rrb-alp-2026-27",
@@ -2350,7 +4965,32 @@ window.AJ_JOB_DATA = [
     "lastChecked": "07/10/2026",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th + ITI / Diploma / Degree in prescribed engineering disciplines"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Railway RRB ALP — Upcoming Recruitment",
+        "vacancy": "11,127 posts — CEN 01/2026; application closed"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbcdg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-rrb-technician-2026-27",
@@ -2381,7 +5021,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th + ITI / Diploma / Degree as prescribed for the post"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Railway RRB Technician — Upcoming Recruitment",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbcdg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-ibps-po-2027",
@@ -2411,7 +5076,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation from a recognized university/equivalent"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS PO/MT 2027 — Upcoming Recruitment",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-ibps-clerk-2027",
@@ -2441,7 +5131,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation from a recognized university/equivalent"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS CSA/Clerk 2027 — Upcoming Recruitment",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-ibps-rrb-2027",
@@ -2471,7 +5186,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise graduation/professional qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS RRB 2027 — Office Assistant & Officer Posts",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-upsc-civil-services-2027",
@@ -2501,7 +5241,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation from recognized university/equivalent"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC Civil Services Examination 2027 — Upcoming",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-upsc-nda-na-2027",
@@ -2531,7 +5296,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th/appearing, stream-specific conditions as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC NDA & NA Examination 2027 — Upcoming",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-upsc-cds-2027",
@@ -2561,7 +5351,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation/post-specific qualification as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC CDS Examination 2027 — Upcoming",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-hssc-group-c-2026-27",
@@ -2592,7 +5407,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise 10th/12th/ITI/Diploma/Graduation as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HSSC Group C Recruitment — Upcoming Haryana Vacancies",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-haryana-police-2026-27",
@@ -2623,7 +5463,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Haryana Police Recruitment — Upcoming Constable/SI Vacancies",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-reet-2026",
@@ -2653,7 +5518,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Level-wise teacher-training qualification as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "REET 2026 — Upcoming Teacher Eligibility Examination",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://rajeduboard.rajasthan.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-bpsc-tre-5-2027",
@@ -2683,7 +5573,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Teacher eligibility/degree/B.Ed./D.El.Ed. etc. as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BPSC Teacher Recruitment — Upcoming Vacancy",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://bpsc.bihar.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "banking-ibps-2026-27-calendar",
@@ -2713,7 +5628,32 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "age": "Post-wise age limit and relaxation as prescribed in the official notification.",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise Graduation/Professional qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS PO/MT, Specialist Officer & CSA 2026-27 — Recruitment Calendar",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "banking-sbi-cbo-upcoming-2026",
@@ -2744,7 +5684,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation and prescribed experience/eligibility as per SBI notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SBI Circle Based Officer (CBO) 2026-27 — Upcoming",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sbi.co.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "banking-rbi-upcoming-2026-27",
@@ -2774,7 +5739,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as notified by RBI"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RBI Upcoming Recruitment — Assistant / Grade B / Other Posts",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rbi.org.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "banking-nabard-upcoming-2026-27",
@@ -2804,7 +5794,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise degree/professional qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NABARD Upcoming Recruitment — Grade A / Assistant Manager & Other Posts",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.nabard.org/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sainik-school-teaching-nonteaching-2026-27",
@@ -2836,7 +5851,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "TGT/PGT/Teacher, Office, Lab, General Employee and other posts as per individual Sainik School notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Sainik Schools Teaching & Non-Teaching Recruitment — 2026-27",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.sainikschoolsociety.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sainik-school-contractual-staff-2026",
@@ -2867,7 +5907,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification under applicable Sainik School contractual recruitment notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Sainik Schools Contractual Academic, Administrative & General Staff",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.sainikschoolsociety.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "nvs-recruitment-2026-27",
@@ -2898,7 +5963,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "TGT/PGT/Principal/Staff Nurse/Office/Technical and other posts as per NVS notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NVS Teaching & Non-Teaching Recruitment — 2026-27",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://navodaya.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "nvs-contractual-teachers-2026-27",
@@ -2929,7 +6019,32 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "PGT/TGT/other teaching posts as prescribed by individual JNV"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jawahar Navodaya Vidyalaya Contractual Teacher Recruitment — 2026-27",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://navodaya.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "nvs-class-11-lateral-entry-2027-28",
@@ -2959,7 +6074,32 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "age": "Post-wise age limit and relaxation as prescribed in the official notification.",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Students studying Class X in eligible schools/areas as per NVS criteria"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NVS Class XI Lateral Entry Selection Test 2027-28",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://navodaya.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ibps-so-xvi-2026",
@@ -2979,7 +6119,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/",
     "official": "https://www.ibps.in/",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation / professional qualification in the relevant discipline as prescribed for IT, Agriculture, Rajbhasha, Law, HR and Marketing Officer posts"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS Specialist Officer (SO) XVI Recruitment 2026 — IT, Marketing, Law, HR & Other Posts",
+        "vacancy": "As per IBPS CRP-SPL-XVI notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ibps-banker-faculty-executive-secretary-2026",
@@ -2999,7 +6168,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.ibps.in/",
     "official": "https://www.ibps.in/",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific qualification and banking experience as prescribed in the official advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS Banker Faculty / Banker Faculty-Technical / Executive Secretary Recruitment 2026",
+        "vacancy": "As per IBPS Advertisement IBPS/2026-27/03"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "bank-of-baroda-regular-hr-2026",
@@ -3019,7 +6217,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://bankofbaroda.bank.in/career/current-opportunities",
     "official": "https://bankofbaroda.bank.in/",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification, certification and experience as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Bank of Baroda Recruitment of Human Resource on Regular Basis — 2026",
+        "vacancy": "As per Bank of Baroda recruitment notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://bankofbaroda.bank.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "hssc-cet-group-d-05-2026",
@@ -3039,7 +6266,36 @@ window.AJ_JOB_DATA = [
     "fee": "General ₹100; Haryana SC/BC/EWS/EBP(GC) ₹25; Haryana Ex-Servicemen Nil, as applicable under the CET advertisement/instructions.",
     "documents": "Mandatory documents as specified in Advt. 05/2026: recent photograph/signature and identity/DOB proof; relevant qualification/supporting certificates; BCA/BCB/EWS certificate issued within the prescribed period; DSC/OSC certificate where applicable; PwBD/ESP/ESM-family eligibility certificates where applicable. Upload/attach only the documents and formats prescribed by HSSC.",
     "vacancy": "Post-wise vacancy — see official notification",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in Advt. 05/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HSSC CET Group-D 05/2026 — Haryana Recruitment",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "hssc-advt-06-2026-group-c",
@@ -3060,7 +6316,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed in Advt. 06/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HSSC CET Phase-II Group-C — Advt. 06/2026",
+        "vacancy": "CET Phase-II Group-C posts — as per Advt. 06/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "haryana-government-upcoming-recruitment-2026-27",
@@ -3080,7 +6365,36 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th / 12th / ITI / Diploma / Graduation — post-wise"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Haryana Government Group-C / Group-D Upcoming Recruitment 2026-27",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "haryana-private-jobs-2026-27",
@@ -3100,7 +6414,36 @@ window.AJ_JOB_DATA = [
     "vacancy": "Post-wise vacancy — see official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th / 12th / ITI / Diploma / Graduate — role-wise"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Haryana Private Jobs — Latest Company Vacancies 2026-27",
+        "vacancy": "Post-wise vacancy — see official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ncs.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "iocl-western-apprentice-335-2026",
@@ -3120,7 +6463,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th / ITI / Diploma / Graduate — trade-wise"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IOCL Western Region Apprentice Recruitment 2026 — 335 Posts",
+        "vacancy": "335 Apprentices"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.iocl.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-rci-apprentice-2027",
@@ -3140,7 +6512,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "ITI / Diploma / Graduate — trade/discipline-wise"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DRDO RCI Hyderabad Apprentice Recruitment 2027",
+        "vacancy": "As per Advt. RCI/HRD/Apprenticeship/Advt/2027"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://drdo.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-pxe-apprentice-2026",
@@ -3345,7 +6746,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th + relevant ITI/trade as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Naval Dockyard Mumbai Apprentice Recruitment 2026 — 283 Posts",
+        "vacancy": "283 Apprentices / 32 trades"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.indiannavy.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ssc-stenographer-c-d-2025-final",
@@ -3381,7 +6811,30 @@ window.AJ_JOB_DATA = [
     },
     "apply": "https://ssc.gov.in/",
     "notice": "https://ssc.gov.in/",
-    "official": "https://ssc.gov.in/"
+    "official": "https://ssc.gov.in/",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th Standard pass or equivalent from a recognized Board/University; stenography skill-test requirements apply as prescribed by SSC."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Stenographer Grade C & D",
+        "vacancy": "230 Grade C + 1,360 Grade D"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/"
   },
   {
     "id": "mp-police-asi-subedar-steno-655-2026",
@@ -3401,7 +6854,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification/typing/CPCT requirements"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MP Police ASI / Subedar / Stenographer Recruitment 2026 — 655 Posts",
+        "vacancy": "655"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://esb.mp.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "army-aoc-group-c-2615-2026",
@@ -3421,7 +6903,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th / 12th / trade-specific qualification depending on post"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Army Ordnance Corps Group C Recruitment 2026 — 2,615 Posts",
+        "vacancy": "2,615"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.aocrecruitment.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mecl-accountant-other-2026",
@@ -3441,7 +6952,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MECL Accountant & Other Recruitment 2026",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.mecl.co.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ndma-young-consultant-2026",
@@ -3461,7 +7001,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant qualification/experience as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NDMA Young Consultant — Forest Fire Risk Management",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ndma.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "nbems-executive-director-2026",
@@ -3481,7 +7050,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in recruitment notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NBEMS Executive Director Recruitment 2026",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://natboard.edu.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrb-ntpc-5165-2026",
@@ -3501,7 +7099,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th / Graduate, post-wise"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB NTPC 2026 — 5,165 Posts",
+        "vacancy": "5,165"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbcdg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrb-alp-11127-2026-exam",
@@ -3521,7 +7148,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "ITI / Diploma / relevant technical qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB Assistant Loco Pilot 2026 — 11,127 Posts",
+        "vacancy": "11,127"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbcdg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrc-western-sports-quota-2026-27",
@@ -3541,7 +7197,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th / 12th / Graduate plus eligible sports achievement, post-wise"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Western Railway Sports Quota Recruitment 2026-27",
+        "vacancy": "Sports-discipline wise"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrc-wr.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-director-dia-coe-2026",
@@ -3561,7 +7246,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in DRDO notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DRDO Director, DIA-CoE, BHU Recruitment 2026",
+        "vacancy": "1"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://drdo.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-dgre-jrf-2026-27",
@@ -3581,7 +7295,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant postgraduate / technical qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DRDO DGRE Chandigarh JRF Recruitment 2026-27",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://drdo.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-mtrdc-jrf-2026",
@@ -3601,7 +7344,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant engineering/science postgraduate qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DRDO MTRDC Bengaluru JRF Recruitment 2026",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://drdo.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "psssb-group-b-13-2026",
@@ -3621,7 +7393,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification for Head Draftsman, Law Officer, Legal Assistant & Accountant"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "PSSSB Group B Recruitment 2026 — Advt. 13/2026",
+        "vacancy": "10"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sssb.punjab.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "punjab-police-10000-upcoming-2026",
@@ -3641,7 +7442,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise — notification awaited"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Punjab Police Recruitment 2026 — Around 10,000 Posts Upcoming",
+        "vacancy": "Around 10,000 announced"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://punjabpolice.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rajasthan-contractual-safai-karamchari-2026",
@@ -3674,7 +7504,30 @@ window.AJ_JOB_DATA = [
       "apply": "https://recruitment.rajasthan.gov.in/",
       "notification": "https://recruitment.rajasthan.gov.in/departmentrecservlet",
       "official": "https://recruitment.rajasthan.gov.in/"
-    }
+    },
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Official portal summary does not expose the detailed educational/eligibility conditions; verify the LSG notification before applying."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026",
+        "vacancy": "Official portal summary does not expose a verified vacancy count; check the detailed LSG recruitment notification."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ]
   },
   {
     "id": "ap-police-constable-1027-2026",
@@ -3694,7 +7547,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "AP Police Constable Recruitment 2026 — 1,027 Posts",
+        "vacancy": "1,027"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://slprb.ap.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ruhs-medical-officer-600-2026",
@@ -3714,7 +7596,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "MBBS + Rajasthan Medical Council registration"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RUHS Medical Officer Recruitment 2026 — 600 Posts",
+        "vacancy": "600"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ruhsraj.org/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "assam-rifles-technical-tradesman-354-2026",
@@ -3928,7 +7839,14 @@ window.AJ_JOB_DATA = [
         "date": "21/09/2026",
         "url": "https://www.assamrifles.gov.in/join-assam-rifles"
       }
-    ]
+    ],
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.assamrifles.gov.in/join-assam-rifles",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsc-direct-recruitment-12-2026",
@@ -3952,7 +7870,36 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://www.upsc.gov.in/recruitment/recruitment-advertisement",
       "apply": "https://upsconline.nic.in/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC Direct Recruitment — Advertisement No. 12/2026",
+        "vacancy": "Post-wise"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "employment-news-nsic-tsc-2026",
@@ -3972,7 +7919,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NSIC Technical Services Centre Recruitment — Employment News Issue 27",
+        "vacancy": "As per advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://employmentnews.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "employment-news-cfti-2026",
@@ -3992,7 +7968,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Central Footwear Training Institute Recruitment — Employment News Issue 27",
+        "vacancy": "As per advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://employmentnews.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ignou-teaching-2026",
@@ -4012,7 +8017,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by UGC/IGNOU"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IGNOU Teaching Recruitment 2026 — Professor / Associate Professor / Assistant Professor",
+        "vacancy": "Subject-wise"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ignou.ac.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "bpsc-tre-4-32388-2026",
@@ -4032,7 +8066,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post/class-wise prescribed teaching qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BPSC TRE 4.0 Recruitment 2026 — 32,388 Teachers",
+        "vacancy": "32,388"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.bpsc.bih.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upessc-assistant-professor-1936-2026",
@@ -4052,7 +8115,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Subject-wise PG/NET/PhD or equivalent as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPESSC Assistant Professor Recruitment 2026 — 1,936 Posts",
+        "vacancy": "1,936"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://upessc.up.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "up-pgt-2607-2026",
@@ -4072,7 +8164,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Postgraduate + required teaching qualification/eligibility"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UP PGT Recruitment 2026 — 2,607 Posts",
+        "vacancy": "2,607"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://upessc.up.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "esic-alwar-faculty-166-2026",
@@ -4092,7 +8213,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise medical qualification and experience"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "ESIC Medical College Alwar Faculty & Senior Resident Recruitment 2026 — 166 Posts",
+        "vacancy": "166 provisional"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.esic.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "haryana-health-multiple-2026",
@@ -4112,7 +8262,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise medical / nursing / technical qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Haryana Health Department — Medical Officer, Specialist, Staff Nurse & Laboratory Technician Recruitments",
+        "vacancy": "Post-wise"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://haryanahealth.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "uiic-ao-225-2026",
@@ -4132,7 +8311,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduate / post-specific qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UIIC Administrative Officer (AO) 2026 — 225 Posts",
+        "vacancy": "225"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://uiic.co.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ibps-csa-xvi-2026",
@@ -4152,7 +8360,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS Customer Service Associates (CSA) XVI — 2026",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ibps-so-xvi-2026-main",
@@ -4172,7 +8409,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post/discipline-specific qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS Specialist Officer (SPL) XVI — 2026",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ibps-rrb-xv-2026",
@@ -4192,7 +8458,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation / post-specific qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS RRB XV — Officers & Office Assistants 2026",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ibps-local-bank-officer-2026-27",
@@ -4212,7 +8507,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation / eligibility as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IBPS Local Bank Officer in JMGS-I 2026-27",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsc-adv-12-2026-direct-2026",
@@ -4232,7 +8556,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC Direct Recruitment Advertisement No. 12/2026 — Various Posts",
+        "vacancy": "Post-wise"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsc-engineering-services-2027",
@@ -4252,7 +8605,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Engineering degree / discipline-wise eligibility"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC Engineering Services Examination 2027",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ssc-cpo-1871-2026",
@@ -4272,7 +8654,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CPO 2026 — 1,871 Sub-Inspector Posts",
+        "vacancy": "1,871"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ssc-chsl-2026-exam-update",
@@ -4292,7 +8703,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th pass"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CHSL 2026 — 2,536 Posts",
+        "vacancy": "2,536"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upsc-epfo-apfc-80-2026",
@@ -4312,7 +8752,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduate / eligibility as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC EPFO APFC 2026 — 80 Posts",
+        "vacancy": "80"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "canara-bank-apprentice-3500-2026",
@@ -4332,7 +8801,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduate degree in any discipline as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Canara Bank Graduate Apprentice Recruitment 2026 — 3,500 Posts",
+        "vacancy": "3,500"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.canarabank.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "nit-non-faculty-2026",
@@ -4352,7 +8850,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NIT Non-Faculty Recruitment 2026",
+        "vacancy": "Post-wise"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ieb-srd-2026",
@@ -4372,7 +8899,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IEB Special Recruitment Drive 2026",
+        "vacancy": "As per notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.ibps.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sahitya-akademi-30-2026",
@@ -4392,7 +8948,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Sahitya Akademi Recruitment 2026 — 30 Posts",
+        "vacancy": "30"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sahitya-akademi.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrb-nursing-superintendent-365-2026",
@@ -4412,7 +8997,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "B.Sc Nursing / GNM or prescribed qualification with registration"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB Nursing Superintendent Recruitment 2026 — 365 Posts",
+        "vacancy": "365"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbapply.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rajasthan-safai-24752-2026",
@@ -4432,7 +9046,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by Rajasthan recruitment notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Rajasthan Contractual Safai Karamchari Recruitment 2026 — 24,752 Posts",
+        "vacancy": "24,752"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://recruitment.rajasthan.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "up-prt-12405-2026",
@@ -4452,7 +9095,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by UP teaching recruitment rules"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UP PRT Teacher Recruitment 2026 — 12,405 Posts",
+        "vacancy": "12,405"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://upessc.up.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "up-pgt-2607-2026-oct",
@@ -4472,7 +9144,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Postgraduate + prescribed teaching eligibility"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UP PGT Teacher Recruitment 2026 — 2,607 Posts",
+        "vacancy": "2,607"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://upessc.up.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "bpsc-tre-4-33320-2026",
@@ -4492,7 +9193,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post/class-wise prescribed teaching qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BPSC TRE 4.0 Teacher Recruitment 2026 — 33,320 Posts",
+        "vacancy": "33,320"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.bpsc.bih.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "up-assistant-professor-1926-2026",
@@ -4512,7 +9242,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Subject-wise PG/NET/PhD or equivalent as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UP Assistant Professor Recruitment 2026 — 1,926 Posts",
+        "vacancy": "1,926"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://upessc.up.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "aiims-rewari-jr-25-2026",
@@ -4532,7 +9291,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "MBBS with prescribed registration"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "AIIMS Rewari Junior Resident Recruitment 2026 — 25 Posts",
+        "vacancy": "25"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.aiimsrewarimoh.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sainik-school-kunjpura-15-2026",
@@ -4552,7 +9340,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise TGT / instructor / administrative / nursing qualifications"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Sainik School Kunjpura Recruitment 2026 — 15 Posts",
+        "vacancy": "15"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sskunjpura.org/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "nift-em-jrf-2026",
@@ -4572,7 +9389,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant qualification as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NIFTEM JRF Recruitment 2026",
+        "vacancy": "1"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://niftem.ac.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rites-assistant-manager-2-2026",
@@ -4592,7 +9438,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant degree/experience as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RITES Assistant Manager Recruitment 2026 — 2 Posts",
+        "vacancy": "2"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://rites.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mp-police-7500-2026",
@@ -4612,7 +9487,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MP Police Constable Recruitment 2026 — 7,500 Posts",
+        "vacancy": "7,500"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://esb.mp.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mp-asi-subedar-655-2026",
@@ -4632,7 +9536,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MP Police ASI / Subedar Recruitment 2026 — 655 Posts",
+        "vacancy": "655"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://esb.mp.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrc-jaipur-apprentice-2008-2026",
@@ -4652,7 +9585,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th + ITI in relevant trade"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRC Jaipur / North Western Railway Apprentice Recruitment 2026 — 2,008 Posts",
+        "vacancy": "2,008"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://rrcjaipur.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "cdac-844-2026",
@@ -4672,7 +9634,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise technical/degree qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "C-DAC Recruitment 2026 — 844 Various Posts",
+        "vacancy": "844"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.cdac.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mecon-159-ftft-2026",
@@ -4692,7 +9683,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MECON FTFT Recruitment 2026 — 159 Various Posts",
+        "vacancy": "159"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.meconlimited.co.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "dsssb-641-2026",
@@ -4712,7 +9732,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DSSSB Recruitment 2026 — 641 Peon, PA & Other Posts",
+        "vacancy": "641"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://dsssb.delhi.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-ssc-gd-2027",
@@ -4732,7 +9781,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th pass; eligibility as per SSC notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC GD Constable 2027 — Upcoming Recruitment",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-upsc-nda-na-i-2027",
@@ -4752,7 +9830,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th pass / appearing as per NDA eligibility"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC NDA & NA (I) 2027 — Upcoming",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-upsc-cds-i-2027",
@@ -4772,7 +9879,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation / final-year eligibility as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC CDS (I) 2027 — Upcoming Defence Recruitment",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-upsc-cisf-ac-2027",
@@ -4792,7 +9928,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Serving eligible CISF personnel as per rules"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSC CISF AC(EXE) LDCE 2027 — Upcoming",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.upsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-ssc-cgl-2027",
@@ -4812,7 +9977,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation for most posts; post-wise eligibility"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC CGL 2027 — Upcoming Graduate Level Recruitment",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-ssc-je-2027",
@@ -4832,7 +10026,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Diploma/Degree in relevant Civil, Mechanical or Electrical discipline"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SSC Junior Engineer 2027 — Upcoming",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-rrb-group-d-next",
@@ -4852,7 +10075,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th / ITI or as prescribed in next CEN"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB Group D — Next Recruitment / Upcoming Cycle",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbapply.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-rrb-alp-next",
@@ -4872,7 +10124,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th + ITI / Diploma / Degree in prescribed trades/disciplines"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB ALP — Next Recruitment / Upcoming Cycle",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbapply.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-hssc-group-c-2027",
@@ -4892,7 +10173,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification / CET eligibility as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HSSC Group C — Upcoming Recruitment Cycle",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.hssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-haryana-police-2027",
@@ -4912,7 +10222,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise 12th/Graduation eligibility as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Haryana Police — Upcoming Recruitment Cycle",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.hssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-nvs-2027",
@@ -4932,7 +10271,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Navodaya Vidyalaya Samiti — Upcoming Teaching & Non-Teaching Recruitment",
+        "vacancy": "To be notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://navodaya.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "upcoming-sainik-schools-2027",
@@ -4952,7 +10320,36 @@ window.AJ_JOB_DATA = [
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Sainik Schools — Upcoming Teaching & Non-Teaching Recruitment",
+        "vacancy": "School-wise"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sainikschool.ncog.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-andhra-pradesh",
@@ -4973,7 +10370,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://portal-psc.ap.gov.in/",
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Group-I / Assistant Environmental Engineer / Horticulture Officer / Forest & other 2026 Recruitments",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://portal-psc.ap.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-arunachal-pradesh",
@@ -4994,7 +10420,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.appsc.gov.in/",
     "official": "https://www.appsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Latest Government Recruitment 2026",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.appsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-assam",
@@ -5015,7 +10470,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://apsc.nic.in/",
     "official": "https://apsc.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Assam Public Service Commission Latest Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://apsc.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-bihar",
@@ -5036,7 +10520,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://bpsc.bihar.gov.in/",
     "official": "https://bpsc.bihar.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://bpsc.bihar.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-chhattisgarh",
@@ -5057,7 +10570,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://psc.cg.gov.in/",
     "official": "https://psc.cg.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "CGPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://psc.cg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-goa",
@@ -5078,7 +10620,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://gssc.goa.gov.in/",
     "official": "https://gssc.goa.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Goa Staff Selection Commission / Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://gssc.goa.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-gujarat",
@@ -5099,7 +10670,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://gpsc.gujarat.gov.in/",
     "official": "https://gpsc.gujarat.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "GPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://gpsc.gujarat.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-haryana",
@@ -5152,7 +10752,32 @@ window.AJ_JOB_DATA = [
       "Application preview में सभी details verify करके final submit करें.",
       "Submitted application और uploaded documents की final print/PDF copy record के लिए सुरक्षित रखें."
     ],
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Cat. 1-2: Graduation from a recognized university/equivalent + Hindi or Sanskrit as a subject in Matric or higher education. Cat. 3-4: 10+2/equivalent from a recognized education board/institution + Hindi or Sanskrit as a subject in Matric or higher education. Physical standards/tests also apply."
+      },
+      {
+        "label": "Eligibility / Experience",
+        "value": "Applicants must be qualified in CET Advt. No. 01/2025 Group-C. Post-specific physical standards apply. Cat. 1-2 age: 21-27 years; Cat. 3-4 age: 18-25 years. The notification provides 5 years' relaxation for DSC/OSC, BCA/BCB and EWS categories as specified."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HSSC CET Phase-II Group-C Recruitment 2026 (Advt. No. 06/2026)",
+        "vacancy": "1,238 posts: Prison Assistant Superintendent (Male) 30, Prison Assistant Superintendent (Female) 3, Prison Warder (Female) 112, Prison Warder (Male) 1,093."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hssc.gov.in/"
   },
   {
     "id": "state-himachal-pradesh",
@@ -5173,7 +10798,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HPPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hppsc.hp.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-jharkhand",
@@ -5194,7 +10848,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.jpsc.gov.in/",
     "official": "https://www.jpsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "JPSC / JSSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.jpsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-karnataka",
@@ -5215,7 +10898,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://kpsc.kar.nic.in/",
     "official": "https://kpsc.kar.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "KPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://kpsc.kar.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-kerala",
@@ -5236,7 +10948,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.keralapsc.gov.in/",
     "official": "https://www.keralapsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Kerala PSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.keralapsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-madhya-pradesh",
@@ -5257,7 +10998,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://mppsc.mp.gov.in/",
     "official": "https://mppsc.mp.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MPPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mppsc.mp.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-maharashtra",
@@ -5278,7 +11048,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://mpsc.gov.in/",
     "official": "https://mpsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mpsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-manipur",
@@ -5299,7 +11098,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://mpscmanipur.gov.in/",
     "official": "https://mpscmanipur.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Manipur PSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mpscmanipur.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-meghalaya",
@@ -5320,7 +11148,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://mpsc.nic.in/",
     "official": "https://mpsc.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Meghalaya PSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mpsc.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-mizoram",
@@ -5341,7 +11198,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://mpsc.mizoram.gov.in/",
     "official": "https://mpsc.mizoram.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Mizoram PSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mpsc.mizoram.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-nagaland",
@@ -5362,7 +11248,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://npsc.nagaland.gov.in/",
     "official": "https://npsc.nagaland.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Nagaland PSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://npsc.nagaland.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-odisha",
@@ -5383,7 +11298,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.opsc.gov.in/",
     "official": "https://www.opsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "OPSC / Odisha Government Latest Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.opsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-punjab",
@@ -5404,7 +11348,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://ppsc.gov.in/",
     "official": "https://ppsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "PPSC / PSSSB Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ppsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-rajasthan",
@@ -5425,7 +11398,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://rpsc.rajasthan.gov.in/",
     "official": "https://rpsc.rajasthan.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://rpsc.rajasthan.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-sikkim",
@@ -5446,7 +11448,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://spsc.sikkim.gov.in/",
     "official": "https://spsc.sikkim.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Sikkim PSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://spsc.sikkim.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-tamil-nadu",
@@ -5467,7 +11498,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.tnpsc.gov.in/",
     "official": "https://www.tnpsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "TNPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.tnpsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-telangana",
@@ -5488,7 +11548,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.tspsc.gov.in/",
     "official": "https://www.tspsc.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "TSPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.tspsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-tripura",
@@ -5509,7 +11598,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://tpsc.tripura.gov.in/",
     "official": "https://tpsc.tripura.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Tripura PSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://tpsc.tripura.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-uttar-pradesh",
@@ -5530,7 +11648,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://uppsc.up.nic.in/",
     "official": "https://uppsc.up.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPPSC / UP Government Latest Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://uppsc.up.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-uttarakhand",
@@ -5551,7 +11698,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://psc.uk.gov.in/",
     "official": "https://psc.uk.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UKPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://psc.uk.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-west-bengal",
@@ -5572,7 +11748,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://psc.wb.gov.in/",
     "official": "https://psc.wb.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "WBPSC Latest Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://psc.wb.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-andaman-nicobar-islands",
@@ -5593,7 +11798,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.andaman.gov.in/",
     "official": "https://www.andaman.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Andaman & Nicobar Administration Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.andaman.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-chandigarh",
@@ -5614,7 +11848,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://chandigarh.gov.in/",
     "official": "https://chandigarh.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Chandigarh Administration / Department Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://chandigarh.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-dadra-nagar-haveli-and-daman-diu",
@@ -5635,7 +11898,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://ddd.gov.in/",
     "official": "https://ddd.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UT Administration Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ddd.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-delhi",
@@ -5656,7 +11948,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://dsssb.delhi.gov.in/",
     "official": "https://dsssb.delhi.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Delhi Government / DSSSB Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://dsssb.delhi.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-jammu-kashmir",
@@ -5677,7 +11998,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://jkpsc.nic.in/",
     "official": "https://jkpsc.nic.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "JKPSC / J&K Government Latest Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://jkpsc.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-ladakh",
@@ -5698,7 +12048,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://ladakh.gov.in/",
     "official": "https://ladakh.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Ladakh Administration Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ladakh.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-lakshadweep",
@@ -5719,7 +12098,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://lakshadweep.gov.in/",
     "official": "https://lakshadweep.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Lakshadweep Administration Government Recruitment",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://lakshadweep.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "state-puducherry",
@@ -5740,7 +12148,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.py.gov.in/",
     "official": "https://www.py.gov.in/",
     "documents": "Photo, signature, valid ID, DOB proof, educational certificates, category/EWS/PwBD/ExSM certificates and post-specific documents as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification varies by department and post."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Puducherry Government / Recruitment Notifications",
+        "vacancy": "Latest vacancies are published department-wise on the state recruitment/PSC portal."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.py.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "appsc-group1-2026-latest",
@@ -5762,7 +12199,36 @@ window.AJ_JOB_DATA = [
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "DOB proof, degree/marksheets, photo, signature, valid ID, AP/local/category certificates where applicable, experience/NOC if required.",
     "lastChecked": "07/10/2026",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise degree/qualification as prescribed in APPSC notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Group-I Services — Notification No.07/2026",
+        "vacancy": "166 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://portal-psc.ap.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "appsc-aee-2026-latest",
@@ -5784,7 +12250,36 @@ window.AJ_JOB_DATA = [
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "Engineering qualification certificate and marksheets, DOB proof, photo, signature, ID, category/local certificates where applicable.",
     "lastChecked": "07/10/2026",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant Engineering qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Assistant Environmental Engineer — Notification No.08/2026",
+        "vacancy": "41 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://portal-psc.ap.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "appsc-horticulture-officer-2026",
@@ -5806,7 +12301,36 @@ window.AJ_JOB_DATA = [
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "Degree/marksheets, DOB proof, photo, signature, ID, category/local certificate where applicable.",
     "lastChecked": "07/10/2026",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant horticulture/agriculture qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Horticulture Officer — Notification No.19/2026",
+        "vacancy": "37 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://portal-psc.ap.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "arunachal-appsc-063-2026",
@@ -5830,7 +12354,33 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "09/10/2026",
     "updates": "Official APPSC recruitment portal currently lists Advertisement No. 063/2026 with prescribed last date 27/10/2026.",
     "verificationStatus": "Official APPSC listing checked 09/10/2026; summary displays last date 27/10/2026 but does not expose post/eligibility details in the listing.",
-    "verificationSource": "https://appsc.gov.in/Index/institute_index/ins/RECINS001"
+    "verificationSource": "https://appsc.gov.in/Index/institute_index/ins/RECINS001",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific qualification is not exposed in the official listing summary; verify the advertisement details before applying."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Recruitment — Advertisement No.063/2026",
+        "vacancy": "Post name and vacancy count are not exposed in the official listing summary; open Advertisement No. 063/2026 details."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ]
   },
   {
     "id": "arunachal-appsc-062-2026",
@@ -5851,7 +12401,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
     "official": "https://www.appsc.gov.in/",
     "documents": "Qualification/marksheets, DOB proof, photo, signature, valid ID and Arunachal/local/category certificates where required.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in Advertisement No.062/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Recruitment — Advertisement No.062/2026",
+        "vacancy": "Post details in official advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.appsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "bihar-bpsc-72nd-cce-2026",
@@ -5872,7 +12451,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://bpsc.bihar.gov.in/exam-calendar/",
     "official": "https://bpsc.bihar.gov.in/",
     "documents": "Degree/marksheets, DOB proof, photo, signature, valid ID, Bihar/category certificates where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Bachelor's degree or post-wise eligibility as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BPSC 72nd Combined Competitive Examination",
+        "vacancy": "1,189 posts listed in BPSC exam calendar"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://bpsc.bihar.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "goa-chairman-gspcb-2026",
@@ -5893,7 +12501,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.goa.gov.in/citizen/recruitment/",
     "official": "https://www.goa.gov.in/",
     "documents": "Application form, qualification/experience proof, DOB proof, photo, ID and supporting certificates as prescribed.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in official recruitment notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Chairman — Goa State Pollution Control Board",
+        "vacancy": "1 Chairman post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.goa.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "goa-tourism-manager-marketing-2026",
@@ -5914,7 +12551,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.goa.gov.in/citizen/recruitment/",
     "official": "https://www.goa.gov.in/",
     "documents": "Qualification, experience, DOB, photo, ID and other certificates prescribed in advertisement.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in GTDC recruitment advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Manager (Marketing) — Goa Tourism Development Corporation Ltd.",
+        "vacancy": "Manager (Marketing)"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.goa.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "goa-junior-engineer-civil-2026",
@@ -5935,7 +12601,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.goa.gov.in/citizen/recruitment/",
     "official": "https://www.goa.gov.in/",
     "documents": "Civil Engineering certificate/marksheets, DOB proof, photo, ID, category/experience documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Civil Engineering qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Junior Engineer (Civil) — Goa Housing Board",
+        "vacancy": "Junior Engineer (Civil)"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.goa.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "hppscc-64-10-2026",
@@ -5956,7 +12651,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "Medical qualification, registration, experience, DOB, photo, ID and category certificates as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Postgraduate/superspecialty medical qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HPPSC Assistant Professor (Superspecialty) GI Surgery — Advt. 64/10-2026",
+        "vacancy": "Assistant Professor, GI Surgery"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hppsc.hp.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "hppsc-agriculture-development-officer-2026",
@@ -5977,7 +12701,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "Agriculture qualification/marksheets, DOB proof, photo, ID, category/domicile and other prescribed documents.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Agriculture degree/eligibility as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Agriculture Development Officer Group-A (Job-Trainee) — Advt. 63/9-2026",
+        "vacancy": "Agriculture Development Officer Group-A"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hppsc.hp.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "kerala-psc-gazette-151-161-2026",
@@ -5998,7 +12751,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.keralapsc.gov.in/notifications",
     "official": "https://www.keralapsc.gov.in/",
     "documents": "10th/12th/degree or post-specific qualification, DOB proof, photo, signature, ID and community/category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Category-wise eligibility in official Gazette"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Kerala PSC Extra Ordinary Gazette — Cat. No.151/2026 to 161/2026",
+        "vacancy": "Multiple posts across categories"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.keralapsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "odisha-aee-civil-2026",
@@ -6019,7 +12801,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.opsc.gov.in/",
     "official": "https://www.opsc.gov.in/",
     "documents": "Engineering degree/marksheets, DOB proof, photo, signature, valid ID, Odisha/category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Civil Engineering qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "OPSC Assistant Executive Engineer (Civil) — Advt. No.07 of 2026-27",
+        "vacancy": "Category-wise vacancy published by OPSC"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.opsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "odisha-assistant-agriculture-engineer-2026",
@@ -6040,7 +12851,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.opsc.gov.in/",
     "official": "https://www.opsc.gov.in/",
     "documents": "Agricultural Engineering qualification, DOB proof, photo, signature, ID and category certificates as applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Agricultural Engineering qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "OPSC Assistant Agriculture Engineer — Advt. No.08 of 2026-27",
+        "vacancy": "Assistant Agriculture Engineer posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.opsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "puducherry-vice-chancellor-ptu-2026",
@@ -6061,7 +12901,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.py.gov.in/recruitment",
     "official": "https://www.py.gov.in/",
     "documents": "Academic/professional profile, experience, DOB, ID and supporting documents as prescribed.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in official advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Vice-Chancellor — Puducherry Technological University",
+        "vacancy": "Vice-Chancellor"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.py.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "puducherry-dowry-advisory-board-2026",
@@ -6082,7 +12951,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.py.gov.in/recruitment",
     "official": "https://www.py.gov.in/",
     "documents": "Application, ID, DOB, qualification/experience and supporting documents as prescribed.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in Women & Child Development notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Chairperson/Member — Dowry Advisory Board",
+        "vacancy": "Chairperson/Member positions"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.py.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "puducherry-forest-consultant-2026",
@@ -6103,7 +13001,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.py.gov.in/recruitment",
     "official": "https://www.py.gov.in/",
     "documents": "Retirement/service record, qualification/experience proof, DOB, ID and other prescribed documents.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Retired Government Officials meeting prescribed conditions"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Consultant — Directorate of Forests & Wildlife",
+        "vacancy": "Consultant engagement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.py.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "andaman-dhs-various-posts-2026",
@@ -6124,7 +13051,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://andamannicobar.gov.in/vacancy_all",
     "official": "https://andamannicobar.gov.in/",
     "documents": "Post-specific qualification, DOB proof, photo, ID, experience/category certificates where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise eligibility in DHS notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DHS North & Middle Andaman — Various Posts Recruitment",
+        "vacancy": "Various posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://andamannicobar.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "andaman-inland-vessel-surveyor-2026",
@@ -6145,7 +13101,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://andamannicobar.gov.in/vacancy_all",
     "official": "https://andamannicobar.gov.in/",
     "documents": "Relevant qualification/experience, DOB proof, photo, ID and prescribed certificates.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in official vacancy notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Inland Vessel Surveyor — Port Management Board",
+        "vacancy": "02 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://andamannicobar.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "chandigarh-utcps-contract-2026",
@@ -6166,7 +13151,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://chandigarh.gov.in/public-notice",
     "official": "https://chandigarh.gov.in/",
     "documents": "Post-specific qualification, DOB proof, photo, ID, experience/category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise eligibility in corrigendum"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UT Child Protection Society — Contractual Posts (Corrigendum)",
+        "vacancy": "Contractual posts — see notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://chandigarh.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ddd-disaster-project-officer-diu-2026",
@@ -6187,7 +13201,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://ddd.gov.in/notice-category/recruitments/",
     "official": "https://ddd.gov.in/",
     "documents": "Prescribed qualification/experience, DOB proof, photo, ID and supporting certificates.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Qualification and experience as detailed in official notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Disaster Project Officer — Collector Office, Diu",
+        "vacancy": "01 post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ddd.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "lakshadweep-nursing-allied-2026",
@@ -6208,7 +13251,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://lakshadweep.gov.in/notice_category/recruitment/",
     "official": "https://lakshadweep.gov.in/",
     "documents": "Professional qualification, registration, DOB proof, photo, ID, experience and other certificates as prescribed.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise nursing/allied healthcare qualification and registration as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Nursing Officers & Allied Healthcare Staff — DHS Lakshadweep",
+        "vacancy": "Nursing Officers and Allied Healthcare Staff"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://lakshadweep.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "haryana-hssc-groupd-052026",
@@ -6230,7 +13302,36 @@ window.AJ_JOB_DATA = [
     "official": "https://hssc.gov.in/",
     "documents": "10th certificate/DOB proof, photo, signature, valid ID, Haryana domicile/category/EWS certificates where applicable and other prescribed documents.",
     "lastChecked": "07/10/2026",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by HSSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HSSC CET Group-D 05/2026 — Apply / Recruitment",
+        "vacancy": "CET Group-D posts — as per Advt. 05/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "appsc-group1-aee-ho-2026",
@@ -6252,7 +13353,36 @@ window.AJ_JOB_DATA = [
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "DOB proof, prescribed educational certificates/marksheets, photo, signature, valid ID, AP/local-status or category certificates where applicable, experience/NOC where prescribed.",
     "lastChecked": "07/10/2026",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise Degree/Engineering/Agriculture/Horticulture or other prescribed qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Group-I Services / Assistant Environmental Engineer / Horticulture Officer Recruitment 2026",
+        "vacancy": "Group-I: 166 posts; AEE: 41 posts; Horticulture Officer: 37 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://portal-psc.ap.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "gssc-fso-veterinary-assistant-2026",
@@ -6273,7 +13403,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://gssc.goa.gov.in/",
     "official": "https://gssc.goa.gov.in/",
     "documents": "DOB proof, prescribed qualification and marksheets, professional registration where required, photo, signature, valid ID and category certificates where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed Food Safety/Veterinary qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Goa SSC Food Safety Officer & Veterinary Assistant Recruitment 2026",
+        "vacancy": "32 Posts — 5 Food Safety Officer + 27 Veterinary Assistant"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://gssc.goa.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "btsc-scientific-assistant-30-2026",
@@ -6294,7 +13453,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://btsc.bihar.gov.in/recruitment?page=0",
     "official": "https://btsc.bihar.gov.in/",
     "documents": "DOB proof, prescribed degree/qualification and marksheets, photo, signature, valid ID, Bihar/category certificates where applicable and other documents specified in Advt. 30/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant prescribed Science/technical qualification as detailed in Advt. 30/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BTSC Scientific Assistant Recruitment 2026 — Advt. 30/2026",
+        "vacancy": "Scientific Assistant — post-wise vacancies in official advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://btsc.bihar.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "btsc-fso-29-2026",
@@ -6315,7 +13503,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://btsc.bihar.gov.in/hi/node/1236",
     "official": "https://btsc.bihar.gov.in/",
     "documents": "DOB proof, prescribed qualification/marksheets, photo, signature, valid ID, Bihar/category certificates where applicable and other documents specified in Advt. 29/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Prescribed Food Safety Officer qualification under Advt. 29/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BTSC Food Safety Officer Recruitment 2026 — Advt. 29/2026",
+        "vacancy": "Food Safety Officer — post-wise vacancies in official advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://btsc.bihar.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "btsc-fishery-extension-28-2026",
@@ -6336,7 +13553,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://btsc.bihar.gov.in/recruitment?page=0",
     "official": "https://btsc.bihar.gov.in/",
     "documents": "DOB proof, prescribed Fisheries qualification/marksheets, photo, signature, valid ID, Bihar/category certificates where applicable and other prescribed documents.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Prescribed Fisheries qualification as detailed by BTSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BTSC Fishery Extension Officer Recruitment 2026 — Advt. 28/2026",
+        "vacancy": "Fishery Extension Officer — official advertisement-wise"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://btsc.bihar.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "hppsc-ado-63-2026",
@@ -6357,7 +13603,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://hppsc.hp.gov.in/",
     "official": "https://hppsc.hp.gov.in/",
     "documents": "DOB proof, Agriculture degree/marksheets, photo, signature, valid ID, Himachal/category certificates where applicable and other prescribed documents.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Prescribed Agriculture degree/qualification as detailed in advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HPPSC Agriculture Development Officer Group-A (Job-Trainee) — Advt. 63/9-2026",
+        "vacancy": "Agriculture Development Officer — as notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hppsc.hp.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mphc-steno-388-2026",
@@ -6382,7 +13657,36 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://mphc.gov.in/exam-cell",
       "official": "https://mphc.gov.in/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed qualification, computer/typing and shorthand requirements"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MP High Court Stenographer Grade-II & Grade-III Recruitment 2026",
+        "vacancy": "388 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mphc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mpesb-police-constable-gd-2026",
@@ -6403,7 +13707,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx?Action=showServiceList",
     "official": "https://esb.mponline.gov.in/",
     "documents": "DOB proof, prescribed education certificate, photo, signature, valid ID, MP domicile/category certificates where applicable and other documents prescribed in the official rulebook.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the MPESB Police Constable notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MPESB Police Constable (GD) Selection Test 2026",
+        "vacancy": "As per MPESB recruitment notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://esb.mponline.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mpesb-subedar-asi-steno-2026",
@@ -6424,7 +13757,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx?Action=showServiceList",
     "official": "https://esb.mponline.gov.in/",
     "documents": "DOB proof, prescribed qualification/marksheets, shorthand/typing/computer certificates where applicable, photo, signature, valid ID, MP domicile/category certificates and other prescribed documents.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed qualification, shorthand/typing/computer requirements"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MPESB Subedar (Secretarial), Stenographer & Assistant Sub-Inspector (Secretarial) Recruitment 2026",
+        "vacancy": "As per MPESB recruitment notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://esb.mponline.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "mpesb-naib-tehsildar-limited-2026",
@@ -6445,7 +13807,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx?Action=showServiceList",
     "official": "https://esb.mponline.gov.in/",
     "documents": "Service/employment records, DOB proof, qualification and eligibility documents, photo, signature, ID and other certificates prescribed for eligible candidates.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Eligibility as prescribed for eligible departmental/Revenue cadre candidates in the official notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "MP Revenue Department Limited Competitive Naib Tehsildar Direct Recruitment Examination 2026",
+        "vacancy": "Naib Tehsildar posts through limited competitive examination"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://esb.mponline.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "odisha-osssc-radiographer-2026-v2",
@@ -6466,7 +13857,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://osssc.gov.in/Public/OSSSC/Default.aspx",
     "official": "https://osssc.gov.in/",
     "documents": "Radiographer qualification/registration, DOB proof, photograph, signature, valid ID and applicable category certificates.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Prescribed Radiographer qualification and registration"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "OSSSC Radiographer Recruitment 2026 — Registration / Re-registration / Online Application",
+        "vacancy": "Radiographer-2026 — as per official recruitment notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://osssc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "kerala-psc-gazette-151-161-2026-v2",
@@ -6487,7 +13907,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.keralapsc.gov.in/notifications",
     "official": "https://www.keralapsc.gov.in/",
     "documents": "Post-wise qualification, DOB proof, photograph, valid ID and supporting certificates as prescribed.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed by Kerala PSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Kerala PSC Extra Ordinary Gazette — Category Nos. 151/2026 to 161/2026",
+        "vacancy": "Post-wise vacancies across Category Nos. 151/2026–161/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.keralapsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "appsc-hostel-welfare-officer-73-2026",
@@ -6508,7 +13957,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
     "official": "https://portal-psc.ap.gov.in/",
     "documents": "DOB proof, prescribed degree/marksheets, photograph, signature, valid ID and applicable category/local-status certificates as prescribed.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Bachelor's degree or equivalent as prescribed in Notification No. 25/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APPSC Hostel Welfare Officer Grade-II Recruitment 2026 — Notification No. 25/2026",
+        "vacancy": "73 Posts — Social Welfare 21, Tribal Welfare 23, BC Welfare 29"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://portal-psc.ap.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "odisha-ssb-lab-assistant-435-2026",
@@ -6534,7 +14012,36 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://ssbodisha.ac.in/",
       "official": "https://ssbodisha.ac.in/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Bachelor's Degree with Honours in the respective practical subject and Odia-language requirements as prescribed in the advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Odisha SSB Laboratory Assistant-cum-Storekeeper Recruitment 2026 — Advt. 04/2026",
+        "vacancy": "435 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssbodisha.ac.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "odisha-ssb-junior-assistant-chse-2026",
@@ -6556,7 +14063,36 @@ window.AJ_JOB_DATA = [
     "official": "https://ssbodisha.ac.in/",
     "documents": "Prescribed educational qualification, DOB proof, photograph, signature, valid ID and category certificates where applicable.",
     "lastChecked": "07/10/2026",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in SSB Odisha Advertisement No. 03/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Odisha SSB Junior Assistant in CHSE Recruitment 2026 — Advt. 03/2026",
+        "vacancy": "883 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssbodisha.ac.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrc-nwr-apprentice-2008-2026",
@@ -6576,7 +14112,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://rrcjaipur.in/",
     "official": "https://rrcjaipur.in/",
     "documents": "10th certificate/marksheet, ITI certificate and marksheet, DOB proof, photograph, signature, valid ID, caste/EWS/PwBD certificate where applicable and other prescribed documents.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th pass with minimum prescribed marks and ITI in relevant trade from recognized institution"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRC North Western Railway Act Apprentice Recruitment 2026 — 2,008 Posts",
+        "vacancy": "2,008 Act Apprentice posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://rrcjaipur.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-drl-jrf-ra-2026",
@@ -6596,7 +14161,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Prescribed degree/qualification, marksheets, DOB proof, photograph, valid ID, category certificates where applicable and documents specified in the DRDO advertisement.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed qualification in the DRDO advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DRDO DRL Tezpur JRF & RA Recruitment 2026 — Advt. DRL/JRF-RA/Interview/03/2026",
+        "vacancy": "JRF & RA posts as notified by DRL, Tezpur"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://drdo.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-dmrl-jrf-2026",
@@ -6616,7 +14210,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Relevant degree/qualification and marksheets, DOB proof, photograph, valid ID and category/other supporting documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant prescribed engineering/science qualification as detailed in the DMRL advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DRDO DMRL JRF Recruitment 2026 — Advt. DMRL/HRD/JRF/2026/01",
+        "vacancy": "Junior Research Fellow posts as notified by DMRL"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://drdo.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-cair-jrf-2026",
@@ -6636,7 +14259,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Relevant degree/qualification and marksheets, DOB proof, photograph, valid ID and category/other supporting documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant prescribed engineering/science qualification as detailed in the CAIR advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DRDO CAIR Bengaluru JRF Recruitment 2026 — Advt. CAIR/HRT/JRF/2026/03",
+        "vacancy": "Junior Research Fellow posts as notified by CAIR, Bengaluru"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://drdo.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "railway-ncr-gdce-01-2026",
@@ -6656,7 +14308,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://rrcpryj.org/notification/",
     "official": "https://rrcpryj.org/",
     "documents": "Railway employee/service records, prescribed qualification documents, employee ID and other documents specified in the GDCE notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Eligibility restricted to serving eligible railway employees as prescribed in the detailed notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "North Central Railway GDCE Recruitment 2026 — Notification No. RRC/NCR/GDCE-01/2026",
+        "vacancy": "Posts under General Departmental Competitive Examination — as per detailed zonal notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://rrcpryj.org/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "railway-nwr-cultural-quota-2026",
@@ -6676,7 +14357,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://rrcjaipur.in/",
     "official": "https://rrcjaipur.in/",
     "documents": "Educational qualification, cultural achievement certificates, DOB proof, photograph, valid ID and other prescribed documents.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Prescribed educational and cultural qualification as detailed in the official notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "North Western Railway Cultural Quota Recruitment 2026-27",
+        "vacancy": "Cultural Quota posts as notified by RRC NWR"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://rrcjaipur.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "railway-rci-apprentice-2026-27",
@@ -6696,7 +14406,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
     "official": "https://drdo.gov.in/",
     "documents": "Relevant ITI/diploma/degree certificates and marksheets, DOB proof, photograph, valid ID, apprenticeship registration and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant ITI/diploma/degree apprentice eligibility as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DRDO RCI Hyderabad Apprentice Recruitment 2026-27",
+        "vacancy": "Apprentice positions as notified by RCI"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://drdo.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sbi-sco-contract-25-2026",
@@ -6716,7 +14455,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://sbi.bank.in/web/careers/current-openings1",
     "official": "https://sbi.bank.in/web/careers/",
     "documents": "Educational/professional certificates, marksheets, DOB proof, photograph, valid ID, experience certificates and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed professional qualification and experience"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SBI Specialist Cadre Officer on Contract Basis — Advt. CRPD/SCO/2026-27/25",
+        "vacancy": "Specialist Cadre Officer posts as notified in Advertisement No. 25"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sbi.bank.in/web/careers/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sbi-sco-contract-24-2026",
@@ -6736,7 +14504,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://sbi.bank.in/web/careers/current-openings1",
     "official": "https://sbi.bank.in/web/careers/",
     "documents": "Educational/professional certificates, marksheets, DOB proof, photograph, valid ID, experience certificates and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed professional qualification and experience"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SBI Specialist Cadre Officer on Contract Basis — Advt. CRPD/SCO/2026-27/24",
+        "vacancy": "Specialist Cadre Officer posts as notified in Advertisement No. 24"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sbi.bank.in/web/careers/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sbi-sco-dean-faculty-marketing-20-2026",
@@ -6756,7 +14553,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://sbi.bank.in/web/careers/current-openings1",
     "official": "https://sbi.bank.in/web/careers/",
     "documents": "Educational/professional certificates, marksheets, DOB proof, photograph, valid ID, experience certificates and other documents prescribed by SBI.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed qualification and experience"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "SBI Specialist Cadre Officers — Dean, Faculty & Marketing Executive — Advt. CRPD/SCO/2026-27/20",
+        "vacancy": "Dean, Faculty & Marketing Executive posts as notified by SBI"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sbi.bank.in/web/careers/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "rrb-paramedical-cen-05-2026",
@@ -6776,7 +14602,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.rrbcdg.gov.in/",
     "official": "https://www.rrbcdg.gov.in/",
     "documents": "Educational/paramedical certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise prescribed medical/paramedical qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRB Paramedical Recruitment 2026 — CEN 05/2026",
+        "vacancy": "590 posts — Nursing Superintendent, Pharmacist, Health & Malaria Inspector Grade III and other paramedical categories"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrbcdg.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "sainik-school-mainpuri-tgt-counsellor-oct-2026",
@@ -6796,7 +14651,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.sainikschoolmainpuri.com/notifications",
     "official": "https://www.sainikschoolmainpuri.com/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and experience/category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed in the official notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Sainik School Mainpuri Recruitment — TGT English & Counsellor (Contractual) October 2026",
+        "vacancy": "TGT English and Counsellor contractual posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.sainikschoolmainpuri.com/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "kvs-deputy-commissioner-direct-2026",
@@ -6816,7 +14700,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://kvsangathan.nic.in/en/updates/",
     "official": "https://kvsangathan.nic.in/",
     "documents": "Educational certificates, experience/service documents, DOB proof, photograph, ID and other documents prescribed by KVS.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in KVS Advertisement No. 05/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Kendriya Vidyalaya Sangathan — Deputy Commissioner Direct Recruitment 2026",
+        "vacancy": "Deputy Commissioner — direct recruitment"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://kvsangathan.nic.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ircon-mts-office-support-015-2026",
@@ -6836,7 +14749,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the official IRCON notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IRCON MTS / Office Support Recruitment 2026 — IRCON/RECT/2026/015",
+        "vacancy": "MTS / Office Support posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://irconcareers.org/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ircon-clerk-deo-017-2026",
@@ -6856,7 +14798,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the official IRCON notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IRCON Junior Office Assistant / Clerk / DEO Recruitment 2026 — IRCON/RECT/2026/017",
+        "vacancy": "Junior Office Assistant / Clerk / DEO posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://irconcareers.org/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ircon-storekeeper-material-018-2026",
@@ -6876,7 +14847,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the official IRCON notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IRCON Storekeeper / Material Assistant Recruitment 2026 — IRCON/RECT/2026/018",
+        "vacancy": "Storekeeper / Material Assistant posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://irconcareers.org/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ircon-trade-technician-019-2026",
@@ -6896,7 +14896,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://irconcareers.org/",
     "official": "https://irconcareers.org/",
     "documents": "ITI/trade certificate, marksheets, DOB proof, photograph, valid ID and category documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant trade qualification as prescribed in the official IRCON notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IRCON Trade Technician — Fitter / Electrician / Welder Recruitment 2026 — IRCON/RECT/2026/019",
+        "vacancy": "Trade Technician posts in Fitter, Electrician and Welder categories"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://irconcareers.org/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "iit-jodhpur-apprentice-2-2026",
@@ -6916,7 +14945,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://iitj.ac.in/office-of-establishment-nf/en/establishment-nf-recruitment",
     "official": "https://iitj.ac.in/",
     "documents": "Educational certificates, marksheets, DOB proof, photograph, ID and apprenticeship/NATS documents where applicable.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant qualification as prescribed in the official advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IIT Jodhpur Apprentice Recruitment 2026 — IITJ/Apprentice (2)/2026",
+        "vacancy": "Apprentice positions as notified by IIT Jodhpur"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://iitj.ac.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "apprenticeship-job-fair-begusarai-2026",
@@ -6936,7 +14994,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://apprenticeship.bopter.org/jobfair",
     "official": "https://apprenticeship.bopter.org/jobfair",
     "documents": "Educational/ITI/diploma/degree certificates, ID, photograph and documents requested by participating establishments.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by participating establishments"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Apprenticeship-Cum-Job Fair — Begusarai, Bihar — 07 October 2026",
+        "vacancy": "910 vacancies across 20 registered establishments"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://apprenticeship.bopter.org/jobfair",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "tnpsc-group4-2026",
@@ -6967,7 +15054,27 @@ window.AJ_JOB_DATA = [
     "examDate": "10/01/2027, as shown on the official TNPSC notification portal.",
     "categoryVacancy": "6,574 total vacancies. Post-wise and community-wise reservation figures must be read from the official notification's vacancy annexures; not reproduced here without row-by-row transcription.",
     "verificationStatus": "VERIFIED FOR NOTIFICATION ID, APPLICATION WINDOW, TOTAL 6,574 VACANCIES AND EXAM DATE FROM THE OFFICIAL TNPSC APPLICATION/NOTIFICATION PORTAL. Post-wise qualification, fee exemption, category roster and pay scales remain to be transcribed from the full notification before treating those fields as complete.",
-    "updates": "Official TNPSC portal lists Notification No. 11/2026 dated 06/10/2026 for Combined Civil Services Examination-IV (Group IV), applications 06/10/2026–05/11/2026 and exam date 10/01/2027."
+    "updates": "Official TNPSC portal lists Notification No. 11/2026 dated 06/10/2026 for Combined Civil Services Examination-IV (Group IV), applications 06/10/2026–05/11/2026 and exam date 10/01/2027.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise educational qualification varies. SSLC/10th is required for many posts; certain posts require additional typing, technical, driving, degree or other prescribed qualifications. Check the exact post code in the official notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "TNPSC Group IV Services Recruitment 2026 — Notification No. 11/2026",
+        "vacancy": "6,574 vacancies across 46 post entries as reported for Notification No. 11/2026; post-wise vacancy details are in the official English/Tamil notification PDF."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://apply.tnpscexams.in/notification?app_id=UElZMDAwMDAwMQ"
   },
   {
     "id": "appsc-arunachal-063-2026",
@@ -6991,7 +15098,33 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "09/10/2026",
     "updates": "Official APPSC recruitment portal currently lists Advertisement No. 063/2026 with prescribed last date 27/10/2026.",
     "verificationStatus": "Official APPSC listing checked 09/10/2026; summary displays last date 27/10/2026 but does not expose post/eligibility details in the listing.",
-    "verificationSource": "https://appsc.gov.in/Index/institute_index/ins/RECINS001"
+    "verificationSource": "https://appsc.gov.in/Index/institute_index/ins/RECINS001",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific qualification is not exposed in the official listing summary; verify the advertisement details before applying."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Arunachal Pradesh PSC Recruitment — Advertisement No.063/2026",
+        "vacancy": "Post name and vacancy count are not exposed in the official listing summary; open Advertisement No. 063/2026 details."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ]
   },
   {
     "id": "appsc-arunachal-062-2026",
@@ -7012,7 +15145,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://www.appsc.gov.in/Index/institute_index/ins/RECINS001",
     "official": "https://www.appsc.gov.in/",
     "documents": "As prescribed in official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Arunachal Pradesh PSC Recruitment — Advertisement No.062/2026",
+        "vacancy": "Post-wise vacancies as per official advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.appsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "tnpsc-technical-08-2026",
@@ -7033,7 +15195,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://apply.tnpscexams.in/notification",
     "official": "https://www.tnpsc.gov.in/",
     "documents": "As prescribed in official notification.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "TNPSC Combined Technical Services Examination — Interview Posts",
+        "vacancy": "As per Notification No.08/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.tnpsc.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "telangana-hyd-ayush-2026",
@@ -7054,7 +15245,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://hyderabad.telangana.gov.in/notice_category/recruitment/",
     "official": "https://hyderabad.telangana.gov.in/",
     "documents": "Application as prescribed in official notice.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise as per official notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Hyderabad District AYUSH — Various Posts under NAM Scheme 2026",
+        "vacancy": "Various posts: Medical Officer, Dietician, MPW, Psychosocial Counselor, Yoga Professional"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hyderabad.telangana.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "maharashtra-raigad-kotwal-2026",
@@ -7075,7 +15295,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://raigad.gov.in/en/notice_category/recruitment/",
     "official": "https://raigad.gov.in/",
     "documents": "As prescribed in official notice.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in official district notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Raigad District Revenue Servant (Kotwal) Recruitment 2026",
+        "vacancy": "Taluka Alibag & Taluka Murud — vacancy details as per district notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://raigad.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "ddd-samagra-shiksha-2026",
@@ -7096,7 +15345,36 @@ window.AJ_JOB_DATA = [
     "notice": "https://ddd.gov.in/notice-category/Recruitments/",
     "official": "https://ddd.gov.in/",
     "documents": "As prescribed in official notice.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in official notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Directorate of Education — Samagra Shiksha Contract Recruitment 2026",
+        "vacancy": "Posts as per Directorate of Education advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ddd.gov.in/",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "haryana-ulb-taxation-experts-2026",
@@ -7118,7 +15396,35 @@ window.AJ_JOB_DATA = [
     "official": "https://ulbharyana.gov.in/",
     "documents": "Photo, ID proof, educational certificates, experience documents and other documents prescribed in the notice.",
     "updates": "Official Haryana ULB recruitment page lists the Taxation Experts, Taxation Associates and Sanitation Experts/Associates recruitment; listed closing date 30/09/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-specific qualification as prescribed by ULB Haryana"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Haryana ULB Taxation Experts / Associates / Sanitation Experts Associates Recruitment",
+        "vacancy": "Post-wise contractual vacancies"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ulbharyana.gov.in/"
   },
   {
     "id": "trai-joint-advisor-kolkata-2026",
@@ -7132,39 +15438,39 @@ window.AJ_JOB_DATA = [
     "shortInfo": "TRAI में Kolkata Regional Office के Joint Advisor पद पर deputation (foreign service terms) के आधार पर नियुक्ति। Official TRAI vacancy listing के अनुसार आवेदन की अंतिम तिथि 16/10/2026 है। यह serving eligible officers के लिए है; सामान्य direct recruitment नहीं।",
     "openDate": "14/05/2026",
     "lastDate": "16/10/2026",
-    "feeDate": "अलग fee-payment date प्रकाशित नहीं; deputation notice में आवेदन शुल्क निर्दिष्ट नहीं है।",
-    "correctionDate": "कोई correction window प्रकाशित नहीं मिली।",
-    "examDate": "लिखित परीक्षा की तारीख प्रकाशित नहीं; चयन deputation प्रक्रिया के अनुसार।",
+    "feeDate": "अलग fee-payment date प्रकाशित नहीं; deputation notice में application fee निर्दिष्ट नहीं है।",
+    "correctionDate": "TRAI official listing पर अलग correction window सूचीबद्ध नहीं है।",
+    "examDate": "लिखित परीक्षा की तारीख प्रकाशित नहीं; notice के अनुसार eligibility और experience पर deputation selection।",
     "mode": "Online application + prescribed hard-copy forwarding",
-    "vacancy": "1 Joint Advisor post (singular post as notified)",
-    "categoryVacancy": "एक Joint Advisor पद; category-wise reservation breakup notice में नहीं दिया गया।",
-    "qualification": "संबंधित क्षेत्र में अनुभव के साथ निम्न में से एक: AICTE-recognised Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering में Bachelor’s degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor’s या Master’s degree; या ICAI / ICMAI membership.",
-    "eligibility": "Central/State Government, UT Administration, autonomous body, statutory organisation, PSU, recognised university या recognised research institution के अधिकारी: (i) parent cadre/department में analogous post पर regular basis पर; या (ii) Level-12 (₹78,800–₹2,09,200) में regular appointment के बाद 4 वर्ष सेवा; या (iii) Group A/equivalent में कम-से-कम 12 वर्ष regular service और Level-11/equivalent पर कम-से-कम 6 वर्ष regular service। नियुक्ति प्रारम्भ में 3 वर्ष की deputation पर।",
+    "vacancy": "1 Joint Advisor post — TRAI Regional Office Kolkata.",
+    "categoryVacancy": "1 Joint Advisor post; अलग category-wise vacancy breakup notice में नहीं दिया गया।",
+    "qualification": "Relevant-field experience plus one or more of: AICTE-recognised Bachelor's degree in Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering; or UGC-recognised Bachelor's or Master's degree in Business Administration / Economics / Commerce / Engineering / Law / Science / Humanities; or ICAI/ICMAI membership.",
+    "eligibility": "Eligible serving officers of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or research institution: (i) analogous post on regular basis; or (ii) 4 years regular service after appointment at Level-12/equivalent; or (iii) at least 12 years regular Group A/equivalent service including at least 6 years at Level-11/equivalent.",
     "age": "अंतिम आवेदन तिथि पर अधिकतम 56 वर्ष।",
-    "ageAsOn": "16/10/2026 (TRAI में applications जमा करने की अंतिम तिथि)",
+    "ageAsOn": "16/10/2026 (TRAI official vacancy listing की closing date)",
     "ageRelaxation": "अलग category-wise relaxation सूचीबद्ध नहीं; deputation के लिए अधिकतम आयु 56 वर्ष की शर्त लागू।",
     "fee": "Official deputation circular में application fee निर्दिष्ट नहीं है।",
     "paymentMode": "Payment mode: notice में application fee/payment प्रक्रिया निर्दिष्ट नहीं है; किसी अनधिकृत व्यक्ति को भुगतान न करें।",
-    "selection": "Eligibility और relevant experience के आधार पर deputation selection; notification में written exam date/selection test schedule प्रकाशित नहीं है।",
+    "selection": "Deputation on foreign service terms based on eligibility and relevant experience; no written exam date is published in the notice. Initial tenure: 3 years. Premature repatriation may lead to a 3-year bar on applying to TRAI vacancies, as stated in the notice.",
     "salary": "Pay Level-13: ₹1,23,100–₹2,15,900 (7th CPC Pay Matrix) + applicable allowances as per Government rules.",
     "apply": "https://vacancies.trai.gov.in/",
-    "notice": "https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf",
+    "notice": "https://www.trai.gov.in/sites/default/files/2026-05/Vacancy_14052026.pdf",
     "official": "https://www.trai.gov.in/vacancies",
     "documents": "Online application form का printout; पिछले 5 वर्षों के attested ACR/APAR; vigilance/disciplinary clearance; cadre clearance; relevant qualification, service और experience records; अन्य prescribed deputation papers.",
-    "updates": "TRAI official vacancy page पर Kolkata Joint Advisor post की closing date 16/10/2026 सूचीबद्ध है। Haryana Chief Secretary Office ने संबंधित notice 07/10/2026 को प्रकाशित किया।",
+    "updates": "TRAI official vacancy listing (checked 09/10/2026) lists closing date 16/10/2026. The original circular is dated 14/05/2026; subsequent extension notices are linked on the TRAI vacancies page.",
     "dataAuditDate": "09/10/2026",
     "postQualifications": [
       {
         "label": "Eligible officer status",
-        "value": "Central/State Government, UT Administration, autonomous/statutory body, PSU, recognised university या recognised research institution का eligible serving officer."
+        "value": "Serving officer of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or recognised research institution."
       },
       {
         "label": "Educational qualification",
-        "value": "AICTE-recognised specified engineering degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor’s/Master’s degree; या ICAI/ICMAI membership."
+        "value": "Relevant-field experience plus one or more of: AICTE-recognised Bachelor's degree in Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering; or UGC-recognised Bachelor's or Master's degree in Business Administration / Economics / Commerce / Engineering / Law / Science / Humanities; or ICAI/ICMAI membership."
       },
       {
         "label": "Experience / service eligibility",
-        "value": "Analogous regular post; या Level-12 में 4 वर्ष regular service; या Group A में 12 वर्ष regular service, जिसमें Level-11 पर 6 वर्ष शामिल हों."
+        "value": "Eligible serving officers of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or research institution: (i) analogous post on regular basis; or (ii) 4 years regular service after appointment at Level-12/equivalent; or (iii) at least 12 years regular Group A/equivalent service including at least 6 years at Level-11/equivalent."
       }
     ],
     "postVacancies": [
@@ -7176,7 +15482,7 @@ window.AJ_JOB_DATA = [
     "physicalEligibility": [
       {
         "label": "PST / PET",
-        "details": "Official deputation circular में physical standard test (PST) या physical efficiency test (PET) का उल्लेख नहीं है।"
+        "details": "TRAI deputation circular में PST/PET standard का उल्लेख नहीं है; यह entry किसी physical test को अनिवार्य नहीं मानती।"
       }
     ],
     "applySteps": [
@@ -7189,11 +15495,11 @@ window.AJ_JOB_DATA = [
     ],
     "links": {
       "apply": "https://vacancies.trai.gov.in/",
-      "notification": "https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf",
+      "notification": "https://www.trai.gov.in/sites/default/files/2026-05/Vacancy_14052026.pdf",
       "official": "https://www.trai.gov.in/vacancies"
     },
-    "verificationStatus": "Verified against the official TRAI vacancy listing and the official circular hosted by Haryana Chief Secretary Office; latest listed closing date is 16/10/2026.",
-    "verificationSource": "TRAI vacancies: https://www.trai.gov.in/vacancies | Haryana Chief Secretary Office PDF: https://csharyana.gov.in/wp-content/uploads/2026/10/Joint-Advisor-Kolkata.pdf"
+    "verificationStatus": "Verified against TRAI official vacancy listing and original circular; the TRAI listing checked 09/10/2026 shows closing date 16/10/2026.",
+    "verificationSource": "TRAI vacancies: https://www.trai.gov.in/vacancies | Original circular: https://www.trai.gov.in/sites/default/files/2026-05/Vacancy_14052026.pdf"
   },
   {
     "id": "trai-joint-advisor-guwahati-2026",
@@ -7211,35 +15517,35 @@ window.AJ_JOB_DATA = [
     "correctionDate": "कोई correction window प्रकाशित नहीं मिली।",
     "examDate": "लिखित परीक्षा की तारीख प्रकाशित नहीं; चयन deputation प्रक्रिया के अनुसार।",
     "mode": "Online application + prescribed hard-copy forwarding",
-    "vacancy": "1 Joint Advisor post (singular post as notified)",
-    "categoryVacancy": "एक Joint Advisor पद; category-wise reservation breakup notice में नहीं दिया गया।",
-    "qualification": "संबंधित क्षेत्र में अनुभव के साथ निम्न में से एक: AICTE-recognised Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering में Bachelor’s degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor’s या Master’s degree; या ICAI / ICMAI membership.",
-    "eligibility": "Central/State Government, UT Administration, autonomous body, statutory organisation, PSU, recognised university या recognised research institution के अधिकारी: (i) parent cadre/department में analogous post पर regular basis पर; या (ii) Level-12 (₹78,800–₹2,09,200) में regular appointment के बाद 4 वर्ष सेवा; या (iii) Group A/equivalent में कम-से-कम 12 वर्ष regular service और Level-11/equivalent पर कम-से-कम 6 वर्ष regular service। नियुक्ति प्रारम्भ में 3 वर्ष की deputation पर।",
+    "vacancy": "1 Joint Advisor post — TRAI Camp Office Guwahati (under TRAI Regional Office Kolkata).",
+    "categoryVacancy": "1 Joint Advisor post; अलग category-wise vacancy breakup notice में नहीं दिया गया।",
+    "qualification": "Relevant-field experience plus one or more of: AICTE-recognised Bachelor's degree in Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering; or UGC-recognised Bachelor's or Master's degree in Business Administration / Economics / Commerce / Engineering / Law / Science / Humanities; or ICAI/ICMAI membership.",
+    "eligibility": "Eligible serving officers of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or research institution: (i) analogous post on regular basis; or (ii) 4 years regular service after appointment at Level-12/equivalent; or (iii) at least 12 years regular Group A/equivalent service including at least 6 years at Level-11/equivalent.",
     "age": "अंतिम आवेदन तिथि पर अधिकतम 56 वर्ष।",
-    "ageAsOn": "06/11/2026 (TRAI में applications जमा करने की अंतिम तिथि)",
+    "ageAsOn": "06/11/2026 (TRAI official vacancy listing/circular closing date)",
     "ageRelaxation": "अलग category-wise relaxation सूचीबद्ध नहीं; deputation के लिए अधिकतम आयु 56 वर्ष की शर्त लागू।",
     "fee": "Official deputation circular में application fee निर्दिष्ट नहीं है।",
     "paymentMode": "Payment mode: notice में application fee/payment प्रक्रिया निर्दिष्ट नहीं है; किसी अनधिकृत व्यक्ति को भुगतान न करें।",
-    "selection": "Eligibility और relevant experience के आधार पर deputation selection; notification में written exam date/selection test schedule प्रकाशित नहीं है।",
+    "selection": "Deputation on foreign service terms based on eligibility and relevant experience; no written exam date is published. Initial tenure: 3 years.",
     "salary": "Pay Level-13: ₹1,23,100–₹2,15,900 (7th CPC Pay Matrix) + applicable allowances as per Government rules.",
     "apply": "https://vacancies.trai.gov.in/",
     "notice": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
     "official": "https://www.trai.gov.in/vacancies",
     "documents": "Online application form का printout; पिछले 5 वर्षों के attested ACR/APAR; vigilance/disciplinary clearance; cadre clearance; relevant qualification, service और experience records; अन्य prescribed deputation papers.",
-    "updates": "TRAI official circular dated 28/09/2026; official vacancy page lists closing date 06/11/2026.",
+    "updates": "TRAI official vacancy listing (checked 09/10/2026) lists closing date 06/11/2026. Original circular dated 28/09/2026.",
     "dataAuditDate": "09/10/2026",
     "postQualifications": [
       {
         "label": "Eligible officer status",
-        "value": "Central/State Government, UT Administration, autonomous/statutory body, PSU, recognised university या recognised research institution का eligible serving officer."
+        "value": "Serving officer of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or recognised research institution."
       },
       {
         "label": "Educational qualification",
-        "value": "AICTE-recognised specified engineering degree; या UGC-recognised institution से MBA / Economics / Commerce / Engineering / Law / Science / Humanities में Bachelor’s/Master’s degree; या ICAI/ICMAI membership."
+        "value": "Relevant-field experience plus one or more of: AICTE-recognised Bachelor's degree in Electronics / Telecommunications / Electrical / Electrical & Electronics Engineering / Information Technology / Computer Science Engineering; or UGC-recognised Bachelor's or Master's degree in Business Administration / Economics / Commerce / Engineering / Law / Science / Humanities; or ICAI/ICMAI membership."
       },
       {
         "label": "Experience / service eligibility",
-        "value": "Analogous regular post; या Level-12 में 4 वर्ष regular service; या Group A में 12 वर्ष regular service, जिसमें Level-11 पर 6 वर्ष शामिल हों."
+        "value": "Eligible serving officers of Central/State Government, UT Administration, autonomous/statutory organisation, PSU, recognised university or research institution: (i) analogous post on regular basis; or (ii) 4 years regular service after appointment at Level-12/equivalent; or (iii) at least 12 years regular Group A/equivalent service including at least 6 years at Level-11/equivalent."
       }
     ],
     "postVacancies": [
@@ -7251,7 +15557,7 @@ window.AJ_JOB_DATA = [
     "physicalEligibility": [
       {
         "label": "PST / PET",
-        "details": "Official deputation circular में physical standard test (PST) या physical efficiency test (PET) का उल्लेख नहीं है।"
+        "details": "TRAI deputation circular में PST/PET standard का उल्लेख नहीं है; यह entry किसी physical test को अनिवार्य नहीं मानती।"
       }
     ],
     "applySteps": [
@@ -7267,8 +15573,8 @@ window.AJ_JOB_DATA = [
       "notification": "https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf",
       "official": "https://www.trai.gov.in/vacancies"
     },
-    "verificationStatus": "Verified against the official TRAI vacancy listing and official circular dated 28/09/2026; listed closing date is 06/11/2026.",
-    "verificationSource": "TRAI vacancies: https://www.trai.gov.in/vacancies | Official circular: https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf"
+    "verificationStatus": "Verified against TRAI official vacancy listing and circular dated 28/09/2026; the listing checked 09/10/2026 shows closing date 06/11/2026.",
+    "verificationSource": "TRAI vacancies: https://www.trai.gov.in/vacancies | Original circular: https://www.trai.gov.in/sites/default/files/2026-09/Vacancy_28092026.pdf"
   },
   {
     "id": "andaman-dhs-various-posts-2026-v2",
@@ -7290,7 +15596,35 @@ window.AJ_JOB_DATA = [
     "official": "https://andamannicobar.gov.in/",
     "documents": "Photo, ID, DOB proof, educational/technical certificates, category certificates and post-specific documents.",
     "updates": "Recruitment notice uploaded by Andaman & Nicobar Administration on 07/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed in DHS recruitment notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "DHS North & Middle Andaman — Various Posts Recruitment 2026",
+        "vacancy": "Various posts — exact post-wise vacancies in notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://andamannicobar.gov.in/"
   },
   {
     "id": "cdsco-deputy-director-2026",
@@ -7312,7 +15646,35 @@ window.AJ_JOB_DATA = [
     "official": "https://cdsco.mohfw.gov.in/",
     "documents": "As prescribed in official advertisement.",
     "updates": "Vacancy advertisement released 05/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in CDSCO advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "CDSCO Deputy Director — Central Drugs Testing Laboratory, Mumbai",
+        "vacancy": "1 post / as per official advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://cdsco.mohfw.gov.in/"
   },
   {
     "id": "ibps-canara-apprentice-2026",
@@ -7334,7 +15696,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.canarabank.com/",
     "documents": "Degree certificate, ID, photograph, signature and other prescribed documents.",
     "updates": "IBPS current recruitment page lists Canara Bank Graduate Apprentices: 01/10/2026–17/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Graduate degree as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Canara Bank Graduate Apprentices 2026",
+        "vacancy": "As per official apprenticeship notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.canarabank.com/"
   },
   {
     "id": "telangana-hyd-ayush-outsourcing-2026",
@@ -7356,7 +15746,35 @@ window.AJ_JOB_DATA = [
     "official": "https://hyderabad.telangana.gov.in/",
     "documents": "Application and supporting documents as prescribed in notification.",
     "updates": "Recruitment notice dated 06/10/2026; applications 12/10/2026 to 22/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed in notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Hyderabad District AYUSH — Various Categories Recruitment 2026",
+        "vacancy": "Various posts — Medical Officer, Dietician, MPW, Psychosocial Counselor, Yoga Professional and others as notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hyderabad.telangana.gov.in/"
   },
   {
     "id": "coast-guard-cgept-01-02-2027",
@@ -7378,7 +15796,35 @@ window.AJ_JOB_DATA = [
     "official": "https://joinindiancoastguard.cdac.in/",
     "documents": "As prescribed in official notification.",
     "updates": "SSC notice board published CGEPT Batches 01/2027 and 02/2027 recruitment notification on 06/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in CGEPT notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Indian Coast Guard CGEPT — Batches 01/2027 & 02/2027",
+        "vacancy": "Enrolled Personnel recruitment — batch-wise vacancies in official notification"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://joinindiancoastguard.cdac.in/"
   },
   {
     "id": "raj-rrc-nwr-apprentice-2008-2026",
@@ -7400,7 +15846,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.rrcjaipur.in/",
     "documents": "10th certificate, ITI/NTC, ID and other prescribed documents.",
     "updates": "Current recruitment listings show 2,008 Act Apprentice posts with closing date 06/11/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "10th + relevant ITI/NTC as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "RRC North Western Railway Act Apprentice Recruitment 2026",
+        "vacancy": "2,008 Act Apprentice posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.rrcjaipur.in/"
   },
   {
     "id": "raj-iitj-nonfaculty-20-2026",
@@ -7422,7 +15896,35 @@ window.AJ_JOB_DATA = [
     "official": "https://iitj.ac.in/",
     "documents": "Post-wise documents as prescribed.",
     "updates": "Recruitment listing dated 06/10/2026; closing 30/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification including Bachelor's/Master's/B.Tech/B.E./medical or diploma as applicable"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IIT Jodhpur Non-Faculty Positions Recruitment 2026",
+        "vacancy": "20 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://iitj.ac.in/"
   },
   {
     "id": "raj-aiimsjodhpur-project-ta-2-2026",
@@ -7444,7 +15946,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.aiimsjodhpur.edu.in/",
     "documents": "Degree/certificate, ID and other prescribed documents.",
     "updates": "Current listings show 2 Project Technical Assistant posts; last date 14/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Master's in Life Sciences/Public Health/B.Pharmacy/B.Sc Nursing or equivalent as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "AIIMS Jodhpur Project Technical Assistant Recruitment 2026",
+        "vacancy": "2 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.aiimsjodhpur.edu.in/"
   },
   {
     "id": "gujarat-gnlu-library-6-2026",
@@ -7466,7 +15996,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.gnlu.ac.in/",
     "documents": "Qualification and experience certificates as prescribed.",
     "updates": "Current listing dated 07/10/2026; last date 23/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise: MLISc/MLib for Library Assistant/Trainee; graduation + experience for Stack Assistant/Attendant as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "GNLU Library Assistant / Library Trainee / Library Stack Assistant / Attendant Recruitment 2026",
+        "vacancy": "6 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.gnlu.ac.in/"
   },
   {
     "id": "gujarat-iitgn-program-assistant-2-2026",
@@ -7488,7 +16046,35 @@ window.AJ_JOB_DATA = [
     "official": "https://iitgn.ac.in/",
     "documents": "Degree, ID and other prescribed documents.",
     "updates": "Current listing dated 06/10/2026; last date 23/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "BCA/B.Sc./B.A./B.Com./BBA/LLB or equivalent with prescribed marks"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IIT Gandhinagar Program Assistant-I Recruitment 2026",
+        "vacancy": "2 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://iitgn.ac.in/"
   },
   {
     "id": "gujarat-bmc-garden-superintendent-2026",
@@ -7510,7 +16096,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.bmcgujarat.com/",
     "documents": "Degree, experience and other prescribed documents.",
     "updates": "Current listing dated 05/10/2026; last date 20/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "B.E./B.Sc. Agriculture or Horticulture or equivalent + 3 years experience as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Bhavnagar Municipal Corporation Garden Superintendent Recruitment 2026",
+        "vacancy": "1 post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.bmcgujarat.com/"
   },
   {
     "id": "maha-nashik-kotwal-2026",
@@ -7532,7 +16146,35 @@ window.AJ_JOB_DATA = [
     "official": "https://nashik.gov.in/",
     "documents": "As prescribed in official district notification.",
     "updates": "Nashik district recruitment portal lists multiple Kotwal advertisements dated 01/10/2026 with closing 18/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in district notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Nashik District Revenue Servant (Kotwal) Recruitment 2026",
+        "vacancy": "Taluka-wise Revenue Servant (Kotwal) vacancies"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://nashik.gov.in/"
   },
   {
     "id": "wbpsc-principal-diet-2026",
@@ -7554,7 +16196,35 @@ window.AJ_JOB_DATA = [
     "official": "https://psc.wb.gov.in/",
     "documents": "As prescribed by WBPSC.",
     "updates": "WBPSC official portal lists Advertisement No. 05/2026 and an announcement regarding extension of the online application date.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in WBPSC advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "WBPSC Principal — District Institute of Education & Training Recruitment 2026",
+        "vacancy": "Principal posts as notified under Advt. 05/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://psc.wb.gov.in/"
   },
   {
     "id": "nicl-ao-321-2026",
@@ -7589,7 +16259,27 @@ window.AJ_JOB_DATA = [
     "correctionDate": "No correction window independently confirmed; check the official recruitment portal.",
     "examDate": "Phase-I: 17/11/2026; Phase-II: 22/12/2026, as reported in current recruitment coverage. Recheck the official call letter/notice for changes.",
     "categoryVacancy": "Total: 321 (Generalist 200 + Specialist 121). The exact discipline-wise and community-wise roster is not transcribed here because published summaries contain inconsistent specialist sub-counts; use the detailed official advertisement for final category allocation, including horizontal PwBD reservation.",
-    "verificationStatus": "PARTIAL — current recruitment coverage agrees on 321 total posts, 200 Generalist/121 Specialist, application dates 08–28 October 2026, age 21–30 as on 01/10/2026, fee ₹1,000/₹250, basic pay ₹82,485 and exam dates 17/11/2026 and 22/12/2026. The NICL official recruitment page is linked, but the official PDF could not be retrieved independently in this check; specialist/category-wise roster and detailed criteria must be checked in the official advertisement before relying on them."
+    "verificationStatus": "PARTIAL — current recruitment coverage agrees on 321 total posts, 200 Generalist/121 Specialist, application dates 08–28 October 2026, age 21–30 as on 01/10/2026, fee ₹1,000/₹250, basic pay ₹82,485 and exam dates 17/11/2026 and 22/12/2026. The NICL official recruitment page is linked, but the official PDF could not be retrieved independently in this check; specialist/category-wise roster and detailed criteria must be checked in the official advertisement before relying on them.",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Generalist: graduation/postgraduation in any discipline, generally at least 60% marks (55% for SC/ST/PwBD). Specialist posts require the prescribed professional/technical qualification for the selected discipline (e.g. CA/CMA, Law, IT/Engineering, Company Secretary or Agriculture). Check the detailed advertisement for the exact discipline-specific degree and marks criteria."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NICL Administrative Officer (Generalist & Specialist) Scale-I Recruitment 2026–27",
+        "vacancy": "321 Administrative Officer posts: 200 Generalist and 121 Specialist. Specialist disciplines include Finance (CA/CMA), Legal, Information Technology, Automobile Engineering, Risk Engineering, Company Secretary and Agriculture. Vacancy numbers may be revised by NICL."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationSource": "https://nationalinsurance.nic.co.in/"
   },
   {
     "id": "uksssc-groupc-553-2026",
@@ -7615,7 +16305,35 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://sssc.uk.gov.in/",
       "official": "https://sssc.uk.gov.in/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th / post-wise qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UKSSSC Group-C Junior Assistant, Registration Clerk & Other Recruitment 2026",
+        "vacancy": "553 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sssc.uk.gov.in/"
   },
   {
     "id": "uksssc-scaler-2026",
@@ -7637,7 +16355,35 @@ window.AJ_JOB_DATA = [
     "official": "https://sssc.uk.gov.in/",
     "documents": "As prescribed in official advertisement.",
     "updates": "Advertisement No. 82/UKSSSC/2026; official advertisement page shows end date 22/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UKSSSC Forest Development Corporation Scaler Recruitment 2026",
+        "vacancy": "Scaler posts — vacancy count as per official advertisement No. 82/UKSSSC/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sssc.uk.gov.in/"
   },
   {
     "id": "chhattisgarh-wcd-child-helpline-2026",
@@ -7659,7 +16405,35 @@ window.AJ_JOB_DATA = [
     "official": "https://janjgir-champa.gov.in/",
     "documents": "Degree, ID and prescribed documents.",
     "updates": "Recruitment notice dated 06/10/2026; closing 23/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Any Graduate as notified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "WCD Janjgir-Champa Child Helpline Supervisor Recruitment 2026",
+        "vacancy": "1 post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://janjgir-champa.gov.in/"
   },
   {
     "id": "chhattisgarh-panchayat-secretary-10-2026",
@@ -7681,7 +16455,35 @@ window.AJ_JOB_DATA = [
     "official": "https://balrampur.gov.in/",
     "documents": "Qualification, ID and prescribed documents.",
     "updates": "Current recruitment listing shows 10 Panchayat Secretary posts; closing 23/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Diploma / as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "District Panchayat Balrampur Panchayat Secretary Recruitment 2026",
+        "vacancy": "10 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://balrampur.gov.in/"
   },
   {
     "id": "jharkhand-jrhms-smo-306-2026",
@@ -7703,7 +16505,35 @@ window.AJ_JOB_DATA = [
     "official": "https://jrhms.jharkhand.gov.in/",
     "documents": "Medical qualification, registration and prescribed documents.",
     "updates": "Current recruitment listing shows 306 Specialist Medical Officer posts; closing 31/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "DNB / PG Diploma / MS / MD as applicable"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "JRHMS Specialist Medical Officer Recruitment 2026",
+        "vacancy": "306 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://jrhms.jharkhand.gov.in/"
   },
   {
     "id": "karnataka-iiitdwd-10-2026",
@@ -7725,7 +16555,35 @@ window.AJ_JOB_DATA = [
     "official": "https://iiitdwd.ac.in/",
     "documents": "Post-wise qualification and experience documents.",
     "updates": "Recruitment listing dated 06/10/2026; closing 09/11/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Degree / B.Tech / BPEd / Diploma / ITI as post-wise prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "IIIT Dharwad Junior Engineer, Junior Assistant & Other Recruitment 2026",
+        "vacancy": "10 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://iiitdwd.ac.in/"
   },
   {
     "id": "tamilnadu-krishnagiri-technical-assistant-2026",
@@ -7747,7 +16605,35 @@ window.AJ_JOB_DATA = [
     "official": "https://krishnagiri.nic.in/",
     "documents": "As prescribed in official notice.",
     "updates": "District recruitment notice dated 06/10/2026; end date 30/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in district notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Krishnagiri District Technical Assistant Recruitment 2026",
+        "vacancy": "Technical Assistant post(s) as notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://krishnagiri.nic.in/"
   },
   {
     "id": "tamilnadu-tirunelveli-jjb-3-2026",
@@ -7769,7 +16655,35 @@ window.AJ_JOB_DATA = [
     "official": "https://tirunelveli.nic.in/",
     "documents": "Application form and prescribed supporting documents.",
     "updates": "Official district recruitment notice: 29/09/2026 to 13/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in district notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Tirunelveli Juvenile Justice Board Assistant cum Bench Clerk, Junior Assistant cum Bench Clerk & Office Assistant",
+        "vacancy": "3 posts — 1 Assistant cum Bench Clerk, 1 Junior Assistant cum Bench Clerk, 1 Office Assistant"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://tirunelveli.nic.in/"
   },
   {
     "id": "kerala-cdac-844-2026",
@@ -7795,7 +16709,35 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://www.cdac.in/index.aspx?id=job_opportunities",
       "official": "https://www.cdac.in/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "B.Tech/B.E, M.Pharma, M.Sc, M.E/M.Tech and post-wise qualifications"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "CDAC Project Associate, Project Engineer & Other Recruitment 2026",
+        "vacancy": "844 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.cdac.in/"
   },
   {
     "id": "kerala-cusat-assistant-prof-2-2026",
@@ -7817,7 +16759,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.cusat.ac.in/",
     "documents": "Qualification, experience and prescribed documents.",
     "updates": "Current recruitment listing dated 06/10/2026; closing 24/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "M.A/M.Phil/Ph.D/M.Sc as applicable"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "CUSAT Assistant Professor Recruitment 2026",
+        "vacancy": "2 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.cusat.ac.in/"
   },
   {
     "id": "kerala-nam-pathanamthitta-2026",
@@ -7839,7 +16809,35 @@ window.AJ_JOB_DATA = [
     "official": "https://nam.kerala.gov.in/",
     "documents": "Post-wise qualification and supporting documents.",
     "updates": "Current listing dated 06/10/2026; last date 13/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th/B.Sc/Diploma and post-wise qualification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NAM Pathanamthitta Ayurveda Therapist, GNM Nurse & MPW Recruitment 2026",
+        "vacancy": "Various posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://nam.kerala.gov.in/"
   },
   {
     "id": "karnataka-gpstr-2026",
@@ -7861,7 +16859,35 @@ window.AJ_JOB_DATA = [
     "official": "https://sts.karnataka.gov.in/",
     "documents": "Education, eligibility and prescribed documents.",
     "updates": "Government Karnataka portal shows registration/payment closing 26/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise teacher qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Karnataka Teacher Recruitment 2026 — PST/PE Grade-II/GPT/AM/CST/PE Grade-I",
+        "vacancy": "Teacher recruitment — post-wise vacancies as notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://sts.karnataka.gov.in/"
   },
   {
     "id": "karnataka-koppal-pourakarmika-33-2026",
@@ -7883,7 +16909,35 @@ window.AJ_JOB_DATA = [
     "official": "https://koppal.nic.in/",
     "documents": "As prescribed in district notification.",
     "updates": "Koppal district official notice published 21/09/2026; application period 22/09/2026–22/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed under Pourakarmika Recruitment (Special) Rules"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Koppal District Urban Local Bodies Pourakarmika Direct Recruitment 2026",
+        "vacancy": "33 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://koppal.nic.in/"
   },
   {
     "id": "assam-asma-project-officer-dm-2026",
@@ -7905,7 +16959,35 @@ window.AJ_JOB_DATA = [
     "official": "https://asdma.assam.gov.in/",
     "documents": "As prescribed in official notification.",
     "updates": "ASDMA official recruitment page lists Project Officer (DM), issued 30/09/2026, last date 15/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in ASDMA notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "ASDMA Project Officer (Disaster Management) Recruitment 2026",
+        "vacancy": "Project Officer (DM) — as per official notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://asdma.assam.gov.in/"
   },
   {
     "id": "arunachal-apssb-chsl-2026",
@@ -7927,7 +17009,35 @@ window.AJ_JOB_DATA = [
     "official": "https://apssb.nic.in/",
     "documents": "12th certificate, ID and prescribed documents.",
     "updates": "APSSB official portal lists CHSL Examination 2026; last date 08/10/2026 at 3 PM.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "12th / post-wise qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "APSSB Combined Higher Secondary Level Examination 2026",
+        "vacancy": "Post-wise vacancies in CHSL Examination 2026 advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://apssb.nic.in/"
   },
   {
     "id": "meghalaya-kisce-nutritionist-yp-2026",
@@ -7949,7 +17059,35 @@ window.AJ_JOB_DATA = [
     "official": "https://meghalaya.gov.in/",
     "documents": "Qualification and supporting documents as prescribed.",
     "updates": "Meghalaya Government recruitment portal lists the KISCE Nutritionist & Young Professional advertisement dated 17/09/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise qualification as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Meghalaya KISCE Nutritionist & Young Professional Recruitment 2026",
+        "vacancy": "Nutritionist and Young Professional posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://meghalaya.gov.in/"
   },
   {
     "id": "nagaland-governor-secretariat-mts-2026",
@@ -7971,7 +17109,35 @@ window.AJ_JOB_DATA = [
     "official": "https://nagaland.gov.in/",
     "documents": "Application form and supporting documents as prescribed.",
     "updates": "Nagaland State Portal shows 07/10/2026 addendum for MTS and 12/08/2026 advertisement for MTS, Bearer and Masalchi.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in Governor's Secretariat advertisement"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Nagaland Governor's Secretariat MTS, Bearer & Masalchi Recruitment 2026",
+        "vacancy": "MTS, Bearer and Masalchi posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://nagaland.gov.in/"
   },
   {
     "id": "manipur-dental-surgeon-13-2026",
@@ -7993,7 +17159,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.mpscmanipur.gov.in/",
     "documents": "BDS, registration and prescribed documents.",
     "updates": "MPSC/eMPSC official notice: Advt. 04/2026, 13 posts; last date 18/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "BDS and registration as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Manipur PSC Dental Surgeon (MHS Grade-IV) Recruitment 2026",
+        "vacancy": "13 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.mpscmanipur.gov.in/"
   },
   {
     "id": "mizoram-mpsc-peon-3-2026",
@@ -8015,7 +17209,35 @@ window.AJ_JOB_DATA = [
     "official": "https://mpsc.mizoram.gov.in/",
     "documents": "As prescribed in advertisement.",
     "updates": "Mizoram PSC online portal lists Peon (PE), 3 posts; last date 13/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by MPSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Mizoram PSC Peon (PE) Recruitment 2026",
+        "vacancy": "3 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mpsc.mizoram.gov.in/"
   },
   {
     "id": "mizoram-mpsc-ldc-4-2026",
@@ -8037,7 +17259,35 @@ window.AJ_JOB_DATA = [
     "official": "https://mpsc.mizoram.gov.in/",
     "documents": "As prescribed in advertisement.",
     "updates": "Mizoram PSC online portal lists LDC, 4 posts; last date 12/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by MPSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Mizoram PSC Lower Divisional Clerk (LDC) Recruitment 2026",
+        "vacancy": "4 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mpsc.mizoram.gov.in/"
   },
   {
     "id": "sikkim-state-support-mission-4-2026",
@@ -8059,7 +17309,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.sikkim.gov.in/",
     "documents": "As prescribed in official notice.",
     "updates": "Sikkim Government employment news published recruitment notice dated 03/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in Planning & Development Department notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Sikkim State Support Mission — Team Leader & Sector Experts",
+        "vacancy": "4 posts — 1 Team Leader + 3 Sector Experts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.sikkim.gov.in/"
   },
   {
     "id": "odisha-opsc-aee-civil-2026",
@@ -8081,7 +17359,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.opsc.gov.in/",
     "documents": "Engineering degree and prescribed documents.",
     "updates": "OPSC posted corrigendum and category-wise breakup notices on 05/10/2026 for Advt. 07/2026-27.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Degree in Civil Engineering or as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "OPSC Assistant Executive Engineer (Civil) Recruitment 2026",
+        "vacancy": "Post-wise vacancies under Advt. No. 07/2026-27"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.opsc.gov.in/"
   },
   {
     "id": "odisha-opsc-assistant-agri-eng-2026",
@@ -8103,7 +17409,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.opsc.gov.in/",
     "documents": "Degree and prescribed documents.",
     "updates": "OPSC posted recruitment corrigendum on 05/10/2026 for Advt. 08/2026-27.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Agricultural Engineering degree or as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "OPSC Assistant Agriculture Engineer Recruitment 2026",
+        "vacancy": "Post-wise vacancies under Advt. No. 08/2026-27"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.opsc.gov.in/"
   },
   {
     "id": "tripura-tpsc-forest-ranger-2026",
@@ -8125,7 +17459,35 @@ window.AJ_JOB_DATA = [
     "official": "https://tpsc.tripura.gov.in/",
     "documents": "Degree, ID and prescribed documents.",
     "updates": "TPSC recruitment portal tracked for current Forest Ranger recruitment.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Science/Agriculture/Forestry degree as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Tripura PSC Forest Ranger Recruitment 2026",
+        "vacancy": "Forest Ranger posts as notified by TPSC"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://tpsc.tripura.gov.in/"
   },
   {
     "id": "kerala-kpsc-cat151-draftsman-2026",
@@ -8147,7 +17509,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.keralapsc.gov.in/",
     "documents": "As prescribed in Kerala PSC notification.",
     "updates": "Kerala PSC Gazette 30/09/2026, Cat.No.151/2026; last date 04/11/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by Kerala PSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Kerala PSC Draftsman Grade-II — Kerala Ports Service (Hydrographic Survey Wing)",
+        "vacancy": "As notified under Cat.No.151/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.keralapsc.gov.in/"
   },
   {
     "id": "kerala-kpsc-cat155-hsstats-2026",
@@ -8169,7 +17559,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.keralapsc.gov.in/",
     "documents": "As prescribed in notification.",
     "updates": "Kerala PSC Gazette 30/09/2026, Cat.No.155/2026; last date 04/11/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by Kerala PSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Kerala PSC Higher Secondary School Teacher — Statistics (SR for ST Only)",
+        "vacancy": "As notified under Cat.No.155/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.keralapsc.gov.in/"
   },
   {
     "id": "kerala-kpsc-cat159-police-driver-2026",
@@ -8191,7 +17609,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.keralapsc.gov.in/",
     "documents": "As prescribed in notification.",
     "updates": "Kerala PSC Gazette 30/09/2026, Cat.No.159/2026; last date 04/11/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by Kerala PSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Kerala PSC Police Constable Driver / Woman Police Constable Driver",
+        "vacancy": "As notified under Cat.No.159/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.keralapsc.gov.in/"
   },
   {
     "id": "kerala-kpsc-cat160-161-peon-watchman-2026",
@@ -8213,7 +17659,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.keralapsc.gov.in/",
     "documents": "As prescribed in notification.",
     "updates": "Kerala PSC Gazette 30/09/2026, Cat.No.160/2026–161/2026; last date 04/11/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by Kerala PSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Kerala PSC Peon / Watchman — KSFE Ltd. (NCA)",
+        "vacancy": "As notified under Cat.No.160/2026 & 161/2026"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.keralapsc.gov.in/"
   },
   {
     "id": "kerala-kscste-executive-director-2026",
@@ -8235,7 +17709,35 @@ window.AJ_JOB_DATA = [
     "official": "https://kscste.kerala.gov.in/",
     "documents": "As prescribed in advertisement.",
     "updates": "KSCSTE opportunities page lists Executive Director, CWRDM; last date 17/10/2026 5 PM.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in KSCSTE notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "KSCSTE Executive Director — CWRDM",
+        "vacancy": "1 post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://kscste.kerala.gov.in/"
   },
   {
     "id": "kerala-kscste-director-jntbgri-2026",
@@ -8257,7 +17759,35 @@ window.AJ_JOB_DATA = [
     "official": "https://kscste.kerala.gov.in/",
     "documents": "As prescribed in advertisement.",
     "updates": "KSCSTE opportunities page lists Director, JNTBGRI; last date 22/10/2026 5 PM.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in KSCSTE notification"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "KSCSTE Director — JNTBGRI",
+        "vacancy": "1 post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://kscste.kerala.gov.in/"
   },
   {
     "id": "wb-jalpaiguri-jjb-social-worker-2026",
@@ -8279,7 +17809,35 @@ window.AJ_JOB_DATA = [
     "official": "https://jalpaiguri.gov.in/",
     "documents": "As prescribed in the official notice.",
     "updates": "Online application open 29/09/2026 to 25/10/2026 05 PM.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in official notice"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jalpaiguri JJB — Social Worker Member Recruitment 2026",
+        "vacancy": "As per Juvenile Justice Board notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://jalpaiguri.gov.in/"
   },
   {
     "id": "wb-jhargram-cho-2026",
@@ -8301,7 +17859,35 @@ window.AJ_JOB_DATA = [
     "official": "https://jhargram.gov.in/",
     "documents": "As prescribed in notice.",
     "updates": "Memo No. DH&FWS/JGM/2026/1726 dated 01/10/2026; end date 15/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "B.Sc Nursing as specified"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jhargram Community Health Officer (CHO) — B.Sc Nursing Candidates",
+        "vacancy": "As per DH&FWS Jhargram notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://jhargram.gov.in/"
   },
   {
     "id": "wb-jhargram-ayush-doctors-2026",
@@ -8323,7 +17909,35 @@ window.AJ_JOB_DATA = [
     "official": "https://jhargram.gov.in/",
     "documents": "As prescribed in notice.",
     "updates": "Memo No. DH&FWS/JGM/2026/1732 dated 05/10/2026; end date 19/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed for AYUSH Doctor post"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Jhargram AYUSH Doctors Engagement — DH&FWS",
+        "vacancy": "As per DH&FWS Jhargram notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://jhargram.gov.in/"
   },
   {
     "id": "wb-psc-principal-diet-2026",
@@ -8345,7 +17959,35 @@ window.AJ_JOB_DATA = [
     "official": "https://psc.wb.gov.in/",
     "documents": "As prescribed in advertisement.",
     "updates": "Archived reference only; application closed 21/05/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in Advt 05/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "WBPSC Principal, District Institute of Education & Training — Advt 05/2026",
+        "vacancy": "12 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://psc.wb.gov.in/"
   },
   {
     "id": "odisha-ssb-lab-assistant-435-2026-v2",
@@ -8367,7 +18009,35 @@ window.AJ_JOB_DATA = [
     "official": "https://ssbodisha.ac.in/",
     "documents": "As prescribed in official advertisement.",
     "updates": "Advertisement No. 04/2026; recruitment notice published 03/10/2026; recruitment listing updated 05/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in Advertisement No. 04/2026"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Odisha SSB Laboratory Assistant-cum-Storekeeper Recruitment 2026",
+        "vacancy": "435 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ssbodisha.ac.in/"
   },
   {
     "id": "odisha-osssc-radiographer-2026-extension",
@@ -8389,7 +18059,35 @@ window.AJ_JOB_DATA = [
     "official": "https://osssc.gov.in/",
     "documents": "As prescribed in notification.",
     "updates": "OSSSC Notification dated 30/09/2026 extends registration/re-registration/submission timeline.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by OSSSC"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "OSSSC Radiographer Recruitment 2026 — Application Deadline Extension",
+        "vacancy": "As per Radiographer-2026 advertisement"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://osssc.gov.in/"
   },
   {
     "id": "tripura-high-court-cook-2026",
@@ -8411,7 +18109,35 @@ window.AJ_JOB_DATA = [
     "official": "https://thc.nic.in/",
     "documents": "As prescribed in notification.",
     "updates": "Notification dated 25/09/2026 invites online applications for 01 vacant Cook (Group-D) post.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed by High Court of Tripura"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Tripura High Court Cook (Group-D) Recruitment 2026",
+        "vacancy": "1 post"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://thc.nic.in/"
   },
   {
     "id": "punjab-sssc-clerk-1270-2026",
@@ -8438,7 +18164,35 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://www.sssc.gov.in/storage/notices/Advt%20dated%2003.10.2026%20Pb%20Clerk.pdf",
       "official": "https://www.sssc.gov.in/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Bachelor of Arts/Bachelor of Science or equivalent from a recognized University; Matriculation with Punjabi as a subject; proficiency in computer operation."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Punjab District Courts Clerk Recruitment 2026 — Advt. 37C/SSSC/PB/2026",
+        "vacancy": "1,270 Posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.sssc.gov.in/"
   },
   {
     "id": "upsssc-youth-welfare-412-2026",
@@ -8460,7 +18214,35 @@ window.AJ_JOB_DATA = [
     "official": "https://upsssc.gov.in/",
     "documents": "Educational, age, category and other documents as prescribed in the official notification.",
     "updates": "Verified current state recruitment listing checked on 08/10/2026.",
-    "dataAuditDate": "08/10/2026"
+    "dataAuditDate": "08/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the official recruitment notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UPSSSC Regional Youth Welfare & Territorial Development Officer / Exercise Trainer Recruitment 2026 — Advt. 23-Exam/2026",
+        "vacancy": "412 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://upsssc.gov.in/"
   },
   {
     "id": "rajasthan-jen-direct-joint-2026",
@@ -8482,7 +18264,35 @@ window.AJ_JOB_DATA = [
     "official": "https://recruitment.rajasthan.gov.in/",
     "documents": "Educational, age, category and other documents as prescribed in the official notification.",
     "updates": "Verified current state recruitment listing checked on 08/10/2026.",
-    "dataAuditDate": "08/10/2026"
+    "dataAuditDate": "08/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the official recruitment notification."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Rajasthan Direct Joint Recruitment of JEN 2026",
+        "vacancy": "Post-wise vacancies as per official JEN 2026 recruitment notice"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://recruitment.rajasthan.gov.in/"
   },
   {
     "id": "bihar-bpsc-tre-4-2026",
@@ -8504,7 +18314,35 @@ window.AJ_JOB_DATA = [
     "official": "https://www.bpsc.bihar.gov.in/",
     "documents": "Educational, age, category and other documents as prescribed in the official notification.",
     "updates": "Latest recruitment listing verified on 08/10/2026.",
-    "dataAuditDate": "08/10/2026"
+    "dataAuditDate": "08/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Primary, Middle, Secondary and Higher Secondary teacher eligibility as prescribed in BPSC Advertisement No. 15/2026."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "BPSC TRE 4.0 School Teacher Recruitment 2026 — Advt. No. 15/2026",
+        "vacancy": "33,320 School Teacher posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.bpsc.bihar.gov.in/"
   },
   {
     "id": "maharashtra-kotwal-recruitment-2026",
@@ -8526,7 +18364,35 @@ window.AJ_JOB_DATA = [
     "official": "https://maharashtra.gov.in/",
     "documents": "Educational, age, category and other documents as prescribed in the official notification.",
     "updates": "Latest recruitment listing verified on 08/10/2026.",
-    "dataAuditDate": "08/10/2026"
+    "dataAuditDate": "08/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Eligibility and selection are as prescribed in the respective district recruitment advertisement."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Maharashtra Revenue Servant (Kotwal) Recruitment 2026 — District-wise",
+        "vacancy": "District/Taluka-wise vacancies"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://maharashtra.gov.in/"
   },
   {
     "id": "chhattisgarh-block-accountant-vbg-2026",
@@ -8548,7 +18414,35 @@ window.AJ_JOB_DATA = [
     "official": "https://raipur.gov.in/",
     "documents": "Educational, age, category and other documents as prescribed in the official notification.",
     "updates": "Latest recruitment listing verified on 08/10/2026.",
-    "dataAuditDate": "08/10/2026"
+    "dataAuditDate": "08/10/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the official Raipur district recruitment advertisement."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Chhattisgarh Block Level Accountant Recruitment — VB-G RAM G 2026",
+        "vacancy": "Block-level Accountant — contract basis"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://raipur.gov.in/"
   },
   {
     "id": "haryana-hpsc-fso-25-2026",
@@ -8572,7 +18466,35 @@ window.AJ_JOB_DATA = [
     "documents": "Educational qualification/degree certificates and marksheets, age proof, Haryana domicile/category certificates where applicable, photograph, signature and other documents specifically required by Advertisement No. 25/2026.",
     "updates": "Advertisement No. 25/2026; Food Safety Officer (Group-B), Food and Drugs Administration Department, Haryana. Application window 28/09/2026 to 19/10/2026.",
     "dataAuditDate": "08/10/2026",
-    "notificationDate": "19/09/2026"
+    "notificationDate": "19/09/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Food technology, dairy/oil technology, biotechnology, agricultural sciences, veterinary sciences, biochemistry, microbiology, chemistry or medicine/MBBS/BDS/AYUSH qualification as prescribed in the official advertisement, with the prescribed Hindi/Sanskrit requirement."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "HPSC Food Safety Officer (Group-B) Recruitment 2026 — Advt. No. 25/2026",
+        "vacancy": "45 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://hpsc.gov.in/"
   },
   {
     "id": "aiims-rewari-junior-resident-25-2026",
@@ -8596,7 +18518,35 @@ window.AJ_JOB_DATA = [
     "documents": "MBBS degree/marksheets, internship completion proof, medical registration, age proof, photograph/signature and category/other certificates as specifically required in the advertisement.",
     "updates": "AIIMS Rewari official Non-Faculty Recruitment page lists the Junior Resident (Non-Academic) advertisement uploaded on 29/09/2026.",
     "dataAuditDate": "08/10/2026",
-    "notificationDate": "29/09/2026"
+    "notificationDate": "29/09/2026",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "MBBS degree from a recognized institution with internship/registration requirements as prescribed in the official advertisement."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "AIIMS Rewari Junior Resident (Non-Academic) Recruitment 2026 — Advt. JR/01/2026",
+        "vacancy": "25 posts"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://aiimsrewari.edu.in/"
   },
   {
     "id": "csir-ugc-net-dec-2026",
@@ -8651,7 +18601,34 @@ window.AJ_JOB_DATA = [
         "label": "Result / Rank / Certificate",
         "date": "To be announced by NTA"
       }
-    ]
+    ],
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Relevant postgraduate degree or final-year eligibility as prescribed in the official Information Bulletin; subject-specific requirements apply."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Joint CSIR-UGC NET December 2026 Online Form",
+        "vacancy": "Not a vacancy — eligibility examination for JRF, Assistant Professor and PhD admission categories."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://csirnet.nta.nic.in/"
   },
   {
     "id": "ugc-net-june-2026-scorecard",
@@ -8703,7 +18680,35 @@ window.AJ_JOB_DATA = [
         "label": "University PhD / Admission Counselling",
         "date": "University-wise schedule; no common UGC-NET counselling date"
       }
-    ]
+    ],
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "As prescribed in the UGC-NET June 2026 Information Bulletin."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "UGC-NET June 2026 — Score Card, Final Answer Key & Result Updates",
+        "vacancy": "Not a vacancy — eligibility test for JRF, Assistant Professor and PhD admission categories."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://ugcnet.nta.nic.in/"
   },
   {
     "id": "aiims-delhi-project-research-scientist-ii-medical-2026-1015",
@@ -8731,7 +18736,35 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment?id=24796",
       "official": "https://www.aiims.edu/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Medical qualification and experience requirements are specified in the AIIMS official advertisement; check the linked notice for the exact eligibility criteria."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "AIIMS Delhi Project Research Scientist-II (Medical) — ICMR-funded CDER Project",
+        "vacancy": "Contractual project post; exact count and remuneration are in the official notice."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.aiims.edu/"
   },
   {
     "id": "aiims-delhi-project-research-scientist-ii-medical-2026-1014",
@@ -8759,7 +18792,35 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://www1.aiims.edu/index.php/en/research-project/research-project/232-recruitment/advertisement-for-recruitment",
       "official": "https://www.aiims.edu/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Medical qualification and experience requirements are specified in the AIIMS official advertisement; check the linked notice for the exact eligibility criteria."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "AIIMS-IIT-UCL Project Research Scientist-II (Medical) — CDER Project",
+        "vacancy": "Project post; exact count and remuneration are in the official notice."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.aiims.edu/"
   },
   {
     "id": "aiims-delhi-project-technical-support-ii-2026-1015",
@@ -8787,7 +18848,35 @@ window.AJ_JOB_DATA = [
     "links": {
       "notification": "https://www.aiims.edu/index.php/en/notices/recruitment/aiims-recruitment",
       "official": "https://www.aiims.edu/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Technical/health-science qualification and experience as specified in the official AIIMS advertisement."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "AIIMS Delhi Project Technical Support-II — ICMR-funded Project",
+        "vacancy": "Temporary project post; exact count and remuneration are in the official notice."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://www.aiims.edu/"
   },
   {
     "id": "neet-ug-2026-mbbs-counselling-dates-round3-stray",
@@ -8816,7 +18905,35 @@ window.AJ_JOB_DATA = [
       "notification": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609151605377053.pdf",
       "stateSchedule": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/20260915112025817.pdf",
       "official": "https://mcc.nic.in/ug-%20medical-counselling/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "NEET UG 2026 qualified candidates meeting applicable MCC/state counselling rules."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NEET UG 2026 MBBS / BDS / B.Sc Nursing — Counselling Date List (Round 3 & Stray Round)",
+        "vacancy": "MBBS, BDS and B.Sc Nursing counselling; seats vary by round, quota and institution."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mcc.nic.in/ug-%20medical-counselling/"
   },
   {
     "id": "neet-pg-2026-counselling-official-status",
@@ -8842,7 +18959,35 @@ window.AJ_JOB_DATA = [
     "dataAuditDate": "08/10/2026",
     "links": {
       "official": "https://mcc.nic.in/pg-medical-counselling/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "NEET PG 2026 qualified candidates meeting applicable MCC counselling rules."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NEET PG 2026 — Counselling Schedule / Seat Matrix Official Update",
+        "vacancy": "MD/MS and other eligible postgraduate medical seats; seat matrix subject to official publication."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mcc.nic.in/pg-medical-counselling/"
   },
   {
     "id": "neet-ug-mbbs-counselling-2026",
@@ -8896,7 +19041,35 @@ window.AJ_JOB_DATA = [
       "official": "https://mcc.nic.in/ug-%20medical-counselling/",
       "notification": "https://mcc.nic.in/eservices-schedule-ug/",
       "result": "https://mcc.nic.in/current-events-ug/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "NEET UG 2026 qualified candidates meeting MCC and course-specific eligibility requirements."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "NEET UG 2026 MBBS / BDS Counselling — Schedule, Seat Matrix & Allotment",
+        "vacancy": "MBBS / BDS and B.Sc Nursing seats under MCC-managed quotas; seat matrix varies by round."
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://mcc.nic.in/ug-%20medical-counselling/"
   },
   {
     "id": "coast-guard-navik-yantrik-cgept-2026",
@@ -8924,7 +19097,35 @@ window.AJ_JOB_DATA = [
     "links": {
       "official": "https://joinindiancoastguard.cdac.in/",
       "notification": "https://joinindiancoastguard.cdac.in/"
-    }
+    },
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Post-wise eligibility: Navik GD generally requires 10+2 with Maths and Physics; Navik DB requires 10th pass; Yantrik requires the prescribed engineering diploma. Check the official notification for exact criteria."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Indian Coast Guard Navik (GD/DB) & Yantrik Recruitment 2026 — CGEPT 01/2027 and 02/2027",
+        "vacancy": "365 posts (as reported; verify category-wise vacancy in the official notification)"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://joinindiancoastguard.cdac.in/"
   },
   {
     "id": "haryana-cs-joint-advisor-trai-2026",
@@ -8944,7 +19145,36 @@ window.AJ_JOB_DATA = [
     "official": "https://csharyana.gov.in/",
     "documents": "Service record, qualification/experience documents, NOC/cadre clearance and other deputation documents as prescribed.",
     "updates": "Haryana Chief Secretary Office published Joint Advisor notices on 07/10/2026.",
-    "dataAuditDate": "07/10/2026"
+    "dataAuditDate": "07/10/2026",
+    "post": "Joint Advisor — TRAI Camp Office Guwahati / Regional Office Kolkata (Deputation)",
+    "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
+    "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
+    "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
+    "categoryVacancy": "Post-wise/category-wise vacancy breakup इस record में अलग से दर्ज नहीं; official vacancy table देखें।",
+    "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
+    "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
+    "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
+    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "postQualifications": [
+      {
+        "label": "Educational Qualification",
+        "value": "Eligible serving government/PSU/appropriate officers as prescribed"
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Joint Advisor — TRAI Camp Office Guwahati / Regional Office Kolkata (Deputation)",
+        "vacancy": "2 notices / posts as separately notified"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
+      }
+    ],
+    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
+    "verificationSource": "https://csharyana.gov.in/"
   }
 ];
 
