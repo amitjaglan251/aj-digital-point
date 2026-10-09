@@ -1,0 +1,15 @@
+{
+  "name": "aj-digital-point-pan-api-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Security-first backend scaffold for a future provider-authorized PAN integration",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js", "check": "node --check server.js" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  }
+}
