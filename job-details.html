@@ -167,12 +167,12 @@ set('topMode',d.mode);set('state',d.state||'All India / As per notification');
 const deadlineMatch=String(d.lastDate||'').match(/(\d{2})\/(\d{2})\/(\d{4})/);
 const isExpired=deadlineMatch && new Date(+deadlineMatch[3],+deadlineMatch[2]-1,+deadlineMatch[1]) < new Date(new Date().setHours(0,0,0,0));
 set('recruitmentStatus',isUpcoming?'Upcoming Vacancy':(isExpired?'Last date passed — verify official notice':'Listed recruitment — verify current status'));
-set('openDate',d.openDate);set('lastDate',d.lastDate);set('feeDate',d.feeDate,'Official notification में अलग fee-payment date दर्ज नहीं है।');
+set('openDate',d.openDate,'Application opening date इस record में दर्ज नहीं है; official notification देखें।');set('lastDate',d.lastDate,'Last date इस record में दर्ज नहीं है; official notification देखें।');set('feeDate',d.feeDate,'Official notification में अलग fee-payment date दर्ज नहीं है।');
 set('correctionDate',d.correctionDate,'Correction window की तारीख इस record में दर्ज नहीं है; official notice देखें।');
 set('examDate',d.examDate,'Exam/selection date इस record में दर्ज नहीं है; official notice देखें।');
 set('updates',d.updates,'इस भर्ती के लिए कोई अलग latest update इस record में दर्ज नहीं है।');
 set('dataAuditDate',d.dataAuditDate||'09/10/2026');
-set('fee',d.fee);set('paymentMode','Payment mode: '+(d.paymentMode||((d.fee||'').match(/payment\s*[:：]\s*([^.;]+)/i)||[])[1]||'As prescribed in official notification'));set('age',d.age);set('ageAsOn','Age limit calculation date: '+(d.ageAsOn||d.ageLimitAsOn||'As stated in official notification'));set('ageRelaxation','Age relaxation: '+(d.ageRelaxation||'As prescribed in official notification'));set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification: '+fallback);
+set('fee',d.fee);set('paymentMode','Payment mode: '+(d.paymentMode||((d.fee||'').match(/payment\s*[:：]\s*([^.;]+)/i)||[])[1]||'As prescribed in official notification'));set('age',d.age);set('ageAsOn','Age limit calculation date: '+(d.ageAsOn||d.ageLimitAsOn||'As stated in official notification'));set('ageRelaxation','Age relaxation: '+(d.ageRelaxation||'As prescribed in official notification'));set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification इस record में दर्ज नहीं है; official notification देखें।');
 set('eligibilityExtra',d.eligibility,'Post-specific subject, experience, local-language और अन्य conditions इस record में दर्ज नहीं हैं; official notification देखें.');
 const renderList=(targetId,boxId,items)=>{
  const target=document.getElementById(targetId),box=document.getElementById(boxId);
