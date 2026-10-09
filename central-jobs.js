@@ -3218,22 +3218,114 @@ window.AJ_JOB_DATA = [
   {
     "id": "drdo-dipr-iti-apprentice-2026",
     "category": "Apprenticeship",
-    "title": "DRDO DIPR Delhi ITI Apprentice Recruitment 2026",
-    "post": "DRDO DIPR Delhi ITI Apprentice Recruitment 2026",
-    "shortInfo": "**DRDO DIPR Delhi ITI Apprentice Recruitment 2026**. Vacancy: Post-wise vacancy — see official notification Eligibility: ITI pass-out in relevant trade Last date: 13/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
+    "title": "DRDO DIPR Delhi ITI Apprentice Recruitment 2026 — 24 Posts",
+    "post": "Trade Apprentice — Steward, DTP Operator, Secretariat Assistant, Photographer, COPA, IT/IT ESM, Multimedia & Web Page Designer",
+    "shortInfo": "DRDO DIPR ने संबंधित trade में ITI pass-out उम्मीदवारों के लिए 24 apprenticeship seats निकाली हैं। आवेदन Apprenticeship Portal पर establishment code E08260700022 से या prescribed form और documents को email द्वारा भेजकर किया जा सकता है। Official DRDO listing में अंतिम तिथि 13/10/2026 दी गई है।",
     "lastDate": "13/10/2026",
-    "mode": "Online",
-    "qualification": "ITI pass-out in relevant trade",
-    "age": "As prescribed by DRDO",
-    "selection": "As per DRDO apprenticeship notification",
-    "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
-    "notice": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
-    "official": "https://drdo.gov.in/",
-    "openDate": "See official notification",
-    "vacancy": "Post-wise vacancy — see official notification",
-    "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
-    "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026"
+    "mode": "Online apprenticeship portal or prescribed form by email",
+    "qualification": "संबंधित trade में ITI pass-out candidates, including SCVT/NCVET certificate holders. Apprenticeship Portal registration mandatory है; relevant trade, age और physical requirements Apprenticeship Act/Rules तथा NAPS 2.0 के अनुसार लागू होंगे.",
+    "age": "Apprentices Act, Apprenticeship Rules और लागू guidelines के अनुसार; notice में अलग numeric age range नहीं दी गई।",
+    "selection": "Essential qualification/trade में प्राप्त marks के आधार पर selection; applicants की संख्या के अनुसार interaction/interview हो सकता है. Final merit list category-wise applicable rules के अनुसार.",
+    "apply": "https://www.apprenticeshipindia.gov.in/",
+    "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIPR22092026.pdf",
+    "official": "https://drdo.gov.in/drdo/en/skill-seeker?page=1",
+    "openDate": "22/09/2026",
+    "vacancy": "24 apprenticeship seats (trade-wise): Steward 1; Desktop Publishing Operator 2; Secretariat Assistant—English/Hindi 2; Photographer 1; COPA 14; IT/IT ESM 2; Multimedia & Web Page Designer 2.",
+    "fee": "No application fee stated in the official advertisement.",
+    "documents": "Prescribed application form, ITI certificate/marksheets, category certificate where applicable, Apprenticeship Portal registration/enrollment proof, scanned supporting documents; selected candidates must bring original educational/ITI and category documents at joining. Police verification certificate required after joining.",
+    "dataAuditDate": "09/10/2026",
+    "organization": "Defence Research and Development Organisation (DRDO), Defence Institute of Psychological Research (DIPR)",
+    "department": "Defence Institute of Psychological Research, Timarpur, Delhi",
+    "feeDate": "Official advertisement में application fee निर्दिष्ट नहीं है।",
+    "correctionDate": "कोई correction window प्रकाशित नहीं मिली।",
+    "examDate": "Qualification/trade marks के आधार पर shortlisting; आवश्यकता के अनुसार interaction/interview. कोई fixed date प्रकाशित नहीं मिली।",
+    "categoryVacancy": "Reservation roster for 24 vacancies: UR 14, OBC 6, SC 3, ST 1. Trade-wise seat count official notice में ऊपर दिया गया है; reservation mapping के लिए PDF देखें.",
+    "eligibility": "Apprenticeship portal पर registration अनिवार्य; establishment code E08260700022. Application portal पर trade चुनें या prescribed form और supporting documents PDF format में admindipr.dipr@gov.in पर भेजें. Training अवधि 12 months है. Apprenticeship पूर्ण होने पर regular employment का अधिकार नहीं मिलता.",
+    "ageAsOn": "अलग age calculation date notice में निर्दिष्ट नहीं है।",
+    "ageRelaxation": "Category-wise age relaxation की अलग table notice में नहीं दी गई; लागू apprenticeship rules/official notice देखें।",
+    "paymentMode": "कोई fee payment process निर्दिष्ट नहीं; आवेदन Apprenticeship Portal/email के माध्यम से।",
+    "salary": "Trade-wise minimum monthly stipend: Steward ₹9,600; DTP Operator ₹9,600; Secretariat Assistant English/Hindi ₹9,600; Photographer ₹10,560; COPA ₹9,600; IT/IT ESM ₹10,560; Multimedia & Web Page Designer ₹9,600.",
+    "updates": "DRDO official listing: Advertisement No. 0675/Apprentice/DIPR/Adm; published 22/09/2026; closing date 13/10/2026.",
+    "postQualifications": [
+      {
+        "label": "Steward",
+        "value": "1 seat; minimum stipend ₹9,600/month; relevant ITI/trade conditions in official PDF."
+      },
+      {
+        "label": "Desktop Publishing Operator",
+        "value": "2 seats; minimum stipend ₹9,600/month."
+      },
+      {
+        "label": "Secretariat Assistant — English/Hindi",
+        "value": "2 seats; minimum stipend ₹9,600/month."
+      },
+      {
+        "label": "Photographer",
+        "value": "1 seat; minimum stipend ₹10,560/month."
+      },
+      {
+        "label": "COPA",
+        "value": "14 seats; minimum stipend ₹9,600/month."
+      },
+      {
+        "label": "IT / IT ESM",
+        "value": "2 seats; minimum stipend ₹10,560/month."
+      },
+      {
+        "label": "Multimedia & Web Page Designer",
+        "value": "2 seats; minimum stipend ₹9,600/month."
+      }
+    ],
+    "postVacancies": [
+      {
+        "post": "Steward",
+        "vacancy": "1"
+      },
+      {
+        "post": "Desktop Publishing Operator",
+        "vacancy": "2"
+      },
+      {
+        "post": "Secretariat Assistant — English/Hindi",
+        "vacancy": "2"
+      },
+      {
+        "post": "Photographer",
+        "vacancy": "1"
+      },
+      {
+        "post": "COPA",
+        "vacancy": "14"
+      },
+      {
+        "post": "IT / IT ESM",
+        "vacancy": "2"
+      },
+      {
+        "post": "Multimedia & Web Page Designer",
+        "vacancy": "2"
+      }
+    ],
+    "physicalEligibility": [
+      {
+        "label": "PST / PET",
+        "details": "अलग PST/PET test schedule नहीं दिया गया; trade-specific physical requirements, if any, applicable apprenticeship norms के अनुसार verify करें।"
+      }
+    ],
+    "applySteps": [
+      "Official DRDO advertisement PDF और application form खोलें।",
+      "Apprenticeship Portal पर registration करके establishment code E08260700022 खोजें।",
+      "अपनी ITI trade के अनुसार आवेदन करें; या prescribed form और supporting documents PDF में admindipr.dipr@gov.in पर भेजें।",
+      "Application 13/10/2026 से पहले submit करें और acknowledgement सुरक्षित रखें।",
+      "Selection/update के लिए registered email नियमित रूप से check करें।"
+    ],
+    "links": {
+      "apply": "https://www.apprenticeshipindia.gov.in/",
+      "notification": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIPR22092026.pdf",
+      "official": "https://drdo.gov.in/drdo/en/skill-seeker?page=1"
+    },
+    "verificationStatus": "Verified from the official DRDO listing and official DIPR advertisement PDF dated September 2026.",
+    "verificationSource": "Official PDF: https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIPR22092026.pdf"
   },
   {
     "id": "naval-dockyard-mumbai-apprentice-283-2026",
@@ -3559,20 +3651,30 @@ window.AJ_JOB_DATA = [
     "shortInfo": "**Rajasthan Contractual Safai Karamchari Recruitment 2026**. Vacancy: As per official portal. Eligibility: As prescribed in notification. Last date: 13/10/2026. Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "13/10/2026",
     "mode": "Online",
-    "vacancy": "As per official Rajasthan Recruitment Portal",
-    "qualification": "As prescribed in the official recruitment notice.",
-    "age": "As prescribed in the official recruitment notice.",
-    "selection": "As notified",
+    "vacancy": "Official portal summary does not expose a verified vacancy count; check the detailed LSG recruitment notification.",
+    "qualification": "Official portal summary does not expose the detailed educational/eligibility conditions; verify the LSG notification before applying.",
+    "age": "Age limit and relaxations are not exposed in the official portal summary; check the detailed LSG notice.",
+    "selection": "Official portal describes a recruitment lifecycle including document verification, possible examination/merit and subsequent allocation/verification stages; the exact post-specific selection method must be confirmed from the LSG notice.",
     "apply": "https://recruitment.rajasthan.gov.in/",
-    "notice": "https://recruitment.rajasthan.gov.in/",
+    "notice": "https://recruitment.rajasthan.gov.in/departmentrecservlet",
     "official": "https://recruitment.rajasthan.gov.in/",
     "openDate": "28/09/2026",
-    "fee": "As prescribed in the official recruitment notice.",
-    "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "08/10/2026",
+    "fee": "Application fee is not exposed in the official portal summary; verify the portal before payment.",
+    "documents": "Documents are not exhaustively listed in the portal summary. Follow the detailed LSG notice and portal instructions; keep identity/DOB, domicile/category and qualification documents ready only as required.",
+    "dataAuditDate": "09/10/2026",
     "state": "Rajasthan",
-    "updates": "Rajasthan State Recruitment Portal currently lists CONTRACTUAL SAFAI KARAMCHARI - 2026 under Local Self Government; last date shown as 13/10/2026.",
-    "notificationDate": "28/09/2026"
+    "updates": "Rajasthan Recruitment Portal currently lists CONTRACTUAL SAFAI KARAMCHARI - 2026 (LSG) with application deadline 13/10/2026; recruitment portal listing is current as checked on 09/10/2026.",
+    "notificationDate": "28/09/2026",
+    "feeDate": "अलग fee-payment date official listing summary में उपलब्ध नहीं; detailed notification/portal देखें।",
+    "correctionDate": "Correction window की अलग तारीख official listing summary में उपलब्ध नहीं।",
+    "examDate": "Exam/selection schedule official listing summary में उपलब्ध नहीं।",
+    "verificationStatus": "Verified only for the official portal listing, recruitment title and 13/10/2026 deadline; detailed eligibility and vacancy count were not exposed in the summary.",
+    "verificationSource": "Official Rajasthan Recruitment Portal: https://recruitment.rajasthan.gov.in/ | Department recruitment list: https://recruitment.rajasthan.gov.in/departmentrecservlet",
+    "links": {
+      "apply": "https://recruitment.rajasthan.gov.in/",
+      "notification": "https://recruitment.rajasthan.gov.in/departmentrecservlet",
+      "official": "https://recruitment.rajasthan.gov.in/"
+    }
   },
   {
     "id": "ap-police-constable-1027-2026",
