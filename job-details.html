@@ -185,7 +185,7 @@ set('age',d.age,'Age limit इस record में दर्ज नहीं ह
 set('ageAsOn','Age limit calculation date: '+(d.ageAsOn||d.ageLimitAsOn||'इस record में दर्ज नहीं; official notification देखें'));
 set('ageRelaxation','Age relaxation: '+(d.ageRelaxation||'Category-wise relaxation इस record में दर्ज नहीं; official notification देखें'));
 set('qualification',d.qualification?'Educational Qualification: '+d.qualification:'Educational qualification इस record में दर्ज नहीं है; official notification देखें।');
-set('eligibilityExtra',d.eligibility,'Post-specific subject, experience, local-language और अन्य conditions इस record में दर्ज नहीं हैं; official notification देखें.');
+set('eligibilityExtra',d.eligibility||d.eligibilityExtra||d.additionalEligibility,'Post-specific subject, experience, local-language, registration और अन्य conditions लागू हों तो official notification में दिए नियमों के अनुसार जाँचें.');
 const renderList=(targetId,boxId,items)=>{
  const target=document.getElementById(targetId),box=document.getElementById(boxId);
  if(!target||!box)return;
