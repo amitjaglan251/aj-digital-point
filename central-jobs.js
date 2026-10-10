@@ -6499,20 +6499,20 @@ window.AJ_JOB_DATA = [
     "category": "Apprenticeship",
     "title": "DRDO RCI Hyderabad Apprentice Recruitment 2027",
     "post": "DRDO RCI Hyderabad Apprentice Recruitment 2027",
-    "shortInfo": "**DRDO RCI Hyderabad Apprentice Recruitment 2027**. Vacancy: As per Advt. RCI/HRD/Apprenticeship/Advt/2027 Eligibility: ITI / Diploma / Graduate — trade/discipline-wise Last date: 01/11/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
+    "shortInfo": "**DRDO RCI Hyderabad Apprentices 2027** — Advt. RCI/HRD/Apprenticeship/Advt/2027. Official notice lists 195 seats: 50 Graduate, 30 Diploma and 115 ITI trade apprentices. Published 01/10/2026; last date 01/11/2026. One-year apprenticeship; exact trade eligibility and stipend follow the official notice.",
     "lastDate": "01/11/2026",
-    "mode": "Online",
-    "vacancy": "As per Advt. RCI/HRD/Apprenticeship/Advt/2027",
-    "qualification": "ITI / Diploma / Graduate — trade/discipline-wise",
-    "age": "As prescribed by DRDO",
-    "selection": "Merit / screening as notified",
+    "mode": "Online registration: NATS 2.0 for Graduate/Diploma and Apprenticeship India for ITI, as directed in the notice.",
+    "vacancy": "195 total: Graduate Apprentice 50; Diploma/Technician Apprentice 30; ITI Trade Apprentice 115",
+    "qualification": "Regular qualifying candidates in the relevant discipline/trade; 2022–2026 pass-out window and minimum 70% marks / CGPA 7.5 as specified in the official notice; discipline/trade-specific requirements apply.",
+    "age": "Minimum 18 years as on 01/09/2026; other conditions/relaxations as per official notice.",
+    "selection": "Merit/screening and document verification as prescribed in the official notice.",
     "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
-    "notice": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
-    "official": "https://drdo.gov.in/",
-    "openDate": "See official notification",
+    "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtRCI01102026.pdf",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
+    "openDate": "01/10/2026",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -6520,17 +6520,25 @@ window.AJ_JOB_DATA = [
     "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
     "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
     "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
-    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "salary": "Stipend as per Government apprenticeship norms; do not infer a fixed amount.",
     "postQualifications": [
       {
         "label": "Educational Qualification",
-        "value": "ITI / Diploma / Graduate — trade/discipline-wise"
+        "value": "Relevant degree/diploma/ITI qualification, as applicable to the advertised trade; qualifying year and marks criteria apply as stated in the official notice."
       }
     ],
     "postVacancies": [
       {
-        "post": "DRDO RCI Hyderabad Apprentice Recruitment 2027",
-        "vacancy": "As per Advt. RCI/HRD/Apprenticeship/Advt/2027"
+        "post": "Graduate Apprentice",
+        "vacancy": "50"
+      },
+      {
+        "post": "Diploma/Technician Apprentice",
+        "vacancy": "30"
+      },
+      {
+        "post": "ITI Trade Apprentice",
+        "vacancy": "115"
       }
     ],
     "physicalEligibility": [
@@ -6539,8 +6547,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://drdo.gov.in/",
+    "verificationStatus": "Official DRDO RCI notice checked for ad number, dates, 195-seat split, minimum age, marks/pass-out criteria, registration route and one-year duration. Candidate must consult PDF for trade-wise eligibility and exact stipend rules.",
+    "verificationSource": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtRCI01102026.pdf",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -7233,20 +7241,20 @@ window.AJ_JOB_DATA = [
     "category": "Defence / Research",
     "title": "DRDO Director, DIA-CoE, BHU Recruitment 2026",
     "post": "DRDO Director, DIA-CoE, BHU Recruitment 2026",
-    "shortInfo": "**DRDO Director, DIA-CoE, BHU Recruitment 2026**. Vacancy: 1 Eligibility: As prescribed in DRDO notification Last date: 30/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
+    "shortInfo": "DRDO listing shows a Director, DIA-CoE notice with last date 30/10/2026. The exact host institution must be checked against the original advertisement because official DRDO pages show inconsistent institution wording.",
     "lastDate": "30/10/2026",
-    "mode": "Online",
+    "mode": "As prescribed in the official advertisement",
     "vacancy": "1",
     "qualification": "As prescribed in DRDO notification",
     "age": "As per notification",
     "selection": "As per DRDO recruitment process",
     "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/",
+    "official": "https://drdo.gov.in/drdo/offerings/vacancies",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -7273,29 +7281,29 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://drdo.gov.in/",
+    "verificationStatus": "Official DRDO vacancy listing confirms a Director, DIA-CoE notice with closing date 30/10/2026, but institution naming differs across DRDO pages (BHU vs Bharathiar University in a separate media listing). Institution, qualifications, application route and other details require original advertisement confirmation before finalizing.",
+    "verificationSource": "https://drdo.gov.in/drdo/offerings/vacancies",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-dgre-jrf-2026-27",
-    "category": "Defence / Research",
-    "title": "DRDO DGRE Chandigarh JRF Recruitment 2026-27",
-    "post": "DRDO DGRE Chandigarh JRF Recruitment 2026-27",
-    "shortInfo": "**DRDO DGRE Chandigarh JRF Recruitment 2026-27**. Vacancy: As per notification Eligibility: Relevant postgraduate / technical qualification Last date: 15/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
+    "category": "Result / Defence",
+    "title": "DRDO DGRE Chandigarh JRF Selected Candidates List 2026-27 — Advt. DGRE-01/JRF-RA/01/2026-27",
+    "post": "Selected candidates for JRF interview held 15–16 September 2026 at DGRE, Chandigarh",
+    "shortInfo": "Official DRDO listing describes this item as a selected-candidates list for the DGRE Chandigarh JRF/RA interviews held 15–16/09/2026. Treat as a result/selection notice, not an open application.",
     "lastDate": "15/10/2026",
-    "mode": "As notified",
+    "mode": "Selection/result notice",
     "vacancy": "As per notification",
     "qualification": "Relevant postgraduate / technical qualification",
     "age": "As prescribed",
     "selection": "Interview / document verification as notified",
     "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/",
+    "official": "https://drdo.gov.in/drdo/offerings/vacancies",
     "openDate": "See official notification",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -7322,8 +7330,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://drdo.gov.in/",
+    "verificationStatus": "Official DRDO listing identifies this as a selected-candidates list for interviews held 15–16/09/2026, published 29/09/2026; it is not a new open recruitment notice. The 15/10/2026 end date is a listing field, not an application deadline.",
+    "verificationSource": "https://drdo.gov.in/drdo/offerings/vacancies",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -14145,12 +14153,12 @@ window.AJ_JOB_DATA = [
   },
   {
     "id": "drdo-drl-jrf-ra-2026",
-    "category": "Central Job",
-    "title": "DRDO DRL Tezpur JRF & RA Recruitment 2026 — Advt. DRL/JRF-RA/Interview/03/2026",
-    "post": "DRDO DRL Tezpur JRF & RA Recruitment 2026 — Advt. DRL/JRF-RA/Interview/03/2026",
-    "shortInfo": "**DRDO DRL Tezpur JRF & RA Recruitment 2026 — Advt. DRL/JRF-RA/Interview/03/2026**. Vacancy: JRF & RA posts as notified by DRL, Tezpur Eligibility: Post-wise prescribed qualification in the DRDO advertisement Last date: 31/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
+    "category": "Result / Defence",
+    "title": "DRDO DRL Tezpur JRF & RA Selected/Waitlisted Candidates 2026 — Advt. DRL/JRF-RA/Interview/03/2026",
+    "post": "Selected and waitlisted candidates for JRF & RA at DRL, Tezpur",
+    "shortInfo": "Official DRDO vacancy listing describes this item as the list of selected and waitlisted candidates for JRF & RA at DRL, Tezpur. Treat as a selection/result notice, not an open application. Published 07/10/2026.",
     "lastDate": "31/10/2026",
-    "mode": "Online / Interview",
+    "mode": "Selection / waitlist notice",
     "openDate": "07/10/2026",
     "vacancy": "JRF & RA posts as notified by DRL, Tezpur",
     "qualification": "Post-wise prescribed qualification in the DRDO advertisement",
@@ -14159,9 +14167,9 @@ window.AJ_JOB_DATA = [
     "selection": "Screening / interview as prescribed by DRL",
     "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
     "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/",
+    "official": "https://drdo.gov.in/drdo/offerings/vacancies",
     "documents": "Prescribed degree/qualification, marksheets, DOB proof, photograph, valid ID, category certificates where applicable and documents specified in the DRDO advertisement.",
-    "dataAuditDate": "07/10/2026",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -14188,29 +14196,29 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://drdo.gov.in/",
+    "verificationStatus": "Official DRDO listing identifies this as a selected/waitlisted candidates notice, published 07/10/2026; this is not a new open recruitment notice. The listing's 31/10/2026 end date is a listing field, not an application deadline.",
+    "verificationSource": "https://drdo.gov.in/drdo/offerings/vacancies",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-dmrl-jrf-2026",
-    "category": "Central Job",
+    "category": "Defence / Research",
     "title": "DRDO DMRL JRF Recruitment 2026 — Advt. DMRL/HRD/JRF/2026/01",
     "post": "DRDO DMRL JRF Recruitment 2026 — Advt. DMRL/HRD/JRF/2026/01",
     "shortInfo": "**DRDO DMRL JRF Recruitment 2026 — Advt. DMRL/HRD/JRF/2026/01**. Vacancy: Junior Research Fellow posts as notified by DMRL Eligibility: Relevant prescribed engineering/science qualification as detailed in the DMRL advertisement Last date: 27/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "27/10/2026",
-    "mode": "Online / Interview",
+    "mode": "Application by email with prescribed form/documents; interview as notified (not a general online application portal).",
     "openDate": "06/10/2026",
-    "vacancy": "Junior Research Fellow posts as notified by DMRL",
-    "qualification": "Relevant prescribed engineering/science qualification as detailed in the DMRL advertisement",
-    "age": "As prescribed in the official DRDO advertisement",
+    "vacancy": "18 JRF posts: Metallurgical/Materials 7; Mechanical 7; Chemical 2; Physics 2",
+    "qualification": "Discipline-specific first-class engineering degree plus valid GATE or relevant first-class postgraduate engineering degree; Physics route: first-division MSc Physics with valid NET, as specified in the official advertisement.",
+    "age": "Maximum 28 years as of interview closing date; SC/ST relaxation 5 years, OBC relaxation 3 years as specified.",
     "fee": "As prescribed in the official advertisement",
-    "selection": "Shortlisting and interview as prescribed by DMRL",
-    "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/",
+    "selection": "Shortlisting/document scrutiny and interview as prescribed in the official notice.",
+    "apply": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDMRL06102026.pdf",
+    "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDMRL06102026.pdf",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
     "documents": "Relevant degree/qualification and marksheets, DOB proof, photograph, valid ID and category/other supporting documents where applicable.",
-    "dataAuditDate": "07/10/2026",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -14218,7 +14226,7 @@ window.AJ_JOB_DATA = [
     "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
     "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
     "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
-    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "salary": "₹37,000/month plus applicable HRA",
     "postQualifications": [
       {
         "label": "Educational Qualification",
@@ -14227,8 +14235,20 @@ window.AJ_JOB_DATA = [
     ],
     "postVacancies": [
       {
-        "post": "DRDO DMRL JRF Recruitment 2026 — Advt. DMRL/HRD/JRF/2026/01",
-        "vacancy": "Junior Research Fellow posts as notified by DMRL"
+        "post": "Metallurgical/Materials",
+        "vacancy": "7"
+      },
+      {
+        "post": "Mechanical",
+        "vacancy": "7"
+      },
+      {
+        "post": "Chemical",
+        "vacancy": "2"
+      },
+      {
+        "post": "Physics",
+        "vacancy": "2"
       }
     ],
     "physicalEligibility": [
@@ -14237,29 +14257,29 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://drdo.gov.in/",
+    "verificationStatus": "Official DMRL advertisement PDF checked: ad DMRL/HRD/JRF/2026/01; 18 total seats, discipline split, eligibility routes, ₹37,000/month plus HRA, age 28 with stated relaxations, application mode and closing date 27/10/2026 confirmed.",
+    "verificationSource": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDMRL06102026.pdf",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
     "id": "drdo-cair-jrf-2026",
-    "category": "Central Job",
+    "category": "Defence / Research",
     "title": "DRDO CAIR Bengaluru JRF Recruitment 2026 — Advt. CAIR/HRT/JRF/2026/03",
     "post": "DRDO CAIR Bengaluru JRF Recruitment 2026 — Advt. CAIR/HRT/JRF/2026/03",
     "shortInfo": "**DRDO CAIR Bengaluru JRF Recruitment 2026 — Advt. CAIR/HRT/JRF/2026/03**. Vacancy: Junior Research Fellow posts as notified by CAIR, Bengaluru Eligibility: Relevant prescribed engineering/science qualification as detailed in the CAIR advertisement Last date: 30/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "30/10/2026",
-    "mode": "Online / Interview",
+    "mode": "Email application by 30/10/2026 17:00; walk-in interview on 24/11/2026.",
     "openDate": "06/10/2026",
-    "vacancy": "Junior Research Fellow posts as notified by CAIR, Bengaluru",
-    "qualification": "Relevant prescribed engineering/science qualification as detailed in the CAIR advertisement",
-    "age": "As prescribed in the official DRDO advertisement",
+    "vacancy": "1 Junior Research Fellow (Mathematics)",
+    "qualification": "First-division MSc Mathematics from an AICTE-accredited university with NET/GATE; knowledge of lattice-based cryptography and C/Python is desirable, as stated in the notice.",
+    "age": "Maximum 28 years at closing date; relaxation up to 5 years for SC/ST/PH and 3 years for OBC as stated in notice.",
     "fee": "As prescribed in the official advertisement",
-    "selection": "Walk-in interview / screening as prescribed by CAIR",
-    "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/",
+    "selection": "Written test and interview; report 08:00–09:30, written test scheduled at 10:00 on 24/11/2026.",
+    "apply": "mailto:jrfcair2026@gmail.com",
+    "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtCAIR06102026.pdf",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
     "documents": "Relevant degree/qualification and marksheets, DOB proof, photograph, valid ID and category/other supporting documents where applicable.",
-    "dataAuditDate": "07/10/2026",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -14267,7 +14287,7 @@ window.AJ_JOB_DATA = [
     "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
     "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
     "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
-    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "salary": "₹37,000/month plus applicable HRA",
     "postQualifications": [
       {
         "label": "Educational Qualification",
@@ -14276,8 +14296,8 @@ window.AJ_JOB_DATA = [
     ],
     "postVacancies": [
       {
-        "post": "DRDO CAIR Bengaluru JRF Recruitment 2026 — Advt. CAIR/HRT/JRF/2026/03",
-        "vacancy": "Junior Research Fellow posts as notified by CAIR, Bengaluru"
+        "post": "Junior Research Fellow — Mathematics",
+        "vacancy": "1"
       }
     ],
     "physicalEligibility": [
@@ -14286,8 +14306,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://drdo.gov.in/",
+    "verificationStatus": "Official CAIR advertisement PDF checked: ad CAIR/HRT/JRF/2026/03; one Mathematics JRF, eligibility, age/relaxation, ₹37,000/month plus HRA, email deadline 30/10/2026 17:00, and walk-in schedule 24/11/2026 confirmed.",
+    "verificationSource": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtCAIR06102026.pdf",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -14390,23 +14410,23 @@ window.AJ_JOB_DATA = [
   },
   {
     "id": "railway-rci-apprentice-2026-27",
-    "category": "Central Job",
+    "category": "Apprenticeship",
     "title": "DRDO RCI Hyderabad Apprentice Recruitment 2026-27",
     "post": "DRDO RCI Hyderabad Apprentice Recruitment 2026-27",
     "shortInfo": "**DRDO RCI Hyderabad Apprentice Recruitment 2026-27**. Vacancy: Apprentice positions as notified by RCI Eligibility: Relevant ITI/diploma/degree apprentice eligibility as prescribed Last date: 01/11/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
     "lastDate": "01/11/2026",
     "mode": "Online",
     "openDate": "01/10/2026",
-    "vacancy": "Apprentice positions as notified by RCI",
-    "qualification": "Relevant ITI/diploma/degree apprentice eligibility as prescribed",
+    "vacancy": "Duplicate-topic record for RCI Apprentices; authoritative split is 50 Graduate + 30 Diploma + 115 ITI = 195 total.",
+    "qualification": "Use the primary RCI apprenticeship advertisement for trade-wise eligibility; do not rely on this duplicate summary.",
     "age": "As prescribed in the apprenticeship notification",
     "fee": "As prescribed",
     "selection": "Merit/shortlisting and document verification as prescribed",
-    "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/",
+    "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
+    "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtRCI01102026.pdf",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker",
     "documents": "Relevant ITI/diploma/degree certificates and marksheets, DOB proof, photograph, valid ID, apprenticeship registration and category documents where applicable.",
-    "dataAuditDate": "07/10/2026",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -14433,8 +14453,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://drdo.gov.in/",
+    "verificationStatus": "Likely duplicate of drdo-rci-apprentice-2027 (same RCI 2026/27 apprenticeship notice). Kept pending ID/reference audit; do not count as a separate recruitment until confirmed.",
+    "verificationSource": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtRCI01102026.pdf",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
