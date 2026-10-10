@@ -1026,13 +1026,14 @@
       official: "https://www.mecl.co.in/ContentPageMecl.aspx?Antispam=7c2a6846-13dd-438f-86a2-299456b31ab8&ControlID=61&Lng=EN&MyAntispam=a976cf17-f38a-4e54-ae49-025d3b8ce30e&page=advertisement-notices-and-results",
       notice: "https://www.mecl.co.in/ContentPageMecl.aspx?Antispam=7c2a6846-13dd-438f-86a2-299456b31ab8&ControlID=61&Lng=EN&MyAntispam=a976cf17-f38a-4e54-ae49-025d3b8ce30e&page=advertisement-notices-and-results",
       apply: "https://ibpsreg.ibps.in/mecljul26/",
-      vacancy: "Post-wise vacancy count: consult MECL Advt. 03/Rectt./2026 on the official MECL notice page; total not independently transcribed in this pass.",
-      qualification: "Refer to MECL Advt. 03/Rectt./2026 for post-wise qualification, age and experience.",
-      fee: "Refer to the official detailed notification.",
-      selection: "As specified in MECL Advt. 03/Rectt./2026.",
+      vacancy: "122 vacancies across 16 Non-Executive post categories, as reported for MECL Advt. 03/Rectt./2026. Check the official PDF for category-wise and post-wise distribution.",
+      qualification: "Post-specific qualification varies across the 16 categories and includes relevant 10th, ITI, diploma and graduate qualifications; verify the exact qualification and experience for the chosen post in the official PDF.",
+      age: "Age/qualification/experience reckoning date: 01/09/2026. Maximum age generally 30 years, with category-wise relaxations as per the official notification.",
+      fee: "₹500 for General/OBC-NCL/EWS candidates; SC/ST/PwBD/Ex-Servicemen and departmental candidates are exempt, subject to the official notice.",
+      selection: "Written examination, document verification and applicable skill/trade test. Skill/trade test is qualifying; read the official instructions for the exact post-wise process.",
       verificationSource: "https://ibpsreg.ibps.in/mecljul26/",
       dataAuditDate: "10/10/2026",
-      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: MECL official advertisement list identifies Detailed Advertisement No. 03/Rectt./2026; the IBPS-hosted official registration portal confirms registration and fee payment 12/09/2026–11/10/2026 and application printing through 26/10/2026. Post-wise vacancy, eligibility, age and fee still need transcription from the detailed advertisement.",
+      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: MECL official advertisement page lists Detailed Advertisement No. 03/Rectt./2026. The notice is reported as 122 vacancies across 16 Non-Executive categories; general age ceiling 30 years as of 01/09/2026 and ₹500 fee for General/OBC-NCL/EWS with specified exemptions. Post-wise qualification, experience, category distribution and exact conditions must be checked in the official PDF.",
       updates: "Official registration portal confirms application/fee deadline 11/10/2026 and application-print deadline 26/10/2026. Printing availability does not extend registration. Read MECL Advt. 03/Rectt./2026 before applying."
     }
   ];
