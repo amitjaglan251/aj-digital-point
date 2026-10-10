@@ -1062,10 +1062,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -1092,8 +1092,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Bank of Baroda page confirms 2,482 LBO vacancies and closing date 17/09/2026. Application window is closed as of 10/10/2026; latest post-closing notices/results should be checked before displaying as active.",
+    "verificationSource": "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -1952,10 +1952,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://www.powergrid.in/en/news/powergrid-invites-online-applications-one-year-apprenticeship-training-program-under",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://www.powergrid.in/en/news/powergrid-invites-online-applications-one-year-apprenticeship-training-program-under",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -1982,8 +1982,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official POWERGRID page confirms one-year apprenticeship, opening 25/08/2026 and closing 10/09/2026. Application window is closed as of 10/10/2026; vacancy count and regional/trade breakdown still require advertisement-level verification.",
+    "verificationSource": "https://www.powergrid.in/en/news/powergrid-invites-online-applications-one-year-apprenticeship-training-program-under",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2001,10 +2001,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://www.spmcil.com/en/latest-careers/advt-no-02-2026-recruitment-of-executives-at-e-2-level-e-1-level-in-various-functional-areas/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://www.spmcil.com/en/latest-careers/advt-no-02-2026-recruitment-of-executives-at-e-2-level-e-1-level-in-various-functional-areas/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2031,8 +2031,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official SPMCIL page confirms Advt. 02/2026 for E-2/E-1 executives and closing date 31/08/2026 17:00, with a later notice dated 09/10/2026. Existing record title 'Assistant Manager' may not accurately describe the full ad; post-wise mapping and latest notice need checking. Closed as of 10/10/2026.",
+    "verificationSource": "https://www.spmcil.com/en/latest-careers/advt-no-02-2026-recruitment-of-executives-at-e-2-level-e-1-level-in-various-functional-areas/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2050,10 +2050,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://ngel.in/career",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://ngel.in/career",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2080,8 +2080,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official NGEL careers page lists experienced-professional recruitment Advt. 04/26 with start 18/08/2026 and closing 07/09/2026 18:00. Application window is closed as of 10/10/2026; exact title/post mapping and vacancy details need the original ad checked.",
+    "verificationSource": "https://ngel.in/career",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2148,10 +2148,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://recruitment.csir.res.in/index.php",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://recruitment.csir.res.in/index.php",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2178,8 +2178,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official CSIR Recruitment & Assessment Board page confirms Technician (1), Advt. R&A/01/2026, opening 18/08/2026 and closing 17/09/2026 17:00. Application window is closed; the stated 43-post total and institute-wise split should be checked against the detailed advertisement.",
+    "verificationSource": "https://recruitment.csir.res.in/index.php",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2246,10 +2246,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://www.aai.aero/en/careers/recruitment/Offical",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://www.aai.aero/en/careers/recruitment/Offical",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2276,8 +2276,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official AAI recruitment dashboard lists Advt. 12/2026/CHQ/DR-CBT for direct recruitment of Managers and Junior Executives with 389 posts. The displayed record's closing date and post-wise breakdown still require the specific advertisement/corrigenda to be checked.",
+    "verificationSource": "https://www.aai.aero/en/careers/recruitment/Offical",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
