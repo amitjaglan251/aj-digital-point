@@ -1209,10 +1209,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://bankofbaroda.bank.in/career/current-opportunities",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://bankofbaroda.bank.in/career/current-opportunities",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -1239,8 +1239,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Bank of Baroda careers index linked, but no matching 1,100-post Specialist Officer notice was established in this pass. Record title/count/date are unverified and must not be represented as confirmed; compare with exact official advertisement before publication.",
+    "verificationSource": "https://bankofbaroda.bank.in/career/current-opportunities",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -1854,10 +1854,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://www.iob.in/Careers",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://www.iob.in/Careers",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -1884,8 +1884,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Indian Overseas Bank careers page linked. This pass did not confirm the exact Specialist Officer notice or the listed 15/09/2026 deadline; treat the record as unverified/closed pending original advertisement.",
+    "verificationSource": "https://www.iob.in/Careers",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -1903,10 +1903,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://www.federalbank.co.in/careers",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://www.federalbank.co.in/careers",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -1933,8 +1933,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Federal Bank careers page linked, but the specific Sales Officer 2026 notice and listed 31/08/2026 deadline were not confirmed in this pass. Keep as unverified/closed pending matching advertisement.",
+    "verificationSource": "https://www.federalbank.co.in/careers",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2099,10 +2099,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://recruit.southindianbank.com/RDC/index.jsp",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://recruit.southindianbank.com/RDC/index.jsp",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2129,8 +2129,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official South Indian Bank recruitment portal currently reports no job openings and shows a Junior Officer (Business Promotion Officer) test-results announcement. Listed 31/08/2026 date is not independently confirmed here; treat as closed/result follow-up, not an active application.",
+    "verificationSource": "https://recruit.southindianbank.com/RDC/index.jsp",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2197,10 +2197,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://recruitment.itbpolice.nic.in/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://recruitment.itbpolice.nic.in/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2227,8 +2227,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official ITBP recruitment portal linked, but the exact CAPF 282 Medical Officer advertisement, vacancy split and 08/09/2026 closing date remain unconfirmed in this pass. Do not mark fully verified until the original notice is matched.",
+    "verificationSource": "https://recruitment.itbpolice.nic.in/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2295,10 +2295,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://bankofbaroda.bank.in/career/current-opportunities",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://bankofbaroda.bank.in/career/current-opportunities",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2325,8 +2325,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Bank of Baroda career index linked. The exact Specialist Officer record with listed 26/08/2026 closing date was not individually matched in this pass; record remains unverified pending exact advertisement.",
+    "verificationSource": "https://bankofbaroda.bank.in/career/current-opportunities",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2344,10 +2344,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://dgqa.gov.in/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://dgqa.gov.in/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2374,8 +2374,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official DGQA website linked, but the exact 15-post Technician (Semi-Skilled) offline advertisement and 07/08/2026 deadline were not independently confirmed in this pass. Keep as unverified/closed pending original notice.",
+    "verificationSource": "https://dgqa.gov.in/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2393,10 +2393,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://indianairforce.nic.in/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://indianairforce.nic.in/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2423,8 +2423,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Indian Air Force website linked, but the exact Agniveer (Non-Combatant) offline recruitment notice and listed 17/08/2026 deadline were not confirmed in this pass. Keep as unverified/closed pending the matching official notice.",
+    "verificationSource": "https://indianairforce.nic.in/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2540,10 +2540,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://recruit.southindianbank.com/RDC/index.jsp",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://recruit.southindianbank.com/RDC/index.jsp",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2570,8 +2570,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official South Indian Bank recruitment portal currently reports no job openings. Exact Probationary Officer record and listed 29/07/2026 deadline were not confirmed in this pass; treat as closed/unverified.",
+    "verificationSource": "https://recruit.southindianbank.com/RDC/index.jsp",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2589,10 +2589,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://stimulate.icsi.edu/RECRUITMENT/IndexHome/IndexHome",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://stimulate.icsi.edu/RECRUITMENT/IndexHome/IndexHome",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2619,8 +2619,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official ICSI recruitment management portal shows Executive Assistant written-test notices (notices 04/05). The listed 12/08/2026 application deadline and exact advertisement details still need matching to the archive notice; do not treat as an active application.",
+    "verificationSource": "https://stimulate.icsi.edu/RECRUITMENT/IndexHome/IndexHome",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2638,10 +2638,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://joinindianarmy.nic.in/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://joinindianarmy.nic.in/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2668,8 +2668,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Join Indian Army portal linked. Exact NCC Special Entry women course notice and listed 21/08/2026 deadline not individually confirmed in this pass; keep as closed/unverified pending matching course notification.",
+    "verificationSource": "https://joinindianarmy.nic.in/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2687,10 +2687,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://joinindianarmy.nic.in/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://joinindianarmy.nic.in/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2717,8 +2717,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Join Indian Army portal linked. Exact NCC Special Entry men course notice and listed 20/08/2026 deadline not individually confirmed in this pass; keep as closed/unverified pending matching course notification.",
+    "verificationSource": "https://joinindianarmy.nic.in/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -3130,10 +3130,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://bsebstet.org/index.html",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://bsebstet.org/index.html",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -3160,8 +3160,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official BSEB STET portal found, but it currently surfaces STET-2025 material rather than a matching 2026 notice. The listed 22/09/2026 extended deadline is unverified; do not advertise as a confirmed 2026 opening until an official 2026 notice is located.",
+    "verificationSource": "https://bsebstet.org/index.html",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
