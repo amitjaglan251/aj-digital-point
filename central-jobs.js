@@ -7239,19 +7239,19 @@ window.AJ_JOB_DATA = [
   {
     "id": "drdo-director-dia-coe-2026",
     "category": "Defence / Research",
-    "title": "DRDO Director, DIA-CoE, BHU Recruitment 2026",
-    "post": "DRDO Director, DIA-CoE, BHU Recruitment 2026",
-    "shortInfo": "DRDO listing shows a Director, DIA-CoE notice with last date 30/10/2026. The exact host institution must be checked against the original advertisement because official DRDO pages show inconsistent institution wording.",
+    "title": "DRDO / IIT (BHU) Director, DIA-CoE Recruitment 2026",
+    "post": "Director, DIA-CoE, IIT (BHU) Varanasi",
+    "shortInfo": "DRDO’s official vacancy listing identifies this as “Advertisement for the Post of Director, DIA-CoE, BHU,” published 30/09/2026 with closing date 30/10/2026. The listing directs applicants to IIT (BHU) Varanasi’s Positions Available page. Post-specific eligibility, pay and application requirements must be taken from the IIT (BHU) advertisement/form.",
     "lastDate": "30/10/2026",
     "mode": "As prescribed in the official advertisement",
     "vacancy": "1",
     "qualification": "As prescribed in DRDO notification",
     "age": "As per notification",
     "selection": "As per DRDO recruitment process",
-    "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "openDate": "See official notification",
+    "apply": "https://iitbhu.ac.in/positions",
+    "notice": "https://iitbhu.ac.in/positions",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/advertisement-post-director-dia-coe-bhu",
+    "openDate": "30/09/2026",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
     "dataAuditDate": "10/10/2026",
@@ -7281,9 +7281,16 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official DRDO vacancy listing confirms a Director, DIA-CoE notice with closing date 30/10/2026, but institution naming differs across DRDO pages (BHU vs Bharathiar University in a separate media listing). Institution, qualifications, application route and other details require original advertisement confirmation before finalizing.",
-    "verificationSource": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "updates": "Latest update not separately recorded in this entry; official authority notice controls."
+    "verificationStatus": "Official DRDO listing and IIT (BHU) positions page cross-checked: institution confirmed as IIT (BHU) Varanasi; published/open date 30/09/2026; closing date 30/10/2026. Detailed qualifications, experience, remuneration and required documents still need direct advertisement/form inspection; not fully verified.",
+    "verificationSource": "https://drdo.gov.in/drdo/en/offerings/vacancies/advertisement-post-director-dia-coe-bhu",
+    "updates": "Latest update not separately recorded in this entry; official authority notice controls.",
+    "organization": "Indian Institute of Technology (BHU) Varanasi",
+    "department": "DIA-CoE, IIT (BHU) Varanasi",
+    "links": {
+      "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/advertisement-post-director-dia-coe-bhu",
+      "notification": "https://iitbhu.ac.in/positions",
+      "apply": "https://iitbhu.ac.in/positions"
+    }
   },
   {
     "id": "drdo-dgre-jrf-2026-27",
