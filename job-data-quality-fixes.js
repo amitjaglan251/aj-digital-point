@@ -48,6 +48,16 @@
     // Exact official notice not located for the 2,049-post BGSSL record or the 206-post generic BOB SO record.
     "bgissl-2049-various-vacancies",
     "bank-of-baroda-specialist-officer",
+    // Batch 7 official-source reconciliation (10/10/2026): these records have unresolved
+    // notice/deadline conflicts; hide until the exact current advertisement is matched.
+    "bpsc-tre-4-32388-2026",
+    "ruhs-medical-officer-600-2026",
+    "psssb-group-b-13-2026",
+    "mecl-accountant-other-2026",
+    // The record is not the same as the current MECL Non-Executive Advt. 03/Rectt./2026.
+    // Exact 2026 Accountant notice and 11/10/2026 deadline were not established.
+    // The other three records also lack a fully matching current official application notice.
+    // Keep them out of the public feed rather than showing unverified dates/counts as active.
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
