@@ -520,21 +520,21 @@
 
   // Official-source batch 3: restore and correct Bank of Baroda records after
   // finding the matching official career pages; add direct official POWERGRID/SPMCIL sources.
-  const bobLbo = window.AJ_JOB_DATA.find(function (item) { return item.id === "bank-of-baroda-2482-lbo"; });
-  if (bobLbo) {
-    bobLbo.title = "Bank of Baroda Local Bank Officer Recruitment 2026 — 2,482 Posts (Closed)";
-    bobLbo.post = "Local Bank Officers (LBO), JMG/S-I";
-    bobLbo.organization = "Bank of Baroda";
-    bobLbo.openDate = "18/08/2026";
-    bobLbo.lastDate = "17/09/2026 (extended; closed)";
-    bobLbo.vacancy = "2,482 Local Bank Officer posts, as listed on the official recruitment page.";
-    bobLbo.official = "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09";
-    bobLbo.notice = bobLbo.official;
-    bobLbo.apply = bobLbo.official;
-    bobLbo.verificationSource = bobLbo.official;
-    bobLbo.dataAuditDate = "10/10/2026";
-    bobLbo.verificationStatus = "OFFICIAL BANK OF BARODA CAREER PAGE VERIFIED 10/10/2026: Advertisement BOB/HRM/REC/ADVT/2026/16 lists 2,482 Local Bank Officer posts, last date 17/09/2026, with addendum extending the application deadline. Application window closed.";
-    bobLbo.updates = "Bank of Baroda's official career page lists 2,482 vacancies and 17/09/2026 as the extended closing date. Application window is closed; use the advertisement and addendum on the official page for full post-wise eligibility and vacancy details.";
+  const bobLboVerified = window.AJ_JOB_DATA.find(function (item) { return item.id === "bank-of-baroda-2482-lbo"; });
+  if (bobLboVerified) {
+    bobLboVerified.title = "Bank of Baroda Local Bank Officer Recruitment 2026 — 2,482 Posts (Closed)";
+    bobLboVerified.post = "Local Bank Officers (LBO), JMG/S-I";
+    bobLboVerified.organization = "Bank of Baroda";
+    bobLboVerified.openDate = "18/08/2026";
+    bobLboVerified.lastDate = "17/09/2026 (extended; closed)";
+    bobLboVerified.vacancy = "2,482 Local Bank Officer posts, as listed on the official recruitment page.";
+    bobLboVerified.official = "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09";
+    bobLboVerified.notice = bobLboVerified.official;
+    bobLboVerified.apply = bobLboVerified.official;
+    bobLboVerified.verificationSource = bobLboVerified.official;
+    bobLboVerified.dataAuditDate = "10/10/2026";
+    bobLboVerified.verificationStatus = "OFFICIAL BANK OF BARODA CAREER PAGE VERIFIED 10/10/2026: Advertisement BOB/HRM/REC/ADVT/2026/16 lists 2,482 Local Bank Officer posts, last date 17/09/2026, with addendum extending the application deadline. Application window closed.";
+    bobLboVerified.updates = "Bank of Baroda's official career page lists 2,482 vacancies and 17/09/2026 as the extended closing date. Application window is closed; use the advertisement and addendum on the official page for full post-wise eligibility and vacancy details.";
   }
 
   const bob1100 = window.AJ_JOB_DATA.find(function (item) { return item.id === "bank-of-baroda-1100-so-2026"; });
@@ -587,19 +587,19 @@
   }
 
 
-  const aai389 = window.AJ_JOB_DATA.find(function (item) { return item.id === "aai-389-jr-executive-manager"; });
-  if (aai389) {
-    aai389.title = "AAI Managers & Junior Executives Recruitment 2026 — Advt. 12/2026/CHQ/DR-CBT";
-    aai389.post = "Managers and Junior Executives in various disciplines";
-    aai389.organization = "Airports Authority of India (AAI)";
-    aai389.vacancy = "389 posts, as listed on the official AAI Recruitment Dashboard.";
-    aai389.official = "https://www.aai.aero/en/careers/recruitment/Offical";
-    aai389.notice = "https://www.aai.aero/en/careers/recruitment/Offical";
-    aai389.apply = "https://www.aai.aero/en/careers/recruitment/Offical";
-    aai389.verificationSource = "https://www.aai.aero/en/careers/recruitment/Offical";
-    aai389.dataAuditDate = "10/10/2026";
-    aai389.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official AAI Recruitment Dashboard confirms Advertisement 12/2026/CHQ/DR-CBT and 389 total posts, posted 22/07/2026. The stored 07/09/2026 deadline was not independently confirmed from the detailed advertisement in this pass; treat the deadline as unverified until checked against the PDF/corrigendum.";
-    aai389.updates = "AAI official dashboard confirms 389 posts under Advt. 12/2026/CHQ/DR-CBT and has exam/press-note updates through 23/09/2026. Deadline and post-wise vacancy/eligibility tables still require detailed-advertisement reconciliation.";
+  const aai389Verified = window.AJ_JOB_DATA.find(function (item) { return item.id === "aai-389-jr-executive-manager"; });
+  if (aai389Verified) {
+    aai389Verified.title = "AAI Managers & Junior Executives Recruitment 2026 — Advt. 12/2026/CHQ/DR-CBT";
+    aai389Verified.post = "Managers and Junior Executives in various disciplines";
+    aai389Verified.organization = "Airports Authority of India (AAI)";
+    aai389Verified.vacancy = "389 posts, as listed on the official AAI Recruitment Dashboard.";
+    aai389Verified.official = "https://www.aai.aero/en/careers/recruitment/Offical";
+    aai389Verified.notice = "https://www.aai.aero/en/careers/recruitment/Offical";
+    aai389Verified.apply = "https://www.aai.aero/en/careers/recruitment/Offical";
+    aai389Verified.verificationSource = "https://www.aai.aero/en/careers/recruitment/Offical";
+    aai389Verified.dataAuditDate = "10/10/2026";
+    aai389Verified.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official AAI Recruitment Dashboard confirms Advertisement 12/2026/CHQ/DR-CBT and 389 total posts, posted 22/07/2026. The stored 07/09/2026 deadline was not independently confirmed from the detailed advertisement in this pass; treat the deadline as unverified until checked against the PDF/corrigendum.";
+    aai389Verified.updates = "AAI official dashboard confirms 389 posts under Advt. 12/2026/CHQ/DR-CBT and has exam/press-note updates through 23/09/2026. Deadline and post-wise vacancy/eligibility tables still require detailed-advertisement reconciliation.";
   }
 
 
