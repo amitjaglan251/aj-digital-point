@@ -7239,7 +7239,7 @@ window.AJ_JOB_DATA = [
   {
     "id": "drdo-director-dia-coe-2026",
     "category": "Defence / Research",
-    "title": "DRDO / IIT (BHU) Director, DIA-CoE Recruitment 2026",
+    "title": "DRDO Advertisement for Director, DIA-CoE, IIT (BHU) Varanasi 2026",
     "post": "Director, DIA-CoE, IIT (BHU) Varanasi",
     "shortInfo": "DRDO’s official vacancy listing identifies this as “Advertisement for the Post of Director, DIA-CoE, BHU,” published 30/09/2026 with closing date 30/10/2026. The listing directs applicants to IIT (BHU) Varanasi’s Positions Available page. Post-specific eligibility, pay and application requirements must be taken from the IIT (BHU) advertisement/form.",
     "lastDate": "30/10/2026",
@@ -7249,7 +7249,7 @@ window.AJ_JOB_DATA = [
     "age": "As per notification",
     "selection": "As per DRDO recruitment process",
     "apply": "https://iitbhu.ac.in/positions",
-    "notice": "https://iitbhu.ac.in/positions",
+    "notice": "https://drdo.gov.in/drdo/en/offerings/vacancies/advertisement-post-director-dia-coe-bhu",
     "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/advertisement-post-director-dia-coe-bhu",
     "openDate": "30/09/2026",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
@@ -7281,7 +7281,7 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official DRDO listing and IIT (BHU) positions page cross-checked: institution confirmed as IIT (BHU) Varanasi; published/open date 30/09/2026; closing date 30/10/2026. Detailed qualifications, experience, remuneration and required documents still need direct advertisement/form inspection; not fully verified.",
+    "verificationStatus": "Official DRDO page confirms title/institution and published/start date 30/09/2026 and end date 30/10/2026. Qualification, experience, remuneration, application procedure and attachments remain pending direct advertisement inspection; not fully verified.",
     "verificationSource": "https://drdo.gov.in/drdo/en/offerings/vacancies/advertisement-post-director-dia-coe-bhu",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls.",
     "organization": "Indian Institute of Technology (BHU) Varanasi",
@@ -7344,18 +7344,18 @@ window.AJ_JOB_DATA = [
   {
     "id": "drdo-mtrdc-jrf-2026",
     "category": "Defence / Research",
-    "title": "DRDO MTRDC Bengaluru JRF Recruitment 2026",
-    "post": "DRDO MTRDC Bengaluru JRF Recruitment 2026",
-    "shortInfo": "**DRDO MTRDC Bengaluru JRF Recruitment 2026 — Advt. MTRDC/RF/RECT/2026/02**. 3 Junior Research Fellow posts. Official DRDO listing confirms publication/start date 16/09/2026 and closing date 15/10/2026. Walk-in interview is reported for 15/10/2026. Stipend and qualification details should be checked against the original advertisement PDF before relying on them.",
+    "title": "DRDO MTRDC Bengaluru Junior Research Fellow (JRF) Walk-in Interview 2026",
+    "post": "Junior Research Fellow (JRF)",
+    "shortInfo": "**DRDO MTRDC Bengaluru JRF — Advt. MTRDC/RF/RECT/2026/02.** Three JRF posts (vacancy may change as per organisational requirements). Walk-in interview: 15/10/2026; report at 10:00 hrs at MTRDC Reception, near Bharat Electronics North Gate, Jalahalli, Bengaluru-560013. Fellowship ₹37,000/month plus HRA. No TA is paid; fellowship does not confer a right to absorption in DRDO.",
     "lastDate": "15/10/2026",
-    "mode": "Walk-in Interview",
-    "vacancy": "3",
-    "qualification": "First-class BE/BTech in Electronics/EI/ECE/ET/EEE with valid NET/GATE; OR first-class MSc Electronics with NET; OR first-class ME/MTech in Electronics/Power Electronics/Electrical Engineering with first-class UG degree, as summarized in corroborating coverage; confirm exact wording in official advertisement.",
-    "age": "Maximum 28 years; category relaxations subject to official rules",
-    "selection": "Walk-in interview",
-    "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
-    "notice": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
-    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
+    "mode": "Walk-in interview; bring biodata, original certificates and one set of copies. Government/PSU/autonomous-body employees must bring NOC.",
+    "vacancy": "3 (may change as per organisational requirements)",
+    "qualification": "One of: (1) first-division BE/BTech in Electronics/EI/ECE/ET/EEE with valid NET/GATE; (2) first-division MSc Electronics with NET; or (3) first-division ME/MTech in Electronics, Power Electronics or Electrical Engineering with first-division at both UG and PG levels.",
+    "age": "Not exceeding 28 years; relaxation up to 5 years for SC/ST/PH and 3 years for OBC, as stated in the advertisement.",
+    "selection": "Test/interview on the same day; selection panel valid for one year from interview date.",
+    "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/mtrdc-bengaluru-invites-eligible-candidates-walk-interview-post-jrf",
+    "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtMTRDC16092026.pdf",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/mtrdc-bengaluru-invites-eligible-candidates-walk-interview-post-jrf",
     "openDate": "16/09/2026",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
@@ -7367,11 +7367,11 @@ window.AJ_JOB_DATA = [
     "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
     "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
     "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
-    "salary": "₹37,000 per month plus applicable HRA (corroborating coverage; verify exact terms in official PDF)",
+    "salary": "₹37,000 per month plus House Rent Allowance as per rules.",
     "postQualifications": [
       {
         "label": "Educational Qualification",
-        "value": "First-class BE/BTech in Electronics/EI/ECE/ET/EEE with valid NET/GATE; OR first-class MSc Electronics with NET; OR first-class ME/MTech in Electronics/Power Electronics/Electrical Engineering with first-class UG degree (secondary-source summary; confirm official PDF wording)."
+        "value": "First-division BE/BTech in Electronics/EI/ECE/ET/EEE with valid NET/GATE; OR first-division MSc Electronics with NET; OR first-division ME/MTech in Electronics, Power Electronics or Electrical Engineering with first-division at UG and PG levels."
       }
     ],
     "postVacancies": [
@@ -7386,8 +7386,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Partially checked: official DRDO listing confirms advertisement number, title, published/start date 16/09/2026 and end date 15/10/2026. Vacancy count, qualification, age, stipend and interview details are corroborated by secondary reporting; original official PDF field-by-field confirmation remains pending.",
-    "verificationSource": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
+    "verificationStatus": "FULLY CHECKED against the official DRDO MTRDC page and advertisement PDF: ad number, published/start/closing dates, three-post count (with organisational-change caveat), qualification routes, stipend, age and relaxations, walk-in date/time/venue, document/NOC requirements, no-TA condition and no-absorption clause confirmed.",
+    "verificationSource": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtMTRDC16092026.pdf",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
