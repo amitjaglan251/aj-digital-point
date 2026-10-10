@@ -259,3 +259,15 @@ After the baseline audit, the post-processing file `job-data-quality-fixes.js` w
 **Verification status remains PARTIAL:** registration dates and the existence of the advertisement are confirmed from official pages, but post-wise vacancy/category distribution, qualifications, experience, and all category-specific conditions have not yet been fully transcribed and cross-checked against the detailed PDF. Treat the detailed notice as authoritative; do not interpret this follow-up as completion of the 371-record manual verification.
 
 The fix is loaded with cache-busted versions in `latest-jobs.html` (`job-data-quality-fixes.js?v=20261010-34`) and `job-details.html` (`job-data-quality-fixes.js?v=20261010-31`). GitHub source files were re-fetched after the commits to confirm these references and MECL fields; this source check is not a live browser-render verification.
+
+
+## Follow-up update — IBPS-hosted active recruitment portals
+
+Checked the live IBPS recruitment index and the individual registration portals for these current listings:
+
+- **KUCBL Managers and Assistant Managers:** registration and online fee payment 02/10/2026–25/10/2026; application print through 10/11/2026. Official portal: https://ibpsreg.ibps.in/kucbldec25/
+- **MPA Class I & II Posts:** registration and online fee payment 29/09/2026–28/10/2026; application print through 12/11/2026. Official portal: https://ibpsreg.ibps.in/mpajul26/
+
+The IBPS index also lists both recruitments. These checks confirm the advertised titles and portal date windows only. Vacancy totals, post-wise qualifications, age criteria, fee concessions and selection details remain marked **partially verified** until they are transcribed from each detailed notification. Application-print dates do not extend the registration deadline.
+
+Sources: IBPS recruitment index https://www.ibps.in/index.php/recruitment/ ; KUCBL registration portal above; MPA registration portal above. Source-page check completed 10/10/2026; this is not a live browser-render test of the AJ DIGITAL POINT website.
