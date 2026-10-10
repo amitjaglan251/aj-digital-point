@@ -23,7 +23,10 @@
     // Official 2026 notices could not be matched; similarly named current BSEB page is STET 2025.
     "bseb-bihar-stet-2026",
     // No matching official 1100-post Bank of Baroda SO notice found in this pass.
-    "bank-of-baroda-1100-so-2026"
+    "bank-of-baroda-1100-so-2026",
+    // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
+    "upsc-direct-recruitment-12-2026",
+    "upsc-adv-12-2026-direct-2026"
   ]);
 
   const seen = new Set();
@@ -356,5 +359,62 @@
       updates: "BEE official careers page checked 10/10/2026. Open the circular from the official page to confirm post-wise eligibility, fee, age and application procedure."
     });
   });
+
+  // Fix the detailed IGNOU non-teaching notice URL to the exact PDF linked by
+  // the official career page; correct teaching recruitment's online/hard-copy dates.
+  const ignouNT = window.AJ_JOB_DATA.find(function (item) { return item.id === "ignou-nonteaching-2026"; });
+  if (ignouNT) {
+    ignouNT.notice = "https://www.ignou.ac.in/viewFile/ad/notification/Detailed_Advertisement.pdf";
+    ignouNT.official = "https://www.ignou.ac.in/announcement/Career?nav=5";
+    ignouNT.apply = "https://ignount.samarth.edu.in/";
+    ignouNT.vacancy = "14 total: Assistant Director 2; Technical Manager 4; Technical Assistant 8.";
+    ignouNT.verificationStatus = "OFFICIAL IGNOU CAREER PAGE AND ADVERTISEMENT PDF VERIFIED 10/10/2026. 14 posts, post-wise age limits and online closing date 02/11/2026 confirmed.";
+    ignouNT.updates = "Official IGNOU notice (Advt. 69/2026/Admn.) checked 10/10/2026. Online registration runs 03/10/2026–02/11/2026 23:59:59 IST.";
+    ignouNT.verificationSource = "https://www.ignou.ac.in/viewFile/ad/notification/Detailed_Advertisement.pdf";
+  }
+
+  const ignouTeaching = window.AJ_JOB_DATA.find(function (item) { return item.id === "ignou-teaching-2026"; });
+  if (ignouTeaching) {
+    ignouTeaching.title = "IGNOU Teaching Recruitment 2026 — Professor, Associate Professor and Assistant Professor";
+    ignouTeaching.post = "Professor / Associate Professor / Assistant Professor across IGNOU Schools of Studies";
+    ignouTeaching.openDate = "20/09/2026";
+    ignouTeaching.lastDate = "20/10/2026 (online); hard-copy receipt by 30/10/2026";
+    ignouTeaching.official = "https://www.ignou.ac.in/announcement/Career?nav=5";
+    ignouTeaching.notice = "https://www.ignou.ac.in/viewFile/acd/notification/Advertisement-IGNOU-2026.pdf";
+    ignouTeaching.apply = "https://cuignourec.samarth.edu.in/";
+    ignouTeaching.verificationStatus = "OFFICIAL IGNOU CAREER PAGE AND TEACHING ADVERTISEMENT VERIFIED 10/10/2026. Online deadline 20/10/2026; hard-copy deadline 30/10/2026.";
+    ignouTeaching.updates = "Advertisement No. 01/2026/ACD dated 19/09/2026. Apply online by 20/10/2026 and send hard copy by 30/10/2026 as stated in the official career page.";
+    ignouTeaching.verificationSource = "https://www.ignou.ac.in/viewFile/acd/notification/Advertisement-IGNOU-2026.pdf";
+  }
+
+  const ignouDeputationId = "ignou-deputy-assistant-registrar-deputation-2026";
+  if (!window.AJ_JOB_DATA.some(function (item) { return item.id === ignouDeputationId; })) {
+    window.AJ_JOB_DATA.push({
+      id: ignouDeputationId,
+      category: "Central",
+      state: "Central Government",
+      organization: "Indira Gandhi National Open University (IGNOU)",
+      title: "IGNOU Deputy Registrar / Assistant Registrar Recruitment 2026 — Deputation",
+      post: "Deputy Registrar and Assistant Registrar (deputation basis)",
+      shortInfo: "IGNOU invites eligible candidates for Deputy Registrar and Assistant Registrar posts on deputation basis.",
+      openDate: "12/09/2026",
+      lastDate: "12/10/2026 (online); print copy with testimonials by 27/10/2026",
+      mode: "Online application plus hard-copy submission",
+      vacancy: "Check official advertisement for post-wise vacancies.",
+      qualification: "Eligibility and deputation conditions as prescribed in the official advertisement; applicants should verify service/experience criteria before applying.",
+      age: "As specified in official deputation advertisement.",
+      fee: "As specified in official advertisement.",
+      selection: "As specified in official deputation advertisement.",
+      notice: "https://www.ignou.ac.in/viewFile/ad/notification/Advertisement.pdf",
+      official: "https://www.ignou.ac.in/announcement/Career?nav=5",
+      apply: "https://ignount.samarth.edu.in/",
+      documents: "Online application printout and self-attested testimonials must reach the Recruitment Cell, IGNOU, as specified in the official notice.",
+      dataAuditDate: "10/10/2026",
+      verificationSource: "https://www.ignou.ac.in/viewFile/ad/notification/Advertisement.pdf",
+      verificationStatus: "OFFICIAL IGNOU CAREER PAGE AND DEPUTATION ADVERTISEMENT VERIFIED 10/10/2026. Online deadline 12/10/2026; hard-copy deadline 27/10/2026.",
+      updates: "IGNOU career page checked 10/10/2026. Online applications close 12/10/2026; print copy with testimonials is due by 27/10/2026.",
+      postQualifications: [{ label: "Eligibility", value: "Read the official deputation advertisement for cadre, service, experience and eligibility conditions." }]
+    });
+  }
 
 })();
