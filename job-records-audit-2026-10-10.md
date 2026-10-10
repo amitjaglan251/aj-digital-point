@@ -347,3 +347,15 @@ Cross-checked the Indian Coast Guard recruitment listing with SSC's official Not
 - Coast Guard registration-start notice: https://www.indiancoastguard.gov.in/registration-process-cgept-0127-cgept-0227-batches-scheduled-commence-06-oct-26-all-candidates-are
 
 The record now clarifies that SSC's homepage is only an official portal entry point, not a direct application-form URL. The exact closing date, batch-wise vacancy counts, and a stable direct form URL were not transcribed in this pass, so no dates or vacancy figures were guessed. Live browser rendering remains unverified.
+
+
+## Follow-up update — MECL Non-Executive Advt. 03/Rectt./2026
+
+Rechecked the official MECL advertisement page (shown as updated **09/10/2026**) and the IBPS registration portal on **10/10/2026**.
+
+- Official MECL listing includes the detailed Advertisement No. 03/Rectt./2026 and separate “Important Instructions / Clauses for Online Examination”.
+- IBPS portal confirms registration and online fee payment close **11/10/2026**; application printing is allowed through **26/10/2026**. Printing is not an extension of the application deadline.
+- Existing record continues to mark post-wise qualifications, experience and category-wise vacancy distribution as requiring a check against the detailed PDF; no figures were inferred.
+
+Official MECL listing: https://mecl.co.in/ContentPageMecl.aspx?Antispam=d1f1c9cd-24f5-4e1e-9af5-3c3d24f7c17a&ControlID=61&Lng=EN&MyAntispam=d93d1ca5-9dc3-4407-9516-6f746fb5ee07&page=advertisement-notices-and-results
+IBPS registration portal: https://ibpsreg.ibps.in/mecljul26/
