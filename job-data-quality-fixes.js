@@ -40,6 +40,11 @@
     "itbp-capf-282-medical-officer",
     "dgqa-15-technician",
     "iaf-agniveer-non-combatant",
+    // Stored dates could not be matched to the official recruitment cycle; hide until exact notice is identified.
+    "south-indian-bank-junior-officer",
+    "south-indian-bank-probationary-officer",
+    "delhi-dpcc-environment-engineer",
+    "delhi-dtl-assistant-manager-trainee",
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
@@ -691,5 +696,17 @@
     item.verificationStatus = "NEEDS EXACT-NOTICE VERIFICATION 10/10/2026: official Indian Army recruitment portal link added, but the recorded 2026 NCC Special Entry dates and vacancy details were not matched to the exact official notification in this pass.";
     item.updates = "Application dates in the record are past. Use the official Indian Army portal to locate the matching NCC Special Entry notification; exact dates and vacancy details remain unverified.";
   });
+
+
+  const icsi = window.AJ_JOB_DATA.find(function (item) { return item.id === "icsi-executive-assistant"; });
+  if (icsi) {
+    icsi.official = "https://stimulate.icsi.edu/RECRUITMENT/IndexHome/IndexHome";
+    icsi.notice = icsi.official;
+    icsi.apply = icsi.official;
+    icsi.verificationSource = icsi.official;
+    icsi.dataAuditDate = "10/10/2026";
+    icsi.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: ICSI's official recruitment management system lists Regular Posts, Advt. No. 02/2026, and later Executive Assistant written-test notices. The exact application deadline 12/08/2026 and vacancy/eligibility fields were not fully reconciled to the original advertisement in this pass; application is closed.";
+    icsi.updates = "Official ICSI recruitment system is linked. The portal currently shows notices related to the Executive Assistant written test, not an open application; original Advt. 02/2026 must be checked for exact post-wise details.";
+  }
 
 })();
