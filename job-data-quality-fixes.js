@@ -980,6 +980,44 @@
   });
 
 
+  // NIT Raipur Group B/C recruitment — official institute listing verified; detailed PDF fields pending.
+  const nitRaipurTitle = /NIT Raipur/i;
+  let nitRaipurRecord = data.find(function (item) {
+    const label = String(item && item.title || "") + " " + String(item && item.organization || "") + " " + String(item && item.post || "");
+    return item && item.id === "nit-raipur-group-b-c-nonteaching-2026" ||
+      (nitRaipurTitle.test(label) && /Group B|Group C|Non.?Teaching/i.test(label) && /2026/i.test(label));
+  });
+  if (!nitRaipurRecord) {
+    nitRaipurRecord = {
+      id: "nit-raipur-group-b-c-nonteaching-2026",
+      title: "NIT Raipur Group B & C Non-Teaching Recruitment 2026",
+      post: "Various Group B and Group C Non-Teaching Posts",
+      organization: "National Institute of Technology Raipur",
+      category: "Central Government Jobs"
+    };
+    data.push(nitRaipurRecord);
+  }
+  Object.assign(nitRaipurRecord, {
+    id: "nit-raipur-group-b-c-nonteaching-2026",
+    title: "NIT Raipur Group B & C Non-Teaching Recruitment 2026",
+    post: "Various Group B and Group C Non-Teaching Posts",
+    organization: "National Institute of Technology Raipur",
+    category: "Central Government Jobs",
+    openDate: "See official notice",
+    lastDate: "30/10/2026",
+    official: "https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php",
+    notice: "https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php",
+    apply: "https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php",
+    vacancy: "Multiple Group B and Group C posts. Exact post-wise vacancy totals and category distribution must be read from the official detailed advertisement; not transcribed in this verification pass.",
+    qualification: "Post-wise educational qualifications, experience and age limits vary; consult the detailed advertisement linked from NIT Raipur's official recruitment page before applying.",
+    fee: "See the official detailed advertisement and application portal; fee amount/concessions not independently transcribed in this pass.",
+    selection: "As stated in the official detailed advertisement; stages not independently transcribed in this pass.",
+    verificationSource: "https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php",
+    dataAuditDate: "10/10/2026",
+    verificationStatus: "PARTIALLY VERIFIED 10/10/2026: NIT Raipur's official recruitment listing confirms the title, Advt. No. NITRR/R-1/Advt./2026/1035 dated 29/09/2026 and last date 30/10/2026. Exact opening date, vacancy totals, post-wise eligibility, fee, selection and direct application URL still require transcription from the linked detailed notice; the official recruitment page is provided as the safe entry point.",
+    updates: "Official NIT Raipur listing was checked 10/10/2026. Last date shown: 30/10/2026. Use the detailed advertisement linked on the institute page to confirm the post-wise terms and follow its Apply Online link. Do not treat this summary as a substitute for the notice."
+  });
+
   // IBPS official recruitment index + matching registration portals checked 10/10/2026.
   // These entries intentionally publish only the verified title and dates; vacancy/eligibility
   // details remain marked pending until the issuing notice is transcribed.
