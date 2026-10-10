@@ -55,3 +55,17 @@ The site now loads the updated safeguard script with cache-busting versions on b
 
 ### Remaining work
 This targeted pass does **not** mean every remaining record is fully verified. The outstanding queue still includes missing official/apply/notice links, generic opening dates, generic vacancy details, stale update text, and overlapping records in other recruitment families. Continue by verifying deadline-near records against their issuing authority and then work through missing-link and generic-field batches.
+
+## Phase 3 — admissions and DRDO listing checks (10 October 2026)
+
+- **NVS Class XI Lateral Entry Selection Test 2027–28:** the official NVS registration portal explicitly shows the deadline extended to **15/10/2026**. The website record now identifies this as an admission entry, uses the official registration portal, and avoids inventing a single vacancy count.
+- **DRDO MTRDC Bengaluru JRF:** the official DRDO page confirms Advertisement No. **MTRDC/RF/RECT/2026/02**, opened/published **16/09/2026**, closing **15/10/2026**. The listing now points to the exact official notice page and asks applicants to read its attached advertisement for the interview and eligibility rules.
+- **DRDO DGRE JRF:** removed from the public vacancy feed because the official DRDO entry found is a *selected-candidates list*, not an open JRF recruitment advertisement. It should not be shown as a current vacancy.
+- Runtime feed count after phases 2–3: **365 records** (from 371), after removing five duplicate/unconfirmed/obsolete entries plus the DGRE selected-candidates notice. The original source dataset is preserved; the filtering is implemented in the site’s quality-safeguard script.
+
+### Sources for Phase 3
+- NVS Class XI registration portal: https://cbseitms.nic.in/2026/nvsxi_11/
+- DRDO official Skill-Seeker / vacancies listing: https://drdo.gov.in/drdo/en/offerings/vacancies/Skill-Seeker
+- DRDO MTRDC JRF advertisement page: https://drdo.gov.in/drdo/en/offerings/vacancies/mtrdc-bengaluru-invites-eligible-candidates-walk-interview-post-jrf
+
+The full notice-by-notice verification remains in progress. The feed’s remaining generic fields and missing official links still need review in subsequent batches.
