@@ -254,4 +254,107 @@
     aai389.verificationSource = aai389.official;
   }
 
+  // Phase 6 additions sourced from official IGNOU and BEE career pages (10/10/2026).
+  const officialCareer = "https://www.ignou.ac.in/announcement/Career?nav=5";
+  const ignouAssocId = "ignou-administrative-associate-nagpur-2026";
+  if (!window.AJ_JOB_DATA.some(function (item) { return item.id === ignouAssocId; })) {
+    window.AJ_JOB_DATA.push({
+      id: ignouAssocId,
+      category: "Private/Contractual",
+      state: "Maharashtra",
+      organization: "Indira Gandhi National Open University (IGNOU), Regional Centre Nagpur",
+      title: "IGNOU Administrative Associate Recruitment 2026 — 2 Posts",
+      post: "Administrative Associate",
+      shortInfo: "IGNOU Regional Centre Nagpur invites applications for 2 contractual Administrative Associate positions.",
+      openDate: "08/10/2026",
+      lastDate: "26/10/2026",
+      mode: "Offline application by post",
+      vacancy: "02",
+      qualification: "Graduation in any discipline from a recognized university/organisation; minimum 2 years' experience and knowledge of MS Office.",
+      age: "See official advertisement; engagement terms mention maximum tenure up to age 70, not an application age limit.",
+      fee: "See official advertisement; no fee amount stated on the career listing.",
+      selection: "Shortlisting/interview as determined by IGNOU; read the official advertisement.",
+      notice: "https://www.ignou.ac.in/viewFile/ad/notification/Engagement-Administrative-Associate.pdf",
+      official: officialCareer,
+      apply: "https://www.ignou.ac.in/viewFile/ad/notification/Engagement-Administrative-Associate.pdf",
+      documents: "Prescribed application form and self-attested testimonials; submit by post to IGNOU Regional Centre Nagpur as specified in the official PDF.",
+      salary: "₹30,000 per month",
+      dataAuditDate: "10/10/2026",
+      verificationSource: "https://www.ignou.ac.in/viewFile/ad/notification/Engagement-Administrative-Associate.pdf",
+      verificationStatus: "VERIFIED FROM OFFICIAL IGNOU CAREER PAGE AND PDF 10/10/2026.",
+      updates: "Official IGNOU career page checked 10/10/2026: 2 posts, graduation, 2 years' experience/MS Office, ₹30,000 monthly remuneration, deadline 26/10/2026.",
+      postVacancies: [{ post: "Administrative Associate", vacancy: "2" }],
+      postQualifications: [{ label: "Essential qualification", value: "Graduation in any discipline and at least 2 years' experience with MS Office knowledge." }]
+    });
+  }
+
+  const beeCareer = "https://beeindia.gov.in/show_content.php?lang=1&level=0&lid=14&ls_id=205";
+  const beeEntries = [
+    {
+      id: "bee-sector-experts-project-engineers-2026",
+      title: "BEE Sector Experts and Project Engineers Recruitment 2026",
+      post: "Sector Experts and Project Engineers",
+      openDate: "05/10/2026",
+      lastDate: "17/11/2026",
+      shortInfo: "Bureau of Energy Efficiency published a vacancy circular for Sector Experts and Project Engineers.",
+      vacancy: "See official circular; total post count not stated in the career listing.",
+      qualification: "Post-specific qualification and experience as described in the official PDF.",
+      salary: "As specified in the official vacancy circular.",
+      verificationStatus: "OFFICIAL BEE CAREER LISTING VERIFIED 10/10/2026; post-wise count and eligibility must be read from the linked circular."
+    },
+    {
+      id: "bee-technical-nontechnical-recruitment-2026",
+      title: "BEE Technical and Non-Technical Posts Recruitment 2026",
+      post: "Various technical and non-technical posts",
+      openDate: "01/10/2026",
+      lastDate: "30 days from publication date — verify exact closing time in official notice",
+      shortInfo: "Bureau of Energy Efficiency invites applications from Indian nationals for specified technical and non-technical posts.",
+      vacancy: "Post-wise vacancy count and designations are listed in the official advertisement.",
+      qualification: "Post-wise qualifications and experience as stated in the official advertisement.",
+      salary: "As per the official advertisement.",
+      verificationStatus: "OFFICIAL BEE CAREER LISTING VERIFIED 10/10/2026. Closing wording is copied from the official listing; check the PDF for computation of the deadline and application method."
+    },
+    {
+      id: "bee-ddg-technical-2026",
+      title: "BEE Deputy Director General (Technical) Recruitment 2026",
+      post: "Deputy Director General (Technical)",
+      openDate: "19/09/2026",
+      lastDate: "19/10/2026",
+      shortInfo: "Bureau of Energy Efficiency published a vacancy circular for Deputy Director General (Technical).",
+      vacancy: "See official circular for post count and appointment details.",
+      qualification: "Eligibility, service conditions and application procedure as described in the official circular.",
+      salary: "As specified in the official vacancy circular.",
+      verificationStatus: "OFFICIAL BEE CAREER LISTING VERIFIED 10/10/2026; read the PDF for eligibility and submission instructions."
+    }
+  ];
+  beeEntries.forEach(function (entry) {
+    if (window.AJ_JOB_DATA.some(function (item) { return item.id === entry.id; })) return;
+    window.AJ_JOB_DATA.push({
+      id: entry.id,
+      category: "Central",
+      state: "Central Government",
+      organization: "Bureau of Energy Efficiency (BEE), Ministry of Power",
+      title: entry.title,
+      post: entry.post,
+      shortInfo: entry.shortInfo,
+      openDate: entry.openDate,
+      lastDate: entry.lastDate,
+      mode: "As specified in official notification",
+      vacancy: entry.vacancy,
+      qualification: entry.qualification,
+      age: "As specified in official notification; do not infer an age limit from the summary listing.",
+      fee: "As specified in official notification.",
+      selection: "As specified in official notification.",
+      notice: beeCareer,
+      official: beeCareer,
+      apply: beeCareer,
+      documents: "Read the official BEE vacancy circular for application format, required documents and submission method.",
+      salary: entry.salary,
+      dataAuditDate: "10/10/2026",
+      verificationSource: beeCareer,
+      verificationStatus: entry.verificationStatus,
+      updates: "BEE official careers page checked 10/10/2026. Open the circular from the official page to confirm post-wise eligibility, fee, age and application procedure."
+    });
+  });
+
 })();
