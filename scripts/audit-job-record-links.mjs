@@ -79,12 +79,16 @@ await Promise.all(Array.from({ length: Math.min(12, urls.length) }, async () => 
   }
 }));
 const byUrl = new Map(results.map(result => [result.url, result]));
+const getCheck = value => {
+  if (!value) return null;
+  try { return byUrl.get(new URL(value).href) || null; } catch { return null; }
+};
 const recordLinkAudit = recordAudit.map(record => ({
   ...record,
   linkChecks: {
-    official: record.official ? byUrl.get(record.official) || null : null,
-    notice: record.notice ? byUrl.get(record.notice) || null : null,
-    apply: record.apply ? byUrl.get(record.apply) || null : null
+    official: getCheck(record.official),
+    notice: getCheck(record.notice),
+    apply: getCheck(record.apply)
   }
 }));
 const summary = {
