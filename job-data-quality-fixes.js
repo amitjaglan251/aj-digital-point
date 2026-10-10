@@ -213,13 +213,19 @@
     canaraApprentice.vacancy = "3,500 indicative training seats; state-wise/category-wise allocation is in the official PDF and may vary.";
     canaraApprentice.qualification = "Graduation in any discipline from a recognized university; candidates must have passed graduation between 01/01/2023 and 01/09/2026 inclusive. NATS profile must be 100% complete before applying.";
     canaraApprentice.age = "20–28 years as on 01/09/2026; category-wise relaxations as specified in the official advertisement.";
-    canaraApprentice.salary = "₹16,650 per month including applicable Government subsidy, as stated in the official notice.";
+    canaraApprentice.salary = "₹16,650 per month total stipend for 12 months, including ₹6,150 Government DBT share; Bank pays ₹10,500 monthly. Apprentices are not regular bank employees and no regular employment is guaranteed after training.";
+    canaraApprentice.fee = "SC/ST/PwBD: no application fee. All other categories: ₹500 including intimation charges (non-refundable, GST included).";
+    canaraApprentice.selection = "State-wise merit list based on 12th (HSC/10+2) or Diploma marks, descending by percentage; tie-breaker is older age. Minimum 60% for other candidates and 55% for SC/ST/PwBD in 12th/Diploma. Document verification, local-language test where applicable, and medical fitness are required. This is not a written-exam-based selection in the notice.";
+    canaraApprentice.localLanguage = "Candidate must know the local language of the chosen State. For Haryana, the notice lists Hindi/Punjabi. A 10th/12th certificate showing the opted language can exempt the candidate from the local-language test; otherwise test is held during document verification.";
+    canaraApprentice.duration = "12 months apprenticeship training; this is a training engagement, not a regular bank job.";
+    canaraApprentice.documents = "At engagement: system-generated application printout; date-of-birth proof; photo ID; 10th/12th/Diploma and graduation certificates/marksheets; category/PwBD certificates where applicable; local-language evidence where applicable; NATS enrollment details and other eligibility documents required by the official notice. Online form requires photo, signature, left-thumb impression and handwritten English declaration.";
     canaraApprentice.official = "https://www.canarabank.bank.in/engagement-of-graduate-apprentices-in-canara-bank-under-apprentices-act-1961-for-fy-2026-27";
     canaraApprentice.notice = "https://www.canarabank.bank.in/documents/d/guest/apprenticeship-advertisement-2026-27";
     canaraApprentice.apply = "https://ibpsreg.ibps.in/cabgasep26/";
     canaraApprentice.verificationSource = canaraApprentice.notice;
-    canaraApprentice.verificationStatus = "VERIFIED FROM CANARA BANK OFFICIAL FY 2026-27 ADVERTISEMENT PDF AND REGISTRATION PORTAL. 3,500 indicative seats, 01/10–17/10/2026 registration window, eligibility age/date, graduation window and stipend cross-checked.";
-    canaraApprentice.updates = "Official Canara Bank notice checked 10/10/2026. Registration closes 17/10/2026; last date to print application is 01/11/2026. Total 3,500 training seats are provisional and may vary.";
+    canaraApprentice.dataAuditDate = "10/10/2026";
+    canaraApprentice.verificationStatus = "DETAILED OFFICIAL NOTICE REVIEWED 10/10/2026: 20-page Canara Bank advertisement and IBPS portal checked for 3,500 indicative seats, application dates, eligibility, age/relaxations, state/category distribution, fee, stipend, state-wise merit criteria, local-language test and documents.";
+    canaraApprentice.updates = "Registration and fee payment: 01/10/2026–17/10/2026; application print through 01/11/2026. Eligibility reckoning date 01/09/2026. Haryana has 114 indicative seats; local language Hindi/Punjabi. Total seats are provisional. NATS profile must be 100% complete before applying.";
   }
 
   // NIT non-faculty portal dates are confirmed, but institute-specific notice fields remain partial.
