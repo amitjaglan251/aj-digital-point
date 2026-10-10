@@ -271,3 +271,17 @@ Checked the live IBPS recruitment index and the individual registration portals 
 The IBPS index also lists both recruitments. These checks confirm the advertised titles and portal date windows only. Vacancy totals, post-wise qualifications, age criteria, fee concessions and selection details remain marked **partially verified** until they are transcribed from each detailed notification. Application-print dates do not extend the registration deadline.
 
 Sources: IBPS recruitment index https://www.ibps.in/index.php/recruitment/ ; KUCBL registration portal above; MPA registration portal above. Source-page check completed 10/10/2026; this is not a live browser-render test of the AJ DIGITAL POINT website.
+
+
+## Follow-up update — Kendrapara Urban Co-operative Bank recruitment notice reviewed
+
+The issuing bank career page and its 23-page detailed PDF were reviewed on 10 October 2026. The record now identifies the issuer as **The Kendrapara Urban Co-operative Bank Ltd., Odisha** (rather than the ambiguous expanded acronym), and includes the notice-backed post counts (Manager: 6; Assistant Manager: 8), Odisha-residency condition, degree/experience criteria, age limits, application fee, written-test pattern, viva-voce selection, document checklist, issuer career page, detailed PDF and IBPS application portal.
+
+**Date discrepancy disclosed:** the notice's opening schedule and live IBPS portal give registration/fee payment as **02/10/2026–25/10/2026**, while a later fee paragraph inside the PDF says the fee window ends **21/10/2026**. The site uses the schedule/portal date and explicitly warns candidates to follow the live portal and any official corrigendum. No exam date is asserted; the bank only says November/December 2026 tentatively.
+
+Official sources:
+- Bank career page: https://www.kendraparaucb.bank.in/career.html
+- Detailed notification PDF: https://www.kendraparaucb.bank.in/resizeimages/Recruitment_Notification_Manager_Asst_Manager_2026.pdf
+- IBPS application portal: https://ibpsreg.ibps.in/kucbldec25/
+
+This improves one record from date-only confirmation to detailed-notice review. It does **not** mean the full 371-record manual verification is complete, nor is it a live browser-render test of AJ DIGITAL POINT.
