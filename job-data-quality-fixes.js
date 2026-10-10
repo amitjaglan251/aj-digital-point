@@ -1007,19 +1007,19 @@
     post: "Various Group B and Group C Non-Teaching Posts",
     organization: "National Institute of Technology Raipur",
     category: "Central Government Jobs",
-    openDate: "See official notice",
-    lastDate: "30/10/2026",
-    official: "https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php",
-    notice: "https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php",
-    apply: "https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php",
-    vacancy: "Multiple Group B and Group C posts. Exact post-wise vacancy totals and category distribution must be read from the official detailed advertisement; not transcribed in this verification pass.",
-    qualification: "Post-wise educational qualifications, experience and age limits vary; consult the detailed advertisement linked from NIT Raipur's official recruitment page before applying.",
-    fee: "See the official detailed advertisement and application portal; fee amount/concessions not independently transcribed in this pass.",
-    selection: "As stated in the official detailed advertisement; stages not independently transcribed in this pass.",
-    verificationSource: "https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php",
+    openDate: "01/10/2026 00:01",
+    lastDate: "30/10/2026 23:59",
+    official: "https://www.nitrr.ac.in/advertisement.php",
+    notice: "https://www.nitrr.ac.in/advertisement.php",
+    apply: "https://ibpsreg.ibps.in/nitrjul26/",
+    vacancy: "37 posts reported: Superintendent 4; Technical Assistant 13; Senior Assistant 1; Senior Technician 1; Technician 15; Office Attendant 3. Post/category allocation should be confirmed in the official detailed advertisement.",
+    qualification: "Post-wise qualification and age limits vary across the six posts; reported minimum qualification ranges from 10+2/ITI to diploma, degree or postgraduate qualification depending on post. Read the official detailed advertisement for exact discipline, marks, age and experience requirements.",
+    fee: "Check the official detailed advertisement and live IBPS portal for the exact fee and category concessions before payment; this verification pass has not independently transcribed the fee table from the official notice.",
+    selection: "Reported process: screening test and post-specific skill test where applicable. Confirm the exact test stages and post mapping in the official detailed advertisement.",
+    verificationSource: "https://www.nitrr.ac.in/advertisement.php",
     dataAuditDate: "10/10/2026",
-    verificationStatus: "PARTIALLY VERIFIED 10/10/2026: NIT Raipur's official recruitment listing confirms the title, Advt. No. NITRR/R-1/Advt./2026/1035 dated 29/09/2026 and last date 30/10/2026. Exact opening date, vacancy totals, post-wise eligibility, fee, selection and direct application URL still require transcription from the linked detailed notice; the official recruitment page is provided as the safe entry point.",
-    updates: "Official NIT Raipur listing was checked 10/10/2026. Last date shown: 30/10/2026. Use the detailed advertisement linked on the institute page to confirm the post-wise terms and follow its Apply Online link. Do not treat this summary as a substitute for the notice."
+    verificationStatus: "PARTIALLY VERIFIED 10/10/2026: official NIT Raipur recruitment page confirms Advt. No. NITRR/R-1/Advt./2026/1035 dated 29/09/2026 and closing date 30/10/2026. The 01/10/2026 opening date, 37 total vacancies, post-wise counts and screening/skill-test summary are corroborated by published recruitment summaries but have not yet been fully transcribed from the official detailed PDF. Official fee table and post-wise eligibility still require direct notice review.",
+    updates: "Official NIT Raipur recruitment page checked 10/10/2026; it shows the application deadline 30/10/2026 and links for Detailed Advertisement and Apply Online. IBPS application portal: https://ibpsreg.ibps.in/nitrjul26/. Secondary summaries report 37 posts and applications from 01/10/2026 00:01 to 30/10/2026 23:59. Treat vacancy breakdown/qualifications as provisional until checked against the detailed official PDF."
   });
 
   // SSC Junior Engineer 2026: attach the 08/10/2026 tentative-vacancy update
