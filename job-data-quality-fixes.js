@@ -1034,6 +1034,22 @@
     sscJeRecord.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: SSC Notice Board lists the tentative vacancy notice dated 08/10/2026. Post-wise vacancy figures were not transcribed in this update; do not infer a total or treat this as a fresh application window.";
   }
 
+  // NIT Raipur Group B/C non-teaching: confirm dates and IBPS registration portal.
+  const nitRaipurConfirmed = data.find(function (item) {
+    return item && item.id === "nit-raipur-group-b-c-nonteaching-2026";
+  });
+  if (nitRaipurConfirmed) {
+    nitRaipurConfirmed.openDate = "01/10/2026";
+    nitRaipurConfirmed.lastDate = "30/10/2026";
+    nitRaipurConfirmed.apply = "https://ibpsreg.ibps.in/nitrjul26/";
+    nitRaipurConfirmed.notice = "https://www.nitrr.ac.in/advertisement.php";
+    nitRaipurConfirmed.official = "https://www.nitrr.ac.in/advertisement.php";
+    nitRaipurConfirmed.verificationSource = "https://ibpsreg.ibps.in/nitrjul26/";
+    nitRaipurConfirmed.updates = "Official NIT Raipur recruitment listing confirms Advt. No. NITRR/R-1/Advt./2026/1035 dated 29/09/2026 and deadline 30/10/2026. IBPS registration portal confirms registration and fee payment 01/10/2026–30/10/2026 and application print through 15/11/2026. Printing deadline does not extend registration. Post-wise vacancies, eligibility, fee and selection must be checked in the detailed official advertisement.";
+    nitRaipurConfirmed.verificationStatus = "DATES VERIFIED 10/10/2026: NIT Raipur official recruitment page confirms the advertisement reference and 30/10/2026 closing date; IBPS registration portal confirms opening 01/10/2026, closing 30/10/2026 and print deadline 15/11/2026. Detailed post-wise conditions remain to be transcribed.";
+    nitRaipurConfirmed.dataAuditDate = "10/10/2026";
+  }
+
   // IBPS official recruitment index + matching registration portals checked 10/10/2026.
   // These entries intentionally publish only the verified title and dates; vacancy/eligibility
   // details remain marked pending until the issuing notice is transcribed.
