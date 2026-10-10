@@ -88,3 +88,18 @@ The full notice-by-notice verification remains in progress. The feed’s remaini
 - IGNOU official career page: https://www.ignou.ac.in/announcement/Career?nav=5
 
 Notice-by-notice verification of all remaining records is still in progress.
+
+## Phase 5 — missing official links and unconfirmed record cleanup (10 October 2026)
+
+- **Bank of Baroda LBO (2,482 posts):** linked the record to the bank's official career page and confirmed the extended closing date **17/09/2026**. It is explicitly marked closed/archive, not an active application.
+- **AAI Managers/Junior Executives (389 posts):** linked the record to the official AAI recruitment dashboard and confirmed Advt. **12/2026/CHQ/DR-CBT**, total posts and official dashboard updates. Applicants must use the dashboard for the latest application/result status.
+- **Bank of Baroda 1,100 SO record:** removed from the public feed pending a matching official notice; no exact official 1,100-post SO notice was confirmed in this pass.
+- **Bihar STET 2026 record:** removed from the public feed pending a matching official 2026 notice. The official portal result found in this pass refers to STET 2025, so it must not be used as evidence for a 2026 recruitment.
+- Both `latest-jobs.html` and `job-details.html` now reference quality script version `20261010-05`.
+
+### Sources for Phase 5
+- Bank of Baroda LBO official notice: https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09
+- AAI official recruitment dashboard: https://www.aai.aero/en/careers/recruitment/allAirports/allAirports/allAirports/bilaspur.jsp?combine=&order=field_name_of_department&page=5&sort=desc
+- BSEB STET official portal (the result found is STET 2025): https://bsebstet.org/index.html
+
+This phase is a targeted verification of specific records, not a complete verification of every remaining vacancy.
