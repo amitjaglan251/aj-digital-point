@@ -128,13 +128,16 @@
     nvsXI.mode = "Online Admission";
     nvsXI.openDate = "See official prospectus/notification";
     nvsXI.lastDate = "15/10/2026 (extended)";
-    nvsXI.vacancy = "Class XI lateral-entry admission; school/stream-wise seat availability as per NVS prospectus and eligibility criteria.";
-    nvsXI.qualification = "Class X students in eligible schools/areas, subject to NVS Class XI Lateral Entry Selection Test 2027-28 prospectus and criteria.";
+    nvsXI.vacancy = "Class XI lateral-entry admission for academic session 2027-28; school/stream-wise seats and eligibility are governed by the current NVS prospectus. Do not treat this as a fixed vacancy-count recruitment.";
+    nvsXI.qualification = "Applicants must satisfy the current NVS Class XI Lateral Entry Selection Test 2027-28 prospectus, including schooling, age and district/JNV rules. The current portal landing page does not expose the full prospectus text in searchable form, so no exact eligibility cutoff is guessed here.";
     nvsXI.official = "https://navodaya.gov.in/";
     nvsXI.apply = "https://cbseitms.nic.in/2026/nvsxi_11/";
     nvsXI.notice = "https://cbseitms.nic.in/2026/nvsxi_11/";
-    nvsXI.verificationStatus = "DEADLINE VERIFIED 10/10/2026: official NVS registration portal says Class XI (2027-28) application deadline extended to 15/10/2026. Check the official prospectus for eligibility, region/district rules and available seats.";
-    nvsXI.updates = "Official NVS Class XI 2027-28 registration portal checked 10/10/2026; deadline extended to 15/10/2026. Keep photograph/signature files ready as specified on the portal; follow the prospectus for eligibility.";
+    nvsXI.documents = "Portal asks candidates to keep candidate photograph, candidate signature and parent signature as JPG/JPEG files, each between 10 KB and 100 KB; consult the prospectus for any further requirements.";
+    nvsXI.fee = "The official portal landing page does not show an application fee; check the current prospectus before submitting.";
+    nvsXI.selection = "Class XI Lateral Entry Selection Test 2027-28, subject to current NVS prospectus and seat availability.";
+    nvsXI.verificationStatus = "OFFICIAL PORTAL VERIFIED 10/10/2026: NVS Class XI (2027-28) portal explicitly says online application deadline extended to 15/10/2026 and lists required image-file preparation (JPG/JPEG, 10–100 KB). Full current prospectus details not independently transcribed; exact age, marks, district rules, test date and seats are not guessed.";
+    nvsXI.updates = "Official NVS Class XI 2027-28 portal checked 10/10/2026. Deadline is extended to 15/10/2026. Portal advises keeping candidate photograph, candidate signature and parent signature in JPG/JPEG format, 10 KB–100 KB. Use the current prospectus for complete eligibility and test details.";
   }
 
   // DRDO's official listing confirms this is a live MTRDC JRF walk-in notice,
