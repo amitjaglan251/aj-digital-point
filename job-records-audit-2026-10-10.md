@@ -324,3 +324,15 @@ This is one more source-confirmed recruitment listing, not a claim that all deta
 SSC's official Notice Board lists **“Tentative Vacancies of Junior Engineer Examination, 2026”**, posted **08/10/2026**. This is a vacancy-position update for the existing examination, not a new application notice. The site data patch adds the update to a matching existing SSC JE 2026 record only; it deliberately does not create a new vacancy card, invent a vacancy total, or change application dates. Official source entry point: https://ssc.gov.in/
 
 **Scope:** the official notice-board listing/date are confirmed; post-wise vacancy counts and the PDF's full contents have not been transcribed in this pass. Live browser rendering remains unverified.
+
+
+## Follow-up update — NIT Raipur application portal and dates
+
+Cross-checked the NIT Raipur Group B/C non-teaching recruitment listing with its IBPS registration portal on 10/10/2026.
+
+- Official NIT Raipur listing: Advertisement No. **NITRR/R-1/Advt./2026/1035**, dated **29/09/2026**, closing date **30/10/2026**.
+- IBPS registration portal: registration opens **01/10/2026**, closes **30/10/2026**, online fee payment runs **01/10/2026–30/10/2026**, application printing through **15/11/2026**.
+- Direct application portal: https://ibpsreg.ibps.in/nitrjul26/
+- Official institute recruitment page: https://www.nitrr.ac.in/advertisement.php
+
+The site record now links to the confirmed registration portal and displays the confirmed opening, closing and print dates. Printing availability does not extend the application deadline. Post-wise vacancy totals, eligibility, fee and selection details remain untranscribed and are explicitly marked for the detailed advertisement. Live browser rendering remains unverified.
