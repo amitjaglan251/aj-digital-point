@@ -730,4 +730,30 @@
     bobWms.updates = "Official Bank of Baroda page lists 1,000 Wealth Management Services posts and the extended closing date 16/10/2026. This is distinct from the separate 100-post Corporate & Institutional Credit advertisement.";
   }
 
+
+  // Sainik School Kunjpura staff recruitment: exact official five-page PDF checked 10/10/2026.
+  const kunjpuraStaff = window.AJ_JOB_DATA.find(function (item) { return item.id === "sainik-school-kunjpura-15-2026"; });
+  if (kunjpuraStaff) {
+    kunjpuraStaff.title = "Sainik School Kunjpura Staff Recruitment 2026 — 15 Regular & Contractual Posts";
+    kunjpuraStaff.organization = "Sainik School Kunjpura, Karnal, Haryana";
+    kunjpuraStaff.post = "TGT General Science, TGT Hindi/Sanskrit, TGT Maths, TGT English, Horse Riding Instructor, Band Master, Mess Manager, Nursing Sister (Female), Ward Boys";
+    kunjpuraStaff.shortInfo = "Official Recruitment of Staff notice invites applications for 15 regular and contractual posts. Last date for receipt of application by post is 31/10/2026. Application must use the prescribed form, include attested certificates/testimonials and passport-size photograph, and include a non-refundable ₹500 bank draft payable at Karnal. This is an offline postal application, not an online form.";
+    kunjpuraStaff.openDate = "25/09/2026";
+    kunjpuraStaff.lastDate = "31/10/2026 (application must reach the school by this date)";
+    kunjpuraStaff.mode = "Offline / postal application";
+    kunjpuraStaff.vacancy = "15 posts: TGT General Science 1; TGT Hindi/Sanskrit 2; TGT Maths 2; TGT English 1; Horse Riding Instructor 1; Band Master 1; Mess Manager 1; Nursing Sister (Female) 1; Ward Boys 5.";
+    kunjpuraStaff.qualification = "TGT posts: relevant graduate/integrated degree with at least 50% marks in the subject and B.Ed. or equivalent; CTET/STET required as stated in the notice. Horse Riding Instructor: matriculation and Horse Riding Instructor course. Band Master: Potential Band Master/Band Major/Drum Major course at AEC Training College & Centre Pachmarhi or equivalent Navy/Air Force course. Mess Manager: matriculation, at least 5 years' independent catering-organisation experience and ability to maintain mess accounts/computer applications. Nursing Sister: nursing diploma/GNM/B.Sc Nursing plus 5 years' experience/service after training. Ward Boys: matriculation; good communication skills. Refer to the official PDF for each post's full conditions.";
+    kunjpuraStaff.age = "As on 31/10/2026: TGT posts 21–35 years; Horse Riding Instructor 18–50; Band Master 21–50; Mess Manager 18–50; Nursing Sister 18–50; Ward Boys 18–50.";
+    kunjpuraStaff.fee = "₹500 non-refundable fee by bank draft in favour of Principal, Sainik School Kunjpura, Karnal, payable at Karnal.";
+    kunjpuraStaff.selection = "Shortlisting followed by written, practical and/or interview stages as applicable to the post.";
+    kunjpuraStaff.salary = "TGT posts: Level 7. Horse Riding Instructor and Band Master: ₹35,000/month; Mess Manager: ₹29,200/month; Nursing Sister: ₹30,000/month; Ward Boys: ₹25,000/month.";
+    kunjpuraStaff.official = "https://sskunjpura.org/";
+    kunjpuraStaff.notice = "https://sskunjpura.org/admin/logged/images/academicupdate/c4ca4238a0b923820dcc509a6f75849bRecruitment-Notice.pdf";
+    kunjpuraStaff.apply = "https://sskunjpura.org/";
+    kunjpuraStaff.verificationSource = kunjpuraStaff.notice;
+    kunjpuraStaff.dataAuditDate = "10/10/2026";
+    kunjpuraStaff.verificationStatus = "VERIFIED AGAINST THE OFFICIAL FIVE-PAGE SAINIK SCHOOL KUNJPURA RECRUITMENT PDF. Confirmed 15 posts and post-wise counts, age limits, core qualifications, pay, ₹500 bank-draft fee, offline postal submission and 31/10/2026 receipt deadline.";
+    kunjpuraStaff.updates = "Official PDF checked 10/10/2026. Application must reach the Principal, Sainik School Kunjpura, Karnal by 31/10/2026; postal delay is the applicant's responsibility. Download and read the full official notice before applying.";
+  }
+
 })();
