@@ -24,6 +24,9 @@
     "bseb-bihar-stet-2026",
     // No matching official 1100-post Bank of Baroda SO notice found in this pass.
     "bank-of-baroda-1100-so-2026",
+    // No matching current BMHRC Group B/C recruitment was found on the official recruitment page;
+    // the matching official Group B/C notice found in search was from 2023, not 2026.
+    "icmr-bmhrc-group-b-c-2026",
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
@@ -416,5 +419,56 @@
       postQualifications: [{ label: "Eligibility", value: "Read the official deputation advertisement for cadre, service, experience and eligibility conditions." }]
     });
   }
+
+
+  // Official-source batch 1 review (10/10/2026). This records only what the cited
+  // official pages directly confirm; it does not imply every detail was checked.
+  const markVerified = function (id, status, source, update) {
+    const item = window.AJ_JOB_DATA.find(function (record) { return record.id === id; });
+    if (!item) return;
+    item.verificationStatus = status;
+    item.verificationSource = source;
+    item.dataAuditDate = "10/10/2026";
+    item.updates = update;
+  };
+
+  const appscSource = "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications";
+  markVerified("appsc-group-i-07-2026",
+    "PARTIALLY VERIFIED 10/10/2026: APPSC official portal confirms Notification No. 07/2026 and Group-I Services title, published 06/10/2026. Post-wise vacancies, eligibility, fee and closing date must still be matched against the detailed PDF.",
+    appscSource,
+    "Official APPSC recruitment listing confirms Notification No. 07/2026, Group-I Services, published 06/10/2026. Detailed-notice fields remain pending review.");
+  markVerified("appsc-aee-08-2026",
+    "PARTIALLY VERIFIED 10/10/2026: APPSC official portal confirms Notification No. 08/2026 for Assistant Environmental Engineer, published 06/10/2026. Detailed PDF fields and deadline remain pending review.",
+    appscSource,
+    "Official APPSC portal confirms Notification No. 08/2026 and post title. Do not treat vacancy/eligibility/date fields as fully verified until compared with the detailed notice.");
+  markVerified("appsc-horticulture-officer-19-2026",
+    "PARTIALLY VERIFIED 10/10/2026: APPSC official portal confirms Notification No. 19/2026 for Horticulture Officer, published 06/10/2026. Detailed PDF fields and deadline remain pending review.",
+    appscSource,
+    "Official APPSC portal confirms Notification No. 19/2026 and post title. Detailed-notice fields remain pending review.");
+
+  const ncrtc = window.AJ_JOB_DATA.find(function (item) { return item.id === "ncrtc-supervisor-jr-maintainer"; });
+  if (ncrtc) {
+    ncrtc.lastDate = "09/10/2026 (application window ended; confirm current portal status)";
+    ncrtc.official = "https://www.ncrtc.co.in/jobs.php";
+    ncrtc.verificationSource = "https://www.ncrtc.co.in/jobs.php";
+    ncrtc.dataAuditDate = "10/10/2026";
+    ncrtc.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official NCRTC Jobs page confirms codes 32/2026 and 33/2026, opening 10/09/2026 and closing 09/10/2026. The same page still displayed status Open after the closing date; treat application status as ambiguous and verify before advising candidates.";
+    ncrtc.updates = "Official NCRTC Jobs page lists Coded notices 32/2026 and 33/2026 with closing date 09/10/2026. The displayed status was still Open on 10/10/2026 despite the past closing date; status needs direct portal confirmation.";
+  }
+
+  markVerified("upsc-advt-11-2026",
+    "DEADLINE VERIFIED / CLOSED 10/10/2026: PIB official release confirms applications for UPSC Advertisement 11/2026 closed 02/10/2026 for posts outside UT Ladakh and 09/10/2026 for UT Ladakh posts. Post-wise fields still require notice comparison.",
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2308745&lang=1&reg=19",
+    "PIB's official release confirms the two application deadlines. Mark application window closed; retain only for closed-notice reference unless the site's policy archives it.");
+
+  markVerified("rcfl-94-management-trainee-2026",
+    "DEADLINE VERIFIED / CLOSED 10/10/2026: RCF official recruitment page confirms Advertisement 16022026 deadline was extended to 20/09/2026 at 5:00 PM. Full vacancy and eligibility details were not re-audited in this pass.",
+    "https://rcfltd.com/hrrecruitment/recruitment-1",
+    "Official RCF corrigendum confirms the extended closing date 20/09/2026 5:00 PM. Application window is closed.");
+
+  markVerified("india-optel-project-technician-2026",
+    "CLOSING DATE PASSED — STATUS NEEDS OFFICIAL CAREER-PAGE RECHECK: stored deadline is 03/10/2026. Exact official advertisement and full details have not yet been matched in this pass.",
+    "https://indiaoptel.in/career/",
+    "Stored deadline 03/10/2026 is past as of 10/10/2026. Do not display as open unless an official extension is found.");
 
 })();
