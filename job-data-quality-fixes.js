@@ -32,6 +32,9 @@
     // The matching IOB Specialist Officer PDF found is Advertisement HRDD/RECT/03/2025-26,
     // dated 12/09/2025 with closing date 03/10/2025; no matching 2026 notice was located.
     "indian-overseas-bank-so",
+    // CSIR official archive did not substantiate the generic 43-post record; it lists different
+    // notices (including a CSIR Hqrs Technician-I notice with one post), so keep hidden pending match.
+    "csir-43-technician-1",
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
@@ -584,6 +587,41 @@
     aai389.dataAuditDate = "10/10/2026";
     aai389.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official AAI Recruitment Dashboard confirms Advertisement 12/2026/CHQ/DR-CBT and 389 total posts, posted 22/07/2026. The stored 07/09/2026 deadline was not independently confirmed from the detailed advertisement in this pass; treat the deadline as unverified until checked against the PDF/corrigendum.";
     aai389.updates = "AAI official dashboard confirms 389 posts under Advt. 12/2026/CHQ/DR-CBT and has exam/press-note updates through 23/09/2026. Deadline and post-wise vacancy/eligibility tables still require detailed-advertisement reconciliation.";
+  }
+
+
+  const kea210 = window.AJ_JOB_DATA.find(function (item) { return item.id === "kea-210-group-c-2026"; });
+  if (kea210) {
+    kea210.title = "KEA Group C Recruitment 2026 — 210 Urban Local Body Posts (Closed)";
+    kea210.post = "Water Supply Operator / Assistant Water Supply Operator / Electrician Grade I & II";
+    kea210.organization = "Karnataka Examinations Authority (KEA), on behalf of Directorate of Municipal Administration";
+    kea210.openDate = "16/09/2026";
+    kea210.lastDate = "30/09/2026 (closed; verify any official extension)";
+    kea210.vacancy = "210 posts reported for Kalyana-Karnataka Urban Local Bodies under Notification ED/KEA/46/Rect/2026(KK); post-wise totals must be checked against the official notification.";
+    kea210.official = "https://cetonline.karnataka.gov.in/kea/";
+    kea210.notice = "https://cetonline.karnataka.gov.in/kea/";
+    kea210.apply = "https://cetonline.karnataka.gov.in/kea/";
+    kea210.verificationSource = "https://cetonline.karnataka.gov.in/kea/";
+    kea210.dataAuditDate = "10/10/2026";
+    kea210.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: matching secondary summaries identify Notification ED/KEA/46/Rect/2026(KK), 210 posts, application window 16/09/2026–30/09/2026. The exact official PDF was not retrieved in this pass; keep vacancy breakdown/eligibility marked pending and use the KEA portal for the original notice.";
+    kea210.updates = "Reported application window ended 30/09/2026. Exact official PDF and post-wise vacancy table still need reconciliation; do not show as open unless an official extension is located.";
+  }
+
+  const mphc = window.AJ_JOB_DATA.find(function (item) { return item.id === "mp-high-court-1174-assistant"; });
+  if (mphc) {
+    mphc.title = "MP High Court Assistant Grade-III Recruitment 2026 — 1,174 Posts (Application Closed)";
+    mphc.post = "Assistant Grade-III in District & Sessions Courts";
+    mphc.organization = "High Court of Madhya Pradesh, Jabalpur";
+    mphc.openDate = "17/08/2026";
+    mphc.lastDate = "15/09/2026 (closed)";
+    mphc.vacancy = "1,174 posts reported under Advertisement No. 614/Exam/2026; category/establishment distribution should be read from the official PDF.";
+    mphc.official = "https://mphc.gov.in/";
+    mphc.notice = "https://mphc.gov.in/";
+    mphc.apply = "https://mphc.gov.in/";
+    mphc.verificationSource = "https://mphc.gov.in/";
+    mphc.dataAuditDate = "10/10/2026";
+    mphc.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: recruitment title, 1,174 posts and 15/09/2026 closing date are corroborated by published recruitment summaries; MP High Court official site is linked, but the exact official PDF URL and all detailed fields were not fully reconciled in this pass. Exam-date notice reportedly dated 09/10/2026 should be confirmed on the official site.";
+    mphc.updates = "Application window is closed. Visit the MP High Court official site for Advertisement 614/Exam/2026 and the latest examination schedule; detailed eligibility, fee and post-wise distribution remain pending exact-PDF comparison.";
   }
 
 })();
