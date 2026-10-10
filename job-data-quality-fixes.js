@@ -98,20 +98,24 @@
     upscAd12.updates = "Official PIB notice published 26/09/2026 confirms online applications from 26/09/2026 to 16/10/2026. Detailed vacancy/eligibility particulars must be checked in the UPSC advertisement.";
   }
 
-  // The IBPS official recruitment page lists IEB Special Recruitment Drive (SRD)
-  // for 15/09/2026–10/10/2026. Only the listing and closing date are verified here;
-  // candidates must read the official notice for all eligibility details.
+  // Exim Bank SRD (the IBPS listing labels this "IEB") was cross-checked
+  // against the live registration portal on 10/10/2026. The live portal currently
+  // displays 21/10/2026, while the IBPS index/search cache still shows 10/10/2026.
+  // Use the live application portal's current dates, and disclose the discrepancy.
   const ieb = window.AJ_JOB_DATA.find(function (item) {
     return item.id === "ieb-special-recruitment-2026";
   });
   if (ieb) {
+    ieb.title = "Exim Bank Special Recruitment Drive 2026 — Deputy Manager & Manager";
+    ieb.postName = "Deputy Manager (Banking Operations, JM-I) and Manager (Internal Audit, MM-II) — verify eligibility/category conditions in official notice";
     ieb.openDate = "15/09/2026";
-    ieb.lastDate = "10/10/2026";
-    ieb.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: IBPS official recruitment page confirms the IEB Special Recruitment Drive listing and 10/10/2026 closing date. Vacancy count, eligibility, fee and selection details must be checked in the official notice.";
-    ieb.updates = "Official IBPS registration portal checked 10/10/2026. Registration and fee payment close 10/10/2026; application print is available through 25/10/2026. Printing availability does not extend registration. Read the official notice for complete eligibility and instructions.";
-    ieb.notice = "https://www.ibps.in/index.php/recruitment/";
-    ieb.official = "https://www.ibps.in/index.php/recruitment/";
-    ieb.apply = "https://www.ibps.in/index.php/recruitment/";
+    ieb.lastDate = "21/10/2026 (live IBPS portal; discrepancy with IBPS index listing)";
+    ieb.vacancy = "8 posts are reported for Advt. HRM/DM & M/SRD/2026-27/04 (6 Deputy Manager, 2 Manager); verify category-wise allocation in the detailed official advertisement.";
+    ieb.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: live IBPS application portal for Advt. HRM/DM & M/SRD/2026-27/04 currently shows registration/fee deadline 21/10/2026 and printing through 05/11/2026. The IBPS recruitment index and cached search results still show 10/10/2026. Check the live portal and official Exim Bank notice before relying on the revised deadline. Detailed eligibility, fee and category split require the notice.";
+    ieb.updates = "The live IBPS registration page was opened on 10/10/2026 and displays application/fee payment 15/09/2026–21/10/2026 and application printing through 05/11/2026. The IBPS recruitment index/cache still shows 10/10/2026 and print through 25/10/2026; this is a source discrepancy, so candidates should confirm on the live portal and Exim Bank official site. Printing date is not the application deadline.";
+    ieb.notice = "https://www.ibpsreg.ibps.in/iebsrdaug26/index.php?stat=0";
+    ieb.official = "https://www.eximbankindia.in/";
+    ieb.apply = "https://ibpsreg.ibps.in/iebsrdaug26/index.php?stat=0";
   }
 
   // NVS official Class XI lateral-entry portal confirms the extended deadline
