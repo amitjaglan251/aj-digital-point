@@ -6565,11 +6565,11 @@ window.AJ_JOB_DATA = [
     "selection": "Applications screened/shortlisted on percentage of marks in essential qualification; shortlisted candidates may be called for written test/interview at PXE Chandipur. Offer/communication by email.",
     "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/pxe-balasore-invites-eligible-candidates-engagement-apprentices-under",
     "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtPXE23092026.pdf",
-    "official": "https://drdo.gov.in/drdo/offerings/vacancies",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/pxe-balasore-invites-eligible-candidates-engagement-apprentices-under",
     "openDate": "23/09/2026",
     "fee": "No application fee stated in the official advertisement.",
     "documents": "Typed completed application form; marksheets/certificates of essential qualification; valid NATS enrollment number; recent passport-size photograph; category certificate for SC/ST/OBC/PwD/EWS where applicable; other documents requested in the advertisement.",
-    "dataAuditDate": "09/10/2026",
+    "dataAuditDate": "10/10/2026",
     "organization": "Defence Research and Development Organisation (DRDO), Proof & Experimental Establishment (PXE), Chandipur",
     "department": "Proof & Experimental Establishment (PXE), Chandipur, Balasore, Odisha",
     "feeDate": "Application fee not specified in the official advertisement.",
@@ -6619,10 +6619,10 @@ window.AJ_JOB_DATA = [
     "links": {
       "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies/pxe-balasore-invites-eligible-candidates-engagement-apprentices-under",
       "notification": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtPXE23092026.pdf",
-      "official": "https://drdo.gov.in/drdo/offerings/vacancies"
+      "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/pxe-balasore-invites-eligible-candidates-engagement-apprentices-under"
     },
-    "verificationStatus": "Verified against official DRDO vacancy page and advertisement PDF dated 23/09/2026.",
-    "verificationSource": "Official DRDO notice: https://drdo.gov.in/drdo/sites/default/files/vacancy/advtPXE23092026.pdf"
+    "verificationStatus": "Verified against the specific official DRDO PXE vacancy page and advertisement PDF: Advt. PXE/HRD/AT/01/2026-27; published/opened 23/09/2026; closing 12/10/2026; 49 seats (15 Graduate + 34 Technician); discipline-wise split, 2022–2026 pass-out window, regular-mode qualification, NATS requirement, stipend, postal application route and no-fee status checked. No fixed age number was found in the notice reviewed.",
+    "verificationSource": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtPXE23092026.pdf"
   },
   {
     "id": "drdo-dipr-iti-apprentice-2026",
@@ -6637,12 +6637,12 @@ window.AJ_JOB_DATA = [
     "selection": "Essential qualification/trade में प्राप्त marks के आधार पर selection; applicants की संख्या के अनुसार interaction/interview हो सकता है. Final merit list category-wise applicable rules के अनुसार.",
     "apply": "https://www.apprenticeshipindia.gov.in/",
     "notice": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIPR22092026.pdf",
-    "official": "https://drdo.gov.in/drdo/en/skill-seeker?page=1",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/dipr-delhi-invites-eligible-candidates-engagement-iti-pass-out-apprentices",
     "openDate": "22/09/2026",
     "vacancy": "24 apprenticeship seats (trade-wise): Steward 1; Desktop Publishing Operator 2; Secretariat Assistant—English/Hindi 2; Photographer 1; COPA 14; IT/IT ESM 2; Multimedia & Web Page Designer 2.",
     "fee": "No application fee stated in the official advertisement.",
     "documents": "Prescribed application form, ITI certificate/marksheets, category certificate where applicable, Apprenticeship Portal registration/enrollment proof, scanned supporting documents; selected candidates must bring original educational/ITI and category documents at joining. Police verification certificate required after joining.",
-    "dataAuditDate": "09/10/2026",
+    "dataAuditDate": "10/10/2026",
     "organization": "Defence Research and Development Organisation (DRDO), Defence Institute of Psychological Research (DIPR)",
     "department": "Defence Institute of Psychological Research, Timarpur, Delhi",
     "feeDate": "Official advertisement में application fee निर्दिष्ट नहीं है।",
@@ -6731,10 +6731,10 @@ window.AJ_JOB_DATA = [
     "links": {
       "apply": "https://www.apprenticeshipindia.gov.in/",
       "notification": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIPR22092026.pdf",
-      "official": "https://drdo.gov.in/drdo/en/skill-seeker?page=1"
+      "official": "https://drdo.gov.in/drdo/en/offerings/vacancies/dipr-delhi-invites-eligible-candidates-engagement-iti-pass-out-apprentices"
     },
-    "verificationStatus": "Verified from the official DRDO listing and official DIPR advertisement PDF dated September 2026.",
-    "verificationSource": "Official PDF: https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIPR22092026.pdf"
+    "verificationStatus": "Verified against the specific official DRDO DIPR advertisement PDF and DRDO listing: Advt. 0675/Apprentice/DIPR/Adm; published/opened 22/09/2026; closing 13/10/2026; 24 seats and trade-wise split (1+2+2+1+14+2+2), reservation split, listed stipend rates, apprenticeship portal/email application route, 12-month duration and no-fee status checked. Numeric age cutoff/correction window not specified in the reviewed notice.",
+    "verificationSource": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIPR22092026.pdf"
   },
   {
     "id": "naval-dockyard-mumbai-apprentice-283-2026",
