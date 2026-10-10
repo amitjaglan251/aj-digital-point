@@ -26,6 +26,9 @@ jobs:
           npm install --no-save playwright
           npx playwright install --with-deps chromium
 
+      - name: Audit all recruitment records and official URL reachability
+        run: node scripts/audit-job-record-links.mjs
+
       - name: Wait for Pages deployment and test desktop/mobile rendering
         run: |
           mkdir -p browser-test-artifacts
