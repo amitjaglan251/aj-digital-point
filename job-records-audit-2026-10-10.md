@@ -409,3 +409,14 @@ Rechecked the institute's official recruitment page on **10/10/2026**. It confir
 - Reported selection outline: screening test and skill test where applicable.
 
 **Verification boundary:** NIT Raipur's official page confirms the notice identity and closing date. The 37-post breakdown, opening time and selection outline are corroborated by recruitment summaries but were not fully transcribed from the official detailed PDF in this pass. Fee, exact post-wise qualifications/age criteria and category allocation remain notice-dependent and are marked as such; no unverified fee is stated as fact. Live browser rendering of AJ DIGITAL POINT remains unverified.
+
+
+## Next-batch verification — NVS Class XI Lateral Entry 2027-28 (10 October 2026)
+
+- Official portal: https://cbseitms.nic.in/2026/nvsxi_11/
+- Confirmed directly from the portal landing page: registration deadline extended to **15/10/2026**.
+- Portal preparation note: candidate photograph, candidate signature and parent signature should be JPG/JPEG files between **10 KB and 100 KB**.
+- The live page links the current “Prospectus-cum-Notification for Class XI Lateral Entry Selection Test”; however, its complete current-year eligibility text was not independently transcribed during this pass. Exact age/marks/district rules, test date, stream-wise seats and fee are therefore not invented and remain subject to the current prospectus.
+- Updated the existing canonical record `nvs-class-11-lateral-entry-2027-28`; did not create a duplicate record.
+- Cache-busting references updated: `latest-jobs.html` → `20261010-46`; `job-details.html` → `20261010-43`.
+- This is a portal-level verification of the deadline and image-file instructions, **not** a full prospectus verification or live-browser-render confirmation.
