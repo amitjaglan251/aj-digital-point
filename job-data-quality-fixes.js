@@ -1023,17 +1023,17 @@
       organization: "Mineral Exploration and Consultancy Limited (MECL)",
       openDate: "12/09/2026",
       lastDate: "11/10/2026",
-      official: "https://www.ibps.in/index.php/recruitment/",
-      notice: "https://www.ibps.in/index.php/recruitment/",
-      apply: "https://www.ibps.in/index.php/recruitment/",
-      vacancy: "Post-wise vacancy count: consult MECL Advt. 03/Rectt./2026; not independently transcribed in this verification pass.",
+      official: "https://www.mecl.co.in/ContentPageMecl.aspx?Antispam=7c2a6846-13dd-438f-86a2-299456b31ab8&ControlID=61&Lng=EN&MyAntispam=a976cf17-f38a-4e54-ae49-025d3b8ce30e&page=advertisement-notices-and-results",
+      notice: "https://www.mecl.co.in/ContentPageMecl.aspx?Antispam=7c2a6846-13dd-438f-86a2-299456b31ab8&ControlID=61&Lng=EN&MyAntispam=a976cf17-f38a-4e54-ae49-025d3b8ce30e&page=advertisement-notices-and-results",
+      apply: "https://ibpsreg.ibps.in/mecljul26/",
+      vacancy: "Post-wise vacancy count: consult MECL Advt. 03/Rectt./2026 on the official MECL notice page; total not independently transcribed in this pass.",
       qualification: "Refer to MECL Advt. 03/Rectt./2026 for post-wise qualification, age and experience.",
       fee: "Refer to the official detailed notification.",
       selection: "As specified in MECL Advt. 03/Rectt./2026.",
-      verificationSource: "https://www.ibps.in/index.php/recruitment/",
+      verificationSource: "https://ibpsreg.ibps.in/mecljul26/",
       dataAuditDate: "10/10/2026",
-      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: IBPS official recruitment index lists MECL Recruitment of Non-Executive Posts with registration 12/09/2026–11/10/2026. The detailed MECL advertisement fields still require independent transcription.",
-      updates: "The official IBPS recruitment index lists 11/10/2026 as the closing date. Candidates should open the detailed MECL notice immediately to confirm post-wise eligibility, fee and application instructions."
+      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: MECL official advertisement list identifies Detailed Advertisement No. 03/Rectt./2026; the IBPS-hosted official registration portal confirms registration and fee payment 12/09/2026–11/10/2026 and application printing through 26/10/2026. Post-wise vacancy, eligibility, age and fee still need transcription from the detailed advertisement.",
+      updates: "Official registration portal confirms application/fee deadline 11/10/2026 and application-print deadline 26/10/2026. Printing availability does not extend registration. Read MECL Advt. 03/Rectt./2026 before applying."
     }
   ];
   ibpsCurrentListings.forEach(function (cfg) {
