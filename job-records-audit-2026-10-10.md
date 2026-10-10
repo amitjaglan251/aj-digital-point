@@ -431,3 +431,13 @@ Rechecked the institute's official recruitment page on **10/10/2026**. It confir
 - Updated existing canonical record `upsc-direct-recruitment-advt-12-2026` with the direct official notice URL and explicit verification limits.
 - Cache-busting references updated: `latest-jobs.html` → `20261010-47`; `job-details.html` → `20261010-44`.
 - Official-source link verification only; live-browser render remains unverified.
+
+
+## Next-batch correction — DRDO ITR Chandipur Apprentice application-form link (10 October 2026)
+
+- Official DRDO page: https://drdo.gov.in/drdo/en/offerings/vacancies/itr-chandipur-invites-applications-engagement-graduate-technician-diploma
+- The page separately lists an Advertisement PDF (288.58 KB) and an Application Form DOCX (42.95 KB). The official form link resolves to `https://drdo.gov.in/drdo/sites/default/files/vacancy/ITR_AF09102026.docx`.
+- Corrected the existing `drdo-itr-apprentice-2026` record so its primary form/apply link opens the DOCX application template, while its notice link remains the PDF.
+- Reiterated the actual mode: offline typed application by Speed Post/Registered Post; reaching-by deadline 02/11/2026. This is not online form submission.
+- Cache-busting references updated: `latest-jobs.html` → `20261010-48`; `job-details.html` → `20261010-45`.
+- Link and source-page listing verified; live browser render not verified.
