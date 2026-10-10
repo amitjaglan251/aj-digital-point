@@ -369,3 +369,16 @@ Checked the official IBPS recruitment index and linked MPA registration portal o
 - Registration portal: https://ibpsreg.ibps.in/mpajul26/
 
 The official listing uses the acronym “MPA”; its full organisation name and the detailed notice's vacancy, qualification, fee and selection particulars were not established from the accessible pages in this pass. The public record now states this limitation instead of implying those fields are fully verified. Live browser rendering remains unverified.
+
+
+## Follow-up update — Exim Bank SRD / IBPS portal date discrepancy
+
+Checked the live IBPS application portal for Advertisement No. **HRM/DM & M/SRD/2026-27/04** on **10/10/2026**. The live page currently displays registration and fee payment **15/09/2026–21/10/2026**, with application printing through **05/11/2026**. However, the IBPS recruitment index and cached search results still show **10/10/2026** and printing through **25/10/2026**.
+
+- Live application portal: https://ibpsreg.ibps.in/iebsrdaug26/index.php?stat=0
+- IBPS recruitment index: https://www.ibps.in/index.php/recruitment/
+- Official Exim Bank website entry point: https://www.eximbankindia.in/
+- Advertisement reference: **HRM/DM & M/SRD/2026-27/04**.
+- The record title now identifies the organisation as Export-Import Bank of India (Exim Bank), rather than leaving the opaque “IEB” acronym as the title. The 8-post total and post names are added as provisional record details; category allocation, qualifications, age limits, fee and selection particulars still need checking against the detailed official advertisement.
+
+**Important:** Because the current live portal and IBPS index disagree, the site explicitly displays the discrepancy instead of silently presenting the date as fully settled. Candidates should confirm directly with the live portal/official notice. This update does not constitute a live browser-render test of AJ DIGITAL POINT.
