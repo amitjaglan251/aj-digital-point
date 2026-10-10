@@ -317,3 +317,10 @@ The official NIT Raipur recruitment listing was checked on 10 October 2026. It i
 Official source: https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php
 
 This is one more source-confirmed recruitment listing, not a claim that all details are verified or that the complete 371-record audit is finished. Live browser rendering of AJ DIGITAL POINT remains unverified.
+
+
+## Follow-up update — SSC Junior Engineer Examination 2026 tentative vacancy notice
+
+SSC's official Notice Board lists **“Tentative Vacancies of Junior Engineer Examination, 2026”**, posted **08/10/2026**. This is a vacancy-position update for the existing examination, not a new application notice. The site data patch adds the update to a matching existing SSC JE 2026 record only; it deliberately does not create a new vacancy card, invent a vacancy total, or change application dates. Official source entry point: https://ssc.gov.in/
+
+**Scope:** the official notice-board listing/date are confirmed; post-wise vacancy counts and the PDF's full contents have not been transcribed in this pass. Live browser rendering remains unverified.
