@@ -629,12 +629,12 @@
 
   const ncrtc = window.AJ_JOB_DATA.find(function (item) { return item.id === "ncrtc-supervisor-jr-maintainer"; });
   if (ncrtc) {
-    ncrtc.lastDate = "09/10/2026 (application window ended; confirm current portal status)";
+    ncrtc.lastDate = "09/10/2026 (closed)";
     ncrtc.official = "https://www.ncrtc.co.in/jobs.php";
     ncrtc.verificationSource = "https://www.ncrtc.co.in/jobs.php";
     ncrtc.dataAuditDate = "10/10/2026";
-    ncrtc.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official NCRTC Jobs page confirms codes 32/2026 and 33/2026, opening 10/09/2026 and closing 09/10/2026. The same page still displayed status Open after the closing date; treat application status as ambiguous and verify before advising candidates.";
-    ncrtc.updates = "Official NCRTC Jobs page lists Coded notices 32/2026 and 33/2026 with closing date 09/10/2026. The displayed status was still Open on 10/10/2026 despite the past closing date; status needs direct portal confirmation.";
+    ncrtc.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official NCRTC Jobs page confirms codes 32/2026 and 33/2026, opening 10/09/2026 and closing 09/10/2026. The aggregate page label still displayed Open, but the official closing date has passed; treat this application window as closed unless NCRTC publishes an extension.";
+    ncrtc.updates = "Official NCRTC Jobs page lists Coded notices 32/2026 and 33/2026 with closing date 09/10/2026. The aggregate page label was still Open on 10/10/2026 despite the passed deadline; no extension was shown on the official listing.";
   }
 
   markVerified("upsc-advt-11-2026",
