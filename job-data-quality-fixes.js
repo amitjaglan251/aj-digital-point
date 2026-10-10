@@ -90,12 +90,12 @@
   if (upscAd12) {
     upscAd12.openDate = "26/09/2026";
     upscAd12.lastDate = "16/10/2026";
-    upscAd12.official = "https://www.upsc.gov.in/recruitment/recruitment-advertisement";
-    upscAd12.notice = "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2315209&lang=1&reg=3";
+    upscAd12.official = "https://www.upsc.gov.in/whats-new/12%20-%202026";
+    upscAd12.notice = "https://www.upsc.gov.in/sites/default/files/AdvtNo-12-2026-Engl-250926_0.pdf";
     upscAd12.apply = "https://upsconline.nic.in/";
-    upscAd12.vacancy = "Post-wise vacancies as specified in UPSC Advertisement No. 12/2026; check the detailed official advertisement.";
-    upscAd12.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: PIB official press release confirms UPSC Advertisement No. 12/2026 application window 26/09/2026–16/10/2026. Consult the detailed UPSC advertisement for post-wise vacancy, eligibility, fee and selection details.";
-    upscAd12.updates = "Official PIB notice published 26/09/2026 confirms online applications from 26/09/2026 to 16/10/2026. Detailed vacancy/eligibility particulars must be checked in the UPSC advertisement.";
+    upscAd12.vacancy = "Advertisement No. 12/2026 covers multiple direct-recruitment posts; exact post-wise vacancies must be read from the official advertisement PDF.";
+    upscAd12.verificationStatus = "OFFICIAL SOURCE LINKS VERIFIED 10/10/2026: UPSC page lists the 843.66 KB English notice PDF; PIB confirms the application window 26/09/2026–16/10/2026. The PDF could not be fully extracted in this pass, so post-wise vacancy, eligibility, age, fee and selection details remain unverified and are not guessed.";
+    upscAd12.updates = "Official UPSC page for Advertisement No. 12-2026 links the detailed English PDF (843.66 KB). PIB confirms applications from 26/09/2026 to 16/10/2026. Read the PDF before applying; the notice text was not fully extractable during this review.";
   }
 
   // Exim Bank SRD (the IBPS listing labels this "IEB") was cross-checked
