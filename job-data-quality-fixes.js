@@ -53,6 +53,7 @@
     "bpsc-tre-4-32388-2026",
     "ruhs-medical-officer-600-2026",
     "psssb-group-b-13-2026",
+    "rrb-nursing-superintendent-365-2026",
     "mecl-accountant-other-2026",
     // The record is not the same as the current MECL Non-Executive Advt. 03/Rectt./2026.
     // Exact 2026 Accountant notice and 11/10/2026 deadline were not established.
@@ -176,6 +177,47 @@
       ibpsSo.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official IBPS page confirms CRP-SPL-XVI notification dated 01/07/2026 and vacancy corrigendum dated 27/08/2026. The stored 06/10/2026 deadline is not supported by the page and appears to confuse an unrelated IBPS addendum. Keep closed; do not publish 06/10/2026 as the application deadline.";
       ibpsSo.updates = "CRP-SPL-XVI application period is closed. Official exam calendar lists preliminary exam 29/08/2026 and main exam 01/11/2026; exam dates are not application dates. Check the official CRP-SPL-XVI notice for the exact registration window.";
     }
+  }
+
+  // Canara Bank Graduate Apprentices FY 2026-27 — verified from the bank's official PDF.
+  const canaraApprentice = window.AJ_JOB_DATA.find(function (item) { return item.id === "canara-bank-apprentice-3500-2026"; });
+  if (canaraApprentice) {
+    canaraApprentice.category = "Banking Jobs";
+    canaraApprentice.openDate = "01/10/2026";
+    canaraApprentice.lastDate = "17/10/2026";
+    canaraApprentice.vacancy = "3,500 indicative training seats; state-wise/category-wise allocation is in the official PDF and may vary.";
+    canaraApprentice.qualification = "Graduation in any discipline from a recognized university; candidates must have passed graduation between 01/01/2023 and 01/09/2026 inclusive. NATS profile must be 100% complete before applying.";
+    canaraApprentice.age = "20–28 years as on 01/09/2026; category-wise relaxations as specified in the official advertisement.";
+    canaraApprentice.salary = "₹16,650 per month including applicable Government subsidy, as stated in the official notice.";
+    canaraApprentice.official = "https://www.canarabank.bank.in/engagement-of-graduate-apprentices-in-canara-bank-under-apprentices-act-1961-for-fy-2026-27";
+    canaraApprentice.notice = "https://www.canarabank.bank.in/documents/d/guest/apprenticeship-advertisement-2026-27";
+    canaraApprentice.apply = "https://ibpsreg.ibps.in/cabgasep26/";
+    canaraApprentice.verificationSource = canaraApprentice.notice;
+    canaraApprentice.verificationStatus = "VERIFIED FROM CANARA BANK OFFICIAL FY 2026-27 ADVERTISEMENT PDF AND REGISTRATION PORTAL. 3,500 indicative seats, 01/10–17/10/2026 registration window, eligibility age/date, graduation window and stipend cross-checked.";
+    canaraApprentice.updates = "Official Canara Bank notice checked 10/10/2026. Registration closes 17/10/2026; last date to print application is 01/11/2026. Total 3,500 training seats are provisional and may vary.";
+  }
+
+  // NIT non-faculty portal dates are confirmed, but institute-specific notice fields remain partial.
+  const nitNonFaculty = window.AJ_JOB_DATA.find(function (item) { return item.id === "nit-non-faculty-2026"; });
+  if (nitNonFaculty) {
+    nitNonFaculty.openDate = "01/10/2026";
+    nitNonFaculty.lastDate = "30/10/2026";
+    nitNonFaculty.notice = "https://ibpsreg.ibps.in/nitrjul26/index.php?stat=0";
+    nitNonFaculty.apply = "https://ibpsreg.ibps.in/nitrjul26/index.php?stat=0";
+    nitNonFaculty.verificationStatus = "APPLICATION DATES VERIFIED FROM THE OFFICIAL IBPS REGISTRATION PORTAL: 01/10/2026–30/10/2026; application print deadline 15/11/2026. Exact institute name, post-wise vacancy, eligibility, age and fee still need the issuing institute's detailed notice.";
+    nitNonFaculty.updates = "Official registration portal checked 10/10/2026. Applications close 30/10/2026; printing deadline 15/11/2026. Read the issuing institute's notice for post-wise requirements.";
+  }
+
+  const sahityaAkademi = window.AJ_JOB_DATA.find(function (item) { return item.id === "sahitya-akademi-30-2026"; });
+  if (sahityaAkademi) {
+    sahityaAkademi.openDate = "See official notice";
+    sahityaAkademi.lastDate = "21/10/2026";
+    sahityaAkademi.official = "https://www.sahitya-akademi.gov.in/recruitment/vacancy.jsp";
+    sahityaAkademi.notice = "https://www.sahitya-akademi.gov.in/recruitment/vacancy.jsp";
+    sahityaAkademi.apply = "https://www.sahitya-akademi.gov.in/recruitment/vacancy.jsp";
+    sahityaAkademi.vacancy = "Various direct-recruitment posts; verify the exact total and post-wise distribution from the official advertisement/corrigendum.";
+    sahityaAkademi.verificationStatus = "OFFICIAL DEADLINE VERIFIED 10/10/2026: Sahitya Akademi vacancy page lists various direct-recruitment posts with last date 21/10/2026 and links to corrigendum, eligibility criteria and prescribed application formats. The dataset's 30-post total remains unconfirmed.";
+    sahityaAkademi.updates = "Official Sahitya Akademi vacancy page checked 10/10/2026; application deadline 21/10/2026. Read the corrigendum and relevant application format; post count still requires full notice reconciliation.";
   }
 
   // Correct the IGNOU non-teaching record's mismatched post/summary fields.
