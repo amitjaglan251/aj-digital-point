@@ -69,3 +69,22 @@ This targeted pass does **not** mean every remaining record is fully verified. T
 - DRDO MTRDC JRF advertisement page: https://drdo.gov.in/drdo/en/offerings/vacancies/mtrdc-bengaluru-invites-eligible-candidates-walk-interview-post-jrf
 
 The full notice-by-notice verification remains in progress. The feed’s remaining generic fields and missing official links still need review in subsequent batches.
+
+## Phase 4 — DRDO current notices and IGNOU data correction (10 October 2026)
+
+- **IGNOU Non-Teaching Recruitment:** corrected an internal data mismatch where the post and short-summary fields incorrectly named a Rajasthan Safai Karamchari recruitment. The entry now names Assistant Director, Technical Manager and Technical Assistant, with the official post-wise totals (2, 4 and 8) and IGNOU application/notice links.
+- **DRDO RCI Hyderabad Apprentices:** verified the official advertisement and corrected the record to 195 indicative seats: Graduate Apprentice 50, Technician/Diploma Apprentice 30, ITI Trade Apprentice 115. The notice requires at least 70% or CGPA 7.5 for regular candidates who passed in 2022–2026; the exact trade/portal instructions remain in the PDF.
+- **DRDO DMRL JRF:** verified 14 positions (Electronics 3, Mechanical 7, Chemical 2, Physics 2), ₹37,000/month plus HRA, maximum age 28 and deadline 27/10/2026 against the official notice.
+- **DRDO CAIR JRF:** added the exact official notice page and verified the listing dates 06/10/2026–30/10/2026 and walk-in date 24/11/2026. Detailed eligibility should be checked in the linked advertisement.
+- **New records added:** DRDO ITR Chandipur Apprentice (Advt. ITR/HRD/AT/11/2026; deadline 02/11/2026; discipline-wise seats and stipends in the official PDF) and DRDO GTRE Consultant (3 posts; deadline 29/10/2026; maximum age 63 years). These were missing from the dataset and have been added through the quality-safeguard script.
+- **Runtime expected feed count:** 367 records after the six previously removed obsolete/duplicate/unconfirmed entries, plus two newly added official notices. This is a static expectation based on the script and dataset; a live browser rendering check is still recommended.
+
+### Sources for Phase 4
+- DRDO ITR official advertisement: https://drdo.gov.in/drdo/sites/default/files/vacancy/advtITR09102026.pdf
+- DRDO GTRE official advertisement: https://drdo.gov.in/drdo/sites/default/files/vacancy/advtGTRE08102026.pdf
+- DRDO RCI official advertisement: https://drdo.gov.in/drdo/sites/default/files/vacancy/advtRCI01102026.pdf
+- DRDO DMRL official advertisement: https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDMRL06102026.pdf
+- DRDO CAIR official listing: https://drdo.gov.in/drdo/en/offerings/vacancies/cair-bengaluru-invites-eligible-candidates-walk-interview-post-jrf-24th
+- IGNOU official career page: https://www.ignou.ac.in/announcement/Career?nav=5
+
+Notice-by-notice verification of all remaining records is still in progress.
