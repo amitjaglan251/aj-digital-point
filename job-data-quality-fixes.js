@@ -108,7 +108,7 @@
     ieb.openDate = "15/09/2026";
     ieb.lastDate = "10/10/2026";
     ieb.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: IBPS official recruitment page confirms the IEB Special Recruitment Drive listing and 10/10/2026 closing date. Vacancy count, eligibility, fee and selection details must be checked in the official notice.";
-    ieb.updates = "Official IBPS recruitment page checked 10/10/2026. Registration window shown as 15/09/2026–10/10/2026. Read the linked official notice for complete eligibility and instructions.";
+    ieb.updates = "Official IBPS registration portal checked 10/10/2026. Registration and fee payment close 10/10/2026; application print is available through 25/10/2026. Printing availability does not extend registration. Read the official notice for complete eligibility and instructions.";
     ieb.notice = "https://www.ibps.in/index.php/recruitment/";
     ieb.official = "https://www.ibps.in/index.php/recruitment/";
     ieb.apply = "https://www.ibps.in/index.php/recruitment/";
