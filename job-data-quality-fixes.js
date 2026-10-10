@@ -45,6 +45,7 @@
     ieb.notice = "https://www.ibps.in/index.php/recruitment/";
     ieb.official = "https://www.ibps.in/index.php/recruitment/";
     ieb.apply = "https://www.ibps.in/index.php/recruitment/";
+  }
 
   // NVS official Class XI lateral-entry portal confirms the extended deadline
   // of 15/10/2026. Keep the date verified, but do not invent a single vacancy count.
@@ -78,6 +79,5 @@
     mtrdc.notice = "https://drdo.gov.in/drdo/en/offerings/vacancies/mtrdc-bengaluru-invites-eligible-candidates-walk-interview-post-jrf";
     mtrdc.verificationStatus = "OFFICIAL LISTING VERIFIED 10/10/2026: DRDO confirms Advertisement MTRDC/RF/RECT/2026/02, published/opened 16/09/2026, closing 15/10/2026. Read the attached official advertisement for exact eligibility, interview date and application instructions.";
     mtrdc.updates = "Official DRDO page lists MTRDC/RF/RECT/2026/02, published 16/09/2026, deadline 15/10/2026. The linked page includes the official advertisement PDF.";
-  }
   }
 })();
