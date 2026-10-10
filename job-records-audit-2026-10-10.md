@@ -359,3 +359,13 @@ Rechecked the official MECL advertisement page (shown as updated **09/10/2026**)
 
 Official MECL listing: https://mecl.co.in/ContentPageMecl.aspx?Antispam=d1f1c9cd-24f5-4e1e-9af5-3c3d24f7c17a&ControlID=61&Lng=EN&MyAntispam=d93d1ca5-9dc3-4407-9516-6f746fb5ee07&page=advertisement-notices-and-results
 IBPS registration portal: https://ibpsreg.ibps.in/mecljul26/
+
+
+## Follow-up update — MPA Class I & II recruitment
+
+Checked the official IBPS recruitment index and linked MPA registration portal on **10/10/2026**. Both support the registration window **29/09/2026–28/10/2026**; the registration portal also confirms application editing/fee payment closes **28/10/2026** and application printing is available through **12/11/2026**.
+
+- IBPS recruitment index: https://www.ibps.in/index.php/recruitment/
+- Registration portal: https://ibpsreg.ibps.in/mpajul26/
+
+The official listing uses the acronym “MPA”; its full organisation name and the detailed notice's vacancy, qualification, fee and selection particulars were not established from the accessible pages in this pass. The public record now states this limitation instead of implying those fields are fully verified. Live browser rendering remains unverified.
