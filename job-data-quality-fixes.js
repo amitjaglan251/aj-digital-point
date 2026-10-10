@@ -19,7 +19,11 @@
     "rrb-cen-05-2026-paramedical",
     "rrb-cen-05-2026-paramedical-new",
     // DRDO DGRE page entry is a selected-candidates list, not an open recruitment notice.
-    "drdo-dgre-jrf-2026-27"
+    "drdo-dgre-jrf-2026-27",
+    // Official 2026 notices could not be matched; similarly named current BSEB page is STET 2025.
+    "bseb-bihar-stet-2026",
+    // No matching official 1100-post Bank of Baroda SO notice found in this pass.
+    "bank-of-baroda-1100-so-2026"
   ]);
 
   const seen = new Set();
@@ -218,6 +222,36 @@
       postQualifications: [{ label: "Eligibility", value: "Retired government/PSU/autonomous body/university/Government R&D employees with relevant experience; see Terms of Reference annexures." }],
       physicalEligibility: [{ label: "PST / PET", details: "Not applicable as a physical recruitment test in the consultant advertisement." }]
     });
+  }
+
+  // Bank of Baroda Local Bank Officers: official notice confirms 2,482 posts and
+  // closing date 17/09/2026. Keep as expired/archive information, not an open job.
+  const bobLbo = window.AJ_JOB_DATA.find(function (item) { return item.id === "bank-of-baroda-2482-lbo"; });
+  if (bobLbo) {
+    bobLbo.title = "Bank of Baroda Local Bank Officers (LBO) Recruitment 2026 — 2,482 Posts";
+    bobLbo.post = "Local Bank Officer (LBO)";
+    bobLbo.openDate = "03/09/2026";
+    bobLbo.lastDate = "17/09/2026 (closed)";
+    bobLbo.official = "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09";
+    bobLbo.notice = "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09";
+    bobLbo.apply = "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09";
+    bobLbo.verificationStatus = "OFFICIAL BANK OF BARODA CAREER PAGE VERIFIED 10/10/2026: 2,482 LBO vacancies and extended closing date 17/09/2026 confirmed. Application is closed; this record is for archive/reference only.";
+    bobLbo.updates = "Official Bank of Baroda page checked 10/10/2026. The bank page lists 2,482 vacancies and confirms last date 17/09/2026, with an addendum extending the application deadline.";
+    bobLbo.verificationSource = "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09";
+  }
+
+  // AAI 389 Manager/Junior Executive entry: official recruitment dashboard confirms
+  // Advt. 12/2026/CHQ/DR-CBT, 389 posts, and a September 2026 update.
+  const aai389 = window.AJ_JOB_DATA.find(function (item) { return item.id === "aai-389-jr-executive-manager"; });
+  if (aai389) {
+    aai389.title = "AAI Managers and Junior Executives Recruitment 2026 — 389 Posts";
+    aai389.post = "Manager and Junior Executive (discipline-wise posts as per Advt. 12/2026/CHQ/DR-CBT)";
+    aai389.official = "https://www.aai.aero/en/careers/recruitment/allAirports/allAirports/allAirports/bilaspur.jsp?combine=&order=field_name_of_department&page=5&sort=desc";
+    aai389.notice = aai389.official;
+    aai389.apply = aai389.official;
+    aai389.verificationStatus = "OFFICIAL AAI RECRUITMENT DASHBOARD VERIFIED 10/10/2026: Advt. No. 12/2026/CHQ/DR-CBT and 389 total posts confirmed. The dashboard shows updates through 23/09/2026; check the official dashboard for the current registration/result status and any notice.";
+    aai389.updates = "AAI official recruitment dashboard checked 10/10/2026. It lists 389 Manager/Junior Executive posts under Advt. 12/2026/CHQ/DR-CBT and updates dated 03/08/2026 and 23/09/2026.";
+    aai389.verificationSource = aai389.official;
   }
 
 })();
