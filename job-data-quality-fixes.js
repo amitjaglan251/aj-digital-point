@@ -27,6 +27,11 @@
     // No matching current BMHRC Group B/C recruitment was found on the official recruitment page;
     // the matching official Group B/C notice found in search was from 2023, not 2026.
     "icmr-bmhrc-group-b-c-2026",
+    // These records contain material conflicts with official calendars/pages or lack a matching current notice.
+    "upsc-epfo-80-apfc",
+    "ssc-cpo-si-2026",
+    "ssc-chsl-2536-2026",
+    "bank-of-baroda-2482-lbo",
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
@@ -470,5 +475,30 @@
     "CLOSING DATE PASSED — STATUS NEEDS OFFICIAL CAREER-PAGE RECHECK: stored deadline is 03/10/2026. Exact official advertisement and full details have not yet been matched in this pass.",
     "https://indiaoptel.in/career/",
     "Stored deadline 03/10/2026 is past as of 10/10/2026. Do not display as open unless an official extension is found.");
+
+
+  // Official-source batch 2 review (10/10/2026).
+  const ese2027 = window.AJ_JOB_DATA.find(function (item) { return item.id === "upsc-engineering-services-2026"; });
+  if (ese2027) {
+    ese2027.title = "UPSC Engineering Services (Preliminary) Examination 2027 — Applications Closed";
+    ese2027.post = "Engineering Services (Preliminary) Examination, 2027";
+    ese2027.lastDate = "06/10/2026 06:00 PM (closed)";
+    ese2027.official = "https://www.upsc.gov.in/examinations/Engineering%20Services%20%28Preliminary%29%20Examination%2C%202027";
+    ese2027.notice = ese2027.official;
+    ese2027.verificationSource = ese2027.official;
+    ese2027.dataAuditDate = "10/10/2026";
+    ese2027.verificationStatus = "OFFICIAL UPSC EXAMINATION PAGE VERIFIED 10/10/2026: notification 16/09/2026, application deadline 06/10/2026 at 6:00 PM, examination 31/01/2027. Application window is closed. Vacancy, fee and post-specific eligibility should be compared with the linked notice before republishing as a detailed vacancy.";
+    ese2027.updates = "UPSC official examination page confirms 06/10/2026 6:00 PM application deadline and 31/01/2027 exam date. Marked closed as of 10/10/2026.";
+  }
+
+  markVerified("ibps-rrb-office-assistant-officer-2026",
+    "DEADLINE / OFFICIAL LISTING VERIFIED 10/10/2026: IBPS official CRP-RRBs-XV page lists vacancy updates and corrigenda through 25/09/2026. Stored application deadline is 27/09/2026 and is closed; exact latest bank/state/category vacancy totals remain to be transcribed from the 25/09 attachment.",
+    "https://www.ibps.in/index.php/rural-bank-xv/",
+    "Official IBPS page lists CRP-RRBs-XV corrigenda and updated vacancies dated 25/09/2026. Application window is closed; use the 25/09/2026 attachment, not older vacancy tables.");
+
+  markVerified("ssc-chte-2025-preference",
+    "PARTIAL 10/10/2026: SSC official portal is the correct authority, but this batch did not locate the exact post-preference notice to substantiate the stored 11/09/2026 deadline. Keep deadline unverified until the exact SSC notice is linked.",
+    "https://ssc.gov.in/",
+    "SSC 2026-27 calendar and current notice board reviewed; the exact 2025 CHTE preference-window notice was not located in this pass. Do not call the deadline fully verified.");
 
 })();
