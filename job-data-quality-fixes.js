@@ -35,6 +35,11 @@
     // CSIR official archive did not substantiate the generic 43-post record; it lists different
     // notices (including a CSIR Hqrs Technician-I notice with one post), so keep hidden pending match.
     "csir-43-technician-1",
+    // No matching official current notice found for these records in this pass; hide until identified.
+    "federal-bank-sales-officer-2026",
+    "itbp-capf-282-medical-officer",
+    "dgqa-15-technician",
+    "iaf-agniveer-non-combatant",
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
@@ -623,5 +628,68 @@
     mphc.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: recruitment title, 1,174 posts and 15/09/2026 closing date are corroborated by published recruitment summaries; MP High Court official site is linked, but the exact official PDF URL and all detailed fields were not fully reconciled in this pass. Exam-date notice reportedly dated 09/10/2026 should be confirmed on the official site.";
     mphc.updates = "Application window is closed. Visit the MP High Court official site for Advertisement 614/Exam/2026 and the latest examination schedule; detailed eligibility, fee and post-wise distribution remain pending exact-PDF comparison.";
   }
+
+
+  // Official-source batch 4: correct unrelated SSC URLs and record direct recruiting authorities.
+  const upssscJe = window.AJ_JOB_DATA.find(function (item) { return item.id === "upsssc-jr-engineer-agriculture"; });
+  if (upssscJe) {
+    upssscJe.official = "https://upsssc.gov.in/";
+    upssscJe.notice = "https://upsssc.gov.in/";
+    upssscJe.apply = "https://upsssc.gov.in/";
+    upssscJe.verificationSource = "https://upsssc.gov.in/";
+    upssscJe.dataAuditDate = "10/10/2026";
+    upssscJe.verificationStatus = "NEEDS EXACT-NOTICE VERIFICATION 10/10/2026: prior URLs incorrectly pointed to SSC. Replaced them with the official Uttar Pradesh Subordinate Services Selection Commission portal; exact post/advertisement and deadline must be matched to the corresponding official notice before treating details as verified.";
+    upssscJe.updates = "Official authority link corrected to UPSSSC. The prior SSC links were unrelated; detailed notice, eligibility, vacancy and deadline still need exact confirmation.";
+  }
+
+  const upessc = window.AJ_JOB_DATA.find(function (item) { return item.id === "upessc-12405-assistant-teacher"; });
+  if (upessc) {
+    upessc.official = "https://upessc.up.gov.in/";
+    upessc.notice = "https://upessc.up.gov.in/";
+    upessc.apply = "https://upessc.up.gov.in/";
+    upessc.verificationSource = "https://upessc.up.gov.in/";
+    upessc.dataAuditDate = "10/10/2026";
+    upessc.verificationStatus = "NEEDS EXACT-NOTICE VERIFICATION 10/10/2026: prior URLs incorrectly pointed to SSC. Replaced them with the Uttar Pradesh Education Service Selection Commission portal; the 12,405-post count and 15/10/2026 deadline still need matching to the exact official advertisement.";
+    upessc.updates = "Official authority link corrected from SSC to UPESSC. Do not rely on the 12,405 count or deadline until the matching official notice/corrigendum is confirmed.";
+  }
+
+  const navySsc = window.AJ_JOB_DATA.find(function (item) { return item.id === "indian-navy-275-ssc-officer"; });
+  if (navySsc) {
+    navySsc.official = "https://www.joinindiannavy.gov.in/";
+    navySsc.notice = "https://www.joinindiannavy.gov.in/";
+    navySsc.apply = "https://www.joinindiannavy.gov.in/";
+    navySsc.verificationSource = "https://www.joinindiannavy.gov.in/";
+    navySsc.dataAuditDate = "10/10/2026";
+    navySsc.verificationStatus = "NEEDS EXACT-NOTICE VERIFICATION 10/10/2026: prior URLs incorrectly pointed to SSC. Replaced with the official Indian Navy recruitment portal; the 275-post figure and 03/08/2026 extended deadline were not independently matched to the exact notice in this pass.";
+    navySsc.updates = "Official Indian Navy recruitment portal link corrected. Exact SSC officer entry notification, vacancy total and closing date still need reconciliation.";
+  }
+
+  const ngel = window.AJ_JOB_DATA.find(function (item) { return item.id === "ngel-engineer-executive"; });
+  if (ngel) {
+    ngel.title = "NGEL Engineer / Executive Recruitment 2026 — Advt. 04/26 (Application Closed)";
+    ngel.organization = "NTPC Green Energy Limited (NGEL)";
+    ngel.openDate = "18/08/2026";
+    ngel.lastDate = "07/09/2026 (reported; closed; exact official PDF pending)";
+    ngel.official = "https://www.ngel.in/";
+    ngel.notice = "https://www.ngel.in/";
+    ngel.apply = "https://www.ngel.in/";
+    ngel.verificationSource = "https://www.ngel.in/";
+    ngel.dataAuditDate = "10/10/2026";
+    ngel.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: public recruitment summaries report Advt. 04/26 for 147 Engineer/Executive posts and a 07/09/2026 deadline, but the exact official NGEL PDF was not retrieved in this pass. Keep vacancy and deadline explicitly provisional until official notice is located.";
+    ngel.updates = "Application deadline is reported as 07/09/2026 and has passed. Official NGEL portal linked; exact advertisement PDF and post-wise details remain pending.";
+  }
+
+  const armyNccIds = ["army-ncc-special-entry-men", "army-ncc-special-entry-women"];
+  armyNccIds.forEach(function (id) {
+    const item = window.AJ_JOB_DATA.find(function (record) { return record.id === id; });
+    if (!item) return;
+    item.official = "https://joinindianarmy.nic.in/";
+    item.notice = "https://joinindianarmy.nic.in/";
+    item.apply = "https://joinindianarmy.nic.in/";
+    item.verificationSource = "https://joinindianarmy.nic.in/";
+    item.dataAuditDate = "10/10/2026";
+    item.verificationStatus = "NEEDS EXACT-NOTICE VERIFICATION 10/10/2026: official Indian Army recruitment portal link added, but the recorded 2026 NCC Special Entry dates and vacancy details were not matched to the exact official notification in this pass.";
+    item.updates = "Application dates in the record are past. Use the official Indian Army portal to locate the matching NCC Special Entry notification; exact dates and vacancy details remain unverified.";
+  });
 
 })();
