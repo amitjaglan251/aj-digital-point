@@ -756,4 +756,55 @@
     kunjpuraStaff.updates = "Official PDF checked 10/10/2026. Application must reach the Principal, Sainik School Kunjpura, Karnal by 31/10/2026; postal delay is the applicant's responsibility. Download and read the full official notice before applying.";
   }
 
+
+  // BTSC official recruitment table and exact advertisement PDFs checked 10/10/2026.
+  const btscRecords = [
+    {
+      id: "btsc-scientific-assistant-30-2026",
+      title: "BTSC Scientific Assistant Recruitment 2026 — Advt. No. 30/2026",
+      post: "Scientific Assistant",
+      openDate: "25/09/2026",
+      lastDate: "24/10/2026 11:55 PM",
+      notice: "https://btsc.bihar.gov.in/sites/default/files/Advertisement/30_2026.pdf",
+      status: "PARTIALLY VERIFIED 10/10/2026: BTSC official recruitment table confirms Advertisement 30/2026, Scientific Assistant, registration 25/09/2026–24/10/2026, application deadline and payment last day 24/10/2026. Direct official PDF linked; post-wise vacancy/qualification/fee fields still require transcription from the PDF.",
+      update: "Official BTSC table and Advertisement 30/2026 PDF linked. Applications close 24/10/2026; check the PDF for exact qualification, vacancy distribution, fee and selection rules."
+    },
+    {
+      id: "btsc-fso-29-2026",
+      title: "BTSC Food Safety Officer Recruitment 2026 — Advt. No. 29/2026",
+      post: "Food Safety Officer",
+      openDate: "25/09/2026",
+      lastDate: "24/10/2026 11:55 PM",
+      notice: "https://btsc.bihar.gov.in/sites/default/files/Advertisement/29_2026.pdf",
+      status: "PARTIALLY VERIFIED 10/10/2026: BTSC official recruitment table confirms Advertisement 29/2026, Food Safety Officer, registration 25/09/2026–24/10/2026, application deadline and payment last day 24/10/2026. Direct official PDF linked; post-wise vacancy/qualification/fee fields still require transcription from the PDF.",
+      update: "Official BTSC table and Advertisement 29/2026 PDF linked. Applications close 24/10/2026; check the PDF for exact qualification, vacancy distribution, fee and selection rules."
+    },
+    {
+      id: "btsc-fishery-extension-28-2026",
+      title: "BTSC Fishery Extension Officer Recruitment 2026 — Advt. No. 28/2026",
+      post: "Fishery Extension Officer",
+      openDate: "24/09/2026",
+      lastDate: "23/10/2026 11:55 PM",
+      notice: "https://btsc.bihar.gov.in/sites/default/files/Advertisement/28_2026.pdf",
+      status: "PARTIALLY VERIFIED 10/10/2026: BTSC official recruitment table confirms Advertisement 28/2026, Fishery Extension Officer, registration 24/09/2026–23/10/2026, application deadline and payment last day 23/10/2026. Direct official PDF linked; post-wise vacancy/qualification/fee fields still require transcription from the PDF.",
+      update: "Official BTSC table and Advertisement 28/2026 PDF linked. Applications close 23/10/2026; check the PDF for exact qualification, vacancy distribution, fee and selection rules."
+    }
+  ];
+  btscRecords.forEach(function (cfg) {
+    const record = window.AJ_JOB_DATA.find(function (item) { return item.id === cfg.id; });
+    if (!record) return;
+    record.title = cfg.title;
+    record.post = cfg.post;
+    record.organization = "Bihar Technical Service Commission (BTSC)";
+    record.openDate = cfg.openDate;
+    record.lastDate = cfg.lastDate;
+    record.official = "https://btsc.bihar.gov.in/index.php/hi/recruitment";
+    record.notice = cfg.notice;
+    record.apply = "https://btsc.pariksha.nic.in/";
+    record.verificationSource = cfg.notice;
+    record.dataAuditDate = "10/10/2026";
+    record.verificationStatus = cfg.status;
+    record.updates = cfg.update;
+  });
+
 })();
