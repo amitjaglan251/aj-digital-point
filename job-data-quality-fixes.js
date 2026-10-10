@@ -54,6 +54,9 @@
     "ruhs-medical-officer-600-2026",
     "psssb-group-b-13-2026",
     "rrb-nursing-superintendent-365-2026",
+    "upsc-epfo-apfc-80-2026",
+    "ssc-chsl-2026-exam-update",
+    "nvs-recruitment-2026-27",
     "mecl-accountant-other-2026",
     // The record is not the same as the current MECL Non-Executive Advt. 03/Rectt./2026.
     // Exact 2026 Accountant notice and 11/10/2026 deadline were not established.
