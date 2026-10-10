@@ -7331,20 +7331,20 @@ window.AJ_JOB_DATA = [
     "category": "Defence / Research",
     "title": "DRDO MTRDC Bengaluru JRF Recruitment 2026",
     "post": "DRDO MTRDC Bengaluru JRF Recruitment 2026",
-    "shortInfo": "**DRDO MTRDC Bengaluru JRF Recruitment 2026**. Vacancy: As per notification Eligibility: Relevant engineering/science postgraduate qualification Last date: 15/10/2026 Fee, age relaxation, selection process और required documents के लिए official notification को अंतिम मानें.",
+    "shortInfo": "**DRDO MTRDC Bengaluru JRF Recruitment 2026 — Advt. MTRDC/RF/RECT/2026/02**. 3 Junior Research Fellow posts. Official DRDO listing confirms publication/start date 16/09/2026 and closing date 15/10/2026. Walk-in interview is reported for 15/10/2026. Stipend and qualification details should be checked against the original advertisement PDF before relying on them.",
     "lastDate": "15/10/2026",
     "mode": "Walk-in Interview",
-    "vacancy": "As per notification",
-    "qualification": "Relevant engineering/science postgraduate qualification",
-    "age": "As prescribed",
+    "vacancy": "3",
+    "qualification": "First-class BE/BTech in Electronics/EI/ECE/ET/EEE with valid NET/GATE; OR first-class MSc Electronics with NET; OR first-class ME/MTech in Electronics/Power Electronics/Electrical Engineering with first-class UG degree, as summarized in corroborating coverage; confirm exact wording in official advertisement.",
+    "age": "Maximum 28 years; category relaxations subject to official rules",
     "selection": "Walk-in interview",
-    "apply": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "notice": "https://drdo.gov.in/drdo/offerings/vacancies",
-    "official": "https://drdo.gov.in/",
-    "openDate": "See official notification",
+    "apply": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
+    "notice": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
+    "official": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
+    "openDate": "16/09/2026",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "dataAuditDate": "07/10/2026",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -7352,17 +7352,17 @@ window.AJ_JOB_DATA = [
     "ageAsOn": "Age calculation date इस record में उपलब्ध नहीं; official notification देखें।",
     "ageRelaxation": "Category-wise age relaxation इस record में उपलब्ध नहीं; official notification देखें।",
     "paymentMode": "यदि fee लागू हो तो केवल official application portal का payment method इस्तेमाल करें; fee/exemption पहले notification से verify करें।",
-    "salary": "Pay scale/salary इस record में उपलब्ध नहीं; official notification देखें।",
+    "salary": "₹37,000 per month plus applicable HRA (corroborating coverage; verify exact terms in official PDF)",
     "postQualifications": [
       {
         "label": "Educational Qualification",
-        "value": "Relevant engineering/science postgraduate qualification"
+        "value": "First-class BE/BTech in Electronics/EI/ECE/ET/EEE with valid NET/GATE; OR first-class MSc Electronics with NET; OR first-class ME/MTech in Electronics/Power Electronics/Electrical Engineering with first-class UG degree (secondary-source summary; confirm official PDF wording)."
       }
     ],
     "postVacancies": [
       {
-        "post": "DRDO MTRDC Bengaluru JRF Recruitment 2026",
-        "vacancy": "As per notification"
+        "post": "Junior Research Fellow (JRF)",
+        "vacancy": "3"
       }
     ],
     "physicalEligibility": [
@@ -7371,8 +7371,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Official source link is recorded; every date, eligibility condition and vacancy figure has not yet been independently rechecked. Original notice is final.",
-    "verificationSource": "https://drdo.gov.in/",
+    "verificationStatus": "Partially checked: official DRDO listing confirms advertisement number, title, published/start date 16/09/2026 and end date 15/10/2026. Vacancy count, qualification, age, stipend and interview details are corroborated by secondary reporting; original official PDF field-by-field confirmation remains pending.",
+    "verificationSource": "https://drdo.gov.in/drdo/en/offerings/vacancies?page=1",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
