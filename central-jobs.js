@@ -1603,16 +1603,16 @@ window.AJ_JOB_DATA = [
     "lastDate": "30/09/2026 11:59 PM",
     "mode": "Online",
     "openDate": "See official notification",
-    "vacancy": "Post-wise vacancy — see official notification",
+    "vacancy": "Reported as 2,049 by the record; some post-wise published tables total 1,949. Resolve this discrepancy against BGSSL's official notice before displaying a confirmed count.",
     "qualification": "Post-wise educational qualification as prescribed in the official notification.",
     "age": "Post-wise age limit and relaxation as prescribed in the official notification.",
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
-    "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "official": "https://bgss.in/careers/all",
+    "apply": "https://bgss.in/careers/all",
+    "notice": "https://bgss.in/careers/all",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -1639,8 +1639,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official BGSSL careers URL identified (site returned 403 to automated retrieval). Closing date 30/09/2026 is reported in coverage, but vacancy-count discrepancy exists: 2,049 reported versus 1,949 in a post-wise table. Mark as closed and keep count/details pending direct notice review.",
+    "verificationSource": "https://bgss.in/careers/all",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2736,10 +2736,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://dpcc.delhigovt.nic.in/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://dpcc.delhigovt.nic.in/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2766,8 +2766,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official DPCC portal linked. Automated page retrieval timed out; exact Environment Engineer notice, offline submission instructions and 25/09/2026 deadline remain unverified. Mark closed/pending until the original notice is inspected.",
+    "verificationSource": "https://dpcc.delhigovt.nic.in/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -2883,10 +2883,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://cetonline.karnataka.gov.in/kea/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://cetonline.karnataka.gov.in/kea/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -2913,8 +2913,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official KEA portal linked. Automated retrieval timed out; exact 210-post Group C advertisement, department-wise breakdown and 30/09/2026 deadline remain unverified. Mark closed/pending until the original notification is inspected.",
+    "verificationSource": "https://cetonline.karnataka.gov.in/kea/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -3032,10 +3032,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://dtl.gov.in/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://dtl.gov.in/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -3062,8 +3062,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Delhi Transco Limited website confirms an Assistant Manager (T) Trainee recruitment notice based on GATE 2027, and also shows a separate 17/10/2026 deadline for GATE-2026-based trainee posts. Existing record's 30/09/2026 deadline conflicts with current official-site information and must be corrected only after matching the exact advertisement. Not fully verified.",
+    "verificationSource": "https://dtl.gov.in/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
@@ -3179,10 +3179,10 @@ window.AJ_JOB_DATA = [
     "fee": "Application fee, exemptions and payment rules as prescribed in the official notification.",
     "selection": "Selection stages are post-specific and will be as prescribed in the official notification.",
     "documents": "Keep recent photograph, signature, valid photo ID, DOB/10th certificate, educational certificates/marksheets, category/EWS/PwBD/ExSM certificate where applicable, experience/NOC where applicable, and any post-specific documents required by the notification.",
-    "official": "",
+    "official": "https://mphc.gov.in/",
     "apply": "",
-    "notice": "",
-    "dataAuditDate": "07/10/2026",
+    "notice": "https://mphc.gov.in/",
+    "dataAuditDate": "10/10/2026",
     "feeDate": "Official notice में अलग fee-payment date प्रकाशित है या नहीं, मूल notification से verify करें; अनुमान न लगाएँ।",
     "correctionDate": "Correction/edit window की तारीख इस record में उपलब्ध नहीं; official notice देखें।",
     "examDate": "Exam/selection date इस record में उपलब्ध नहीं; official notice देखें।",
@@ -3209,8 +3209,8 @@ window.AJ_JOB_DATA = [
         "details": "इस record में physical standard/efficiency test की applicability verify नहीं हुई है। पद के प्रकार के आधार पर अनुमान न लगाएँ; original official notification देखें।"
       }
     ],
-    "verificationStatus": "Not independently verified: official source link is not recorded. Verify the recruiting authority's original notice before applying.",
-    "verificationSource": "Official source URL is not recorded in this job entry; manual verification required.",
+    "verificationStatus": "Official Madhya Pradesh High Court homepage linked. Exact 1,174 Assistant recruitment notice and 30/09/2026 deadline were not located in this pass; title/vacancy count may be mismatched. Keep as unverified/closed pending a matching official notification.",
+    "verificationSource": "https://mphc.gov.in/",
     "updates": "Latest update not separately recorded in this entry; official authority notice controls."
   },
   {
