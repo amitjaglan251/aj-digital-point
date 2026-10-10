@@ -29,6 +29,9 @@
     "upsc-epfo-80-apfc",
     "ssc-cpo-si-2026",
     "ssc-chsl-2536-2026",
+    // The matching IOB Specialist Officer PDF found is Advertisement HRDD/RECT/03/2025-26,
+    // dated 12/09/2025 with closing date 03/10/2025; no matching 2026 notice was located.
+    "indian-overseas-bank-so",
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
@@ -565,6 +568,22 @@
     spmcil.dataAuditDate = "10/10/2026";
     spmcil.verificationStatus = "OFFICIAL SPMCIL CAREERS PAGE VERIFIED 10/10/2026: Advt. 02/2026 is for Executive E-2/E-1 posts, published 25/07/2026, with listed closing date 31/08/2026 5:00 PM. The page also lists later notices/corrigenda; no confirmed extension reopening the application window was established in this pass.";
     spmcil.updates = "Official SPMCIL career page shows Advt. 02/2026 closing 31/08/2026 5:00 PM. Later notices are listed on the same page; verify any corrigendum before assuming applications reopened.";
+  }
+
+
+  const aai389 = window.AJ_JOB_DATA.find(function (item) { return item.id === "aai-389-jr-executive-manager"; });
+  if (aai389) {
+    aai389.title = "AAI Managers & Junior Executives Recruitment 2026 — Advt. 12/2026/CHQ/DR-CBT";
+    aai389.post = "Managers and Junior Executives in various disciplines";
+    aai389.organization = "Airports Authority of India (AAI)";
+    aai389.vacancy = "389 posts, as listed on the official AAI Recruitment Dashboard.";
+    aai389.official = "https://www.aai.aero/en/careers/recruitment/Offical";
+    aai389.notice = "https://www.aai.aero/en/careers/recruitment/Offical";
+    aai389.apply = "https://www.aai.aero/en/careers/recruitment/Offical";
+    aai389.verificationSource = "https://www.aai.aero/en/careers/recruitment/Offical";
+    aai389.dataAuditDate = "10/10/2026";
+    aai389.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official AAI Recruitment Dashboard confirms Advertisement 12/2026/CHQ/DR-CBT and 389 total posts, posted 22/07/2026. The stored 07/09/2026 deadline was not independently confirmed from the detailed advertisement in this pass; treat the deadline as unverified until checked against the PDF/corrigendum.";
+    aai389.updates = "AAI official dashboard confirms 389 posts under Advt. 12/2026/CHQ/DR-CBT and has exam/press-note updates through 23/09/2026. Deadline and post-wise vacancy/eligibility tables still require detailed-advertisement reconciliation.";
   }
 
 })();
