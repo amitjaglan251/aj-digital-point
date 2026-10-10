@@ -171,7 +171,7 @@
     ibpsRrb.apply = "https://www.ibps.in/index.php/rural-bank-xv/";
     ibpsRrb.vacancy = "Use the latest official updated-vacancy attachment dated 25/09/2026 for bank/state/post/category totals; do not rely on older vacancy figures.";
     ibpsRrb.verificationStatus = "OFFICIAL IBPS RRB-XV NOTICE/CORRIGENDA PAGE CHECKED 10/10/2026. Notification published 01/09/2026; registration closed 27/09/2026. Updated vacancy lists are dated 09/09, 15/09 and 25/09/2026. Detailed totals must be transcribed from the 25/09 attachment.";
-    ibpsRrb.updates = "Application window closed. Exam schedule per official IBPS 2026–27 calendar: Officer Scale I prelims 21–22/11/2026; Office Assistant prelims 06, 12 and 13/12/2026; Officers Scale II/III single exam 20/12/2026; Office Assistant main 30/01/2027.";
+    ibpsRrb.updates = "Application registration closed 27/09/2026; Office Assistant edit window closed 08/10/2026. The official candidate portals still show application-print availability through 12/10/2026, which does not reopen registration. Exam schedule per official IBPS 2026–27 calendar: Officer Scale I prelims 21–22/11/2026; Office Assistant prelims 06, 12 and 13/12/2026; Officers Scale II/III single exam 20/12/2026; Office Assistant main 30/01/2027.";
   }
 
   const ibpsLbo = window.AJ_JOB_DATA.find(function (item) { return item.id === "ibps-local-bank-officer-2026-27"; });
