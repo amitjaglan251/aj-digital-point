@@ -396,3 +396,16 @@ Rechecked the IBPS registration portal for **The Kendrapara Urban Co-operative B
 - Detailed notification: https://www.kendraparaucb.bank.in/resizeimages/Recruitment_Notification_Manager_Asst_Manager_2026.pdf
 
 The existing record contains 14 posts (Manager 6, Assistant Manager 8) and the detailed notice's eligibility, age, fee, selection and exam-pattern information. **Fee-date discrepancy remains:** one fee paragraph in the PDF says 21/10/2026, while the schedule and live portal say 25/10/2026. The site explicitly discloses this instead of hiding the conflict. Live browser rendering of AJ DIGITAL POINT itself remains unverified.
+
+
+## Follow-up update — NIT Raipur Group B/C non-teaching record expanded
+
+Rechecked the institute's official recruitment page on **10/10/2026**. It confirms Advertisement No. **NITRR/R-1/Advt./2026/1035**, dated **29/09/2026**, and application deadline **30/10/2026**. The official page has separate links labelled Detailed Advertisement and Apply Online; the institute page is retained as the stable official entry point, and the IBPS portal is added as the application portal.
+
+- Official NIT Raipur recruitment page: https://www.nitrr.ac.in/advertisement.php
+- IBPS application portal: https://ibpsreg.ibps.in/nitrjul26/
+- Reported total: **37 posts** — Superintendent 4, Technical Assistant 13, Senior Assistant 1, Senior Technician 1, Technician 15, Office Attendant 3.
+- Reported application window: **01/10/2026 00:01–30/10/2026 23:59**.
+- Reported selection outline: screening test and skill test where applicable.
+
+**Verification boundary:** NIT Raipur's official page confirms the notice identity and closing date. The 37-post breakdown, opening time and selection outline are corroborated by recruitment summaries but were not fully transcribed from the official detailed PDF in this pass. Fee, exact post-wise qualifications/age criteria and category allocation remain notice-dependent and are marked as such; no unverified fee is stated as fact. Live browser rendering of AJ DIGITAL POINT remains unverified.
