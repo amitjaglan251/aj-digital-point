@@ -382,3 +382,17 @@ Checked the live IBPS application portal for Advertisement No. **HRM/DM & M/SRD/
 - The record title now identifies the organisation as Export-Import Bank of India (Exim Bank), rather than leaving the opaque “IEB” acronym as the title. The 8-post total and post names are added as provisional record details; category allocation, qualifications, age limits, fee and selection particulars still need checking against the detailed official advertisement.
 
 **Important:** Because the current live portal and IBPS index disagree, the site explicitly displays the discrepancy instead of silently presenting the date as fully settled. Candidates should confirm directly with the live portal/official notice. This update does not constitute a live browser-render test of AJ DIGITAL POINT.
+
+
+## Follow-up update — KUCBL Managers & Assistant Managers live-portal recheck
+
+Rechecked the IBPS registration portal for **The Kendrapara Urban Co-operative Bank Ltd.** on **10/10/2026**. The live portal confirms:
+
+- Registration: **02/10/2026–25/10/2026**
+- Application editing and online fee payment deadline: **25/10/2026**
+- Application print deadline: **10/11/2026**
+- Live application portal: https://ibpsreg.ibps.in/kucbldec25/
+- Bank career page: https://www.kendraparaucb.bank.in/career.html
+- Detailed notification: https://www.kendraparaucb.bank.in/resizeimages/Recruitment_Notification_Manager_Asst_Manager_2026.pdf
+
+The existing record contains 14 posts (Manager 6, Assistant Manager 8) and the detailed notice's eligibility, age, fee, selection and exam-pattern information. **Fee-date discrepancy remains:** one fee paragraph in the PDF says 21/10/2026, while the schedule and live portal say 25/10/2026. The site explicitly discloses this instead of hiding the conflict. Live browser rendering of AJ DIGITAL POINT itself remains unverified.
