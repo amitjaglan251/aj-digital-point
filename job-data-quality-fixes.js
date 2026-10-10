@@ -57,6 +57,8 @@
     "upsc-epfo-apfc-80-2026",
     "ssc-chsl-2026-exam-update",
     "nvs-recruitment-2026-27",
+    // CEN 01/2026 ALP application already closed; do not list same notice as an upcoming vacancy.
+    "upcoming-rrb-alp-2026-27",
     "mecl-accountant-other-2026",
     // The record is not the same as the current MECL Non-Executive Advt. 03/Rectt./2026.
     // Exact 2026 Accountant notice and 11/10/2026 deadline were not established.
@@ -221,6 +223,33 @@
     sahityaAkademi.vacancy = "Various direct-recruitment posts; verify the exact total and post-wise distribution from the official advertisement/corrigendum.";
     sahityaAkademi.verificationStatus = "OFFICIAL DEADLINE VERIFIED 10/10/2026: Sahitya Akademi vacancy page lists various direct-recruitment posts with last date 21/10/2026 and links to corrigendum, eligibility criteria and prescribed application formats. The dataset's 30-post total remains unconfirmed.";
     sahityaAkademi.updates = "Official Sahitya Akademi vacancy page checked 10/10/2026; application deadline 21/10/2026. Read the corrigendum and relevant application format; post count still requires full notice reconciliation.";
+  }
+
+  // RRB CEN 01/2026 ALP — official RRB notice confirms application dates and total.
+  const rrbAlp = window.AJ_JOB_DATA.find(function (item) { return item.id === "rrb-alp-11127-2026-exam"; });
+  if (rrbAlp) {
+    rrbAlp.category = "Railway Jobs";
+    rrbAlp.openDate = "15/05/2026";
+    rrbAlp.lastDate = "14/06/2026 (closed)";
+    rrbAlp.vacancy = "11,127";
+    rrbAlp.official = "https://www.rrbcdg.gov.in/2026-01-alp.php";
+    rrbAlp.notice = "https://www.rrbcdg.gov.in/uploads/2026/01-ALP/012026ALP-CEN.pdf";
+    rrbAlp.apply = "https://www.rrbapply.gov.in/";
+    rrbAlp.verificationSource = rrbAlp.notice;
+    rrbAlp.verificationStatus = "APPLICATION DATES AND TOTAL VERIFIED FROM OFFICIAL RRB CEN 01/2026: registration 15/05/2026–14/06/2026; 11,127 Assistant Loco Pilot vacancies. Application is closed. Keep exam schedule in a separate field and verify it from the latest official RRB exam notice.";
+    rrbAlp.updates = "RRB CEN 01/2026 application window closed on 14/06/2026. Official notice and indicative notice confirm 11,127 posts. This is not an upcoming application window.";
+  }
+
+  // Coast Guard CGEPT batches: opening date confirmed; deadline/vacancy totals not independently confirmed.
+  const coastGuardCgept = window.AJ_JOB_DATA.find(function (item) { return item.id === "coast-guard-cgept-01-02-2027"; });
+  if (coastGuardCgept) {
+    coastGuardCgept.openDate = "06/10/2026";
+    coastGuardCgept.official = "https://www.indiancoastguard.gov.in/recruitment";
+    coastGuardCgept.notice = "https://www.indiancoastguard.gov.in/registration-process-cgept-0127-cgept-0227-batches-scheduled-commence-06-oct-26-all-candidates-are";
+    coastGuardCgept.apply = "https://ssc.gov.in/";
+    coastGuardCgept.verificationSource = coastGuardCgept.notice;
+    coastGuardCgept.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: Indian Coast Guard official notice confirms CGEPT-01/27 and CGEPT-02/27 registration was scheduled to commence 06/10/2026. Closing date and batch-wise vacancy counts were not confirmed from the source fetched in this pass; do not infer them.";
+    coastGuardCgept.updates = "Official Coast Guard registration-start notice dated 05/10/2026. Applications are submitted through SSC as directed by the official notice. Confirm the current closing date and batch-wise vacancy details on the linked official notice/SSC portal before applying.";
   }
 
   // Correct the IGNOU non-teaching record's mismatched post/summary fields.
