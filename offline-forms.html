@@ -27,53 +27,78 @@
 <main class="container" style="max-width:1100px;margin:0 auto;padding:10px">
 <section id="offline-recruitment-forms" class="portal-sections" style="margin:14px 0">
   <div class="portal-title">📮 Offline Recruitment Forms — ऑफलाइन भर्ती फॉर्म</div>
-  <p style="font-size:12px;color:#475569;padding:7px 9px;margin:0;background:#fff;border:1px solid #dbe3ef">हरियाणा की भर्तियाँ पहले दिखाई गई हैं। केवल सक्रिय आवेदन और उपलब्ध आधिकारिक नोटिस/फॉर्म को प्राथमिकता दें। आवेदन भेजने से पहले नोटिस में पता, दस्तावेज़, पोस्ट-वार योग्यता, आयु और अंतिम समय जाँचें।</p>
-  <div class="job-section-title">🟠 Haryana Offline Forms — हरियाणा</div>
-  <div class="job-grid" style="margin-top:7px">
-    <article class="job-card">
-      <h3>District AYUSH Society, Bhiwani — 25 पद (National AYUSH Mission)</h3>
-      <div class="last">Last Date: 27/10/2026, शाम 4:00 बजे तक</div>
-      <div class="meta"><b>जिला:</b> Bhiwani, Haryana<br><b>कुल पद:</b> 25 — Ayurvedic Specialist (1), Medical Officer (1), Pharmacist/Dispenser (1), Masseur (1), Attendant (1), Part-time Yoga Instructor (20)<br><b>आवेदन मोड:</b> Offline — Registered Post या स्वयं जमा<br><b>आयु:</b> 01/09/2026 को 18–42 वर्ष; नियमानुसार छूट<br><b>फीस:</b> कोई आवेदन शुल्क नहीं बताया गया<br><b>योग्यता/दस्तावेज़:</b> पद-वार योग्यता, अनुभव, domicile, प्रमाणपत्र और आवेदन-पता मूल नोटिस से मिलाएँ।</div>
-      <span class="badge">🟢 आवेदन जारी — आधिकारिक नोटिस दोबारा जाँचें</span>
-      <div class="actions"><a class="details-btn" href="https://bhiwani.gov.in/notice_category/recruitment/" target="_blank" rel="noopener noreferrer">District Official Recruitment Page</a><a class="secondary" href="https://bhiwani.gov.in/" target="_blank" rel="noopener noreferrer">Bhiwani Official Site</a></div>
-    </article>
-    <article class="job-card">
-      <h3>Panipat Anganwadi Worker (AWW) / Helper (AWH)</h3>
-      <div class="last">Last Date: 30/10/2026 — कार्यालय समय के भीतर</div>
-      <div class="meta"><b>जिला:</b> Panipat, Haryana<br><b>पद:</b> Anganwadi Worker और Anganwadi Helper — केंद्र-वार रिक्तियाँ नोटिस में देखें<br><b>आवेदन मोड:</b> Offline form, संबंधित WCDPO कार्यालय में<br><b>कौन आवेदन कर सकता है:</b> महिला उम्मीदवार; संबंधित ग्राम पंचायत/वार्ड की स्थायी निवासी होना आवश्यक बताया गया है<br><b>आयु:</b> 18–42 वर्ष; छूट की पुष्टि नोटिस से करें<br><b>फीस:</b> शून्य बताई गई है<br><b>दस्तावेज़:</b> Haryana Family ID/PPP और अन्य प्रमाणपत्र, जैसा मूल नोटिस में हो।</div>
-      <span class="badge">🟢 आवेदन जारी — मूल जिला नोटिस से पुष्टि करें</span>
-      <div class="actions"><a class="details-btn" href="https://panipat.gov.in/" target="_blank" rel="noopener noreferrer">Panipat Official District Site</a><a class="secondary" href="https://wcdhry.gov.in/" target="_blank" rel="noopener noreferrer">WCD Haryana</a></div>
-    </article>
+  <p style="font-size:12px;color:#475569;padding:9px;margin:0;background:#fff;border:1px solid #dbe3ef;border-radius:7px">यहाँ Haryana के फॉर्म पहले दिए गए हैं। आवेदन करने से पहले मूल सरकारी विज्ञापन में अंतिम तिथि, पोस्ट, योग्यता, आयु, आवेदन-पता और दस्तावेज़ ज़रूर जाँचें। जिन रिकॉर्डों का मूल PDF सीधे सत्यापित नहीं है, उन्हें नीचे स्पष्ट रूप से चिह्नित किया गया है।</p>
+  <div style="margin:12px 0"><label for="offlineSearch" style="display:block;font-weight:900;margin-bottom:5px">🔎 जिला, पद या विभाग खोजें</label><input id="offlineSearch" type="search" placeholder="जैसे Bhiwani, Anganwadi, AYUSH..." style="width:100%;box-sizing:border-box;border:1px solid #cbd5e1;border-radius:8px;padding:11px;font-size:14px"><p id="offlineCount" aria-live="polite" style="font-size:11px;color:#64748b;margin:5px 0">कुल 5 रिकॉर्ड</p></div>
+  <div class="offline-group">
+    <div class="job-section-title">🟠 Haryana Offline Forms — हरियाणा</div>
+    <div class="job-grid" style="margin-top:7px">
+      <article class="job-card" data-offline-search="haryana bhiwani district ayush society national ayush mission specialist medical officer pharmacist dispenser masseur attendant yoga instructor">
+        <h3>District AYUSH Society, Bhiwani — 25 पद (National AYUSH Mission)</h3>
+        <div class="last">बताई गई Last Date: 27/10/2026, शाम 4:00 बजे</div>
+        <div class="meta"><b>जिला:</b> Bhiwani, Haryana<br><b>पद:</b> Ayurvedic Specialist (1), Medical Officer (1), Pharmacist/Dispenser (1), Masseur (1), Attendant (1), Part-time Yoga Instructor (20)<br><b>मोड:</b> Offline — Registered Post या स्वयं जमा, मूल नोटिस के अनुसार<br><b>आयु:</b> प्रकाशित विवरण के अनुसार 01/09/2026 को 18–42 वर्ष; छूट नोटिस से जाँचें<br><b>फीस/योग्यता/दस्तावेज़:</b> मूल विज्ञापन से पुष्टि करें।</div>
+        <span class="badge">⚠️ मूल विज्ञापन PDF की पुष्टि बाकी</span>
+        <div class="actions"><a class="details-btn" href="https://bhiwani.gov.in/notice_category/recruitment/" target="_blank" rel="noopener noreferrer">Official Recruitment Page</a></div>
+      </article>
+      <article class="job-card" data-offline-search="haryana panipat anganwadi worker aww helper awh women child development wcd">
+        <h3>Panipat Anganwadi Worker (AWW) / Helper (AWH)</h3>
+        <div class="last">बताई गई Last Date: 30/10/2026</div>
+        <div class="meta"><b>जिला:</b> Panipat, Haryana<br><b>पद:</b> Worker और Helper; केंद्र-वार रिक्तियाँ मूल नोटिस में देखें<br><b>मोड:</b> Offline form, संबंधित कार्यालय में—पते की पुष्टि करें<br><b>पात्रता/आयु/फीस/दस्तावेज़:</b> उपलब्ध सूचना में महिला उम्मीदवार, स्थानीय निवासी और 18–42 वर्ष का उल्लेख है; आधिकारिक नोटिस से सभी शर्तें जाँचें।</div>
+        <span class="badge">⚠️ मूल विज्ञापन और फॉर्म की पुष्टि बाकी</span>
+        <div class="actions"><a class="details-btn" href="https://panipat.gov.in/" target="_blank" rel="noopener noreferrer">Panipat Official Site</a><a class="secondary" href="https://wcdhry.gov.in/" target="_blank" rel="noopener noreferrer">WCD Haryana</a></div>
+      </article>
+    </div>
   </div>
-  <div class="job-section-title">🌐 Other States — Offline Forms</div>
-  <div class="job-grid" style="margin-top:7px">
-    <article class="job-card">
-      <h3>NHM Khammam — 99 पद, विभिन्न श्रेणियाँ (Contract / Outsourcing)</h3>
-      <div class="last">Last Date: 13/10/2026</div>
-      <div class="meta"><b>राज्य:</b> Telangana, Khammam District<br><b>Vacancy:</b> 99 पद — विभिन्न श्रेणियाँ<br><b>Application Mode:</b> Offline form<br><b>Qualification / Age:</b> पोस्ट के अनुसार; आधिकारिक नोटिस देखें<br><b>Documents:</b> पोस्ट के अनुसार नोटिस में दिए गए प्रमाणपत्र व संलग्नक</div>
-      <span class="badge">🟢 Deadline आने वाली है</span>
-      <div class="actions"><a class="details-btn" href="https://khammam.telangana.gov.in/notice_category/recruitment/" target="_blank" rel="noopener noreferrer">Official Notice + Form</a></div>
-    </article>
-    <article class="job-card">
-      <h3>Tirunelveli Juvenile Justice Board — Assistant / Junior Assistant cum Bench Clerk, Office Assistant</h3>
-      <div class="last">Last Date: 13/10/2026</div>
-      <div class="meta"><b>राज्य:</b> Tamil Nadu<br><b>Vacancy:</b> 3 पद (आधिकारिक जिला पोर्टल के अनुसार)<br><b>Application Mode:</b> Offline application form<br><b>Qualification / Age:</b> नोटिस में दिए पद-वार मानदंड देखें<br><b>आवेदन:</b> नोटिस में दिए निर्देशों के अनुसार जमा करें</div>
-      <span class="badge">🟠 जल्दी अंतिम तिथि</span>
-      <div class="actions"><a class="details-btn" href="https://cdn.s3waas.gov.in/s36a9aeddfc689c1d0e3b9ccc3ab651bc5/uploads/2026/09/17910107662469.pdf" target="_blank" rel="noopener noreferrer">Official Notice PDF</a><a class="secondary" href="https://cdn.s3waas.gov.in/s36a9aeddfc689c1d0e3b9ccc3ab651bc5/uploads/2026/09/17906764458828.pdf" target="_blank" rel="noopener noreferrer">Application Form</a></div>
-    </article>
-    <article class="job-card">
-      <h3>Tirunelveli DCPU — Child Helpline 1098 Counsellor / Case Worker</h3>
-      <div class="last">Last Date: 23/10/2026</div>
-      <div class="meta"><b>राज्य:</b> Tamil Nadu<br><b>Vacancy:</b> Counsellor – 1, Case Worker – 1 (कुल 2 पद)<br><b>Application Mode:</b> Offline application form<br><b>Age:</b> 01/10/2026 को 42 वर्ष से कम (आवेदन फॉर्म के अनुसार)<br><b>Documents:</b> 10वीं, 12वीं, डिग्री/अन्य योग्यता और अनुभव प्रमाणपत्र, जहाँ लागू हों</div>
-      <span class="badge">🟢 आवेदन अवधि जारी</span>
-      <div class="actions"><a class="details-btn" href="https://cdn.s3waas.gov.in/s36a9aeddfc689c1d0e3b9ccc3ab651bc5/uploads/2026/10/17914403181629.pdf" target="_blank" rel="noopener noreferrer">Official Notice PDF</a><a class="secondary" href="https://cdn.s3waas.gov.in/s36a9aeddfc689c1d0e3b9ccc3ab651bc5/uploads/2026/10/17914415389585.pdf" target="_blank" rel="noopener noreferrer">Application Form</a></div>
-    </article>
+  <div class="offline-group">
+    <div class="job-section-title">🌐 Other States — Offline Forms</div>
+    <div class="job-grid" style="margin-top:7px">
+      <article class="job-card" data-offline-search="telangana khammam nhm national health mission 99 posts">
+        <h3>NHM Khammam — 99 पद, विभिन्न श्रेणियाँ</h3>
+        <div class="last">Last Date: 13/10/2026</div>
+        <div class="meta"><b>राज्य/जिला:</b> Telangana, Khammam<br><b>पद:</b> 99, विभिन्न श्रेणियाँ<br><b>मोड:</b> Offline form<br><b>योग्यता/आयु/दस्तावेज़:</b> पोस्ट-वार आधिकारिक नोटिस के अनुसार।</div>
+        <span class="badge">Official district listing</span>
+        <div class="actions"><a class="details-btn" href="https://khammam.telangana.gov.in/notice_category/recruitment/" target="_blank" rel="noopener noreferrer">Official Notice + Form</a></div>
+      </article>
+      <article class="job-card" data-offline-search="tamil nadu tirunelveli juvenile justice board assistant junior assistant bench clerk office assistant 3 posts">
+        <h3>Tirunelveli Juvenile Justice Board — Clerk / Office Assistant</h3>
+        <div class="last">Last Date: 13/10/2026</div>
+        <div class="meta"><b>राज्य:</b> Tamil Nadu<br><b>पद:</b> Assistant cum Bench Clerk, Junior Assistant cum Bench Clerk, Office Assistant — कुल 3 पद<br><b>मोड:</b> Offline application; जमा करने का तरीका नोटिस के अनुसार<br><b>योग्यता/आयु:</b> पोस्ट-वार मानदंड आधिकारिक विज्ञापन में देखें।</div>
+        <div class="actions"><a class="details-btn" href="https://cdn.s3waas.gov.in/s36a9aeddfc689c1d0e3b9ccc3ab651bc5/uploads/2026/09/17910107662469.pdf" target="_blank" rel="noopener noreferrer">Official Notice PDF</a><a class="secondary" href="https://cdn.s3waas.gov.in/s36a9aeddfc689c1d0e3b9ccc3ab651bc5/uploads/2026/09/17906764458828.pdf" target="_blank" rel="noopener noreferrer">Application Form</a></div>
+      </article>
+      <article class="job-card" data-offline-search="tamil nadu tirunelveli dcpu child helpline 1098 counsellor case worker 2 posts">
+        <h3>Tirunelveli DCPU — Child Helpline 1098 Counsellor / Case Worker</h3>
+        <div class="last">Last Date: 23/10/2026</div>
+        <div class="meta"><b>राज्य:</b> Tamil Nadu<br><b>पद:</b> Counsellor (1), Case Worker (1), कुल 2 पद<br><b>मोड:</b> Offline application<br><b>आयु:</b> आवेदन फॉर्म के अनुसार 01/10/2026 को 42 वर्ष से कम<br><b>दस्तावेज़:</b> शैक्षणिक और अनुभव प्रमाणपत्र, जहाँ लागू हों।</div>
+        <div class="actions"><a class="details-btn" href="https://cdn.s3waas.gov.in/s36a9aeddfc689c1d0e3b9ccc3ab651bc5/uploads/2026/10/17914403181629.pdf" target="_blank" rel="noopener noreferrer">Official Notice PDF</a><a class="secondary" href="https://cdn.s3waas.gov.in/s36a9aeddfc689c1d0e3b9ccc3ab651bc5/uploads/2026/10/17914415389585.pdf" target="_blank" rel="noopener noreferrer">Application Form</a></div>
+      </article>
+    </div>
   </div>
-  <p class="source-note">महत्वपूर्ण: Bhiwani AYUSH और Panipat Anganwadi के लिए उपलब्ध ताज़ा विवरण 10/10/2026 को समाचार/सूचना स्रोतों में मिला है, लेकिन इस जाँच में सीधा डाउनलोड योग्य आधिकारिक विज्ञापन PDF दोनों जिला पोर्टलों पर स्पष्ट रूप से सत्यापित नहीं हो पाया। आवेदन करने से पहले जिला/WCD विभाग से मूल नोटिस और फॉर्म अवश्य मिलाएँ। बाकी राज्यों के नोटिस भी आवेदन से पहले पढ़ें।</p>
+  <p class="source-note">नोट: Bhiwani AYUSH और Panipat Anganwadi के लिए सीधे आधिकारिक विज्ञापन PDF/आवेदन फॉर्म इस अपडेट में सत्यापित नहीं हो सके; इसलिए इन्हें verified नहीं माना गया है। नई आधिकारिक सूचना मिलने पर ही विवरण को पुष्टि-युक्त चिह्नित करें। अंतिम तिथि बदल सकती है—आवेदन से पहले संबंधित विभाग की वेबसाइट जाँचें।</p>
 </section>
-
-
 <section class="notice"><b>महत्वपूर्ण:</b> AJ DIGITAL POINT एक स्वतंत्र सूचना पोर्टल है, सरकारी वेबसाइट नहीं। आवेदन भेजने से पहले मूल सरकारी विज्ञापन में अंतिम तिथि, आवेदन-पता, योग्यता, आयु, दस्तावेज़ और शुल्क की पुष्टि करें।</section>
 </main>
 <footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer>
+
+<script>
+(function(){
+  const input=document.getElementById('offlineSearch');
+  const cards=[...document.querySelectorAll('[data-offline-search]')];
+  const count=document.getElementById('offlineCount');
+  function filter(){
+    const q=(input.value||'').toLocaleLowerCase().trim();
+    let visible=0;
+    cards.forEach(card=>{
+      const hay=(card.innerText+' '+(card.getAttribute('data-offline-search')||'')).toLocaleLowerCase();
+      const show=!q||hay.includes(q);
+      card.hidden=!show;
+      if(show) visible++;
+    });
+    document.querySelectorAll('.offline-group').forEach(group=>{
+      group.hidden=!group.querySelector('[data-offline-search]:not([hidden])');
+    });
+    count.textContent='दिख रहे रिकॉर्ड: '+visible+' / '+cards.length;
+  }
+  input.addEventListener('input',filter);
+  filter();
+})();
+</script>
 </body></html>
