@@ -812,13 +812,19 @@
 
   const upessc = window.AJ_JOB_DATA.find(function (item) { return item.id === "upessc-12405-assistant-teacher"; });
   if (upessc) {
+    upessc.title = "UPESSC SUPER TET 2026 — 12,405 Assistant Teacher Posts";
+    upessc.post = "Assistant Teacher, Primary Urban; Assistant Teacher Attached to Primary (Boys/Girls)";
+    upessc.organization = "Uttar Pradesh Education Service Selection Commission (UPESSC)";
+    upessc.openDate = "16/09/2026";
+    upessc.lastDate = "15/10/2026 (fee/application deadline per published recruitment reports)";
+    upessc.vacancy = "12,405 total: 11,508 Assistant Teacher (Primary, Urban) and 897 Attached Primary posts in aided institutions (473 boys' schools; 424 girls' schools).";
     upessc.official = "https://upessc.up.gov.in/";
     upessc.notice = "https://upessc.up.gov.in/";
     upessc.apply = "https://upessc.up.gov.in/";
     upessc.verificationSource = "https://upessc.up.gov.in/";
     upessc.dataAuditDate = "10/10/2026";
-    upessc.verificationStatus = "NEEDS EXACT-NOTICE VERIFICATION 10/10/2026: prior URLs incorrectly pointed to SSC. Replaced them with the Uttar Pradesh Education Service Selection Commission portal; the 12,405-post count and 15/10/2026 deadline still need matching to the exact official advertisement.";
-    upessc.updates = "Official authority link corrected from SSC to UPESSC. Do not rely on the 12,405 count or deadline until the matching official notice/corrigendum is confirmed.";
+    upessc.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official UPESSC portal link confirmed; reputable published recruitment reports identify Advertisement No. 05/2026, 12,405 posts, application start 16/09/2026, fee/application deadline 15/10/2026 and correction deadline 19/10/2026. The direct official detailed PDF was not independently retrieved in this pass, so use the UPESSC portal as the final authority. Do not present the reported 03–04/12/2026 exam date as confirmed without an official schedule.";
+    upessc.updates = "Advertisement No. 05/2026 reported for 12,405 posts. Complete OTR/application and fee steps by 15/10/2026; reported correction window ends 19/10/2026. Verify the detailed notice and any exam schedule directly on the official UPESSC portal.";
   }
 
   const navySsc = window.AJ_JOB_DATA.find(function (item) { return item.id === "indian-navy-275-ssc-officer"; });
