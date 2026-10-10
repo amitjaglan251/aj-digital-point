@@ -103,3 +103,19 @@ Notice-by-notice verification of all remaining records is still in progress.
 - BSEB STET official portal (the result found is STET 2025): https://bsebstet.org/index.html
 
 This phase is a targeted verification of specific records, not a complete verification of every remaining vacancy.
+
+## Phase 6 — IGNOU and BEE recruitment records added (10 October 2026)
+
+- Added **IGNOU Regional Centre Nagpur Administrative Associate**, 2 posts, ₹30,000/month, graduation plus 2 years' experience/MS Office, last date **26/10/2026**. The official IGNOU career listing and linked PDF were checked.
+- Added **BEE Sector Experts and Project Engineers**, listed last date **17/11/2026**.
+- Added **BEE technical and non-technical recruitment**, retaining the official page's wording “30 days from date of publication” instead of inventing a fixed closing time.
+- Added **BEE Deputy Director General (Technical)**, listed last date **19/10/2026**.
+- Both `latest-jobs.html` and `job-details.html` now load `job-data-quality-fixes.js?v=20261010-06`.
+- BEE entries deliberately do not guess vacancy counts, age limits, fees or salaries where those details are not present in the summary listing; the linked official circular is the source for those specifics.
+
+### Sources for Phase 6
+- IGNOU career listing: https://www.ignou.ac.in/announcement/Career?nav=5
+- IGNOU Administrative Associate PDF: https://www.ignou.ac.in/viewFile/ad/notification/Engagement-Administrative-Associate.pdf
+- BEE career page and circular links: https://beeindia.gov.in/show_content.php?lang=1&level=0&lid=14&ls_id=205
+
+This phase adds targeted, official-source-backed records; it is not a full line-by-line verification of the entire dataset.
