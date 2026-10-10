@@ -251,3 +251,11 @@ A record should only be marked fully verified when the official notice/career pa
 Browser test workflow: https://github.com/amitjaglan251/aj-digital-point/actions/workflows/live-site-browser-verification.yml
 Live Jobs: https://amitjaglan251.github.io/aj-digital-point/latest-jobs.html
 Job Details: https://amitjaglan251.github.io/aj-digital-point/job-details.html
+
+## Follow-up update — 10 October 2026
+
+After the baseline audit, the post-processing file `job-data-quality-fixes.js` was updated for MECL Non-Executive Recruitment, Advertisement 03/Rectt./2026. The canonical record now displays the reported total of 122 vacancies across 16 post categories, a general age ceiling of 30 years as of 01/09/2026, the reported ₹500 fee for General/OBC-NCL/EWS candidates with exemptions subject to the notice, and a summary of the selection stages. The official MECL advertisement listing and IBPS-hosted application portal are linked.
+
+**Verification status remains PARTIAL:** registration dates and the existence of the advertisement are confirmed from official pages, but post-wise vacancy/category distribution, qualifications, experience, and all category-specific conditions have not yet been fully transcribed and cross-checked against the detailed PDF. Treat the detailed notice as authoritative; do not interpret this follow-up as completion of the 371-record manual verification.
+
+The fix is loaded with cache-busted versions in `latest-jobs.html` (`job-data-quality-fixes.js?v=20261010-34`) and `job-details.html` (`job-data-quality-fixes.js?v=20261010-31`). GitHub source files were re-fetched after the commits to confirm these references and MECL fields; this source check is not a live browser-render verification.
