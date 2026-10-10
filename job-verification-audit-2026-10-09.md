@@ -33,3 +33,25 @@ A static quality scan was run across the full job dataset. It checks record coun
 
 ## Completion status
 **Dataset-wide static audit completed; full notice-by-notice verification remains in progress.** Do not describe all 371 records as fully verified until each record has a checked official notice/source and current status. Prioritize all records with unconfirmed dates/counts, missing official links, overlapping IDs, and deadlines within the next 7 days.
+
+
+## Phase 2 — targeted live-status review (10 October 2026)
+
+The site now loads the updated safeguard script with cache-busting versions on both `latest-jobs.html` and `job-details.html`.
+
+- Runtime feed count after the targeted safeguards: **366 records** (from 371). This is the expected result after removing five entries: one obsolete combined TRAI entry, two duplicate entries (MECL and IEB), and two RRB CEN 05/2026 Paramedical entries whose matching official notice was not found.
+- **RRB CEN 05/2026 Paramedical:** removed from the public feed until an exact matching official CEN notice can be confirmed. This avoids displaying the unverified 590-post count and 14/10/2026 deadline as a current opportunity.
+- **IEB Special Recruitment Drive:** retained as one entry. IBPS's official ongoing-recruitment page lists registration from 15/09/2026 through 10/10/2026. The entry is marked **partially verified**: the listing and closing date are checked, but detailed eligibility, vacancy count, fee and selection criteria still require the underlying official notice.
+- **MECL Non-Executive Advertisement 03/Rectt./2026:** retained as one canonical entry; its detailed record is marked as verified against the official advertisement, with 122 posts and a listed deadline of 11/10/2026.
+- **GATE 2027:** official IIT Madras site confirms extended registration with late fee through 12/10/2026 and application rectification from 14/10/2026 to 21/10/2026.
+- **TRAI Joint Advisor:** the combined legacy record is removed; the Guwahati and Kolkata notices remain as separate location-specific records.
+
+### Sources for Phase 2
+- IBPS ongoing recruitment list: https://www.ibps.in/index.php/recruitment/
+- MECL advertisement notices: https://mecl.co.in/ContentPageMecl.aspx?ControlID=61&Lng=EN&page=advertisement-notices-and-results
+- GATE 2027 official dates: https://gate2027.iitm.ac.in/important_dates
+- RRB official employment notices: https://www.rrbcdg.gov.in/employment-notices.php
+- TRAI official vacancies: https://www.trai.gov.in/vacancies
+
+### Remaining work
+This targeted pass does **not** mean every remaining record is fully verified. The outstanding queue still includes missing official/apply/notice links, generic opening dates, generic vacancy details, stale update text, and overlapping records in other recruitment families. Continue by verifying deadline-near records against their issuing authority and then work through missing-link and generic-field batches.
