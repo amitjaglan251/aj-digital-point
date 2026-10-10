@@ -119,3 +119,20 @@ This phase is a targeted verification of specific records, not a complete verifi
 - BEE career page and circular links: https://beeindia.gov.in/show_content.php?lang=1&level=0&lid=14&ls_id=205
 
 This phase adds targeted, official-source-backed records; it is not a full line-by-line verification of the entire dataset.
+
+## Phase 7 — IGNOU date/link corrections and UPSC duplicate cleanup (10 October 2026)
+
+- Corrected IGNOU Non-Teaching advertisement link to the exact PDF linked from the official Career page: `https://www.ignou.ac.in/viewFile/ad/notification/Detailed_Advertisement.pdf`. Confirmed 14 total posts (Assistant Director 2, Technical Manager 4, Technical Assistant 8) and online closing date 02/11/2026 23:59:59 IST.
+- Corrected IGNOU Teaching recruitment dates: online application closes **20/10/2026**; hard-copy receipt deadline **30/10/2026**. Added the exact official advertisement PDF and application portal.
+- Added IGNOU Deputy Registrar / Assistant Registrar deputation record with the two separate deadlines: online application **12/10/2026**, print copy with testimonials **27/10/2026**.
+- Removed two duplicate entries for UPSC Advertisement No. 12/2026 from the public feed, retaining the canonical detailed record `upsc-advt-12-2026`.
+- Both listing and details pages now reference `job-data-quality-fixes.js?v=20261010-07`.
+
+### Sources for Phase 7
+- IGNOU official Career page: https://www.ignou.ac.in/announcement/Career?nav=5
+- IGNOU Non-Teaching detailed advertisement: https://www.ignou.ac.in/viewFile/ad/notification/Detailed_Advertisement.pdf
+- IGNOU Teaching advertisement: https://www.ignou.ac.in/viewFile/acd/notification/Advertisement-IGNOU-2026.pdf
+- IGNOU Deputy Registrar/Assistant Registrar deputation advertisement: https://www.ignou.ac.in/viewFile/ad/notification/Advertisement.pdf
+- UPSC official recruitment page: https://www.upsc.gov.in/recruitment/recruitment-advertisement
+
+This phase is a targeted correction of official-source links, deadlines and duplicates; it does not represent complete verification of every vacancy in the dataset.
