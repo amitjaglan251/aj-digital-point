@@ -273,9 +273,9 @@
     coastGuardCgept.official = "https://www.indiancoastguard.gov.in/recruitment";
     coastGuardCgept.notice = "https://www.indiancoastguard.gov.in/registration-process-cgept-0127-cgept-0227-batches-scheduled-commence-06-oct-26-all-candidates-are";
     coastGuardCgept.apply = "https://ssc.gov.in/";
-    coastGuardCgept.verificationSource = coastGuardCgept.notice;
-    coastGuardCgept.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: Indian Coast Guard official notice confirms CGEPT-01/27 and CGEPT-02/27 registration was scheduled to commence 06/10/2026. Closing date and batch-wise vacancy counts were not confirmed from the source fetched in this pass; do not infer them.";
-    coastGuardCgept.updates = "Official Coast Guard registration-start notice dated 05/10/2026. Applications are submitted through SSC as directed by the official notice. Confirm the current closing date and batch-wise vacancy details on the linked official notice/SSC portal before applying.";
+    coastGuardCgept.verificationSource = "https://ssc.gov.in/";
+    coastGuardCgept.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: SSC official Notice Board lists the full CGEPT recruitment notification dated 06/10/2026 for batches 01/2027 and 02/2027; Coast Guard's official notice says registration commences 06/10/2026 and directs candidates to SSC. Exact closing date, batch-wise vacancy counts, and a stable direct application-form URL were not transcribed in this pass; do not infer them.";
+    coastGuardCgept.updates = "Official SSC Notice Board listing checked 10/10/2026: 'NOTIFICATION FOR RECRUITMENT OF ENROLLED PERSONS IN THE INDIAN COAST GUARD THROUGH CGEPT – BATCHES 01/2027 and 02/2027', posted 06/10/2026. The Coast Guard registration-start notice is dated 05/10/2026. The SSC homepage is only an official portal entry point, not a direct application form; open the CGEPT notice there and follow its application instructions. Closing date and batch-wise vacancy totals remain unconfirmed in this update.";
   }
 
   // Correct the IGNOU non-teaching record's mismatched post/summary fields.
