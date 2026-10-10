@@ -1091,8 +1091,8 @@
       selection: "As specified in the official detailed notification.",
       verificationSource: "https://ibpsreg.ibps.in/mpajul26/",
       dataAuditDate: "10/10/2026",
-      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: IBPS official recruitment index and registration portal confirm the title and registration window 29/09/2026–28/10/2026. Vacancy count, eligibility, fee and selection details still require transcription from the official notice.",
-      updates: "Registration and online fee payment close 28/10/2026; application printing is available through 12/11/2026. Print availability does not extend the registration deadline."
+      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: IBPS's official recruitment index lists 'MPA Recruitment of Class I & II Posts' with registration 29/09/2026–28/10/2026. The linked IBPS registration portal independently confirms registration/editing and online fee payment close 28/10/2026, with application printing through 12/11/2026. The acronym's full issuing-organisation name and detailed notice-specific vacancy, eligibility, fee and selection particulars were not established from the accessible official listing/portal in this pass; do not infer them.",
+      updates: "Official IBPS index and registration portal agree on registration opening 29/09/2026 and closing 28/10/2026. Application printing through 12/11/2026 does not extend the registration deadline. Confirm the full organisation name and post-wise conditions in the original notice before publishing further specifics."
     },
     {
       id: "mecl-non-executive-advt-03-2026",
