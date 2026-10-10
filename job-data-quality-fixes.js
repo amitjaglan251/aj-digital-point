@@ -973,4 +973,83 @@
     record.updates = cfg.update;
   });
 
+
+  // IBPS official recruitment index + matching registration portals checked 10/10/2026.
+  // These entries intentionally publish only the verified title and dates; vacancy/eligibility
+  // details remain marked pending until the issuing notice is transcribed.
+  const ibpsCurrentListings = [
+    {
+      id: "kucbl-managers-assistant-managers-2026",
+      title: "KUCBL Managers and Assistant Managers Recruitment 2026",
+      post: "Managers and Assistant Managers",
+      organization: "Kangra Central Cooperative Bank Limited (KUCBL)",
+      openDate: "02/10/2026",
+      lastDate: "25/10/2026",
+      official: "https://www.ibps.in/index.php/recruitment/",
+      notice: "https://ibpsreg.ibps.in/kucbldec25/",
+      apply: "https://ibpsreg.ibps.in/kucbldec25/",
+      vacancy: "Post-wise vacancy count: check the official detailed notification; not independently transcribed in this verification pass.",
+      qualification: "Check the official detailed notification for post-wise qualification and experience requirements.",
+      fee: "Refer to the official detailed notification and application portal.",
+      selection: "As specified in the official detailed notification.",
+      verificationSource: "https://ibpsreg.ibps.in/kucbldec25/",
+      dataAuditDate: "10/10/2026",
+      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: IBPS official recruitment index and registration portal confirm the recruitment title and registration window 02/10/2026–25/10/2026. Vacancy count, eligibility, fee and selection details still require transcription from the official notice.",
+      updates: "Registration and online fee payment close 25/10/2026; application printing is available through 10/11/2026. Print availability does not extend the registration deadline."
+    },
+    {
+      id: "mpa-class-i-ii-posts-2026",
+      title: "MPA Recruitment 2026 — Class I & II Posts",
+      post: "Class I & II Posts",
+      organization: "MPA",
+      openDate: "29/09/2026",
+      lastDate: "28/10/2026",
+      official: "https://www.ibps.in/index.php/recruitment/",
+      notice: "https://ibpsreg.ibps.in/mpajul26/",
+      apply: "https://ibpsreg.ibps.in/mpajul26/",
+      vacancy: "Post-wise vacancy count: check the official detailed notification; not independently transcribed in this verification pass.",
+      qualification: "Check the official detailed notification for post-wise qualification and experience requirements.",
+      fee: "Refer to the official detailed notification and application portal.",
+      selection: "As specified in the official detailed notification.",
+      verificationSource: "https://ibpsreg.ibps.in/mpajul26/",
+      dataAuditDate: "10/10/2026",
+      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: IBPS official recruitment index and registration portal confirm the title and registration window 29/09/2026–28/10/2026. Vacancy count, eligibility, fee and selection details still require transcription from the official notice.",
+      updates: "Registration and online fee payment close 28/10/2026; application printing is available through 12/11/2026. Print availability does not extend the registration deadline."
+    },
+    {
+      id: "mecl-non-executive-advt-03-2026",
+      title: "MECL Non-Executive Recruitment 2026 — Advt. 03/Rectt./2026",
+      post: "Non-Executive Posts",
+      organization: "Mineral Exploration and Consultancy Limited (MECL)",
+      openDate: "12/09/2026",
+      lastDate: "11/10/2026",
+      official: "https://www.ibps.in/index.php/recruitment/",
+      notice: "https://www.ibps.in/index.php/recruitment/",
+      apply: "https://www.ibps.in/index.php/recruitment/",
+      vacancy: "Post-wise vacancy count: consult MECL Advt. 03/Rectt./2026; not independently transcribed in this verification pass.",
+      qualification: "Refer to MECL Advt. 03/Rectt./2026 for post-wise qualification, age and experience.",
+      fee: "Refer to the official detailed notification.",
+      selection: "As specified in MECL Advt. 03/Rectt./2026.",
+      verificationSource: "https://www.ibps.in/index.php/recruitment/",
+      dataAuditDate: "10/10/2026",
+      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: IBPS official recruitment index lists MECL Recruitment of Non-Executive Posts with registration 12/09/2026–11/10/2026. The detailed MECL advertisement fields still require independent transcription.",
+      updates: "The official IBPS recruitment index lists 11/10/2026 as the closing date. Candidates should open the detailed MECL notice immediately to confirm post-wise eligibility, fee and application instructions."
+    }
+  ];
+  ibpsCurrentListings.forEach(function (cfg) {
+    let record = window.AJ_JOB_DATA.find(function (item) {
+      if (!item || typeof item !== "object") return false;
+      if (item.id === cfg.id) return true;
+      const title = String(item.title || "") + " " + String(item.post || "") + " " + String(item.organization || "");
+      if (cfg.id.indexOf("kucbl-") === 0) return /KUCBL|Kangra Central Cooperative Bank/i.test(title) && /Manager/i.test(title);
+      if (cfg.id.indexOf("mpa-") === 0) return /MPA/i.test(title) && /Class I|Class II/i.test(title);
+      return /MECL/i.test(title) && /Non.?Executive/i.test(title);
+    });
+    if (!record) {
+      record = { id: cfg.id, title: cfg.title, post: cfg.post, organization: cfg.organization };
+      window.AJ_JOB_DATA.push(record);
+    }
+    Object.keys(cfg).forEach(function (key) { record[key] = cfg[key]; });
+  });
+
 })();
