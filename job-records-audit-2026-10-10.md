@@ -336,3 +336,14 @@ Cross-checked the NIT Raipur Group B/C non-teaching recruitment listing with its
 - Official institute recruitment page: https://www.nitrr.ac.in/advertisement.php
 
 The site record now links to the confirmed registration portal and displays the confirmed opening, closing and print dates. Printing availability does not extend the application deadline. Post-wise vacancy totals, eligibility, fee and selection details remain untranscribed and are explicitly marked for the detailed advertisement. Live browser rendering remains unverified.
+
+
+## Follow-up update — Indian Coast Guard CGEPT 01/2027 and 02/2027
+
+Cross-checked the Indian Coast Guard recruitment listing with SSC's official Notice Board on 10/10/2026. SSC lists the full CGEPT recruitment notification for batches **01/2027 and 02/2027**, posted **06/10/2026**; Coast Guard's official notice dated **05/10/2026** says registration was scheduled to commence **06/10/2026** and directs applicants to SSC.
+
+- SSC official entry point: https://ssc.gov.in/
+- Coast Guard official recruitment listing: https://indiancoastguard.gov.in/recruitment
+- Coast Guard registration-start notice: https://www.indiancoastguard.gov.in/registration-process-cgept-0127-cgept-0227-batches-scheduled-commence-06-oct-26-all-candidates-are
+
+The record now clarifies that SSC's homepage is only an official portal entry point, not a direct application-form URL. The exact closing date, batch-wise vacancy counts, and a stable direct form URL were not transcribed in this pass, so no dates or vacancy figures were guessed. Live browser rendering remains unverified.
