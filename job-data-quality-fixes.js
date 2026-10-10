@@ -1018,6 +1018,22 @@
     updates: "Official NIT Raipur listing was checked 10/10/2026. Last date shown: 30/10/2026. Use the detailed advertisement linked on the institute page to confirm the post-wise terms and follow its Apply Online link. Do not treat this summary as a substitute for the notice."
   });
 
+  // SSC Junior Engineer 2026: attach the 08/10/2026 tentative-vacancy update
+  // to a matching existing record only; do not create a new application record.
+  const sscJeRecord = data.find(function (item) {
+    if (!item || typeof item !== "object") return false;
+    const label = String(item.title || "") + " " + String(item.post || "") + " " + String(item.organization || "");
+    return /junior engineer/i.test(label) && /ssc|staff selection commission/i.test(label) && /2026/.test(label);
+  });
+  if (sscJeRecord) {
+    sscJeRecord.updates = (String(sscJeRecord.updates || "").trim() + " Official update checked 10/10/2026: SSC Notice Board lists 'Tentative Vacancies of Junior Engineer Examination, 2026' dated 08/10/2026. This is a tentative vacancy-position update, not a new application notice; consult SSC's official Notice Board for the PDF.").trim();
+    sscJeRecord.notice = sscJeRecord.notice || "https://ssc.gov.in/";
+    sscJeRecord.official = sscJeRecord.official || "https://ssc.gov.in/";
+    sscJeRecord.verificationSource = "https://ssc.gov.in/";
+    sscJeRecord.dataAuditDate = "10/10/2026";
+    sscJeRecord.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: SSC Notice Board lists the tentative vacancy notice dated 08/10/2026. Post-wise vacancy figures were not transcribed in this update; do not infer a total or treat this as a fresh application window.";
+  }
+
   // IBPS official recruitment index + matching registration portals checked 10/10/2026.
   // These entries intentionally publish only the verified title and dates; vacancy/eligibility
   // details remain marked pending until the issuing notice is transcribed.
