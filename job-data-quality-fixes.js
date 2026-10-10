@@ -122,6 +122,62 @@
     mtrdc.updates = "Official DRDO page lists MTRDC/RF/RECT/2026/02, published 16/09/2026, deadline 15/10/2026. The linked page includes the official advertisement PDF.";
   }
 
+  // IBPS record corrections from official registration pages checked 10/10/2026.
+  const ibpsCsa = window.AJ_JOB_DATA.find(function (item) { return item.id === "ibps-csa-xvi-2026"; });
+  if (ibpsCsa) {
+    ibpsCsa.category = "Banking Jobs";
+    ibpsCsa.openDate = "01/08/2026";
+    ibpsCsa.lastDate = "28/08/2026 (closed)";
+    ibpsCsa.official = "https://www.ibps.in/index.php/crp-updates/";
+    ibpsCsa.notice = "https://www.ibps.in/index.php/crp-updates/";
+    ibpsCsa.apply = "https://ibpsreg.ibps.in/csaxvijul26/";
+    ibpsCsa.verificationStatus = "APPLICATION DATES VERIFIED FROM OFFICIAL IBPS CSA-XVI REGISTRATION PORTAL: registration 01/08/2026–28/08/2026; editing 04–05/09/2026; print deadline 23/09/2026. Preliminary exam 10–11/10/2026 is an exam date, not the application deadline. Use the 29/09/2026 official vacancy update for post counts.";
+    ibpsCsa.updates = "IBPS CSA-XVI application window is closed. Official portal checked 10/10/2026; registration ended 28/08/2026. Preliminary call letter was posted 01/10/2026; preliminary exam dates are 10–11/10/2026.";
+  }
+
+  const ibpsRrb = window.AJ_JOB_DATA.find(function (item) { return item.id === "ibps-rrb-xv-2026"; });
+  if (ibpsRrb) {
+    ibpsRrb.category = "Banking Jobs";
+    ibpsRrb.openDate = "01/09/2026";
+    ibpsRrb.lastDate = "27/09/2026 (closed)";
+    ibpsRrb.official = "https://www.ibps.in/index.php/rural-bank-xv/";
+    ibpsRrb.notice = "https://www.ibps.in/index.php/rural-bank-xv/";
+    ibpsRrb.apply = "https://www.ibps.in/index.php/rural-bank-xv/";
+    ibpsRrb.vacancy = "Use the latest official updated-vacancy attachment dated 25/09/2026 for bank/state/post/category totals; do not rely on older vacancy figures.";
+    ibpsRrb.verificationStatus = "OFFICIAL IBPS RRB-XV NOTICE/CORRIGENDA PAGE CHECKED 10/10/2026. Notification published 01/09/2026; registration closed 27/09/2026. Updated vacancy lists are dated 09/09, 15/09 and 25/09/2026. Detailed totals must be transcribed from the 25/09 attachment.";
+    ibpsRrb.updates = "Application window closed. Exam schedule per official IBPS 2026–27 calendar: Officer Scale I prelims 21–22/11/2026; Office Assistant prelims 06, 12 and 13/12/2026; Officers Scale II/III single exam 20/12/2026; Office Assistant main 30/01/2027.";
+  }
+
+  const ibpsLbo = window.AJ_JOB_DATA.find(function (item) { return item.id === "ibps-local-bank-officer-2026-27"; });
+  if (ibpsLbo) {
+    ibpsLbo.category = "Banking Jobs";
+    ibpsLbo.title = "Bank of Baroda Local Bank Officer Recruitment 2026 — Application Closed";
+    ibpsLbo.post = "Local Bank Officer";
+    ibpsLbo.openDate = "18/08/2026";
+    ibpsLbo.lastDate = "17/09/2026 (closed)";
+    ibpsLbo.official = "https://www.bankofbaroda.in/career";
+    ibpsLbo.notice = "https://ibpsreg.ibps.in/bobjul26/index.php?stat=0";
+    ibpsLbo.apply = "https://ibpsreg.ibps.in/bobjul26/index.php?stat=0";
+    ibpsLbo.verificationStatus = "APPLICATION WINDOW VERIFIED FROM OFFICIAL BANK OF BARODA/IBPS REGISTRATION PORTAL: registration and fee payment 18/08/2026–17/09/2026; last date to print application 02/10/2026. The print deadline is not the application deadline.";
+    ibpsLbo.updates = "Bank of Baroda Local Bank Officer application window closed 17/09/2026. Official registration portal checked 10/10/2026; application print deadline was 02/10/2026.";
+  }
+
+  // The 06/10/2026 IBPS update relates to Banker Faculty / Technical / Executive Secretary,
+  // not the CRP Specialist Officers XVI application deadline. Keep the SPL record closed
+  // and explicitly distinguish examination dates from registration dates.
+  for (const id of ["ibps-so-xvi-2026", "ibps-so-xvi-2026-main"]) {
+    const ibpsSo = window.AJ_JOB_DATA.find(function (item) { return item.id === id; });
+    if (ibpsSo) {
+      ibpsSo.category = "Banking Jobs";
+      ibpsSo.lastDate = "Application closed — exact registration deadline must be taken from CRP-SPL-XVI notification";
+      ibpsSo.official = "https://www.ibps.in/index.php/specialist-officers-xvi/";
+      ibpsSo.notice = "https://www.ibps.in/index.php/specialist-officers-xvi/";
+      ibpsSo.apply = "https://www.ibps.in/index.php/specialist-officers-xvi/";
+      ibpsSo.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: official IBPS page confirms CRP-SPL-XVI notification dated 01/07/2026 and vacancy corrigendum dated 27/08/2026. The stored 06/10/2026 deadline is not supported by the page and appears to confuse an unrelated IBPS addendum. Keep closed; do not publish 06/10/2026 as the application deadline.";
+      ibpsSo.updates = "CRP-SPL-XVI application period is closed. Official exam calendar lists preliminary exam 29/08/2026 and main exam 01/11/2026; exam dates are not application dates. Check the official CRP-SPL-XVI notice for the exact registration window.";
+    }
+  }
+
   // Correct the IGNOU non-teaching record's mismatched post/summary fields.
   const ignou = window.AJ_JOB_DATA.find(function (item) {
     return item.id === "ignou-nonteaching-2026";
