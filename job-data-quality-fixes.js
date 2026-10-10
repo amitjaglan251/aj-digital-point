@@ -1101,8 +1101,8 @@
       organization: "Mineral Exploration and Consultancy Limited (MECL)",
       openDate: "12/09/2026",
       lastDate: "11/10/2026",
-      official: "https://www.mecl.co.in/ContentPageMecl.aspx?Antispam=7c2a6846-13dd-438f-86a2-299456b31ab8&ControlID=61&Lng=EN&MyAntispam=a976cf17-f38a-4e54-ae49-025d3b8ce30e&page=advertisement-notices-and-results",
-      notice: "https://www.mecl.co.in/ContentPageMecl.aspx?Antispam=7c2a6846-13dd-438f-86a2-299456b31ab8&ControlID=61&Lng=EN&MyAntispam=a976cf17-f38a-4e54-ae49-025d3b8ce30e&page=advertisement-notices-and-results",
+      official: "https://mecl.co.in/ContentPageMecl.aspx?Antispam=d1f1c9cd-24f5-4e1e-9af5-3c3d24f7c17a&ControlID=61&Lng=EN&MyAntispam=d93d1ca5-9dc3-4407-9516-6f746fb5ee07&page=advertisement-notices-and-results",
+      notice: "https://mecl.co.in/ContentPageMecl.aspx?Antispam=d1f1c9cd-24f5-4e1e-9af5-3c3d24f7c17a&ControlID=61&Lng=EN&MyAntispam=d93d1ca5-9dc3-4407-9516-6f746fb5ee07&page=advertisement-notices-and-results",
       apply: "https://ibpsreg.ibps.in/mecljul26/",
       vacancy: "122 vacancies across 16 Non-Executive post categories, as reported for MECL Advt. 03/Rectt./2026. Check the official PDF for category-wise and post-wise distribution.",
       qualification: "Post-specific qualification varies across the 16 categories and includes relevant 10th, ITI, diploma and graduate qualifications; verify the exact qualification and experience for the chosen post in the official PDF.",
@@ -1111,7 +1111,7 @@
       selection: "Written examination, document verification and applicable skill/trade test. Skill/trade test is qualifying; read the official instructions for the exact post-wise process.",
       verificationSource: "https://ibpsreg.ibps.in/mecljul26/",
       dataAuditDate: "10/10/2026",
-      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: MECL official advertisement page lists Detailed Advertisement No. 03/Rectt./2026. The notice is reported as 122 vacancies across 16 Non-Executive categories; general age ceiling 30 years as of 01/09/2026 and ₹500 fee for General/OBC-NCL/EWS with specified exemptions. Post-wise qualification, experience, category distribution and exact conditions must be checked in the official PDF.",
+      verificationStatus: "PARTIALLY VERIFIED 10/10/2026: MECL official advertisement listing, marked updated 09/10/2026, lists Detailed Advertisement No. 03/Rectt./2026 and separate online-exam instructions. IBPS registration portal confirms registration and fee payment close 11/10/2026 and application printing through 26/10/2026. Reported total is 122 vacancies across 16 categories; exact post-wise qualification, experience and category distribution must be checked in the detailed official PDF.",
       updates: "Official registration portal confirms application/fee deadline 11/10/2026 and application-print deadline 26/10/2026. Printing availability does not extend registration. Read MECL Advt. 03/Rectt./2026 before applying."
     }
   ];
