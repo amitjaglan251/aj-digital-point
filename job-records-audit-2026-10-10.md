@@ -306,3 +306,14 @@ Official sources:
 - IBPS registration portal: https://ibpsreg.ibps.in/cabgasep26/
 
 This is a detailed verification of one record, not completion of all 371 records and not a live browser-render test of the AJ DIGITAL POINT website.
+
+
+## Follow-up update — NIT Raipur Group B/C non-teaching recruitment listing
+
+The official NIT Raipur recruitment listing was checked on 10 October 2026. It identifies **Recruitment for various Group B & C Non-Teaching posts under Direct Recruitment**, Advertisement No. **NITRR/R-1/Advt./2026/1035 dated 29/09/2026**, with a last date of **30/10/2026**. The site now includes a record linked to the institute's official recruitment page.
+
+**Only the title, advertisement reference/date and last date are confirmed in this pass.** The exact post-wise vacancy totals/category split, opening date, qualifications, experience/age limits, fee, selection stages and direct application URL have not yet been transcribed from the linked detailed advertisement. Those fields are explicitly marked as notice-dependent rather than guessed. The recruitment page is used as the entry point because the search result did not expose a reliable direct PDF/application URL.
+
+Official source: https://nitrr.ac.in/advertisement.php/downloads/recruitment/results.php
+
+This is one more source-confirmed recruitment listing, not a claim that all details are verified or that the complete 371-record audit is finished. Live browser rendering of AJ DIGITAL POINT remains unverified.
