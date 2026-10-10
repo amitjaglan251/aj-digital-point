@@ -45,6 +45,9 @@
     "south-indian-bank-probationary-officer",
     "delhi-dpcc-environment-engineer",
     "delhi-dtl-assistant-manager-trainee",
+    // Exact official notice not located for the 2,049-post BGSSL record or the 206-post generic BOB SO record.
+    "bgissl-2049-various-vacancies",
+    "bank-of-baroda-specialist-officer",
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
@@ -707,6 +710,24 @@
     icsi.dataAuditDate = "10/10/2026";
     icsi.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: ICSI's official recruitment management system lists Regular Posts, Advt. No. 02/2026, and later Executive Assistant written-test notices. The exact application deadline 12/08/2026 and vacancy/eligibility fields were not fully reconciled to the original advertisement in this pass; application is closed.";
     icsi.updates = "Official ICSI recruitment system is linked. The portal currently shows notices related to the Executive Assistant written test, not an open application; original Advt. 02/2026 must be checked for exact post-wise details.";
+  }
+
+
+  const bobWms = window.AJ_JOB_DATA.find(function (item) { return item.id === "bank-of-baroda-regular-hr-2026"; });
+  if (bobWms) {
+    bobWms.title = "Bank of Baroda Wealth Management Services Recruitment 2026 — 1,000 Posts";
+    bobWms.post = "Professionals for Wealth Management Services Department";
+    bobWms.organization = "Bank of Baroda";
+    bobWms.openDate = "04/09/2026";
+    bobWms.lastDate = "16/10/2026 (extended)";
+    bobWms.vacancy = "1,000 posts in the Wealth Management Services Department under Advertisement BOB/HRM/REC/ADVT/2026/17.";
+    bobWms.official = "https://bankofbaroda.bank.in/hi-in/career/current-opportunities/wealth-management-services-department-bob-hrm-rec-advt-2026-17";
+    bobWms.notice = bobWms.official;
+    bobWms.apply = bobWms.official;
+    bobWms.verificationSource = bobWms.official;
+    bobWms.dataAuditDate = "10/10/2026";
+    bobWms.verificationStatus = "OFFICIAL BANK OF BARODA CAREER PAGE VERIFIED 10/10/2026: WMS Department Advertisement BOB/HRM/REC/ADVT/2026/17 lists 1,000 vacancies and an extended application deadline of 16/10/2026. Post-specific eligibility and vacancy distribution must be read from the linked official PDF.";
+    bobWms.updates = "Official Bank of Baroda page lists 1,000 Wealth Management Services posts and the extended closing date 16/10/2026. This is distinct from the separate 100-post Corporate & Institutional Credit advertisement.";
   }
 
 })();
