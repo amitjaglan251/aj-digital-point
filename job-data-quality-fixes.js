@@ -59,6 +59,8 @@
     "nvs-recruitment-2026-27",
     // CEN 01/2026 ALP application already closed; do not list same notice as an upcoming vacancy.
     "upcoming-rrb-alp-2026-27",
+    // No matching current official CEN was found for the claimed 5,165-post 2026 NTPC record.
+    "rrb-ntpc-5165-2026",
     "mecl-accountant-other-2026",
     // The record is not the same as the current MECL Non-Executive Advt. 03/Rectt./2026.
     // Exact 2026 Accountant notice and 11/10/2026 deadline were not established.
