@@ -61,6 +61,7 @@
     "upcoming-rrb-alp-2026-27",
     // No matching current official CEN was found for the claimed 5,165-post 2026 NTPC record.
     "rrb-ntpc-5165-2026",
+    "upsc-direct-recruitment-advt-12-2026",
     "mecl-accountant-other-2026",
     // The record is not the same as the current MECL Non-Executive Advt. 03/Rectt./2026.
     // Exact 2026 Accountant notice and 11/10/2026 deadline were not established.
