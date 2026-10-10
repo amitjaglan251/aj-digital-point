@@ -61,7 +61,6 @@
     "upcoming-rrb-alp-2026-27",
     // No matching current official CEN was found for the claimed 5,165-post 2026 NTPC record.
     "rrb-ntpc-5165-2026",
-    "upsc-direct-recruitment-advt-12-2026",
     "mecl-accountant-other-2026",
     // The record is not the same as the current MECL Non-Executive Advt. 03/Rectt./2026.
     // Exact 2026 Accountant notice and 11/10/2026 deadline were not established.
@@ -80,6 +79,24 @@
     seen.add(item.id);
     return true;
   });
+
+  // UPSC Advertisement No. 12/2026 was announced by PIB on 26/09/2026.
+  // Official PIB notice states applications run 26/09/2026–16/10/2026; retain this
+  // canonical record while suppressing duplicate IDs below. Vacancy details are post-wise
+  // and must be taken from the detailed UPSC advertisement, not inferred here.
+  const upscAd12 = window.AJ_JOB_DATA.find(function (item) {
+    return item.id === "upsc-direct-recruitment-advt-12-2026";
+  });
+  if (upscAd12) {
+    upscAd12.openDate = "26/09/2026";
+    upscAd12.lastDate = "16/10/2026";
+    upscAd12.official = "https://www.upsc.gov.in/recruitment/recruitment-advertisement";
+    upscAd12.notice = "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2315209&lang=1&reg=3";
+    upscAd12.apply = "https://upsconline.nic.in/";
+    upscAd12.vacancy = "Post-wise vacancies as specified in UPSC Advertisement No. 12/2026; check the detailed official advertisement.";
+    upscAd12.verificationStatus = "PARTIALLY VERIFIED 10/10/2026: PIB official press release confirms UPSC Advertisement No. 12/2026 application window 26/09/2026–16/10/2026. Consult the detailed UPSC advertisement for post-wise vacancy, eligibility, fee and selection details.";
+    upscAd12.updates = "Official PIB notice published 26/09/2026 confirms online applications from 26/09/2026 to 16/10/2026. Detailed vacancy/eligibility particulars must be checked in the UPSC advertisement.";
+  }
 
   // The IBPS official recruitment page lists IEB Special Recruitment Drive (SRD)
   // for 15/09/2026–10/10/2026. Only the listing and closing date are verified here;
