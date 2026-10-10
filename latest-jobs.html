@@ -15,6 +15,22 @@
 <div class="jobs-tools"><input id="q" type="search" placeholder="🔎 Job, company, qualification, state खोजें..." aria-label="Search jobs"><span id="stateIndicator" style="display:none;background:#e8f7ea;color:#087a19;border:1px solid #9bd3a2;border-radius:8px;padding:8px 10px;font-weight:900;font-size:11px"></span><button class="btn" id="clearSearch" type="button">Clear</button></div>
 <div class="filter-tabs" id="filters"><button class="active" data-filter="active">🟢 Active</button><button data-filter="all">📋 All</button><button data-filter="expired">🔴 Expired</button><button data-filter="Central Job">🇮🇳 Central</button><button data-filter="State Job">🏛️ State</button><button data-filter="Private Job">🏢 Private</button><button data-filter="Railway">🚆 Railway</button><button data-filter="Defence">🪖 Defence</button><button data-filter="Banking">🏦 Banking</button><button data-filter="Teaching">🎓 Teaching</button><button data-filter="Upcoming Vacancy">⏳ Upcoming</button></div>
 <div id="all"></div><div id="state"></div><div id="app"></div><p class="source-note">🕒 Data refresh target: 07-10-2026. State/UT recruitment feeds are linked to official recruitment sources; live vacancies and deadlines are notification-wise. Latest entries are based on official recruitment/career sources checked for this update. Private-company openings can close without a fixed public last date.</p>
+
+<section id="offline-recruitment-forms" class="portal-sections" style="margin:14px 0">
+  <div class="portal-title">📮 Offline Recruitment Forms — ऑफलाइन भर्ती फॉर्म</div>
+  <p style="font-size:12px;color:#475569;padding:7px 9px;margin:0;background:#fff;border:1px solid #dbe3ef">इस सेक्शन में केवल वे भर्तियाँ दिखाई जाती हैं जिनके आधिकारिक नोटिस में offline application स्पष्ट है। आवेदन भेजने का पता, दस्तावेज़, पोस्ट-वार योग्यता और फॉर्म डाउनलोड करने से पहले मूल नोटिस अवश्य पढ़ें।</p>
+  <div class="job-grid" style="margin-top:7px">
+    <article class="job-card">
+      <h3>NHM Khammam — 99 पद, विभिन्न श्रेणियाँ (Contract / Outsourcing)</h3>
+      <div class="last">Last Date: 13/10/2026</div>
+      <div class="meta"><b>राज्य:</b> Telangana, Khammam District<br><b>Vacancy:</b> 99 पद — विभिन्न श्रेणियाँ<br><b>Application Mode:</b> Offline form<br><b>Qualification / Age:</b> पोस्ट के अनुसार; आधिकारिक नोटिस देखें<br><b>Documents:</b> पोस्ट के अनुसार नोटिस में दिए गए प्रमाणपत्र व संलग्नक</div>
+      <span class="badge">🟢 Deadline आने वाली है</span>
+      <div class="actions"><a class="details-btn" href="https://khammam.telangana.gov.in/notice_category/recruitment/" target="_blank" rel="noopener noreferrer">Official Notice + Form</a></div>
+    </article>
+  </div>
+  <p class="source-note">Official source: Khammam District Government Recruitment page. Closing date shown by the district portal: 13 October 2026. पोस्ट-वार विवरण और जमा करने की प्रक्रिया आधिकारिक नोटिस से ही मान्य होगी।</p>
+</section>
+
 <section class="notice"><b>Important:</b> AJ DIGITAL POINT independent information portal है, government website नहीं। Fee, age, qualification, vacancy, last date और selection की final जानकारी संबंधित official notification/portal से verify करें।</section></main>
 <nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="javascript:history.back()">←<span>Back</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="govt-schemes.html">🏛️<span>Schemes</span></a></nav><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer>
 <script src="central-jobs.js?v=20261010-29"></script>
@@ -127,7 +143,8 @@
   ['🩺 Medical / MBBS / Nursing',x=>/medical|mbbs|aiims|nursing|doctor|health|paramedical|pharmacist|research scientist|technical support|fso/i.test(hay(x)+' '+(x.organization||'')),'latest-jobs.html?filter=Medical'],
   ['📚 NET / UGC / JRF',x=>/ugc|csir|net|nta|assistant professor|jrf/i.test(hay(x)+' '+(x.organization||'')),'latest-jobs.html?filter=NET%20%2F%20UGC%20%2F%20Exams'],
   ['🎓 Counselling & Admission Dates',x=>/counselling \/ admission|counselling|counseling|seat allotment/i.test(hay(x)+' '+(x.organization||'')),'latest-jobs.html?filter=Counselling%20%2F%20Admission'],
-  ['📝 Apprenticeship / ITI',x=>/apprent|iti|technician|trade|trainee/i.test(hay(x)),'latest-jobs.html?filter=all']
+  ['📝 Apprenticeship / ITI',x=>/apprent|iti|technician|trade|trainee/i.test(hay(x)),'latest-jobs.html?filter=all'],
+   ['📮 Offline Recruitment Forms',x=>/offline/i.test(String(x.mode||'')+' '+String(x.title||'')+' '+String(x.category||'')),'latest-jobs.html#offline-recruitment-forms']
  ];
  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
  root.innerHTML=groups.map((g,gi)=>{
