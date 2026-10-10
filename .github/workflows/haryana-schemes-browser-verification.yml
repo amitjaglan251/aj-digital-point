@@ -1,0 +1,141 @@
+name: Haryana Schemes Live Browser Verification
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'haryana-schemes.html'
+      - 'portal.css'
+      - '.github/workflows/haryana-schemes-browser-verification.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  haryana-schemes-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+
+      - name: Verify live Haryana schemes page on desktop and mobile
+        run: |
+          mkdir -p browser-test-artifacts
+          cat > browser-test-artifacts/haryana-schemes-test.mjs <<'EOF'
+          import { chromium } from 'playwright';
+          import { writeFile } from 'node:fs/promises';
+
+          const url = 'https://amitjaglan251.github.io/aj-digital-point/haryana-schemes.html';
+          const browser = await chromium.launch({ headless: true });
+          const report = {
+            url,
+            testedAt: new Date().toISOString(),
+            desktop: {},
+            mobile: {},
+            consoleErrors: [],
+            pageErrors: [],
+            failedRequests: [],
+          };
+
+          try {
+            const page = await browser.newPage({ viewport: { width: 1365, height: 900 } });
+            page.on('console', msg => {
+              if (msg.type() === 'error') report.consoleErrors.push(msg.text());
+            });
+            page.on('pageerror', error => report.pageErrors.push(String(error)));
+            page.on('requestfailed', request => report.failedRequests.push({
+              url: request.url(),
+              error: request.failure()?.errorText || 'unknown',
+            }));
+
+            let loaded = false;
+            for (let attempt = 1; attempt <= 12; attempt++) {
+              report.attempts = attempt;
+              try {
+                const response = await page.goto(url + '?browserVerify=' + Date.now(), {
+                  waitUntil: 'domcontentloaded',
+                  timeout: 30000,
+                });
+                report.httpStatus = response?.status() ?? null;
+                await page.waitForTimeout(1500);
+                const title = await page.locator('.hs-head h1').innerText().catch(() => '');
+                const count = await page.locator('.hs-card[data-search]').count();
+                if (response?.ok() && title.includes('हरियाणा सरकारी योजनाएँ') && count >= 60) {
+                  loaded = true;
+                  break;
+                }
+              } catch (error) {
+                report.lastNavigationError = String(error);
+              }
+              await page.waitForTimeout(5000);
+            }
+            if (!loaded) throw new Error('Live page did not show expected heading and at least 60 scheme cards.');
+
+            report.desktop.title = await page.title();
+            report.desktop.heading = await page.locator('.hs-head h1').innerText();
+            report.desktop.schemeCardCount = await page.locator('.hs-card[data-search]').count();
+            report.desktop.latestUpdatesSection = await page.locator('#latest-updates').count() === 1;
+            report.desktop.dayaluCard = await page.getByRole('heading', { name: /DAYALU Yojana/ }).count() > 0;
+            report.desktop.bhavantarCard = await page.getByRole('heading', { name: /Bhavantar Bharpai Yojana/ }).count() > 0;
+            report.desktop.greenManureCard = await page.getByRole('heading', { name: /हरित खाद प्रोत्साहन/ }).count() > 0;
+            report.desktop.officialLinks = await page.locator('.hs-card a.official').count();
+            report.desktop.portalCssLoaded = await page.locator('link[rel="stylesheet"][href="portal.css"]').count() === 1;
+
+            if (!report.desktop.dayaluCard || !report.desktop.bhavantarCard || !report.desktop.greenManureCard) {
+              throw new Error('One or more recently updated scheme cards are missing from the live DOM.');
+            }
+
+            const search = page.locator('#search');
+            await search.fill('हरित खाद');
+            report.desktop.searchShowsMatchingCard = await page.locator('.hs-card:visible').filter({ hasText: 'हरित खाद प्रोत्साहन' }).count() > 0;
+            await search.fill('');
+            report.desktop.searchResetRestoresCards = await page.locator('.hs-card:visible').count() >= report.desktop.schemeCardCount;
+            await page.screenshot({ path: 'browser-test-artifacts/haryana-schemes-desktop.png', fullPage: true });
+
+            await page.setViewportSize({ width: 390, height: 844 });
+            await page.reload({ waitUntil: 'domcontentloaded' });
+            await page.waitForTimeout(1000);
+            report.mobile.viewport = await page.evaluate(() => ({
+              innerWidth: window.innerWidth,
+              documentWidth: document.documentElement.scrollWidth,
+              height: window.innerHeight,
+            }));
+            report.mobile.horizontalOverflow =
+              report.mobile.viewport.documentWidth > report.mobile.viewport.innerWidth + 2;
+            report.mobile.headingVisible = await page.locator('.hs-head h1').isVisible();
+            report.mobile.schemeCardCount = await page.locator('.hs-card[data-search]').count();
+            report.mobile.menuVisible = await page.locator('.hs-nav a').first().isVisible();
+            await page.screenshot({ path: 'browser-test-artifacts/haryana-schemes-mobile.png', fullPage: true });
+
+            await writeFile('browser-test-artifacts/report.json', JSON.stringify(report, null, 2));
+            if (!report.desktop.searchShowsMatchingCard) throw new Error('Scheme search did not show the matching card.');
+            if (!report.desktop.searchResetRestoresCards) throw new Error('Clearing search did not restore the cards.');
+            if (report.mobile.horizontalOverflow) throw new Error('Mobile page has horizontal overflow.');
+            if (!report.mobile.headingVisible || !report.mobile.menuVisible) throw new Error('Mobile heading or navigation is not visible.');
+            if (report.pageErrors.length) throw new Error('Browser page errors: ' + report.pageErrors.join(' | '));
+            console.log(JSON.stringify(report, null, 2));
+          } finally {
+            await browser.close();
+          }
+          EOF
+          node browser-test-artifacts/haryana-schemes-test.mjs
+
+      - name: Upload browser screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: haryana-schemes-live-browser-report
+          path: browser-test-artifacts/
+          if-no-files-found: warn
