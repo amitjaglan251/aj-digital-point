@@ -285,3 +285,24 @@ Official sources:
 - IBPS application portal: https://ibpsreg.ibps.in/kucbldec25/
 
 This improves one record from date-only confirmation to detailed-notice review. It does **not** mean the full 371-record manual verification is complete, nor is it a live browser-render test of AJ DIGITAL POINT.
+
+
+## Follow-up update — Canara Bank Graduate Apprentices FY 2026–27
+
+The Canara Bank official 20-page advertisement and IBPS registration portal were re-opened and cross-checked on 10 October 2026. The site record now includes additional notice-backed details beyond the previously stored seat count, eligibility, age and stipend:
+
+- 3,500 provisional training seats, with state/category allocation linked to the official PDF; Haryana has 114 indicative seats and lists Hindi/Punjabi as local language.
+- Fee: SC/ST/PwBD nil; all other categories ₹500 including intimation charges (non-refundable, GST included).
+- State-wise merit based on 12th (HSC/10+2) or Diploma marks: minimum 60%, or 55% for SC/ST/PwBD; older age breaks equal-percentage ties.
+- Document verification, applicable local-language test and medical fitness; 12-month apprenticeship period.
+- Stipend ₹16,650 per month in total: ₹10,500 from the Bank and ₹6,150 Government DBT share, as described in the notice.
+- Document checklist, official bank career page, detailed advertisement PDF and IBPS application portal.
+
+The record clearly distinguishes apprenticeship training from regular employment and notes that the bank does not guarantee regular employment after training. Application dates remain 01/10/2026–17/10/2026; application printing through 01/11/2026 is not an extension of the application deadline.
+
+Official sources:
+- Bank career page: https://www.canarabank.bank.in/engagement-of-graduate-apprentices-in-canara-bank-under-apprentices-act-1961-for-fy-2026-27
+- Detailed official PDF: https://www.canarabank.bank.in/documents/d/guest/apprenticeship-advertisement-2026-27
+- IBPS registration portal: https://ibpsreg.ibps.in/cabgasep26/
+
+This is a detailed verification of one record, not completion of all 371 records and not a live browser-render test of the AJ DIGITAL POINT website.
