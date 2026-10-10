@@ -420,3 +420,14 @@ Rechecked the institute's official recruitment page on **10/10/2026**. It confir
 - Updated the existing canonical record `nvs-class-11-lateral-entry-2027-28`; did not create a duplicate record.
 - Cache-busting references updated: `latest-jobs.html` → `20261010-46`; `job-details.html` → `20261010-43`.
 - This is a portal-level verification of the deadline and image-file instructions, **not** a full prospectus verification or live-browser-render confirmation.
+
+
+## Next-batch verification — UPSC Advertisement No. 12/2026 (10 October 2026)
+
+- Official UPSC notice page: https://www.upsc.gov.in/whats-new/12%20-%202026
+- Direct official English PDF: https://www.upsc.gov.in/sites/default/files/AdvtNo-12-2026-Engl-250926_0.pdf
+- UPSC page lists the notice PDF (843.66 KB); PIB confirms applications run 26/09/2026–16/10/2026: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2315209&lang=1&reg=3
+- The PDF retrieval timed out during this pass. Post-wise titles/counts, eligibility, age limits, fee and selection process have not been marked verified; no values have been guessed.
+- Updated existing canonical record `upsc-direct-recruitment-advt-12-2026` with the direct official notice URL and explicit verification limits.
+- Cache-busting references updated: `latest-jobs.html` → `20261010-47`; `job-details.html` → `20261010-44`.
+- Official-source link verification only; live-browser render remains unverified.
