@@ -22,8 +22,6 @@
     "drdo-dgre-jrf-2026-27",
     // Official 2026 notices could not be matched; similarly named current BSEB page is STET 2025.
     "bseb-bihar-stet-2026",
-    // No matching official 1100-post Bank of Baroda SO notice found in this pass.
-    "bank-of-baroda-1100-so-2026",
     // No matching current BMHRC Group B/C recruitment was found on the official recruitment page;
     // the matching official Group B/C notice found in search was from 2023, not 2026.
     "icmr-bmhrc-group-b-c-2026",
@@ -31,7 +29,6 @@
     "upsc-epfo-80-apfc",
     "ssc-cpo-si-2026",
     "ssc-chsl-2536-2026",
-    "bank-of-baroda-2482-lbo",
     // Duplicate representations of UPSC Advt. 12/2026; retain the canonical record with detailed dates.
     "upsc-direct-recruitment-12-2026",
     "upsc-adv-12-2026-direct-2026"
@@ -500,5 +497,74 @@
     "PARTIAL 10/10/2026: SSC official portal is the correct authority, but this batch did not locate the exact post-preference notice to substantiate the stored 11/09/2026 deadline. Keep deadline unverified until the exact SSC notice is linked.",
     "https://ssc.gov.in/",
     "SSC 2026-27 calendar and current notice board reviewed; the exact 2025 CHTE preference-window notice was not located in this pass. Do not call the deadline fully verified.");
+
+
+  // Official-source batch 3: restore and correct Bank of Baroda records after
+  // finding the matching official career pages; add direct official POWERGRID/SPMCIL sources.
+  const bobLbo = window.AJ_JOB_DATA.find(function (item) { return item.id === "bank-of-baroda-2482-lbo"; });
+  if (bobLbo) {
+    bobLbo.title = "Bank of Baroda Local Bank Officer Recruitment 2026 — 2,482 Posts (Closed)";
+    bobLbo.post = "Local Bank Officers (LBO), JMG/S-I";
+    bobLbo.organization = "Bank of Baroda";
+    bobLbo.openDate = "18/08/2026";
+    bobLbo.lastDate = "17/09/2026 (extended; closed)";
+    bobLbo.vacancy = "2,482 Local Bank Officer posts, as listed on the official recruitment page.";
+    bobLbo.official = "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-local-bank-officers-on-regular-basis-07-09";
+    bobLbo.notice = bobLbo.official;
+    bobLbo.apply = bobLbo.official;
+    bobLbo.verificationSource = bobLbo.official;
+    bobLbo.dataAuditDate = "10/10/2026";
+    bobLbo.verificationStatus = "OFFICIAL BANK OF BARODA CAREER PAGE VERIFIED 10/10/2026: Advertisement BOB/HRM/REC/ADVT/2026/16 lists 2,482 Local Bank Officer posts, last date 17/09/2026, with addendum extending the application deadline. Application window closed.";
+    bobLbo.updates = "Bank of Baroda's official career page lists 2,482 vacancies and 17/09/2026 as the extended closing date. Application window is closed; use the advertisement and addendum on the official page for full post-wise eligibility and vacancy details.";
+  }
+
+  const bob1100 = window.AJ_JOB_DATA.find(function (item) { return item.id === "bank-of-baroda-1100-so-2026"; });
+  if (bob1100) {
+    bob1100.title = "Bank of Baroda Specialist Recruitment 2026 — 1,100 Posts Across Two Departments";
+    bob1100.post = "Wealth Management Services (1,000 posts) and Corporate & Institutional Credit (100 posts)";
+    bob1100.organization = "Bank of Baroda";
+    bob1100.openDate = "04/09/2026";
+    bob1100.lastDate = "WMS: 16/10/2026 (extended); C&IC: 01/10/2026 (closed)";
+    bob1100.vacancy = "1,100 combined posts: 1,000 in Wealth Management Services and 100 in Corporate & Institutional Credit. These are separate official advertisements with different deadlines.";
+    bob1100.qualification = "Post-specific qualifications and experience differ by role; check the matching official advertisement for the relevant department.";
+    bob1100.notice = "https://bankofbaroda.bank.in/hi-in/career/current-opportunities/wealth-management-services-department-bob-hrm-rec-advt-2026-17 ; https://bankofbaroda.bank.in/hi-in/career/current-opportunities/corporate-institutional-credit-department-bob-hrm-rec-advt-2026-17";
+    bob1100.official = "https://bankofbaroda.bank.in/career/current-opportunities";
+    bob1100.apply = bob1100.official;
+    bob1100.verificationSource = bob1100.notice;
+    bob1100.dataAuditDate = "10/10/2026";
+    bob1100.verificationStatus = "OFFICIAL BANK OF BARODA CAREER PAGES VERIFIED 10/10/2026: Wealth Management Services has 1,000 vacancies and a 16/10/2026 extended deadline; Corporate & Institutional Credit has 100 vacancies and a 01/10/2026 deadline. The combined 1,100 figure is the sum of two separate advertisements, not one shared deadline.";
+    bob1100.updates = "Important: this combined card covers two separate Bank of Baroda advertisements. WMS (1,000 posts) closes 16/10/2026 after extensions; C&IC (100 posts) closed 01/10/2026. Read the relevant official department notice before applying.";
+  }
+
+  const pgcil = window.AJ_JOB_DATA.find(function (item) { return item.id === "pgcil-apprentice-2026"; });
+  if (pgcil) {
+    pgcil.title = "POWERGRID Apprentice Recruitment 2026 — Application Closed";
+    pgcil.organization = "Power Grid Corporation of India Limited (POWERGRID)";
+    pgcil.openDate = "25/08/2026";
+    pgcil.lastDate = "10/09/2026 (closed)";
+    pgcil.official = "https://www.powergrid.in/en/rolling-advertisement-for-enagagement-of-apprentices";
+    pgcil.notice = pgcil.official;
+    pgcil.apply = pgcil.official;
+    pgcil.verificationSource = pgcil.official;
+    pgcil.dataAuditDate = "10/10/2026";
+    pgcil.verificationStatus = "OFFICIAL POWERGRID APPRENTICE PAGE VERIFIED 10/10/2026: applications opened 25/08/2026 and closed 10/09/2026. Application window closed.";
+    pgcil.updates = "Official POWERGRID page confirms apprenticeship applications from 25/08/2026 to 10/09/2026. The record is retained for reference but must not be presented as currently open.";
+  }
+
+  const spmcil = window.AJ_JOB_DATA.find(function (item) { return item.id === "spmcil-assistant-manager"; });
+  if (spmcil) {
+    spmcil.title = "SPMCIL Executive Recruitment 2026 — Advt. No. 02/2026 (Closed)";
+    spmcil.post = "Executive posts at E-2 and E-1 levels in various functional areas";
+    spmcil.organization = "Security Printing and Minting Corporation of India Limited (SPMCIL)";
+    spmcil.openDate = "25/07/2026";
+    spmcil.lastDate = "31/08/2026 05:00 PM (closed; check official corrigenda/notices)";
+    spmcil.official = "https://www.spmcil.com/en/latest-careers/";
+    spmcil.notice = spmcil.official;
+    spmcil.apply = spmcil.official;
+    spmcil.verificationSource = spmcil.official;
+    spmcil.dataAuditDate = "10/10/2026";
+    spmcil.verificationStatus = "OFFICIAL SPMCIL CAREERS PAGE VERIFIED 10/10/2026: Advt. 02/2026 is for Executive E-2/E-1 posts, published 25/07/2026, with listed closing date 31/08/2026 5:00 PM. The page also lists later notices/corrigenda; no confirmed extension reopening the application window was established in this pass.";
+    spmcil.updates = "Official SPMCIL career page shows Advt. 02/2026 closing 31/08/2026 5:00 PM. Later notices are listed on the same page; verify any corrigendum before assuming applications reopened.";
+  }
 
 })();
