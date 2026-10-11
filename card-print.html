@@ -29,4 +29,5 @@ print.onclick=async()=>{if(print.disabled)return;await waitForImages(preview);if
 openPdf.onclick=()=>{if(pdfUrl)window.open(pdfUrl,'_blank','noopener,noreferrer')};
 printPdf.onclick=async()=>{if(!pdfUrl||printPdf.disabled)return;await waitForImages(preview);if(document.fonts&&document.fonts.ready)await document.fonts.ready;status.textContent='🖨️ PDF card preview ready — print dialog खुल रहा है…';window.print()};
 clear.onclick=()=>{renderToken++;resetUrls();f.value='';backFile.value='';preview.innerHTML='<div class="empty">PDF/image चुनने के बाद preview यहाँ दिखेगा।</div>';print.disabled=true;printSheet.disabled=true;openPdf.disabled=true;printPdf.disabled=true;status.textContent='कोई file select नहीं की गई।'};syncType();
-</script></body></html>
+</script><script src="/aj-digital-point/external-link-guard.js?v=20261011-02" defer></script>
+</body></html>
