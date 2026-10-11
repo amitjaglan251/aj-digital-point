@@ -43,4 +43,5 @@ upcoming:[
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const render=(id,arr,cat)=>{const el=document.getElementById(id);if(!el)return;el.innerHTML=arr.map((x,i)=>'<a class="update" id="'+slug(x[0])+'" href="latest-update-details.html?title='+encodeURIComponent(x[0])+'&category='+encodeURIComponent(cat)+'&deadline='+encodeURIComponent(x[1]||'')+'"><span>'+x[0]+'</span>'+(x[1]?'<div class="date">'+x[1]+'</div>':'')+'</a>').join('')};
 render('examList',data.exam,'Exam Date');render('admitList',data.admit,'Admit Card');render('keyList',data.key,'Answer Key');render('resultList',data.result,'Result');render('admissionList',data.admission,'Admission');render('offlineList',data.offline,'Offline Form');render('upcomingList',data.upcoming,'Upcoming Jobs & Exams');</script><script src="/aj-digital-point/whatsapp-links.js?v=20261011-01" defer></script>
+<script src="/aj-digital-point/external-link-guard.js?v=20261011-02" defer></script>
 </body></html>
