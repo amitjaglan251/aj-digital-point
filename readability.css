@@ -1,36 +1,56 @@
-/* AJ DIGITAL POINT — site-wide readability and responsive sizing */
-:root{--aj-readable-text:#182235}
+/* AJ DIGITAL POINT — shared sizing aligned with homepage typography and spacing */
+:root{--aj-page-width:1120px;--aj-page-text:#17243b}
 html{font-size:16px;scroll-behavior:smooth}
-body{font-size:16px;line-height:1.65}
-p,li,dd,dt,label,legend,figcaption{line-height:1.65}
-p,li{font-size:1rem}
-h1{font-size:clamp(1.65rem,3vw,2.25rem);line-height:1.25}
-h2{font-size:clamp(1.35rem,2.3vw,1.8rem);line-height:1.3}
-h3{font-size:clamp(1.12rem,1.8vw,1.35rem);line-height:1.4}
-h4{font-size:1.08rem;line-height:1.4}
+body{font-size:16px;line-height:1.6}
+p,li,dd,dt,label,legend,figcaption{font-size:16px;line-height:1.6}
+h1{font-size:clamp(24px,3vw,32px);line-height:1.2}
+h2{font-size:clamp(21px,2.5vw,26px);line-height:1.28}
+h3{font-size:clamp(18px,2vw,21px);line-height:1.35}
+h4{font-size:17px;line-height:1.4}
 button,input,select,textarea{font:inherit}
-input,select,textarea{font-size:16px;line-height:1.45}
+input,select,textarea{font-size:16px;line-height:1.45;min-height:42px}
 button{line-height:1.35;cursor:pointer}
-button:not(.icon-button),input[type=button],input[type=submit],input[type=reset]{min-height:42px}
+button:not(.icon-button),input[type=button],input[type=submit],input[type=reset]{min-height:42px;font-size:15px}
 a{overflow-wrap:anywhere}
 table{font-size:15px;line-height:1.55}
 th,td{padding:9px 10px}
-small,.small,.muted,.help-text,.hint{font-size:13px;line-height:1.55}
-nav a{line-height:1.4}
+small,.small,.muted,.help-text,.hint{font-size:13px;line-height:1.5}
 img,canvas,svg,video{max-width:100%}
+/* Keep common page containers close to the homepage's centered width */
+.home-wrap,.wrap,.container,.page-wrap,.content-wrap,.main-content,.jobs-wrap{max-width:var(--aj-page-width)}
+/* Common content cards and tools */
+.card,.panel,.box,.tool-card,.result-card,.admit-card,.service-card,.scheme-card{font-size:15px;line-height:1.55}
+.card p,.panel p,.box p,.tool-card p,.result-card p,.admit-card p,.service-card p,.scheme-card p{font-size:15px;line-height:1.6}
+.card h2,.card h3,.panel h2,.panel h3,.box h2,.box h3{line-height:1.35}
+.btn,.button,.actions a{font-size:14px;line-height:1.35}
 @media(max-width:760px){
  html{font-size:16px}
- body{font-size:16px;line-height:1.65}
- h1{font-size:1.65rem;line-height:1.25}
- h2{font-size:1.35rem;line-height:1.3}
- h3{font-size:1.12rem;line-height:1.4}
- p,li,dd,dt,label,legend{font-size:15px}
- button,input[type=button],input[type=submit],input[type=reset]{min-height:44px}
+ body{font-size:16px;line-height:1.6}
+ p,li,dd,dt,label,legend,figcaption{font-size:15px;line-height:1.6}
+ h1{font-size:24px;line-height:1.25}
+ h2{font-size:21px;line-height:1.3}
+ h3{font-size:18px;line-height:1.35}
+ h4{font-size:16px}
+ button:not(.icon-button),input[type=button],input[type=submit],input[type=reset]{min-height:44px}
+ input,select,textarea{font-size:16px}
  table{font-size:14px}
  th,td{padding:8px}
+ .home-wrap,.wrap,.container,.page-wrap,.content-wrap,.main-content,.jobs-wrap{width:auto;max-width:100%}
+ .card,.panel,.box,.tool-card,.result-card,.admit-card,.service-card,.scheme-card{padding:14px}
 }
-@media(max-width:420px){
- h1{font-size:1.5rem}
- h2{font-size:1.25rem}
- h3{font-size:1.08rem}
+/* Recruitment cards use the same readable text scale as homepage cards */
+.job-card{padding:12px;line-height:1.5}
+.job-card h3{font-size:16px;line-height:1.35}
+.job-card .last{font-size:13px}
+.job-card .meta{font-size:13px;line-height:1.5}
+.job-card .badge{font-size:11px}
+.job-card .actions a{font-size:12px;padding:6px 8px}
+@media(max-width:760px){
+ .job-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .job-card{min-height:0;padding:11px}
+ .job-card h3{font-size:15px}
+ .job-card .meta{font-size:12px}
+}
+@media(max-width:480px){
+ .job-grid{grid-template-columns:1fr}
 }
