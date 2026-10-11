@@ -294,6 +294,10 @@ main.wrap{width:100%;padding:20px}
     const latest = dates.sort((a,b) => b-a)[0];
     return latest < new Date(new Date().setHours(0,0,0,0));
   };
+  const categoryHay = x => [x.title,x.category,x.mode,x.state,x.organization,x.qualification,x.updates].filter(Boolean).join(' ').toLowerCase();
+  const isCentral = x => /central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik|nta|ugc|csir|net|aiims|icmr|mbbs|medical|neet|isro/i.test(categoryHay(x)) && !/private job/i.test(String(x.category||''));
+  const isState = x => /haryana|punjab|rajasthan|uttar pradesh|bihar|andhra|state|police|psssb|hssc|hpsc|psc/i.test(categoryHay(x));
+  const isPrivate = x => /private|jio|tcs|infosys|cognizant|hcl|company/i.test(categoryHay(x));
   const esc = v => String(v == null ? '' : v).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
   function card(x){
     const ex=expired(x), up=upcoming(x);
@@ -309,9 +313,9 @@ main.wrap{width:100%;padding:20px}
       if(filter==='expired') return expired(x);
       if(filter==='active') return !expired(x) && !upcoming(x);
       const allHay=(hay+' '+(x.state||'')+' '+(x.organization||'')).toLowerCase();
-      if(filter==='Central Job') return /central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik|nta|ugc|csir|net|aiims|icmr|mbbs|medical|neet|isro/i.test(allHay) && !/private job/i.test(String(x.category||''));
-      if(filter==='State Job') return /haryana|punjab|rajasthan|uttar pradesh|bihar|andhra|state|police|psssb|hssc|hpsc|psc/i.test(allHay);
-      if(filter==='Private Job') return /private|jio|tcs|infosys|cognizant|hcl|company/i.test(allHay);
+      if(filter==='Central Job') return isCentral(x);
+      if(filter==='State Job') return isState(x);
+      if(filter==='Private Job') return isPrivate(x);
       if(filter==='Railway') return /railway|rrb|ncrtc/i.test(allHay);
       if(filter==='Defence') return /defence|drdo|army|navy|air force|crpf|assam rifles|aoc|coast guard/i.test(allHay);
       if(filter==='Banking') return /bank|ibps|sbi|rbi|nabard|banking/i.test(allHay);
@@ -330,9 +334,9 @@ main.wrap{width:100%;padding:20px}
     }).join('') || '<div class="empty"><b>इस फ़िल्टर में कोई matching vacancy नहीं मिली।</b><br>दूसरा फ़िल्टर चुनें या “All” दबाकर सभी रिकॉर्ड देखें।</div>';
     document.getElementById('activeCount').textContent=data.filter(x=>!expired(x)&&!upcoming(x)).length;
     document.getElementById('upcomingCount').textContent=data.filter(x=>upcoming(x)).length;
-    document.getElementById('centralCount').textContent=data.filter(x=>/central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik/i.test((x.title+' '+x.category+' '+x.mode).toLowerCase())&&!expired(x)&&!upcoming(x)).length;
-    document.getElementById('stateCount').textContent=data.filter(x=>/haryana|punjab|rajasthan|state|police|psssb|hssc/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
-    document.getElementById('privateCount').textContent=data.filter(x=>/private|jio|tcs|infosys|cognizant|hcl|company/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
+    document.getElementById('centralCount').textContent=data.filter(x=>isCentral(x)&&!expired(x)&&!upcoming(x)).length;
+    document.getElementById('stateCount').textContent=data.filter(x=>isState(x)&&!expired(x)&&!upcoming(x)).length;
+    document.getElementById('privateCount').textContent=data.filter(x=>isPrivate(x)&&!expired(x)&&!upcoming(x)).length;
   }
   let current=filterParam || 'active';
   if(stateParam){ q.value=''; }
