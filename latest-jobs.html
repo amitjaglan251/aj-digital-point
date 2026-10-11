@@ -151,7 +151,7 @@
 <script>
 (function(){
   const data = Array.isArray(window.AJ_JOB_DATA) ? window.AJ_JOB_DATA : [];
-  const params = new URLSearchParams(location.search); const stateParam = params.get('state') || ''; const filterParam = params.get('filter') || '';
+  const params = new URLSearchParams(location.search); const stateParam = params.get('state') || ''; const filterParam = params.get('filter') || ''; const queryParam = params.get('q') || '';
   const stateNames = ['Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat','Haryana','Himachal Pradesh','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal','Andaman & Nicobar Islands','Chandigarh','Dadra & Nagar Haveli and Daman & Diu','Delhi','Jammu & Kashmir','Ladakh','Lakshadweep','Puducherry'];
   const normState = v => String(v||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,' ').trim();
   const stateMatch = (x, st) => {
@@ -166,7 +166,7 @@
     return hay.includes(target);
   };
   const app = document.getElementById('app');
-  const q = document.getElementById('q');
+  const q = document.getElementById('q'); if(queryParam && !stateParam) q.value = queryParam;
   const upcoming = x => x && (x.category === 'Upcoming Vacancy' || x.mode === 'Upcoming');
   const expired = x => {
     const dates = String(x.lastDate || '').match(/\d{2}\/\d{2}\/\d{4}/g) || [];
@@ -183,7 +183,7 @@
   function render(filter){
     const term=q.value.trim().toLowerCase();
     let list=data.filter(x=>{
-      const hay=(x.title+' '+x.category+' '+x.mode+' '+(x.qualification||'')+' '+(x.vacancy||'')+' '+(x.age||'')).toLowerCase();
+      const hay=(x.title+' '+x.category+' '+x.mode+' '+(x.qualification||'')+' '+(x.vacancy||'')+' '+(x.age||'')+' '+(x.state||'')+' '+(x.organization||'')+' '+(x.updates||'')).toLowerCase();
       if(term && !hay.includes(term)) return false;
       if(stateParam && !stateMatch(x,stateParam)) return false;
       if(filter==='all') return true;
