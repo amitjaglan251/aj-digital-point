@@ -309,4 +309,5 @@
 const q=document.getElementById('search'), cards=[...document.querySelectorAll('.hs-card[data-search]')];
 function filter(){const s=q.value.trim().toLowerCase();cards.forEach(c=>{c.style.display=(!s||(c.dataset.search+' '+c.innerText).toLowerCase().includes(s))?'':'none';});}
 q.addEventListener('input',filter);document.getElementById('clear').addEventListener('click',()=>{q.value='';filter();q.focus();});
-</script></body></html>
+</script><script src="/aj-digital-point/external-link-guard.js?v=20261011-02" defer></script>
+</body></html>
