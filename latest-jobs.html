@@ -75,6 +75,43 @@ body{font-size:16px;line-height:1.65}
  .summary-strip strong{font-size:19px}
 }
 </style><link rel="stylesheet" href="readability.css?v=20261011-02">
+<style id="latest-jobs-layout-fix">
+/* Final layout pass: align the Jobs page content with the site-wide page width */
+:root{scroll-padding-top:14px}
+body{overflow-x:hidden}
+.jobs-head,.jobs-nav{width:100%}
+.state-nav-title,.state-nav,.portal-sections,.summary-strip,.filter-tabs,#all,#state,#app,main.wrap,.source-note,.notice{box-sizing:border-box;max-width:1320px;margin-left:auto;margin-right:auto}
+.state-nav-title{padding-left:20px;padding-right:20px}
+.state-nav{width:calc(100% - 40px)}
+.portal-sections{width:calc(100% - 40px)}
+main.wrap{width:100%;padding:20px}
+.summary-strip{grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.filter-tabs{padding:0;gap:8px}
+.filter-tabs button{font-size:14px;min-height:42px;padding:9px 12px}
+#app{width:100%}
+.job-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.job-card{min-width:0;overflow-wrap:anywhere}
+.job-card .actions a{white-space:normal;text-align:center}
+.jobs-tools-head{width:100%}
+.jobs-tools-head input{min-width:0}
+.portal-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:900px){
+ .summary-strip{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .portal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ main.wrap{padding:14px}
+}
+@media(max-width:600px){
+ .state-nav-title{padding-left:12px;padding-right:12px}
+ .state-nav,.portal-sections{width:calc(100% - 24px)}
+ .summary-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .filter-tabs{padding:0 2px;gap:6px}
+ .filter-tabs button{flex:1 1 calc(50% - 6px);font-size:13px;padding:9px 8px}
+ main.wrap{padding:12px}
+ .job-grid{grid-template-columns:1fr}
+ .portal-grid{grid-template-columns:1fr}
+ .jobs-tools-head .btn{min-width:0}
+}
+</style>
 </head><body><header class="top"><div class="top-in"><a class="brand" href="index.html"><img src="logo.png" alt="AJ DIGITAL POINT"><span><b>AJ DIGITAL POINT</b><small>CSC & Online Digital Services</small></span></a></div><nav class="mainnav"><a href="index.html">🏠 Home</a><a class="active" href="latest-jobs.html">💼 Jobs</a><a href="offline-forms.html">📮 Offline Form</a><a href="admissions.html">🎓 New Admissions</a><a href="admit-card.html">🎫 Admit Card</a><a href="results.html">📊 Result</a><a href="answer-key.html">📝 Answer Key</a><a href="govt-schemes.html">🏛️ Schemes</a><a href="online-tools.html">🛠️ Tools</a></nav></header>
 <div class="jobs-head"><h1>AJ DIGITAL POINT — Latest Jobs</h1><p>सरकारी + Haryana + State + Private + Apprenticeship Vacancies</p><div class="jobs-tools jobs-tools-head"><input id="q" type="search" placeholder="🔎 पद, विभाग, योग्यता, राज्य या संगठन खोजें..." aria-label="Search jobs"><button class="btn" id="runSearch" type="button">🔎 Search</button><span id="stateIndicator" style="display:none;background:#e8f7ea;color:#087a19;border:1px solid #9bd3a2;border-radius:8px;padding:8px 10px;font-weight:900;font-size:11px"></span><button class="btn" id="clearSearch" type="button">Clear</button></div></div><nav class="jobs-nav"><a href="#central">Central Jobs</a><a href="#state">State / Haryana</a><a href="#private">Private Jobs</a><a href="#all">All Vacancies</a><a href="govt-schemes.html">Government Schemes</a><a href="admit-card.html">LATEST ADMIT CARD</a></nav><div class="state-nav-title">🇮🇳 सभी States & Union Territories</div><div class="state-nav">
 <a href="?state=Andhra%20Pradesh#state">Andhra Pradesh</a><a href="?state=Arunachal%20Pradesh#state">Arunachal Pradesh</a><a href="?state=Assam#state">Assam</a><a href="?state=Bihar#state">Bihar</a><a href="?state=Chhattisgarh#state">Chhattisgarh</a><a href="?state=Goa#state">Goa</a><a href="?state=Gujarat#state">Gujarat</a><a href="?state=Haryana#state">Haryana</a><a href="?state=Himachal%20Pradesh#state">Himachal Pradesh</a><a href="?state=Jharkhand#state">Jharkhand</a><a href="?state=Karnataka#state">Karnataka</a><a href="?state=Kerala#state">Kerala</a><a href="?state=Madhya%20Pradesh#state">Madhya Pradesh</a><a href="?state=Maharashtra#state">Maharashtra</a><a href="?state=Manipur#state">Manipur</a><a href="?state=Meghalaya#state">Meghalaya</a><a href="?state=Mizoram#state">Mizoram</a><a href="?state=Nagaland#state">Nagaland</a><a href="?state=Odisha#state">Odisha</a><a href="?state=Punjab#state">Punjab</a><a href="?state=Rajasthan#state">Rajasthan</a><a href="?state=Sikkim#state">Sikkim</a><a href="?state=Tamil%20Nadu#state">Tamil Nadu</a><a href="?state=Telangana#state">Telangana</a><a href="?state=Tripura#state">Tripura</a><a href="?state=Uttar%20Pradesh#state">Uttar Pradesh</a><a href="?state=Uttarakhand#state">Uttarakhand</a><a href="?state=West%20Bengal#state">West Bengal</a>
@@ -287,7 +324,7 @@ body{font-size:16px;line-height:1.65}
     document.getElementById('stateCount').textContent=data.filter(x=>/haryana|punjab|rajasthan|state|police|psssb|hssc/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
     document.getElementById('privateCount').textContent=data.filter(x=>/private|jio|tcs|infosys|cognizant|hcl|company/i.test((x.title+' '+x.category).toLowerCase())&&!expired(x)).length;
   }
-  let current=filterParam || 'all';
+  let current=filterParam || 'active';
   if(stateParam){ q.value=''; }
   document.querySelectorAll('#filters button').forEach(b=>b.classList.remove('active'));
   const selectedBtn=document.querySelector('#filters button[data-filter="'+CSS.escape(current)+'"]'); if(selectedBtn) selectedBtn.classList.add('active'); else { const allBtn=document.querySelector('#filters button[data-filter="all"]'); if(allBtn) allBtn.classList.add('active'); }
