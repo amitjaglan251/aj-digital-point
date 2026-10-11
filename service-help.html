@@ -45,4 +45,5 @@ document.querySelectorAll(".service-btn").forEach(b=>b.addEventListener("click",
 document.getElementById("send").addEventListener("click",()=>{const name=document.getElementById("name").value.trim();const msg=document.getElementById("message").value.trim();if(!msg){alert("कृपया अपनी समस्या/काम लिखें।");return}const text="Namaste AJ DIGITAL POINT,%0AService: "+encodeURIComponent(selected)+"%0AName: "+encodeURIComponent(name||"Not provided")+"%0ARequest: "+encodeURIComponent(msg);window.open("https://wa.me/918053620341?text="+text,"_blank","noopener,noreferrer")});
 function toggleMenu(){const n=document.getElementById("main-nav"),b=document.getElementById("menuButton");const open=n.classList.toggle("open");b.setAttribute("aria-expanded",open?"true":"false")}
 </script>
+<script src="/aj-digital-point/external-link-guard.js?v=20261011-02" defer></script>
 </body></html>
