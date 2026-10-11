@@ -4,6 +4,7 @@ Uses only Python standard library. It publishes detected official links as leads
 it does NOT claim a notice's details have been independently verified.
 """
 import json, os, re, html, hashlib, time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
@@ -66,10 +67,19 @@ def main():
     seen=set(state.get("seen",{}).keys())
     updates=[]; health=[]
     now=datetime.now(timezone.utc).isoformat(timespec="seconds")
-    for source in sources:
+    def fetch_one(source):
+        try:
+            return source, get(source["url"]), None
+        except Exception as exc:
+            return source, None, exc
+    # Fetch multiple official pages concurrently so the expanded source list fits the job timeout.
+    with ThreadPoolExecutor(max_workers=12) as pool:
+        fetched=list(pool.map(fetch_one, sources))
+    for source, body, fetch_error in fetched:
         name, url, category=source["name"], source["url"], source["category"]
         try:
-            body=get(url)
+            if fetch_error is not None:
+                raise fetch_error
             digest=hashlib.sha256(body.encode("utf-8",errors="replace")).hexdigest()
             previous_digest=state.get("page_hashes",{}).get(url,{}).get("hash")
             if previous_digest and previous_digest != digest:
@@ -101,7 +111,7 @@ def main():
         except Exception as e:
             health.append({"name":name,"url":url,"status":"error","error":str(e)[:180],"checked_at":now})
             # Continue monitoring other sources even if one host is down.
-    updates=updates[:200]
+    # Keep every link already marked as new; do not silently drop updates after marking them seen.
     payload={"generated_at":now,"description":"Automatically detected links from configured official websites. These are leads; read the original notice before acting.","total_new_links_this_run":len(updates),"sources_checked":len(sources),"sources_ok":sum(1 for x in health if x["status"]=="ok"),"sources_failed":sum(1 for x in health if x["status"]!="ok"),"updates":updates,"source_health":health}
     with open(OUTPUT_JSON,"w",encoding="utf-8") as f: json.dump(payload,f,ensure_ascii=False,indent=2)
     # Keep up to 1000 seen link keys so repeat runs do not keep publishing the same URLs.
