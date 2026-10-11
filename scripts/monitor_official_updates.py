@@ -71,6 +71,12 @@ def main():
         try:
             body=get(url)
             digest=hashlib.sha256(body.encode("utf-8",errors="replace")).hexdigest()
+            previous_digest=state.get("page_hashes",{}).get(url,{}).get("hash")
+            if previous_digest and previous_digest != digest:
+                key=hashlib.sha256((name+"|page-change|"+digest).encode()).hexdigest()
+                if key not in seen:
+                    updates.append({"source":name,"source_url":url,"category":category,"title":"Official source page updated: "+name,"url":url,"detected_at":now,"type":"page-change"})
+                    state.setdefault("seen",{})[key]={"url":url,"title":"Official source page updated: "+name,"first_detected":now}
             parser=LinkParser(); parser.feed(body)
             candidates=[]
             for href, label in parser.links:
