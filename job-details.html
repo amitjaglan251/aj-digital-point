@@ -270,7 +270,7 @@ if(relatedRoot&&relatedBox){
  relatedRoot.innerHTML=related.length?related.map(x=>{
   const label=normalizeLinkLabel(x.title||x.label),url=x.url||x.href||'',date=x.date||'';
   const safeUrl=/^https?:\/\//i.test(url);
-  return '<p class="related-link-row">'+(date?'<span class="related-date">'+esc(date)+'</span> ':'')+(safeUrl?'<a class="related-direct-link" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+' ↗</a>':'<b>'+esc(label)+'</b><span class="muted"> — Direct link उपलब्ध नहीं</span>')+'</p>';
+  const internalOut=safeUrl?('external-link.html?url='+encodeURIComponent(url)+'&label='+encodeURIComponent(label)):''; return '<p class="related-link-row">'+(date?'<span class="related-date">'+esc(date)+'</span> ':'')+(safeUrl?'<a class="related-direct-link" href="'+esc(internalOut)+'">'+esc(label)+' — AJ DIGITAL POINT ↗</a>':'<b>'+esc(label)+'</b><span class="muted"> — Direct link उपलब्ध नहीं</span>')+'</p>';
  }).join(''):'<p class="muted">इस vacancy record में apply/notification/official website links दर्ज नहीं हैं।</p>';
  relatedBox.hidden=false;
 }
@@ -331,7 +331,7 @@ const linkItems=[
  ['📚 Previous Year Papers / Syllabus',links.previousPapers||links.syllabus,'']
 ];
 const allLinks=linkItems.filter(x=>x[1]);
-lg.innerHTML=allLinks.map(x=>'<a class="detail-link '+x[2]+'" href="'+esc(x[1])+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('');
+lg.innerHTML=allLinks.map(x=>'<a class="detail-link '+x[2]+'" href="external-link.html?url='+encodeURIComponent(x[1])+'&label='+encodeURIComponent(x[0].replace(/[🚀📄🌐📊🏆📉🔄📋📝📢📌🏙️🗝️📅🎫📚]/gu,'').trim())+'">'+x[0]+' — AJ DIGITAL POINT ↗</a>').join('');
 if(!lg.innerHTML){
  lg.innerHTML='<div class="warning"><b>Official direct links उपलब्ध नहीं हैं.</b> इस record के लिए कोई अनुमानित/duplicate homepage link नहीं बनाया गया है।</div>';
 }
