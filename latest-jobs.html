@@ -279,12 +279,19 @@ main.wrap{width:100%;padding:20px}
   };
   const app = document.getElementById('app');
   const q = document.getElementById('q'); if(queryParam && !stateParam) q.value = queryParam;
-  const upcoming = x => x && (x.category === 'Upcoming Vacancy' || x.mode === 'Upcoming');
+  const upcoming = x => !!x && (/^upcoming vacancy$/i.test(String(x.category||'').trim()) || /^upcoming$/i.test(String(x.mode||'').trim()));
   const expired = x => {
-    const dates = String(x.lastDate || '').match(/\d{2}\/\d{2}\/\d{4}/g) || [];
+    const raw = String(x && x.lastDate || '');
+    // Accept common notice formats: DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY and YYYY-MM-DD.
+    const matches = [...raw.matchAll(/\b(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})\b|\b(\d{4})-(\d{1,2})-(\d{1,2})\b/g)];
+    if (!matches.length) return false;
+    const dates = matches.map(m => {
+      if (m[4]) return new Date(Number(m[4]), Number(m[5])-1, Number(m[6]));
+      return new Date(Number(m[3]), Number(m[2])-1, Number(m[1]));
+    }).filter(d => !Number.isNaN(d.getTime()));
     if (!dates.length) return false;
-    // If the record mentions an extension, compare the latest stated deadline.
-    const latest = dates.map(v => { const p = v.split('/').map(Number); return new Date(p[2], p[1]-1, p[0]); }).sort((a,b) => b-a)[0];
+    // If a deadline was extended and multiple dates are present, use the latest stated date.
+    const latest = dates.sort((a,b) => b-a)[0];
     return latest < new Date(new Date().setHours(0,0,0,0));
   };
   const esc = v => String(v == null ? '' : v).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
