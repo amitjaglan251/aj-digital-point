@@ -54,3 +54,20 @@ img,canvas,svg,video{max-width:100%}
 @media(max-width:480px){
  .job-grid{grid-template-columns:1fr}
 }
+
+/* Consistency pass: strengthen shared rules where page-local card styles were shrinking text */
+h1{font-size:clamp(24px,3vw,32px)!important;line-height:1.25!important}
+h2{font-size:clamp(21px,2.5vw,26px)!important;line-height:1.3!important}
+h3{font-size:clamp(18px,2vw,21px)!important;line-height:1.35!important}
+.card h3,.cards .card h3,.grid .card h3,.service-card h3,.scheme-card h3,.result-card h3,.admit-card h3,.tool-card h3{font-size:17px!important;line-height:1.4!important}
+.card p,.cards .card p,.grid .card p,.service-card p,.scheme-card p,.result-card p,.admit-card p,.tool-card p{font-size:15px!important;line-height:1.6!important}
+.card,.cards .card,.grid .card,.service-card,.scheme-card,.result-card,.admit-card,.tool-card{padding:14px!important;border-radius:10px}
+button:not(.icon-button),input[type=button],input[type=submit],input[type=reset]{font-size:15px!important;line-height:1.4!important}
+@media(max-width:760px){
+ h1{font-size:24px!important}
+ h2{font-size:21px!important}
+ h3{font-size:18px!important}
+ .card h3,.cards .card h3,.grid .card h3,.service-card h3,.scheme-card h3,.result-card h3,.admit-card h3,.tool-card h3{font-size:16px!important}
+ .card p,.cards .card p,.grid .card p,.service-card p,.scheme-card p,.result-card p,.admit-card p,.tool-card p{font-size:15px!important}
+ .card,.cards .card,.grid .card,.service-card,.scheme-card,.result-card,.admit-card,.tool-card{padding:12px!important}
+}
