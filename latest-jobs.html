@@ -311,13 +311,16 @@ main.wrap{width:100%;padding:20px}
       if(filter==='Teaching') return /teacher|teaching|school|university|college|education|professor|faculty|ugc|net|csir/i.test(allHay);
       if(filter==='Medical') return /medical|mbbs|aiims|nursing|doctor|health|paramedical|pharmacist|research scientist|technical support|fso/i.test(allHay);
       if(filter==='NET / UGC / Exams') return /ugc|csir|net|nta|assistant professor|jrf/i.test(allHay);
-      return x.category===filter;
+      // Keep Upcoming and counselling links working even when records use mode rather than category.
+      if(filter==='Upcoming Vacancy' || filter.toLowerCase()==='upcoming') return upcoming(x);
+      if(filter==='Counselling / Admission' || filter==='Counselling \/ Admission') return /counselling|counseling|admission|seat allotment/i.test(allHay);
+      return String(x.category||'').toLowerCase()===String(filter||'').toLowerCase();
     });
     const cats=[...new Set(list.map(x=>x.category||'Other'))];
     app.innerHTML=cats.map(cat=>{
       const rows=list.filter(x=>(x.category||'Other')===cat);
       return '<section><div class="job-section-title">'+esc(cat)+' <span style="float:right">'+rows.length+'</span></div><div class="job-grid">'+rows.map(card).join('')+'</div></section>';
-    }).join('') || '<div class="empty"><b>No matching vacancy found.</b><br>“All” दबाकर सभी jobs देखें.</div>';
+    }).join('') || '<div class="empty"><b>इस फ़िल्टर में कोई matching vacancy नहीं मिली।</b><br>दूसरा फ़िल्टर चुनें या “All” दबाकर सभी रिकॉर्ड देखें।</div>';
     document.getElementById('activeCount').textContent=data.filter(x=>!expired(x)&&!upcoming(x)).length;
     document.getElementById('upcomingCount').textContent=data.filter(x=>upcoming(x)).length;
     document.getElementById('centralCount').textContent=data.filter(x=>/central|upsc|ssc|railway|rrb|drdo|defence|army|navy|ibps|sbi|rbi|esic|nvs|sainik/i.test((x.title+' '+x.category+' '+x.mode).toLowerCase())&&!expired(x)&&!upcoming(x)).length;
