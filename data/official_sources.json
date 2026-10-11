@@ -116,6 +116,501 @@
       "name": "Shivaji University Results",
       "url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
       "category": "University Results"
+    },
+    {
+      "name": "CBSE — Class X, Class XII & Supplementary Results — official source",
+      "url": "https://results.cbse.nic.in/2025-2/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "CISCE — ICSE Class X & ISC Class XII — official source",
+      "url": "https://results.cisce.co.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "CISCE — ICSE Class X & ISC Class XII — official source",
+      "url": "https://cisce.org/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "HBSE / BSEH Haryana — 10th, 12th & Open School — official source",
+      "url": "https://www.haryana.gov.in/haryana-board-examination-results/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Other State Boards — Official Results Gateway — official source",
+      "url": "https://results.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Other State Boards — Official Results Gateway — official source",
+      "url": "https://boardresults.education.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
+      "url": "https://www.nta.ac.in/NoticeBoardArchive",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Maharshi Dayanand University (MDU), Rohtak — official source",
+      "url": "https://mdu.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Kurukshetra University (KUK) — official source",
+      "url": "https://kuk.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Gurugram University — official source",
+      "url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Chaudhary Devi Lal University (CDLU), Sirsa — official source",
+      "url": "https://cdlu.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Chaudhary Ranbir Singh University (CRSU), Jind — official source",
+      "url": "https://crsu.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Guru Jambheshwar University (GJUST), Hisar — official source",
+      "url": "https://gjust.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Central University of Haryana — official source",
+      "url": "https://www.cuh.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Deenbandhu Chhotu Ram University (DCRUST) — official source",
+      "url": "https://dcrustm.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Bhagat Phool Singh Mahila Vishwavidyalaya (BPSMV) — official source",
+      "url": "https://bpsmv.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Indira Gandhi University, Meerpur (IGU) — official source",
+      "url": "https://igu.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Haryana State Board of Technical Education (HSBTE) — official source",
+      "url": "https://hsbte.org.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "IGNOU — Term-End Examination Results — official source",
+      "url": "https://termendresult.ignou.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University Results — All India Official Gateway — official source",
+      "url": "https://www.education.gov.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "NIOS — Secondary & Senior Secondary Results — official source",
+      "url": "https://results.nios.ac.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "NIOS — Secondary & Senior Secondary Results — official source",
+      "url": "https://nios.ac.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "UPMSP — Class 10 & Class 12 Results — official source",
+      "url": "https://upmsp.edu.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "RBSE — Secondary & Senior Secondary Results — official source",
+      "url": "https://rajeduboard.rajasthan.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "PSEB — Matriculation & Senior Secondary — official source",
+      "url": "https://www.pseb.ac.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "BSEB — Matric & Intermediate Results — official source",
+      "url": "https://secondary.biharboardonline.com/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "BSEB — Matric & Intermediate Results — official source",
+      "url": "https://biharboardonline.bihar.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "MPBSE — Class 10 & Class 12 Results — official source",
+      "url": "https://mpbse.nic.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Maharashtra State Board — SSC & HSC — official source",
+      "url": "https://mahahsscboard.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "West Bengal Board Results — official source",
+      "url": "https://wbbse.wb.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "West Bengal Board Results — official source",
+      "url": "https://wbchse.wb.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "University of Delhi — UG/PG Semester Results — official source",
+      "url": "https://www.du.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Delhi — UG/PG Semester Results — official source",
+      "url": "https://exam.du.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Panjab University, Chandigarh — official source",
+      "url": "https://puchd.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Punjabi University, Patiala — official source",
+      "url": "https://www.punjabiuniversity.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Jamia Millia Islamia — Examination Results — official source",
+      "url": "https://www.jmi.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Aligarh Muslim University — Results — official source",
+      "url": "https://www.amu.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "National Testing / Technical Institute Results — official source",
+      "url": "https://www.aicte-india.org/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Karnataka — SSLC & II PUC Results — official source",
+      "url": "https://karresults.nic.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Karnataka — SSLC & II PUC Results — official source",
+      "url": "https://kseab.karnataka.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Tamil Nadu — SSLC & Higher Secondary — official source",
+      "url": "https://www.dge.tn.gov.in/results.html",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Tamil Nadu — SSLC & Higher Secondary — official source",
+      "url": "https://www.dge.tn.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Kerala — SSLC Results — official source",
+      "url": "https://pareekshabhavan.kerala.gov.in/index.php/sslc-results",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Kerala — SSLC Results — official source",
+      "url": "https://sslcexam.kerala.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Kerala — HSE / VHSE Results — official source",
+      "url": "https://result.kerala.gov.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Kerala — HSE / VHSE Results — official source",
+      "url": "https://dhsekerala.gov.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Telangana — SSC Public & Advanced Supplementary — official source",
+      "url": "https://bse.telangana.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Telangana — SSC Public & Advanced Supplementary — official source",
+      "url": "https://bse.telangana.gov.in/SSC_links.aspx",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Andhra Pradesh — SSC Public Examination — official source",
+      "url": "https://results.bse.ap.gov.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Andhra Pradesh — SSC Public Examination — official source",
+      "url": "https://bse.ap.gov.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "GSEB — SSC & HSC Results — official source",
+      "url": "https://result.gseb.org/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "GSEB — SSC & HSC Results — official source",
+      "url": "https://www.gseb.org/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "CGBSE — Class 10 & Class 12 Results — official source",
+      "url": "https://cg.results.nic.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "CGBSE — Class 10 & Class 12 Results — official source",
+      "url": "https://cgbse.nic.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Odisha Results — CHSE, BSE & University Results — official source",
+      "url": "https://results.odisha.gov.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Odisha Results — CHSE, BSE & University Results — official source",
+      "url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "HPBOSE — Matric & Plus Two Results — official source",
+      "url": "https://hpbose.org/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "JAC — Class 10, Class 12 & Other Results — official source",
+      "url": "https://jac.jharkhand.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "GBSHSE — SSC & HSSC Results — official source",
+      "url": "https://gbshse.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "ASSEB — HSLC & Higher Secondary Results — official source",
+      "url": "https://site.sebaonline.org/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "ASSEB — HSLC & Higher Secondary Results — official source",
+      "url": "https://ahsec.assam.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "TBSE — Madhyamik & Higher Secondary Results — official source",
+      "url": "https://tbse.tripura.gov.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Meghalaya Board (MBOSE) — SSLC & HSSLC — official source",
+      "url": "https://www.mbose.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Mizoram Board (MBSE) — HSLC & HSSLC — official source",
+      "url": "https://www.mbse.edu.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "COHSEM & BOSEM — Class 10 and Class 12 — official source",
+      "url": "https://www.bosem.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "COHSEM & BOSEM — Class 10 and Class 12 — official source",
+      "url": "https://cohsem.nic.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "NBSE — HSLC & HSSLC Results — official source",
+      "url": "https://nbsenl.edu.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Education Department, Sikkim — Board Results — official source",
+      "url": "https://education.sikkim.gov.in/",
+      "category": "Board / Entrance Results / Notices"
+    },
+    {
+      "name": "Arunachal Pradesh — School Examination Updates — official source",
+      "url": "https://apdhte.nic.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Lucknow — Results — official source",
+      "url": "https://www.lkouniv.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Lucknow — Results — official source",
+      "url": "https://result.lkouniv.ac.in/Results/LU_OddResult2026",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Lucknow — Results — official source",
+      "url": "https://result.lkouniv.ac.in/Results/EvenResult2026",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Lucknow — Results — official source",
+      "url": "https://result.lkouniv.ac.in/Results/EvenResult2025",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Dr. A.P.J. Abdul Kalam Technical University (AKTU) — official source",
+      "url": "https://aktu.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Dr. Ram Manohar Lohia Avadh University — official source",
+      "url": "https://www.rmlau.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Chaudhary Charan Singh University (CCSU), Meerut — official source",
+      "url": "https://www.ccsuniversity.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Bundelkhand University, Jhansi — official source",
+      "url": "https://www.bujhansi.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Allahabad University — Examination Results — official source",
+      "url": "https://www.allduniv.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Rajasthan, Jaipur — official source",
+      "url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Rajasthan, Jaipur — official source",
+      "url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Rajasthan Technical University (RTU), Kota — official source",
+      "url": "https://www.rtu.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Devi Ahilya Vishwavidyalaya (DAVV), Indore — official source",
+      "url": "https://www.dauniv.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Rani Durgavati Vishwavidyalaya (RDVV), Jabalpur — official source",
+      "url": "https://rdunijbpin.org/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Andhra University — Examination Results — official source",
+      "url": "https://results.andhrauniversity.edu.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Andhra University — Examination Results — official source",
+      "url": "https://www.andhrauniversity.edu.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Rayalaseema University, Kurnool — Results — official source",
+      "url": "https://ruk.ac.in/results/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "JNTU Hyderabad (JNTUH) — Results — official source",
+      "url": "https://results3.jntuh.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "JNTU Hyderabad (JNTUH) — Results — official source",
+      "url": "https://jntuh.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Savitribai Phule Pune University (SPPU) — official source",
+      "url": "https://onlineresults.unipune.ac.in/Result/Dashboard/Default",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Savitribai Phule Pune University (SPPU) — official source",
+      "url": "https://www.unipune.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Gondwana University — Results — official source",
+      "url": "https://unigug.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Visvesvaraya Technological University (VTU) — official source",
+      "url": "https://vtu.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Osmania University — Examination Results — official source",
+      "url": "https://www.osmania.ac.in/res07/20260802.jsp",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Bharathiar University — UG/PG Results — official source",
+      "url": "https://results.b-u.ac.in/ac/results.asp",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Bharathiar University — UG/PG Results — official source",
+      "url": "https://results.b-u.ac.in/2026/ud_apr/results.asp",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Madras — UG/PG Results — official source",
+      "url": "https://egovernance.unom.ac.in/instresult/ugresultpage.asp",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Madras — UG/PG Results — official source",
+      "url": "https://www.unom.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "University of Kerala — Examination Results — official source",
+      "url": "https://www.keralauniversity.ac.in/",
+      "category": "University Results / Notices"
+    },
+    {
+      "name": "Shivaji University, Kolhapur — Merit & Rank Lists — official source",
+      "url": "https://www.unishivaji.ac.in/",
+      "category": "University Results / Notices"
     }
   ]
 }
