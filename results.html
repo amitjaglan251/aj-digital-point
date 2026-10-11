@@ -293,4 +293,23 @@
 <article class="card"><h3>Board / University Results</h3><p>राष्ट्रीय और विभिन्न बोर्ड/विश्वविद्यालयों के परिणाम के लिए official portal या संबंधित board/university वेबसाइट इस्तेमाल करें।</p><a class="btn" href="https://results.gov.in/" target="_blank" rel="noopener noreferrer">India Government Results Portal</a></article>
 </div>
 </section><div class="notice"><b>Important:</b> Result, cut-off और selection information संबंधित examination authority की official notification/website से verify करें। AJ DIGITAL POINT independent information portal है, सरकारी वेबसाइट नहीं।</div></main><footer class="footer"><b>AJ DIGITAL POINT</b><p>Jalalpur Kalan, Jind, Haryana • Independent Digital Service Assistance Portal</p></footer><nav class="mobile-flow-bar" aria-label="Mobile quick navigation"><a href="index.html">🏠<span>Home</span></a><a href="services-dashboard.html">🛠️<span>Services</span></a><a href="latest-jobs.html">💼<span>Jobs</span></a><a href="javascript:history.back()">←<span>Back</span></a></nav><script src="/aj-digital-point/whatsapp-links.js?v=20261011-01" defer></script>
-<section class="aj-wa-bottom" aria-label="Join AJ DIGITAL POINT on WhatsApp"><strong>📲 AJ DIGITAL POINT से जुड़ें</strong><div class="aj-wa-strip"><a href="https://chat.whatsapp.com/Kw4IRwTUZ9iAAgyxF10CQk" target="_blank" rel="noopener noreferrer">🟢 WhatsApp Group Join करें</a><a class="aj-wa-channel" href="https://whatsapp.com/channel/0029VajGtbVCcW4mxZNgAo2x" target="_blank" rel="noopener noreferrer">📢 WhatsApp Channel Follow करें</a></div></section><script src="/aj-digital-point/external-link-guard.js?v=20261011-02" defer></script></body></html>
+<section class="aj-wa-bottom" aria-label="Join AJ DIGITAL POINT on WhatsApp"><strong>📲 AJ DIGITAL POINT से जुड़ें</strong><div class="aj-wa-strip"><a href="https://chat.whatsapp.com/Kw4IRwTUZ9iAAgyxF10CQk" target="_blank" rel="noopener noreferrer">🟢 WhatsApp Group Join करें</a><a class="aj-wa-channel" href="https://whatsapp.com/channel/0029VajGtbVCcW4mxZNgAo2x" target="_blank" rel="noopener noreferrer">📢 WhatsApp Channel Follow करें</a></div></section><script id="job-result-search">
+(function(){
+  const params=new URLSearchParams(location.search);
+  const query=(params.get('search')||'').trim();
+  if(!query)return;
+  const norm=v=>String(v||'').toLowerCase().replace(/[^a-z0-9\u0900-\u097f]+/g,' ').trim();
+  const stop=new Set(['the','and','for','job','jobs','result','results','recruitment','recruit','exam','2026','2025','advt','post','check','selection','update','updates','notice']);
+  const tokens=norm(query).split(/\s+/).filter(t=>t.length>2&&!stop.has(t));
+  const cards=[...document.querySelectorAll('.result-card')];
+  const matches=cards.map(card=>({card,text:norm(card.innerText||card.textContent)})).filter(x=>tokens.length?tokens.some(t=>x.text.includes(t)):x.text.includes(norm(query)));
+  cards.forEach(card=>card.hidden=!matches.some(x=>x.card===card));
+  const main=document.querySelector('main.wrap')||document.body;
+  const state=document.createElement('section');
+  state.className='panel';
+  state.style.cssText='margin:12px 0;padding:14px;border:1px solid #cbd5e1;border-radius:10px;background:#f8fafc';
+  state.innerHTML='<h2 style="margin:0 0 6px;font-size:18px">🔎 Result search: '+query.replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]))+'</h2><p style="margin:0;color:#475569;font-size:13px">'+(matches.length?'Matching result/selection cards are shown below. Please confirm the notice on the official authority website.':'इस भर्ती के नाम से matching result notice इस पेज पर अभी सूचीबद्ध नहीं है। Job Details पेज पर दिए Official Website / recruitment notice link से संबंधित विभाग की नई सूचना जाँचें।')+'</p><a class="btn" style="margin-top:8px" href="results.html">सभी Results देखें</a>';
+  main.insertBefore(state,main.children[3]||null);
+})();
+</script>
+<script src="/aj-digital-point/external-link-guard.js?v=20261011-02" defer></script></body></html>
