@@ -173,5 +173,6 @@ function resetTool(){selectedImage=null;originalFile=null;resizedDataUrl=null;do
 function toggleMenu(){const nav=document.getElementById('main-nav'),button=document.getElementById('menuButton');nav.classList.toggle('mobile-show');const isOpen=nav.classList.contains('mobile-show');button.innerHTML=isOpen?'✕':'☰';button.setAttribute('aria-expanded',isOpen?'true':'false')}
 document.querySelectorAll('#main-nav a').forEach(function(link){link.addEventListener('click',function(){const nav=document.getElementById('main-nav'),button=document.getElementById('menuButton');nav.classList.remove('mobile-show');button.innerHTML='☰';button.setAttribute('aria-expanded','false')})});
 </script>
+<script src="/aj-digital-point/external-link-guard.js?v=20261011-02" defer></script>
 </body>
 </html>
