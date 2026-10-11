@@ -300,7 +300,9 @@ const finalDocs=docs.length&&!docsLookGeneric?docs:genericDocs;
 dl.innerHTML=finalDocs.map(x=>'<li>'+esc(x)+'</li>').join('');
 const links=d.links||{};
 const lg=document.getElementById('linkGrid');
-const isDirectFileOrNoticeUrl=u=>{if(!u)return false; const x=String(u).toLowerCase(); return /\.pdf(?:[?#].*)?$/.test(x)||/\/api\/attachment\//.test(x)||/\/download(?:[/?#]|$)/.test(x)||/download\?/.test(x);};
+const resultLink=links.result||d.result||d.resultUrl||d.resultURL||d.results||'';
+const resultSearchUrl='results.html?search='+encodeURIComponent(d.title||d.postName||d.organization||'');
+const isDirectFileOrNoticeUrl=u=>{if(!u)return false; const x=String(u).toLowerCase(); return /\.pdf(?:[?#].*)?$/.test(x)||/\/api\/attachment\//.test(x)||/\/download(?:[/?#]|$)/.test(x);};
 const directNotification=links.notification||(isDirectFileOrNoticeUrl(d.notice)?d.notice:'');
 const directApply=(links.apply||d.apply) && String(links.apply||d.apply)!==String(d.official||'') && String(links.apply||d.apply)!==String(d.notice||'') ? (links.apply||d.apply) : '';
 const linkItems=[
@@ -308,7 +310,7 @@ const linkItems=[
  ['📄 Download Official Notification',directNotification,''],
  ['🌐 Official Website',links.official||d.official,''],
  ['📊 Download Marks / Check Marks',links.marks,''],
- ['🏆 Download Final Result / Check Result Notice',links.result,''],
+ ['🏆 '+(resultLink?'Download Final Result / Check Result Notice':'Search Result / Selection Updates'),resultLink||resultSearchUrl,''],
  ['📉 Check Cutoff / Download Cutoff',links.cutoff,''],
  ['🔄 Download Revised FRTA Result',links.revisedFrtaResult,''],
  ['📉 Download Revised FRTA Cutoff',links.revisedFrtaCutoff,''],
@@ -331,7 +333,7 @@ const linkItems=[
  ['📚 Previous Year Papers / Syllabus',links.previousPapers||links.syllabus,'']
 ];
 const allLinks=linkItems.filter(x=>x[1]);
-lg.innerHTML=allLinks.map(x=>'<a class="detail-link '+x[2]+'" href="external-link.html?url='+encodeURIComponent(x[1])+'&label='+encodeURIComponent(x[0].replace(/[🚀📄🌐📊🏆📉🔄📋📝📢📌🏙️🗝️📅🎫📚]/gu,'').trim())+'">'+x[0]+' — AJ DIGITAL POINT ↗</a>').join('');
+lg.innerHTML=allLinks.map(x=>{const label=x[0].replace(/[🚀📄🌐📊🏆📉🔄📋📝📢📌🏙️🗝️📅🎫📚]/gu,'').trim();const internal=/^(?:\.\/)?results\.html(?:[?#]|$)/.test(String(x[1]||''));const href=internal?String(x[1]):('external-link.html?url='+encodeURIComponent(x[1])+'&label='+encodeURIComponent(label));return '<a class="detail-link '+x[2]+'" href="'+esc(href)+'">'+x[0]+' — AJ DIGITAL POINT ↗</a>';}).join('');
 if(!lg.innerHTML){
  lg.innerHTML='<div class="warning"><b>Official direct links उपलब्ध नहीं हैं.</b> इस record के लिए कोई अनुमानित/duplicate homepage link नहीं बनाया गया है।</div>';
 }
