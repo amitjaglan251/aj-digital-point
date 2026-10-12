@@ -17,10 +17,10 @@
     const unique=[...new Set(common)];
     const ca=code(jobTitle), cb=code(title);
     if(ca&&cb&&clean(ca)!==clean(cb)) return false;
-    // Require two meaningful shared terms; generic portal-homepage links won't qualify.
+    // Require two title-specific shared terms after generic vacancy and organisation words are removed.
     if(unique.length<2) return false;
     const specificity=unique.filter(t=>/\d/.test(t)||t.length>=4).length;
-    return specificity>=1;
+    return specificity>=2;
   }
   function addLink(container,item,detail){
     if(!container||container.querySelector('[data-aj-official-url="'+CSS.escape(item.url)+'"]')) return;
