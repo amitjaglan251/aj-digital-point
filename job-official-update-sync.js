@@ -4,14 +4,14 @@
 (function(){
   'use strict';
   const FEED='auto-updates.json';
-  const STOP=new Set(['official','source','page','updated','result','results','answer','key','admit','card','notice','notification','recruitment','recruit','exam','examination','check','download','online','apply','form','the','for','and','with','post','posts','of','in','to','at','by','from','2026','2025','2024','2023','latest','new','final','written','test','update','updates']);
+  const STOP=new Set(['official','source','page','updated','result','results','answer','key','admit','card','notice','notification','recruitment','recruit','exam','examination','check','download','online','apply','form','the','for','and','with','post','posts','of','in','to','at','by','from','2026','2025','2024','2023','latest','new','final','written','test','update','updates','commission','department','college','university','school','board','staff','teaching','non','ministerial','selection','direct','assistant','junior','senior','office','clerk','vacancy','vacancies','employment','public','service','union','national','state','government','haryana','india','portal','session','training','configuration','candidate','candidates','list','declaration','revised','final']);
   const clean=s=>String(s||'').toLowerCase().replace(/&amp;/g,'&').replace(/[^a-z0-9]+/g,' ').trim();
   const tokens=s=>clean(s).split(/\s+/).filter(t=>t.length>1&&!STOP.has(t));
   const code=s=>(clean(s).match(/\b(?:advt|advertisement|notification|notice)\s*(?:no\s*)?[a-z0-9/-]+/i)||[])[0]||'';
   function matches(jobTitle,item){
     const title=String(item.title||'');
     if(!title || /^official source page updated:/i.test(title)) return false;
-    const a=tokens(jobTitle), b=new Set(tokens(title+' '+(item.category||'')));
+    const a=tokens(jobTitle), b=new Set(tokens(title));
     if(a.length<2) return false;
     const common=a.filter(t=>b.has(t));
     const unique=[...new Set(common)];
