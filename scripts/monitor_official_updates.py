@@ -112,7 +112,24 @@ def main():
             health.append({"name":name,"url":url,"status":"error","error":str(e)[:180],"checked_at":now})
             # Continue monitoring other sources even if one host is down.
     # Keep every link already marked as new; do not silently drop updates after marking them seen.
-    payload={"generated_at":now,"description":"Automatically detected links from configured official websites. These are leads; read the original notice before acting.","total_new_links_this_run":len(updates),"sources_checked":len(sources),"sources_ok":sum(1 for x in health if x["status"]=="ok"),"sources_failed":sum(1 for x in health if x["status"]!="ok"),"updates":updates,"source_health":health}
+    # Preserve the detected-link history so a later scan can attach a new official notice
+    # to the matching vacancy, rather than losing it when the next scan runs.
+    try:
+        with open(OUTPUT_JSON, encoding="utf-8") as f:
+            previous_payload=json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        previous_payload={}
+    history=state.setdefault("history", [])
+    known={(str(x.get("url","")),str(x.get("title",""))) for x in history}
+    for item in list(previous_payload.get("all_updates", []))+list(previous_payload.get("updates", []))+updates:
+        if not item.get("url") or not item.get("title"):
+            continue
+        key=(str(item.get("url")),str(item.get("title")))
+        if key not in known:
+            history.append(item)
+            known.add(key)
+    state["history"]=history[-3000:]
+    payload={"generated_at":now,"description":"Automatically detected links from configured official websites. These are leads; read the original notice before acting.","total_new_links_this_run":len(updates),"sources_checked":len(sources),"sources_ok":sum(1 for x in health if x["status"]=="ok"),"sources_failed":sum(1 for x in health if x["status"]!="ok"),"updates":updates,"all_updates":state["history"],"source_health":health}
     with open(OUTPUT_JSON,"w",encoding="utf-8") as f: json.dump(payload,f,ensure_ascii=False,indent=2)
     # Keep up to 1000 seen link keys so repeat runs do not keep publishing the same URLs.
     if len(state.get("seen",{}))>5000:
