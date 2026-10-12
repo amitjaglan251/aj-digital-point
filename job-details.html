@@ -342,5 +342,5 @@ const verifyText=String(d.verificationStatus||'').toLowerCase();
 const statusChip=/unconfirmed|not confirmed|unverified|partial|provisional/.test(verifyText)?'⚠️ Verify Official Notice':(isUpcoming?'⏳ Upcoming':(isExpired?'⌛ Deadline Passed':'📌 Listed'));
 c.innerHTML='<span class="chip">'+esc(d.category||'Recruitment')+'</span><span class="chip">'+esc(d.mode||'Online')+'</span><span class="chip">'+esc(statusChip)+'</span>'+(d.state?'<span class="chip">📍 '+esc(d.state)+'</span>':'');
 document.querySelector('meta[name="description"]').setAttribute('content',(d.title||'Recruitment')+' — complete job details, important dates, vacancy, eligibility, fee, selection process and official links.');
-})();</script><script src="/aj-digital-point/whatsapp-links.js?v=20261011-01" defer></script>
+})();</script><script src="/aj-digital-point/job-official-update-sync.js?v=20261012-01" defer></script><script src="/aj-digital-point/whatsapp-links.js?v=20261011-01" defer></script>
 </body></html>
