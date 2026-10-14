@@ -8999,12 +8999,472 @@
       "url": "https://www.unishivaji.ac.in/",
       "title": "Official source page updated: Shivaji University, Kolhapur — Merit & Rank Lists — official source",
       "first_detected": "2026-10-14T11:49:58+00:00"
+    },
+    "7fe827aac4536313af794e39f94da78ecaa698f0d722b6cab81fbe878ba224f1": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260623193509.pdf",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "812052e8a43f60af197acccd1886527621bd85fac6bf739e15a5fe05ea965ade": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260623135541.pdf",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "44150fb180811958fa7db67550c3ac01d0a715127573ec98567cf644ed17a0a7": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260622151619.pdf",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "1b79214cec6ddc2653aacefe63cf2f5c5cd61f0ffe485026a83c501bec48e5f8": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260621193322.pdf",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "f2f56619fff2f633266615739cc761370ed1739a60c9ba0b0152eb11fd235220": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260621191633.pdf",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "cb4987e6b56e4a8146ff92351e798b2168d1e6316de4b12776e29b439d33bc57": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260619163856.pdf",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "bfb3260e2634adc7d8c504c9e34e4c3419c33fa05b7e7821639fae13a9e7a390": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260619163804.PDF",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "abb828036ce1cfd3519ecadfac23024d9764dfc01d5d756af1760de5141f5930": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260619111344.PDF",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "164bd21806624e4fd70c89fa3701288f4b89f5f5b2460d8dd1199dae6c832e2a": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260618201747.pdf",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "4796e1ee25354a2bd177f9690099e61dd96cb26804590bbafc1e27b5567d2333": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260618184532.pdf",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "42479dcab923bd49544abc832c88efd1f64c8cf3c0e37c6fa0bd2340a6f46347": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260618113547.PDF",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "b3667ee5943c856f941d50d790c4ed34c2af527cf438c49bdb06fe8e2d1c847d": {
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260617200534.PDF",
+      "title": "Read More",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "ba4f9bbcc64fb8b73930c63c8fdc9402c3913f7baee7891658a8fc43adaffac6": {
+      "url": "https://www.ugc.gov.in/",
+      "title": "Official source page updated: University Grants Commission",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "b07317e258b8c968afc1a4ef27dd73181f4071518bc55f5345e24a7955c8f406": {
+      "url": "https://b-u.ac.in/143/results",
+      "title": "Official source page updated: Bharathiar University Results",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "e5c5517be18cf2d17469b3918c5bc8265d4b6e910e30b533db31aad0888496f0": {
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/31-July/Psychology.pdf",
+      "title": "M A Psychology Merit and Rank March 2026",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "110dbedd6662bd6ac153e41cc21f0b56c326e09ea93a29a69a661d1f07dc5a81": {
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/31-July/TravelandTourism.pdf",
+      "title": "M A Travel and Tourism Merit and Rank March 2026",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "1d4a4938483c575675ed2286a5a0cc2d8a0caae8977836e4e01108418f921484": {
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/16-July/RanklistBDFC.pdf",
+      "title": "Rank list B.A.in Dress Making and Fashion Coordination",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "294a497a1f838d1eb74cdc2c1ebb55f70e6ef949eb66f0229cbdc8cdf74ae0d4": {
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/16-July/RanklistBFTM.pdf",
+      "title": "Rank list CBCS B.Sc.Food Technology and Management(Entire)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "2082a6a54e5927195d71c0308abf902b9fe3ed20841382828d279c7afbbd853d": {
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/16-July/MeritlistBDFC.pdf",
+      "title": "Merit list B.A.in Dress Making and Fashion Coordination",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "dd914250862b65394babb403e900e7ce2f86c1b47e321a583dca9089012878bb": {
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/16-July/MeritlistBFTM.pdf",
+      "title": "Merit list CBCS B.Sc.Food Technology and Management(Entire)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "acf1f2769cf8c2b7d8d7e9130cb0e9800a74674fb4be54fa804d214e9a4f48a4": {
+      "url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List-2025-to-2014",
+      "title": "Merit List and Rank List 2025 to 2014",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "c86c4e96d35caada3a60d2cedb533ffc72dc434ed932a63c523bed95a4c70721": {
+      "url": "https://bseh.org.in/recent-news",
+      "title": "Official source page updated: Board of School Education Haryana (BSEH) — Recent News / Results / Admit Cards — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "5b7587cf68598854488b89a66219270358e1f1d0dd177231ea675dc95572f467": {
+      "url": "https://boardresults.education.gov.in/",
+      "title": "Official source page updated: Other State Boards — Official Results Gateway — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "ce544553a3fcc4ccfed7c4c3096913d80b93c9e7d531e1a127ef8920ba44821f": {
+      "url": "https://gurugramuniversity.ac.in/Notice/updated answer key of Tourism discipline- 21 july 2026_compressed.pdf",
+      "title": "Updated answer key of Tourism discipline- 21 july 2026 2026-08-04",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "9b959a9316c8d432a4debb1d153d941a06a0ab800c7d83934474a9d5dd705595": {
+      "url": "https://gurugramuniversity.ac.in/Notice/Re-Evaluation Result of Exams held in December 2025 January 2026 notification no. 2601-015.pdf",
+      "title": "Re-Evaluation Result of Exams held in December 2025 January 2026 Notification No. 2601-015 2026-09-29",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "280440c5e47b9c56e027181200b8f559d419d0f19774143db8f51179c8694e28": {
+      "url": "https://gurugramuniversity.ac.in/Notice/result notification 8.pdf",
+      "title": "Result Notification (Dec-25 & May-26): 08 2026-09-28",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "1232d7902961a34aed8d84e055ba88b8d9febee2bf95516c3332ab66dd075837": {
+      "url": "https://gurugramuniversity.ac.in/Notice/phd  course work Media, English, Engg & Tech, Pharmacy result May 2026 RII .pdf",
+      "title": "Result Notification (Ph.D Course Work Examination) Media, English, Engg and Tech, Pharmacy May, 2026 2026-09-25",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "f903a71d42f5fc949bf6e99010a9678aff63cf8f92bf3c943167685259a64ac3": {
+      "url": "https://gurugramuniversity.ac.in/Notice/Result notification No. 14 (MAY 2026 Examination) R2.pdf",
+      "title": "Result Notification No. 14 (May 2026 Examinations R2) 2026-09-24",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "e789a21d37583185f31e12d893e736352fd40c77d55f27c07e6d0caa6408480e": {
+      "url": "https://gurugramuniversity.ac.in/Notice/Notification for hearing UMC for granting second-last opprotunity for hearing of absent cases in its meeting held on 09-09-2026.pdf",
+      "title": "Notification for hearing UMC for granting second-last opprotunity for hearing of absent cases in its meeting held on 09-09-2026 2026-09-22",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "19d901b988f1ebfe280a697e51fc5d6e377b46ce2507dd16300e64e237561b1f": {
+      "url": "https://gurugramuniversity.ac.in/Notice/Re-evaluation result DEc 2025.pdf",
+      "title": "Re-Evaluation Result of Exams held in December 2025 January 2026 Notification No. 2601-014 2026-09-21",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "c713eb84738162bf89ce96dac66ebf476cf5853ed9f9e8c9d845ac7fd5af7ab1": {
+      "url": "https://gurugramuniversity.ac.in/Notice/Re-Evaluation result of exams held in December-2025 january-2026 Notification No. 2601-013 (1)_compressed.pdf",
+      "title": "Re-Evaluation Result of Exams held in December-2025/January-2026 Notification No. 2601-13 2026-09-17",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "6b14bc4e0e5efa4e4c436ab2046c1c9e04c8be54d6a300a3ec63089695088584": {
+      "url": "https://gurugramuniversity.ac.in/Notice/PhD result notification Mathematics may 2026 dated 15-8-2026.pdf",
+      "title": "Result Notification (Ph.D coursework Examination) Mathematics May 2026 2026-09-16",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "3503b99cbdeda9b53b814f1484cfa8901e388d297cfd4565a2713c03a409f6e7": {
+      "url": "https://gurugramuniversity.ac.in/Notice/2601-012_rotated (1) (1).pdf",
+      "title": "Re-Evaluation Result of Exams held in December-2025/January-2026 Notification No. 2601-12 2026-09-15",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "b40c3b7d27eb39f0ce3a0d86bf42444addd4dad6ba99fe5cf25dccb749987540": {
+      "url": "https://gurugramuniversity.ac.in/Notice/2601-012_rotated (2).pdf",
+      "title": "Re-Evaluation Result of Exams held in December-2025/January-2026 Notification No. 2601-12 2026-09-15",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "86325e72229f7850671b1602ab46e81352f94684bbfe0b7ae2a30dfed1484f77": {
+      "url": "https://gurugramuniversity.ac.in/Notice/phd  course work Law and EVS result May 26. pdf.pdf",
+      "title": "Result Notification (Ph.D Course Work Examination) LAW & EVS May, 2026 2026-09-14",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "bd9b6b631166f112756663e7f7e534da4d5842f8e199203ac24623d590941304": {
+      "url": "https://www.bpsmvedp.ac.in/",
+      "title": "Official source page updated: Bhagat Phool Singh Mahila Vishwavidyalaya (BPSMV) — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "ecaf90f4f9efe543dc7398eee4db9d66272ce46346a8b7795c802701bd48a2c5": {
+      "url": "https://igu.ac.in/",
+      "title": "Official source page updated: Indira Gandhi University, Meerpur (IGU) — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "cde19996ca7dce965f0140f25a37b5a8951c81dfcf2b3bb8215ff0675939785c": {
+      "url": "https://hsbte.org.in/",
+      "title": "Official source page updated: Haryana State Board of Technical Education (HSBTE) — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "8f84254a420efd455f5eccadf6890e9be99a647e2f35655aedc3c00e64e2217b": {
+      "url": "https://results.nios.ac.in/",
+      "title": "Official source page updated: NIOS — Secondary & Senior Secondary Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "f359e0c766961213b3a42d91c0b391105e21d7020a0d859c434a66afb599b643": {
+      "url": "https://upmsp.edu.in/",
+      "title": "Official source page updated: UPMSP — Class 10 & Class 12 Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "c97baabb0dd72d31657b33ad769081e2fb6490c2bd9646cac7b722e0e233ee09": {
+      "url": "https://www.pseb.ac.in/",
+      "title": "Official source page updated: PSEB — Matriculation & Senior Secondary — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "adb2eaa13aa41c8e02a83428d8c01e869927b663b79755a1ebfeeee6f3be4358": {
+      "url": "https://www.du.ac.in/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=16218&cntnt01returnid=219",
+      "title": "01 Oct Notification regarding appointment of the Dean, Faculty of Medical Sciences till 25.11.2026",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "0e899ddeaca79bba0fd623ddd9aa36cbb4e0dce3328a77e1b9a7a548fda12ec7": {
+      "url": "https://www.du.ac.in/index.php?page=study-at-du",
+      "title": "Study at DU Admissions 2026-27",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "3c2ffe97dabe295076a9131330c4d80091a17b3da1b00fcc1f0447dfdc3643af": {
+      "url": "https://www.du.ac.in/index.php?page=examination-results",
+      "title": "Examination & Results",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "88cea8a0180fc6146001367813c333fde6aa09b20605aba1659707567dad21f7": {
+      "url": "https://www.du.ac.in/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=15&cntnt01pagelimit=4&cntnt01returnid=219",
+      "title": "Gazette Notification of July 2016 regarding MOU with Foreign Institutions",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "8c0e7a2557c78ce5d9eca66a5e57ca8d62002bd8eba9f49a6830c802669ce130": {
+      "url": "https://www.du.ac.in/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=889&cntnt01pagelimit=4&cntnt01returnid=219",
+      "title": "The titers of rice tungro bacilliform virus dictate the expression levels of genes related to cell wall dynamics in rice plants affected by tungro disease - Prof. Indranil Dasgupta",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "56cf2144e4cb9fbff7543a5a54dd72077656f18615379dd57249ef8b6e409e5d": {
+      "url": "https://www.du.ac.in/index.php?page=notice-board-view-all",
+      "title": "View All",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "fda498cc8730ed80419b1f47c618116c969fd239a48982fc2f74cc44659b2c27": {
+      "url": "https://www.punjabiuniversity.ac.in/",
+      "title": "Official source page updated: Punjabi University, Patiala — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "fad70c4a8ea74a766a634a071ab950226364409ca5bf1ef582d8b8c3d20efd9d": {
+      "url": "https://www.jmi.ac.in/",
+      "title": "Official source page updated: Jamia Millia Islamia — Examination Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "1df8544bffc504feb248da31e8538011769851c778448f27e7be781a119a9a66": {
+      "url": "https://pareekshabhavan.kerala.gov.in/index.php/sslc-results",
+      "title": "Official source page updated: Kerala — SSLC Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "20a9156f6d11202925c1cf0fb244bea09e1ac234c1a4cfabab69ed3aa26be045": {
+      "url": "https://sslcexam.kerala.gov.in/",
+      "title": "Official source page updated: Kerala — SSLC Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "d050b280563a50f108b650a65bb2773b43c667536701cef581582884dbb01b74": {
+      "url": "https://result.gseb.org/",
+      "title": "Official source page updated: GSEB — SSC & HSC Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "834ce182f6b02f4648df206168ae83ff34b4f3bd3016191a72af9e812280baae": {
+      "url": "https://chseodisha.nic.in/results/screen_reader_access",
+      "title": "Screen Reader Access",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "17c611cd6512b5e564538dc7781d6e4c166e5712040c86bbd757ff24a478344f": {
+      "url": "https://chseodisha.nic.in/results/feedback",
+      "title": "Feedback",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "f91cf09ef95912c3a38e13390ec98d3d81d6c49b06a916a366c211bac240c85d": {
+      "url": "https://chseodisha.nic.in/examination_schedule/",
+      "title": "Examination Schedule",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "631fcbfce53ec975fb003382c7f1e1478a63963f12fa65f1c16d38c385920888": {
+      "url": "https://chseodisha.nic.in/examination_notices/",
+      "title": "Examination Notices",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "b35d56e62236be80b0c29479c68285b665e04b7afe5eb39334d3cc20fa8bb7ea": {
+      "url": "https://chseodisha.nic.in/examination_center/",
+      "title": "Examination Center",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "06ad6496a1918edeb4ece57ee6f2a77db88c29c7dd84c47e860e7d6eca48e42f": {
+      "url": "https://chseodisha.nic.in/examination_pattern/",
+      "title": "Examination Pattern",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "8b3057e98bc3820d186e644253e1bb066e00183d46919baa1988553e3a321c3f": {
+      "url": "https://chseodisha.nic.in/examination_management_hub/",
+      "title": "Examination Management Hub",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "6cd221d871bc90d4a943764def8c946e43373f981928340f44f811addd115fd3": {
+      "url": "https://chseodisha.nic.in/forms/",
+      "title": "Forms",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "47785d3636f5ef681ff03980fbe79970b037d672b2b724a506831fccb6454dc3": {
+      "url": "https://www.mbose.in/",
+      "title": "Official source page updated: Meghalaya Board (MBOSE) — SSLC & HSSLC — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "19629bda406657f23c15b2bd4bec1b825b2ed6e122664f879fe866091357c67e": {
+      "url": "https://www.mbse.edu.in/",
+      "title": "Official source page updated: Mizoram Board (MBSE) — HSLC & HSSLC — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "e9eb5a250ff235e2b48941a7e86426272cf5a46b9226faf169fb486e0ad7d263": {
+      "url": "https://nbsenl.edu.in/",
+      "title": "Official source page updated: NBSE — HSLC & HSSLC Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "87eaacfb72dc37a3fd3bdddc39c114086ed0af6a59db244197dc4d66da552d41": {
+      "url": "https://education.sikkim.gov.in/",
+      "title": "Official source page updated: Education Department, Sikkim — Board Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "bb670076b9d287a5ea47762b24c4464e65a8c85ac0e5b3a91eac017098716da6": {
+      "url": "https://www.lkouniv.ac.in/",
+      "title": "Official source page updated: University of Lucknow — Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "85f1dc5137b05942a44481758f5134196fbca2304970fa64119912b8681cae84": {
+      "url": "https://www.lkouniv.ac.in/en/news?Newslistslug=en-examination-schedule&cd=OAA1AA%3D%3D",
+      "title": "Official source page updated: University of Lucknow — Examination Notices & Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "26eee285976754f7706bbec40289f07d571022021969ea5d49eb0a56761f9a8f": {
+      "url": "https://www.uniraj.ac.in/",
+      "title": "Official source page updated: University of Rajasthan, Jaipur — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "55cc2556d4af0127b0d00feaa76bf0a6ce9119808972498b52524b249e79528d": {
+      "url": "https://www.uniraj.ac.in/circular/circular/5756-14.10.2026.pdf",
+      "title": "Regarding the list of affiliated colleges (Jaipur) are hereby granted extension of affiliation provisionally for academic session 2026-27.",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "db6f45895943faa060cfce3ebbd76484a1e87a961bcfa819b683216c4141e632": {
+      "url": "https://www.uniraj.ac.in/circular/notice/2543-28.03.2026.pdf",
+      "title": "Information regarding distribution of Gold Medals in the Convocation, UoR, Jaipur.",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "6904fd077206d4b16bcb534bd51a1148faddb1439070d7c935b6997328fd78c5": {
+      "url": "https://www.uniraj.ac.in/circular/notice/VC782-27aug26.pdf",
+      "title": "Notice inviting applications for appointment of Vice Chancellor for the UTTAR PRADESH RAJARSHI TANDON OPEN UNIVERSITY, PRAYAGRAJ (U.P).",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "0e024e487ca8bf2551835446ea111fcd1b053a12c6943d27c0be80b8e9db6ab2": {
+      "url": "https://www.uniraj.ac.in/circular/notice/359-18.08.2026.pdf",
+      "title": "Notice regarding Logo Making Competition, Sri Guru Gobind Singh Chair for National Integration and Sikh Studies, UoR, Jaipur.",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "8aa48de47e8ac81cb78b3ec0ffd4d4f5168d2a0b98571320d8a07c4a57710f38": {
+      "url": "https://www.uniraj.ac.in/circular/notice/4376-29.07.2026.pdf",
+      "title": "Notice inviting applications for appointment of Vice-Chancellor for Bhatkhande Sanskriti University, Lucknow (U.P.).",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "b01b1439a420c777d14528adce4246ddaa1354a6d859e3342597a39fbc4a054d": {
+      "url": "https://www.uniraj.ac.in/circular/notice/IC2121-23-07feb16.pdf",
+      "title": "Notice regarding all departments/centre/colleges to send the necessary information for updating the university website.",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "8e9f9b2745d95d70125d2c2ca0f225170d12b90e47d93a3a1f79a52fe573270c": {
+      "url": "https://www.uniraj.ac.in/Empcorner/",
+      "title": "Form 16 Download",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "64c57f83f9f62dd22ab5b313c5d82296c2e73a9dd04ca34c7ebdfbd63279f43e": {
+      "url": "https://www.uniraj.ac.in/index.php?mid=130",
+      "title": "Download Form",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "62bbf2924f83fc75a4dbbfc424d7a89778510e842f3111dbe6ee0b10479df5a1": {
+      "url": "https://result.uniraj.ac.in/index.php",
+      "title": "Official source page updated: University of Rajasthan, Jaipur — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "12353bcbee991fc03b1e84291cdc5e0b45ceb119cf05b05280d9975d51be7f4b": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=SZBL440FJr7hrXYjHCIY8WJKYXJqNGVZVC9aWQ==",
+      "title": "B.P.Ed. IV-SEMESTER EXAM MAY 2026 (REVAL.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "81dd2dbeb1f94b1c717d86b47e8f04673969551a85a833ab52f869b046a789c9": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=TtNV48ImjTTqR2rMBk0e/09mSk1QZHN5QmJQVA==",
+      "title": "B.A. (HONS) PART-III EXAM.-2026 (Reval.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "60e4aab69043364c64b3b92a14b5d1fda8cc996f415478f8ce91ebe87369577a": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=UveFcMV3Xyog8959e6DR324zNERMaEtwSFg1Vg==",
+      "title": "B.A. PART-III EXAM.-2026 (Reval.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "572b03c11a8eb5abe54e7c763a133e3d15404c7aa611dd7a8c273a02d688d0c6": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=iQhu36vjGj7vcdg1RDFkaHFwblE2YjhKUDJXaA==",
+      "title": "B.C.A. PART-III EXAM.-2026 (Reval.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "b1a0713cc615c35423476bd4b20f95695141facfabb5d9d106433074c4ecd103": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=C/bX2duJBisB/H+ck3v/5kVyenRDUzd4VlRkWQ==",
+      "title": "B.Sc. (HONS) PART-III EXAM.-2026 (Reval.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "28f670bc2b54dfd30d6970efaf06d16ed60c792f4476ccae08c2445a6d610a26": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=lGeGP/PptIv/OjpDhyNJyVM1TUZ1UElWK05KUg==",
+      "title": "B.Sc. Part-III - 2026 (Reval.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "c3a94a287adc2ade09ab547c1c6f3444fcb489b3419f47ad2c9062849c6d5ffe": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=IopbRF+RP3TNWNv1Htdr+nlCTlpKalFOTmp4SQ==",
+      "title": "B. Com. Part-III - 2026 (Reval.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "d16fca20f7826d7fb05d462b69ef66f24958b3a3f19949f7b050103306ec841e": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=kHPLa1aZfgsqOSnBLGHJeTNvZmVTUXkrYlptZQ==",
+      "title": "B.B.A. PART-III EXAM.-2026 (Reval.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "7c8ca3c2802c6f541ad877adce607ed4ad35bb15be3079f846f217c942176360": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=1JhFsZtsOidce1K9csgNzHppZVQ4SitsTFNQdQ==",
+      "title": "BSC HOME SCIENCE PART-III- 2026 (Reval.)",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "5b55d757b2a51f5369d8b3cbfb8779217475570e857e2bf3d1a8d9c6503908fe": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=xThKzFN5iM3YMtAtYx6Nv0tLTHRSZWZTZmZVbg==",
+      "title": "B.Ed. M.Ed. VI SEMESTER EXAM.MAY.-2026",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "e652a10cafb7c9c33a1ff7e20b29ad6d1a459cc35acf7910e87ba16027b4c7c9": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=BWaTYF99KelVOjcoeWtqMUdNeVJXdmR5RkxYSw==",
+      "title": "M.Ed. IV SEMESTER EXAM.MAY-2026",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "ece40c25998113ace06d304ae4a6eed71250c786c30e643ba6437dd5cd7426fe": {
+      "url": "https://result.uniraj.ac.in/index.php?rid=VuAdb2Rss5EScIQHpIS52FlvOHNRMnB3OE84Yg==",
+      "title": "M.Ed. SPECIAL EDUCATION (H.I.) IV SEMESTER EXAM. MAY-2026",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "6f40a333525ddfde8ad8de0d90054664d697d005ba9c15c8356ef0f749600d71": {
+      "url": "https://rdunijbpin.org/",
+      "title": "Official source page updated: Rani Durgavati Vishwavidyalaya (RDVV), Jabalpur — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "28efb4bf39aa83cbbb3cfe0545234ddbaef341aae9388c1828b6050a5a485b84": {
+      "url": "https://onlineresults.unipune.ac.in/Result/Dashboard/Default",
+      "title": "Official source page updated: Savitribai Phule Pune University (SPPU) — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "6cc2e5d32f0db7e5def7b4930cc68844acd45bfb75e5e73554d031cf7293a960": {
+      "url": "https://unigug.ac.in/",
+      "title": "Official source page updated: Gondwana University — Results — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
+    },
+    "e4f1d3022a95e81aaaa52f17171f420b6d8ade129dd67b932be3fb2eb289abbd": {
+      "url": "https://www.unishivaji.ac.in/",
+      "title": "Official source page updated: Shivaji University, Kolhapur — Merit & Rank Lists — official source",
+      "first_detected": "2026-10-14T17:09:06+00:00"
     }
   },
   "page_hashes": {
     "https://ssc.gov.in/": {
       "hash": "dc9ed39b3504ef5dbc6da337c86803b0363f116b132078ec03f555c073cd8a36",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://hssc.gov.in/": {
@@ -9014,52 +9474,52 @@
     },
     "https://nta.ac.in/": {
       "hash": "c9d34cd98ece81497d2b066f57df0d8cc7f9e65a9db330cf0c56f8d492221e90",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://exams.nta.ac.in/": {
       "hash": "c9e336b582c9c1d7de7a4d427a337b9fa89263ba5976abe87c4f173e2c79d0c7",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.ignou.ac.in/": {
       "hash": "b9839ea365718412b0656249bb701fbc6e79d6a13df44cdd8e801b98ab0051f2",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.ugc.gov.in/": {
-      "hash": "45227981e04e737c4e7b0c0f488f395605981ef09853128efdb951dc31eb2421",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "c3fece9b35daad93e4929414ef34a7d49e984c7af00e8ac7ee97cfad8a95f091",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://haryana.gov.in/": {
-      "hash": "1401602b2a8c67ad06618ee9ba14267e306b5b197e5348fb03948dc3b38a835d",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "0620368f1335689c38dddc54720eea4978e4b348a3bb09d4e47eb321e77db68b",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://bseh.org.in/": {
       "hash": "073ea0d94fff72ab479eec1ab8b9710fbda10fe37b24e6da7cb3e3e803033c4d",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://results.uoc.ac.in/": {
       "hash": "c09a8d198ab5d538797ff91f908c6665776b14b872cd7b1dd4542c13d8ae69c0",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://b-u.ac.in/143/results": {
-      "hash": "623e444c06244161ccf065d801808c19693e5e2b563ab39c07e2c5001b1cfed0",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "163648fed616cc3054b7e8f9bb904152d159fcaeb4702328def9db61987f47dd",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://egovernance.unom.ac.in/results/ugresultpage.asp": {
       "hash": "2efc133379c95eba8719a24df48be4257d87b4881466f5efc268d4e55ceb6e82",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List": {
       "hash": "2c5e832d9339b2d8969a98b162dfc8775615d0cbedd689a96b035083d5b84886",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.haryana.gov.in/haryana-board-examination-results/": {
@@ -9068,28 +9528,28 @@
       "status": "ok"
     },
     "https://boardresults.education.gov.in/": {
-      "hash": "36b039bbc7495771fdf87acbabd66815deae50c84eab8443b8621d8b28573624",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "1d065490d65932002f704284efce6d3f80e2e37d620ed81f69057f3dcbcb4ad0",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.nta.ac.in/NoticeBoardArchive": {
       "hash": "ebcee16200cd993c07e0a318edb3ae29f60433b8e44bcee7bce6cd5062248759",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://mdu.ac.in/": {
       "hash": "9245caf047e198d817dbab2f64bdaf4317c2c492b4127b234e9068a0fc26025f",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://gurugramuniversity.ac.in/": {
       "hash": "ca466ac9295e7ae1b838422ea46e7fa2f0a2d4971d989b820f7dbf091d3bb666",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://gjust.ac.in/": {
       "hash": "274c69a1975a4bda54e1417e482632af89917784d6ef7648e2372a9e2c9a143f",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.cuh.ac.in/": {
@@ -9099,227 +9559,227 @@
     },
     "https://dcrustm.ac.in/": {
       "hash": "7e2362dec6f70d884ec12a1212b13a0e3e7a395befb360d145f793b34196cb69",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://igu.ac.in/": {
-      "hash": "423df9a4baf8efa813521ec4a227a2cd73f69f6fe59a6a21f4c1a026c16f9264",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "a8279d84f4787564b0f2b036ab5cab32e149c6f46f7d7ec7ff52a19f007273da",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://hsbte.org.in/": {
-      "hash": "ad1e4b698dbc93a377c51e4b6e657f3cef0e71fc1f97e873f0dc160d1f1c1657",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "67e0663aab0fae443e5697d9e775d82dbf407719d92eee66e0265a13e80150f1",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://termendresult.ignou.ac.in/": {
       "hash": "7e55b2087e400aa52157e1b7232d868b27e832201ce97fc83a761ffc3858a292",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://results.nios.ac.in/": {
-      "hash": "cad9168a2a12392e7d52e50192c6d839ee44a6f6d4b943397f8284b2c826fcd7",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "5f0b3e69773361802f1e450b2c14f6e6563df2aa1a7ad92167eb438245547b5f",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://upmsp.edu.in/": {
-      "hash": "4c643c621559eb86cef569c8891f4cb36ff6512dadcbd81fe63de9b169e3de97",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "ecbe1241c3b6e94c2015edfcf6fcd3f7497f2647e5087a4b0d532ebe987afea2",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://rajeduboard.rajasthan.gov.in/": {
       "hash": "0f52eedbb44c0c770f3df8f7d27ce182f9fb79d4615a88f0a0062e51ca1a8cc6",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.pseb.ac.in/": {
-      "hash": "a71542731c5023a33b4b82d34648d9a9880a71b05c1a7ea770a8df049391eccf",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "32e4cfe0b3ed16f0c3bac9cd25f41ac4bc7909ac002c3e2a756e643fcdbab740",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://mpbse.nic.in/": {
       "hash": "002b41fcb07ccb6e7c0b19d6dfecc69389bbea96105309625f7f4c5e6980c62f",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://mahahsscboard.in/": {
       "hash": "51d4894904495b5a1dcb9e08072d16d1a100f3b91a37b63a0bc4843c091fb9f1",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.du.ac.in/": {
       "hash": "8abfaf5e4de8ac5fe2f2a12cd8432c631af50f766a2ea105b5a2907752237f27",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://exam.du.ac.in/": {
       "hash": "f08d9864bc93be36dc4531b3f9ec12370c0908d1c045f474af4c9e5bef7cb4e6",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://puchd.ac.in/": {
-      "hash": "dc7a56878351b1ede06d48cddae601c70ee333597d442ebd3e81411ac767e218",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "497bfec1de5227b827eca71692c89c291daf9daaba075f4fcdc8ce19fac8615b",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.jmi.ac.in/": {
-      "hash": "41900c88b381fa96ad00516df4a69a28e6402a14ef7eb0aa73a302c58c163426",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "aa2274f4f84a3017fa7ed34924b1a97825127045d8e58e3d6d7a5821701b88fc",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://pareekshabhavan.kerala.gov.in/index.php/sslc-results": {
-      "hash": "cba3d047911c58a31430cd0b3d3ae1e9652660bc1fcaebcadc5dd4971bc4661d",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "73f5dc0e341b072805a0f5901719154df859a5fe6da7d9d3d90c54c84dd9c097",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://sslcexam.kerala.gov.in/": {
-      "hash": "4518b1c1822d5f62fd55d3a99fdf71305ce19c68abbefc3a1d9dae80b15c08e0",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "b9af805784049a30e943864874f40e199356ab6532a6e96433fd7ae4072145c0",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://result.gseb.org/": {
-      "hash": "ecc91de76f3891655232c67c6db40ac0935f9a8d42d3d7edcfbcf6357f67be10",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "07c052d5877841ace7c973105ef7feab71f818c4718bb51a7441244a1199748f",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.gseb.org/": {
       "hash": "0a8d7e464e9fae4bfafcec35ec82a26818a53104949a5b13516c5fede3cef33c",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://jac.jharkhand.gov.in/": {
       "hash": "13630ae3c9e775227ca8d89015003c7b7a7ea6bee306cb7516bd31d097339d33",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.mbose.in/": {
-      "hash": "e4804fac62dc432f6fca869176a84f0d5ed6d545236b242640d22e98ecfdab12",
-      "checked_at": "2026-10-14T04:51:45+00:00",
+      "hash": "f79aef556a1f5143e45f4c1430a88e4d37fb9e55489c85663c98cd7e6d1560b2",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.mbse.edu.in/": {
-      "hash": "048de7a77fbfe4898cfea7cbb286903954143cd35f62791eb41b962da215cbc4",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "d4fec8f25a3ff787542ce19b729abd2757cb86c03ac8763cd5b61d3ff9cf77c2",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.bosem.in/": {
       "hash": "995106e67acf6b033720501a5a21936fd02a5310345c7b1fb82e671a02c7dec0",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://cohsem.nic.in/": {
       "hash": "d799cd1ab7fa683b71150fb5397e22bf99229da599998ff348748ea04db28266",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://nbsenl.edu.in/": {
-      "hash": "cdc6003795eeb38232301f54a7e02d0dabbe514b2fc6f457db748530c3d2da33",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "5570cbeb64f6e451dc804ef25478cb4fe2679378d34e5087b120f9dad8c4ef3a",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://education.sikkim.gov.in/": {
-      "hash": "080e07ab538b4b2098500568ee7e4512ecf2546f49ae8bbb06b0808186819cf1",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "ad6ea045c2ebf9e8e79d8c7ac85b96de670bcd271b82b33f864b5ed6e856865a",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://apdhte.nic.in/": {
       "hash": "13f1b13c58750043c24e95e53c25d560f8093d61f800610c08f85faaa67bbf34",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.lkouniv.ac.in/": {
-      "hash": "03dbb870f98f40797e9b16f7af67d4534eff31a1f8e8d0b2fa91936cbffb631f",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "320fb517ee49d9cdf5e1f723b548d6a8fd47d6d81a529881a36fda36d447b77c",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.rmlau.ac.in/": {
       "hash": "1ff5823551df5e19294a279cdff45a575b942de2c3a3c5ba3a59162f49ccbf4a",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.ccsuniversity.ac.in/": {
       "hash": "db2e4b6146ba45b1bc00211888de492938ea88974bfd3fa841d31ae1a31c460e",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.bujhansi.ac.in/": {
       "hash": "2f3511309a887292d229b9a7a1d571d6d8dfd225e06e86b37e8158cca14de2bb",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.allduniv.ac.in/": {
       "hash": "1f6a4e3ae7cec4446fcf3e4b9e6068b5a87b1cee57a85c7c5a18159753210063",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://result.uniraj.ac.in/index.php": {
-      "hash": "67de32041583d392826443c21cd29332e57921e73af5a483fc067996e06fd0c3",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "239520a6b95f71b71bdb6f78c81b5621ce0946fa28d0f768176c2738ccd27d2e",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://rdunijbpin.org/": {
-      "hash": "215660d7d3309150fe226f0593de9d2e34894655366668442c5befab6d5d9e2a",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "73f33adbeaad28c8068bd776147bbf459edd9ab6d99eadd97efc7ee35b9b5b77",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://results3.jntuh.ac.in/": {
       "hash": "d48e36c250aa3fb4b2f9ec74aca75c8dc4bd2a7d209e99a2e3af323c1a9498c3",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://jntuh.ac.in/": {
       "hash": "69e80a15c63b4c3ae94aba46544f0db0c45abfaa74647863479894910ffcbd90",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://onlineresults.unipune.ac.in/Result/Dashboard/Default": {
-      "hash": "c70fc7f099cab2e537f9e895c6fc1a644e26130be951746226b214d65d67d81c",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "45fe0f57cfa951f9e38ee52461e8b11fe1d9250410b703794d7d527ed711a185",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.unipune.ac.in/": {
       "hash": "4f68f25ed3ab543a98a4205441475beeb8c97f1b1f44d1169b6abce347a80ca7",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://unigug.ac.in/": {
-      "hash": "6a2d497b30937d5477a1b92b506121204092f362b8d78a305b84f47c437be9ad",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "e420b09397bfa73671812b3afcc1bf6899c6e63f3425705fa05eaccbe0a47feb",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://vtu.ac.in/": {
       "hash": "4ef3573247f6af0ba550088fcb401e21f3bc0a1880db0eede3b0346c71c21449",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://results.b-u.ac.in/ac/results.asp": {
       "hash": "1302881dfdb51777462f1d793c370f2e3e173fbc2fd8711eeda4fe3a6cc2dfd2",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://results.b-u.ac.in/2026/ud_apr/results.asp": {
       "hash": "cb5160a1da697570cdcfeeac4996e13062f0e65190a86c48e8ec6587dc084616",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://egovernance.unom.ac.in/instresult/ugresultpage.asp": {
       "hash": "7530886edde899bd1c00f2f0d2013b3c81a32ef05f6fcf38967ca04fc5b76ebb",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.keralauniversity.ac.in/": {
       "hash": "394526dc7f19cea1cc7fac1c8f9a4bd4baafc29361d9759cd2ac37d722c3ae72",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.unishivaji.ac.in/": {
-      "hash": "e3b1fcfef19e5083727e5c8154704209bfbe58821afb4917d139a6bf76f80e10",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "96f9951dc6b2b5bb1d2ef9863cc58cc7673e136441ac38e00ac5f3264975e2a6",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.punjabiuniversity.ac.in/": {
-      "hash": "b78840caae9477a046f4401ba0f6d519c505021bb7281907dcf2615d7b423e61",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "c9e521569263e92426e9d7003f200ea8d32f45d65c92b29907efa5758809746c",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://hpbose.org/": {
@@ -9328,48 +9788,53 @@
       "status": "ok"
     },
     "https://www.uniraj.ac.in/": {
-      "hash": "970778e3da915192e41f4d66b319feca570c136f982589033eb3f6761831466c",
-      "checked_at": "2026-10-13T22:43:48+00:00",
+      "hash": "1ea3f7194e9b121d4ebfbd30382762ed05fda4469ebb384e70a6ae2ce31a7e11",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.hssc.gov.in/advertisement": {
       "hash": "58189e05ab2791203d5ba17ef74026b0b44c8df591bb1565f7bb6003682fcde6",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://bseh.org.in/recent-news": {
-      "hash": "b94d152b5d353d57090832f4fc918b501b0725a19e0c7ad8f1b0f5faeea09613",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "8342ea20c2443e093234e00f1f20e6063ff87dffe7545efb5d1d0dc8f554dce2",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.bpsmvedp.ac.in/": {
-      "hash": "395f0acdd5096a808952a99347771983de615d0c65ed40e1ee6e80b630f711d2",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "9855c863d949a72a7105cff5c8a28a150a36d3c678daaa9b324c2082a9aa3759",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://result.biharboardonline.org/": {
       "hash": "f2c4442bb7268e7fe9f2c2068b5281f927fe9b407d9ebbbe11d2d99bf06f655d",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://biharboardonline.com/": {
       "hash": "163f50079588a9662cb427d8f829579a41fdb9263dfd0e96e5676d95e1a1df76",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.lkouniv.ac.in/en/news?Newslistslug=en-examination-schedule&cd=OAA1AA%3D%3D": {
-      "hash": "7fffd4b9268ba57249d9352d390a2e2df867c3d9df61f17f67e958ec5f7eb1d9",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "hash": "262a388ab5faf2421cee04a88a16d36ba5a9c1a2fffb1a018edf6fc02c2472be",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.hssc.gov.in/index.php/publicNotice": {
       "hash": "da0b8254404ffc7e1fbdc524eeb3315553d36e04e45d28ae412939bea60e21d0",
-      "checked_at": "2026-10-14T11:49:58+00:00",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     },
     "https://www.unom.ac.in/": {
       "hash": "1d1646defee97a4e6eb385bdbaae22680dbb9f943b8cb825cfa623aed313f4d0",
       "checked_at": "2026-10-14T04:51:45+00:00",
+      "status": "ok"
+    },
+    "https://chseodisha.nic.in/results/": {
+      "hash": "79982fa1021d93c22209c537006556b7b9f9a95128935f9a783f4334b1997ec3",
+      "checked_at": "2026-10-14T17:09:06+00:00",
       "status": "ok"
     }
   },
@@ -18886,6 +19351,526 @@
       "title": "Revised Notice reg exam forms of MA 2 yr MSW MSc MCom II Sem Reg_NEP Old course June 2026",
       "url": "https://rdunijbpin.org/Site/Upload/f6ba7962-9734-425f-a3a3-94f50ca63aa1.pdf",
       "detected_at": "2026-10-14T11:49:58+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260623193509.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260623135541.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260622151619.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260621193322.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260621191633.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260619163856.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260619163804.PDF",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260619111344.PDF",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260618201747.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260618184532.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260618113547.PDF",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260617200534.PDF",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Shivaji University Results",
+      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
+      "category": "University Results",
+      "title": "M A Psychology Merit and Rank March 2026",
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/31-July/Psychology.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Shivaji University Results",
+      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
+      "category": "University Results",
+      "title": "M A Travel and Tourism Merit and Rank March 2026",
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/31-July/TravelandTourism.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Shivaji University Results",
+      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
+      "category": "University Results",
+      "title": "Rank list B.A.in Dress Making and Fashion Coordination",
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/16-July/RanklistBDFC.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Shivaji University Results",
+      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
+      "category": "University Results",
+      "title": "Rank list CBCS B.Sc.Food Technology and Management(Entire)",
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/16-July/RanklistBFTM.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Shivaji University Results",
+      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
+      "category": "University Results",
+      "title": "Merit list B.A.in Dress Making and Fashion Coordination",
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/16-July/MeritlistBDFC.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Shivaji University Results",
+      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
+      "category": "University Results",
+      "title": "Merit list CBCS B.Sc.Food Technology and Management(Entire)",
+      "url": "https://www.unishivaji.ac.in/uploads/exam/2026/July/16-July/MeritlistBFTM.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Shivaji University Results",
+      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
+      "category": "University Results",
+      "title": "Merit List and Rank List 2025 to 2014",
+      "url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List-2025-to-2014",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Updated answer key of Tourism discipline- 21 july 2026 2026-08-04",
+      "url": "https://gurugramuniversity.ac.in/Notice/updated answer key of Tourism discipline- 21 july 2026_compressed.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Re-Evaluation Result of Exams held in December 2025 January 2026 Notification No. 2601-015 2026-09-29",
+      "url": "https://gurugramuniversity.ac.in/Notice/Re-Evaluation Result of Exams held in December 2025 January 2026 notification no. 2601-015.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Result Notification (Dec-25 & May-26): 08 2026-09-28",
+      "url": "https://gurugramuniversity.ac.in/Notice/result notification 8.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Result Notification (Ph.D Course Work Examination) Media, English, Engg and Tech, Pharmacy May, 2026 2026-09-25",
+      "url": "https://gurugramuniversity.ac.in/Notice/phd  course work Media, English, Engg & Tech, Pharmacy result May 2026 RII .pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Result Notification No. 14 (May 2026 Examinations R2) 2026-09-24",
+      "url": "https://gurugramuniversity.ac.in/Notice/Result notification No. 14 (MAY 2026 Examination) R2.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Notification for hearing UMC for granting second-last opprotunity for hearing of absent cases in its meeting held on 09-09-2026 2026-09-22",
+      "url": "https://gurugramuniversity.ac.in/Notice/Notification for hearing UMC for granting second-last opprotunity for hearing of absent cases in its meeting held on 09-09-2026.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Re-Evaluation Result of Exams held in December 2025 January 2026 Notification No. 2601-014 2026-09-21",
+      "url": "https://gurugramuniversity.ac.in/Notice/Re-evaluation result DEc 2025.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Re-Evaluation Result of Exams held in December-2025/January-2026 Notification No. 2601-13 2026-09-17",
+      "url": "https://gurugramuniversity.ac.in/Notice/Re-Evaluation result of exams held in December-2025 january-2026 Notification No. 2601-013 (1)_compressed.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Result Notification (Ph.D coursework Examination) Mathematics May 2026 2026-09-16",
+      "url": "https://gurugramuniversity.ac.in/Notice/PhD result notification Mathematics may 2026 dated 15-8-2026.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Re-Evaluation Result of Exams held in December-2025/January-2026 Notification No. 2601-12 2026-09-15",
+      "url": "https://gurugramuniversity.ac.in/Notice/2601-012_rotated (1) (1).pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Re-Evaluation Result of Exams held in December-2025/January-2026 Notification No. 2601-12 2026-09-15",
+      "url": "https://gurugramuniversity.ac.in/Notice/2601-012_rotated (2).pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Result Notification (Ph.D Course Work Examination) LAW & EVS May, 2026 2026-09-14",
+      "url": "https://gurugramuniversity.ac.in/Notice/phd  course work Law and EVS result May 26. pdf.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Delhi — UG/PG Semester Results — official source",
+      "source_url": "https://www.du.ac.in/",
+      "category": "University Results / Notices",
+      "title": "01 Oct Notification regarding appointment of the Dean, Faculty of Medical Sciences till 25.11.2026",
+      "url": "https://www.du.ac.in/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=16218&cntnt01returnid=219",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Delhi — UG/PG Semester Results — official source",
+      "source_url": "https://www.du.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Study at DU Admissions 2026-27",
+      "url": "https://www.du.ac.in/index.php?page=study-at-du",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Delhi — UG/PG Semester Results — official source",
+      "source_url": "https://www.du.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Examination & Results",
+      "url": "https://www.du.ac.in/index.php?page=examination-results",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Delhi — UG/PG Semester Results — official source",
+      "source_url": "https://www.du.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Gazette Notification of July 2016 regarding MOU with Foreign Institutions",
+      "url": "https://www.du.ac.in/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=15&cntnt01pagelimit=4&cntnt01returnid=219",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Delhi — UG/PG Semester Results — official source",
+      "source_url": "https://www.du.ac.in/",
+      "category": "University Results / Notices",
+      "title": "The titers of rice tungro bacilliform virus dictate the expression levels of genes related to cell wall dynamics in rice plants affected by tungro disease - Prof. Indranil Dasgupta",
+      "url": "https://www.du.ac.in/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=889&cntnt01pagelimit=4&cntnt01returnid=219",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Delhi — UG/PG Semester Results — official source",
+      "source_url": "https://www.du.ac.in/",
+      "category": "University Results / Notices",
+      "title": "View All",
+      "url": "https://www.du.ac.in/index.php?page=notice-board-view-all",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Odisha Results — CHSE, BSE & University Results — official source",
+      "source_url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices",
+      "title": "Screen Reader Access",
+      "url": "https://chseodisha.nic.in/results/screen_reader_access",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Odisha Results — CHSE, BSE & University Results — official source",
+      "source_url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices",
+      "title": "Feedback",
+      "url": "https://chseodisha.nic.in/results/feedback",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Odisha Results — CHSE, BSE & University Results — official source",
+      "source_url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices",
+      "title": "Examination Schedule",
+      "url": "https://chseodisha.nic.in/examination_schedule/",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Odisha Results — CHSE, BSE & University Results — official source",
+      "source_url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices",
+      "title": "Examination Notices",
+      "url": "https://chseodisha.nic.in/examination_notices/",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Odisha Results — CHSE, BSE & University Results — official source",
+      "source_url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices",
+      "title": "Examination Center",
+      "url": "https://chseodisha.nic.in/examination_center/",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Odisha Results — CHSE, BSE & University Results — official source",
+      "source_url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices",
+      "title": "Examination Pattern",
+      "url": "https://chseodisha.nic.in/examination_pattern/",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Odisha Results — CHSE, BSE & University Results — official source",
+      "source_url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices",
+      "title": "Examination Management Hub",
+      "url": "https://chseodisha.nic.in/examination_management_hub/",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "Odisha Results — CHSE, BSE & University Results — official source",
+      "source_url": "https://chseodisha.nic.in/results/",
+      "category": "University Results / Notices",
+      "title": "Forms",
+      "url": "https://chseodisha.nic.in/forms/",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Regarding the list of affiliated colleges (Jaipur) are hereby granted extension of affiliation provisionally for academic session 2026-27.",
+      "url": "https://www.uniraj.ac.in/circular/circular/5756-14.10.2026.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Information regarding distribution of Gold Medals in the Convocation, UoR, Jaipur.",
+      "url": "https://www.uniraj.ac.in/circular/notice/2543-28.03.2026.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Notice inviting applications for appointment of Vice Chancellor for the UTTAR PRADESH RAJARSHI TANDON OPEN UNIVERSITY, PRAYAGRAJ (U.P).",
+      "url": "https://www.uniraj.ac.in/circular/notice/VC782-27aug26.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Notice regarding Logo Making Competition, Sri Guru Gobind Singh Chair for National Integration and Sikh Studies, UoR, Jaipur.",
+      "url": "https://www.uniraj.ac.in/circular/notice/359-18.08.2026.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Notice inviting applications for appointment of Vice-Chancellor for Bhatkhande Sanskriti University, Lucknow (U.P.).",
+      "url": "https://www.uniraj.ac.in/circular/notice/4376-29.07.2026.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Notice regarding all departments/centre/colleges to send the necessary information for updating the university website.",
+      "url": "https://www.uniraj.ac.in/circular/notice/IC2121-23-07feb16.pdf",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Form 16 Download",
+      "url": "https://www.uniraj.ac.in/Empcorner/",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Download Form",
+      "url": "https://www.uniraj.ac.in/index.php?mid=130",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.P.Ed. IV-SEMESTER EXAM MAY 2026 (REVAL.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=SZBL440FJr7hrXYjHCIY8WJKYXJqNGVZVC9aWQ==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.A. (HONS) PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=TtNV48ImjTTqR2rMBk0e/09mSk1QZHN5QmJQVA==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.A. PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=UveFcMV3Xyog8959e6DR324zNERMaEtwSFg1Vg==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.C.A. PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=iQhu36vjGj7vcdg1RDFkaHFwblE2YjhKUDJXaA==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.Sc. (HONS) PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=C/bX2duJBisB/H+ck3v/5kVyenRDUzd4VlRkWQ==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.Sc. Part-III - 2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=lGeGP/PptIv/OjpDhyNJyVM1TUZ1UElWK05KUg==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B. Com. Part-III - 2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=IopbRF+RP3TNWNv1Htdr+nlCTlpKalFOTmp4SQ==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.B.A. PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=kHPLa1aZfgsqOSnBLGHJeTNvZmVTUXkrYlptZQ==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "BSC HOME SCIENCE PART-III- 2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=1JhFsZtsOidce1K9csgNzHppZVQ4SitsTFNQdQ==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.Ed. M.Ed. VI SEMESTER EXAM.MAY.-2026",
+      "url": "https://result.uniraj.ac.in/index.php?rid=xThKzFN5iM3YMtAtYx6Nv0tLTHRSZWZTZmZVbg==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "M.Ed. IV SEMESTER EXAM.MAY-2026",
+      "url": "https://result.uniraj.ac.in/index.php?rid=BWaTYF99KelVOjcoeWtqMUdNeVJXdmR5RkxYSw==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "M.Ed. SPECIAL EDUCATION (H.I.) IV SEMESTER EXAM. MAY-2026",
+      "url": "https://result.uniraj.ac.in/index.php?rid=VuAdb2Rss5EScIQHpIS52FlvOHNRMnB3OE84Yg==",
+      "detected_at": "2026-10-14T17:09:06+00:00"
     }
   ]
 }
