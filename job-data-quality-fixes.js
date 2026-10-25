@@ -1140,4 +1140,67 @@
     Object.keys(cfg).forEach(function (key) { record[key] = cfg[key]; });
   });
 
+
+  // Fresh official-source additions checked on 25/10/2026.
+  const verifiedOctoberJobs = [
+    {
+      id: "luvas-covs-teaching-associate-2026-27",
+      title: "LUVAS Teaching Associate Recruitment 2026 — 27 Posts",
+      post: "Teaching Associate (19 discipline/unit rows)",
+      organization: "Lala Lajpat Rai University of Veterinary and Animal Sciences (LUVAS), Hisar",
+      category: "State Job",
+      state: "Haryana",
+      openDate: "13/10/2026",
+      lastDate: "31/10/2026",
+      vacancy: "27 temporary engagements",
+      mode: "Offline — by hand or post",
+      qualification: "Relevant Bachelor's degree (B.V.Sc. & A.H./B.V.Sc.; Agriculture B.Sc. for the specified Agronomy/Plant Breeding position) and Master's degree in the relevant subject; Ph.D. preferred. Check discipline-wise requirements in the notice.",
+      age: "Age limit not stated in the notice summary; check official notification.",
+      salary: "Fixed honorarium ₹60,000 per month; no other allowance/benefit.",
+      fee: "No application fee stated in the notice; confirm the prescribed form/instructions before submission.",
+      selection: "Academic qualifications, additional qualifications/publications, presentation and interview; detailed marks are in the official notice.",
+      documents: "Prescribed Annexure-A form, signed photo, self-attested academic certificates/mark sheets, date-of-birth proof, category/reservation certificate where applicable, Haryana residence certificate and supporting testimonials/publications.",
+      official: "https://www.luvas.edu.in/applications-are-invited-for-27-posts-of-teaching-associate-in-various-departments-of-the-college-of-veterinary-sciences-hisar.html",
+      notice: "https://luvas.edu.in/downloads/files/n6ace14bf6d789.pdf",
+      apply: "https://www.luvas.edu.in/applications-are-invited-for-27-posts-of-teaching-associate-in-various-departments-of-the-college-of-veterinary-sciences-hisar.html",
+      verificationSource: "https://luvas.edu.in/downloads/files/n6ace14bf6d789.pdf",
+      dataAuditDate: "25/10/2026",
+      verificationStatus: "OFFICIAL NOTICE VERIFIED 25/10/2026: LUVAS Advt. No. LUVAS/COVS/TA/2026/01 dated 13/10/2026. The notice states 27 positions, ₹60,000 fixed monthly honorarium and receipt deadline 31/10/2026 at 5:00 PM. Temporary, non-regular engagement ending with academic year 2026-27.",
+      updates: "Application must reach The Dean, College of Veterinary Sciences, LUVAS, Hisar, Haryana-125004 by hand/post by 31/10/2026, 5:00 PM. Submit a separate form for each position. Postal delay is the applicant's responsibility."
+    },
+    {
+      id: "sssc-punjab-clerk-37c-2026",
+      title: "SSSC Punjab District Courts Clerk Recruitment 2026 — 1,270 Posts",
+      post: "Clerk",
+      organization: "Society for Centralized Recruitment of Staff in Subordinate Courts (SSSC), Punjab District Courts",
+      category: "State Job",
+      state: "Punjab",
+      openDate: "07/10/2026",
+      lastDate: "04/11/2026",
+      vacancy: "1,270 posts (vacancy distribution/category rules in official PDF)",
+      mode: "Online",
+      qualification: "Bachelor of Arts/Bachelor of Science or equivalent from a recognised university; Matriculation with Punjabi as a subject; computer-operation proficiency.",
+      age: "18–37 years as on 01/01/2026 for General; category-specific relaxations apply. Punjab domicile is required for Punjab reservation/fee concessions; other-state reserved-category applicants apply as General as per notice.",
+      salary: "₹29,200 (Level 5) for fresh recruitment, as stated in the notice.",
+      fee: "Punjab SC/BC/OBC/ESM/EWS: ₹710; Punjab PwBD: ₹875; all other categories: ₹1,200. Fee is non-refundable; verify category eligibility in the notice.",
+      selection: "Online written CBT (GK and English Composition), followed by qualifying Computer Proficiency Test (spreadsheet and English typing), then original-document checking/interaction. Read the notice for full marks and rules.",
+      documents: "Educational certificates, Matriculation Punjabi proof, photo/signature, category/residence certificates if claiming reservation or fee concession, and other documents required by the official application form.",
+      official: "https://sssc.gov.in/notice-board",
+      notice: "https://www.sssc.gov.in/public/storage/notices/Advt%20dated%2003.10.2026%20Pb%20Clerk.pdf",
+      apply: "https://sssc.gov.in/",
+      verificationSource: "https://www.sssc.gov.in/public/storage/notices/Advt%20dated%2003.10.2026%20Pb%20Clerk.pdf",
+      dataAuditDate: "25/10/2026",
+      verificationStatus: "OFFICIAL NOTICE VERIFIED 25/10/2026: SSSC Detailed Employment Notice No. 37C/SSSC/PB/2026 dated 03/10/2026. Official notice confirms 1,270 posts, applications 07/10/2026 4:00 PM to 04/11/2026 4:00 PM, eligibility, age, pay, fees and selection stages.",
+      updates: "Apply only through the official SSSC website. Exam date will be announced on the official website. Punjab reservation and fee concessions are limited as specified in the notice; candidates from other states must read the domicile/category conditions carefully."
+    }
+  ];
+  verifiedOctoberJobs.forEach(function (cfg) {
+    let record = window.AJ_JOB_DATA.find(function (item) { return item && item.id === cfg.id; });
+    if (!record) {
+      record = { id: cfg.id };
+      window.AJ_JOB_DATA.push(record);
+    }
+    Object.keys(cfg).forEach(function (key) { record[key] = cfg[key]; });
+  });
+
 })();
