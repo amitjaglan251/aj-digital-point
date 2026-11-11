@@ -1,19 +1,124 @@
 {
-  "generated_at": "2026-11-10T19:42:22+00:00",
+  "generated_at": "2026-11-11T06:14:36+00:00",
   "description": "Automatically detected links from configured official websites. These are leads; read the original notice before acting.",
-  "total_new_links_this_run": 49,
+  "total_new_links_this_run": 72,
   "sources_checked": 123,
-  "sources_ok": 67,
-  "sources_failed": 56,
+  "sources_ok": 71,
+  "sources_failed": 52,
   "updates": [
+    {
+      "source": "Haryana Staff Selection Commission — Advertisements / Recruitment Notices",
+      "source_url": "https://www.hssc.gov.in/advertisement",
+      "category": "Haryana Jobs / Official Advertisements / Results",
+      "title": "Official source page updated: Haryana Staff Selection Commission — Advertisements / Recruitment Notices",
+      "url": "https://www.hssc.gov.in/advertisement",
+      "detected_at": "2026-11-11T06:14:36+00:00",
+      "type": "page-change"
+    },
     {
       "source": "National Testing Agency",
       "source_url": "https://nta.ac.in/",
       "category": "Admissions / Exams / Results",
       "title": "Official source page updated: National Testing Agency",
       "url": "https://nta.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260403111546.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260403111522.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260402183646.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260402183626.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260402172517.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260401211359.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260401210752.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260401190548.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260401190517.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260401121001.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260330190904.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "National Testing Agency",
+      "source_url": "https://nta.ac.in/",
+      "category": "Admissions / Exams / Results",
+      "title": "Read More",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260330190846.pdf",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "Indian Railways",
@@ -21,16 +126,7 @@
       "category": "Railway Notices",
       "title": "Official source page updated: Indian Railways",
       "url": "https://indianrailways.gov.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
-      "type": "page-change"
-    },
-    {
-      "source": "IGNOU",
-      "source_url": "https://www.ignou.ac.in/",
-      "category": "Admissions / Results",
-      "title": "Official source page updated: IGNOU",
-      "url": "https://www.ignou.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -39,17 +135,104 @@
       "category": "Higher Education Notices",
       "title": "Official source page updated: University Grants Commission",
       "url": "https://www.ugc.gov.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
-      "source": "Haryana Government",
-      "source_url": "https://haryana.gov.in/",
-      "category": "Haryana Government Notices / Schemes",
-      "title": "Official source page updated: Haryana Government",
-      "url": "https://haryana.gov.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
-      "type": "page-change"
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Introduction",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Introduction",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Vision",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Vision",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Objectives",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Objectives",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Who’s Who",
+      "url": "https://highereduhry.ac.in/forms/WebPages/WhosWho",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Colleges",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Colleges",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Universities",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Universities",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Teacher Education (SIASTE)",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Siaste",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "State Libraries",
+      "url": "https://highereduhry.ac.in/forms/WebPages/StateLibraries",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "RUSA",
+      "url": "https://highereduhry.ac.in/forms/WebPages/RUSA",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Earn While You Learn (Freelancing / Ekarma)",
+      "url": "https://highereduhry.ac.in/forms/WebPages/eKarma",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Startup Incubator cum Centre of Excellence",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Incubation",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Admissions",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Admissions",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "Bharathiar University Results",
@@ -57,7 +240,7 @@
       "category": "University Results",
       "title": "Official source page updated: Bharathiar University Results",
       "url": "https://b-u.ac.in/143/results",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -66,7 +249,7 @@
       "category": "Haryana Board Results / Notices / Admit Cards",
       "title": "Official source page updated: Board of School Education Haryana (BSEH) — Recent News / Results / Admit Cards — official source",
       "url": "https://bseh.org.in/recent-news",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -75,7 +258,25 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: Other State Boards — Official Results Gateway — official source",
       "url": "https://boardresults.education.gov.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
+      "type": "page-change"
+    },
+    {
+      "source": "Gurugram University — official source",
+      "source_url": "https://gurugramuniversity.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Official source page updated: Gurugram University — official source",
+      "url": "https://gurugramuniversity.ac.in/",
+      "detected_at": "2026-11-11T06:14:36+00:00",
+      "type": "page-change"
+    },
+    {
+      "source": "Guru Jambheshwar University (GJUST), Hisar — official source",
+      "source_url": "https://gjust.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Official source page updated: Guru Jambheshwar University (GJUST), Hisar — official source",
+      "url": "https://gjust.ac.in/",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -84,7 +285,7 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: Central University of Haryana — official source",
       "url": "https://www.cuh.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -93,7 +294,7 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: Bhagat Phool Singh Mahila Vishwavidyalaya (BPSMV) — official source",
       "url": "https://www.bpsmvedp.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -102,7 +303,7 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: Indira Gandhi University, Meerpur (IGU) — official source",
       "url": "https://igu.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -111,7 +312,7 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: Haryana State Board of Technical Education (HSBTE) — official source",
       "url": "https://hsbte.org.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -120,7 +321,7 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: NIOS — Secondary & Senior Secondary Results — official source",
       "url": "https://results.nios.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -129,7 +330,7 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: UPMSP — Class 10 & Class 12 Results — official source",
       "url": "https://upmsp.edu.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -138,16 +339,7 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: PSEB — Matriculation & Senior Secondary — official source",
       "url": "https://www.pseb.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
-      "type": "page-change"
-    },
-    {
-      "source": "University of Delhi — UG/PG Semester Results — official source",
-      "source_url": "https://www.du.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Official source page updated: University of Delhi — UG/PG Semester Results — official source",
-      "url": "https://www.du.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -156,16 +348,16 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: Punjabi University, Patiala — official source",
       "url": "https://www.punjabiuniversity.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
-      "source": "Jamia Millia Islamia — Examination Results — official source",
-      "source_url": "https://www.jmi.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Official source page updated: Jamia Millia Islamia — Examination Results — official source",
-      "url": "https://www.jmi.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "source": "Kerala — SSLC Results — official source",
+      "source_url": "https://pareekshabhavan.kerala.gov.in/index.php/sslc-results",
+      "category": "Board / Entrance Results / Notices",
+      "title": "Official source page updated: Kerala — SSLC Results — official source",
+      "url": "https://pareekshabhavan.kerala.gov.in/index.php/sslc-results",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -174,16 +366,25 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: GSEB — SSC & HSC Results — official source",
       "url": "https://result.gseb.org/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
-      "source": "Odisha Results — CHSE, BSE & University Results — official source",
-      "source_url": "https://chseodisha.nic.in/results/",
+      "source": "HPBOSE — Matric & Plus Two Results — official source",
+      "source_url": "https://hpbose.org/",
       "category": "University Results / Notices",
-      "title": "Official source page updated: Odisha Results — CHSE, BSE & University Results — official source",
-      "url": "https://chseodisha.nic.in/results/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "title": "Official source page updated: HPBOSE — Matric & Plus Two Results — official source",
+      "url": "https://hpbose.org/",
+      "detected_at": "2026-11-11T06:14:36+00:00",
+      "type": "page-change"
+    },
+    {
+      "source": "Meghalaya Board (MBOSE) — SSLC & HSSLC — official source",
+      "source_url": "https://www.mbose.in/",
+      "category": "Board / Entrance Results / Notices",
+      "title": "Official source page updated: Meghalaya Board (MBOSE) — SSLC & HSSLC — official source",
+      "url": "https://www.mbose.in/",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -192,32 +393,8 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: Mizoram Board (MBSE) — HSLC & HSSLC — official source",
       "url": "https://www.mbse.edu.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
-    },
-    {
-      "source": "Mizoram Board (MBSE) — HSLC & HSSLC — official source",
-      "source_url": "https://www.mbse.edu.in/",
-      "category": "Board / Entrance Results / Notices",
-      "title": "2027 HSLC Examination Routine",
-      "url": "https://www.mbse.edu.in/wp-content/uploads/2026/11/HSLC-2027-Exam-Routine.pdf",
-      "detected_at": "2026-11-10T19:42:22+00:00"
-    },
-    {
-      "source": "Mizoram Board (MBSE) — HSLC & HSSLC — official source",
-      "source_url": "https://www.mbse.edu.in/",
-      "category": "Board / Entrance Results / Notices",
-      "title": "2027 HSSLC Examination Routine",
-      "url": "https://www.mbse.edu.in/wp-content/uploads/2026/11/2027-HSSLC-Examination-Routine.pdf",
-      "detected_at": "2026-11-10T19:42:22+00:00"
-    },
-    {
-      "source": "Mizoram Board (MBSE) — HSLC & HSSLC — official source",
-      "source_url": "https://www.mbse.edu.in/",
-      "category": "Board / Entrance Results / Notices",
-      "title": "HSSLC 2027-Centre List",
-      "url": "https://www.mbse.edu.in/wp-content/uploads/2026/11/Notification-for-HSSLC-Examination-Centre-list-2027.pdf",
-      "detected_at": "2026-11-10T19:42:22+00:00"
     },
     {
       "source": "NBSE — HSLC & HSSLC Results — official source",
@@ -225,7 +402,7 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: NBSE — HSLC & HSSLC Results — official source",
       "url": "https://nbsenl.edu.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -234,7 +411,7 @@
       "category": "Board / Entrance Results / Notices",
       "title": "Official source page updated: Education Department, Sikkim — Board Results — official source",
       "url": "https://education.sikkim.gov.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -243,16 +420,8 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: University of Lucknow — Results — official source",
       "url": "https://www.lkouniv.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
-    },
-    {
-      "source": "University of Lucknow — Results — official source",
-      "source_url": "https://www.lkouniv.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Mandatory Biometric Verification for Scholarship and Fee Reimbursement (Session 2026–27) [ Notice ]",
-      "url": "https://www.lkouniv.ac.in/site/writereaddata/UploadNews/pdf/C_202611101605466399.pdf",
-      "detected_at": "2026-11-10T19:42:22+00:00"
     },
     {
       "source": "University of Lucknow — Examination Notices & Results — official source",
@@ -260,7 +429,16 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: University of Lucknow — Examination Notices & Results — official source",
       "url": "https://www.lkouniv.ac.in/en/news?Newslistslug=en-examination-schedule&cd=OAA1AA%3D%3D",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
+      "type": "page-change"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://www.uniraj.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Official source page updated: University of Rajasthan, Jaipur — official source",
+      "url": "https://www.uniraj.ac.in/",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -269,7 +447,7 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: University of Rajasthan, Jaipur — official source",
       "url": "https://result.uniraj.ac.in/index.php",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -277,105 +455,96 @@
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B. Com. Part-II - 2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=IFn4LHFNCPqya5mVGTp8LUNtTmQ1OU9PZ3ZhVA==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=6FIP2W6T4D2TqWVRdenPmWZGSitnZVgrVHZWQw==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B. Sc. Part-II - 2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=vALSxN7BjOobg0mgA7p+ZmVJOHRoRWdnT3JycQ==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=HbWfz5Z+zmBAzegsqD38VEJDOXVDTEtjV21CeA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B.SC. (HONS) PART-II EXAM.-2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=MxPQs4dqHedp9VIq3Vcz92UxcTFDWDhFNkorWA==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=+y7LqThjaPkfu2QFv6D+pnBTK3NDV0lMemJjaA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "BA PART-II EXAM.-2026 (REVAL.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=nX84vOAkKW28V54+H5+1EHdBTEIrQkkrU3hncA==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=fgI8xmlSqvnDSHnu3SJ2K1dPTmY1ODFJbHpCTw==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B.P.Ed. IV-SEMESTER EXAM MAY 2026 (REVAL.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=e91PWHRED8xLAaGmTHuSbEdkbElvY1F2bjErTw==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=a6j9AIOzco9S2DqUaVSjGDEvb1lwRkFucEFjdw==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B.A. (HONS) PART-III EXAM.-2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=LYCXp63BVr1dny4CCsA35DFUK2hPeDhiSFdOZQ==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=B+3qK0gD5vfG4/fVbL02j3MwOHJjVEtzZ3NkSg==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B.A. PART-III EXAM.-2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=mQukPefh6pQC9HixyRBRPjhzbFNjUnplYVBBbQ==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=4RET0QxXlnhq7/gz8i7aok9jTUgzU3pCU2F6WA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B.C.A. PART-III EXAM.-2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=CZZA2G12YEEwuDezntckHDBidGZXQU4xY0NRVg==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=KtcAa+WrKtKzi8BzLVemTGJ6UkNUYkhKR29BWA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B.Sc. (HONS) PART-III EXAM.-2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=APtvZMhRcFUNEx2NyPGbES8rV0NPUS84RnU1aQ==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=t5iNklzE7xoTqGmB9dD7NU9GUjNRcjlXWlRUcA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B.Sc. Part-III - 2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=oD+IBJOugbO8dk+FRQsebEliMlFaOTVxcmZidw==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=DnUatXfcOMzLCU/0dvb6hWtJVS92YXp3WWYxNQ==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B. Com. Part-III - 2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=A6+DnBVgT4mU33kX7f2eAlJJamIrMkxHSEVueg==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
+      "url": "https://result.uniraj.ac.in/index.php?rid=lgQ3+QfnO93AIZiUHkwjyUJnancvaXpqak1Bbw==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Rajasthan, Jaipur — official source",
       "source_url": "https://result.uniraj.ac.in/index.php",
       "category": "University Results / Notices",
       "title": "B.B.A. PART-III EXAM.-2026 (Reval.)",
-      "url": "https://result.uniraj.ac.in/index.php?rid=mKG5LmDzZZhdIrm4nt5v+TU4cGNuelJBTjlUaQ==",
-      "detected_at": "2026-11-10T19:42:22+00:00"
-    },
-    {
-      "source": "Devi Ahilya Vishwavidyalaya (DAVV), Indore — official source",
-      "source_url": "https://www.dauniv.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Official source page updated: Devi Ahilya Vishwavidyalaya (DAVV), Indore — official source",
-      "url": "https://www.dauniv.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
-      "type": "page-change"
+      "url": "https://result.uniraj.ac.in/index.php?rid=UgdF5pf98+MToxlgkENI/Hg0dlgzcWJjT21IRg==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "Rani Durgavati Vishwavidyalaya (RDVV), Jabalpur — official source",
@@ -383,16 +552,7 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: Rani Durgavati Vishwavidyalaya (RDVV), Jabalpur — official source",
       "url": "https://rdunijbpin.org/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
-      "type": "page-change"
-    },
-    {
-      "source": "JNTU Hyderabad (JNTUH) — Results — official source",
-      "source_url": "https://results3.jntuh.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Official source page updated: JNTU Hyderabad (JNTUH) — Results — official source",
-      "url": "https://results3.jntuh.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -401,8 +561,33 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: JNTU Hyderabad (JNTUH) — Results — official source",
       "url": "https://jntuh.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
+    },
+    {
+      "source": "Visvesvaraya Technological University (VTU) — official source",
+      "source_url": "https://vtu.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Official source page updated: Visvesvaraya Technological University (VTU) — official source",
+      "url": "https://vtu.ac.in/",
+      "detected_at": "2026-11-11T06:14:36+00:00",
+      "type": "page-change"
+    },
+    {
+      "source": "Visvesvaraya Technological University (VTU) — official source",
+      "source_url": "https://vtu.ac.in/",
+      "category": "University Results / Notices",
+      "title": "TENDER NOTIFICATION",
+      "url": "https://vtu.ac.in/2026/11/41998/",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Visvesvaraya Technological University (VTU) — official source",
+      "source_url": "https://vtu.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Tender for Printing and supply of Main Answer Booklets (UG) for forth coming examinations to VTU Examination Section, Belagavi",
+      "url": "https://vtu.ac.in/2026/11/41993/",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "source": "University of Madras — UG/PG Results — official source",
@@ -410,16 +595,7 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: University of Madras — UG/PG Results — official source",
       "url": "https://www.unom.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
-      "type": "page-change"
-    },
-    {
-      "source": "University of Kerala — Examination Results — official source",
-      "source_url": "https://www.keralauniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Official source page updated: University of Kerala — Examination Results — official source",
-      "url": "https://www.keralauniversity.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     },
     {
@@ -428,219 +604,20 @@
       "category": "University Results / Notices",
       "title": "Official source page updated: Shivaji University, Kolhapur — Merit & Rank Lists — official source",
       "url": "https://www.unishivaji.ac.in/",
-      "detected_at": "2026-11-10T19:42:22+00:00",
+      "detected_at": "2026-11-11T06:14:36+00:00",
+      "type": "page-change"
+    },
+    {
+      "source": "Haryana Staff Selection Commission — Public Notices / Answer Keys / Results",
+      "source_url": "https://www.hssc.gov.in/index.php/publicNotice",
+      "category": "Haryana Jobs / Public Notices / Answer Keys / Results",
+      "title": "Official source page updated: Haryana Staff Selection Commission — Public Notices / Answer Keys / Results",
+      "url": "https://www.hssc.gov.in/index.php/publicNotice",
+      "detected_at": "2026-11-11T06:14:36+00:00",
       "type": "page-change"
     }
   ],
   "all_updates": [
-    {
-      "source": "Shivaji University Results",
-      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
-      "category": "University Results",
-      "title": "Online Results",
-      "url": "https://www.unishivaji.ac.in/exam/Online-Results",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Shivaji University Results",
-      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
-      "category": "University Results",
-      "title": "Download Forms",
-      "url": "https://www.unishivaji.ac.in/exam/Download-Forms",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Shivaji University Results",
-      "source_url": "https://www.unishivaji.ac.in/exam/Merit-List-and-Rank-List",
-      "category": "University Results",
-      "title": "Other Services",
-      "url": "https://www.unishivaji.ac.in/exam/Other-Services",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260910210851.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260909172041.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260908120656.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260904214736.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260903212505.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260902173831.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260901232135.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260901173447.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260829230847.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260829222626.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260829181317.PDF",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "NTA — JEE, NEET, CUET UG/PG, UGC-NET & Others — official source",
-      "source_url": "https://www.nta.ac.in/NoticeBoardArchive",
-      "category": "Board / Entrance Results / Notices",
-      "title": "Read More",
-      "url": "https://www.nta.ac.in/Download/Notice/Notice_20260829145958.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "LIst of Examinations Centers for Conduct of Practicals for All UG & PG Courses Special Re-appear Examinations 2026-10-13",
-      "url": "https://gurugramuniversity.ac.in/Notice/LIst of Examinations Centers for Conduct of Practicals for All UG & PG Courses Special Re-appear Examinations.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Advt for JRF under Dr Shiv Kant Sharma (PI) of CCRUM -EOI sponsored project 2026-10-12",
-      "url": "https://gurugramuniversity.ac.in/Notice/JRF Advt Under CCRUM Project under Dr. Shivkant Sharma, Department of Pharmaceutical Sciences.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Advt. for the post Sports Officer/Assistant Director Sports (on deputation) 2026-10-12",
-      "url": "https://gurugramuniversity.ac.in/Notice/Advertisement for the post Sports Officer or Assistant Director Sports (on deputation)_compressed.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Merit list after 4th open counselling for provisional admission to LLB (3 Years) 2026-09-16",
-      "url": "https://gurugramuniversity.ac.in/Notice/LLB & LLM 4th OC Merit List 2026.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Open Counselling for Admission to all Programme of the department of Open Counselling for Admission to all Programme of the department of commerce Notice for B.Com Global, M.Com Integrated and M.Com (2 year) Programme (2026–27) 2026-09-15",
-      "url": "https://gurugramuniversity.ac.in/Notice/pen Counselling for Admission to all Programme of the department of commerce Notice for B.Com Global.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "5th Merit List of MBA Business Analytics 2026-09-15",
-      "url": "https://gurugramuniversity.ac.in/Notice/5th Merit List of MBA Business Analytics.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "MBA INTEGRATED MERIT LIST AGAINST OPEN COUNSELLING 2026-09-15",
-      "url": "https://gurugramuniversity.ac.in/Notice/MBA INTEGRATED MERIT LIST AGAINST OPEN COUNSELLING.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "4th Open Counselling Schedule for LL.B. (3 Years) and LL.M. (2 Years), scheduled for 15th September 2026. 2026-09-15",
-      "url": "https://gurugramuniversity.ac.in/Notice/Whatsapp Scan 14 September 2026 at 11.30.33.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "MBA BUSINESS ANALYTICS OPEN COUNSELLING ON 14.09.2026 2026-09-13",
-      "url": "https://gurugramuniversity.ac.in/Notice/MBA BUSINESS ANALYTICS OPEN COUNSELLING ON 14.09.2026.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "second open Physical Counselling for the Admission of M. Sc Neurosciences SESSION 2026-27. 2026-09-11",
-      "url": "https://gurugramuniversity.ac.in/Notice/2nd open counselling neuro science.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
-    {
-      "source": "Gurugram University — official source",
-      "source_url": "https://gurugramuniversity.ac.in/",
-      "category": "University Results / Notices",
-      "title": "Second open Physical Counselling for the Admission of M. Sc Forensic Sciences SESSION 2026-27. 2026-09-11",
-      "url": "https://gurugramuniversity.ac.in/Notice/2nd open counselling forensic.pdf",
-      "detected_at": "2026-10-13T14:09:50+00:00"
-    },
     {
       "source": "Gurugram University — official source",
       "source_url": "https://gurugramuniversity.ac.in/",
@@ -24487,6 +24464,214 @@
       "url": "https://jntuh.ac.in/",
       "detected_at": "2026-11-10T19:42:22+00:00",
       "type": "page-change"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Introduction",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Introduction",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Vision",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Vision",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Objectives",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Objectives",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Who’s Who",
+      "url": "https://highereduhry.ac.in/forms/WebPages/WhosWho",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Colleges",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Colleges",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Universities",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Universities",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Teacher Education (SIASTE)",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Siaste",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "State Libraries",
+      "url": "https://highereduhry.ac.in/forms/WebPages/StateLibraries",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "RUSA",
+      "url": "https://highereduhry.ac.in/forms/WebPages/RUSA",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Earn While You Learn (Freelancing / Ekarma)",
+      "url": "https://highereduhry.ac.in/forms/WebPages/eKarma",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Startup Incubator cum Centre of Excellence",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Incubation",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Department of Higher Education Haryana",
+      "source_url": "https://highereduhry.ac.in/",
+      "category": "Haryana Admissions",
+      "title": "Admissions",
+      "url": "https://highereduhry.ac.in/forms/WebPages/Admissions",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B. Com. Part-II - 2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=6FIP2W6T4D2TqWVRdenPmWZGSitnZVgrVHZWQw==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B. Sc. Part-II - 2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=HbWfz5Z+zmBAzegsqD38VEJDOXVDTEtjV21CeA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.SC. (HONS) PART-II EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=+y7LqThjaPkfu2QFv6D+pnBTK3NDV0lMemJjaA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "BA PART-II EXAM.-2026 (REVAL.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=fgI8xmlSqvnDSHnu3SJ2K1dPTmY1ODFJbHpCTw==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.P.Ed. IV-SEMESTER EXAM MAY 2026 (REVAL.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=a6j9AIOzco9S2DqUaVSjGDEvb1lwRkFucEFjdw==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.A. (HONS) PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=B+3qK0gD5vfG4/fVbL02j3MwOHJjVEtzZ3NkSg==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.A. PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=4RET0QxXlnhq7/gz8i7aok9jTUgzU3pCU2F6WA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.C.A. PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=KtcAa+WrKtKzi8BzLVemTGJ6UkNUYkhKR29BWA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.Sc. (HONS) PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=t5iNklzE7xoTqGmB9dD7NU9GUjNRcjlXWlRUcA==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.Sc. Part-III - 2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=DnUatXfcOMzLCU/0dvb6hWtJVS92YXp3WWYxNQ==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B. Com. Part-III - 2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=lgQ3+QfnO93AIZiUHkwjyUJnancvaXpqak1Bbw==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "University of Rajasthan, Jaipur — official source",
+      "source_url": "https://result.uniraj.ac.in/index.php",
+      "category": "University Results / Notices",
+      "title": "B.B.A. PART-III EXAM.-2026 (Reval.)",
+      "url": "https://result.uniraj.ac.in/index.php?rid=UgdF5pf98+MToxlgkENI/Hg0dlgzcWJjT21IRg==",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Visvesvaraya Technological University (VTU) — official source",
+      "source_url": "https://vtu.ac.in/",
+      "category": "University Results / Notices",
+      "title": "TENDER NOTIFICATION",
+      "url": "https://vtu.ac.in/2026/11/41998/",
+      "detected_at": "2026-11-11T06:14:36+00:00"
+    },
+    {
+      "source": "Visvesvaraya Technological University (VTU) — official source",
+      "source_url": "https://vtu.ac.in/",
+      "category": "University Results / Notices",
+      "title": "Tender for Printing and supply of Main Answer Booklets (UG) for forth coming examinations to VTU Examination Section, Belagavi",
+      "url": "https://vtu.ac.in/2026/11/41993/",
+      "detected_at": "2026-11-11T06:14:36+00:00"
     }
   ],
   "source_health": [
@@ -24495,7 +24680,7 @@
       "url": "https://upsc.gov.in/whats-new",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Staff Selection Commission",
@@ -24514,13 +24699,13 @@
       "url": "https://hpsc.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "National Testing Agency",
       "url": "https://nta.ac.in/",
       "status": "ok",
-      "new_links": 0
+      "new_links": 12
     },
     {
       "name": "NTA Exam Portals",
@@ -24533,28 +24718,28 @@
       "url": "https://results.cbse.nic.in/",
       "status": "error",
       "error": "<urlopen error [Errno -2] Name or service not known>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "CBSE Main Website",
       "url": "https://www.cbse.gov.in/",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "IBPS",
       "url": "https://www.ibps.in/",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Railway Recruitment Board Chandigarh",
       "url": "https://www.rrbcdg.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Indian Railways",
@@ -24577,9 +24762,8 @@
     {
       "name": "Department of Higher Education Haryana",
       "url": "https://highereduhry.ac.in/",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "status": "ok",
+      "new_links": 12
     },
     {
       "name": "Haryana Government",
@@ -24598,14 +24782,14 @@
       "url": "https://exams.nta.nic.in/nchm-jee/",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Osmania University",
       "url": "https://osmania.ac.in/examination-results.php",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "University of Calicut Results",
@@ -24629,8 +24813,8 @@
       "name": "University of Kerala Results",
       "url": "https://exams.keralauniversity.ac.in/Login/check8",
       "status": "error",
-      "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Shivaji University Results",
@@ -24643,7 +24827,7 @@
       "url": "https://results.cbse.nic.in/archive/",
       "status": "error",
       "error": "<urlopen error [Errno -2] Name or service not known>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "CISCE — ICSE Class X & ISC Class XII — official source",
@@ -24656,7 +24840,7 @@
       "url": "https://cisce.org/",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Board of School Education Haryana (BSEH) — Recent News / Results / Admit Cards — official source",
@@ -24669,7 +24853,7 @@
       "url": "https://results.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Other State Boards — Official Results Gateway — official source",
@@ -24682,7 +24866,7 @@
       "url": "https://www.nta.ac.in/NoticeBoardArchive",
       "status": "error",
       "error": "<urlopen error [Errno 104] Connection reset by peer>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Maharshi Dayanand University (MDU), Rohtak — official source",
@@ -24695,7 +24879,7 @@
       "url": "https://kuk.ac.in/",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Gurugram University — official source",
@@ -24708,14 +24892,14 @@
       "url": "https://cdlu.ac.in/",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Chaudhary Ranbir Singh University (CRSU), Jind — official source",
       "url": "https://crsu.ac.in/",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Guru Jambheshwar University (GJUST), Hisar — official source",
@@ -24764,7 +24948,7 @@
       "url": "https://www.education.gov.in/",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "NIOS — Secondary & Senior Secondary Results — official source",
@@ -24777,7 +24961,7 @@
       "url": "https://nios.ac.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "UPMSP — Class 10 & Class 12 Results — official source",
@@ -24790,7 +24974,7 @@
       "url": "https://rajeduboard.rajasthan.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "PSEB — Matriculation & Senior Secondary — official source",
@@ -24827,14 +25011,14 @@
       "url": "https://wbbse.wb.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "West Bengal Board Results — official source",
       "url": "https://wbchse.wb.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "University of Delhi — UG/PG Semester Results — official source",
@@ -24871,98 +25055,97 @@
       "url": "https://www.amu.ac.in/",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "National Testing / Technical Institute Results — official source",
       "url": "https://www.aicte-india.org/",
       "status": "error",
       "error": "<urlopen error [Errno 104] Connection reset by peer>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Karnataka — SSLC & II PUC Results — official source",
       "url": "https://karresults.nic.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Karnataka — SSLC & II PUC Results — official source",
       "url": "https://kseab.karnataka.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Tamil Nadu — SSLC & Higher Secondary — official source",
       "url": "https://www.dge.tn.gov.in/results.html",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Tamil Nadu — SSLC & Higher Secondary — official source",
       "url": "https://www.dge.tn.gov.in/",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Kerala — SSLC Results — official source",
       "url": "https://pareekshabhavan.kerala.gov.in/index.php/sslc-results",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "status": "ok",
+      "new_links": 0
     },
     {
       "name": "Kerala — SSLC Results — official source",
       "url": "https://sslcexam.kerala.gov.in/",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Kerala — HSE / VHSE Results — official source",
       "url": "https://result.kerala.gov.in/",
       "status": "error",
       "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Kerala — HSE / VHSE Results — official source",
       "url": "https://dhsekerala.gov.in/",
       "status": "error",
       "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Telangana — SSC Public & Advanced Supplementary — official source",
       "url": "https://bse.telangana.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Telangana — SSC Public & Advanced Supplementary — official source",
       "url": "https://bse.telangana.gov.in/SSC_links.aspx",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Andhra Pradesh — SSC Public Examination — official source",
       "url": "https://results.bse.ap.gov.in/",
       "status": "error",
       "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Andhra Pradesh — SSC Public Examination — official source",
       "url": "https://bse.ap.gov.in/",
       "status": "error",
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "error": "<urlopen error timed out>",
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "GSEB — SSC & HSC Results — official source",
@@ -24981,21 +25164,21 @@
       "url": "https://cg.results.nic.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "CGBSE — Class 10 & Class 12 Results — official source",
       "url": "https://cgbse.nic.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Odisha Results — CHSE, BSE & University Results — official source",
       "url": "https://results.odisha.gov.in/",
       "status": "error",
       "error": "[Errno 104] Connection reset by peer",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Odisha Results — CHSE, BSE & University Results — official source",
@@ -25006,9 +25189,8 @@
     {
       "name": "HPBOSE — Matric & Plus Two Results — official source",
       "url": "https://hpbose.org/",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "status": "ok",
+      "new_links": 0
     },
     {
       "name": "JAC — Class 10, Class 12 & Other Results — official source",
@@ -25021,41 +25203,40 @@
       "url": "https://gbshse.in/",
       "status": "error",
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "ASSEB — HSLC & Higher Secondary Results — official source",
       "url": "https://site.sebaonline.org/",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "ASSEB — HSLC & Higher Secondary Results — official source",
       "url": "https://ahsec.assam.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "TBSE — Madhyamik & Higher Secondary Results — official source",
       "url": "https://tbse.tripura.gov.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Meghalaya Board (MBOSE) — SSLC & HSSLC — official source",
       "url": "https://www.mbose.in/",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "status": "ok",
+      "new_links": 0
     },
     {
       "name": "Mizoram Board (MBSE) — HSLC & HSSLC — official source",
       "url": "https://www.mbse.edu.in/",
       "status": "ok",
-      "new_links": 3
+      "new_links": 0
     },
     {
       "name": "COHSEM & BOSEM — Class 10 and Class 12 — official source",
@@ -25091,21 +25272,21 @@
       "name": "University of Lucknow — Results — official source",
       "url": "https://www.lkouniv.ac.in/",
       "status": "ok",
-      "new_links": 1
+      "new_links": 0
     },
     {
       "name": "University of Lucknow — Odd Semester Result 2025-26 — official result portal",
       "url": "https://result.lkouniv.ac.in/Results/LU_OddResult2026",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "University of Lucknow — Even Semester Result 2025-26 — official result portal",
       "url": "https://result.lkouniv.ac.in/Results/EvenResult2026",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "University of Lucknow — Examination Notices & Results — official source",
@@ -25118,7 +25299,7 @@
       "url": "https://aktu.ac.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Dr. Ram Manohar Lohia Avadh University — official source",
@@ -25147,9 +25328,8 @@
     {
       "name": "University of Rajasthan, Jaipur — official source",
       "url": "https://www.uniraj.ac.in/",
-      "status": "error",
-      "error": "<urlopen error _ssl.c:1129: The handshake operation timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "status": "ok",
+      "new_links": 0
     },
     {
       "name": "University of Rajasthan, Jaipur — official source",
@@ -25162,7 +25342,7 @@
       "url": "https://www.rtu.ac.in/",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Devi Ahilya Vishwavidyalaya (DAVV), Indore — official source",
@@ -25181,21 +25361,21 @@
       "url": "https://results.andhrauniversity.edu.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Andhra University — Examination Results — official source",
       "url": "https://www.andhrauniversity.edu.in/",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Rayalaseema University, Kurnool — Results — official source",
       "url": "https://ruk.ac.in/results/",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "JNTU Hyderabad (JNTUH) — Results — official source",
@@ -25231,34 +25411,35 @@
       "name": "Visvesvaraya Technological University (VTU) — official source",
       "url": "https://vtu.ac.in/",
       "status": "ok",
-      "new_links": 0
+      "new_links": 2
     },
     {
       "name": "Osmania University — Examination Results — official source",
       "url": "https://www.osmania.ac.in/res07/20260802.jsp",
       "status": "error",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Bharathiar University — UG/PG Results — official source",
       "url": "https://results.b-u.ac.in/ac/results.asp",
       "status": "error",
       "error": "HTTP Error 404: Not Found",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "Bharathiar University — UG/PG Results — official source",
       "url": "https://results.b-u.ac.in/2026/ud_apr/results.asp",
       "status": "error",
       "error": "HTTP Error 404: Not Found",
-      "checked_at": "2026-11-10T19:42:22+00:00"
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "University of Madras — UG/PG Results — official source",
       "url": "https://egovernance.unom.ac.in/instresult/ugresultpage.asp",
-      "status": "ok",
-      "new_links": 0
+      "status": "error",
+      "error": "<urlopen error _ssl.c:1129: The handshake operation timed out>",
+      "checked_at": "2026-11-11T06:14:36+00:00"
     },
     {
       "name": "University of Madras — UG/PG Results — official source",
