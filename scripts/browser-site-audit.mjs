@@ -121,6 +121,58 @@ try {
     await p.close();
   }
 
+  // Image resize and PDF merge are tested with generated sample files only.
+  {
+    const p = await browser.newPage({ viewport: { width: 390, height: 844 } });
+    const result = { file: 'image-resizer.html', passed: false };
+    try {
+      await p.goto(new URL('image-resizer.html', base).href, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p5sAAAAASUVORK5CYII=', 'base64');
+      await p.locator('#imageInput').setInputFiles({ name: 'audit-sample.png', mimeType: 'image/png', buffer: png });
+      await p.waitForFunction(() => document.querySelector('#originalPreview')?.naturalWidth > 0, { timeout: 10000 });
+      await p.locator('.image-menu-btn[onclick*="resize-section"]').click();
+      await p.locator('#customWidth').fill('100');
+      await p.locator('#customHeight').fill('100');
+      await p.locator('button[onclick*="resizeUsingValues"]').click();
+      await p.waitForFunction(() => document.querySelector('#resizedPreview')?.naturalWidth === 100, { timeout: 10000 });
+      result.output = await p.locator('#successMessage').innerText();
+      result.passed = true;
+    } catch (e) { result.error = String(e); }
+    report.toolTests.push(result);
+    await p.close();
+  }
+  {
+    const p = await browser.newPage({ viewport: { width: 390, height: 844 } });
+    const result = { file: 'pdf-merge.html', passed: false };
+    try {
+      await p.goto(new URL('pdf-merge.html', base).href, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      const objects = [
+        '1 0 obj\\n<< /Type /Catalog /Pages 2 0 R >>\\nendobj\\n',
+        '2 0 obj\\n<< /Type /Pages /Kids [3 0 R] /Count 1 >>\\nendobj\\n',
+        '3 0 obj\\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 200 200] /Resources << >> /Contents 4 0 R >>\\nendobj\\n',
+        '4 0 obj\\n<< /Length 0 >>\\nstream\\n\\nendstream\\nendobj\\n'
+      ];
+      let pdf = '%PDF-1.4\\n';
+      const offsets = [0];
+      for (const obj of objects) { offsets.push(Buffer.byteLength(pdf, 'binary')); pdf += obj; }
+      const xref = Buffer.byteLength(pdf, 'binary');
+      pdf += 'xref\\n0 5\\n0000000000 65535 f \\n';
+      for (let i = 1; i < offsets.length; i++) pdf += String(offsets[i]).padStart(10, '0') + ' 00000 n \\n';
+      pdf += 'trailer\\n<< /Size 5 /Root 1 0 R >>\\nstartxref\\n' + xref + '\\n%%EOF';
+      const buffer = Buffer.from(pdf, 'binary');
+      await p.locator('#files').setInputFiles([
+        { name: 'sample-one.pdf', mimeType: 'application/pdf', buffer },
+        { name: 'sample-two.pdf', mimeType: 'application/pdf', buffer }
+      ]);
+      await p.locator('#merge').click();
+      await p.waitForFunction(() => document.querySelector('#status')?.textContent.includes('2 PDF merge'), { timeout: 15000 });
+      result.output = await p.locator('#status').innerText();
+      result.passed = true;
+    } catch (e) { result.error = String(e); }
+    report.toolTests.push(result);
+    await p.close();
+  }
+
   // Probe each distinct same-site destination once without submitting forms or changing user data.
   const request = await browser.newContext();
   const linkList = [...seenLinks].slice(0, 300);
