@@ -11,7 +11,7 @@ permissions:
 jobs:
   live-browser-smoke-test:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -100,6 +100,9 @@ jobs:
           }
           EOF
           node browser-test-artifacts/live-site-test.mjs
+
+      - name: Audit every HTML page on desktop and mobile, forms, controls and internal links
+        run: node scripts/browser-site-audit.mjs
 
       - name: Upload browser screenshots and report
         if: always()
