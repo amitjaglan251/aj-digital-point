@@ -133,7 +133,7 @@ try {
       await p.locator('.image-menu-btn[onclick*="resize-section"]').click();
       await p.locator('#customWidth').fill('100');
       await p.locator('#customHeight').fill('100');
-      await p.locator('button[onclick*="resizeUsingValues"]').click();
+      await p.locator('button[onclick="resizeCustom()"]:visible').click();
       await p.waitForFunction(() => document.querySelector('#resizedPreview')?.naturalWidth === 100, { timeout: 10000 });
       result.output = await p.locator('#successMessage').innerText();
       result.passed = true;
