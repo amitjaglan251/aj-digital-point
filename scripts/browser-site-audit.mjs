@@ -45,7 +45,7 @@ try {
           title: document.title, bodyTextLength: (document.body?.innerText || '').trim().length,
           width: innerWidth, documentWidth: document.documentElement.scrollWidth,
           horizontalOverflow: document.documentElement.scrollWidth > innerWidth + 2,
-          premiumCssLoaded: styles.some(s => s.includes('premium.css')),
+          premiumCssLoaded: styles.some(s => s.includes('premium.css')) || [...document.styleSheets].some(sheet => { try { return [...sheet.cssRules].some(rule => rule.href && rule.href.includes('premium.css')); } catch { return false; } }),
           links: [...document.querySelectorAll('a[href]')].filter(visible).map(a => a.href),
           buttons: [...document.querySelectorAll('button,[role="button"]')].filter(visible).length,
           forms: [...document.querySelectorAll('form')].filter(visible).length,
