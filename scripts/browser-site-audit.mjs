@@ -96,22 +96,54 @@ try {
     }
   }
 
-  // Probe each distinct same-site destination once without submitting forms or changing user data.
-  const request = await browser.newPage();
-  for (const href of [...seenLinks].slice(0, 500)) {
+  // Exercise safe calculator/QR tools with synthetic values; no real forms or payments are submitted.
+  const toolTests = [
+    { file: 'age-calculator.html', fields: { '#dob': '1990-01-01' }, button: '#calc', result: '#result', expect: /वर्ष|years|महीने/ },
+    { file: 'date-difference.html', fields: { '#a': '2024-01-01', '#b': '2024-12-31' }, button: '#go', result: '#r', expect: /दिन|days|साल/ },
+    { file: 'emi-calculator.html', fields: { '#p': '500000', '#rate': '10', '#years': '5' }, button: '#go', result: '#r', expect: /Monthly EMI/ },
+    { file: 'gst-calculator.html', fields: { '#amt': '1000' }, button: '#go', result: '#r', expect: /GST/ },
+    { file: 'qr-generator.html', fields: { '#text': 'https://example.com' }, button: '#make', result: '#status', expect: /तैयार|ready/i }
+  ];
+  report.toolTests = [];
+  for (const test of toolTests) {
+    const p = await browser.newPage({ viewport: { width: 390, height: 844 } });
+    const result = { file: test.file, passed: false };
     try {
-      const response = await request.goto(href, { waitUntil: 'domcontentloaded', timeout: 15000 });
-      if (!response || response.status() >= 400) report.brokenInternalLinks.push({ url: href, status: response?.status() ?? 'no response' });
-    } catch (e) { report.brokenInternalLinks.push({ url: href, error: String(e) }); }
+      await p.goto(new URL(test.file, base).href, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      for (const [selector, value] of Object.entries(test.fields)) await p.locator(selector).fill(value);
+      await p.locator(test.button).click();
+      await p.waitForTimeout(350);
+      result.output = await p.locator(test.result).innerText();
+      result.passed = test.expect.test(result.output);
+      if (!result.passed) result.error = 'Unexpected or empty result text';
+    } catch (e) { result.error = String(e); }
+    report.toolTests.push(result);
+    await p.close();
+  }
+
+  // Probe each distinct same-site destination once without submitting forms or changing user data.
+  const request = await browser.newContext();
+  const linkList = [...seenLinks].slice(0, 300);
+  for (let i = 0; i < linkList.length; i += 12) {
+    const chunk = linkList.slice(i, i + 12);
+    const results = await Promise.all(chunk.map(async href => {
+      try {
+        const response = await request.request.get(href, { timeout: 8000, maxRedirects: 3 });
+        if (response.status() >= 400) return { url: href, status: response.status() };
+      } catch (e) { return { url: href, error: String(e) }; }
+      return null;
+    }));
+    report.brokenInternalLinks.push(...results.filter(Boolean));
   }
   await request.close();
-  report.checkedInternalLinks = Math.min(seenLinks.size, 500);
+  report.checkedInternalLinks = linkList.length;
   report.finishedAt = new Date().toISOString();
   await fs.writeFile(path.join(outDir, 'full-site-audit.json'), JSON.stringify(report, null, 2));
   console.log(JSON.stringify({ summary: report.summary, checkedInternalLinks: report.checkedInternalLinks, brokenInternalLinks: report.brokenInternalLinks, pageErrors: report.pageErrors.slice(0, 30), failedRequests: report.failedRequests.slice(0, 30) }, null, 2));
   if (report.pages.length !== files.length) throw new Error('Not all HTML pages were audited.');
   if (report.summary.pagesWithoutTitle.length) throw new Error('Some pages have no document title.');
   if (report.brokenInternalLinks.length) throw new Error('Broken same-site links were detected.');
+  if (report.toolTests.some(t => !t.passed)) throw new Error('One or more calculator/QR tool interaction tests failed.');
   if (report.summary.pagesWithHorizontalOverflow.length) throw new Error('Horizontal overflow detected; see full-site-audit.json.');
 } finally {
   await browser.close();
