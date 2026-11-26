@@ -11,6 +11,7 @@
 }
 function render(filter=''){cards.replaceChildren(...states.filter(s=>!filter||s[1]===filter).map(card))}
 render();
+picker.addEventListener('change',()=>{render(picker.value);if(picker.value)document.querySelector('[data-state="'+picker.value+'"]')?.scrollIntoView({behavior:'smooth',block:'center'})});
 </script><footer class="site-footer"><b>AJ DIGITAL POINT</b><span>© 2026 • Independent Sarkari Job & Digital Service Portal</span></footer><script src="/aj-digital-point/whatsapp-links.js?v=20261011-01" defer></script>
 <section class="aj-wa-bottom" aria-label="Join AJ DIGITAL POINT on WhatsApp"><strong>📲 AJ DIGITAL POINT से जुड़ें</strong><div class="aj-wa-strip"><a href="https://chat.whatsapp.com/Kw4IRwTUZ9iAAgyxF10CQk" target="_blank" rel="noopener noreferrer">🟢 WhatsApp Group Join करें</a><a class="aj-wa-channel" href="https://whatsapp.com/channel/0029VajGtbVCcW4mxZNgAo2x" target="_blank" rel="noopener noreferrer">📢 WhatsApp Channel Follow करें</a></div></section><script src="/aj-digital-point/external-link-guard.js?v=20261011-02" defer></script>
 </body></html>
