@@ -36,7 +36,7 @@
     container.appendChild(a);
   }
   function attachCards(items){
-    document.querySelectorAll('.job-card').forEach(card=>{
+    document.querySelectorAll('.job-card, .result-card').forEach(card=>{
       const title=card.querySelector('h3')?.textContent||'';
       const matched=items.filter(x=>matches(title,x)).slice(0,3);
       if(!matched.length)return;
